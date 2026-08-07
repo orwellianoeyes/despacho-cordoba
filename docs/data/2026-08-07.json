@@ -2,141 +2,141 @@
  "fecha": "2026-08-07",
  "numero_boletin": "151",
  "sintesis_juridica": [
-  "Se publican seis designaciones de Procuradores Fiscales de la Dirección General de Rentas (DGR) bajo delegación del Poder Ejecutivo conferida por Decreto 2449/2023. Asimismo se actualiza el régimen de tasas del Archivo de Protocolos Notariales por variación del Índice de Precios al Consumidor (junio 2025 – junio 2026), derogando la resolución anterior. Se prorroga por 148 días (hasta el 1 de diciembre de 2026) el período de normalización de la Universidad Provincial de Córdoba conforme a los márgenes legales de la Ley 9375.",
-  "En materia procesal, el Tribunal Superior de Justicia ordena nuevo sorteo de Jurados Populares para 2027 con modificación de proporciones demográficas por circunscripción y prórroga de los listados 2026. La Cámara de Apelaciones en lo Civil y Comercial conforma listas de Síndicos concursales (categorías A y B) tras convocatoria pública, estableciendo orden de mérito según especialización y domicilio. Se abre licitación de obra pública en UPC por más de $4.300 millones y se convocan tres licitaciones de CASISA por adquisiciones y servicios."
+  "Se publicaron seis resoluciones del Ministerio de Economía: actualización de tasas de actuación del Archivo de Protocolos Notariales (Res. 14); designación de cinco procuradores fiscales de la DGR para gestión de cobranzas (Res. 15-19). Se prorrogó el período de normalización de la Universidad Provincial de Córdoba hasta el 1 de diciembre de 2026. Se designó una adscripta notarial. Se aprobaron dos concursos culturales de Agencia Córdoba Cultura.",
+  "El Tribunal Superior de Justicia ordenó realizar sorteo de jurados populares para 2027, prorrogando listas 2026 y ajustando bases demográficas por circunscripción. Las Cámaras de Apelaciones Civiles y Comerciales conformaron listas de síndicos concursales (36 estudios categoría A, 80 contadores titulares y 56 suplentes categoría B). Se publicaron licitaciones de infraestructura y servicios por organismos provinciales."
  ],
  "sintesis_politica": [
-  "El refuerzo institucional en materia tributaria mediante cinco nuevas designaciones de procuradores fiscales responde a la necesidad de eficiencia en cobro de deudas impositivas. El timing coincide con presión fiscal y consolidación de estructuras administrativas en economía. No genera controversia explícita, pero refleja prioridad recaudatoria del gobierno.",
-  "La prórroga de normalización de UPC hasta diciembre 2026 (justo antes de elecciones de autoridades) permite completar el ciclo electoral universitario (comicios 18-19 de agosto, asunción 1 de diciembre). La conformación de listas de síndicos concursales es un acto reglado sin margen político aparente. Las licitaciones de obra y servicios responden a funcionamiento ordinario; la obra de UPC en Villa Huidobro forma parte de expansión territorial de la casa de estudios."
+  "El ajuste de tasas notariales refleja adaptación inflacionaria en administración de archivos protocolares. Las designaciones de procuradores fiscales en DGR señalan refuerzo de capacidades de cobranza tributaria. La prórroga de normalización en UPC hasta diciembre permite completar procesos electorales y transferencia de autoridades; las elecciones están programadas para 18-19 de agosto, con asunción de nuevas autoridades el 1 de diciembre.",
+  "El sorteo de jurados para 2027 responde a proyección de ~70 juicios con intervención popular. Las listas de síndicos concursales conformadas bajo criterios de especialización y domicilio territorial buscan asegurar cobertura en juzgados de concursos. Las licitaciones de UPC (construcción módulo Villa Huidobro: $4.319 millones), EPEC (adquisiciones) y CASISA (luminarias LED, servicios SAP) evidencian ejecución de inversión en infraestructura educativa, energética y tecnológica."
  ],
  "normas": [
   {
    "tipo": "Resolución",
    "clase": "resolucion",
-   "numero": "14/2026/ME",
-   "titulo": "Actualización de tasas de actuación del Archivo de Protocolos Notariales",
-   "importa": "El Ministerio de Economía establece nuevas tasas por servicios de administración, guarda y custodia del Archivo de Protocolos Notariales a cargo del Colegio de Escribanos de la Provincia de Córdoba, con base en variación del Índice de Precios al Consumidor (junio 2025 – junio 2026). Deroga la Resolución 2025/MEyGP-000000379.",
+   "numero": "14",
+   "titulo": "Actualización de tasas de actuación del Archivo de Protocolos Notariales y Libros de Registro de Intervenciones",
+   "importa": "El Ministerio de Economía establece nuevas tasas por servicios de administración, guarda y custodia del Archivo de Protocolos Notariales a cargo del Colegio de Escribanos, conforme solicitud del Colegio basada en variación del Índice de Precios al Consumidor (junio 2025 – junio 2026). Deroga Res. 2025/MEyGP-00000379.",
    "seccion": "1",
    "pagina": 1,
    "ampliada": {
-    "juridica": "La resolución delega en el Colegio de Escribanos facultad de percibir tasas conforme a Ley 9343, artículo 3°. El acto es reglado: propuesta del Consejo Directivo del Colegio, visto bueno de Secretaría de Política Económica e intervención de Unidad de Asesoramiento Fiscal sin reparos. El anexo con valores específicos no se transcribe en el texto oficial. El acto entra en vigencia al día siguiente de publicación. No hay vicios formales aparentes.",
-    "politica": "Medida técnica de actualización monetaria sin impacto político inmediato. Afecta costos de usuarios (escribanos, empresas, particulares) que tramiten actuaciones ante el Archivo. Refleja reconocimiento de inflación acumulada. Sin conflictividad gremial registrada.",
-    "oficialista": "Actualización necesaria e inevitable conforme a variación de precios reconocida por índice oficial. Mantiene sostenibilidad del archivo sin aumentar presión fiscal sobre usuarios, distribuyendo actualización según inflación real.",
-    "opositora": "Aumento de costos para escribanos y usuarios sin análisis de impacto regresivo. Falta de desglose claro de montos en resolución limita control parlamentario."
+    "juridica": "La resolución se funda en delegación de competencias conferida por Ley 9343 y su modificatoria, ratificada por convenio protocolizado el 15 de diciembre de 2025 (N° 2025/CoEGP-00000007). El acto respeta la estructura legal: Ministerio como autoridad de aplicación, Colegio como delegado en administración del archivo. La autorización de percepción de tasas por usuarios encuentra soporte en art. 3° de Ley 9343. Formalidad: visto bueno de Secretaría de Política Económica, Unidad de Asesoramiento Fiscal y dictamen de Servicio Jurídico.",
+    "politica": "Medida administrativa de actualización tarifaria en línea con inflación, sin evidencia de controversia. Afecta usuarios de servicios notariales (abogados, escribanos, escribanías). El timing (agosto 2026) sugiere cierre de ciclo presupuestario del Colegio y ajuste de costos operativos del archivo.",
+    "oficialista": "Actualización técnica y necesaria de tasas conforme a instrumento legal delegado; refleja variación de costos reales de operación del archivo bajo gestión del Colegio de Escribanos, en marco de protocolo de convenio suscritos.",
+    "opositora": "Sin elementos en el texto para crítica sustantiva; posible cuestión: si actualización fue consultada con usuarios potenciales o si se justifica plenamente cada componente tarifario."
    },
-   "texto_oficial": "Artículo 1º: ESTABLECER las tasas de actuación por los servicios relacionados a la administración, guarda y custodia del Archivo de Protocolos Notariales y Libros de Registros de Intervenciones a cargo del Colegio de Escribanos de la Provincia de Córdoba, conforme descripción y montos expuestos en el detalle que, como Anexo, forma parte integrante de la presente Resolución. Artículo 2º: DEROGAR la Resolución N° 2025/MEyGP-00000379 del por entonces Ministerio de Economía y Gestión Pública. Artículo 3º: LA presente Resolución entrará en vigencia el día inmediato siguiente al de su publicación en el Boletín Oficial.",
+   "texto_oficial": "Art. 1º: ESTABLECER las tasas de actuación por los servicios relacionados a la administración, guarda y custodia del Archivo de Protocolos Notariales y Libros de Registros de Intervenciones a cargo del Colegio de Escribanos de la Provincia de Córdoba, conforme descripción y montos expuestos en el detalle que, como Anexo, forma parte integrante de la presente Resolución. Art. 2º: DEROGAR la Resolución N° 2025/MEyGP-00000379 del por entonces Ministerio de Economía y Gestión Pública. Art. 3º: LA presente Resolución entrará en vigencia el día inmediato siguiente al de su publicación en el Boletín Oficial.",
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
   },
   {
    "tipo": "Resolución",
    "clase": "resolucion",
-   "numero": "1127/2026/ME",
-   "titulo": "Prórroga del período de normalización de la Universidad Provincial de Córdoba",
-   "importa": "El Ministerio de Educación prorroga por 148 días (desde el 8 de agosto hasta el 1 de diciembre de 2026) el período de normalización de la Universidad Provincial de Córdoba, conforme facultad del artículo 15 de la Ley 9375 (máximo 8 años, prorrogable hasta 2 años adicionales).",
+   "numero": "15",
+   "titulo": "Designación de Procurador Fiscal de la Dirección General de Rentas — Matías Oscar Etrat",
+   "importa": "Se designa al abogado Matías Oscar Etrat (DNI 30.507.578, Matrícula 6-293 Colegio Abogados Villa Dolores) como Procurador Fiscal de la DGR para gestión judicial y extrajudicial de cobro de deudas impositivas en mora y acreencias no tributarias en las distintas Circunscripciones Judiciales. Designación sin egreso (reglamentación vigente). Comienzo de funciones condicionado a completar legajo y constituir fianza.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Acto de designación fundado en delegación del Poder Ejecutivo al Ministerio de Economía mediante art. 2° inc. b) Decreto 2449/2023. El designado cumple requisitos legales (abogado matriculado, antecedentes probables). Aspecto formal: requerimiento de legajo y fianza previo al ejercicio, conforme reglamentación. Sin vicios de forma aparentes.",
+    "politica": "Refuerzo de capacidades de cobranza tributaria en DGR, como parte de política fiscal de recaudación. Designación de profesional local (matriculado en Villa Dolores) puede indicar descentralización de funciones de procuración.",
+    "oficialista": "Designación de profesional calificado para fortalecer recupero de deuda tributaria provincial, mejorando eficiencia de gestión de cobranzas.",
+    "opositora": "Sin elementos conflictivos en el texto; posible interrogante sobre criterios de selección de candidato."
+   },
+   "texto_oficial": "Art. 1º: DESIGNAR al abogado Matías Oscar Etrat, DNI N° 30.507 .578, Matrícula Profesional N° 6-293 del Colegio de Abogados de Villa Dolores, como Procurador Fiscal de la Dirección General de Rentas, para la gestión judicial y/o extrajudicial de cobro de deudas impositivas en mora y acreencias no tributarias administradas por la Dirección General de Rentas, en las distintas Circunscripciones Judiciales de la Provincia. Art. 2º: ESTABLECER que el Procurador Fiscal designado en el artículo anterior comenzará a ejercer la representación de la Provincia de Córdoba una vez completado el legajo y constituida la fianza pertinente.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1127",
+   "titulo": "Prórroga del período de normalización de la Universidad Provincial de Córdoba hasta 1 de diciembre de 2026",
+   "importa": "El Ministerio de Educación dispone prórroga del período de normalización de la Universidad Provincial de Córdoba desde 8 de agosto hasta 1 de diciembre de 2026 (cuatro meses aproximadamente). Sustento: Ley 9375 modificada por Ley 10.704 (art. 15), que autoriza prórroga por plazo no mayor a 2 años. Proceso de normalización en fase final: elecciones previstas 18-19 agosto 2026, asunción de autoridades electas 1 de diciembre 2026.",
    "seccion": "1",
    "pagina": 4,
    "ampliada": {
-    "juridica": "La prórroga se funda en cierre de proceso electoral universitario (comicios 18-19 agosto 2026, asunción autoridades 1 diciembre 2026). Ley 9375 artículo 15 autoriza prórroga hasta 2 años a propuesta fundada del Rectorado. El acto incluye dictamen N° 2026/00002068 y se dicta en uso de atribuciones del artículo 4° inciso f) del Decreto 2449/2023 modificado por Decreto 254/2024. No hay vicios formales; la motivación (completar ciclo electoral) es explícita.",
-    "politica": "Prórroga ordenada para permitir transición electoral limpia: primera elección de autoridades rectorales, decanales y de cogobierno por comunidad universitaria. Refleja prioridad institucional en estabilización de UPC tras años de intervención. Timing electoral acotado indica planificación clara.",
-    "oficialista": "Medida necesaria para completar proceso de normalización democrática de UPC. Las elecciones de agosto permiten formación regular de nuevas autoridades que asumirán en diciembre. Prórroga mínima y justificada.",
-    "opositora": "Prórroga que extiende indefinidamente la intervención en UPC. Más de una década de normalización sugiere problemas estructurales no resueltos. Rectorado normalizador retiene poder hasta diciembre, limitando transición real de autoridades."
+    "juridica": "Resolución fundada en atribución específica del Ministerio de Educación (art. 4° inc. f Decreto 2449/2023 modificado por Decreto 254/2024). Norma de sustancia: art. 15 Ley 9375 (normalización máx. 8 años, prorrogable hasta 2 años adicionales). La prórroga es acto de competencia ministerial, no delegable. Documentación: dictamen legal y expediente número citado. Formalidad: protocolo, comunicación, publicación Boletín Oficial.",
+    "politica": "Prórroga operativa: permite completar ciclo electoral (18-19 agosto) y transición de autoridades (asunción 1 dic). Normalización iniciada tiempo atrás (plazo máximo 8 años sugiere comienzo ~2018). Refuerzo de gobernanza institucional universitaria mediante elecciones democráticas internas. Acto de administración sectorial educativa sin controversia aparente.",
+    "oficialista": "Prórroga necesaria para consolidar procesos democráticos internos de UPC: garantiza tiempo suficiente para realizar elecciones transparentes y transferencia ordenada de autoridades rectales y decanales electas.",
+    "opositora": "Sin elementos de crítica en el texto; potencial interrogante: por qué la normalización requirió tan extenso período, y si existen evaluaciones de cumplimiento de objetivos."
    },
-   "texto_oficial": "Art. 1°.- DISPONER la prórroga, a partir del 8 de agosto de 2026 y hasta el 1 de diciembre de 2026, del período de normalización de la Universidad Provincial de Córdoba, en los términos del artículo 15 de la Ley N° 9375.",
+   "texto_oficial": "Art. 1°.- DISPONER la prórroga, a partir del 8 de agosto de 2026 y hasta el 1 de diciembre de 2026, del período de normalización de la Universidad Provincial de Córdoba, en los términos del artículo 15 de la Ley N° 9375. Art. 2°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "3",
+   "titulo": "Designación de Adscripta Notarial — Yamile Salman al Registro N° 203",
+   "importa": "Se designa a la Escribana Yamile Salman (DNI 37.853.848, Matrícula 2912) como Adscripta al Registro Notarial N° 203 de Córdoba Capital. Titular: Escribana Margit Aylen Porchietto Leyendecker. Acto dictado por Ministerio Jefatura de Gabinete en base a conformidad de Colegio de Escribanos y Tribunal de Disciplina Notarial.",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Designación fundada en Leyes 4183 (modificada por Ley 6276) sobre organización notarial. Autoridad: Ministerio Jefe de Gabinete (art. 7 inc. a Decreto 2449/2023). Procedimiento: intervención favorable de Colegio de Escribanos y Tribunal de Disciplina Notarial. Acto de competencia delegada. Formalidad: protocolo, notificación a Tribunal de Disciplina Notarial, Colegio de Escribanos, publicación Boletín Oficial.",
+    "politica": "Acto administrativa sectorial de administración de recursos humanos notariales. Sin controversia política aparente.",
+    "oficialista": "Designación de profesional calificada como asistente en registro notarial regular de Córdoba, conforme normativa de organización profesional.",
+    "opositora": "Sin elementos de crítica en el texto."
+   },
+   "texto_oficial": "Artículo 1°. - DESÍGNASE a la Escribana Y amile SALMAN, D.N.I. N° 37 .853.848 - Clase 1993-, Matrícula Profesional N° 2912, como Adscripta al Registro Notarial N° 203 con asiento en la ciudad de Córdoba, Departamento Capital de esta Provincia.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "244",
+   "titulo": "Aprobación y lanzamiento — 6ª Edición Concurso Provincial de Dibujo 'Coloreando Derechos contra el Trabajo Infantil'",
+   "importa": "Agencia Córdoba Cultura aprueba bases y condiciones y autoriza lanzamiento de convocatoria para 6ª Edición del Concurso Provincial de Dibujo 'Coloreando Derechos contra el Trabajo Infantil'. Convocatoria abierta 6 agosto – 6 octubre 2026. Organizadores: Agencia Córdoba Cultura, Fundación Banco de la Provincia de Córdoba, COPRETI (Secretaría de Trabajo). Participantes: Facultad de Educación y Salud UPC, DNNA, SADOP. Presupuesto: Agencia aporta $300.000 (Primer Premio Adultos); Fundación aporta $425.000 (demás premios Adultos).",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Resolución de Directorio de Agencia Córdoba Cultura (SEM), competencia fundada en Ley 10.029 (ratificada Ley 10.726), art. 51 inc. 17 (Anexo I) y art. 3 inc. o) Estatuto (programas de premios, becas, subsidios para fomento de actividades culturales). Procedimiento: Manual de Procedimientos, convenio suscripto con coorganizadores, dictamen legal. Formalidad: protocolo, difusión, publicación.",
+    "politica": "Actividad cultural y de prevención del trabajo infantil en marco de año 2026 dedicado a 'Derechos Humanos por la Memoria, la Verdad y la Justicia'. Convocatoria de arte participativo con eje en derechos de infancia. Ejecución de política pública de cultura y prevención social.",
+    "oficialista": "Iniciativa de promoción cultural y sensibilización sobre derechos de niños y niñas, mediante concurso de dibujo que involucra múltiples actores institucionales y educativos.",
+    "opositora": "Sin elementos de crítica en el texto."
+   },
+   "texto_oficial": "ARTÍCULO 1º: APROBAR las Bases y Condiciones que como Anexo I forman parte integrante de la presente Resolución; y DISPONER la apertura de la convocatoria, a fin de recibir postulaciones para participar en el Concurso Provincial de Dibujo 'Coloreando Derechos contra el Trabajo Infantil' Edición 2026, la cual se encontrará abierta desde el día 6 de agosto hasta el día 6 de octubre de 2026.",
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
   },
   {
    "tipo": "Acuerdo",
    "clase": "resolucion",
-   "numero": "867/2026/TSJ",
-   "titulo": "Ordenamiento de nuevo sorteo de Jurados Populares 2027 y prórroga de listados 2026",
-   "importa": "El Tribunal Superior de Justicia ordena sorteo para conformar nuevos listados de Jurados Populares 2027 (Ley 9182) con modificación de proporciones demográficas por circunscripción, y prorroga por 1 año los listados 2026. Esperan ~70 juicios con jurados en 2027.",
+   "numero": "867",
+   "titulo": "Ordenanza de sorteo de Jurados Populares para período 2027 y prórroga de listas 2026",
+   "importa": "Tribunal Superior de Justicia ordena: 1) Sorteo de jurados populares para período 2027 el 27 de agosto 2026; 2) Prórroga por 1 año de listas confeccionadas para 2026 en todas las circunscripciones. Criterio de sorteo: 1 jurado por 500 electores (1ª circunscripción); 1 por 250 (interior); 1 por 150 (circunscripciones 6, 7, 8, 9). Proyección: ~70 juicios con intervención de jurados populares en 2027.",
    "seccion": "1",
    "pagina": 7,
    "ampliada": {
-    "juridica": "Acuerdo se funda en arts. 12, 63 y cc. Ley Orgánica del Poder Judicial 8435 y Ley 9182 arts. 8, 14, 15. Modifica proporciones de sorteo: Primera circunscripción 1 jurado cada 500 electores (sin cambio); interior 1 cada 250 (sin cambio); circunscripciones 6ª, 7ª, 8ª, 9ª 1 cada 150 (ampliación de 150 respecto a 6ª, 8ª, 9ª antes). Encomienda al Juzgado Electoral verificación previa de datos de empleados públicos, abogados y escribanos para depuración de padrón. Sorteo previsto para 27 agosto 2026. No hay defectos formales; Coordinador de Oficina de Jurados justifica cambios por experiencia en devolución de declaraciones juradas y optimización de convocatoria.",
-    "politica": "Reforma procedural sin conflictividad aparente. Ampliación de base demográfica en circunscripciones menores busca cubrir mínimos judiciales. Timing de sorteo en agosto permite procesamiento de declaraciones antes de año judicial 2027. No afecta equilibrios político-electorales.",
-    "oficialista": "Reforma operativa necesaria conforme a experiencia de años anteriores. Modificación de proporciones responde a necesidades reales de juzgados. Depuración de padrón elimina empleados públicos y profesionales con conflictos de interés.",
-    "opositora": "Sin crítica aparente de fondo; medida técnica reglada."
+    "juridica": "Acuerdo dictado por Tribunal Superior conforme arts. 12, 63 y concordantes Ley Orgánica del Poder Judicial (Ley 8435). Fundamento: Ley 9182 (Jurados Populares), art. 15 (prórroga de listas). Procedimiento: informe de Coordinador Oficina de Jurados, considerandos que justifican recálculo de bases demográficas. Disposiciones operativas: Juzgado Electoral, Área de Modernización, Secretaría Penal del TSJ. Formalidad: firma de Vocales del TSJ, Administrador General.",
+    "politica": "Acto de administración del sistema de justicia penal participativa. Proyección de demanda (~70 juicios) justifica revisión de padrones. Timing (fin agosto 2026) permite ciclo de notificación (WhatsApp, CiDi) y recepción de declaraciones juradas en plazo útil. Refuerzo de capacidades del sistema ante volumen esperado.",
+    "oficialista": "Planificación ordenada del sistema de jurados populares conforme demanda proyectada, con criterios de proporcionalidad territorial y adecuación de bases de sorteo basada en experiencia de años anteriores.",
+    "opositora": "Sin elementos de crítica en el texto; posible interrogante: si nuevos criterios de proporción afectarán representatividad de distritos menores o si habrá suficiente participación."
    },
-   "texto_oficial": "I) ORDENAR que se efectúe el sorteo a fin de confeccionar los listados definitivos de Jurados Populares, correspondientes al período 2027 (Ley 9182), para todas las circunscripciones judiciales, el cual deberá realizarse el día jueves 27 de Agosto del año en curso. II) DISPONER que se extraigan, separados por Circunscripción judicial y por sexo, para la Primera circunscripción, a razón de un (1) jurado por cada quinientos (500) electores masculinos y femeninas; para las circunscripciones del interior provincial un (1) jurado por cada doscientos cincuenta (250) electores masculinos y femeninas, con excepción de las circunscripciones Sexta, Séptima, Octava y Novena en las que deberán sortearse un (1) jurado cada ciento cincuenta (150) electores masculinos y femeninas (Ley 9182). III) PRORROGAR por un (1) año los listados confeccionados para el año 2026.",
+   "texto_oficial": "RESUELVE: I) ORDENAR que se efectúe el sorteo a fin de confeccionar los listados definitivos de Jurados Populares, correspondientes al período 2027 (Ley 9182), para todas las circunscripciones judiciales, el cual deberá realizarse el día jueves 27 de Agosto del año en curso. II) DISPONER que se extraigan, separados por Circunscripción judicial y por sexo, para la Primera circunscripción, a razón de un (1) jurado por cada quinientos (500) electores masculinos y femeninas; para las circunscripciones del interior provincial un (1) jurado por cada doscientos cincuenta (250) electores masculinos y femeninas, con excepción de las circunscripciones Sexta, Séptima, Octava y Novena en las que deberán sortearse un (1) jurado cada ciento cincuenta (150) electores masculinos y femeninas (Ley 9182). III) PRORROGAR por un (1) año los listados confeccionados para el año 2026.",
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
   },
   {
-   "tipo": "Licitación Pública",
-   "clase": "licitacion",
-   "numero": "000003/2026",
-   "titulo": "Construcción Módulo Anexo Sede Regional UPC Villa Huidobro",
-   "importa": "Universidad Provincial de Córdoba lanza licitación pública para obra 8157 'Construcción Módulo Anexo Sede Regional UPC Villa Huidobro' con presupuesto oficial de $4.319.942.326,27 (diciembre 2025). Cierre 25 agosto 2026 12:00. Tema vigilado: obra pública provincial.",
-   "seccion": "4",
-   "pagina": 1,
+   "tipo": "Acuerdo",
+   "clase": "resolucion",
+   "numero": "5",
+   "titulo": "Conformación de listas de Síndicos Concursales (Categorías A y B)",
+   "importa": "Cámaras de Apelaciones en lo Civil y Comercial (2° y 9° Nominación) conforman listas de síndicos concursales: Categoría A: 36 estudios titulares + 36 suplentes (orden de inscripción); Categoría B: 80 contadores titulares (68 con experiencia, 12 noveles) + 56 suplentes, seleccionados conforme orden de preferencia (especialización, domicilio, antecedentes). Convocatoria cerrada 16 dic 2025 – 10 abr 2026. Base: Reglamento Único (Acuerdo 958 TSJ, modificado Acuerdo 1270).",
+   "seccion": "1",
+   "pagina": 8,
    "ampliada": {
-    "juridica": "Licitación pública ordinaria bajo competencia de UPC como institución autárquica. Monto oficial es de diciembre 2025 (actualización requerida). Pliegos descargables en web institucional y portal de compras públicas. Presentación en Mesa de Entradas presencial. Procedimiento se ajusta a marcos reglamentarios. No hay defectos formales aparentes.",
-    "politica": "Obra de expansión territorial de UPC en interior (Villa Huidobro, Gral. Roca). Monto relevante refleja prioridad de infraestructura educativa. Timing en contexto de prórroga de normalización de UPC permite planificación coordinada.",
-    "oficialista": "Inversión pública en educación superior provincial con presencia territorial en regiones. Obra complementa sede regional de UPC.",
-    "opositora": "Obra de monto elevado requiere control sobre ejecución y destino de recursos. Villa Huidobro es localidad menor; justificación de módulo anexo no explicada en aviso."
+    "juridica": "Acuerdo administrativo dictado por Vocales de ambas Cámaras con competencia exclusiva en materia concursal. Procedimiento: convocatoria pública, inscripción electrónica, validación por Consejo Profesional de Ciencias Económicas, conformación de listas conforme Reglamento Único (Acuerdo 958 TSJ, modificado 1270). Criterios: art. 253 LCQ (requisitos mínimos estudios), art. 8 Acuerdo 1270 (preferencias: especialización, domicilio, orden de mérito). Formalidad: listados exhaustivos con datos de profesionales (DNI, matrícula, domicilio, correo), publicación 3 días Boletín Oficial.",
+    "politica": "Renovación de padrones de síndicos concursales tras período de aplicación. Acto de administración de justicia comercial que busca asegurar cobertura profesional calificada en procesos concursales. Sin controversia política aparente.",
+    "oficialista": "Conformación de listas mediante procedimiento transparente, con criterios de especialización y domicilio que garantizan cobertura territorial y calificación profesional en materia de sindicatura concursal.",
+    "opositora": "Sin elementos de crítica en el texto; posible interrogante: si criterios de preferencia por domicilio local pueden limitar competencia o movilidad profesional."
    },
-   "texto_oficial": "LICITACIÓN PÚBLICA N° 000003 /2026 – Expediente N° 0677 -000583 /2026 RR 359/2026 para la contratación OBRA 8157 'CONSTRUCCION MODULO ANEXO SEDE REGIONAL UPC VILLA HUIDOBRO': FECHA DE CIERRE LICITACIÓN PÚBLICA: 25/08/2026 A LAS 12:00 horas. Presupuesto Oficial: Pesos CUATRO MIL TRESCIENTOS DIECINUEVE MILLONES NOVECIENTOS CUARENTA Y DOS MIL TRESCIENTOS VEINTISÉIS CON 27/100 ($ 4.319.942.326,27 .-) al mes diciembre 2025.",
-   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_070826.pdf"
-  },
-  {
-   "tipo": "Licitación Pública Electrónica",
-   "clase": "licitacion",
-   "numero": "1448/EPEC",
-   "titulo": "Adquisición de 10 Relés Diferenciales de Línea EPEC",
-   "importa": "EPEC lanza licitación electrónica para adquisición de 10 relés diferenciales de línea con respaldo de impedancia. Presupuesto oficial $247.747.500 (IVA incluido). Cierre 18 agosto 2026 12:00. Tema vigilado: contratación EPEC (energía).",
-   "seccion": "4",
-   "pagina": 1,
-   "ampliada": {
-    "juridica": "Licitación electrónica ordinaria de EPEC (ente autárquico regulado por ERSeP). Presupuesto menor que obra UPC, requerimiento puntual de equipamiento. Portal electrónico de compras de EPEC. Sin vicios formales.",
-    "politica": "Adquisición de equipamiento para redes de distribución eléctrica. Monto moderado refleja funcionamiento ordinario de EPEC. Sin controversia.",
-    "oficialista": "Compra ordinaria de equipamiento para optimizar distribución eléctrica.",
-    "opositora": "Sin crítica aparente."
-   },
-   "texto_oficial": "LICITACION PUBLICA ELECTRONICA N.º 1448 - Objeto ADQUISICIÓN DE 10 RELES DIFERENCIALES DE LINEA CON RESPALDO DE IMPEDANCIA. Presupuesto Oficial: $ 247.747.500. IVA incluido. Presentación de ofertas: Portal Electrónico de Compras y Contrataciones de la EPEC hasta las 12:00 hs del día 18-08-2026.",
-   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_070826.pdf"
-  },
-  {
-   "tipo": "Licitación Pública",
-   "clase": "licitacion",
-   "numero": "2026/000017/CASISA",
-   "titulo": "Adquisición de Luminarias LED CASISA",
-   "importa": "CASISA lanza licitación pública para adquisición de luminarias LED. Presupuesto oficial $2.973.363.200 (IVA incluido). Cierre 18 agosto 2026 12:00. Portal electrónico de CASISA. Tema vigilado: CASISA (concesionaria RAC).",
-   "seccion": "4",
-   "pagina": 1,
-   "ampliada": {
-    "juridica": "Licitación pública electrónica de CASISA (Red de Accesos a Córdoba). Presupuesto material. Portal de compras electrónico de CASISA. Garantía 3% presupuesto oficial. Pliegos sin valor. Consultas hasta 11 agosto 16:00. Procedimiento ordinario sin defectos formales.",
-    "politica": "Adquisición de iluminación para red vial concesionada. Monto sugiere proyecto de envergadura en infraestructura de accesos. Tema de interés público (seguridad vial).",
-    "oficialista": "Inversión en iluminación de accesos mejora seguridad vial y visibilidad de infraestructura provincial.",
-    "opositora": "Monto elevado requiere verificación de calidad de luminarias y ejecución de obra."
-   },
-   "texto_oficial": "LICITACIÓN PÚBLICA 2026/000017 - OBJETO: ADQUISICIÓN DE LUMINARIAS LED. Presupuesto Oficial: $ 2.973.363.200 con IVA incluido.",
-   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_070826.pdf"
-  },
-  {
-   "tipo": "Licitación Pública",
-   "clase": "licitacion",
-   "numero": "2026/000018/CASISA",
-   "titulo": "Servicios Profesionales Upgrade Plataforma SAP S/4HANA CASISA",
-   "importa": "CASISA lanza licitación pública para servicios profesionales de upgrade de plataforma SAP S/4HANA versión 1909 a 2025. Presupuesto oficial $733.354.400 (IVA incluido). Cierre 28 agosto 2026 12:00. Tema vigilado: CASISA y modernización informática.",
-   "seccion": "4",
-   "pagina": 1,
-   "ampliada": {
-    "juridica": "Licitación de servicios de tecnología para CASISA. Modernización de plataforma ERP de gestión. Presupuesto material. Portal electrónico. Garantía 3%. Pliegos sin valor. Consultas hasta 21 agosto 16:00. Procedimiento ordinario sin vicios.",
-    "politica": "Inversión en modernización tecnológica de CASISA refleja prioridad de gobierno digital. Upgrade de plataforma SAP es necesario para actualizar sistemas de gestión empresarial.",
-    "oficialista": "Modernización de infraestructura tecnológica de CASISA mejora eficiencia operativa y gobernanza.",
-    "opositora": "Monto de upgrade debe justificarse por ganancia de eficiencia demostrable. Requiere seguimiento de ejecución."
-   },
-   "texto_oficial": "LICITACIÓN PÚBLICA 2026/000018 - OBJETO: SERVICIOS PROFESIONALES PARA EL UPGRADE DE LA PLATAFORMA SAP S/4HANA 1909 A VERSIÓN 2025. Presupuesto Oficial: $ 733.354.400 con IVA incluido.",
-   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_070826.pdf"
+   "texto_oficial": "SE RESUELVE: I.- Conformar la lista de Síndicos titulares para la Categoría 'A' con 36 estudios contables [listado detallado de 36 estudios]. II. Conformar la lista de Síndicos titulares para la Categoría 'B' de acuerdo al orden de preferencia y de mérito indicados con 80 contadores [listado exhaustivo]. III. Conformar la lista de Síndicos suplentes para la Categoría 'A' con 36 estudios. IV. Conformar la lista de Síndicos suplentes para la Categoría 'B' con 28 contadores. V. Publicar la presente durante tres días corridos en el Boletín Oficial de la Provincia.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
   }
  ],
  "movimientos": [
   {
    "tipo": "Designación",
    "clase": "designacion",
-   "instrumento": "Resolución 15/2026/ME",
-   "titulo": "Procurador Fiscal DGR",
-   "detalle": "Matías Oscar Etrat, DNI 30.507.578, Matrícula 6-293 Colegio Abogados Villa Dolores",
+   "instrumento": "Resolución Ministerial 15/2026",
+   "titulo": "Procurador Fiscal de la Dirección General de Rentas",
+   "detalle": "Matías Oscar Etrat, DNI 30.507.578",
    "organismo": "Dirección General de Rentas",
    "pagina": 2,
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
@@ -144,9 +144,9 @@
   {
    "tipo": "Designación",
    "clase": "designacion",
-   "instrumento": "Resolución 16/2026/ME",
-   "titulo": "Procuradora Fiscal DGR",
-   "detalle": "Ana Rita Tagliavini, DNI 31.403.678, Matrícula 4-1100 Colegio Abogados Villa María",
+   "instrumento": "Resolución Ministerial 16/2026",
+   "titulo": "Procuradora Fiscal de la Dirección General de Rentas",
+   "detalle": "Ana Rita Tagliavini, DNI 31.403.678",
    "organismo": "Dirección General de Rentas",
    "pagina": 2,
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
@@ -154,9 +154,9 @@
   {
    "tipo": "Designación",
    "clase": "designacion",
-   "instrumento": "Resolución 17/2026/ME",
-   "titulo": "Procuradora Fiscal DGR",
-   "detalle": "María Soledad Martinozzi, DNI 26.177.714, Matrícula 1-31742 Colegio Abogados Córdoba",
+   "instrumento": "Resolución Ministerial 17/2026",
+   "titulo": "Procuradora Fiscal de la Dirección General de Rentas",
+   "detalle": "María Soledad Martinozzi, DNI 26.177.714",
    "organismo": "Dirección General de Rentas",
    "pagina": 3,
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
@@ -164,9 +164,9 @@
   {
    "tipo": "Designación",
    "clase": "designacion",
-   "instrumento": "Resolución 18/2026/ME",
-   "titulo": "Procurador Fiscal DGR",
-   "detalle": "Miguel Ángel Martínez Mangini, DNI 30.771.077, Matrícula 2-1150 Colegio Abogados Río Cuarto",
+   "instrumento": "Resolución Ministerial 18/2026",
+   "titulo": "Procurador Fiscal de la Dirección General de Rentas",
+   "detalle": "Miguel Ángel Martínez Mangini, DNI 30.771.077",
    "organismo": "Dirección General de Rentas",
    "pagina": 3,
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
@@ -174,9 +174,9 @@
   {
    "tipo": "Designación",
    "clase": "designacion",
-   "instrumento": "Resolución 19/2026/ME",
-   "titulo": "Procurador Fiscal DGR",
-   "detalle": "Esteban José Méndez Marchini, DNI 33.526.718, Matrícula 1-40222 Colegio Abogados Córdoba",
+   "instrumento": "Resolución Ministerial 19/2026",
+   "titulo": "Procurador Fiscal de la Dirección General de Rentas",
+   "detalle": "Esteban José Méndez Marchini, DNI 33.526.718",
    "organismo": "Dirección General de Rentas",
    "pagina": 4,
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
@@ -184,10 +184,10 @@
   {
    "tipo": "Designación",
    "clase": "designacion",
-   "instrumento": "Resolución 3/2026/MJG",
-   "titulo": "Adscripta Registro Notarial",
-   "detalle": "Yamile Salman, DNI 37.853.848, Matrícula 2912, como Adscripta al Registro Notarial 203 Córdoba Capital",
-   "organismo": "Tribunal de Disciplina Notarial (Ministerio Jefatura de Gabinete)",
+   "instrumento": "Resolución Ministerial 3/2026 Jefatura de Gabinete",
+   "titulo": "Adscripta Notarial — Registro N° 203",
+   "detalle": "Yamile Salman, DNI 37.853.848, Matrícula 2912",
+   "organismo": "Registro Notarial N° 203, Córdoba Capital",
    "pagina": 5,
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_070826.pdf"
   }
@@ -195,125 +195,146 @@
  "indice_nuevas": [
   {
    "tipo": "Resolución",
-   "numero": "14/2026/ME",
-   "titulo": "Tasas Archivo de Protocolos Notariales",
+   "numero": "14",
+   "titulo": "Actualización de tasas de actuación del Archivo de Protocolos Notariales",
    "seccion": "1",
    "pagina": 1
   },
   {
    "tipo": "Resolución",
-   "numero": "15/2026/ME",
-   "titulo": "Designación Procurador Fiscal DGR",
+   "numero": "15",
+   "titulo": "Designación Procurador Fiscal DGR — Matías Oscar Etrat",
    "seccion": "1",
    "pagina": 2
   },
   {
    "tipo": "Resolución",
-   "numero": "16/2026/ME",
-   "titulo": "Designación Procuradora Fiscal DGR",
+   "numero": "16",
+   "titulo": "Designación Procuradora Fiscal DGR — Ana Rita Tagliavini",
    "seccion": "1",
    "pagina": 2
   },
   {
    "tipo": "Resolución",
-   "numero": "17/2026/ME",
-   "titulo": "Designación Procuradora Fiscal DGR",
+   "numero": "17",
+   "titulo": "Designación Procuradora Fiscal DGR — María Soledad Martinozzi",
    "seccion": "1",
    "pagina": 3
   },
   {
    "tipo": "Resolución",
-   "numero": "18/2026/ME",
-   "titulo": "Designación Procurador Fiscal DGR",
+   "numero": "18",
+   "titulo": "Designación Procurador Fiscal DGR — Miguel Ángel Martínez Mangini",
    "seccion": "1",
    "pagina": 3
   },
   {
    "tipo": "Resolución",
-   "numero": "19/2026/ME",
-   "titulo": "Designación Procurador Fiscal DGR",
+   "numero": "19",
+   "titulo": "Designación Procurador Fiscal DGR — Esteban José Méndez Marchini",
    "seccion": "1",
    "pagina": 4
   },
   {
    "tipo": "Resolución",
-   "numero": "1127/2026/ME",
-   "titulo": "Prórroga Normalización UPC",
+   "numero": "1127",
+   "titulo": "Prórroga normalización Universidad Provincial de Córdoba hasta 1 dic 2026",
    "seccion": "1",
    "pagina": 4
   },
   {
    "tipo": "Resolución",
-   "numero": "3/2026/MJG",
-   "titulo": "Designación Adscripta Registro Notarial",
+   "numero": "3",
+   "titulo": "Designación Adscripta Notarial Yamile Salman",
    "seccion": "1",
    "pagina": 5
   },
   {
    "tipo": "Resolución",
-   "numero": "244/2026/ACC",
-   "titulo": "Concurso Provincial Dibujo Coloreando Derechos",
+   "numero": "244",
+   "titulo": "Aprobación 6ª Edición Concurso 'Coloreando Derechos contra el Trabajo Infantil'",
    "seccion": "1",
    "pagina": 5
   },
   {
    "tipo": "Resolución",
-   "numero": "245/2026/ACC",
-   "titulo": "Concurso Literario Tejiendo Derechos con Palabras",
+   "numero": "245",
+   "titulo": "Aprobación 2ª Edición Concurso Literario 'Tejiendo Derechos con Palabras'",
    "seccion": "1",
    "pagina": 6
   },
   {
    "tipo": "Acuerdo",
-   "numero": "867/2026/TSJ",
-   "titulo": "Sorteo Jurados Populares 2027",
+   "numero": "867",
+   "titulo": "Sorteo Jurados Populares 2027 y prórroga listas 2026",
    "seccion": "1",
    "pagina": 7
   },
   {
-   "tipo": "Acuerdo Administrativo",
-   "numero": "5/2026/CACCC",
-   "titulo": "Conformación Listas Síndicos Concursales",
+   "tipo": "Acuerdo",
+   "numero": "5",
+   "titulo": "Conformación listas Síndicos Concursales (Categorías A y B)",
    "seccion": "1",
    "pagina": 8
   },
   {
-   "tipo": "Licitación Pública",
+   "tipo": "Licitación",
    "numero": "000003/2026",
-   "titulo": "Obra Módulo Anexo UPC Villa Huidobro",
+   "titulo": "Construcción módulo anexo sede regional UPC Villa Huidobro",
    "seccion": "4",
    "pagina": 1
   },
   {
-   "tipo": "Licitación Pública Electrónica",
-   "numero": "1448/EPEC",
-   "titulo": "Adquisición Relés Diferenciales EPEC",
+   "tipo": "Licitación",
+   "numero": "1448",
+   "titulo": "Adquisición 10 relés diferenciales de línea — EPEC",
    "seccion": "4",
    "pagina": 1
   },
   {
-   "tipo": "Licitación Pública",
-   "numero": "2026/000017/CASISA",
-   "titulo": "Adquisición Luminarias LED CASISA",
+   "tipo": "Licitación",
+   "numero": "2026/000017",
+   "titulo": "Adquisición luminarias LED — CASISA",
    "seccion": "4",
    "pagina": 1
   },
   {
-   "tipo": "Licitación Pública",
-   "numero": "2026/000018/CASISA",
-   "titulo": "Upgrade Plataforma SAP CASISA",
+   "tipo": "Licitación",
+   "numero": "2026/000018",
+   "titulo": "Servicios profesionales upgrade SAP S/4HANA — CASISA",
    "seccion": "4",
    "pagina": 1
   },
   {
    "tipo": "Nota Aclaratoria",
    "numero": "2",
-   "titulo": "Prórroga Apertura Licitación EPEC 5583",
+   "titulo": "Prórroga apertura Licitación Pública 5583 — EPEC",
    "seccion": "4",
    "pagina": 1
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000330",
+   "titulo": "Adquisición equipos médicos de emergencia — Poder Judicial",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000366",
+   "titulo": "Servicio traslado de muebles Poder Judicial y Ministerio Público Fiscal",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Solicitud Personería",
+   "numero": "Movimiento Vecinal Potrero de Garay",
+   "titulo": "Solicitud reconocimiento personería jurídico política comunal",
+   "seccion": "4",
+   "pagina": 3
   }
  ],
- "telegram": "BOE 151 | Viernes 7/8 – 17 normas. Destaca: prórroga normalización UPC hasta 1 de diciembre + 5 nuevos Procuradores Fiscales DGR + licitación obra Villa Huidobro $4.300M + reforma sorteo Jurados 2027. App: http://boletinoficial.cba.gov.ar",
+ "telegram": "BOE Córdoba Nº 151 (7/8/2026): Seis designaciones en DGR (procuradores fiscales), prórroga normalización UPC hasta dic 2026 con elecciones 18-19 ago, conformación listas síndicos concursales, sorteo jurados 2027, concursos culturales. Informe completo: https://boletinoficial.cba.gov.ar",
  "hora_procesado": "10:07",
  "estado": "publicado"
 }
