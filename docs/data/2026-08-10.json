@@ -1,0 +1,220 @@
+{
+ "fecha": "2026-08-10",
+ "numero_boletin": "152",
+ "sintesis_juridica": [
+  "Se modifican normas catastrales para simplificar la intervención de organismos viales: la Resolución Normativa N° 2 de la Dirección General de Catastro ajusta los criterios de requerimiento a Dirección Nacional de Vialidad, Dirección Provincial de Vialidad y Ministerio de Bioagroindustria, permitiendo que cuando el título de dominio consigne expresamente colindancia con una vía, no sea necesaria intervención adicional del organismo competente. Se unifica terminología catastral adopting 'camino existente' para vías no clasificadas en la Red Vial Provincial.",
+  "El Tribunal de Cuentas, mediante Resolución N° 110, corrige mediante sustitución el artículo 46 del Compendio Normativo Unificado: rectifica el orden de ingreso de proyectos remitidos por la Secretaría de Fiscalización Presupuestaria para que inicie por la Vocalía de la Minoría (no la Mayoría), garantizando el circuito operativo correcto. El Consejo de la Magistratura, por Acuerdo N° 54, confecciona el orden de méritos para cobertura de cargos de Vocal de Cámara de Niñez, Adolescencia, Violencia Familiar, Género y Penal Juvenil, fijando audiencia pública para el 20 de agosto de 2026."
+ ],
+ "sintesis_politica": [
+  "La reforma catastral busca descongestionar procedimientos administrativos que afectaban principalmente a agrimensores y profesionales inmobiliarios. Al simplificar la intervención de organismos viales cuando ya existe constancia documental de colindancia, se reduce la tramitación burocrática sin comprometer el control sobre vías públicas. El timing de esta norma coincide con presiones históricas de sectores técnicos por agilizar gestiones catastrales.",
+  "Los movimientos en el Tribunal de Cuentas y Consejo de la Magistratura responden a ajustes procedimentales: la corrección del orden de ingreso de expedientes busca optimizar eficiencia interna, mientras que la convocatoria de méritos para la Cámara especializada en niñez y adolescencia refleja demanda institucional de cobertura de vacantes en una materia sensible. La audiencia pública prevista permite seguimiento legislativo y social del proceso."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución Normativa",
+   "clase": "resolucion",
+   "numero": "2",
+   "titulo": "Modificación de Normativa Técnica Catastral - Intervención de Organismos en Vías de Comunicación",
+   "importa": "La Dirección General de Catastro modifica criterios de intervención de organismos viales (Dirección Nacional de Vialidad, Dirección Provincial de Vialidad y Ministerio de Bioagroindustria). Cuando el título de dominio conste expresamente que el inmueble colinda o es atravesado por vía pública, ya no se requerirá intervención adicional del organismo competente. Se unifica terminología catastral reemplazando 'huella', 'senda' o 'camino de herradura' por 'camino existente'.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La norma modifica disposiciones de la Normativa Técnica Catastral (Resolución Normativa 1/2015) en sus puntos 17.1.l) y 16.1.6.n). Establece tres categorías de intervención según red vial (nacional, provincial, municipales) y distingue según naturaleza de la vía (Red Primaria Provincial, pavimentadas, rurales no pavimentadas). La modificación se ampara en facultades del Director General de Catastro conforme Ley N° 10.454. El artículo 3 aclara que la Dirección General no determina definitivamente carácter público/privado de caminos, sino que solo informa sobre constancias obrantes en el Sistema de Información Territorial.",
+    "politica": "La reforma responde a presiones del sector técnico profesional (agrimensores, ingenieros) por simplificar trámites catastrales. Reduce tiempos de gestión sin eliminar control vial: cuando existe acreditación en título, se presume conocimiento del estado de la vía. Se comunica a Dirección Provincial de Vialidad, Ministerio de Bioagroindustria y colegios profesionales, indicando coordinación multiagencial. Posible relación con agenda de modernización estatal/desburocratización (a confirmar; el aviso no lo menciona).",
+    "oficialista": "La simplificación busca eficiencia administrativa y agilidad en gestiones catastrales sin afectar competencias viales: cuando el título de dominio ya constancia la situación de la vía, exigir intervención adicional genera tramitación redundante. Se preserva control mediante coordinación entre organismos competentes y consta requisito de comunicación oficial. La unificación terminológica dota de claridad jurídica al sistema catastral provincial.",
+    "opositora": "La norma podría generar riesgos si se interpreta de modo excesivamente permisivo: confiar en títulos de dominio para acreditar vías públicas sin intervención vial podría omitir cambios de estado o disputas sobre jurisdicción. Además, la transferencia de responsabilidad al Ministerio de Bioagroindustria sobre caminos rurales no pavimentados puede fragmentar competencias sin mecanismos de control suficientes. La supresión de figuras como 'huella' o 'camino de herradura' podría oscurecer realidades de acceso en zonas rurales."
+   },
+   "texto_oficial": "ARTÍCULO 1: Modificar el punto 17.1 l) de la Normativa Técnica Catastral, el que quedará redactado de la siguiente forma: 17.1.l) Intervención de los organismos competentes en materia de vías de comunicación: i. Red vial nacional: Se requerirá la intervención de la Dirección Nacional de Vialidad en todos los casos en que alguno de los inmuebles involucrados en el trabajo colinde o sea atravesado por rutas o caminos públicos de jurisdicción nacional. ii. Red vial provincial: Se requerirá la intervención únicamente cuando alguno de los inmuebles involucrados en el trabajo no tenga como colindante o sea atravesado, según título, por un camino público y exista físicamente una vía de circulación, con independencia de que se encuentre o no incorporado a la Red Vial Provincial. Cuando la vía de circulación corresponda a la Red Primaria Provincial o se encuentre pavimentada, cualquiera sea la red vial provincial a la que pertenezca, la intervención corresponderá a la Dirección Provincial de Vialidad. En los demás casos, la intervención corresponderá al Ministerio de Bioagroindustria. iii. Vías de la red vial dentro de radios municipales o comunales: La circunstancia de que un camino o ruta perteneciente a la red vial provincial se encuentre comprendido dentro de un radio municipal o comunal, y que el municipio o comuna le haya asignado una denominación como calle, avenida u otra similar, no exime de la intervención del organismo competente que corresponda, conforme a lo dispuesto en los incisos anteriores. iv. Concurrencia de jurisdicciones: Cuando en un mismo trabajo resulten involucradas vías de comunicación pertenecientes a distintas jurisdicciones, deberá requerirse la intervención de todos los organismos competentes, de conformidad con las reglas establecidas en los incisos precedentes. ARTÍCULO 2: Modificar el punto 16.1.6 n) de la Normativa Técnica Catastral, el que quedará redactado de la siguiente forma: 16.1.6 n) En caso de colindancia con calles o caminos, deberá consignarse su denominación. Cuando la vía carezca de nombre, deberá consignarse como 'calle pública' o 'camino público', según corresponda. Si la vía no constare como pública en los títulos, en los registros de los organismos competentes en materia vial o en otros antecedentes o documentos oficiales, deberá consignarse exclusivamente con la denominación 'camino existente', no pudiendo utilizarse otras denominaciones tales como 'senda', 'huella', 'camino de herradura' u otras equivalentes. ARTÍCULO 3: En todos los casos en que se requiera a esta Dirección General informar acerca del carácter público o privado de un camino o de cualquier otra vía de circulación, se dejará constancia de que la determinación definitiva de dicho carácter corresponde a la autoridad competente —nacional, provincial, municipal o comunal, según el caso—, adjuntándose las constancias y antecedentes obrantes en el Sistema de Información Territorial (S.I.T.) que den cuenta de su existencia y del carácter que surja de dichos documentos. ARTÍCULO 4: Protocolícese, comuníquese a la Dirección Nacional de Vialidad, al Ministerio de Bioagroindustria, a la Dirección Provincial de Vialidad, al Colegio de Agrimensores de la Provincia de Córdoba y al Colegio de Ingenieros Civiles de la Provincia de Córdoba, publíquese en el Boletín Oficial de la Provincia y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_100826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "110",
+   "titulo": "Corrección de Circuito de Resoluciones - Orden de Ingreso en Vocalías del Tribunal de Cuentas",
+   "importa": "El Tribunal de Cuentas sustituye el artículo 46 del Compendio Normativo Unificado (incorporado por Res. N° 96/2026) para corregir el orden de ingreso de proyectos remitidos por la Secretaría de Fiscalización Presupuestaria. El circuito debe iniciar en la Vocalía de la Minoría (no en la de Mayoría como se había establecido), luego Vocalía de la Mayoría y finalmente Presidencia, a fin de garantizar el procedimiento correcto.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Se trata de corrección de error material involuntario en norma anterior (Res. 96/2026). El Tribunal de Cuentas ejerce sus facultades de dictar normas propias de funcionamiento interno conforme Ley Orgánica N° 10.930, artículos 10 incs. f) y h). La sustitución se fundamenta en que el circuito original 'altera la secuencia formal y el circuito operativo óptimo planificado'. No hay vicio sustancial pero sí corrección de orden procesal de índole administrativa. El procedimiento se enmarca en control preventivo del gasto público.",
+    "politica": "El error de orden de ingreso revela importancia política de la Vocalía de la Minoría en el sistema de control: iniciando por la Minoría se garantiza que esa representación tenga incidencia en análisis primario. La corrección refleja tensiones internas sobre pesos relativos de mayoría/minoría en órganos de control colegiados. El Tribunal actúa en sesión plenaria para rectificar, lo que sugiere consenso institucional sobre la necesidad de enmienda.",
+    "oficialista": "La corrección responde a mejora técnica del procedimiento: el circuito iniciando en Minoría optimiza el flujo de expedientes al garantizar revisión multidimensional desde el inicio. No afecta competencias sustanciales sino organización operativa interna, mejorando eficacia y seguridad jurídica del control preventivo del gasto.",
+    "opositora": "La enmienda podría interpretarse como reconocimiento de que la versión anterior marginalizaba la Vocalía de la Minoría en etapas tempranas. Sin embargo, sin información sobre impacto real de ese orden en decisiones de fondo, resulta difícil evaluar si es mera reasignación administrativa o tiene consecuencias políticas sobre qué proyectos avanzan con qué énfasis."
+   },
+   "texto_oficial": "SUSTITÚYASE el Artículo 46 del Compendio Normativo Unificado del Tribunal de Cuentas de la Provincia de Córdoba (texto incorporado por el Apartado II de la Resolución Nº 96/2026), el que quedará redactado de la siguiente manera: 'Artículo 46: Los proyectos de Resolución remitidos por la Secretaría de Fiscalización Presupuestaria a los Vocales a los efectos de dar por concluidas actuaciones de su competencia, observarán el siguiente orden de ingreso: 1- Vocalía de la Minoría 2- Vocalía de la Mayoría 3- Presidencia.'",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_100826.pdf"
+  },
+  {
+   "tipo": "Acuerdo",
+   "clase": "resolucion",
+   "numero": "54",
+   "titulo": "Orden de Méritos - Concurso Cargos de Vocal de Cámara de Niñez, Adolescencia, Violencia Familiar, Género y Penal Juvenil",
+   "importa": "El Consejo de la Magistratura confecciona el orden de méritos para concurso de cobertura de cargos de Vocal de Cámara especializada (Niñez, Adolescencia, Violencia Familiar, Género y Penal Juvenil). Se fija audiencia pública para el 20 de agosto de 2026 a las 14:00 hs en Avda. Gral. Paz N° 70, 6° piso.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "El Consejo de la Magistratura, creado por Ley 8802, actúa conforme a sus atribuciones de gestión de concursos judiciales. El acuerdo se conformó con presidencia de Dra. María M. Cáceres de Bollati e intervención de siete consejeros. La audiencia pública es requisito legal del art. 29 Ley 8802. El texto no especifica cantidad de vacantes ni perfil de candidatos preseleccionados; el aviso no lo aclara.",
+    "politica": "La Cámara especializada en niñez y violencia familiar es institución sensible político-socialmente: refleja prioridades provinciales en justicia de género y protección de menores. El proceso de concurso con audiencia pública abierto busca legitimidad institucional. La fijación de la audiencia sugiere proceso en marcha con plazos ajustados (audiencia 10 días después del aviso).",
+    "oficialista": "El proceso asegura provisión de cargos críticos mediante concurso transparente con audiencia pública, garantizando participación de interesados. Refleja institucionalidad republicana en selección de magistrados especializados en materia vulnerable.",
+    "opositora": "Sin detalles sobre cantidad de candidatos preseleccionados, cantidad de vacantes, o criterios de selección, resulta difícil evaluar competitividad real del concurso. El tiempo reducido entre publicación y audiencia podría limitar participación efectiva de observadores externos."
+   },
+   "texto_oficial": "Confeccionar el ORDEN DE MERITOS correspondiente al concurso para cobertura de cargos de VOCAL DE CÁMARA DE NIÑEZ, ADOLESCENCIA, VIOLENCIA FAMILIAR, GÉNERO Y PENAL JUVENIL con el puntaje total obtenido por los concursantes, conforme al cuadro anexo. Protocolícese, notifíquese y archívese. El Consejo de la Magistratura de la Provincia de Córdoba hace saber que la audiencia pública prevista por el art. 29 de la Ley 8802 ha sido fijada para el día 20 de agosto de 2026 a las 14:00 hs., en Avda. Gral. Paz nº 70, 6º piso de la ciudad de Córdoba.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_100826.pdf"
+  },
+  {
+   "tipo": "Acuerdo Administrativo",
+   "clase": "resolucion",
+   "numero": "5",
+   "titulo": "Conformación de Listas de Síndicos Concursales - Categorías A y B",
+   "importa": "Las Cámaras de Apelaciones en lo Civil y Comercial de 2ª y 9ª Nominación conforman listas de Síndicos Concursales (titulares y suplentes) para categorías A (36 estudios contables) y B (80 titulares y 56 suplentes, con cuota 15% de profesionales noveles). La convocatoria fue prorrogada. El aviso publica nóminas completas con datos personales, matrículas, domicilios y correos.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Conforme Ley de Concursos y Quiebras (LCQ) art. 253, el Tribunal Superior de Justicia aprobó Reglamento Único (AR 958, modificado por AR 1270/2015) que establece criterios de conformación de listas de síndicos: especialización en sindicatura concursal, domicilio real y profesional en circunscripción, experiencia previa, y reserva de porcentaje para profesionales noveles. El acuerdo detalla prelación de criterios por orden: especialidad + domicilio circunscripción › especialidad sin domicilio local › profesionales sin especialidad pero con domicilio. La categoría A no requirió orden de mérito (36 postulantes suficientes para 40 titulares + 24 suplentes requirió duplicar lista titulares como suplen tes). La categoría B requirió orden de mérito por exceso de postulantes (120 inscritos, 108 elegibles tras excluir duplicados).",
+    "politica": "La conformación de listas de síndicos refleja importancia institucional del rol en sistema concursal provincial. La reserva del 15% para noveles busca renovación del colectivo profesional. La extensión de plazos de inscripción (ampliación mediante AA 2/2026) sugiere respuesta a demanda de participantes. El nivel de detalle en publicación de nóminas con datos personales/profesionales implica transparencia radical pero potencial riesgo de privacidad.",
+    "oficialista": "El proceso garantiza listas actualizadas y competitivas mediante criterios objetivos (especialización, domicilio, experiencia) y participación amplia (120 inscriptos en cat. B). La renovación generacional mediante cuota de noveles asegura continuidad y frescura del colectivo de síndicos. La publicación íntegra dota de máxima transparencia.",
+    "opositora": "El exceso de detalle personal/profesional en publicación podría exponer a profesionales a contactos no deseados. Además, los criterios de prelación (especialización + domicilio como preferentes) podrían excluir profesionales competentes de fuera de la circunscripción. La complejidad del sistema de cálculo de cuotas y orden de mérito dificulta verificación ciudadana."
+   },
+   "texto_oficial": "Se adjunta completo el Acuerdo Administrativo N° 5, que confecciona orden de méritos y nóminas de Síndicos Concursales Categoría A (36 estudios contables titulares, duplicados como suplentes) y Categoría B (80 profesionales titulares con experiencia, 12 titulares noveles, 56 suplentes con experiencia, 8 suplentes noveles). Las listas detallan nombre, DNI, matrícula, domicilio constituido y correo electrónico de cada profesional. Se ordena publicación durante tres días corridos en Boletín Oficial, comunicación al Consejo Profesional de Ciencias Económicas y disponibilidad en Mesa de Entradas de la Cámara Civil y Comercial de 2ª Nominación.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_100826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "5578",
+   "titulo": "EPEC - Ejecución de Pavimento en Líneas Aéreas Norte - Nota Aclaratoria N° 1 y 2",
+   "importa": "EPEC convoca licitación pública N° 5578 para 'Ejecución de Pavimento en Líneas Aéreas Norte'. Presupuesto oficial: $189.032.641,86. Apertura prorrogada: 18 de agosto de 2026, 10:00 hs. Entrega de sobres hasta 18/08/26, 09:00 hs. Se emiten notas aclaratorias N° 1 y 2. Pliego sin valor.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública, doble apertura. Objeto claramente vinculado a infraestructura eléctrica provincial (líneas aéreas de distribución). Monto relevante ($189 mill.). Procedimiento estándar de pliego abierto. Notas aclaratorias N° 1 y 2 sugieren solicitudes de clarificación de participantes; el texto no especifica contenido.",
+    "politica": "Obra de infraestructura energética de EPEC, empresa provincial clave. Monto elevado indica prioridad en mantenimiento/modernización de redes aéreas. Tema vigilado según instructivo: verificar si se relaciona con plan provincial de infraestructura.",
+    "oficialista": "Licitación pública transparente con protocolo estándar de doble apertura. Notas aclaratorias responden a demanda de claridad de potenciales oferentes. Presupuesto oficial público permite control ciudadano.",
+    "opositora": "Sin acceso a contenido del pliego ni de aclaratorias, no se puede evaluar si especificaciones técnicas abren o restringen competencia. Monto elevado requiere escrutinio sobre justificación de costos."
+   },
+   "texto_oficial": "LICITACION PUBLICA Nº 5578 – NOTA ACLARATORIA N°1 Y N°2 - DOBLE APERTURA PRORROGADA: 18-08-26 HORA: 10.- OBJETO: 'EJECUCION DE PAVIMENTO EN LINEAS AEREAS NORTE-' - ENTREGA DE SOBRES HASTA EL 18-08-26 HORA 09 – PRESUPUESTO OFICIAL: $189.032.641,86. - LUGAR: Administración Central, Área Compras y Contrataciones, La Tablada N° 350 – Córdoba – CONSULTA: https://www.epec.com.ar/perfiles/proveedores/concursos-y-licitaciones PLIEGO SIN VALOR.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_100826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "1448",
+   "titulo": "EPEC - Adquisición de 10 Relés Diferenciales de Línea con Respaldo de Impedancia - Nota Aclaratoria N° 1",
+   "importa": "EPEC convoca licitación pública electrónica N° 1448 para 'Adquisición de 10 Relés Diferenciales de Línea con Respaldo de Impedancia'. Presupuesto oficial: $247.747.500 (IVA incluido). Presentación prorrogada: Portal EPEC hasta 21/08/2026, 12:00 hs. Apertura: 21/08/2026. Pliego sin valor.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación electrónica para adquisición de equipamiento especializado (relés diferenciales). Monto muy elevado ($247,7 mill.), lo que sugiere equipamiento crítico de protección de redes. Portal electrónico de compras estándar de EPEC. Nota aclaratoria N° 1 emitida; contenido no especificado en aviso.",
+    "politica": "Compra de equipamiento de seguridad/protección de redes eléctricas, elemento crítico de infraestructura. Monto elevado indica relevancia operativa. Tema vigilado EPEC.",
+    "oficialista": "Licitación electrónica transparente. Monto elevado refleja costo real de equipamiento especializado importado (relés diferenciales de línea son tecnología compleja). Proceso electrónico agiliza participación.",
+    "opositora": "Monto muy elevado requiere análisis de mercado: ¿10 unidades de $24,7 mill. c/u es precio competitivo? ¿Hubo cotización previa? Especificación de 'Respaldo de Impedancia' puede ser restrictiva si excluye alternativas técnicas equivalentes."
+   },
+   "texto_oficial": "SE AGREGA NOTA ACLARATORIA N° 1 - LICITACION PUBLICA ELECTRONICA N.º 1448 - Objeto ADQUISICIÓN DE 10 RELES DIFERENCIALES DE LINEA CON RESPALDO DE IMPEDANCIA - Objeto: 'ADQUISICIÓN DE 10 RELES DIFERENCIALES DE LINEA CON RESPALDO DE IMPEDANCIA.' Presupuesto Oficial: $ 247.747.500. IVA incluido- Presentación de ofertas prorrogada: Portal Electrónico de Compras y Contrataciones de la EPEC hasta las 12:00 hs del día 21-08-2026. Apertura de Ofertas prorrogada: 21-08-2026. Consultas: Área de Compras y Contrataciones de la EPEC, La Tablada N° 350 – primer piso – Córdoba o al correo electrónico comprasycontrat@epec.com.ar.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_100826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "clase": "licitacion",
+   "numero": "0088-140006/2026",
+   "titulo": "APROSS - Auditoría Externa - Contratación de Servicio",
+   "importa": "APROSS llama a licitación pública presencial para contratación de servicio de auditoría externa. Duración: 24 meses desde adjudicación, con opción de prórroga igual término. Presupuesto oficial estimado: $4.800.000.000,00 (pesos cuatro mil ochocientos millones, impuestos incluidos). Apertura de ofertas: 27/08/2026, 12:30 hs, en oficinas APROSS (Entre Ríos 160, Córdoba). Presentación: 27/08/2026, 08:30-10:00 hs, Mesa de Entradas APROSS (Marcelo T. de Alvear 758).",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación presencial de contratación de servicios de auditoría externa para APROSS (obra social provincial). Presupuesto elevadísimo ($4.800 mill.). Base legal: Decreto Reglamentario N° 305/2014, art. 7.1.6.3 inc. b) (prórroga a favor de APROSS). Forma de presentación: sobre cerrado, pliego de bases y condiciones. Consultas electrónicas hasta 5 días hábiles previos a presentación (texto no lo especifica con exactitud). Tema vigilado: APROSS financiamiento, aportes, emergencia sanitaria, convenios.",
+    "politica": "APROSS requiere auditoría externa profesional. Monto extremadamente elevado sugiere: (a) cobertura de período largo; (b) auditoría integral y profunda; o (c) inflación de costos. Convendría verificar si es cifra plausible para servicio de auditoría externa de obra social. Posible relación con situación financiera de APROSS (a confirmar; el aviso no lo menciona).",
+    "oficialista": "APROSS cumple obligaciones de control y transparencia contratando auditoría externa profesional. Presupuesto estimado permite escrutinio previo. Plazo de 24 meses + prórroga garantiza continuidad de fiscalización. Licitación pública asegura competencia.",
+    "opositora": "Monto de $4.8 mil millones para servicio de auditoría requiere justificación: ¿es costo anualizado? ¿incluye auditoría forense? ¿por qué tan elevado en comparación con servicios similares? APROSS, bajo presión financiera histórica, podría estar sobrecontratando auditoría como respuesta a presión política sobre gestión."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA PRESENCIAL. EXPEDIENTE Nº 0088-140006/2026. Objeto: La ADMINISTRACIÓN PROVINCIAL DEL SEGURO DE SALUD -APROSS- llama a LICITACIÓN PÚBLCIA PRESENCIAL PARA LA CONTRATACIÓN DEL SERVICIO DE AUDITORÍA EXTERNA, según PLIEGO DE ESPECIFICACIONES TÉCNICAS. Plazo de duración: veinticuatro (24) meses, contados a partir de la fecha de adjudicación mediante acto administrativo pertinente, con opción a prórroga a favor de la APROSS por hasta igual término, conforme lo previsto por el artículo 7.1.6.3 inciso b) del Decreto Reglamentario N° 305/2014. Presupuesto Oficial estimado: PESOS CUATRO MIL OCHOCIENTOS MILLONES CON 00/100. ($4.800.000.000,00) IMPUESTOS INCLUIDOS. Fecha apertura de ofertas: 27/08/2026. Hora de apertura de ofertas: 12:30 hs.. Lugar de apertura de ofertas: Oficina APROSS ubicada en calle Entre Ríos 160 de la Ciudad de Córdoba. Forma de presentación: Las ofertas deberán presentarse en sobre cerrado. Fecha de inicio de presentación de ofertas: 27/08//2026 – 08:30 hs. Fecha límite de Presentación de ofertas: 27/08//2026. Hora límite de Presentación de ofertas: 10:00 hs. Lugar de presentación de ofertas: Mesa de Entradas (SUAC) de la APROSS sita en calle Marcelo T. de Alvear 758 de la Ciudad de Córdoba.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_100826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Acuerdo N° 54",
+   "titulo": "Orden de Méritos - Concurso Vocal de Cámara de Niñez, Adolescencia, Violencia Familiar, Género y Penal Juvenil",
+   "detalle": "Confección de orden de méritos para concurso de cobertura de cargos de Vocal de Cámara especializada. Audiencia pública fijada para 20 de agosto de 2026, 14:00 hs.",
+   "organismo": "Consejo de la Magistratura",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_100826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución Normativa",
+   "numero": "2",
+   "titulo": "Dirección General de Catastro - Modificación Normativa Técnica Catastral - Intervención Organismos Viales",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "110",
+   "titulo": "Tribunal de Cuentas - Corrección Orden de Ingreso Resoluciones - Vocalías",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Acuerdo",
+   "numero": "54",
+   "titulo": "Consejo de la Magistratura - Orden de Méritos Concurso Vocal Cámara Niñez y Adolescencia",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Acuerdo Administrativo",
+   "numero": "5",
+   "titulo": "Cámaras de Apelaciones Civil y Comercial 2ª y 9ª - Conformación Listas Síndicos Concursales",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5578",
+   "titulo": "EPEC - Ejecución Pavimento Líneas Aéreas Norte",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1448",
+   "titulo": "EPEC - Adquisición Relés Diferenciales de Línea",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0088-140006/2026",
+   "titulo": "APROSS - Contratación Auditoría Externa",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "107/2026",
+   "titulo": "Universidad Nacional de Córdoba - Remodelación Secretaría Extensión Facultad Ciencias Económicas",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000330",
+   "titulo": "Tribunal Superior de Justicia - Adquisición Equipos Médicos Emergencia",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000366",
+   "titulo": "Tribunal Superior de Justicia - Traslado Muebles entre Dependencias Poder Judicial",
+   "seccion": "4",
+   "pagina": 2
+  }
+ ],
+ "telegram": "Boletín Oficial Nº 152 (10/08/2026): 7 normas. Destaca: Modificación normativa catastral simplifica intervención de organismos viales; APROSS licita auditoría externa por $4.800 millones (24 meses). Más en https://boletinoficial.cba.gov.ar",
+ "hora_procesado": "02:14",
+ "estado": "publicado"
+}
