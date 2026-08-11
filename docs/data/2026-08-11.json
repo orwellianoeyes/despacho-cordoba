@@ -1,0 +1,290 @@
+{
+ "fecha": "2026-08-11",
+ "numero_boletin": "153",
+ "sintesis_juridica": [
+  "El boletín publica cinco resoluciones y acuerdos administrativos principales. La Resolución 367 del Ministerio de Seguridad renueva habilitaciones a una prestadora de servicios de seguridad privada. La Resolución 34 de Prevención de Accidentes de Tránsito actualiza la Unidad Fija de Multa a $2.105,00. La Resolución 249 de APROSS actualiza aranceles del nomenclador odontológico con vigencia desde el 1° de agosto de 2026. El Consejo de la Magistratura publica un orden de méritos para cobertura de cargos de Vocal de Cámara de Niñez. La Cámara de Apelaciones 2° Nominación dicta acuerdo administrativo conformando listas de síndicos concursales (titulares y suplentes para categorías A y B).",
+  "En materia de contrataciones, se publican licitaciones públicas por APROSS para auditoría externa ($4.800.000.000), el Ministerio de Infraestructura para la obra de regulación de la laguna El Camoati en Viamonte ($491.821.658,24), CASISA para rehabilitación de calzada en autopista Córdoba-Pilar ($5.629.477.140,85), y EPEC para ejecución de pavimento en líneas aéreas norte. Se publica además una subasta electrónica de la Secretaría General de Salud para módulos alimentarios ($304.651.200) y una subasta del Ministerio de Seguridad para mantenimiento de motores fuera de borda ($32.662.620)."
+ ],
+ "sintesis_politica": [
+  "El timing de actualización de aranceles de APROSS en medio del ciclo lectivo sugiere revisión de costos del sistema de obra social provincial. La actualización de la Unidad Fija de Multa refleja la variación en precios de combustibles (según FECAC). La conformación de listas de síndicos concursales después de convocatoria extendida indica demanda significativa de profesionales en insolvencia (156 aspirantes para categoría B). Los movimientos en Seguridad Privada y Tránsito son de rutina administrativa.",
+  "En infraestructura, destaca la licitación de CASISA por casi $5.600 millones para rehabilitación de calzada sur de la autopista Córdoba-Pilar (distribuidor Río Segundo), obra que representa mantenimiento de la Red de Accesos. La obra de APROSS por auditoría externa ($4.800 millones) refleja escala fiscal de organismos de salud provincial. Las subastas de provisión de alimentos y servicios de mantenimiento representan contrataciones de excepción en emergencia."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución N° 249",
+   "clase": "resolucion",
+   "numero": "249/2026",
+   "titulo": "Actualización de aranceles del Nomenclador Odontológico y coseguros de APROSS",
+   "importa": "El Directorio de APROSS actualiza los aranceles del nomenclador odontológico y los coseguros a cargo de los afiliados con vigencia desde el 1° de agosto de 2026, conforme anexos I y II que acompañan el acto. La resolución fundamenta la medida en preservar equilibrio prestacional y optimizar retribución a profesionales odontólogos.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La Resolución se dicta conforme a los artículos 1, 16 y 26 de la Ley N° 9277 de creación de APROSS. El artículo 16 atribuye al Directorio la fijación de montos de coseguros, lo que sustenta la competencia del acto. No se advierte vicio formal; la resolución contiene motivación y dictamen jurídico previo (Subdirección de Asuntos Legales, N° 2026/ALAPR-00000573). Sin embargo, el texto no especifica los montos exactos ni la magnitud del incremento, remitiendo íntegramente a anexos que el boletín no publica.",
+    "politica": "La actualización de aranceles odontológicos genera expectativa de incremento en la participación de afiliados en financiación de prestaciones. Esto afecta tanto a cotizantes activos como a jubilados. La medida se adopta dentro del marco de dificultades fiscales generales del sector salud provincial y responde a demanda de los prestadores de ajustar tarifas. La oposición gremial (UEPC si incluye docentes activos) podría invocar cláusulas de cuidado de beneficiarios.",
+    "oficialista": "Es necesario actualizar aranceles para preservar la viabilidad del sistema y garantizar que los prestadores odontológicos sigan participando en la red de APROSS. Sin incrementos periódicos en tarifas, los profesionales abandonan el sistema. La medida es progresiva: se aumenta la participación de afiliados solo en lo proporcionalmente necesario para mantener equidad prestacional.",
+    "opositora": "Un nuevo aumento de aranceles castiga nuevamente a los afiliados de APROSS en un contexto de pérdida de poder adquisitivo. La resolución no publica los montos exactos, impidiendo control público de la magnitud del impacto. Falta claridad sobre si afectará a jubilados con ingresos fijos."
+   },
+   "texto_oficial": "Artículo 1°.- ACTUALÍZASE el valor de los aranceles del Nomenclador Odontológico, con vigencia a partir del 1° de agosto de 2026, conforme a los valores detallados en el Anexo I que forma parte integrante de este acto, en virtud de los considerandos expuestos. Artículo 2°.- ACTUALÍZASE el valor de los coseguros a cargo de los Afiliados de esta Administración para las prestaciones odontológicas, a partir de la fecha de la presente, en los términos del Anexo II que acompaña a este acto, de conformidad a los argumentos manifestados precedentemente. Artículo 3°.- INSTRUYASE a la Dirección General de Prestación Asistencial y Control de Gestión, Dirección de Administración, Área de Comunicaciones y Subdirección Sistemas y Transformación Digital, a tomar las medidas pertinentes, según corresponda, a efectos de implementar lo aquí dispuesto.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_110826.pdf"
+  },
+  {
+   "tipo": "Resolución N° 34",
+   "clase": "resolucion",
+   "numero": "34/2026",
+   "titulo": "Establecimiento de Unidad Fija de Multa por infracciones a Ley de Tránsito",
+   "importa": "El Director General de Prevención de Accidentes de Tránsito establece la Unidad Fija de Multa (UF) en $2.105,00 para infracciones a la Ley Provincial N° 8560, con vigencia desde la publicación y hasta que se determine nuevo valor. La actualización se basa en el menor precio de venta al público de nafta súper reportado por FECAC al 5 de agosto de 2026.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La resolución respeta el procedimiento establecido en el artículo 121 de la Ley Provincial de Tránsito N° 8560. El mecanismo de vinculación entre multas e índice de combustible es un sistema objetivo que evita decisiones discrecionales. La resolución contiene motivación clara. No se advierte vicio formal; se ordena notificación a autoridades de juzgamiento, Policía Caminera, DGR y Dirección de Sistemas.",
+    "politica": "La actualización de la UF es automática y responde a variable económica externa (precio de combustibles). El ajuste refleja la inflación sin decisión política explícita del titular. No genera controversia política significativa pues es procedimiento reglado desde hace años.",
+    "oficialista": "El mecanismo de la UF vinculada a combustible es objetivo y transparente. Evita que se discuta cada actualización de multas. Refleja fielmente el costo de vida actual.",
+    "opositora": "El aumento de la UF a $2.105 nuevamente encarece las sanciones de tránsito para ciudadanos. Aunque el mecanismo es objetivo, se debería revisar si la vinculación a nafta súper refleja el costo real de fiscalización."
+   },
+   "texto_oficial": "1°: ESTABLECER, el valor de la Unidad Fija de Multa (UF) por infracciones a la Ley Provincial de Transito 8560 (T.O 2004) en la suma de pesos dos mil ciento cinco con cero centavos ($2.105,00). 2°: DISPONER como período de vigencia del valor de la Unidad Fija señalada por el punto que antecede, el comprendido desde el día de la publicación de la presente y hasta que se determine un nuevo valor mediante la resolución respectiva.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_110826.pdf"
+  },
+  {
+   "tipo": "Resolución N° 367",
+   "clase": "resolucion",
+   "numero": "367/2026",
+   "titulo": "Renovación de habilitación como Prestadora de Servicios de Seguridad Privada",
+   "importa": "Se renueva la habilitación de la empresa unipersonal de MARCELO ALEJANDRO RAMOS (CUIT 20-22162051-9) para funcionar como prestadora de servicios de seguridad privada sin autorización para uso de armas, y se renueva en el cargo de Director Técnico al Sr. PETTA Luis Guillermo (DNI 25.172.141), sin autorización para armas. Los responsables deben acreditar dentro de 30 días cumplimiento de obligaciones de inscripción en Ciudadano Digital (CIDI) Nivel 2.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La renovación se sustancia conforme a la Ley N° 10.571 y Resolución Reglamentaria 970/2025. El texto indica que se cumplimentaron requisitos de los artículos 8, 9, 12, 13, 18, 29 inc. b) para la empresa y 10, 13, 18 para el director técnico. Obra informe técnico favorable de la Subdirección de Control y Registro. No se advieren vicios formales. Sin embargo, se condiciona la vigencia plena a acreditación dentro de 30 días de cumplimiento de obligaciones adicionales (aranceles 9 d), 14, 15, 16 de Ley 10.571), lo que crea incertidumbre sobre si la habilitación es ya efectiva o provisional.",
+    "politica": "La renovación de habilitaciones a prestadores de seguridad privada es acto rutinario de control administrativo. No genera controversia política. Refleja que el sector de seguridad privada mantiene actividad regular.",
+    "oficialista": "La renovación garantiza que solo empresas que cumplen estándares de seguridad sigan operando. El requisito de inscripción en CIDI Nivel 2 moderniza la comunicación con el Estado.",
+    "opositora": "Sin relevancia política."
+   },
+   "texto_oficial": "Artículo 1°.- DISPÓNESE la renovación de la habilitación de la empresa unipersonal hasta 10 dependientes de MARCELO ALEJANDRO RAMOS C.U.I.T. 20-22162051-9 con domicilio en calle Chacabuco N° 1172 Dpto. 7 B° Nueva Córdoba de la Ciudad de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas y PROCÉDASE a la renovación en el cargo de Director Técnico del Sr. PETTA, Luis Guillermo D.N.I. N° 25.172.141, a quien se le extenderá credencial habilitante, sin autorización para el uso de armas. Artículo 2°.- Los responsables de la empresa unipersonal hasta 10 dependientes de MARCELO ALEJANDRO RAMOS C.U.I.T. 20-22162051-9, en el plazo de Treinta (30) días a partir de la fecha de la presente Resolución, deberán acreditar el cumplimiento de las obligaciones previstas en los Artículos 9 inc. d), 14, 15 y 16 de la Ley N° 10.571; como así, deberán realizar la registración en el Ciudadano Digital (C.I.D.I.) – Nivel N° 2.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_110826.pdf"
+  },
+  {
+   "tipo": "Acuerdo Administrativo N° 5",
+   "clase": "resolucion",
+   "numero": "5/2026",
+   "titulo": "Conformación de listas de Síndicos Concursales (Categorías A y B)",
+   "importa": "La Cámara de Apelaciones 2° Nominación conforma listas de síndicos concursales (titulares y suplentes para categorías A y B) para los Juzgados con competencia concursal de la Primera Circunscripción Judicial. Para categoría A: 36 estudios contables como titulares. Para categoría B: 80 contadores individuales como titulares con experiencia (68 de ellos) y 12 nóveles; 56 suplentes. Se publican nóminas completas con datos personales y domicilios constituidos.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "El acuerdo administrativo se dicta conforme al Acuerdo Reglamentario 958 del TSJ (modificado por Acuerdo Reglamentario 1270 de 2015) y Ley de Concursos y Quiebras. El procedimiento respeta criterios de preferencia establecidos por la norma: primero, especialización en sindicatura concursal; segundo, domicilio real y profesional en la circunscripción; tercero, orden de mérito por evaluación de antecedentes. Se advierte que de 36 estudios inscriptos para categoría A, insuficientes para cubrir vacantes requeridas (40 titulares + 24 suplentes = 64 vacantes), por lo que se procede a duplicar la lista A como lista B en condición de suplentes según protocolo previsto. Para categoría B noveles, solo 6 de 32 aspirantes cumplen ambos requisitos de preferencia, restantes cubiertos por orden de mérito.",
+    "politica": "La conformación de listas de síndicos refleja demanda significativa de profesionales en insolvencia: 156 aspirantes totales (36 estudios A + 120 individuos B), de los que 76 con experiencia concursal. Esto sugiere mercado profesional dinámico en materia concursal. No hay indicios de controversia o exclusiones irregulares; se respeta protocolo y publicación de orden de méritos.",
+    "oficialista": "El proceso fue transparente, con convocatoria abierta, plazo ampliado y evaluación conforme a criterios objetivos. Resultan 156 profesionales habilitados para cumplir función de síndico concursal.",
+    "opositora": "Sin relevancia política significativa."
+   },
+   "texto_oficial": "SE RESUELVE: I.- Conformar la lista de Síndicos titulares para la Categoría \"A\", con los siguientes estudios contables: [lista de 36 estudios con integrantes, domicilios y correos]. II. Conformar la lista de Síndicos titulares para la Categoría \"B\", de acuerdo al orden de preferencia y de mérito indicados en el considerando respectivo con los contadores: [lista de 80 contadores con DNI, matrícula, domicilio constituido y correo electrónico]. III. Conformar la lista de Síndicos suplentes para la Categoría \"A\", de acuerdo al orden establecido con los siguientes estudios: [lista de 36 estudios]. IV. Conformar la lista de Síndicos suplentes para la Categoría \"B\", de acuerdo al orden establecido con los siguientes contadores: [lista de 28 contadores]. V. Publicar la presente durante tres días corridos en el Boletín Oficial de la Provincia conforme las pautas y a los fines establecidos por el art. 12 del Reglamento Único.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_110826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "clase": "licitacion",
+   "numero": "0088-140006/2026",
+   "titulo": "Contratación de servicio de auditoría externa para APROSS",
+   "importa": "APROSS llama a licitación pública presencial para contratación de servicio de auditoría externa por 24 meses (con opción a prórroga por igual término) con presupuesto oficial de $4.800.000.000 (impuestos incluidos). Apertura de ofertas: 27/08/2026 a las 12:30 hs. Lugar: Oficina APROSS, Entre Ríos 160, Córdoba.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La licitación respeta procedimientos de Decreto Reglamentario 305/2014. Plazo para presentación: 27/08/2026 de 08:30 a 10:00 hs en Mesa de Entradas (SUAC) de APROSS, Alvear 758. Se permiten consultas electrónicas hasta 5 días hábiles antes del cierre (comprasbienes@apross.gov.ar). Pliegos disponibles en portal oficial de compras y contrataciones (compraspublicas.cba.gov.ar). No se advierte vicio formal.",
+    "politica": "Auditoría externa para APROSS es requisito de control institucional obligatorio. Licitación por $4.800 millones refleja escala de operaciones del organismo de salud provincial y probablemente cubre período de auditoría de estados contables 2024-2025.",
+    "oficialista": "Licitación pública garantiza transparencia y competencia en selección de auditor externo independiente, requisito esencial para legitimidad de actos administrativos.",
+    "opositora": "Sin relevancia política."
+   },
+   "texto_oficial": "ADMINISTRACIÓN PROVINCIAL DEL SEGURO DE SALUD -APROSS- llama a LICITACIÓN PÚBLCIA PRESENCIAL PARA LA CONTRATACIÓN DEL SERVICIO DE AUDITORÍA EXTERNA, según PLIEGO DE ESPECIFICACIONES TÉCNICAS. Plazo de duración: veinticuatro (24) meses, contados a partir de la fecha de adjudicación mediante acto administrativo pertinente, con opción a prórroga a favor de la APROSS por hasta igual término, conforme lo previsto por el artículo 7.1.6.3 inciso b) del Decreto Reglamentario N° 305/2014. Presupuesto Oficial estimado: PESOS CUATRO MIL OCHOCIENTOS MILLONES CON 00/100. ($4.800.000.000,00) IMPUESTOS INCLUIDOS.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_110826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública con Soporte Digital",
+   "clase": "licitacion",
+   "numero": "0733-012024/2026",
+   "titulo": "Obra de regulación de la laguna El Camoati, localidad de Viamonte, Departamento Unión",
+   "importa": "Secretaría de Infraestructura Hídrica y Gasífera licita obra de regulación de laguna El Camoati (Viamonte, Dpto. Unión), primera categoría. Presupuesto oficial: $491.821.658,24 (IVA incluido, julio 2026). Plazo de ejecución: 240 días corridos desde acta de replanteo. Presentación: portal digital hasta 24/08/2026 a las 12:00 hs. Apertura: 25/08/2026 a las 12:00 hs en subsuelo del Ministerio de Infraestructura, Humberto Primo 607, Córdoba.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La licitación se rige por Decreto 583/2016 (plataforma digital), Ley 8.614 de obras públicas y normas complementarias. Presupuesto oficial de $491,8 millones incluye IVA, beneficios, costos directos e indirectos, administrativos y cargas tributarias. Garantía de oferta: 1% del presupuesto. Consultas hasta 3 días hábiles antes de cierre. Pliegos en portal compraspublicas.cba.gov.ar. El texto no especifica si la obra es de reparación, expansión o construcción nueva de la laguna.",
+    "politica": "Regulación de laguna El Camoati responde a temáticas de emergencia hídrica provincial. La obra representa inversión en infraestructura de riego/drenaje en zona de Viamonte (Dpto. Unión). Costo de ~$492 millones sugiere obra de mediano alcance. Posible relación con programas de mitigación de inundaciones o mejora de disponibilidad hídrica en región semiárida.",
+    "oficialista": "Obra de regulación hídrica es esencial para desarrollo agrícola y control de inundaciones en zonas rurales.",
+    "opositora": "Sin relevancia política significativa sin información adicional sobre localización exacta y beneficiarios."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución Nº 2026/RSIHG-00000613 de la Secretaría de Infraestructura Hídrica y Gasífera, se efectúa el Llamado a Licitación Pública para la contratación de la \"OBRA DE REGULACIÓN DE LA LAGUNA \"EL CAMOATI\" - LOCALIDAD DE VIAMONTE - DPTO. UNIÓN\". ENTIDAD U ORGANISMO QUE LICITA: Secretaría de Infraestructura Hídrica y Gasífera del Ministerio de Infraestructura y Servicios Públicos. CATEGORÍA DE LA OBRA: Primera Categoría. La Licitación se efectuará conforme lo normado por el Decreto Nº 583/2016.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_110826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000019",
+   "titulo": "Rehabilitación de calzada en autopista Córdoba-Pilar, tramo calzada sur, distribuidor Río Segundo a intersección Ruta Provincial N° 13",
+   "importa": "CASISA licita rehabilitación de calzada sur de autopista Córdoba-Pilar, tramo desde distribuidor Río Segundo hasta intersección con Ruta Provincial N° 13. Presupuesto oficial: $5.629.477.140,85 (IVA incluido). Presentación: portal digital CASISA hasta 24/08/2026 a las 12:00 hs. Apertura: 24/08/2026 a las 14:30 hs. Garantía: 1% del presupuesto. Pliegos sin valor en https://ecommerce.casisa.com.ar.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La licitación es competencia exclusiva de CASISA (Caminos de las Sierras S.A.), concesionaria de la Red de Accesos a Córdoba (RAC). La obra corresponde a su línea de responsabilidad y financiamiento mediante peajes. Procedimiento digital conforme a portal de compras CASISA. Presupuesto de $5.629 millones refleja alcance significativo de rehabilitación de pavimento en tramo importante de la autopista.",
+    "politica": "La obra de rehabilitación de calzada sur representa mantenimiento rutinario de la RAC por CASISA. Tramo desde Río Segundo a intersección con Ruta Provincial 13 cubre sección crítica de conexión con red provincial. Costo elevado (~$5.630 millones) sugiere estado significativo de deterioro o necesidad de repavimentación completa. Posible relación con quejas de usuarios sobre estado de pavimento en zona.",
+    "oficialista": "Rehabilitación de autopista es esencial para seguridad vial y eficiencia de transportes. CASISA mantiene infraestructura conforme a obligaciones concesionarias.",
+    "opositora": "Montos de licitación de CASISA podrían justificarse por tarifas de peaje; se debería verificar transparencia en cálculo de costos."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA 2026/000019 - REHABILITACIÓN DE CALZADA EN AUTOPISTA CÓRDOBA –PILAR. TRAMO: CALZADA SUR – DISTRIBUIDOR RÍO SEGUNDO – INTERSECCIÓN RUTA PROVINCIAL N°13. Presupuesto Oficial: $5.629.477.140,85 con IVA incluido. Los pliegos estarán disponibles en el portal de Compras y Contrataciones de Caminos de las Sierras S.A. https://ecommerce.casisa.com.ar/#!/login. Lugar, horario y fecha de presentación de ofertas: Las Ofertas deberán presentarse digitalmente en el portal de Compras y Contrataciones de Caminos de las Sierras S.A. hasta las 12:00hs del día 24/08/2026.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_110826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Acuerdo N° 54 del Consejo de la Magistratura",
+   "titulo": "Orden de méritos para cobertura de cargo de Vocal de Cámara de Niñez, Adolescencia, Violencia Familiar, Género y Penal Juvenil",
+   "detalle": "El Consejo de la Magistratura, presidido por Dra. María M. Cáceres de Bollati e integrado por Leandro Goria, Héctor R. David, Facundo Torres Lima, Laura Battistelli, Marcela Abrile, María de las M. Recanatti Nuñez Zurita y Maximiliano Machuca, confecciona orden de méritos para concurso de cobertura de cargo de Vocal. Audiencia pública: 20/08/2026 a las 14:00 hs, Avda. Gral. Paz 70, 6° piso, Córdoba.",
+   "organismo": "Consejo de la Magistratura",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_110826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "367/2026",
+   "titulo": "Renovación de habilitación de Prestadora de Servicios de Seguridad Privada",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "34/2026",
+   "titulo": "Establecimiento de Unidad Fija de Multa por infracciones a Ley de Tránsito",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "249/2026",
+   "titulo": "Actualización de aranceles del Nomenclador Odontológico y coseguros de APROSS",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Acuerdo",
+   "numero": "54/2026",
+   "titulo": "Orden de méritos para concurso de Vocal de Cámara de Niñez, Adolescencia, Violencia Familiar, Género y Penal Juvenil",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Acuerdo Administrativo",
+   "numero": "5/2026",
+   "titulo": "Conformación de listas de Síndicos Concursales (Categorías A y B)",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "numero": "0088-140006/2026",
+   "titulo": "Contratación de servicio de auditoría externa para APROSS",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública con Soporte Digital",
+   "numero": "0733-012024/2026",
+   "titulo": "Obra de regulación de la laguna El Camoati, Viamonte",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5578",
+   "titulo": "Ejecución de pavimento en líneas aéreas norte - EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1448",
+   "titulo": "Adquisición de 10 relés diferenciales de línea con respaldo de impedancia - EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000019",
+   "titulo": "Rehabilitación de calzada en autopista Córdoba-Pilar, tramo calzada sur - CASISA",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "SC 2026/000027",
+   "titulo": "Adquisición de módulos alimentarios - Secretaría General de Salud y Desarrollo Humano",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "2026/000010",
+   "titulo": "Contratación de setenta y dos servicios de mantenimiento para motores fuera de borda - Ministerio de Seguridad",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000330",
+   "titulo": "Adquisición de equipos médicos de emergencia - Tribunal Superior de Justicia",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000366",
+   "titulo": "Contratación de servicio de traslado de muebles - Tribunal Superior de Justicia",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento",
+   "numero": "—",
+   "titulo": "Personería jurídico política comunal - Movimiento Vecinal Potrero de Garay",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento",
+   "numero": "—",
+   "titulo": "Personería jurídico política municipal - Despeñaderos Humanista",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento",
+   "numero": "—",
+   "titulo": "Personería jurídico política municipal - Somos Costa Sacate",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento",
+   "numero": "—",
+   "titulo": "Personería jurídico política municipal - Evolución Cruzdelejeña",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento",
+   "numero": "—",
+   "titulo": "Personería jurídico política municipal - Activar Ischilín",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Estado Anual Patrimonial",
+   "numero": "—",
+   "titulo": "Partido Laborista - Ejercicio 2025",
+   "seccion": "4",
+   "pagina": 4
+  }
+ ],
+ "telegram": "Boletín Oficial N° 153 | 11 de agosto de 2026. Seis normas destacadas: APROSS actualiza aranceles odontológicos (Res. 249); Tránsito fija UF en $2.105 (Res. 34); licitaciones por $4.800M (auditoría APROSS), $491M (laguna Camoati) y $5.629M (pavimento Córdoba-Pilar por CASISA); conformación de 156 síndicos concursales. Accedé a la app para detalles completos: https://boletinoficial.cba.gov.ar",
+ "hora_procesado": "09:10",
+ "estado": "publicado"
+}
