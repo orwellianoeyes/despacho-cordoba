@@ -1,0 +1,487 @@
+{
+ "fecha": "2026-08-12",
+ "numero_boletin": "154",
+ "sintesis_juridica": [
+  "El Boletín publica normas de educación (aprobación de certificaciones de saberes en inteligencia artificial y formación profesional en investigación criminal), resoluciones de seguridad privada (habilitaciones de tres empresas), designaciones notariales, acuerdos del Consejo de la Magistratura para órdenes de méritos en concursos de cargos judiciales, licitaciones públicas de infraestructura y auditoría, y edictos de la Ley 9150 sobre regularización de posesiones inmobiliarias.",
+  "No se identifican modificaciones a leyes vigentes ni derogaciones. Las normas constituyen actos de aprobación, habilitación y designación en el marco de regímenes preexistentes, sin cambios sustanciales en la estructura normativa provincial. Se destaca la ausencia de medidas de emergencia o delegaciones legislativas excesivas en los instrumentos publicados."
+ ],
+ "sintesis_politica": [
+  "La edición refleja actividad administrativa ordinaria en educación, seguridad y justicia. La aprobación de nuevas certificaciones en inteligencia artificial y formación en investigación criminal alinea con políticas de modernización curricular y capacitación técnica. Los concursos del Consejo de la Magistratura para vocal de cámara especializada y juez electoral responden al calendario regular de cobertura de cargos judiciales, con audiencias públicas programadas para mediados de agosto.",
+  "No se detectan controversias políticas explícitas ni medidas de impacto redistributivo inmediato. Las licitaciones por más de 5.600 millones de pesos (auditoría de APROSS y obra de regulación de laguna) son actos de ejecución presupuestaria sin indicios de conflictividad sectorial relevante en la edición del día."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "131",
+   "titulo": "Aprobación de implementación de Certificación de Saberes y Competencias para la Vida y el Trabajo – Curso Introducción a la Inteligencia Artificial para estudiantes de Nivel Secundario",
+   "importa": "El Ministerio de Educación aprueba la emisión de certificación para participantes que aprueben el curso de inteligencia artificial (40 horas reloj) dictado por el Instituto Superior Politécnico Córdoba, con validez para créditos académicos en el Sistema Educativo Provincial. Vínculo posible con tema vigilado 'Educación' (formación de competencias digitales en secundario).",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Resolución de cumplimiento de procedimiento: valida y ratifica certificación dentro de marco legal establecido por Resolución Ministerial N° 340/2025 sobre 'Certificación de Saberes y Competencias para la Vida y el Trabajo'. Respeta competencia ministerial en diseño curricular (Leyes 9870/10 provincial y 26.206 nacional). No identifica vicios formales ni contradicciones constitucionales.",
+    "politica": "Integración del sistema educativo secundario con tecnologías emergentes (IA). Posibilita trayectoria educativa con certificación reconocida, facilitando acceso de estudiantes a herramientas modernas. Sin impacto fiscal directo ni redistribución presupuestaria inmediata.",
+    "oficialista": "Fortalece vínculo entre educación y mercado laboral, desarrolla pensamiento crítico y ética digital en adolescentes, alinea currículum con demandas de sector tecnológico y economía del conocimiento.",
+    "opositora": "Sin elementos de crítica evidente en el texto; la medida responde a consenso pedagógico moderno. Posible cuestión sobre financiamiento de infraestructura TIC en escuelas públicas (no aclarada en aviso)."
+   },
+   "texto_oficial": "Art. 1°.- APROBAR la implementación y la consecuente emisión de la 'Certificación de Saberes y Competencias para la Vida y el Trabajo' para los participantes que hayan cumplimentado y aprobado las instancias evaluativas del 'INTRODUCCIÓN A LA INTELIGENCIA ARTIFICIAL – CURSO PARA ESTUDIANTES DE NIVEL SECUNDARIO', dictado por el Instituto Superior Politécnico Córdoba. Art. 2°.- ESTABLECER que la acción formativa mencionada acredita una carga total de cuarenta (40) horas reloj, debiendo consignarse expresamente en los certificados el ciclo lectivo correspondiente. Art. 3°.- DETERMINAR que la formación tendrá como propósito el desarrollo y acreditación de saberes y habilidades vinculados a la formación para la vida y el trabajo, en articulación con el sistema de créditos académicos definido por la Resolución Ministerial N° 340/2025. Art. 4°.- RATIFICAR que la presente certificación posee validez para la obtención de créditos académicos en el Sistema Educativo Provincial, permitiendo la transitabilidad y el reconocimiento de saberes en los niveles Secundario y Superior, conforme a lo estipulado en el Art. 5° de la Resolución Ministerial N° 340/2025.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1190 - Letra D",
+   "titulo": "Aprobación del Diseño Curricular del Trayecto de Formación Profesional Continua de Especialización en Investigación Criminal – Detective Policial",
+   "importa": "El Ministerio de Educación aprueba diseño curricular para trayecto de especialización en investigación criminal (detective policial) a implementarse desde ciclo lectivo 2026 en instituciones educativas reconocidas. Vínculo explícito con tema vigilado 'Educación'.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Acto de aprobación dentro de competencia ministerial. Se ajusta a Leyes 9870/10 (Educación Provincial), 26.206 (Educación Nacional) y 26.058 (Educación Técnico Profesional), y lineamientos de Resolución N° 287/16 del Consejo Federal de Educación. Dictamen jurídico Nº 2026/00002173 de Área Jurídica del Ministerio da conformidad. No se detectan vicios formales ni delegaciones excesivas.",
+    "politica": "Ampliación de oferta de formación profesional especializada orientada a seguridad pública. Responde a demanda estatal de capacitación en investigación criminal. Sin controversia política explícita; alineado con objetivos de profesionalización de fuerzas de seguridad provincial.",
+    "oficialista": "Fortalece capacitación técnica en investigación criminal, mejora calidad de trabajo policial, abre trayectoria laboral y de especialización para estudiantes de educación técnica.",
+    "opositora": "Sin elementos críticos aparentes; posible cuestionamiento sobre vinculación entre educación técnica civil y capacitación policial (frontera institucional no siempre clara)."
+   },
+   "texto_oficial": "Art. 1°.- APROBAR el Diseño Curricular del Trayecto de Formación Profesional Continua de Especialización en 'INVESTIGACIÓN CRIMINAL – DETECTIVE POLICIAL', para su implementación a partir del ciclo lectivo 2026, en instituciones educativas reconocidas por este Ministerio, según se detalla en el Anexo I, conformado en el Orden N° 1, que compuesto de cuarenta y cinco (45) páginas forma parte de la presente resolución.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1199 - Letra D",
+   "titulo": "Ratificación de Resolución N° 2026/PRIVA-00000408 – Aprobación de modificaciones al Plan de Estudios de Tecnicatura Superior en Radiología del Instituto Berrotarán",
+   "importa": "Ministerio de Educación ratifica aprobación de modificaciones al plan de estudios de carrera técnica superior en radiología (3 años, 1.941 horas) en institución privada de Berrotarán, aplicable desde ciclo lectivo 2027. Tema vigilado: Educación.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Acto de ratificación (segundo grado de control administrativo) dentro de competencia ministerial sobre instituciones de gestión privada. Cumple con requisitos de Ley N° 5326 y remite a dictamen jurídico Nº 2026/00001988. Procedimiento regular; no se advierte informalidad.",
+    "politica": "Actualización de oferta de formación técnica superior en institución privada. Sin impacto fiscal directo ni conflictividad política aparente.",
+    "oficialista": "Moderniza currículum de carrera técnica en radiología, mejora empleabilidad de graduados, actualiza estándares pedagógicos.",
+    "opositora": "Sin crítica evidente; posible observación sobre insuficiente regulación de aranceles en educación técnica privada (no abordado en aviso)."
+   },
+   "texto_oficial": "Art. 1°.- RATIFICAR la Resolución N° 2026/PRIVA-00000408 emanada de la Dirección General de Educación Pública de Gestión Privada, la que compuesta de cincuenta y cinco (55) páginas útiles, se adjunta y forma parte del presente instrumento legal, por la que se aprueban las modificaciones al Plan de Estudios de la Carrera 'Tecnicatura Superior en Radiología' – opción pedagógica Presencial – de tres (3) años de duración y una carga horaria de mil novecientos cuarenta y una (1941) horas reloj, en el 'INSTITUTO BERROTARÁN' – Nivel Superior – de Berrotarán, Departamento Rio Cuarto, para su aplicación a partir del ciclo lectivo 2027.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "4",
+   "titulo": "Designación de Notario Adscripto al Registro Notarial N° 135 de Río Tercero",
+   "importa": "Ministerio Jefatura de Gabinete designa al escribano Lucas Emmanuel Lelli, matrícula 2647, como adscripto al Registro Notarial N° 135 de Río Tercero. Designación de funcionario notarial.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Acto de designación dentro de competencia ministerial conforme Ley N° 4183 modificada por Ley N° 6276. Condiciones cumplidas: petición de titular registral, conformidad del designado, informes favorable de Tribunal de Disciplina Notarial y Colegio de Escribanos. Dictamen Dirección General de Legales N° 006/2026. Procedimiento correcto; no se advierte defectos.",
+    "politica": "Acto ordinario de designación de personal técnico-profesional. Sin relevancia política directa.",
+    "oficialista": "Fortalece estructura notarial local, facilita acceso a servicios notariales en Río Tercero.",
+    "opositora": "Sin elementos críticos detectables."
+   },
+   "texto_oficial": "Artículo 1°.- DESÍGNASE al Escribano Lucas Emmanuel LELLI, D.N.I. N° 31.248.070 - Clase 1984-, Matrícula Profesional N° 2647, como Adscripto al Registro Notarial N° 135 con asiento en la ciudad de Río Tercero, Departamento Tercero Arriba de esta Provincia.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "368",
+   "titulo": "Habilitación de empresa BLACK HAWK SEGURIDAD S.R.L. como Prestadora de Servicios de Seguridad Privada",
+   "importa": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad) habilita a empresa BLACK HAWK SEGURIDAD S.R.L. (CUIT 30-71311450-9, Villa Allende) para funcionar como prestadora de servicios de seguridad privada sin autorización para uso de armas. Designa a Félix Oscar de la Reta como Director Técnico.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Acto administrativo de habilitación conforme Ley N° 10.571 y Resolución Reglamentaria 970/2025. Empresa ha cumplido requisitos de artículos 8, 9, 10, 13, 18, 29 inc. a) punto 1 y concordantes. Director Técnico cumple documentación requerida. Subdirección de Control emite informe técnico favorable. Dictamen jurídico Nº 2026/DAL-00000856 de Dirección de Jurisdicción de Asuntos Legales. Plazo de 60 días corridos para acreditar obligaciones adicionales (artículos 9 inc. d), 14, 15 y 16 de Ley N° 10.571). Obligación de registración en Ciudadano Digital (C.I.D.I.) Nivel N° 2.",
+    "politica": "Acto ordinario de habilitación de prestador privado de seguridad. Sin controversia política identificable.",
+    "oficialista": "Amplía oferta de servicios de seguridad privada certificados, fortalece control regulatorio sobre prestadores, impulsa formalización del sector.",
+    "opositora": "Sin crítica evidente en la regulación estándar."
+   },
+   "texto_oficial": "Artículo 1°.- DISPÓNESE la habilitación de la empresa 'BLACK HAWK SEGURIDAD S.R.L.' C.U.I.T. 30-71311450-9, con domicilio legal en calle Emilio Lamarca N° 903, Villa Allende, Provincia de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas y; PROCÉDASE a la designación como Director Técnico de la empresa al Sr. DE LA RETA Félix Oscar D.N.I. N° 11.486.941, a quien se le extenderá credencial habilitante, sin autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "369",
+   "titulo": "Habilitación de empresa EL VISOR S.R.L. como Prestadora de Servicios de Seguridad Privada",
+   "importa": "Dirección de Control y Gestión Operativa en Seguridad Privada habilita a empresa EL VISOR S.R.L. (CUIT 33-70786539-9, Villa Santa Cruz de Lago, Punilla) como prestadora de servicios de seguridad privada sin autorización para uso de armas. Designa a Pilar Zarco Pérez como Directora Técnica.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Habilitación conforme Ley N° 10.571. Empresa cumple requisitos formales (artículos 8, 9, 10, 13, 18, 29 inc. a) punto 1). Directora Técnica acredita documentación requerida. Informe técnico favorable. Dictamen jurídico Nº 2026/DAL-00000857 de Dirección de Jurisdicción de Asuntos Legales. Plazo de 60 días para acreditar obligaciones adicionales y registración en C.I.D.I. Nivel N° 2.",
+    "politica": "Acto ordinario de habilitación de prestador de seguridad privada.",
+    "oficialista": "Amplía cobertura de servicios de seguridad certificados y regulados.",
+    "opositora": "Sin crítica detectada."
+   },
+   "texto_oficial": "Artículo 1°.- DISPÓNESE la habilitación de la empresa 'EL VISOR S.R.L.' C.U.I.T. 33-70786539-9, con domicilio legal en calle Los Jazmines N° 384 Villa Santa Cruz De Lago, Punilla, Provincia de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas y; PROCÉDASE a la designación como Director Técnico de la empresa a la Sra. ZARCO PEREZ Pilar D.N.I. N° 25.919.039, a quien se le extenderá credencial habilitante, sin autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "370",
+   "titulo": "Habilitación de empresa Q&M SERVICIO Y VIGILANCIA PRIVADA S.R.L. como Prestadora de Servicios de Seguridad Privada",
+   "importa": "Dirección de Control y Gestión Operativa en Seguridad Privada habilita a empresa Q&M SERVICIO Y VIGILANCIA PRIVADA S.R.L. (CUIT 30-71657154-4, Valle Hermoso, Punilla) como prestadora de servicios de seguridad privada sin autorización para uso de armas. Designa a Héctor Ignacio Brunotto Amelianovich como Director Técnico.",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Habilitación conforme Ley N° 10.571. Empresa cumple requisitos artículos 8, 9, 10, 13, 18, 29 inc. a) punto 1. Director Técnico acredita documentación requerida (artículos 10, 13, 18 Ley N° 10.571 y Resolución Reglamentaria 970/2025). Informe técnico favorable de Subdirección de Control. Dictamen jurídico Nº 2026/DAL-00000855. Plazo de 60 días para obligaciones adicionales y registración en C.I.D.I. Nivel N° 2.",
+    "politica": "Acto ordinario de habilitación.",
+    "oficialista": "Amplía oferta de servicios regulados de seguridad privada.",
+    "opositora": "Sin crítica aparente."
+   },
+   "texto_oficial": "Artículo 1°.- DISPÓNESE la habilitación de la empresa 'Q&M SERVICIO Y VIGILANCIA PRIVADA S.R.L.' C.U.I.T. 30-71657154-4, con domicilio legal en calle Donizetti N° 1270, Valle Hermoso, Departamento Punilla, Provincia de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas y; PROCÉDASE a la designación como Director Técnico de la empresa al Sr. BRUNOTTO AMELIANOVICH Héctor Ignacio D.N.I. N° 23.255.381, a quien se le extenderá credencial habilitante, sin autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "Acuerdo",
+   "clase": "resolucion",
+   "numero": "54",
+   "titulo": "Orden de Méritos – Concurso para cobertura de cargos de Vocal de Cámara de Niñez, Adolescencia, Violencia Familiar, Género y Penal Juvenil",
+   "importa": "Consejo de la Magistratura confecciona orden de méritos para concurso de cargos de Vocal de Cámara especializada (niñez, adolescencia, violencia familiar, género y penal juvenil). Audiencia pública fijada para 20 de agosto de 2026 a las 14:00 hs. Tema vigilado: Tribunal de Cuentas / Organismos de control (Consejo de la Magistratura es órgano constitucional).",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Acuerdo del Consejo de la Magistratura (órgano de gobierno del Poder Judicial creado por Ley 8802) conforme procedimiento legal de concursos de cargos judiciales. Orden de méritos confeccionado según puntaje de concursantes. Audiencia pública prevista por artículo 29 de Ley 8802 fijada para 20 de agosto. Procedimiento alineado con garantías de transparencia y participación ciudadana en selección de magistrados.",
+    "politica": "Proceso ordinario de cobertura de cargos judicales especializados. La Cámara de Niñez, Adolescencia, Violencia Familiar, Género y Penal Juvenil es área de impacto social relevante. Sin controversia política explícita en la edición.",
+    "oficialista": "Avanza en cobertura de cargos especializados en temas de protección de menores, violencia de género y justicia restaurativa.",
+    "opositora": "Sin crítica evidente en procedimiento transparente."
+   },
+   "texto_oficial": "1°: Confeccionar el ORDEN DE MERITOS correspondiente al concurso para cobertura de cargos de VOCAL DE CÁMARA DE NIÑEZ, ADOLESCENCIA, VIOLENCIA FAMILIAR, GÉNERO Y PENAL JUVENIL con el puntaje total obtenido por los concursantes, conforme al cuadro anexo. 2°: Protocolícese, notifíquese y archívese. 'El Consejo de la Magistratura de la Provincia de Córdoba hace saber que la audiencia pública prevista por el art. 29 de la Ley 8802 ha sido fijada para el día 20 de agosto de 2026 a las 14:00 hs., en Avda. Gral. Paz nº 70, 6º piso de la ciudad de Córdoba'.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "Acuerdo",
+   "clase": "resolucion",
+   "numero": "57",
+   "titulo": "Orden de Méritos – Concurso para cobertura del cargo de Juez Electoral de la Provincia de Córdoba",
+   "importa": "Consejo de la Magistratura confecciona orden de méritos para concurso de cargo de Juez Electoral. Audiencia pública fijada para 21 de agosto de 2026 a las 17:30 hs. Tema vigilado: Magistratura/organismos judiciales.",
+   "seccion": "1",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Acuerdo del Consejo de la Magistratura conforme Ley 8802. Orden de méritos confeccionado según puntaje de concursantes en concurso público. Audiencia pública prevista por artículo 29 de Ley 8802 fijada para 21 de agosto a las 17:30 hs. Procedimiento transparente y reglado.",
+    "politica": "Cobertura de cargo electoral especializado. Sin controversia política aparente; proceso ordinario de selección de magistrado electoral.",
+    "oficialista": "Avanza en transparencia de procesos electorales mediante selección de juez electoral por concurso público.",
+    "opositora": "Sin crítica identificada."
+   },
+   "texto_oficial": "1°: Confeccionar el ORDEN DE MERITOS correspondiente al concurso para cobertura del cargo de JUEZ ELECTORAL DE LA PROVINCIA DE CÓRDOBA con el puntaje total obtenido por los concursantes, conforme al cuadro anexo. 2°: Protocolícese, notifíquese y archívese. 'El Consejo de la Magistratura de la Provincia de Córdoba hace saber que la audiencia pública prevista por el art. 29 de la Ley 8802 ha sido fijada para el día 21 de agosto de 2026 a las 17:30 hs., en Avda. Gral. Paz nº 70, 6º piso de la ciudad de Córdoba'.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "designacion",
+   "clase": "designacion",
+   "instrumento": "Resolución N° 4",
+   "titulo": "Designación de Escribano Adscripto",
+   "detalle": "Lucas Emmanuel Lelli (DNI 31.248.070, Matrícula Profesional N° 2647) como Adscripto al Registro Notarial N° 135, Río Tercero, Departamento Tercero Arriba.",
+   "organismo": "Registro Notarial N° 135",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "designacion",
+   "clase": "designacion",
+   "instrumento": "Resolución N° 368",
+   "titulo": "Designación de Director Técnico de empresa de seguridad privada",
+   "detalle": "Félix Oscar de la Reta (DNI 11.486.941) como Director Técnico de BLACK HAWK SEGURIDAD S.R.L.",
+   "organismo": "BLACK HAWK SEGURIDAD S.R.L.",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "designacion",
+   "clase": "designacion",
+   "instrumento": "Resolución N° 369",
+   "titulo": "Designación de Directora Técnica de empresa de seguridad privada",
+   "detalle": "Pilar Zarco Pérez (DNI 25.919.039) como Directora Técnica de EL VISOR S.R.L.",
+   "organismo": "EL VISOR S.R.L.",
+   "pagina": 4,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  },
+  {
+   "tipo": "designacion",
+   "clase": "designacion",
+   "instrumento": "Resolución N° 370",
+   "titulo": "Designación de Director Técnico de empresa de seguridad privada",
+   "detalle": "Héctor Ignacio Brunotto Amelianovich (DNI 23.255.381) como Director Técnico de Q&M SERVICIO Y VIGILANCIA PRIVADA S.R.L.",
+   "organismo": "Q&M SERVICIO Y VIGILANCIA PRIVADA S.R.L.",
+   "pagina": 5,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_120826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "131",
+   "titulo": "Aprobación de implementación de Certificación de Saberes y Competencias para la Vida y el Trabajo – Curso Introducción a la Inteligencia Artificial para estudiantes de Nivel Secundario",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1190 - Letra D",
+   "titulo": "Aprobación del Diseño Curricular del Trayecto de Formación Profesional Continua de Especialización en Investigación Criminal – Detective Policial",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1199 - Letra D",
+   "titulo": "Ratificación de Resolución N° 2026/PRIVA-00000408 – Aprobación de modificaciones al Plan de Estudios de Tecnicatura Superior en Radiología del Instituto Berrotarán",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "4",
+   "titulo": "Designación de Notario Adscripto al Registro Notarial N° 135 de Río Tercero",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "368",
+   "titulo": "Habilitación de empresa BLACK HAWK SEGURIDAD S.R.L. como Prestadora de Servicios de Seguridad Privada",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "369",
+   "titulo": "Habilitación de empresa EL VISOR S.R.L. como Prestadora de Servicios de Seguridad Privada",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "370",
+   "titulo": "Habilitación de empresa Q&M SERVICIO Y VIGILANCIA PRIVADA S.R.L. como Prestadora de Servicios de Seguridad Privada",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Acuerdo",
+   "numero": "54",
+   "titulo": "Orden de Méritos – Concurso para cobertura de cargos de Vocal de Cámara de Niñez, Adolescencia, Violencia Familiar, Género y Penal Juvenil",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Acuerdo",
+   "numero": "57",
+   "titulo": "Orden de Méritos – Concurso para cobertura del cargo de Juez Electoral de la Provincia de Córdoba",
+   "seccion": "1",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "numero": "Expediente Nº 0088-140006/2026",
+   "titulo": "Licitación Pública Presencial – Contratación del Servicio de Auditoría Externa de APROSS",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública con Soporte Digital",
+   "numero": "Expte. N° 0733-012024/2026",
+   "titulo": "Licitación Pública – Obra de Regulación de la Laguna 'El Camoati' – Localidad de Viamonte – Dpto. Unión",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000019",
+   "titulo": "Licitación Pública CASISA – Rehabilitación de Calzada en Autopista Córdoba–Pilar. Tramo: Calzada Sur – Distribuidor Río Segundo – Intersección Ruta Provincial N°13",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "Expediente N.º 0646-000888/2026",
+   "titulo": "Compulsa Abreviada Electrónica – Contratación de cuatro (4) profesionales para unidades de CEPROCOR",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "SOLICITUD DE COTIZACIÓN N° 2026/000373",
+   "titulo": "Compulsa Abreviada Electrónica – Servicio de mantenimiento preventivo y de urgencias de Ascensores en edificios del Poder Judicial",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Líneas de Ribera",
+   "numero": "Expediente N° 0733-012164/2026",
+   "titulo": "Aprobación de Líneas de Ribera Definitiva y Línea de Riesgo Hídrico del Arroyo La Cañada – Córdoba Capital",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento de Personería Jurídica",
+   "numero": "Juzgado Electoral Provincial",
+   "titulo": "Movimiento Vecinal Potrero de Garay – Solicitud de Reconocimiento de Personería Jurídico Política Comunal",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento de Personería Jurídica",
+   "numero": "Juzgado Electoral Provincial",
+   "titulo": "Despeñaderos Humanista – Solicitud de Reconocimiento de Personería Jurídico Política Municipal",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento de Personería Jurídica",
+   "numero": "Juzgado Electoral Provincial",
+   "titulo": "Somos Costa Sacate – Solicitud de Reconocimiento de Personería Jurídico Política Municipal",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento de Personería Jurídica",
+   "numero": "Juzgado Electoral Provincial",
+   "titulo": "Evolución Cruzdelejeña – Solicitud de Reconocimiento de Personería Jurídico Política Municipal",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento de Personería Jurídica",
+   "numero": "Juzgado Electoral Provincial",
+   "titulo": "Activar Ischilín – Solicitud de Reconocimiento de Personería Jurídico Política Municipal",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Autoridades Electas",
+   "numero": "Juzgado Electoral Provincial",
+   "titulo": "Mejor San Francisco – Autoridades Electas – Período 2026/2028",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Autoridades Electas",
+   "numero": "Juzgado Electoral Provincial",
+   "titulo": "Uniendo – Autoridades Electas – Período 2026/2028",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Estado Anual Patrimonial",
+   "numero": "Juzgado Electoral Provincial",
+   "titulo": "Unión Vecinal Unquillo – Estado Anual Patrimonial – Cuenta de Ingresos y Egresos – Ejercicio 2025",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Audiencia Establecida",
+   "numero": "Juzgado Electoral Provincial",
+   "titulo": "Una Nueva Energía – Audiencia Establecida por Art. 90° inc. 2° de la Ley N° 9.572",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114840/2026",
+   "titulo": "Edicto Ley 9150 – Etchevarne Cesar Diego – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114839/2026",
+   "titulo": "Edicto Ley 9150 – Oviedo Marcos David – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114842/2026",
+   "titulo": "Edicto Ley 9150 – Lodola Pablo Esteban – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114872/2026",
+   "titulo": "Edicto Ley 9150 – Caselli Roque Jesús – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114831/2026",
+   "titulo": "Edicto Ley 9150 – Quiroga María José – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114904/2026",
+   "titulo": "Edicto Ley 9150 – Ocampo Claudia Alejandra – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114709/2025",
+   "titulo": "Edicto Ley 9150 – Dho Matías Gastón – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114998/2026",
+   "titulo": "Edicto Ley 9150 – Díaz Luis Marcelo – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114106/2023",
+   "titulo": "Edicto Ley 9150 – Bergessio Fernando Gabriel y Torres Jairo Jerónimo – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114408/2024",
+   "titulo": "Edicto Ley 9150 – Tisera Juan Carlos Leonel – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114121/2024",
+   "titulo": "Edicto Ley 9150 – López Ferreyra Sandra Daniela – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114741/2025",
+   "titulo": "Edicto Ley 9150 – Peralta Alicia Isabel – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114749/2025",
+   "titulo": "Edicto Ley 9150 – Trucco Silvio Aníbal – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114739/2025",
+   "titulo": "Edicto Ley 9150 – Garmendia Guillermo José – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente N° 0535-114750/2025",
+   "titulo": "Edicto Ley 9150 – Mendoza Esperanza Victoria – Inscripción en Registro de Posesión",
+   "seccion": "4",
+   "pagina": 8
+  }
+ ],
+ "telegram": "Boletín Oficial Nº 154 | 12/08/2026 | Educación: aprobación de certificación en IA para secundaria y especialización en investigación criminal. Habilitaciones de tres empresas de seguridad privada. Licitaciones: auditoría APROSS ($4.800M) y obra de regulación laguna El Camoati ($491.8M). Órdenes de méritos para cargos judiciales especializados. 📋 Accedé a la edición completa en la app oficial.",
+ "hora_procesado": "10:07",
+ "estado": "publicado"
+}
