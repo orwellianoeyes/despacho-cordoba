@@ -1,0 +1,621 @@
+{
+ "fecha": "2026-08-14",
+ "numero_boletin": "156",
+ "sintesis_juridica": [
+  "La edición publica dos leyes de habilitación al Poder Ejecutivo para suscribir convenios con el Estado Nacional: Ley 11134 faculta la firma del Convenio Marco respecto del anticipo financiero dispuesto por Decreto Nacional 584/2026; Ley 11135 faculta la suscripción de un Acuerdo para imputar $15.000.000.000 transferidos en junio 2026 como pago a cuenta de ajustes por Compensación Fiscal 2017. Ambas leyes contienen anexos que integran su texto. Decreto 77 designa a Fernando Jorge Sibilla como Ministro de Producción, Ciencia e Innovación Tecnológica. Se designan seis procuradores fiscales de la Dirección General de Rentas para gestión judicial y extrajudicial de cobro de deudas impositivas. Se designa un escribano adscripto a Registro Notarial.",
+  "El Consejo de la Magistratura confecciona orden de méritos para cobertura de cargo de Juez Electoral Provincial, con audiencia pública fijada para 21 de agosto. En licitaciones públicas destaca la Refuncionalización del Sistema de Provisión de Agua Potable de Coronel Moldes (Presupuesto Oficial: $1.597.712.748,79), Refuerzo del Sistema de Agua Potable de Santa Catalina Holmberg ($339.107.457,92) y Mejora del Sistema de Provisión de Agua Potable de Saldán ($1.383.010.006,20), todas contratadas por ACIF. Se publican múltiples convocatorias municipales y partidarias menores."
+ ],
+ "sintesis_politica": [
+  "La agenda económica se concentra en dos ejes: la formalización de financiamientos nacionales (dos leyes de habilitación para convenios con el Estado Nacional sobre transferencias por compensación fiscal y anticipo financiero) y el refuerzo de capacidades de cobranza tributaria provincial (designación simultánea de seis procuradores fiscales en DGR, señal de intensificación de gestión de cobro). El timing de estas medidas coincide con presión fiscal nacional y busca mejorar ingresos provinciales.",
+  "En infraestructura hídrica, ACIF lidera un portafolio de tres obras de agua potable en localidades del interior (Coronel Moldes, Santa Catalina Holmberg, Saldán) por ~$3.300 millones, enmarcadas en contexto de emergencia hídrica provincial. Estos proyectos reflejan prioridad política en acceso a agua en municipios menores. A nivel institucional, el cambio ministerial (Sibilla en Producción) puede indicar reposicionamiento de agenda de innovación y desarrollo productivo. La designación de juez electoral genera la esperada audiencia pública de 21 de agosto, conforme Ley 8802."
+ ],
+ "normas": [
+  {
+   "tipo": "Ley",
+   "clase": "ley",
+   "numero": "11134",
+   "titulo": "Autorización al Poder Ejecutivo para suscribir Convenio Marco con Estado Nacional sobre anticipo financiero (Decreto Nacional 584/2026)",
+   "importa": "Faculta al Poder Ejecutivo a firmar Convenio Marco con el Estado Nacional respecto del anticipo financiero dispuesto por Decreto Nacional 584/2026, estableciendo condiciones de desembolso, formas de cancelación y demás estipulaciones aplicables. El texto no especifica el monto del anticipo ni plazos de vigencia del convenio; ambos deberán constar en Anexo I.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Ley de habilitación que delega en el Ejecutivo la negociación y firma de un acuerdo financiero con la Nación. No contiene contenido sustantivo del convenio: remite integramente a documento anexo. Desde perspectiva constitucional, encaja en competencia del Ejecutivo (art. 144 Const. Prov.) para celebrar acuerdos interjurisdiccionales. No hay vicios aparentes de forma (refrendo de Fiscal de Estado presente). El texto no aclara si requiere trámite legislativo complementario una vez suscripto.",
+    "politica": "Maniobra de refinanciamiento nacional de pasivos provinciales, en contexto de restricción fiscal. La redacción genérica de la habilitación permite al Ejecutivo negociar términos sin sujeción legislativa posterior. Ausencia de detalles sobre monto y plazos genera incertidumbre sobre magnitud real del alivio fiscal. Posible relación con necesidad de honrar compromisos con acreedores nacionales, aunque el aviso no lo menciona.",
+    "oficialista": "Medida de gobernanza fiscal prudente: permite al Ejecutivo acceder a línea de financiamiento nacional en términos que serán negociados técnicamente, sin rigidez legislativa que podría complicar gestión de flujo de caja provincial. Refleja diálogo constructivo con Gobierno Nacional en materia de equilibrio fiscal.",
+    "opositora": "Habilitación en blanco al Ejecutivo sin transparencia sobre montos ni condiciones reales. La Legislatura abdica de control sobre términos de endeudamiento o refinanciamiento. Anexo no publicado en boletín impide escrutinio público de cláusulas. Riesgo de sobreendeudamiento provincial con condiciones onerosas negociadas sin participación legislativa."
+   },
+   "texto_oficial": "Artículo 1º.- Facúltase al Poder Ejecutivo Provincial a suscribir con el Estado Nacional el Convenio Marco pertinente a los fines de establecer las condiciones de desembolso, formas de cancelación y demás estipulaciones aplicables, respecto del anticipo financiero dispuesto por Decreto Nacional Nº 584/2026 a favor de la provincia de Córdoba. El Convenio Marco, compuesto de una foja útil, forma parte integrante de la presente Ley como Anexo I. Artículo 2º.- Comuníquese al Poder Ejecutivo Provincial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Ley",
+   "clase": "ley",
+   "numero": "11135",
+   "titulo": "Autorización al Poder Ejecutivo para suscribir Acuerdo sobre imputación de $15.000 millones por pago a cuenta de Compensación Fiscal 2017",
+   "importa": "Faculta al Poder Ejecutivo a firmar Acuerdo con Estado Nacional para imputar la suma de $15.000.000.000 transferidos en junio 2026 como pago a cuenta de adeudos por ajustes del Consenso Fiscal 2017 (Ley Nacional 27429 y Ley Provincial 10510). El texto especifica solo el monto de la transferencia, no los términos del acuerdo que será anexado.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Ley de habilitación para instrumentar acuerdo de imputación contable de transferencia ya ejecutada (junio 2026) a cuenta de deuda fiscal preexistente por compensación fiscal. La transferencia ya ocurrió; esta ley autoriza formalizar su contabilización en marco de ajustes al Consenso Fiscal 2017. Desde óptica de técnica legislativa, es válida pero redundante si transferencia ya fue desembolsada sin acuerdo previo. No se advierte vicio formal. El anexo nuevamente no se publica.",
+    "politica": "Acuerdo de alivio fiscal parcial: $15.000 millones se imputan a deuda existente de provincia con Nación, reduciéndola pero sin cancelarla. Sugiere deuda pendiente de Córdoba por Compensación Fiscal 2017 muy superior a ese monto. La formalización tardía (meses después del desembolso) puede indicar negociaciones complejas sobre términos de imputación. Relevante para evaluación de exposición fiscal provincial ante Nación.",
+    "oficialista": "Reconocimiento estatal de obligaciones de Córdoba en Consenso Fiscal 2017 y materialización de pago a cuenta mediante transferencia de $15.000 millones, reflejando cumplimiento de acuerdos federales. Imputación formal consolida relación fiscal ordenada con Nación.",
+    "opositora": "Deuda oculta: monto de $15.000 millones es pago parcial de obligación mucho mayor. Córdoba debe más de lo que se comunica públicamente. Ausencia de detalles sobre saldo adeudado, tasas de interés o plazos restantes genera opacidad sobre verdadera carga fiscal provincial."
+   },
+   "texto_oficial": "Artículo 1º.- Facúltase al Poder Ejecutivo Provincial a suscribir con el Estado Nacional el Acuerdo pertinente a efectos de imputar la suma de Pesos Quince Mil Millones ($ 15.000.000.000,00) transferidos a la provincia de Córdoba, en el mes de junio de 2026, por el Estado Nacional, en concepto de pago a cuenta de la suma adeudada en el marco de los ajustes por la Compensación del Consenso Fiscal 2017 , aprobado por Ley Nacional Nº 27429 y por Ley Provincial Nº 10510, así como por sus disposiciones complementarias. El Acuerdo, compuesto de una foja útil, forma parte integrante de la presente Ley como Anexo I. Artículo 2º.- Comuníquese al Poder Ejecutivo Provincial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "77",
+   "titulo": "Designación de Fernando Jorge Sibilla como Ministro de Producción, Ciencia e Innovación Tecnológica",
+   "importa": "El Gobernador designa a Fernando Jorge Sibilla (DNI 26.757.695) como Ministro de Producción, Ciencia e Innovación Tecnológica, a partir del día de la fecha (13 de agosto de 2026). El decreto autoriza al Ministro de Economía realizar adecuaciones presupuestarias que se deriven, si corresponden.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Acto de nombramiento ministerial conforme art. 144 Const. Prov. (atribuciones del Gobernador). Forma correcta: refrendo de Ministro Jefe de Gabinete y Fiscal de Estado. No hay vicios aparentes. El decreto autoriza ajustes presupuestarios discrecionales ('en caso de corresponder'), lo que es práctica usual pero deja margen interpretativo sobre autorización para reasignaciones. El acto es constitutivo; genera derechos y obligaciones desde su publicación.",
+    "politica": "Cambio ministerial que puede señalar reposicionamiento de agenda en innovación y desarrollo productivo provincial. Sin información sobre historial de Sibilla, no es posible evaluar continuidad o quiebre de políticas previas. La designación coincide con publicación de leyes de financiamiento nacional, sugiriendo posible coordinación sectorial. Posible relación con proyectos de ACIF en infraestructura (a confirmar; el aviso no lo menciona).",
+    "oficialista": "Renovación de liderazgo sectorial con profesional capacitado para fortalecer política de ciencia, tecnología e innovación provincial. Ministerio es clave en atracción de inversiones y desarrollo productivo. Designación refleja prioridad ejecutiva en eje competitivo de la provincia.",
+    "opositora": "Cambio ministerial sin explicación pública sugiere posible desajuste político previo. Ausencia de currículum o justificación sobre credenciales de Sibilla genera interrogante sobre idoneidad. Posible consecuencia de conflictos internos en oficialismo."
+   },
+   "texto_oficial": "Artículo 1º.- DESÍGNASE, a partir del día de la fecha, al señor Fernando Jorge SIBILLA, D.N.I. N° 26.757 .695, como MINISTRO DE PRODUCCIÓN, CIENCIA E INNOVACIÓN TECNOLÓGICA de la Provincia de Córdoba. Artículo 2°.- FACÚLTASE al señor Ministro de Economía a realizar todas las adecuaciones presupuestarias que se deriven de lo dispuesto en el presente Decreto, en caso de corresponder. Artículo 3º.- El presente Decreto será refrendado por los señores Ministro Jefe de Gabinete y Fiscal de Estado. Artículo 4º.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "27, 28, 29, 33, 34, 35, 36",
+   "titulo": "Designación de seis procuradores fiscales de Dirección General de Rentas",
+   "importa": "El Ministerio de Economía designa seis abogados como Procuradores Fiscales de la Dirección General de Rentas para gestión judicial y extrajudicial de cobro de deudas impositivas en mora y acreencias no tributarias: Ezequiel Abel López (Res. 27), Blas Ezequiel Morelli Noriega (Res. 28), Mariano Daniel Garde (Res. 29), Mariano Gabriel Palacios (Res. 33), Facundo Sosa Campi (Res. 34), David Hernán Monasterio (Res. 35) y Federico Alejandro Gutiérrez (Res. 36). Las designaciones están condicionadas a cumplimiento de requisitos legales, constitución de legajo y fianza. Tema vigilado: Dirección General de Rentas.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Actos de designación de funcionarios administrativos de mediana jerarquía, dictados conforme Decreto 2449/2023 que delegó en Ministerio de Economía funciones de designación/cese de procuradores fiscales. Forma correcta: considerandos, fundamentación legal, refrendo ministerial. Cada resolución especifica matrícula profesional del abogado designado. Condición de efectividad (cumplimiento de legajo y fianza) es estándar en procuración fiscal. Las designaciones son simultáneas (fecha 7-10 agosto 2026), sugiriendo operación coordinada de refuerzo de capacidades de cobranza.",
+    "politica": "Designaciones múltiples y simultáneas de procuradores fiscales señalan intensificación de política de cobranza de deudas tributarias. Contexto: provincia enfrenta presión fiscal y refinanciamientos con Nación (leyes 11134, 11135 publicadas en misma edición). Procuradores actúan en 'distintas Circunscripciones Judiciales de la Provincia', ampliando capacidad territorial de gestión de cobro. Posible preparación para ejecución más agresiva de cobranzas tributarias.",
+    "oficialista": "Medida de modernización y eficiencia en gestión tributaria provincial. Procuradores especializados permiten cobro más efectivo de obligaciones fiscales vencidas, mejorando ingresos tributarios sin crear nuevas cargas. Designaciones responden a necesidad operativa real de sistema de procuración fiscal.",
+    "opositora": "Expansión de aparato de cobranza tributaria puede afectar contribuyentes en dificultad económica. Múltiples designaciones sugieren presión de recaudación forzada. Riesgo de persecución selectiva de deudores o priorización de grandes deudas corporativas sobre pequeñas obligaciones de personas físicas."
+   },
+   "texto_oficial": "[Texto idéntico en estructura para cada resolución, variando solo nombre, DNI y matrícula del designado] Artículo 1º: DESIGNAR al abogado [NOMBRE], D.N.I. N° [DNI], Matrícula Profesional N° [MATRÍCULA], como Procurador Fiscal de la Dirección General de Rentas, para la gestión judicial y/o extrajudicial de cobro de deudas impositivas en mora y acreencias no tributarias administradas por la Dirección General de Rentas, en las distintas Circunscripciones Judiciales de la Provincia. Artículo 2º: ESTABLECER que el Procurador Fiscal designado en el artículo anterior comenzará a ejercer la representación de la Provincia de Córdoba una vez completado el legajo y constituida la fianza pertinente. Artículo 3º: DISPONER que el cumplimiento de la designación dispuesta en la presente Resolución no demandará egreso alguno. Artículo 4º: PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "7",
+   "titulo": "Designación de notario adscripto a Registro Notarial N° 476",
+   "importa": "El Ministerio Jefe de Gabinete designa a Lorenzo Lozita (DNI 41.411.270, Matrícula 2986) como Adscripto al Registro Notarial N° 476 con asiento en Villa María, Dpto. General San Martín. La designación se hace conforme Ley 4183 (mod. Ley 6276) y Decreto 60/2026. El Tribunal de Disciplina Notarial y Colegio de Escribanos se expidieron favorablemente.",
+   "seccion": "1",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Acto administrativo de designación de profesional en estructura notarial provincial, conforme competencias del Ministerio Jefe de Gabinete en materia de notariados (arts. 17 y 25 Ley 4183, mod. Ley 6276). Forma correcta: participación de organismos de control (Tribunal de Disciplina Notarial, Colegio de Escribanos), dictamen legal, refrendo ministerial. El expediente cita Decreto 60/2026 (no reproducido en boletín). Adscripción es figura de apoyo a titular de registro, regulada en Ley 4183. No se advierte vicio formal.",
+    "politica": "Acto ministerial de baja relevancia política. La adscripción refleja normal funcionamiento de estructura notarial en Villa María. Posible relevancia local en esa jurisdicción. Sin información de context previo, no hay análisis político aplicable.",
+    "oficialista": "Acto de gestión administrativa ordinaria que fortalece capacidad de atención notarial en localidad del interior provincial, mejorando acceso a servicios de fe pública para ciudadanos de Villa María.",
+    "opositora": "Sin elementos de crítica aplicables a acto meramente administrativo de designación, salvo eventual cuestionamiento de idoneidad del designado (información no disponible en aviso)."
+   },
+   "texto_oficial": "Artículo 1°. - DESÍGNASE al Escribano Lorenzo LOZITA, D.N.I. N° 41 .411 .270 - Clase 1998-, Matrícula Profesional N° 2986, como Adscripto al Registro Notarial N° 476 con asiento en la ciudad de Villa María, Departamento General San Martín de esta Provincia. Artículo 2°. - PROTOCOLÍCESE, comuníquese, dese intervención al Tribunal de Disciplina Notarial, al Colegio de Escribanos de la Provincia de Córdoba, notifíquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. 0733-011594/2026",
+   "titulo": "Refuncionalización del Sistema de Provisión de Agua Potable de la Localidad de Coronel Moldes – Primera Etapa",
+   "importa": "ACIF S.E.M. lanza licitación pública con soporte digital para obra Refuncionalización de Sistema de Agua Potable de Coronel Moldes (Primera Etapa). Presupuesto Oficial: $1.597.712.748,79 (IVA incluido). Plazo de ejecución: 90 días corridos desde Acta de Replanteo. Presentación de ofertas hasta 31/08/2026 12:00 h. Apertura 01/09/2026 12:00 h. Tema vigilado: emergencia hídrica y contrataciones de excepción.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública convocada conforme Decreto 583/2016 (plataforma digital). Procedimiento abierto conforme Ley Provincial 8614. ACIF (ente de economía mixta) actúa como unidad ejecutora de obra de infraestructura hídrica. Pliego disponible en portal web oficial sin costo. Garantía de mantenimiento: 1% del Presupuesto Oficial. Las características técnicas del pliego no están reproducidas (remite a documento descargable), lo que impide análisis de alcance específico de obras. Presupuesto considerable (~$1.600 millones) para localidad pequeña sugiere obra de envergadura.",
+    "politica": "Obra de agua potable en localidad del interior (Coronel Moldes) responde a agenda de emergencia hídrica provincial. ACIF es ejecutor de proyectos de infraestructura en contexto de financiamiento nacional (concordante con leyes 11134, 11135 de misma edición). Plazo 90 días es acotado, sugiriendo urgencia operativa. Presupuesto elevado para municipio menor puede indicar complejidad técnica o encarecimiento por escasez de recursos.",
+    "oficialista": "Inversión en infraestructura hídrica crítica para localidad del interior, reflejando compromiso de gobierno con equidad territorial en acceso a servicios esenciales. Procedimiento de licitación transparente y abierto atrae competencia de constructores. Plazo reducido muestra determinación de ejecución rápida.",
+    "opositora": "Presupuesto muy elevado para obra en localidad pequeña; requiere auditoría de justificación de montos. Plazo 90 días puede resultar insuficiente para obra de esa envergadura, generando sobrecostos posteriores. ACIF como ejecutor: historial de gestión y resultados en obras similares no está documentado en aviso."
+   },
+   "texto_oficial": "[Resumen de convocatoria:] De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000144, de fecha 02 de junio de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra 'REFUNCIONALIZACIÓN DEL SISTEMA DE PROVISIÓN DE AGUA POTABLE DE LA LOCALIDAD DE CORONEL MOLDES – PRIMERA ETAPA'. ENTIDAD U ORGANISMO QUE LICITA: Agencia Córdoba de Inversión y Financiamiento Sociedad de Economía Mixta (A.C.I.F . S.E.M.). CATEGORÍA DE LA OBRA: PRIMERA. Calificación: HIDRÁULICA (100%). PROCEDIMIENTO DE SELECCIÓN: conforme Decreto Nº 583/2016. PRESENTACIÓN DE OFERTAS: hasta las 12:00 h. del día 31 de agosto de 2026. APERTURA DE OFERTAS: 12:00 h del día 01 de septiembre de 2026. PRESUPUESTO OFICIAL: $1 .597 .712.748,79. PLAZO DE EJECUCIÓN: noventa (90) días corridos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. 0733-011689/2026",
+   "titulo": "Refuerzo del Sistema de Agua Potable de la Localidad de Santa Catalina Holmberg",
+   "importa": "ACIF S.E.M. licita refuerzo de Sistema de Agua Potable de Santa Catalina Holmberg. Presupuesto Oficial: $339.107.457,92 (IVA incluido). Plazo: 60 días corridos desde Acta de Replanteo. Presentación: 01/09/2026 12:00 h. Apertura: 02/09/2026 12:00 h. Conforme Resolución 2026/ACIFR-00000235 de 12/08/2026. Tema vigilado: emergencia hídrica.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública digital conforme Decreto 583/2016 y Ley 8614. Categoría Primera, Calificación Hidráulica 100%. ACIF ejecutor. Garantía 1% del presupuesto. Pliego en portal público sin costo. Procedimiento estándar de licitación. Presupuesto menor que obra de Coronel Moldes (~$339 millones vs. ~$1.597 millones) pero igual significativo. Plazo 60 días (más reducido que Coronel Moldes) sugiere menor complejidad técnica o urgencia relativa.",
+    "politica": "Segunda obra hídrica de ACIF en localidad del interior (Santa Catalina Holmberg), parte de programa coordinado de refuerzo de agua potable provincial. Tanto esta como Coronel Moldes y Saldán están en licitación simultánea (fechas de apertura 01-02/09), indicando portafolio planificado de obras similares. Presupuesto agregado de tres licitaciones de agua (~$3.300 millones) es magnitud relevante de inversión pública en sector hídrico.",
+    "oficialista": "Inversión estratégica en refuerzo de infraestructura hídrica en interior, respondiendo a demanda territorial de municipios. Procedimiento competitivo y transparente. Plazo ejecutivo acorde a complejidad de obra.",
+    "opositora": "Presupuesto sin justificación técnica visible en aviso. Licitaciones coordinadas pueden responder a presión política de ejecutar rápido más que a planificación técnica integrada. Riesgo de sobrecostos si plazos son insuficientes."
+   },
+   "texto_oficial": "[Idem estructura anterior:] De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000235, de fecha 12 de agosto de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra 'REFUERZO DEL SISTEMA DE AGUA POTABLE DE LA LOCALIDAD DE SANTA CATALINA HOLMBERG'. ENTIDAD: A.C.I.F. S.E.M. CATEGORÍA: PRIMERA. Calificación: HIDRÁULICA (100%). PRESENTACIÓN: 01/09/2026 12:00 h. APERTURA: 02/09/2026 12:00 h. PRESUPUESTO: $339.107 .457 ,92. PLAZO: sesenta (60) días corridos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. 0733-011705/2026",
+   "titulo": "Mejora del Sistema de Provisión de Agua Potable de la Localidad de Saldán – Primera Etapa",
+   "importa": "ACIF S.E.M. licita mejora de Sistema de Agua Potable de Saldán (Primera Etapa). Presupuesto Oficial: $1.383.010.006,20 (IVA incluido). Plazo: 120 días corridos. Presentación: 31/08/2026 12:00 h. Apertura: 01/09/2026 11:00 h. Conforme Resolución 2026/ACIFR-00000167 de 19/06/2026. Tema vigilado: emergencia hídrica.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación pública conforme Decreto 583/2016. Categoría Primera, Calificación Hidráulica 100%. ACIF ejecutor. Garantía 1% presupuesto. Pliego público sin costo. Tercera obra hídrica de ACIF en simultáneo (Coronel Moldes, Santa Catalina, Saldán). Presupuesto ~$1.383 millones es intermedio entre otras dos. Plazo 120 días (más extenso) sugiere mayor complejidad que Santa Catalina pero comparable a Coronel Moldes.",
+    "politica": "Portafolio de tres obras hídraúlicas de ACIF licitadas con fechas cercanas (presentación 31/08, 01/09, apertura 01/02/09/2026) representa operación coordinada de inversión en agua potable. Presupuesto agregado ~$3.300 millones es magnitud importante en presupuesto provincial. Localidades (Coronel Moldes, Santa Catalina Holmberg, Saldán) son municipios pequeños/medianos del interior, sugiriendo estrategia territorial de fortalecimiento de acceso a agua en zonas de demanda insatisfecha.",
+    "oficialista": "Programa integrado de modernización de infraestructura hídrica en localidades del interior, reflejando prioridad política en equidad territorial y acceso a servicios esenciales. Licitaciones coordinadas mejoran eficiencia de proceso.",
+    "opositora": "Concentración de licitaciones de agua en pocas semanas con presupuestos muy elevados puede indicar apuro político de ejecución sin adecuada planificación técnica previa. Riesgo de sobrecostos. Ausencia de evaluación comparativa de alternativas tecnológicas no consta en aviso."
+   },
+   "texto_oficial": "[Idem estructura:] De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000167 , de fecha 19 de junio de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra 'MEJORA DEL SISTEMA DE PROVISIÓN DE AGUA POTABLE DE LA LOCALIDAD DE SALDÁN - PRIMERA ETAPA'. ENTIDAD: A.C.I.F. S.E.M. CATEGORÍA: PRIMERA. Calificación: HIDRÁULICA (100%). PRESENTACIÓN: 31/08/2026 12:00 h. APERTURA: 01/09/2026 11:00 h. PRESUPUESTO: $1 .383.010.006,20. PLAZO: ciento veinte (120) días corridos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Acuerdo",
+   "clase": "resolucion",
+   "numero": "57",
+   "titulo": "Orden de Méritos para cargo de Juez Electoral de la Provincia de Córdoba",
+   "importa": "El Consejo de la Magistratura confecciona orden de méritos para cobertura del cargo de Juez Electoral Provincial, conforme a concurso. Audiencia pública (art. 29 Ley 8802) fijada para 21/08/2026 17:30 h, en Avda. Gral. Paz Nº 70, 6º piso Córdoba. Tema vigilado: Tribunal de Cuentas y organismos de control / designaciones.",
+   "seccion": "1",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Acto del Consejo de la Magistratura conforme Ley 8802, que regula conformación del Consejo y procedimiento de designación de magistrados. Acuerdo confecciona orden de méritos con puntajes de concursantes. Audiencia pública es requisito constitucional/legal previo a designación (art. 29 Ley 8802), garantizando participación ciudadana. Fecha de audiencia (21/08) es posterior a publicación (14/08), permitiendo conocimiento público de candidatos y sus antecedentes. No hay vicios aparentes de procedimiento.",
+    "politica": "Cobertura de cargo de Juez Electoral es designación electoral de relevancia institucional. Audiencia pública es mecanismo de control democrático. La publicación en boletín oficial 7 días antes de audiencia permite escrutinio público. Proceso sigue Ley 8802 sin aparentes desviaciones. Sin información de candidatos concretos, análisis político no es posible.",
+    "oficialista": "Procedimiento transparente de designación de magistrado electoral conforme instituciones democráticas provinciales. Audiencia pública refleja compromiso de gobierno con participación ciudadana.",
+    "opositora": "Sin elementos de crítica específica disponibles en aviso; depende de calidad de candidatos y evaluación de resultados de audiencia pública."
+   },
+   "texto_oficial": "1°: Confeccionar el ORDEN DE MERITOS correspondiente al concurso para cobertura del cargo de JUEZ ELECTORAL DE LA PROVINCIA DE CÓRDOBA con el puntaje total obtenido por los concursantes, conforme al cuadro anexo. 2°: Protocolícese, notifíquese y archívese. 'El Consejo de la Magistratura de la Provincia de Córdoba hace saber que la audiencia pública prevista por el art. 29 de la Ley 8802 ha sido fijada para el día 21 de agosto de 2026 a las 17:30 hs., en Avda. Gral. Paz nº 70, 6º piso de la ciudad de Córdoba'",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Decreto N° 77",
+   "titulo": "Ministro de Producción, Ciencia e Innovación Tecnológica",
+   "detalle": "Fernando Jorge Sibilla (DNI 26.757.695)",
+   "organismo": "Ministerio de Producción, Ciencia e Innovación Tecnológica",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Ministerial 27/2026",
+   "titulo": "Procurador Fiscal, Dirección General de Rentas",
+   "detalle": "Ezequiel Abel López (DNI 29.714.032, Matrícula 1-40347 Colegio Abogados Córdoba)",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Ministerial 28/2026",
+   "titulo": "Procurador Fiscal, Dirección General de Rentas",
+   "detalle": "Blas Ezequiel Morelli Noriega (DNI 32.957.070, Matrícula 7-626 Colegio Abogados Cruz del Eje)",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Ministerial 29/2026",
+   "titulo": "Procurador Fiscal, Dirección General de Rentas",
+   "detalle": "Mariano Daniel Garde (DNI 36.185.577, Matrícula 1-39194 Colegio Abogados Córdoba)",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Ministerial 33/2026",
+   "titulo": "Procurador Fiscal, Dirección General de Rentas",
+   "detalle": "Mariano Gabriel Palacios (DNI 29.201.311, Matrícula 1-36757 Colegio Abogados Córdoba)",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 4,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Ministerial 34/2026",
+   "titulo": "Procurador Fiscal, Dirección General de Rentas",
+   "detalle": "Facundo Sosa Campi (DNI 32.317.185, Matrícula 1-41701 Colegio Abogados Córdoba)",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 4,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Ministerial 35/2026",
+   "titulo": "Procurador Fiscal, Dirección General de Rentas",
+   "detalle": "David Hernán Monasterio (DNI 32.457.547, Matrícula 1-36229 Colegio Abogados Córdoba)",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 5,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Ministerial 36/2026",
+   "titulo": "Procurador Fiscal, Dirección General de Rentas",
+   "detalle": "Federico Alejandro Gutiérrez (DNI 31.300.370, Matrícula 4-582 Colegio Abogados Villa María)",
+   "organismo": "Dirección General de Rentas",
+   "pagina": 5,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 7/2026 Ministerio Jefatura Gabinete",
+   "titulo": "Adscripto, Registro Notarial N° 476",
+   "detalle": "Lorenzo Lozita (DNI 41.411.270, Matrícula 2986)",
+   "organismo": "Registro Notarial N° 476, Villa María",
+   "pagina": 6,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_140826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Ley",
+   "numero": "11134",
+   "titulo": "Autorización Poder Ejecutivo para suscribir Convenio Marco con Estado Nacional sobre anticipo financiero",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Decreto",
+   "numero": "78",
+   "titulo": "Promulgación Ley 11134",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Ley",
+   "numero": "11135",
+   "titulo": "Autorización Poder Ejecutivo para suscribir Acuerdo sobre imputación de $15.000 millones por Compensación Fiscal 2017",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Decreto",
+   "numero": "79",
+   "titulo": "Promulgación Ley 11135",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Decreto",
+   "numero": "77",
+   "titulo": "Designación Ministro de Producción, Ciencia e Innovación Tecnológica",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "27-D",
+   "titulo": "Designación Procurador Fiscal DGR - Ezequiel Abel López",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "28-D",
+   "titulo": "Designación Procurador Fiscal DGR - Blas Ezequiel Morelli Noriega",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "29-D",
+   "titulo": "Designación Procurador Fiscal DGR - Mariano Daniel Garde",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "33-D",
+   "titulo": "Designación Procurador Fiscal DGR - Mariano Gabriel Palacios",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "34-D",
+   "titulo": "Designación Procurador Fiscal DGR - Facundo Sosa Campi",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "35-D",
+   "titulo": "Designación Procurador Fiscal DGR - David Hernán Monasterio",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "36-D",
+   "titulo": "Designación Procurador Fiscal DGR - Federico Alejandro Gutiérrez",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "7",
+   "titulo": "Designación Adscripto Registro Notarial N° 476 - Lorenzo Lozita",
+   "seccion": "1",
+   "pagina": 6
+  },
+  {
+   "tipo": "Acuerdo",
+   "numero": "57",
+   "titulo": "Orden de Méritos Juez Electoral Provincial - Consejo de la Magistratura",
+   "seccion": "1",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0733-012024/2026",
+   "titulo": "Obra de Regulación de la Laguna El Camoati - Localidad de Viamonte - Nota Aclaratoria N° 1",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0733-011594/2026",
+   "titulo": "Refuncionalización Sistema Agua Potable Coronel Moldes - Primera Etapa (ACIF)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0733-011689/2026",
+   "titulo": "Refuerzo Sistema Agua Potable Santa Catalina Holmberg (ACIF)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0733-011705/2026",
+   "titulo": "Mejora Sistema Agua Potable Saldán - Primera Etapa (ACIF)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución ENARGAS",
+   "numero": "I/910",
+   "titulo": "Obra Gas Natural - Municipalidad de El Tío - Provisión de GN vecinos El Tío",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1451 (EPEC)",
+   "titulo": "Adquisición de dos UPS para Laboratorio de Calidad",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1449 (EPEC)",
+   "titulo": "Cargador para Vehículos Eléctricos Monofásico",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1450 (EPEC)",
+   "titulo": "Servicio de Urgencia y Emergencia - Área Protegida - Centrales Hidroeléctricas",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "2467 (EPEC)",
+   "titulo": "Adquisición Televisores LED 55 y 75 pulgadas",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1454 (EPEC)",
+   "titulo": "Cámara Termográfica de Media Resolución",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "SC 2026/000030",
+   "titulo": "Adquisición de 2.700 resmas para Secretaría General Salud y Desarrollo Humano",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Subasta Electrónica Obra Pública",
+   "numero": "SC 2026/000029",
+   "titulo": "Instalación Control de Acceso a Complejo Esperanza",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "EXPTE. 0646-000888/2026",
+   "titulo": "Contratación de cuatro profesionales para CEPROCOR",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000373",
+   "titulo": "Servicio de Mantenimiento Preventivo de Ascensores - Poder Judicial",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "Consorcio Caminero N° 239",
+   "titulo": "Asamblea General Ordinaria",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "Consorcio Caminero Regional N° 7",
+   "titulo": "Asamblea General Ordinaria",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Partidos Políticos",
+   "numero": "Despeñaderos Humanista",
+   "titulo": "Solicitud Reconocimiento Personería Jurídico Política Municipal",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Partidos Políticos",
+   "numero": "Somos Costa Sacate",
+   "titulo": "Solicitud Reconocimiento Personería Jurídico Política Municipal",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Partidos Políticos",
+   "numero": "Evolución Cruzdelejeña",
+   "titulo": "Solicitud Reconocimiento Personería Jurídico Política Municipal",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Partidos Políticos",
+   "numero": "Activar Ischilín",
+   "titulo": "Solicitud Reconocimiento Personería Jurídico Política Municipal",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Partidos Políticos",
+   "numero": "Bialet Massé Humanista",
+   "titulo": "Resultado Elecciones Internas - Autoridades Electas 2026/2028",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Partidos Políticos",
+   "numero": "Elegi Villa Allende",
+   "titulo": "Solicitud Reconocimiento Personería Jurídico Política Comunal",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114840/2026",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Etchevarne Cesar Diego",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114839/2026",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Oviedo Marcos David",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114842/2026",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Lodola Pablo Esteban",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114872/2026",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Caselli Roque Jesus",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114831/2026",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Quiroga Maria Jose",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114904/2026",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Ocampo Claudia Alejandra",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114709/2025",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Dho Matias Gaston",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114998/2026",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Diaz Luis Marcelo",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114106/2023",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Bergessio Fernando Gabriel y Torres Jairo Jeronimo",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114408/2024",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Tisera Juan Carlos Leonel",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114121/2024",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Lopez Ferreyra Sandra Daniela",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114741/2025",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Peralta Alicia Isabel",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114749/2025",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Trucco Silvio Anibal",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114739/2025",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Garmendia Guillermo Jose",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Edictos",
+   "numero": "EXPTE. 0535-114750/2025",
+   "titulo": "Unidad Ejecutora Ley 9150 - Registro Posesión - Mendoza Esperanza Victoria",
+   "seccion": "4",
+   "pagina": 12
+  }
+ ],
+ "telegram": "Boletín Oficial Nº 156 | 14/08/2026 | Leyes 11134 y 11135: Habitaciones de Ejecutivo para convenios nacionales sobre anticipo financiero y compensación fiscal ($15 mil millones). ACIF licita 3 obras de agua potable (~$3.300 millones) en interior provincial. Designación de Ministro de Producción y 6 procuradores fiscales en DGR. Leer completo en https://boletinoficial.cba.gov.ar",
+ "hora_procesado": "11:01",
+ "estado": "publicado"
+}
