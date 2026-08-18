@@ -1,0 +1,439 @@
+{
+ "fecha": "2026-08-18",
+ "numero_boletin": "157",
+ "sintesis_juridica": [
+  "La edición amplía significativamente la estructura del Poder Judicial: crea cuatro Juzgados de Control y Faltas, un Juzgado de Ejecución Penal, diez Defensorías Públicas Penales, dos Defensorías de Niñez y Adolescencia, y reordena competencias en la Primera Circunscripción y en ciudades del interior (Villa Carlos Paz, Río Cuarto, Bell Ville, Villa María, San Francisco, Villa Dolores, Cruz del Eje). Se sustituye una Defensoría del Trabajo por una Civil y Comercial, y se crean nuevas defensorías con funciones múltiples en Segunda a Séptima Circunscripciones.",
+  "En educación se ratifica un plan de estudios de bachillerato a distancia en gestión privada. Se habilita una empresa de seguridad privada. Se declara a Río Cuarto 'Capital Provincial del Vecinalismo' e instituye el 24 de agosto como 'Día Provincial del Vecinalismo'. Se ratifican decretos estructurales del Ejecutivo (Decretos 60 y 72 de 2026) y se faculta al Poder Ejecutivo para realizar ajustes presupuestarios. Se designa un escribano como adscripto a un registro notarial."
+ ],
+ "sintesis_politica": [
+  "La expansión judicial busca mejorar acceso a justicia en circunscripciones del interior y descongestionar la capital. La creación de defensorías penales y de niñez puede responder a demandas de gremios (UEPC menciona defensa de jóvenes) y a agendas de derechos humanos (el año está dedicado a 'Derechos Humanos, Memoria, Verdad y Justicia'). El timing concentra cambios institucionales a mediados de agosto, cuando menos visibilidad pública suele haber.",
+  "El reconocimiento a Río Cuarto como 'Capital del Vecinalismo' tiene matiz político territorial: fortalece la presencia simbólica en la segunda ciudad de la provincia. La ratificación de decretos ejecutivos del 23 de julio y 4 de agosto (Decretos 60 y 72) canaliza reformas administrativas sin debate legislativo amplio, delegando al Poder Ejecutivo ajustes presupuestarios. Seis movimientos políticos solicitan reconocimiento en el padrón (cuatro nuevas agrupaciones municipales, dos audiencias de partidos existentes)."
+ ],
+ "normas": [
+  {
+   "tipo": "Ley",
+   "clase": "ley",
+   "numero": "11131",
+   "titulo": "Creación de Juzgados y Defensorías Públicas en el Poder Judicial",
+   "importa": "La ley crea cuatro Juzgados de Control y Faltas (Decimoquinta a Decimoctava Nominación), un Juzgado de Ejecución Penal de Cuarta Nominación, diez Defensorías Públicas Penales, dos Defensorías de Niñez, Adolescencia, Violencia Familiar, de Género y Penal Juvenil, todas en la Primera Circunscripción con asiento en Córdoba. Sustituye la Defensoría Pública del Trabajo del Tercer Turno por una Defensoría Civil y Comercial de Primer Turno. Crea además Juzgados y Defensorías con funciones múltiples en Villa Carlos Paz, Río Cuarto, Bell Ville, Villa María, San Francisco, Villa Dolores y Cruz del Eje.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La ley delega al Tribunal Superior de Justicia y al Defensor General la regulación de asignación de causas en trámite y la estructura organizativa de las defensorías creadas, sin especificar criterios. Faculta al Poder Ejecutivo a realizar ajustes presupuestarios necesarios sin límite explícito. No aclara si los nuevos órganos entran en vigencia inmediata o requieren nombramiento previo de magistrados. El artículo 17 es amplio en sus delegaciones: solo menciona 'normas que aseguren el cumplimiento' sin detallar competencias conflictivas ni incompatibilidades.",
+    "politica": "Expande el aparato judicial hacia el interior de la provincia, probablemente respondiendo a demandas históricas de mejor acceso a justicia en ciudades como Río Cuarto, Bell Ville y Villa María. La creación de diez defensorías penales adicionales puede responder a sobrecarga de causas y presión de sindicatos judiciales. El reconocimiento territorial hacia circunscripciones menores sugiere equilibrio político federalista.",
+    "oficialista": "La provincia moderniza y descentraliza la administración de justicia, mejorando acceso a defensa pública en zonas históricamente desatendidas. Responde a demandas ciudadanas y a la necesidad de agilizar procesos. Permite que el Defensor General optimice recursos y competencias según realidades locales.",
+    "opositora": "Se delega excesivamente al Ejecutivo sin fijar presupuestos exactos. No está claro cuándo entran en vigencia los nuevos juzgados ni si hay fondos garantizados. La sustitución de la Defensoría del Trabajo por una Civil y Comercial puede debilitar defensa laboral en un contexto de crisis económica."
+   },
+   "texto_oficial": "Artículo 1º- Créanse en la Primera Circunscripción Judicial, con asiento en la ciudad de Córdoba, cuatro Juzgados de Control y Faltas que se denominarán Juzgados de Control y Faltas de Decimoquinta, Decimosexta, Decimoséptima y Decimoctava Nominación, respectivamente. Artículo 2º.- Créase en la Primera Circunscripción Judicial, con asiento en la ciudad de Córdoba, un Juzgado de Ejecución Penal que se denominará Juzgado de Ejecución Penal de Cuarta Nominación. Artículo 3º.- Sustitúyese en la Primera Circunscripción Judicial, con asiento en la ciudad de Córdoba, la Defensoría Pública del Trabajo del Tercer Turno de la sede Capital, por una Defensoría Pública Civil y Comercial en la misma sede que se denominará Defensoría Pública Civil y Comercial de Primer Turno. Artículo 4º.- Créase en la Primera Circunscripción Judicial, con asiento en la ciudad de Córdoba, una Defensoría Pública Civil y Comercial que se denominará Defensoría Pública Civil y Comercial de Segundo Turno. Artículo 5º.- Créanse en la Primera Circunscripción Judicial, con asiento en la ciudad de Córdoba, diez Defensorías Públicas Penales que se denominarán Defensoría Pública Penal de Tercer, Cuarto, Quinto, Sexto, Octavo, Noveno, Décimo, Trigésimo, Trigésimo Primer y Trigésimo Segundo Turno, respectivamente. Artículo 6º.- Créanse en la Primera Circunscripción Judicial, con asiento en la ciudad de Córdoba, dos Defensorías Públicas de Niñez, Adolescencia, Violencia Familiar, de Género y Penal Juvenil que se denominarán Defensoría Pública de Niñez, Adolescencia, Violencia Familiar, de Género y Penal Juvenil de Undécimo y Duodécimo Turno, respectivamente. Artículo 7º.- Créase en la Primera Circunscripción Judicial, con asiento en la ciudad de Villa Carlos Paz, un Juzgado de Control, Niñez, Adolescencia, Penal Juvenil, Violencia Familiar, de Género y Faltas que se denominará Juzgado de Control, Niñez, Adolescencia, Penal Juvenil, Violencia Familiar, de Género y Faltas de Segunda Nominación. El actual Juzgado de Control, Niñez, Adolescencia, Penal Juvenil, Violencia Familiar, de Género y Faltas pasará a denominarse Juzgado de Control, Niñez, Adolescencia, Penal Juvenil, Violencia Familiar, de Género y Faltas de Primera Nominación. [Artículos 8 a 16 crean juzgados y defensorías en Villa Carlos Paz, Río Cuarto, Bell Ville, Villa María, San Francisco, Villa Dolores, Cruz del Eje]. Artículo 17.- Facúltase al Tribunal Superior de Justicia y al Defensor General de la Provincia de Córdoba, conforme a sus respectivas funciones y atribuciones, a dictar las normas que aseguren el cumplimiento de la presente Ley. Artículo 18.- Facúltase al Poder Ejecutivo Provincial a realizar los ajustes presupuestarios necesarios a los efectos del cumplimiento de la presente Ley.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_180826.pdf"
+  },
+  {
+   "tipo": "Ley",
+   "clase": "ley",
+   "numero": "11132",
+   "titulo": "Río Cuarto como Capital Provincial del Vecinalismo",
+   "importa": "Declara a Río Cuarto 'Capital Provincial del Vecinalismo' en reconocimiento a su trayectoria en promoción de participación ciudadana a través de asociaciones vecinales. Instituye el 24 de agosto como 'Día Provincial del Vecinalismo' e invita a municipios y comunas a adherir con actividades de difusión y promoción.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La ley es eminentemente declarativa y simbólica. No impone obligaciones vinculantes ni crea fondos específicos; solo 'invita' a municipios a adherir. El Poder Ejecutivo 'promoverá' actividades sin competencia ni presupuesto definido. El artículo 3 usa lenguaje permisivo que no obliga: no viola normas superiores, pero carece de eficacia normativa clara.",
+    "politica": "Tiene alto contenido territorial: sitúa a Río Cuarto como referente provincial en participación ciudadana, lo cual puede fortalecer el perfil de esa ciudad en la agenda política. El 24 de agosto es fecha simbólica en contextos de movimientos de base. El timing (mediados de agosto) permite difusión reducida.",
+    "oficialista": "Reconoce y celebra el trabajo histórico de asociaciones vecinales como pilares de democracia local. Promueve participación sin interferir en autonomías municipales. Genera identidad cívica en una ciudad de peso político.",
+    "opositora": "Es una ley puramente simbólica sin recursos. Mientras hay crisis social, se declaran 'días del vecinalismo' sin fondos para infraestructura comunitaria. No vincula a ningún municipio ni garantiza continuidad."
+   },
+   "texto_oficial": "Artículo 1º.- Declárase 'Capital Provincial del Vecinalismo' a la ciudad de Río Cuarto, en reconocimiento a su trayectoria histórica, institucional y comunitaria en la promoción de la participación ciudadana organizada a través de asociaciones vecinales, entidades fomentistas y demás organizaciones de base territorial. Artículo 2º.- Institúyese el día 24 de agosto de cada año como 'Día Provincial del Vecinalismo', en conmemoración al movimiento vecinalista y la labor desarrollada por las asociaciones vecinales, fomentistas y demás organizaciones comunitarias que contribuyen al fortalecimiento de la participación ciudadana, la solidaridad social y el mejoramiento de la calidad de vida de los vecinos y vecinas de la provincia de Córdoba. Artículo 3º.- El Poder Ejecutivo Provincial, a través de los organismos que correspondan, promoverá la realización de actividades de difusión, reconocimiento y valorización del movimiento vecinalista, especialmente con motivo de la conmemoración establecida en el artículo 2º de la presente Ley. Artículo 4º.- Invítase a los municipios y comunas a adherir a la presente Ley y a desarrollar actividades institucionales, educativas, culturales y comunitarias vinculadas con la promoción del vecinalismo, la participación ciudadana y el fortalecimiento de las organizaciones intermedias.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_180826.pdf"
+  },
+  {
+   "tipo": "Ley",
+   "clase": "ley",
+   "numero": "11133",
+   "titulo": "Ratificación de Decretos 60 y 72/2026 sobre Estructura Orgánica",
+   "importa": "Ratifica los Decretos Nº 60 (23 de julio 2026) y Nº 72 (4 de agosto 2026), modificatorios del Decreto Nº 2206/2023 que establece la Estructura Orgánica del Poder Ejecutivo Provincial. Autoriza al Ejecutivo para realizar reestructuraciones de créditos presupuestarios, cambios en denominaciones y creación de nuevos servicios. Habilita determinar la Autoridad de Aplicación de Programas de Loteos (Leyes 11089 y 11111).",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "La ley ratifica decretos sin publicar el contenido completo de los mismos, solo se indica que constan de cuatro y dos fojas. Esto incumple principios de publicidad: los ciudadanos no pueden leer íntegramente qué cambios estructurales se hacen. El artículo 2 otorga al Ejecutivo amplísima potestad para reestructurar presupuestos, cambiar partidas y crear servicios 'con posterior comunicación a la Legislatura' (no aprobación previa). El artículo 3 permite que el Ejecutivo designe 'la' autoridad de aplicación de programas de loteos sin criterios, derogando automáticamente incisos del Decreto 2206.",
+    "politica": "Concentra en el Ejecutivo capacidad de reorganización administrativa sin debate legislativo detallado. Permite cambios sin que el Legislativo vea los decretos antes de ratificar. Sugiere acuerdos previos entre Poder Ejecutivo y bancada oficialista. El cambio de autoridad de aplicación de loteos puede responder a conflictos de competencia o a redistribuciones de poder entre ministerios.",
+    "oficialista": "Facilita modernización ágil de la administración pública sin trámites burocráticos. Permite ajustes presupuestarios rápidos para optimizar recursos. Respeta autonomía del Poder Ejecutivo en sus decisiones estructurales.",
+    "opositora": "Viola principios de publicidad al ratificar decretos sin mostrar su contenido. Delega potestad normativa excesiva al Ejecutivo. La Legislatura pierde capacidad de control al solo 'comunicarse después' de cambios presupuestarios. Afecta transparencia democrática."
+   },
+   "texto_oficial": "Artículo 1º.- Ratifícanse los Decretos Nº 60 de fecha 23 de julio de 2026 y Nº 72 de fecha 4 de agosto de 2026, modificatorios del Decreto Nº 2206/2023 -ratificado por Ley Nº 10956- que establece la Estructura Orgánica del Poder Ejecutivo Provincial y, en consecuencia, convalídase todo lo actuado en su mérito hasta la fecha de entrada en vigencia del presente instrumento legal. Los Decretos Nros. 60/2026 y 72/26, compuestos de cuatro y dos fojas, respectivamente, forman parte integrante de la presente Ley como Anexo I. Artículo 2º.- El Poder Ejecutivo Provincial, a través del Ministerio de Economía y con posterior comunicación a la Legislatura, puede efectuar las reestructuraciones de créditos del Presupuesto General de la Administración Pública Provincial que fueren necesarias para el adecuado cumplimiento de la presente Ley, a cuyo efecto puede disponer cambios en las denominaciones de los conceptos, partidas y subpartidas existentes, o crear otras nuevas, reestructurar, suprimir, transferir y crear servicios. Artículo 3º.- El Poder Ejecutivo Provincial puede determinar la Autoridad de Aplicación de los Programas de Loteos creados en el artículo 87 de la Ley Nº 11089 y en la Ley Nº 11111, momento a partir del cual quedan sin efecto los incisos 11 y 12 -en su parte pertinente- del artículo 15 bis del Decreto Nº 2206 de fecha 10 de diciembre de 2023 y sus modificatorias.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_180826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "ACIF 0733-011594/2026",
+   "titulo": "Refuncionalización del Sistema de Provisión de Agua Potable de Coronel Moldes – Primera Etapa",
+   "importa": "ACIF licita pública obra de refuncionalización de sistema de agua potable en Coronel Moldes. Presupuesto oficial: $1.597.712.748,79 (con IVA). Plazo: 90 días. Apertura de ofertas: 01/09/2026 a las 12:00 hs. Posible relación con tema vigilado: emergencia hídrica y ejecución de obras de abastecimiento de agua (a confirmar; el aviso no especifica contexto de emergencia).",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La licitación se rige por Decreto Nº 583/2016 (licitaciones públicas con soporte digital). Presupuesto oficial publicado completo. Pliego disponible sin costo en portal de compras. Garantía de mantenimiento de oferta: 1% del presupuesto. El aviso no especifica si la obra responde a situación de emergencia hídrica declarada, solo menciona 'refuncionalización'. Obra categoría PRIMERA, calificación HIDRÁULICA (100%).",
+    "politica": "ACIF es ejecutor de obras de infraestructura hídrica de la provincia. Obra en localidad del interior (Coronel Moldes, Dpto. Tercero Arriba) sugiere política de inversión en zonas no metropolitanas. Presupuesto de casi 1.600 millones es significativo: puede responder a obra iniciada en gestiones anteriores o a nuevo programa de ampliación de cobertura.",
+    "oficialista": "Provincia invierte en infraestructura crítica de agua potable para garantizar abastecimiento en zonas del interior. Licitación pública asegura transparencia y competencia.",
+    "opositora": "Monto elevado sin aclarar si corresponde a emergencia real o a ineficiencia de proyectos anteriores. No se detalla qué problemas específicos resuelve la 'refuncionalización'."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL. EXPTE. ELECTRÓNICO N° 0733-011594/2026. OBJETO: 'REFUNCIONALIZACIÓN DEL SISTEMA DE PROVISIÓN DE AGUA POTABLE DE LA LOCALIDAD DE CORONEL MOLDES – PRIMERA ETAPA'. De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000144, de fecha 02 de junio de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra 'REFUNCIONALIZACIÓN DEL SISTEMA DE PROVISIÓN DE AGUA POTABLE DE LA LOCALIDAD DE CORONEL MOLDES – PRIMERA ETAPA'. 1.- ENTIDAD U ORGANISMO QUE LICITA: Agencia Córdoba de Inversión y Financiamiento Sociedad de Economía Mixta (A.C.I.F. S.E.M.). 2.- CATEGORÍA DE LA OBRA: PRIMERA. Calificación: HIDRÁULICA (100%). 3.- PROCEDIMIENTO DE SELECCIÓN: conforme al Decreto Nº 583/2016. 4.- DOCUMENTOS DE LICITACIÓN: disponibles en https://webecommerce.cba.gov.ar/VistaPublica/OportunidadProveedores.aspx. 5.- CONSULTAS: desde publicación hasta 3 días antes de presentación. 6.- PRESENTACIÓN: digital hasta 12:00 hs. del 31/08/2026. 7.- APERTURA: 01/09/2026 12:00 hs en Ministerio de Infraestructura y Servicios Públicos. 8.- PRESUPUESTO OFICIAL: $1.597.712.748,79 IVA incluido. 9.- PLAZO: 90 días corridos. 10.- GARANTÍA: 1% del presupuesto oficial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_180826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "ACIF 0733-011689/2026",
+   "titulo": "Refuerzo del Sistema de Agua Potable de Santa Catalina Holmberg",
+   "importa": "ACIF licita obra de refuerzo de sistema de agua potable en Santa Catalina Holmberg. Presupuesto oficial: $339.107.457,92 (con IVA). Plazo: 60 días. Apertura: 02/09/2026 a las 12:00 hs. Relacionado con tema vigilado: emergencia hídrica y abastecimiento de agua (a confirmar; no se especifica contexto de emergencia).",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto 583/2016. Presupuesto menor que Coronel Moldes (~339 vs 1.597 millones). Plazo de ejecución menor (60 vs 90 días). Garantía: 1%. El aviso no aclara si 'refuerzo' implica aumento de capacidad o reparación de infraestructura existente. Texto no especifica localidad exacta dentro de Santa Catalina Holmberg ni si hay usuarios afectados con cortes previos.",
+    "politica": "Segunda licitación de ACIF para agua en el mismo boletín sugiere política concentrada de inversiones hídricas. Ambas obras en provincia del interior (no AMBA). Presupuestos menores que la de Coronel Moldes pueden indicar proyectos de menor envergadura o en etapas iniciales.",
+    "oficialista": "Provincia ejecuta obras complementarias de infraestructura para garantizar acceso equitativo a agua potable en localidades medianas.",
+    "opositora": "Fragmentación de obras en múltiples licitaciones pequeñas en lugar de proyectos integrados. Falta claridad sobre qué problema específico resuelven estos 'refuerzos'."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL. EXPTE. ELECTRÓNICO N° 0733-011689/2026. OBJETO: 'REFUERZO DEL SISTEMA DE AGUA POTABLE DE LA LOCALIDAD DE SANTA CATALINA HOLMBERG'. De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000235, de fecha 12 de agosto de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra 'REFUERZO DEL SISTEMA DE AGUA POTABLE DE LA LOCALIDAD DE SANTA CATALINA HOLMBERG'. 1.- ENTIDAD: ACIF. 2.- CATEGORÍA: PRIMERA. Calificación: HIDRÁULICA (100%). 3.- PROCEDIMIENTO: Decreto 583/2016. 8.- PRESUPUESTO OFICIAL: $339.107.457,92 IVA incluido. 9.- PLAZO: 60 días corridos. 10.- GARANTÍA: 1%.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_180826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "ACIF 0733-011705/2026",
+   "titulo": "Mejora del Sistema de Provisión de Agua Potable de Saldán – Primera Etapa",
+   "importa": "ACIF licita obra de mejora de sistema de agua potable en Saldán. Presupuesto oficial: $1.383.010.006,20 (con IVA). Plazo: 120 días. Apertura: 01/09/2026 a las 11:00 hs. Tercera licitación de agua en el mismo boletín. Tema vigilado: emergencia hídrica y obras de abastecimiento de agua (a confirmar).",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Presupuesto intermedio (~1.383 millones) entre Coronel Moldes y Santa Catalina. Plazo más largo (120 días) respecto a las otras dos. Garantía 1%. El aviso no aclara diferencia entre 'mejora' y 'refuncionalización' o 'refuerzo' en las otras dos obras. Texto no especifica localidad exacta dentro de Saldán.",
+    "politica": "Tres licitaciones de agua en un mismo boletín (Coronel Moldes, Santa Catalina Holmberg, Saldán) reflejan concentración de inversión hídrica. Saldán está en Dpto. Colón, cercano a Córdoba capital. Patrón sugiere ejecución coordinada de programa provincial de agua.",
+    "oficialista": "Ejecuta sistema integrado de mejoras en infraestructura hídrica del interior provincial para modernizar servicios.",
+    "opositora": "Tres obras simultáneas sin coordinación clara de objetivos comunes. No se presenta plan maestro de abastecimiento de agua provincial."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL. EXPTE. ELECTRÓNICO N° 0733-011705/2026. OBJETO: 'MEJORA DEL SISTEMA DE PROVISIÓN DE AGUA POTABLE DE LA LOCALIDAD DE SALDÁN - PRIMERA ETAPA'. De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000167, de fecha 19 de junio de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra 'MEJORA DEL SISTEMA DE PROVISIÓN DE AGUA POTABLE DE LA LOCALIDAD DE SALDÁN - PRIMERA ETAPA'. 8.- PRESUPUESTO OFICIAL: $1.383.010.006,20 IVA incluido. 9.- PLAZO: 120 días corridos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_180826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "CASISA 2026/000020",
+   "titulo": "Ruta Nacional 20/38 Iluminación Av. Fuerza Aérea",
+   "importa": "CASISA licita obra de iluminación en Av. Fuerza Aérea de Ruta Nacional 20/38. Presupuesto oficial: $928.470.879,66 (con IVA). Apertura digital: 31/08/2026 a las 15:00 hs. Nota: el aviso menciona 'Ruta Nacional' pero CASISA es concesionaria de la Red de Accesos a Córdoba (RAC), no de rutas nacionales. El texto no aclara si la Av. Fuerza Aérea integra la RAC o si hay error de designación.",
+   "seccion": "4",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Discrepancia potencial: CASISA concesiona la RAC (Red de Accesos a Córdoba), no rutas nacionales de jurisdicción nacional (que son del Ministerio de Transporte de Nación). El aviso dice 'RUTA NACIONAL 20/38' pero está licitado por CASISA. El texto no aclara si se trata de un tramo que forma parte de la RAC o si hay error en la denominación. Presupuesto oficial publicado. Garantía: 1%.",
+    "politica": "Si es efectivamente Ruta Nacional 20, su mantenimiento no debería estar a cargo de CASISA. Puede indicar: (a) falta de claridad en delimitación de competencias entre CASISA y autoridades nacionales; (b) CASISA amplió su radio de operación más allá de la RAC; (c) error administrativo en la redacción del aviso.",
+    "oficialista": "CASISA ejecuta mejoras de iluminación para seguridad vial en accesos estratégicos a la ciudad.",
+    "opositora": "Confusión en competencias: si es Ruta Nacional, no debería licitarla CASISA. Puede indicar solapamiento de jurisdicciones o apropiación de funciones de otras autoridades."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA 2026/000020 - OBRA: RUTA NACIONAL 20/38 ILUMINACIÓN AV. FUERZA AÉREA. Presupuesto Oficial: $928.470.879,66 con IVA incluido. Los pliegos estarán disponibles en el portal de Compras y Contrataciones de Caminos de las Sierras S.A. https://ecommerce.casisa.com.ar/#!/login. Pliegos sin valor. Lugar, horario y fecha de presentación de ofertas: Las Ofertas deberán presentarse digitalmente hasta las 14:00hs del día 31/08/2026. Lugar y fecha de apertura: Caminos de las Sierras S.A., Av. Italia 700, B° La Perla, Malagueño, Provincia de Córdoba, el día 31/08/2026 a las 15:00hs. Garantía de oferta: 1% del Presupuesto Oficial con IVA incluido.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_180826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "381",
+   "titulo": "Habilitación de Empresa de Seguridad Privada 'Tolerancia Cero'",
+   "importa": "Dirección de Control y Gestión Operativa en Seguridad Privada (Ministerio de Seguridad) habilita empresa UNIPERSONAL HASTA 10 DEPENDIENTES de MONTES JORGE FELIX, nombre de fantasía 'TOLERANCIA CERO', CUIT 20-11188084-1, con domicilio en Paraguay N° 129, Unquillo. Designa Director Técnico a GRACCA Jorge Luis (DNI 20.057.183). Habilitación sin autorización para uso de armas. Empresa debe acreditar cumplimiento de obligaciones en 60 días y registrarse en Ciudadano Digital (CIDI) Nivel 2.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Resolución conforme Ley 10.571 de Seguridad Privada. Se cumplen requisitos de acreditación (artículos 8, 9, 10, 13, 18, 29). Director Técnico cumple requisitos de artículos 10, 13, 18 y Resolución 970/2025. Novedad: obligatoriedad de registro en CIDI Nivel 2 para notificaciones (artículos 25, 55 Ley 5.350; artículo 7 Decreto 1280/14; artículo 6 Ley 10.618). Plazo de 60 días para acreditar cumplimiento de artículos 9 inc. d), 14, 15, 16 de Ley 10.571 es perentorio. Sin armas: limita capacidades operativas a custodia sin protección armada.",
+    "politica": "Empresa pequeña (hasta 10 dependientes), base en Unquillo (Dpto. Colón, periferia de Córdoba capital). Nombre 'Tolerancia Cero' sugiere posicionamiento en seguridad dura. Proliferación de pequeñas empresas de seguridad privada puede responder a inseguridad percibida en zona periférica.",
+    "oficialista": "Se habilita empresa que cumple todos requisitos legales. Seguridad privada contribuye a seguridad ciudadana en zonas de riesgo.",
+    "opositora": "Proliferación de pequeñas empresas de seguridad privada sin armas sugiere fragmentación del mercado. Nombre 'Tolerancia Cero' puede asociarse con usos de fuerza excesiva (aunque la resolución no autoriza armas). Sin garantías de capacitación o conducta ética."
+   },
+   "texto_oficial": "Artículo 1°.- DISPÓNESE la habilitación de la empresa UNIPERSONAL HASTA 10 DEPENDIENTES de MONTES JORGE FELIX, la que funcionará con nombre de fantasía 'TOLERANCIA CERO' C.U.I.T. 20-11188084-1 con domicilio legal en calle Paraguay N° 129 B° Herbera de la localidad de Unquillo, Provincia de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas y; PROCÉDASE a la designación como Director Técnico de la empresa al Sr. GRACCA Jorge Luis D.N.I. N° 20.057.183., a quien se le extenderá credencial habilitante, sin autorización para el uso de armas. Artículo 2°.- Los responsables de la empresa deberán acreditar en plazo de 60 días el cumplimiento de obligaciones previstas en artículos 9 inc. d), 14, 15 y 16 de Ley N° 10.571, y realizar registración en CIDI Nivel 2 para notificaciones al domicilio electrónico constituido, conforme artículos 25 y 55 Ley N° 5.350, artículo 7 Decreto N° 1280/14, artículos 6 Ley N° 10.618 y Decreto Reglamentario N° 750/19.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_180826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1161",
+   "titulo": "Ratificación de Plan de Estudios Educación Secundaria a Distancia – Centro de Estudios a Distancia (C.E.D.)",
+   "importa": "Ministerio de Educación ratifica Resolución 2026/PRIVA-00000485 que aprueba plan de estudios de 'Educación Secundaria con orientación en Ciencias Sociales y Humanidades' (opción pedagógica educación a distancia), 3 años, 3.000 horas reloj, para Centro de Estudios a Distancia (C.E.D.), nivel secundario modalidad jóvenes y adultos, Córdoba Capital. Título: 'Bachiller en Ciencias Sociales y Humanidades'. Vigencia: ciclo lectivo 2026.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Resolución ratifica acto anterior (Res. 2026/PRIVA-00000485) sin publicar íntegra la propuesta curricular, solo menciona 'compuesta de 26 fojas' que forman anexo. Aviso no especifica: (a) si es nueva modalidad o ya existía con otra autorización; (b) criterios de aprobación curricular; (c) qué aspectos diferencia el plan de estudios respecto a bachilleratos presenciales. Cumple formalmente Ley 5.326 según aviso, pero no detalla innovaciones pedagógicas.",
+    "politica": "Educación a distancia para jóvenes y adultos responde a demanda de inclusión educativa. Orientación en Ciencias Sociales y Humanidades es clásica en educación secundaria. Modalidad a distancia puede captar población adulta con trabajo o responsabilidades. Establimiento adscripto (privado) sugiere política mixta público-privada en educación.",
+    "oficialista": "Expande acceso a educación secundaria para jóvenes y adultos a través de modalidad flexible. Aprueba establecimiento privado que cumple estándares pedagógicos.",
+    "opositora": "Ratificación sin publicar plan completo impide escrutinio ciudadano. No aclara si es creación nueva o regularización de oferta no autorizada previamente."
+   },
+   "texto_oficial": "Artículo 1°.- RATIFICAR la Resolución N° 2026/PRIVA-00000485, junto a su Anexo I emanada de la Dirección General de Educación Pública de Gestión Privada, la que compuesta por veintiséis (26) fojas forma parte de la presente Resolución, por la que se aprueba el plan de estudios de la carrera 'Educación Secundaria con orientación en Ciencias Sociales y Humanidades' -opción pedagógica Educación a Distancia-, de tres (3) años de duración y una carga horaria de 3000 horas reloj, que otorga el título de 'Bachiller en Ciencias Sociales y Humanidades', en el establecimiento educativo adscripto CENTRO DE ESTUDIOS A DISTANCIA (C.E.D.) -Nivel Secundario Modalidad Jóvenes y Adultos- de Córdoba, Departamento Capital, con efecto a partir del ciclo lectivo 2026.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_180826.pdf"
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "clase": "resolucion",
+   "numero": "Secretaría de Desarrollo Sostenible",
+   "titulo": "Audiencia Pública Ambiental: Construcción de Distribuidores en Media Tensión desde Parque Solar Perilago hasta Estación Transformadora Cruz del Eje",
+   "importa": "Secretaría de Desarrollo Sostenible convoca audiencia pública ambiental digital (Ley Prov. 10.208 art. 8; Ley Prov. 10.618) para Estudio de Impacto Ambiental de 'Construcción y remodelación de distribuidores en Media Tensión (13,2 kV y 33 kV) desde Parque Solar Perilago hasta nueva Estación Transformadora Cruz del Eje, Zona B'. Proponente: Consorcio Empresa Constructora Delta S.A. - Maquinarias San Francisco S.R.L. Expte. 0918-037367/2026. Audiencia: 08/09/2026 10:00 hs, vía Zoom. Inscripción límite: 06/09/2026 10:00 hs.",
+   "seccion": "4",
+   "pagina": 7,
+   "ampliada": {
+    "juridica": "Audiencia conforme Ley Prov. 10.208 (Código de Ambiente) art. 8 y Ley Prov. 10.618 (Gobierno Abierto). Registro en Ciudadano Digital (CIDI) Nivel 2 requerido. Participación opcional (asistente o expositor, no intercambiable). Vista de expediente a pedido 2 días antes. Autoridades: Ab. Ma. Eugenia Ciacci (Presidenta), Lic. Valentina Vergnano (Suplente), Tec. Nadia Riga (Escribiente). Procedimiento digital permite participación remota. Expediente completo disponible en http://participacion.cba.gov.ar.",
+    "politica": "Proyecto vincula infraestructura eléctrica (distribuidores de media tensión) con energía renovable (Parque Solar Perilago) hacia zona de Cruz del Eje (interior provincial). Genera debate potencial entre intereses de EPEC (empresa pública de energía) o concesionaria privada vs. impacto ambiental en zona rural. Ubicación en Zona B sugiere área de expansión fuera de ejido urbano. Participación digital amplía acceso.",
+    "oficialista": "Audiencia pública transparente conforme leyes ambientales. Proyecto de infraestructura para energías renovables alinea con agenda de transición energética.",
+    "opositora": "Audiencia previa a decisión: ¿si el proyecto ya está aprobado, qué discreción tiene la audiencia? Zona rural vulnerable a imposición de infraestructura eléctrica sin poder real de veto."
+   },
+   "texto_oficial": "PROYECTO: 'CONSTRUCCIÓN Y REMODELACIÓN DE DISTRIBUIDORES EN MEDIA TENSIÓN (13,2 KV Y 33 KV) DESDE PARQUE SOLAR PERILAGO HASTA NUEVA ESTACIÓN TRANSFORMADORA CRUZ DEL EJE, ZONA B'. AUTORIDAD CONVOCANTE: Secretaría de Desarrollo Sostenible de la provincia de Córdoba. PROPONENTE: CONSORCIO DE COOPERACIÓN EMPRESA CONSTRUCTORA DELTA S.A. - MAQUINARIAS SAN FRANCISCO S.R.L. OBJETO: Estudio de Impacto Ambiental, Expte N°0918-037367/2026, a ubicarse parcialmente en localidad de Cruz del Eje y parcialmente fuera de ejido en zona rural del Departamento Cruz del Eje, con Coordenadas Geográficas: [detalles de inicio, cruces y fin de trazado]. FECHA, HORA Y LUGAR: 08 de septiembre de 2026, 10:00 hs, Link Zoom: https://us02web.zoom.us/j/83793432919?pwd=... ID: 837 9343 2919, Código: 943325. PLAZO LÍMITE INSCRIPCIÓN: 06 de septiembre 2026, 10:00 hs, a través de http://participacion.cba.gov.ar (Nivel CIDI 2 requerido).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_180826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 8",
+   "titulo": "Designación de Escribano como Adscripto a Registro Notarial",
+   "detalle": "Se designa al Escribano Lautaro Yamil NACUL (DNI 40.783.228, Matrícula Profesional 3175) como Adscripto al Registro Notarial Nº 344 con asiento en Córdoba Capital. Propuesta de titular del Registro, Escribana Liliana Olga VARRONE. Designación aprobada por Tribunal de Disciplina Notarial y Colegio de Escribanos de Córdoba.",
+   "organismo": "Tribunal de Disciplina Notarial / Ministerio de Jefatura de Gabinete",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_180826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Ley",
+   "numero": "11131",
+   "titulo": "Creación de Juzgados y Defensorías Públicas en el Poder Judicial",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Decreto",
+   "numero": "80",
+   "titulo": "Promulgación de Ley 11131",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Ley",
+   "numero": "11132",
+   "titulo": "Río Cuarto como Capital Provincial del Vecinalismo",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Decreto",
+   "numero": "81",
+   "titulo": "Promulgación de Ley 11132",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Ley",
+   "numero": "11133",
+   "titulo": "Ratificación de Decretos 60 y 72/2026 – Estructura Orgánica del Poder Ejecutivo",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Decreto",
+   "numero": "82",
+   "titulo": "Promulgación de Ley 11133",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "8",
+   "titulo": "Ministerio Jefatura de Gabinete – Designación de Adscripto a Registro Notarial",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1161",
+   "titulo": "Ministerio de Educación – Ratificación de Plan de Estudios Educación a Distancia",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "381",
+   "titulo": "Dirección Control y Gestión Operativa en Seguridad Privada – Habilitación de Empresa",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0733-011594/2026",
+   "titulo": "Refuncionalización Sistema Agua Potable Coronel Moldes – Primera Etapa",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0733-011689/2026",
+   "titulo": "Refuerzo Sistema Agua Potable Santa Catalina Holmberg",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0733-011705/2026",
+   "titulo": "Mejora Sistema Agua Potable Saldán – Primera Etapa",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ERSeP Particular Digital 1857/2026",
+   "titulo": "Adquisición de Tres Vehículos para Flota ERSeP",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1451",
+   "titulo": "Adquisición de Dos UPS para Laboratorio de Calidad",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1449",
+   "titulo": "Cargador para Vehículos Eléctricos Monofásico 7 KW",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1450",
+   "titulo": "Contratación Servicio Urgencia y Emergencia Área Protegida Centrales Hidroeléctricas",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "EPEC 2467",
+   "titulo": "Adquisición Televisores LED 55' y 75'",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1454",
+   "titulo": "Cámara Termográfica Media Resolución",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1452",
+   "titulo": "Adquisición de Extintores F-500 para Carga de Vehículos Eléctricos",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1453",
+   "titulo": "Adquisición de Repuestos para Karl Fischer",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1456",
+   "titulo": "Reacondicionamiento de Cocheras Complejo Central Dean Funes",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "EPEC 5584",
+   "titulo": "Ampliación ET Arroyo Cabral – Interconexión Transformador 500/132/33 KV",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1455",
+   "titulo": "Provisión de Kits y Servicio Testeo Sustancias Psicoactivas",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 5586",
+   "titulo": "Adquisición de Luminarias LED para Alumbrado Público",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1457",
+   "titulo": "Ácido Sulfúrico 98% para Tratamiento de Agua Planta Química",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1458",
+   "titulo": "Relé de Protección y Control para Banco de Capacitores",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1460",
+   "titulo": "Retiro y Traslado Generador Nº 2 Central Hidroeléctrica Fitz Simón",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1459",
+   "titulo": "Contratación Servicio Urgencia y Emergencia Zona G – Bell Ville",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 5587",
+   "titulo": "Ejecución de Obras Civiles en Instalaciones de Transformación y Distribución",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "CASISA 2026/000020",
+   "titulo": "Ruta Nacional 20/38 Iluminación Av. Fuerza Aérea",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "Secretaría Desarrollo Social 2026/000010",
+   "titulo": "Servicio de Monitoreo de Medios de Información",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "Subsecretaría Infraestructura Eléctrica 0660-004511/2026",
+   "titulo": "Construcción Línea Aérea Media Tensión 33kV Idiazabal – Etapa 1",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "Secretaría Desarrollo Sostenible 0918-037367/2026",
+   "titulo": "Construcción y Remodelación Distribuidores Media Tensión Parque Solar Perilago – Cruz del Eje",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "Secretaría Desarrollo Sostenible 0918-037368/2026",
+   "titulo": "Mensura y Subdivisión – Titular Registral Teresa Orfelia Giannasi",
+   "seccion": "4",
+   "pagina": 7
+  }
+ ],
+ "telegram": "📋 Boletín Oficial Nº 157 (18/08/2026): Ampliación judicial en la provincia con creación de 4 juzgados de control, 1 de ejecución penal y 12 defensorías públicas; tres licitaciones de agua potable por $3.300M; reconocimiento de Río Cuarto como Capital del Vecinalismo. Texto completo: https://boletinoficial.cba.gov.ar",
+ "hora_procesado": "07:32",
+ "estado": "publicado"
+}
