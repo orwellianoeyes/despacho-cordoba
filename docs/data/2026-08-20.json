@@ -1,0 +1,403 @@
+{
+ "fecha": "2026-08-20",
+ "numero_boletin": "160",
+ "sintesis_juridica": [
+  "La edición del día publica cinco normas sustantivas de relevancia variada. El Decreto N° 83 delega en el Secretario General de Gobernación facultades para determinar los alcances de disposiciones de la Ley N° 4656, sin especificar en el texto cuáles son esos alcances concretos. La Resolución N° 1233 del Ministerio de Educación titulariza docentes en cargos de Coordinador de Curso, Preceptor, Secretario Docente y Horas Cátedra; el egreso se imputa a los programas 379, 365 y 355 con partidas presupuestarias identificadas. Las Resoluciones N° 385, 386 y 387 de la Dirección de Control y Gestión Operativa en Seguridad Privada habilitan empresas de seguridad privada sin autorización para uso de armas, cumpliendo requisitos de la Ley N° 10.571.",
+  "Las Resoluciones N° 71 y 73 de la Caja de Jubilaciones, Pensiones y Retiros aprueban índices de movilidad para beneficiarios en sectores con variaciones salariales conforme a los artículos 51 de la Ley N° 8024 y apartado a) del Decreto N° 408/2020; los anexos con los índices específicos se remiten a adjuntos no reproducidos aquí. En materia de licitaciones, se publican numerosos llamados de EPEC, CEPROCOR, CASISA y la Subsecretaría de Infraestructura Eléctrica por montos que alcanzan los $2.926 millones para luminarias LED (EPEC Licit. 5586) y $797,5 millones para obras civiles en instalaciones (EPEC Licit. 5587)."
+ ],
+ "sintesis_politica": [
+  "El Decreto N° 83 representa una delegación amplia de facultades en el Secretario General de Gobernación, invocando principios de celeridad y eficacia del artículo 174 de la Constitución Provincial. La falta de especificidad sobre qué se delega exactamente en materia de Ley N° 4656 genera interrogantes sobre alcance y control. La titularización docente de la Res. 1233 se alinea con expectativas de estabilidad laboral del sector educativo, beneficiando a docentes en planta pero sin detalles de cantidad exacta de titularizados en el texto principal (se remite a anexo). Las habilitaciones de empresas de seguridad privada reflejan actividad ordinaria de regulación sin controversia aparente.",
+  "La aprobación de índices de movilidad jubilatoria responde a obligaciones de la Ley N° 8024 sobre actualización de haberes según variaciones sectoriales. Sin acceso a los anexos con montos específicos, no es posible evaluar si los aumentos satisfacen reclamos del sector jubilado o generan insatisfacción. Las licitaciones de EPEC por infraestructura eléctrica (líneas 33kV en Idiazabal, obras en transformadores) y adquisiciones de insumos (ácido sulfúrico, extintores, repuestos) sugieren continuidad en inversión operativa sin señales de controversia política inmediata."
+ ],
+ "normas": [
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "83",
+   "titulo": "Delegación de facultades en Secretario General de Gobernación para determinar alcances de disposiciones de Ley N° 4656",
+   "importa": "El Gobernador delega en el Secretario General de Gobernación facultades para determinar los alcances de disposiciones del artículo 17 de la Ley N° 4656 y su reglamentación, invocando principios de celeridad y eficacia del artículo 174 de la Constitución Provincial.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La delegación se fundamenta en el artículo 15 quáter, inciso 2°, del Decreto N° 2206/2023 (ratificado por Ley N° 10.956). El articulado no especifica cuáles son los alcances concretos de la Ley N° 4656 que se delegan, generando una delegación abierta sin límites materiales explícitos. Requiere refrendo de tres ministros (Jefe de Gabinete, Educación, Fiscal de Estado), lo que sugiere coordinación interministerial, aunque el texto no aclara por qué Educación interviene en normas sobre administración general.",
+    "politica": "La delegación genérica sin especificidad sobre qué se delega puede facilitar gestión ejecutiva ágil, pero también genera incertidumbre sobre el alcance real del poder transferido. El refrendo de múltiples ministros puede interpretarse como control horizontal, aunque no queda claro si fue resultado de consenso o de formalidad obligatoria. El timing de esta delegación en agosto no está vinculado a emergencias evidentes.",
+    "oficialista": "La medida responde a una necesidad legítima de agilizar procesos administrativos en el marco constitucional de celeridad y eficacia. La delegación en el Secretario General de Gobernación, funcionario de confianza directa del Gobernador, permite coordinación central de decisiones que requieren rapidez operativa.",
+    "opositora": "La ausencia de límites materiales sobre qué se delega constituye una delegación potencialmente excesiva sin suficiente precisión legal. No queda claro de qué trata la Ley N° 4656 ni por qué es necesaria una delegación tan amplia; el texto ofrece ninguna motivación específica sobre problemas concretos que justifiquen esta medida."
+   },
+   "texto_oficial": "Artículo 1°.- DELÉGASE en el señor Secretario General del a Gobernación las funciones y atribuciones que le permitan conforme a derecho determinar los alcances de las disposiciones del artículo 17 de la Ley N° 4656 y su reglamentación o delimitando los mismos. Artículo 2°.- El presente Decreto será refrendado por los señores Ministro Jefe de Gabinete, de Educación y Fiscal de Estado. Artículo 3°.- PROTOCOLÍCESE comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1233 - Letra D",
+   "titulo": "Titularización de docentes en cargos de Coordinador de Curso, Preceptor, Secretario Docente y Horas Cátedra",
+   "importa": "El Ministerio de Educación dispone la titularización de docentes en los cargos nominados en Anexo I (cargos 13215, 13520, 13310, 13910). Los egresos se imputan a los programas 379, 365 y 355 con partidas de Personal Permanente. La titularidad se adquiere de pleno derecho a partir de la publicación en Boletín Oficial, condicionada a régimen de incompatibilidad vigente.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La resolución se encuadra en el artículo 3° de la Ley N° 10.729 según consta en los fundamentos. El procedimiento incluye verificación de documentación requerida (títulos, aptitud psicofísica, servicios, incompatibilidades, registros de deudores alimentarios, antecedentes penales). El egreso presupuestario está distribuido en tres programas (379, 365, 355) con cargos específicos. El texto no detalla cantidad exacta de titularizados (remite a Anexo I, que no se reproduce en el aviso), ni menciona si hay objeciones jurídicas pendientes.",
+    "politica": "La titularización docente responde a expectativas de estabilidad laboral en el sector educativo. La fecha (18 de agosto) no coincide con momentos de conflictividad laboral docente visible en el boletín. Sin acceso al Anexo I, no es posible evaluar si la medida beneficia a un colectivo pequeño o masivo, ni si responde a demandas de paritarias pendientes.",
+    "oficialista": "La medida reconoce derechos adquiridos de docentes que cumplen requisitos legales tras períodos de desempeño en los cargos. Contribuye a estabilidad del personal educativo y a la retención de experiencia en el sistema.",
+    "opositora": "Sin Anexo no se puede verificar si la titularización beneficia a personas con conexiones políticas o si omite a otros docentes igualmente calificados. La imputación a tres programas distintos podría indicar dispersión presupuestaria sin criterio unificado."
+   },
+   "texto_oficial": "Art. 1°.- DISPONER la titularización de los docentes nominados en el Anexo I, que con una (1) página forma parte del presente instrumento legal, en los cargos de Coordinador de Curso (código 13215), Preceptor (código 13520), Secretario Docente de Primera (Enseñanza Media – código 13310) y Horas Cátedra (Enseñanza Media – Código 13910), dependientes de este Ministerio. Art. 2°.- El egreso que demande el cumplimiento de lo dispuesto en la presente resolución se imputará al P.V.; Jurisdicción 1.35; Programa 379; Partidas: Principal 01 y Parcial 01 \"Personal Permanente\"; Grupo 13; Cargo 910 - \"Horas Cátedra (Enseñanza Media)\", Grupo 13; Cargo 215 \"Coordinador de Curso (Enseñanza Media)\", Programa 365; Partidas: Principal 01 y Parcial 01 \"Personal Permanente\"; Grupo 13; Cargo 215 \"Coordinador de Curso (Enseñanza Media)\" y Programa 355; Partidas: Principal 01 y Parcial 01 \"Personal Permanente\", Grupo 13; Cargo 310 \"Secretario de Primera (Enseñanza Media); Grupo 13; Cargo 520 \"Preceptor\". Art. 3°.- La condición de titular del personal abarcado por la presente resolución, se adquiere de pleno derecho a partir de la fecha de publicación en el Boletín Oficial del presente dispositivo legal, debiendo los docentes titularizados poseer su situación de revista acorde al régimen de incompatibilidad vigente. Art. 4°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "385",
+   "titulo": "Habilitación de empresa EMPIRE SEGURIDAD S.A.S. como prestadora de servicios de seguridad privada",
+   "importa": "Se habilita la empresa EMPIRE SEGURIDAD S.A.S. (CUIT 30-71948920-2, domicilio Caseros 1154, Barrio Alberbi, Córdoba) como Prestadora de Servicios de Seguridad Privada sin autorización para uso de armas. Se designa a Ivanna Franca ISLEÑO como Directora Técnica. Plazo de 60 días para acreditar obligaciones de Ley N° 10.571 y registración en Ciudadano Digital Nivel N° 2.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La resolución se dicta conforme a artículos 22 de Ley N° 10.571 y artículo 1° de Resolución N° 159/2026. El análisis de documental confirma cumplimiento de artículos 8, 9, 10, 13, 18, 29 inc. a) punto 1 de la Ley N° 10.571. Se requiere acreditación posterior (dentro de 60 días) de obligaciones en artículos 9 inc. d), 14, 15 y 16 de la misma ley. El texto aclara que notificaciones futuras serán al domicilio electrónico (C.I.D.I. Nivel 2) conforme a Ley N° 5.350 y decretos reglamentarios.",
+    "politica": "La habilitación es acto administrativo ordinario de regulación de seguridad privada. No hay controversia política visible. La exigencia de registración en Ciudadano Digital refleja modernización de procesos administrativos.",
+    "oficialista": "La medida cumple funciones de regulación estatal necesaria para vigilancia del sector de seguridad privada. Se verifican requisitos y se otorga credencial con límites explícitos (sin armas).",
+    "opositora": "No hay elementos en el texto que sugieran criticalidad política. Se trata de trámite de habilitación ordinaria."
+   },
+   "texto_oficial": "Artículo 1°.- DISPÓNESE la habilitación de la empresa \"EMPIRE SEGURIDAD S.A.S.\" C.U.I.T. 30-71948920-2, con domicilio legal en calle Caseros N° 1154 Plant? Baja Departamento 3° Barrio Alberdi de la Ciudad de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas y; PROCÉDASE a la designación como Director Técnico de la empresa a la Sra. ISLEÑO Ivanna Franca D.N.I. N° 26.151.337, a quien se le extenderá credencial habilitante, sin autorización para el uso de armas. Artículo 2°.- Los responsables de la empresa \"EMPIRE SEGURIDAD S.A.S.\" C.U.I.T. 30-71948920-2, en el plazo de sesenta (60) días corridos a partir de la fecha del presente acto, deberá acreditar el cumplimiento de las obligaciones previstas en los artículos 9 inc. d), 14, 15 y 16 de la Ley N° 10.571, como así, deberán realizar la registración en el Ciudadano Digital (C.I.D.I.) – Nivel N°2. Artículo 3°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "71 - Letra F",
+   "titulo": "Aprobación de índices de movilidad de prestaciones jubilatorias para sectores con variaciones salariales - Liquidación julio 2026",
+   "importa": "La Caja de Jubilaciones, Pensiones y Retiros aprueba índices de movilidad para beneficiarios en sectores que experimentaron variaciones salariales, conforme a artículo 51 de Ley N° 8024. Los índices se listan en Anexo Único. Liquidación de actualización con haberes de julio 2026.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "La resolución se basa en artículo 51 de Ley N° 8024 (T.O. Decreto N° 407/2020) que establece movilidad de haberes en relación con variaciones de remuneraciones de personal en actividad. El artículo 51 apartado a) del Decreto N° 408/2020 establece que la movilidad será igual al aumento promedio de salarios del sector, con verificación de que ese aumento esté reflejado en aportes y contribuciones. El texto no reproduce los índices específicos (remite a Anexo Único), lo que impide verificar si los aumentos son proporcionales a incrementos de masa salarial declarados.",
+    "politica": "La aprobación de índices de movilidad responde a obligación legal de Ley N° 8024. Sin acceso a anexo, no se puede evaluar si los montos satisfacen expectativas del sector jubilado o si generan insatisfacción. La liquidación retroactiva a julio 2026 sugiere proceso administrativo ordinario.",
+    "oficialista": "La medida cumple obligación legal de actualización de haberes jubilatorios según variaciones salariales reales del sector. Demuestra compromiso con estabilidad del ingreso jubilatorio.",
+    "opositora": "Sin Anexo con índices específicos, no es posible evaluar si los aumentos son adecuados o insuficientes. La liquidación retroactiva podría estar vinculada a demoras administrativas no explicadas en el texto."
+   },
+   "texto_oficial": "ARTÍCULO 1: APROBAR los índices de movilidad correspondientes a los sectores nominados en el Anexo Único de la presente resolución, en función de las variaciones salariales establecidas al personal en actividad, de conformidad con lo dispuesto en el artículo 51 de la Ley N° 8024. ARTICULO 2: LIQUIDAR con los haberes del mes de JULIO año 2026 la actualización correspondiente a los sectores mencionados en el Anexo Único de la presente resolución. ARTÍCULO 3: Comuníquese a todas las áreas y publíquese en el Boletín Oficial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "clase": "licitacion",
+   "numero": "2026/000001 (CEPROCOR)",
+   "titulo": "Provisión de servicio de transporte para personal de CEPROCOR entre sedes de Córdoba y Complejo Hospitalario de Santa María de Punilla",
+   "importa": "CEPROCOR convoca licitación pública presencial para contratación de servicio de transporte de personal entre sede de Álvarez de Arenales 180 (Córdoba) y Complejo Hospitalario de Santa María de Punilla. Cantidad: 500 unidades. Período: 12 meses. Presupuesto oficial: $383.250.000. Período de consultas: 20-24 agosto (09:00-11:00). Presentación ofertas: 28 agosto de 9:00 a 11:00.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública presencial conforme a Ley N° 8614 de Contrataciones del Estado. Pliego de condiciones disponible en Portal de Compras Públicas. El texto no especifica si hay montos mínimos de garantía ni modalidad de adjudicación (mejora de precio, antecedentes, combinado). Período de 12 meses para 500 unidades de transporte sugiere servicio de traslado diario o frecuente.",
+    "politica": "La contratación de transporte para CEPROCOR refleja funcionamiento operativo del centro de investigación. El presupuesto de $383,25 millones es significativo pero sin información sobre precios históricos no es posible evaluar si hay inflación de presupuesto de referencia.",
+    "oficialista": "La licitación pública asegura transparencia en contratación de servicios de transporte para organismo estatal de investigación.",
+    "opositora": "El presupuesto no contiene detalles sobre costos unitarios por unidad transportada ni justificación del monto. La modalidad de licitación presencial (no electrónica) podría reducir participación de oferentes."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA PRESENCIAL Expediente N.º 0646-000885/2026 N.º DE COTIZACIÓN: 2026/000001 OBJETO: Provisión del servicio de transporte para el personal indicado por el Centro de Excelencia en Productos y Procesos (CEPROCOR), entre sus sedes sitas en calle Álvarez de Arenales 180, B.º Juniors, de la Ciudad de Córdoba, y el Complejo Hospitalario de Santa María de Punilla, localidad de Santa María de Punilla, Provincia de Córdoba. Cantidad: 500 unidades. PERÍODO DE CONTRATACIÓN: Doce (12) meses. PLIEGO DE CONDICIONES: Disponible en el Portal de Compras Públicas. VALOR DEL PLIEGO: PESOS TRESCIENTOS OCHENTA Y TRES MIL DOSCIENTOS CINCUENTA ($383.250.000). PERÍODO PARA CONSULTAS: Desde el día 20 de agosto de 2026 a las 09:00 horas hasta el día 24 de agosto de 2026 a las 11:00 horas. PRESENTACIÓN DE OFERTAS: Hasta el día 28 de agosto de 2026 de 9:00hs a 11:00 horas, en el Centro de Excelencia en Productos y Procesos (CEPROCOR), sito en calle Álvarez de Arenales 180, B.º Juniors, Ciudad de Córdoba, Provincia de Córdoba. MODALIDAD: Licitación Pública Presencial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "1456 (EPEC)",
+   "titulo": "Reacondiconamiento de cocheras en Complejo Central Dean Funes",
+   "importa": "EPEC convoca licitación pública electrónica para reacondicionamiento de cocheras en Complejo Central Dean Funes. Presupuesto oficial: $149.917.634,64 (IVA incluido). Presentación de ofertas: hasta 27 agosto 12:00 hs. Apertura: 27 agosto 12:00 hs.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación electrónica conforme a procesos de EPEC. Presupuesto elevado (casi $150 millones) para obra de reacondiconamiento de infraestructura operativa. Pliego disponible en portal de EPEC. El texto no especifica si incluye pliegos de especificaciones técnicas ni plazo de ejecución.",
+    "politica": "La obra de reacondicionamiento de cocheras responde a mantenimiento de infraestructura de EPEC. Sin información sobre estado previo de las cocheras o criticidad de la obra, no es posible evaluar prioridades de inversión.",
+    "oficialista": "La obra mantiene infraestructura operativa de EPEC conforme a planes de mantenimiento ordinario.",
+    "opositora": "Sin detalles técnicos no es posible evaluar si el presupuesto es adecuado o si podría haberse planificado con presupuesto menor."
+   },
+   "texto_oficial": "LICITACION PUBLICA ELECTRONICA N.º 1456 - Objeto: \"REACONDICONAMIENTO DE COCHERAS EN COMPLEJO CENTRAL DEAN FUNES. -\" . PRESUPUESTO OFICIAL: $ 149.917.634,64. IVA incluido- PRESENTACIÓN DE OFERTAS: hasta las 12:00 hs. del día 27-08-2026 en el Portal Electrónico de Compras y Contrataciones de la EPEC. APERTURA DE OFERTAS: Vencido el plazo de presentación, a las 12:00 hs. del día 27-08-2026 en el referido Portal.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "5586 (EPEC)",
+   "titulo": "Adquisición de luminarias LED para alumbrado público",
+   "importa": "EPEC convoca licitación pública para adquisición de luminarias LED para alumbrado público. Presupuesto oficial: $2.926.990.000. Apertura: 26 agosto 2026 a las 10:00. Entrega de sobres: 26 agosto hasta 09:00. Lugar: Administración Central EPEC, La Tablada N° 350.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública conforme a procesos de EPEC. Presupuesto de casi $2.927 millones para adquisición de luminarias LED representa inversión mayor en infraestructura de alumbrado. Modalidad de doble apertura (sobre técnico y económico). Pliego sin valor disponible en portal EPEC. No se especifica cantidad de unidades ni especificaciones técnicas de luminarias (potencia, tipo, durabilidad).",
+    "politica": "Inversión en iluminación LED refleja modernización de infraestructura de alumbrado público en Córdoba. La magnitud del presupuesto ($2.927 millones) es significativa y responde a políticas de eficiencia energética y reducción de costos operativos.",
+    "oficialista": "La modernización a LED es medida de eficiencia energética que reduce costos de operación de EPEC y consume menos electricidad, alineada con objetivos de sustentabilidad.",
+    "opositora": "Sin especificaciones técnicas no es posible evaluar si el presupuesto es proporcional a cantidad de luminarias o si hay sobrecosto. La licitación tardía en agosto podría estar vinculada a decisiones presupuestarias de último trimestre."
+   },
+   "texto_oficial": "LICITACION PUBLICA Nº 5586 APERTURA: 26-08-26 HORA: 10:00.- OBJETO: \" ADQUISICIÓN DE LUMINARIAS LED PARA ALUMBRADO PÚBLICO\" - ENTREGA DE SOBRES HASTA EL 26-08-26 HORA 09:00 - PRESUPUESTO OFICIAL: $2.926.990.000,00. - LUGAR: Administración Central, Área Compras y Contrataciones, La Tablada N° 350 – Córdoba –",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "5587 (EPEC)",
+   "titulo": "Ejecución de Obras Civiles en Instalaciones de Transformación y Distribución en ET Devoto, ET Principal Centro, Nuevo CRD en Huerta Grande y Refuncionalización de Cámara de Transformación en Cosquín",
+   "importa": "EPEC convoca licitación pública para ejecución de obras civiles y electromecánicas en cuatro instalaciones de transformación (ET Devoto, ET Principal Centro, Nuevo CRD Huerta Grande, refuncionalización en Cosquín). Presupuesto oficial: $797.500.000. Plazo: 420 días corridos. Categoría: Primera. Apertura: 3 septiembre 2026 a las 11:00.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública conforme a Ley N° 8614. Obra de arquitectura y electromecánica, categoría primera. Presupuesto de $797,5 millones para ejecución en cuatro puntos geográficos (Devoto, Centro, Huerta Grande, Cosquín). Plazo de 420 días sugiere obra compleja de mediano plazo. Sistema de doble apertura. Pliego sin valor en portal EPEC. El texto no especifica alcance detallado de cada una de las cuatro obras ni inversión por punto.",
+    "politica": "Las obras de transformación y distribución en puntos clave de la red eléctrica (centro, periferia) responden a plan de modernización de infraestructura de EPEC. La distribución geográfica (Huerta Grande en sierras, Cosquín, centro) sugiere mejora de cobertura y confiabilidad.",
+    "oficialista": "La inversión en infraestructura de transformación y distribución fortalece la red eléctrica provincial y mejora confiabilidad del servicio en zonas de demanda.",
+    "opositora": "Sin detalles por obra individual, no es posible evaluar si hay inversión desproporcionada en una zona respecto a otras o si el plazo de 420 días es realista para cuatro obras simultáneas."
+   },
+   "texto_oficial": "LICITACION PUBLICA Nº 5587 SE REALIZARÁ MEDIANTE EL SISTEMA DE DOBLE APERTURA: 03-09-2026 HORA: 11 .- OBJETO: \"Ejecución de Obras Civiles en Instalaciones de Transformación y Distribución en ET DEVOTO, ET PRINCIPAL CENTRO, Nuevo CRD en HUERTA GRANDE y Refuncionalización de Cámara de Transformación en COSQUÍN - Provincia de Córdoba - EPEC SAU\" - ENTREGA DE SOBRES HASTA EL 03-09-2026 HORA: 10:00 - PRESUPUESTO OFICIAL: $ 797.500.000,00 .-Especialidad: OBRA DE ARQUITECTURA Y ELECTROMECÁNICA. -Categoría: PRIMERA- Plazo: 420 días",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000020 (CASISA)",
+   "titulo": "Ruta Nacional 20/38 Iluminación Avenida Fuerza Aérea",
+   "importa": "CASISA (Caminos de las Sierras S.A.) convoca licitación pública para iluminación de Avenida Fuerza Aérea en Ruta Nacional 20/38. Presupuesto oficial: $928.470.879,66 (IVA incluido). Presentación de ofertas digitales: hasta 31 agosto 14:00. Apertura: 31 agosto 15:00 en portal electrónico. Garantía: 1% del presupuesto oficial.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación de CASISA (concesionaria de Red de Accesos a Córdoba - RAC). Presupuesto de casi $928,5 millones. Modalidad digital en portal de CASISA. Garantía de oferta del 1% requiere depósito previo. El texto especifica que oferentes deben estar registrados en portal de compras de CASISA y aclara procedimiento (instructivo en web). Pliegos sin valor, consultas hasta 26 agosto 16:00.",
+    "politica": "La obra de iluminación en Avenida Fuerza Aérea (ruta de acceso importante a Córdoba) responde a mejora de seguridad vial. CASISA como concesionaria tiene competencia sobre RAC conforme a glosario de entidades. Inversión significativa sugiere prioridad de seguridad en accesos urbanos.",
+    "oficialista": "La mejora de iluminación en vía importante contribuye a seguridad vial y a experiencia de usuarios del acceso a la ciudad.",
+    "opositora": "Sin detalles sobre cobertura de iluminación (cantidad de luminarias, tramo específico) no es posible evaluar proporcionalidad del presupuesto. La obra podría haberse planificado con cronograma más anticipado."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA 2026/000020 - OBRA: RUTA NACIONAL 20/38 ILUMINACIÓN AV. FUERZA AÉREA Presupuesto Oficial: $ 928.470.879,66 con IVA incluido. Los pliegos estarán disponibles en el portal de Compras y Contrataciones de Caminos de las Sierras S.A. https://ecommerce.casisa.com.ar/#!/login. Pliegos sin valor. Lugar, horario y fecha de presentación de ofertas: Las Ofertas deberán presentarse digitalmente en el portal de Compras y Contrataciones de Caminos de las Sierras S.A. hasta las 14:00hs del día 31/08/2026. Lugar y fecha de apertura de propuestas: Caminos de las Sierras S.A., Av. Italia 700, B° La Perla, Malagueño, Provincia de Córdoba, el día 31/08/2026 a las 15:00hs en el portal https://ecommerce.casisa.com.ar/#!/login. Garantía de oferta: 1% del Presupuesto Oficial con IVA incluido.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "clase": "licitacion",
+   "numero": "Expte. 0660-004511/2026 (Subsecretaría de Infraestructura Eléctrica)",
+   "titulo": "Construcción Línea Aérea de Media Tensión 33kV en localidad de Idiazabal – Etapa 1",
+   "importa": "Subsecretaría de Infraestructura Eléctrica convoca subasta electrónica para construcción de línea aérea de media tensión 33kV en Idiazabal, Etapa 1. Presupuesto oficial: $7.087.430.546,04 (impuestos incluidos). Plazo ejecución: 365 días corridos desde Acta de Replanteo. Margen mínimo de mejora: 0,25%. Subasta: 31 agosto 9:00 a 13:00. Consultas: hasta 26 agosto 13:00.",
+   "seccion": "4",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Subasta electrónica conforme a Ley N° 8614. Presupuesto de $7.087,4 millones para obra de infraestructura eléctrica de tensión media. Plazo de ejecución: 365 días corridos desde acta de replanteo (plazo razonable para obra lineal de media envergadura). Precio de arranque igual al presupuesto oficial. Garantía de mantenimiento de oferta: 1% del presupuesto. El texto no especifica extensión de línea (km) ni justificación técnica de la etapificación.",
+    "politica": "La construcción de línea 33kV en Idiazabal responde a plan de expansión de cobertura eléctrica en zona rural/serrana. Etapificación sugiere proyecto mayor dividido en fases. Inversión significativa refleja prioridad de electrificación.",
+    "oficialista": "La obra contribuye a ampliación de cobertura eléctrica en localidad de Idiazabal, mejorando acceso a energía en zona de demanda.",
+    "opositora": "Sin especificación de kilómetros de línea o justificación de presupuesto, no es posible evaluar costo unitario ($/km). La etapificación podría responder a limitaciones presupuestarias en lugar de criterios técnicos claros."
+   },
+   "texto_oficial": "SUBASTA ELECTRÓNICA OBRAS PÚBLICAS - Expte. N° 0660-004511/2026. Llamado a Subasta Electrónica para la contratación de la Obra: \"CONSTRUCCIÓN LÍNEA AÉREA DE MEDIA TENSIÓN 33kV EN LA LOCALIDAD DE IDIAZABAL – ETAPA 1\" 1. ENTIDAD U ORGANISMO QUE REALIZA EL LLAMADO: Subsecretaría de Infraestructura Eléctrica del Ministerio de Infraestructura y Servicios Públicos de la Provincia de Córdoba. 2. OBJETO: \"CONSTRUCCIÓN LÍNEA AÉREA DE MEDIA TENSIÓN 33kV EN LA LOCALIDAD DE IDIAZABAL – ETAPA 1\" conforme a lo previsto en la documentación técnica del legajo correspondiente. 3. El PRESUPUESTO OFICIAL de la presente obra asciende a la suma de PESOS SIETE MIL OCHENTA Y SIETE MILLONES CUATROCIENTOS TREINTA MIL QUINIENTOS CUARENTA Y SEIS CON 04/100 ($7.087.430.546,04), impuestos incluidos. - 4. El PLAZO DE EJECUCIÓN de la presente obra es de TRESCIENTOS SESENTA Y CINCO (365) días corridos, a contar desde la fecha en que se suscriba el Acta de Replanteo. 5. PRECIO DE REFERENCIA O PRECIO DE ARRANQUE: Igual al precio del Presupuesto Oficial. 6. MARGEN MÍNIMO DE MEJORA DE LAS OFERTAS: 0,25%. 7. FECHA, HORA DE INICIO Y HORA DE FINALIZACIÓN DE LA SUBASTA ELECTRÓNICA: 31/08/2026 de 9:00 a 13:00 hs. 8. CONSULTAS: Hasta el día 26/08/2026 a las 13:00 hs. a través del Portal Web oficial de Compras Públicas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_200826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución N° 385",
+   "titulo": "Designación como Directora Técnica",
+   "detalle": "Designación de Ivanna Franca ISLEÑO (DNI 26.151.337) como Directora Técnica de empresa EMPIRE SEGURIDAD S.A.S. (CUIT 30-71948920-2). Credencial habilitante sin autorización para uso de armas.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada, Ministerio de Seguridad",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución N° 386",
+   "titulo": "Designación como Director Técnico",
+   "detalle": "Designación de Daniel Alberto AGULLES (DNI 14.693.421) como Director Técnico de empresa EL PORTAL SEGURIDAD S.A.S. (CUIT 30-71660662-3). Credencial habilitante sin autorización para uso de armas.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada, Ministerio de Seguridad",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_200826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución N° 387",
+   "titulo": "Designación como Director Técnico (Renovación)",
+   "detalle": "Renovación de designación de Christian Horacio FRENCH (DNI 13.984.832) como Director Técnico de empresa LA GARDE S.R.L. (CUIT 33-71569717-9). Credencial habilitante sin autorización para uso de armas.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada, Ministerio de Seguridad",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_200826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Decreto",
+   "numero": "83",
+   "titulo": "Delegación de facultades en Secretario General de Gobernación",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1233 - Letra D",
+   "titulo": "Titularización de docentes",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "385",
+   "titulo": "Habilitación empresa EMPIRE SEGURIDAD S.A.S.",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "386",
+   "titulo": "Habilitación empresa EL PORTAL SEGURIDAD S.A.S.",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "387",
+   "titulo": "Renovación habilitación empresa LA GARDE S.R.L.",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "71 - Letra F",
+   "titulo": "Aprobación índices de movilidad - Liquidación julio 2026",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "73 - Letra F",
+   "titulo": "Aprobación índices de movilidad - Liquidación junio 2026",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "numero": "2026/000001",
+   "titulo": "Provisión transporte personal CEPROCOR",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1452",
+   "titulo": "Adquisición extintores F-500 EPEC",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1453",
+   "titulo": "Adquisición repuestos Karl Fischer EPEC",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1456",
+   "titulo": "Reacondicionamiento cocheras EPEC",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1455",
+   "titulo": "Provisión kits testeo sustancias psicoactivas EPEC",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5586",
+   "titulo": "Adquisición luminarias LED alumbrado público EPEC",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1457",
+   "titulo": "Ácido sulfúrico 98% tratamiento agua EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1458",
+   "titulo": "Adquisición relé de protección banco capacitores EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1460",
+   "titulo": "Retiro traslado generador Central Hidroeléctrica Ing. Fitz Simón EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1459",
+   "titulo": "Servicio urgencia emergencia Zona G Bell Ville EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5587",
+   "titulo": "Obras civiles instalaciones transformación distribución EPEC",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000020",
+   "titulo": "Iluminación Avenida Fuerza Aérea Ruta Nacional 20/38 CASISA",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "Expte. 0660-004511/2026",
+   "titulo": "Construcción línea aérea media tensión 33kV Idiazabal Etapa 1",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "2026/000377",
+   "titulo": "Modificación pliego recolección residuos patógenos TSJ",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "Expte. 0918-037198/2026",
+   "titulo": "Audiencia pública loteo El Campito de Calamuchita",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Notificación Partido Político",
+   "numero": "Juzgado Electoral",
+   "titulo": "Reconocimiento personería jurídico política comunal ELEGI VILLA ALLENDE",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Notificación Partido Político",
+   "numero": "Juzgado Electoral",
+   "titulo": "Resultado elecciones Unión Vecinal de Canals",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expediente 0535-113624/2023",
+   "titulo": "Inscripción posesión PERINI MARIA ELENA",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "Res (M) N° 00000772/26",
+   "titulo": "Declaración de incobrable crédito a favor Provincia - Franco Marcelo QUISPE",
+   "seccion": "4",
+   "pagina": 13
+  }
+ ],
+ "telegram": "🗞️ Boletín Nº 160 (20/8/2026): 7 normas legislativas + 13 licitaciones EPEC-CASISA-otros. Destaca Decreto 83 (delegación celeridad), titularización docente ($), y subasta línea 33kV Idiazabal ($7.087M). Consultar: http://boletinoficial.cba.gov.ar",
+ "hora_procesado": "11:54",
+ "estado": "publicado"
+}
