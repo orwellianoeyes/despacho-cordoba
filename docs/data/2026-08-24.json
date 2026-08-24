@@ -1,0 +1,325 @@
+{
+ "fecha": "2026-08-24",
+ "numero_boletin": "162",
+ "sintesis_juridica": [
+  "La edición del 24 de agosto presenta normativa educativa, laboral, energética y de infraestructura. Destaca la Resolución N° 3321 del Ministerio de Desarrollo Social que implementa el Programa Impulsar Oficios para 230 beneficiarios en capacitación de pintura con prácticas en 47 establecimientos educativos; la Resolución N° 133 del Ministerio de Educación que aprueba los Planes Anuales 2026 de 400 Coordinaciones Locales de Educación; titularizaciones docentes (Resoluciones 1272, 1276, 1277); ratificaciones de planes de estudio en institutos privados; y formalización de modificaciones presupuestarias de la Secretaría General de Salud y Desarrollo Humano.",
+  "El ERSeP aprueba por mayoría tres resoluciones (117, 118, 119) incorporando la Tarifa N° 9 de Servicio de Peaje en los cuadros tarifarios de tres cooperativas eléctricas (Cooperativa de Luz y Fuerza de Elena Limitada, Cooperativa de Electricidad de La Playosa Limitada y Cooperativa de Electricidad de La Puerta Limitada), destinada a Usuarios de la Función Técnica de Transporte. Un vocal disiente por considerar el incremento excesivo en contexto recesivo. La Sección 4 publica licitaciones públicas de diversas obras de infraestructura por ACIF, Ministerio de Seguridad, Secretaría de Infraestructura Hídrica, EPEC, CASISA y convocatorias de consorcios camineros."
+ ],
+ "sintesis_politica": [
+  "El Programa Impulsar Oficios refleja continuidad en políticas de inserción laboral dirigidas a economía popular, con un despliegue gradual por convocatorias sucesivas (230 beneficiarios en primera etapa de 171 edificios escolares previstos). La aprobación de Planes Anuales de las 400 CLE reafirma la estrategia descentralizada educativa iniciada en 2024. Las titularizaciones docentes constituyen movimiento administrativo de regularización de personal.",
+  "Las tres resoluciones del ERSeP sobre tarifas de peaje representan un movimiento regulatorio de impacto económico sobre grandes usuarios industriales y cooperativas de distribución eléctrica. El voto disidente del Vocal Negri explicita tensión política: la autoridad regulatoria aprueba por mayoría un incremento tarifario en contexto de recesión económica, bajo presión de cooperativas que reclaman tarificación acorde a costos propios. El timing (agosto 2026) coincide con ciclo de negociaciones tarifarias. Las licitaciones por ACIF de centros deportivos y de CASISA de rehabilitación de infraestructura de transporte señalan continuidad en obras de inversión pública."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "3321",
+   "titulo": "Programa Impulsar Oficios – Implementación Convocatoria para 230 Beneficiarios",
+   "importa": "El Ministerio de Desarrollo Social implementa el Programa Impulsar Oficios para 230 beneficiarios inscritos en el Registro Provincial de la Economía Popular, con capacitación en Auxiliar de Pintura (80 horas) y Pintor de Obra (180 horas), y prácticas profesionalizantes en 47 establecimientos educativos provinciales. El programa se ejecuta en marco de Convenios Nº 89/26 y su adenda modificatoria Nº 107/26 con el Ministerio de Educación, difiriendo convocatorias sucesivas hasta completar 171 edificios escolares.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La Resolución se dicta en ejercicio de competencias conferidas por Decreto N° 2206/23 (ratificado por Ley N° 10956) y Decreto N° 12/26 (ratificado por Ley N° 11110). Delega en la Secretaría de Economía Social facultades interpretativas, reglamentarias y de ejecución operativa, incluyendo evaluación de propuestas de prácticas, modificación de cronogramas e imposición de sanciones. La norma faculta consultas al Sistema de Identificación Nacional Tributario y Social (SINTyS). No se observan vicios formales; el acto contiene motivación expresa y referencia a anexos integrantes.",
+    "politica": "El programa expresa continuidad en políticas de economía popular del gobierno provincial. La implementación gradual (230 de un cupo potencial mayor, diferido a sucesivas convocatorias) sugiere restricciones presupuestarias o capacidad operativa limitada. La elección de pintura como oficio y su vinculación con mantenimiento de infraestructura educativa refleja alineamiento entre formación laboral e inversión pública. Posible beneficio colateral para establecimientos escolares mediante servicios de mantenimiento con bajo costo laboral.",
+    "oficialista": "El programa combina formación técnica certificada con prácticas profesionalizantes, abordando tanto inserción laboral como adquisición de competencias. La participación de municipios y provinciales en ambientes de trabajo amplía cobertura. La modalidad gradual permite ajustes operativos y fiscales. Beneficia a población vulnerable (18-65 años) registrada en economía popular.",
+    "opositora": "La convocatoria limitada (230 beneficiarios en primera etapa) podría interpretarse como insuficiente para la demanda de empleo en economía popular. La modalidad de prácticas en establecimientos públicos sin especificar términos laborales (salarios, protección social) genera incertidumbre sobre calidad del empleo generado. Falta claridad sobre asignación de recursos presupuestarios y sostenibilidad del programa."
+   },
+   "texto_oficial": "Artículo 1°: DISPONÉSE la implementación del Programa Impulsar Oficios para un cupo de doscientos treinta (230) beneficiarios, de conformidad a las condiciones y requisitos establecidos en el Anexo I. Artículo 2°: FACÚLTASE a la Secretaría de Economía Social a dictar normas interpretativas, reglamentarias, aclaratorias y complementarias, y a realizar acciones operativas y administrativas necesarias. Artículo 3°: AUTORÍZASE consultas al SINTyS y organismos nacionales, provinciales y municipales para verificar admisibilidad. Artículo 4°: PROTOCOLÍCESE, publíquese en Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_240826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "133",
+   "titulo": "Aprobación Planes Anuales 2026 – Programa Provincial de Fortalecimiento Educativo Territorial (FOET)",
+   "importa": "El Ministerio de Educación aprueba los Planes Anuales 2026 presentados por las localidades en el marco del Programa Provincial de Fortalecimiento Educativo Territorial - Coordinaciones Locales de Educación (FOET-CLE). El decreto N° 66/2024 crea este programa para concertación y ejecución de iniciativas educativas entre Provincia, Municipios y Comunas. Se registra adhesión de 400 gobiernos locales al programa. El plazo para ratificación o rectificación de planes se fija al 30 de abril de 2027.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La Resolución se dicta en delegación de competencias conferidas por Decreto N° 66/2024. La aprobación de planes constituye acto de control administrativo sobre cumplimiento de requisitos formales (adhesión por ordenanza/resolución, firma de convenio, presentación de plan). No se especifican estándares sustantivos de aprobación ni criterios de evaluación pedagógica. La norma no enunciación de causales de rechazo ni procedimiento de revisión. El plazo de 60 días (hasta 30/04/2027) para ratificación o rectificación abre posibilidad de modificaciones posteriores sin especificar efectos de cambios en vigencia de planes aprobados.",
+    "politica": "El FOET-CLE representa estrategia descentralizada de gobernanza educativa iniciada en Decreto N° 66/2024 (hace 2 años). La masiva adhesión de 400 gobiernos locales sugiere legitimidad territorial del modelo o presión presupuestaria hacia municipios/comunas. La aprobación genérica de 400 planes sin análisis individual podría reflejar procedimiento administrativo ligero. El timing (agosto 2026) permite ajustes en implementación antes de cierre del ciclo lectivo 2026 y preparación 2027.",
+    "oficialista": "La aprobación de planes de 400 localidades demuestra alcance federal del programa. La participación comunitaria en diseño de iniciativas educativas locales fortalece pertinencia territorial. La flexibilidad para rectificación hasta abril 2027 permite iteración basada en experiencia de ejecución. Alineamiento con objetivos del Plan de Desarrollo Educativo Provincial 2024/2027.",
+    "opositora": "Aprobación genérica sin análisis individual de 400 planes sugiere falta de escrutinio técnico-pedagógico. Ausencia de estándares de aprobación explícitos puede favorecer arbitrariedad. No hay mención de financiamiento específico asignado a planes. El plazo de rectificación (abril 2027) es tardío para correcciones sustanciales en ciclo lectivo en curso."
+   },
+   "texto_oficial": "Art. 1°: APROBAR el PLAN ANUAL 2026 presentado por cada una de las localidades en el marco del FOET-CLE, de conformidad al Anexo I (cinco fojas, parte integrante). Art. 2°: ESTABLECER que al 30 de abril de 2027, las Comunas y Municipios adheridos podrán ratificar o rectificar con nueva presentación el Plan Anual 2026 aprobado. Art. 3°: PROTOCOLÍCESE, comuníquese, publíquese en Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_240826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1272 - Letra D",
+   "titulo": "Titularización de Docentes – Cargos Preceptor y Horas Cátedra (Enseñanza Media)",
+   "importa": "El Ministerio de Educación dispone titularización de docentes en cargos de Preceptor (código 13520) y Horas Cátedra Enseñanza Media (código 13910), dependientes del Ministerio. La documentación acompañada comprende títulos legalizado, aptos psicofísicos, constancias de servicios, régimen de incompatibilidades, certificados de Registro de Deudores Alimentarios Morosos (Ley N° 8892) y certificados de Registro Provincial de Personas Condenadas por Delitos contra Integridad Sexual (art. 28 Ley N° 9680).",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "La titularización se encuadra en disposiciones del art. 3° Ley N° 10729 (régimen de titularización docente). El acto se dicta en ejercicio de atribuciones conferidas por Decreto N° 2449/23. La condición de titular se adquiere de pleno derecho desde la publicación en Boletín Oficial. Se imputa egreso a partidas presupuestarias específicas (P.V. Jurisdicción 1.35, Programa 355, Grupo 13, Cargos 910 y 520). El texto no detalla nómina de beneficiarios (remitida en Anexo I de tres páginas); no es posible verificar cantidad de titularizaciones ni cobertura geográfica sin acceso al anexo.",
+    "politica": "Las titularizaciones constituyen movimiento administrativo de regularización de personal docente. Típicamente favorecen a docentes con trayectoria acreditada, mejorando estabilidad laboral. El timing (agosto 2026, durante ciclo lectivo) permite efectivización inmediata. Movimiento fiscalmente importante dado el incremento de egresos permanentes en rol de personal.",
+    "oficialista": "La titularización reconoce servicios prestados y garantiza estabilidad laboral a docentes que han cumplido requisitos de formación y desempeño. Afianza compromiso con educación pública provincial. Fortalece calidad educativa al retener personal experimentado.",
+    "opositora": "Falta información sobre cantidad de titularizaciones y si responden a pedidos gremiales o evaluación de desempeño. Posible interrogante sobre criterios de selección. Impacto presupuestario no estimado explícitamente en la normativa."
+   },
+   "texto_oficial": "Art. 1°: DISPONER titularización de docentes nominados en Anexo I (tres páginas, parte integrante), en cargos de Preceptor (código 13520) y Horas Cátedra Enseñanza Media (código 13910). Art. 2°: Egreso imputado a P.V. Jurisdicción 1.35, Programa 355, Partidas Personal Permanente, Grupo 13, Cargos 910 y 520. Art. 3°: Titular adquiere condición de pleno derecho desde publicación en Boletín Oficial. Art. 4°: PROTOCOLÍCESE, comuníquese, publíquese y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_240826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "459",
+   "titulo": "Formalización Modificación Presupuestaria – Secretaría General de Salud y Desarrollo Humano (Marzo 2026)",
+   "importa": "La Secretaría General de Salud y Desarrollo Humano formaliza modificación en asignación de Recursos Financieros del Presupuesto 2026, correspondiente a compensaciones del mes de marzo de la Unidad Administrativa N° 228 (Jurisdicción N° 145). Acto se dicta conforme Resolución N° 2023/SAF-00000001 de la Secretaría de Administración Financiera y Decreto N° 486/2023. Reporte compactado de compensaciones forma Anexo Único de la Resolución.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "La norma se encuadra en marco de Ley N° 10.835 (Administración Financiera y Control del Sector Público No Financiero). Formaliza procedimiento regular de compensaciones de recursos financieros autorizadas dentro del mes de ejecución, conforme Compendio Normativo del Sistema Integrado de Administración Financiera. La resolución es de carácter administrativo interno, sin impacto en derechos de terceros. Se observan controles del Órgano Rector del Subsistema de Presupuesto y del Tribunal de Cuentas. No hay vicios formales aparentes; el acto carece de datos específicos (montos, conceptos de compensación) que permanecen en anexo no reproducido.",
+    "politica": "Movimiento presupuestario administrativo rutinario. No sugiere cambios de política fiscal ni redistribuciones significativas de fondos. Procedimiento mensual refleja flexibilidad presupuestaria dentro de margen autorizado.",
+    "oficialista": "Cumplimiento de normativa de administración financiera. Control interno y externo (Tribunal de Cuentas) verifican legalidad de movimientos.",
+    "opositora": "Sin información sobre montos ni conceptos de compensaciones, no es posible evaluar impacto real."
+   },
+   "texto_oficial": "1°: FORMALIZAR modificación en asignación de Recursos Financieros del Presupuesto General 2026, de conformidad con reporte compactado de compensaciones de Unidad Administrativa N° 228 (Jurisdicción N° 145), mes marzo 2026, anexado como Anexo Único, parte integrante. 2°: PROTOCOLÍCESE, pase al Titular del Servicio Administrativo, comuníquese a Secretaría de Administración Financiera, Tribunal de Cuentas y Legislatura, publíquese en Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_240826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "117 - Letra D",
+   "titulo": "Aprobación Incorporación Tarifa N° 9 (Servicio de Peaje) – Cuadro Tarifario Cooperativa de Luz y Fuerza de Elena Limitada",
+   "importa": "El ERSeP aprueba por mayoría (5 votos a favor del Presidente Scarlatto y Vocales Caserio, Scavino, Peralta, Vega; 1 voto en contra del Vocal Negri) la incorporación al Cuadro Tarifario de la Cooperativa de Luz y Fuerza de Elena Limitada de la Tarifa N° 9 – Servicio de Peaje, aplicable a la Prestación Adicional de la Función Técnica de Transporte (PAFTT). La tarifa fue determinada conforme procedimiento regulatorio establecido en Resolución General ERSeP N° 89/2018 y Audiencia Pública celebrada 21 de diciembre 2018.",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "La aprobación se dicta conforme Ley Provincial N° 8835 (art. 25 inc. h) que confiere a ERSeP competencia de aprobación de modificaciones de cuadros tarifarios. La norma requiere Audiencia Pública previa (art. 20 Ley N° 8835, modificado por Ley N° 9318). En este caso, se aprovecha Audiencia Pública celebrada hace años (21 diciembre 2018) en marco de Resolución ERSeP N° 89/2018, que autoriza tratamiento de solicitudes de tarificación de peaje para cada prestadora que lo requiera formalmente. Metodología de cálculo: diferencia entre Tarifas de Venta a Usuarios Propios y Tarifas de Compra a EPEC, con discriminación urbana/rural. El Informe Técnico de la Gerencia de Energía Eléctrica respalda procedencia técnica. Voto disidente fundamenta objeción en contexto recesivo: \"recesión, baja actividad económica, falta de consumo interno, cierre de empresas, bajo incremento de salarios, aumento desempleo\", concluyendo que incremento es \"excesivo, elevado y desproporcionado\".",
+    "politica": "La resolución representa victoria regulatoria de la cooperativa solicitante. El voto disidente expone tensión política entre regulador (que aprueba) y un dirigenteelectoral sensible a contexto macroeconómico. El hecho de que 4 vocales voten favor y 1 en contra sugiere división interna en ERSeP sobre oportunidad política de incremento tarifario en recesión. Timing (agosto 2026) coincide con ciclo de negociaciones. La práctica de reutilizar Audiencia Pública de 2018 (8 años atrás) para autorizar nuevas tarifas en 2026 es jurídicamente válida pero políticamente cuestionable en contexto de volatilidad económica.",
+    "oficialista": "La metodología de cálculo se ajusta a marcos regulatorios vigentes. Diferencia entre tarifa de venta y tarifa de compra refleja costos propios de la cooperativa distribuidora. Resolución General N° 89/2018 expresamente autorizó este procedimiento. Informe técnico respalda procedencia.",
+    "opositora": "Reutilización de Audiencia Pública de diciembre 2018 (hace 8 años) para autorizar tarifa nueva en 2026 desconoce cambios radicales en contexto económico. Voto disidente cuestiona legitimidad de incremento en recesión. Posible debilidad procesal: consulta sobre oportunidad de incremento específico en contexto recesivo no fue materia explícita de Audiencia 2018."
+   },
+   "texto_oficial": "ARTICULO 1°: APRUÉBASE incorporación al Cuadro Tarifario de COOPERATIVA DE LUZ Y FUERZA DE ELENA LIMITADA, de TARIFA Nº 9 – SERVICIO DE PEAJE, que como Anexo Único integra la presente. ARTICULO 2º: PROTOCOLÍCESE, publíquese, hágase saber y dese copia.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_240826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "118 - Letra D",
+   "titulo": "Aprobación Incorporación Tarifa N° 9 (Servicio de Peaje) – Cuadro Tarifario Cooperativa de Electricidad, Obras y Servicios Públicos de La Playosa Limitada",
+   "importa": "El ERSeP aprueba por mayoría (mismo voto 5 a 1) incorporación al Cuadro Tarifario de la Cooperativa de Electricidad, Obras y Servicios Públicos de La Playosa Limitada de la Tarifa N° 9 – Servicio de Peaje (PAFTT). Determinación conforme Resolución General ERSeP N° 89/2018 y Audiencia Pública 21 diciembre 2018. Mismo voto disidente del Vocal Negri con idénticos fundamentos sobre contexto recesivo.",
+   "seccion": "1",
+   "pagina": 7,
+   "ampliada": {
+    "juridica": "Idéntica estructura legal y procesal a Resolución N° 117. Competencia conferida por Ley N° 8835. Metodología de cálculo equiparable: diferencia entre Tarifas de Venta a Usuarios Propios (con discriminación Media Tensión +3%) y Tarifas de Compra a EPEC. Discriminación urbana/rural conforme estructura de Grandes Usuarios de la Prestadora. Vigencia tarifas de compra: 01 mayo 2026.",
+    "politica": "Segunda de tres resoluciones idénticas en contenido y votación. Patrón repetitivo de aprobaciones tarifarias con voto disidente unitario sugiere: (a) mayoría regulatoria alineada en criterio económico-técnico; (b) minoría sensible a presión política de contexto. Posible que Vocal Negri represente sensibilidad política hacia usuarios industriales/consumidores en contexto recesivo.",
+    "oficialista": "Cumplimiento de procedimiento regulatorio previsto.",
+    "opositora": "Idénticas objeciones a Resolución N° 117: reutilización de audiencia antigua, incremento pro-cíclico en recesión."
+   },
+   "texto_oficial": "ARTICULO 1°: APRUÉBASE incorporación al Cuadro Tarifario de COOPERATIVA DE ELECTRICIDAD, OBRAS Y SERVICIOS PUBLICOS DE LA PLAYOSA LIMITADA, de TARIFA Nº 9 – SERVICIO DE PEAJE, que como Anexo Único integra la presente. ARTICULO 2º: PROTOCOLÍCESE, publíquese, hágase saber y dese copia.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_240826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "119 - Letra D",
+   "titulo": "Aprobación Incorporación Tarifa N° 9 (Servicio de Peaje) – Cuadro Tarifario Cooperativa de Electricidad, Provisión de Servicios Públicos y Edificación de \"La Puerta\" Limitada",
+   "importa": "El ERSeP aprueba por mayoría (mismo voto 5 a 1) incorporación al Cuadro Tarifario de la Cooperativa de Electricidad, Provisión de Servicios Públicos y Edificación de \"La Puerta\" Limitada de la Tarifa N° 9 – Servicio de Peaje (PAFTT). Determinación conforme Resolución General ERSeP N° 89/2018 y Audiencia Pública 21 diciembre 2018. Mismo voto disidente del Vocal Negri.",
+   "seccion": "1",
+   "pagina": 9,
+   "ampliada": {
+    "juridica": "Tercera de tres resoluciones idénticas en estructura. Idéntica competencia, procedimiento, metodología de cálculo y vigencia de tarifas (01 junio 2026).",
+    "politica": "Tercer acto de aprobación tarifaria de peaje en sesión única. Patrón sugiere: (a) coordinación de cooperativas para presentaciones simultáneas; (b) procedimiento expedito de aprobación; (c) recurrencia de voto disidente que puede reflejar posición política sistemática del Vocal Negri sobre política tarifaria pro-cíclica.",
+    "oficialista": "Cumplimiento de procedimiento regulatorio.",
+    "opositora": "Idénticas críticas."
+   },
+   "texto_oficial": "ARTICULO 1°: APRUÉBASE incorporación al Cuadro Tarifario de COOPERATIVA DE ELECTRICIDAD, PROVISIÓN DE SERVICIOS PÚBLICOS Y EDIFICACIÓN DE \"LA PUERTA\" LIMITADA, de TARIFA Nº 9 – SERVICIO DE PEAJE, que como Anexo Único integra la presente. ARTICULO 2º: PROTOCOLÍCESE, publíquese, hágase saber y dese copia.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_240826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Titularización",
+   "clase": "titularizacion",
+   "instrumento": "Resolución N° 1272 - Letra D del Ministerio de Educación",
+   "titulo": "Titularización de Docentes - Cargos Preceptor y Horas Cátedra (Enseñanza Media)",
+   "detalle": "Titularización de docentes en cargos de Preceptor (código 13520) y Horas Cátedra Enseñanza Media (código 13910). Nómina de beneficiarios en Anexo I (tres páginas). Vigencia: desde publicación en Boletín Oficial.",
+   "organismo": "Ministerio de Educación",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_240826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "3321",
+   "titulo": "Programa Impulsar Oficios - Implementación para 230 Beneficiarios",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "133",
+   "titulo": "Aprobación Planes Anuales 2026 - FOET-CLE",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1272 - Letra D",
+   "titulo": "Titularización de Docentes - Preceptor y Horas Cátedra",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1276 - Letra D",
+   "titulo": "Ratificación Modificaciones Plan de Estudios Tecnicatura Superior Administración de Empresas - SIGLO 21",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1277 - Letra D",
+   "titulo": "Ratificación Modificaciones Plan de Estudios Tecnicatura Superior Seguridad e Higiene en el Trabajo - Instituto Alfredo Angeli",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "459",
+   "titulo": "Formalización Modificación Presupuestaria - Secretaría General de Salud y Desarrollo Humano",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "117 - Letra D",
+   "titulo": "Aprobación Tarifa N° 9 Servicio de Peaje - Cooperativa de Luz y Fuerza de Elena",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "118 - Letra D",
+   "titulo": "Aprobación Tarifa N° 9 Servicio de Peaje - Cooperativa de Electricidad La Playosa",
+   "seccion": "1",
+   "pagina": 7
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "119 - Letra D",
+   "titulo": "Aprobación Tarifa N° 9 Servicio de Peaje - Cooperativa de Electricidad La Puerta",
+   "seccion": "1",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000001",
+   "titulo": "Provisión Servicio de Transporte CEPROCOR - Complejo Hospitalario Santa María de Punilla",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0953-000915/2026",
+   "titulo": "Construcción Centros Deportivos, Recreativos y Sociales - Tuclame, Las Playas, Villa de Pocho, Villa Ciudad Parque",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0953-000916/2026",
+   "titulo": "Construcción Centros Deportivos, Recreativos y Sociales - Ucacha, Camilo Aldao, Pozo del Molle, Matorrales",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0909-080659/2026",
+   "titulo": "Contratación Servicio Alquiler Vallas de Contención y Baños Químicos - Ministerio de Seguridad",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0916-000599/2026",
+   "titulo": "Refacción y Puesta en Valor Fuentes de Agua Ornamentales - Ciudad de Córdoba",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0733-012077/2026",
+   "titulo": "Adecuación Drenaje Sureste Localidad La Francia - Dpto. San Justo",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5584",
+   "titulo": "Ampliación ET Arroyo Cabral - Interconexión Transformador EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1461",
+   "titulo": "Construcción Tableros de Mampostería y PRFV en Baja Tensión - Barrio Sep. Córdoba Capital - EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000021",
+   "titulo": "Rehabilitación Puente Arroyo Los Cóndores - Ruta Nacional 36 - CASISA",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1462",
+   "titulo": "Adquisición Indumentaria Técnica Laboral Anti Arco Eléctrico Campera - EPEC",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000019",
+   "titulo": "Rehabilitación de Calzada Autopista Córdoba-Pilar - CASISA",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0733-012042/2026",
+   "titulo": "Sistematización Drenaje Periurbano Oeste La Francia - Dpto. San Justo",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Subasta",
+   "numero": "0660-004511/2026",
+   "titulo": "Construcción Línea Aérea Media Tensión 33 kV Localidad Idiazabal Etapa 1",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "Viamonte N° 154",
+   "titulo": "Asamblea General Ordinaria Consorcio Caminero N° 154",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "Cañada de Rio Pinto N° 33",
+   "titulo": "Asamblea General Ordinaria Consorcio Caminero N° 33",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "Corralito N° 92",
+   "titulo": "Asamblea General Ordinaria Consorcio Caminero N° 92",
+   "seccion": "4",
+   "pagina": 6
+  }
+ ],
+ "telegram": "📋 Boletín N° 162 del 24/8/2026 | 11 normas destacadas: Programa Impulsar Oficios (230 beneficiarios en capacitación laboral), Planes Anuales FOET 2026, titularizaciones docentes, 3 nuevas tarifas de peaje en cooperativas eléctricas (con voto disidente por contexto recesivo), licitaciones por 5.300+ M$ en infraestructura. Consultar: http://boletinoficial.cba.gov.ar",
+ "hora_procesado": "12:07",
+ "estado": "publicado"
+}
