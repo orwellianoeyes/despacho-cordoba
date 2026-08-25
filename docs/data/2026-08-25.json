@@ -1,0 +1,296 @@
+{
+ "fecha": "2026-08-25",
+ "numero_boletin": "163",
+ "sintesis_juridica": [
+  "La edición del 25 de agosto modifica y amplía el régimen de designación docente en educación inicial y primaria. La Resolución N° 135 extiende a las escuelas precursoras 2026 el mecanismo de reconversión de módulos interinos en cargos titulares de «Maestro de Grado – 28 horas» (con impacto en enero de 2027). La Resolución N° 136 aprueba una modalidad horaria especial para docentes de Materia Especial (hasta 11 horas) en el Nivel Inicial bajo el Programa TransFORMAR@Cba, estableciendo un orden de prioridad para cobertura, liquidación proporcional (código 13519) y vigencia anual sin continuidad automática.",
+  "El ERSeP autoriza un cargo tarifario de $5,34/m³ a la Cooperativa de Trabajo Sudeste (operatoria mayorista) por un plazo de 1 mes para la adquisición de un grupo electrógeno de 112/124 Kva, con inversión total de $44.140.800. La Resolución Administrativa N° 228 del Tribunal Superior de Justicia inscribe seis peritos oficiales en especialidades contable, criminalística, grafología, higiene laboral, investigación de incendios y medicina del trabajo. El Boletín publica también licitaciones públicas por montos superiores a $20 mil millones (obras en centros deportivos, drenaje, refacción de fuentes ornamentales) y notificaciones de la Unidad Ejecutora Ley 9150."
+ ],
+ "sintesis_politica": [
+  "Las modificaciones educativas responden a la continuidad de la política de «escuelas precursoras» iniciada en 2025 y reflejan una estrategia de flexibilización del régimen docente: permite a titulares mantener interinatos de módulos mientras se reconvierten a cargos estables de jornada completa, y autoriza designaciones especiales de corta duración (sin continuidad) para especialistas. El timing (enero 2027 para impacto presupuestario) sugiere planificación fiscal anticipada. El Programa TransFORMAR@Cba (arts. 1-12, Res. N° 136) consolida una política curricular de innovación (cultura, artes, deportes, tecnología) con énfasis en educación física y artística en inicial.",
+  "En regulación de servicios públicos, la aprobación del cargo tarifario para agua en Sudeste genera controversia política: el Vocal Dr. Juan H. Negri disiente por considerar el incremento «excesivo» en contexto de recesión económica y caída de salarios reales. El voto del Vocal Vega condiciona la aprobación a verificación rigurosa de cumplimiento de rendiciones posteriores, señalando que la prestadora percibió cargo más allá del objetivo autorizado (mayo-junio 2026). La edición muestra importante actividad licitadora en infraestructura (ACIF: $5.500 millones en dos proyectos de centros deportivos; drenaje en La Francia; fuentes ornamentales) y energía (EPEC y CASISA), consistente con ejecución presupuestaria de fin de año."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "135",
+   "titulo": "Extensión de beneficio de reconversión de módulos interinos a cargos de «Maestro de Grado – 28 horas» a escuelas precursoras 2026",
+   "importa": "El Ministerio de Educación amplía el alcance de la Resolución Ministerial N° 333/25, incluyendo a las escuelas precursoras 2026 en el régimen de reconversión de módulos de jornada extendida/ampliada a cargos titulares estables de 28 horas semanales (código 13478), con impacto en enero de 2027.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "El acto se sustenta en atribuciones ministeriales y mantiene la naturaleza del mecanismo aprobado en 2025. No presenta vicios formales aparentes; la motivación es la continuidad del «beneficio» extendido a escuelas nuevas. Sin embargo, la resolución no especifica si el impacto presupuestario ha sido evaluado integralmente ni cuantifica el costo fiscal de la medida para el ciclo 2027.",
+    "politica": "La medida consolida un eje de política laboral docente consistente: conversión de precariedades (interinatos de módulos) en estabilidad (titular). Beneficia a docentes en situaciones de revista combinada y responde a presión sindical histórica de la UEPC. El timing (impacto enero 2027) permite presupuestar en ciclo 2026 las obligaciones futuras.",
+    "oficialista": "La norma mejora las condiciones de empleo docente, reconociendo trayectoria y asignando estabilidad a quienes ya prestan servicios. Es coherente con la política de renovación educativa (TransFORMAR@Cba) y evita rotación de personal especializado.",
+    "opositora": "Sin mayor información sobre costos fiscales y cobertura efectiva de puestos, es difícil evaluar la viabilidad presupuestaria en contexto de restricción fiscal. La ausencia de cuantificación en la norma sugiere que el impacto no fue difundido públicamente."
+   },
+   "texto_oficial": "Art. 1º.- AMPLIAR el alcance de las medidas establecidas en la Resolución Ministerial N° 333/25, y en consecuencia INCLUIR a las escuelas precursoras 2026. Art. 2º.- DISPONER que las modificaciones que se acuerden en cada caso impactaran en el mes de Enero del año 2027. Art.3°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_250826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "136",
+   "titulo": "Aprobación de modalidad horaria especial para Maestros de Materia Especial en Nivel Inicial bajo Programa TransFORMAR@Cba",
+   "importa": "El Ministerio de Educación aprueba una modalidad horaria de hasta 11 horas para docentes de Materia Especial en el Nivel Inicial, con liquidación proporcional (código 13519), designaciones interinas/suplentes sin continuidad automática, y un orden de prelación de 6 niveles para cobertura (titulares de la misma zona, interinos locales, docentes de jornada extendida, especialistas de localidad, secundaria, localidades cercanas). Vigencia: desde 1° de agosto de 2026.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La norma se ancla en la Ley de Educación Provincial N° 9870, el Decreto Ley N° 1910/E/57 (art. 32.b, facultad supervisoral) y el régimen de incompatibilidades vigente. Establece un procedimiento administrativo claro para designaciones especiales. No presenta vicios formales, aunque la complejidad del orden de prelación (art. 3) podría generar controversias sobre compatibilidad horaria en casos límite. El artículo 7 prohíbe prolongaciones sobre las 11 horas, lo que asegura control de acumulación.",
+    "politica": "Responde a necesidades de implementación del Programa TransFORMAR@Cba (educación física, artística, música, danza, teatro) en inicial. El orden de prelación privilegia docentes activos ya insertos (titulares, interinos) antes de convocar secundaria, lo que minimiza rotación. Sin embargo, la ausencia de continuidad automática preserva flexibilidad fiscal (no genera obligaciones plurianuales). Posible relación con UEPC (a confirmar; el aviso no lo menciona).",
+    "oficialista": "La norma moderniza la estructura de educación inicial conectándola con dimensiones de innovación (artes, deportes, tecnología). Respeta incompatibilidades, privilegia docentes calificados ya en sistema, y evita creación de deuda laboral mediante vigencia anual. Permite eficiente uso de recursos humanos disponibles.",
+    "opositora": "La ausencia de continuidad automática genera precariedad para especialistas, quienes no acceden a estabilidad titular. El requisito de revistar mínimo 12 horas excluye parcialistas. La modalidad puede funcionar como mecanismo de rotación que evita consolidación de derechos."
+   },
+   "texto_oficial": "Art. 1°.- APROBAR una nueva modalidad horaria de designación para docentes de Materia Especial, destinada a atender las necesidades de prestación de servicio educativo, hasta once (11) horas en establecimientos del Nivel Inicial... Art. 3°.- ESTABLECER que la cobertura de las prestaciones comprendidas en la modalidad horaria aprobada por la presente se realizará sobre personal docente con rol activo en el sistema educativo provincial de gestión estatal al momento de la designación, observando el siguiente orden de prioridad descendente... Art. 5°.- ESTABLECER que las designaciones efectuadas en el marco de la presente modalidad revestirán carácter interino o suplente, según corresponda, y tendrán vigencia hasta el 31 de diciembre de cada año lectivo...",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_250826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "120 - Letra D",
+   "titulo": "Autorización de cargo tarifario de Amortización e Inversiones a Cooperativa de Trabajo Sudeste (operatoria mayorista) para adquisición de grupo electrógeno",
+   "importa": "El ERSeP autoriza a la Cooperativa de Trabajo Sudeste Limitada (operatoria mayorista de agua) un cargo tarifario de $5,34/m³ por 1 mes para financiar la inversión en un grupo electrógeno de 112/124 Kva (costo total $44.140.800), destinado a mejorar continuidad de suministro ante cortes eléctricos prolongados (hasta 36 horas registradas). Por mayoría (4 votos a favor, 1 disidencia).",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "La decisión se sustenta en competencia regulatoria clara del ERSeP (Ley N° 8835, art. 25.h). El procedimiento respeta la Resolución General N° 04/2019 (Procedimiento Cargo Tarifario). Sin embargo, la Subdirección de Costos y Tarifas documentó que la prestadora percibió el cargo de amortización anterior más allá del objetivo autorizado (mayo-junio 2026: $15.538.302,86 + $14.714.234,23 = ~$30M adicionales) generando un saldo teórico de $34.899.869,94. El Vocal Vega condiciona aprobación a verificación rigurosa futura. No hay vicio formal de competencia, pero existe tensión de control.",
+    "politica": "La disidencia del Vocal Juan H. Negri («voto por NO aprobar») cuestiona la viabilidad económica del incremento en contexto recesivo (caída de salarios reales, situación «recesiva económica actual»). Esto refleja tensión entre regulación de servicios esenciales (agua) y restricción fiscal doméstica. El voto mayoritario enfatiza necesidad técnica (seguridad del servicio) y disponibilidad de fondos previos. Posible relación con APROSS si hay usuarios residenciales en zona (a confirmar).",
+    "oficialista": "La inversión responde a riesgo real de cortes eléctricos (36 horas documentadas en verano). La disponibilidad de fondos previos (excedente de $4,5M + recaudación mayo-junio) justifica técnicamente la inversión. El plazo breve (1 mes) minimiza impacto tarifario. El grupo electrógeno es activo que mejora servicio a largo plazo.",
+    "opositora": "El incremento tarifario es injustificado en contexto de salarios estancados. La prestadora ya había percibido cargo más allá del objetivo sin autorización explícita (mayo-junio). El control ex post (verificación futura) es insuficiente; debería haber sanción por incumplimiento previo."
+   },
+   "texto_oficial": "Artículo 1°: AUTORÍCESE a la prestadora del Servicio de Agua COOPERATIVA DE TRABAJO SUDESTE LIMITADA por la operatoria Mayorista a aplicar el cargo tarifario de Amortización e Inversiones de 5,34 $/m3 por el plazo de un (1) mes conforme al Informe Técnico N° 224/2026 resultando de aplicación el detalle de inversión que se agrega como Anexo I. Artículo 2°: INSTRÚYASE a la Gerencia de Agua y Saneamiento y la Subdirección de Costos y Tarifas a los fines de que... efectúen el control y seguimiento de las obras... Artículo 3°: ORDÉNASE a la prestadora dar acabado y riguroso cumplimiento a lo dispuesto por el Procedimiento Regulatorio – Cargo Tarifario...",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_250826.pdf"
+  },
+  {
+   "tipo": "Resolución Administrativa",
+   "clase": "resolucion",
+   "numero": "228 - Letra A",
+   "titulo": "Inscripción de Peritos Oficiales en diversas especialidades",
+   "importa": "El Tribunal Superior de Justicia inscribe como peritos oficiales a seis profesionales: Marcos Ezequiel Audisio y Enrique Rodolfo Romero (Contadores, Primera Circunscripción Judicial, Córdoba Capital); Erika Sofía Alberto (Criminalística, Octava Circunscripción, Laboulaye); Silvia Marcela Alegre (Grafología, Primera Circunscripción, Villa Carlos Paz y Córdoba); Alexis Iván Toscano (Higiene y Seguridad Laboral, Décima Circunscripción, Río Tercero); Arturo Erasmo Viola (Investigación de Incendios, Primera Circunscripción, Córdoba); Karina Liliana Rucci (Medicina del Trabajo, Primera Circunscripción, Córdoba).",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "El acto se ampara en el Acuerdo Reglamentario N° 916 (4/12/2007) y el N° 163 (22/7/2020), que establecen procedimiento de inscripción previa certificación de cumplimiento de requisitos por colegios profesionales (Consejo Profesional de Ciencias Económicas, COPHISEC). El texto no especifica los requisitos exactos cumplimentados por cada perito ni detalla si todos han prestado juramento de ley previo a la publicación. Acto ministerial de trámite sin controversia jurídica aparente.",
+    "politica": "La inscripción refleja expansión selectiva de la pericia forense: las especialidades elegidas (contabilidad, criminalística, grafología, seguridad laboral, incendios, medicina ocupacional) responden a demandas judiciales específicas. No hay data sobre motivos de selección de estos peritos sobre otros candidatos.",
+    "oficialista": "La norma moderniza y expande el acceso a pericia técnica en instancias judiciales, mejorando la oferta disponible en circunscripciones dispersas (Laboulaye, Río Tercero) que históricamente carecen de especialistas.",
+    "opositora": "Sin transparencia en criterios de selección (el texto no aclara si hubo convocatoria abierta o designación directa), no es posible evaluar si la inscripción responde a idoneidad o a contactos políticos."
+   },
+   "texto_oficial": "I) INSCRIBIR como PERITOS OFICIALES, previo Juramento de Ley, a los siguientes profesionales, en las Especialidades de: A) CONTADORES: AUDISIO MARCOS EZEQUIEL y ROMERO ENRIQUE RODOLFO para actuar en la Primera Circunscripción Judicial con asiento en la Sede Judicial de la ciudad de CÓRDOBA CAPITAL...",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_250826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000001",
+   "titulo": "Provisión de servicio de transporte para personal de CEPROCOR entre sedes en Córdoba Capital y Complejo Hospitalario de Santa María de Punilla",
+   "importa": "El Centro de Excelencia en Productos y Procesos (CEPROCOR) licita servicio de transporte de 500 unidades durante 12 meses entre su sede en Álvarez de Arenales 180 (Juniors, Córdoba Capital) y Complejo Hospitalario de Santa María de Punilla, con presupuesto oficial de $383.250.000. Presentación hasta 28/08/2026 a las 11:00 en sedes de CEPROCOR.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública presencial regida por procedimiento estándar provincial. Pliego disponible en Portal de Compras Públicas. Período de consultas: 20-24/08/2026. No se especifica si el presupuesto incluye combustible, mantenimiento o solo fletes. Modalidad presencial (no digital) sugiere volumen o complejidad moderada.",
+    "politica": "La licitación evidencia expansión operacional de CEPROCOR (centro de investigación aplicada) con necesidad de transporte masivo de personal entre capital e interior. Santa María de Punilla es polo de innovación en turismo rural y tecnología. Posible relación con programas ACIF de infraestructura (a confirmar).",
+    "oficialista": "Garantiza continuidad operacional de centro estratégico de investigación mediante contratación competitiva en mercado abierto.",
+    "opositora": "Sin información sobre costos unitarios, flota requerida o contratista previo, no es posible evaluar eficiencia o si el presupuesto es inflado."
+   },
+   "texto_oficial": "Provisión del servicio de transporte para el personal indicado por el Centro de Excelencia en Productos y Procesos (CEPROCOR), entre sus sedes sitas en calle Álvarez de Arenales 180, B.º Juniors, de la Ciudad de Córdoba, y el Complejo Hospitalario de Santa María de Punilla, localidad de Santa María de Punilla, Provincia de Córdoba. Cantidad: 500 unidades. PERÍODO DE CONTRATACIÓN: Doce (12) meses. VALOR DEL PLIEGO: PESOS TRESCIENTOS OCHENTA Y TRES MIL DOSCIENTOS CINCUENTA ($383.250.000).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_250826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "0953-000915/2026",
+   "titulo": "Construcción de centros deportivos, recreativos y sociales en ciudades de Tuclame, Las Playas, Villa de Pocho y Villa Ciudad Parque",
+   "importa": "ACIF licita construcción de cuatro centros deportivos/recreativos/sociales en localidades del interior (Tuclame, Las Playas, Villa de Pocho, Villa Ciudad Parque, Departamento Calamuchita). Presupuesto oficial: $2.674.388.024,22 IVA incluido. Plazo: 250 días. Apertura de ofertas: 08/09/2026 a las 10:00 en ACIF, Rosario de Santa Fe 231, Córdoba. Visita técnica obligatoria: 27/08/2026.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública digital (Decreto N° 583/2016, Ley N° 8.614). Documentos disponibles en portal oficial de Compras Públicas. Garantía de oferta: 1% del presupuesto oficial. Plazo de ejecución: 250 días desde acta de replanteo. Categoría Primera (arquitectura 100%). Acto reglamentario sin vicios aparentes. El monto (›$2.600M) sugiere financiamiento externo (ACIF típicamente gestiona créditos nacionales/internacionales).",
+    "politica": "Infraestructura deportiva/recreativa en localidades rurales e intermedias es eje de política territorial descentralizadora. Tuclame (Dep. Córdoba), Las Playas (Dep. Punilla), Villa de Pocho (Dep. Punilla), Villa Ciudad Parque (Dep. Calamuchita) conforman arco de modernización territorial. Obra contribuye a absorción de desempleo en zonas marginales.",
+    "oficialista": "Inversión en infraestructura social descentralizada, con beneficio a comunidades del interior, diversificación económica y empleo local de largo plazo.",
+    "opositora": "Sin información sobre demanda efectiva de estos servicios, capacidad operativa municipal para mantenimiento, o si responde a demanda territorial real vs. proyecto político abstracto."
+   },
+   "texto_oficial": "OBJETO: CONSTRUCCIÓN CENTROS DEPORTIVOS, RECREATIVOS Y SOCIALES EN LAS CIUDADES DE TUCLAME, LAS PLAYAS, VILLA DE POCHO Y VILLA CIUDAD PARQUE. PRESUPUESTO OFICIAL: PESOS DOS MIL SEISCIENTOS SETENTA Y CUATRO MILLONES TRESCIENTOS OCHENTA Y OCHO MIL VEINTICUATRO CON 22/100 ($2.674.388.024,22), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. PLAZO DE EJECUCIÓN: 250 días corridos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_250826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "0953-000916/2026",
+   "titulo": "Construcción de centros deportivos, recreativos y sociales en ciudades de Ucacha, Camilo Aldao, Pozo del Molle y Matorrales",
+   "importa": "ACIF licita construcción de cuatro centros deportivos/recreativos/sociales en localidades del interior (Ucacha, Camilo Aldao, Pozo del Molle, Matorrales). Presupuesto oficial: $2.872.117.655,34 IVA incluido. Plazo: 250 días. Apertura de ofertas: 08/09/2026 a las 11:30 en ACIF. Visita técnica obligatoria: 27/08/2026.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública digital (Decreto N° 583/2016, Ley N° 8.614). Términos similares a licitación 0953-000915/2026 (garantía 1%, plazo 250 días, categoría Primera). Monto (~$2.870M) nuevamente sugiere financiamiento externo ACIF.",
+    "politica": "Continuación de política territorial descentralizadora con segundo lote de centros en Departamentos Córdoba (Ucacha, Camilo Aldao), Calamuchita (Pozo del Molle, Matorrales). Junto con licitación anterior, representa inversión ›$5.500M en infraestructura social rural.",
+    "oficialista": "Expansión equitativa de acceso a infraestructura deportiva/recreativa; beneficio múltiple (empleo, servicios, integración territorial).",
+    "opositora": "Duplicación de licitaciones en mismo día con presupuestos similares sugiere falta de planificación o urgencia política de ejecutar antes de fin de año (exceso presupuestario)."
+   },
+   "texto_oficial": "OBJETO: CONSTRUCCIÓN CENTROS DEPORTIVOS, RECREATIVOS Y SOCIALES EN LAS CIUDADES DE UCACHA, CAMILO ALDAO, POZO DEL MOLLE Y MATORRALES. PRESUPUESTO OFICIAL: PESOS DOS MIL OCHOCIENTOS SETENTA Y DOS MILLONES CIENTO DIECISIETE MIL SEISCIENTOS CINCUENTA Y CINCO CON 34/100 ($2.872.117.655,34)... PLAZO DE EJECUCIÓN: 250 días corridos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_250826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "0909-080659/2026",
+   "titulo": "Alquiler de 12.000 vallas de contención y 200 baños químicos para eventos deportivos en Córdoba Capital (6 meses)",
+   "importa": "Ministerio de Seguridad licita alquiler de 12.000 vallas de contención y 200 baños químicos para eventos deportivos en Córdoba Capital por 6 meses. Presupuesto: $167.000.000 IVA incluido. Presentación: 02/09/2026 hasta las 10:00 en Mesa de Entrada Centro Cívico del Bicentenario (Rosario de Santa Fe 650). Apertura: 02/09/2026 a las 12:00.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública presencial, presupuesto moderado ($167M), bienes fungibles de corta duración. Procedimiento estándar. Requiere constancia de visita técnica hasta 28/08/2026. Presupuesto unitario aproximado: ~$13.900 por valla + ~$835.000 por baño, lo que refleja costos típicos de alquiler a corto plazo.",
+    "politica": "Provisión de infraestructura de seguridad/orden para eventos deportivos refleja preocupación por control de multitudes. La cantidad (12.000 vallas) es significativa, sugiriendo expectativa de eventos masivos. Carácter de «seguridad» sugiere que eventos podría ser de riesgo (fútbol, rugby).",
+    "oficialista": "Garantiza orden y seguridad pública en eventos multitudinarios mediante contratación competitiva.",
+    "opositora": "Sin identificación de eventos específicos, es difícil evaluar si presupuesto responde a demanda real o especulación política."
+   },
+   "texto_oficial": "OBJETO: CONTRATACIÓN DEL SERVICIO DE ALQUILER DE DOCE MIL (12.000) VALLAS DE CONTENCIÓN Y DOSCIENTOS (200) BAÑOS QUÍMICOS PARA DISTINTOS EVENTOS DEPORTIVOS QUE SE DESARROLLEN EN LA CIUDAD DE CÓRDOBA DENTRO DE UN PERÍODO DE SEIS (6) MESES. PRESUPUESTO: pesos CIENTO SESENTA Y SIETE MILLONES CON 00/100 ($167.000.000,00) IVA INCLUIDO.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_250826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "0916-000599/2026",
+   "titulo": "Refacción y puesta en valor de fuentes de agua ornamentales de la ciudad de Córdoba (Departamento Capital)",
+   "importa": "ACIF licita refacción y puesta en valor de fuentes de agua ornamentales de Córdoba Capital. Presupuesto: $799.970.500 IVA incluido. Plazo: 365 días. Apertura: 09/09/2026 a las 12:00 en Ministerio de Infraestructura, Humberto Primero 607 (subsuelo). Garantía de oferta: 1%.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación digital (Decreto N° 583/2016, Ley N° 8.614), categoría Primera (arquitectura 100%). Plazo largo (365 días) sugiere alcance significativo de intervención (probablemente múltiples fuentes o restauración profunda). Presupuesto ~$800M es consistente con refacción integral de patrimonio urbano.",
+    "politica": "Refacción de fuentes ornamentales es intervención de «embellecimiento urbano» típicamente asociada a modernización estética de ciudad capital. Posible relación con reasignación de espacios públicos o renovación de barrios específicos (a confirmar).",
+    "oficialista": "Mejora de espacios públicos, patrimonio cultural, atractividad urbana para turismo y calidad de vida.",
+    "opositora": "Gasto cosmético sin impacto en servicios básicos (salud, educación, agua potable) en contexto de restricción fiscal."
+   },
+   "texto_oficial": "OBJETO: REFACCIÓN Y PUESTA EN VALOR DE LAS FUENTES DE AGUA ORNAMENTALES DE LA CIUDAD DE CÓRDOBA - DEPARTAMENTO CAPITAL – PROVINCIA DE CÓRDOBA. PRESUPUESTO OFICIAL: PESOS SETECIENTOS NOVENTA Y NUEVE MILLONES NOVECIENTOS SETENTA MIL QUINIENTOS CON 00/100 ($799.970.500,00)... PLAZO DE EJECUCIÓN: 365 días corridos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_250826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Inscripción",
+   "clase": "designacion",
+   "instrumento": "Resolución Administrativa N° 228 - Letra A",
+   "titulo": "Inscripción de Peritos Oficiales",
+   "detalle": "Marcos Ezequiel Audisio, Enrique Rodolfo Romero (Contadores, Primera Circunscripción Judicial); Erika Sofía Alberto (Criminalística, Octava Circunscripción); Silvia Marcela Alegre (Grafología, Primera Circunscripción); Alexis Iván Toscano (Higiene y Seguridad, Décima Circunscripción); Arturo Erasmo Viola (Investigación de Incendios, Primera Circunscripción); Karina Liliana Rucci (Medicina del Trabajo, Primera Circunscripción)",
+   "organismo": "Tribunal Superior de Justicia",
+   "pagina": 5,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_250826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "N° 135",
+   "titulo": "Extensión de beneficio de reconversión de módulos interinos a escuelas precursoras 2026",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "N° 136",
+   "titulo": "Modalidad horaria especial para Maestros de Materia Especial en Nivel Inicial bajo TransFORMAR@Cba",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "N° 120 - Letra D",
+   "titulo": "Cargo tarifario de Amortización e Inversiones para Cooperativa de Trabajo Sudeste (operatoria mayorista)",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución Administrativa",
+   "numero": "N° 228 - Letra A",
+   "titulo": "Inscripción de Peritos Oficiales",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000001",
+   "titulo": "Provisión de servicio de transporte CEPROCOR",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0953-000915/2026",
+   "titulo": "Construcción centros deportivos Tuclame, Las Playas, Villa de Pocho, Villa Ciudad Parque",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0953-000916/2026",
+   "titulo": "Construcción centros deportivos Ucacha, Camilo Aldao, Pozo del Molle, Matorrales",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0909-080659/2026",
+   "titulo": "Alquiler vallas de contención y baños químicos eventos deportivos",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0916-000599/2026",
+   "titulo": "Refacción y puesta en valor fuentes de agua ornamentales Córdoba Capital",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0733-012077/2026",
+   "titulo": "Adecuación drenaje Sureste localidad La Francia (Dpto. San Justo)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "001/2026 - Obra 8158",
+   "titulo": "Construcción Módulo Anexo Sede Regional Universidad Provincial en Huinca Renancó",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "N° 1461",
+   "titulo": "Construcción tableros mampostería, conductores BT, puesta a tierra - EPEC",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "N° 1462",
+   "titulo": "Adquisición indumentaria técnica laboral anti arco eléctrico - EPEC",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000021",
+   "titulo": "Rehabilitación Puente Arroyo Los Cóndores - Ruta Nacional 36 - CASISA",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "N° 4 a Licitación N° 5584",
+   "titulo": "Ampliación ET Arroyo Cabral - Interconexión Transformador 500/132/33 KV - EPEC",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0733-012042/2026",
+   "titulo": "Sistematización drenaje periurbano oeste localidad La Francia (Dpto. San Justo)",
+   "seccion": "4",
+   "pagina": 4
+  }
+ ],
+ "telegram": "Boletín Oficial N° 163 del 25/8/2026: 32 normas. Destacado: ERSeP aprueba cargo tarifario agua Sudeste ($5,34/m³, $44M inversión electrógeno); Educación amplía reconversión docente a escuelas 2026 e implementa modalidad especial 11h para Materia Especial Inicial. ACIF licita $5.5B centros deportivos interior. Más en la app → boletinoficial.cba.gov.ar",
+ "hora_procesado": "13:48",
+ "estado": "publicado"
+}
