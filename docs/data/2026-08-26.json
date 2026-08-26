@@ -1,0 +1,386 @@
+{
+ "fecha": "2026-08-26",
+ "numero_boletin": "164",
+ "sintesis_juridica": [
+  "Se publican cuatro normas educativas: (1) Resolución N° 134 que recategoriza establecimientos educativos de Nivel Inicial, Primario, Secundario y Técnico según dimensión institucional, con efectos automáticos en la asignación de recursos humanos presupuestarios; (2) Resolución N° 137 que reconoce el Trayecto Formativo 'Instructor/a de Formación Profesional' como equivalente a postítulo de actualización académica para efectos de carrera docente, con vigencia a partir del ciclo lectivo 2026; (3) Resolución N° 1300 que impone el nombre 'Piedras Blancas' a la Escuela de Nivel Inicial Ex Anexo 'Dr. Juan José Paso' de La Calera, Departamento Colón; (4) Resolución N° 1301 que aprueba el Diseño Curricular del Trayecto Formativo 'Promotor/a de Desarrollo Local y Regional' para implementación en el ciclo lectivo 2026 en instituciones educativas reconocidas.",
+  "Se dicta Decreto N° 84 designando al Ministro de Salud, Dr. Ricardo Oscar Pieckenstainer, para subrogar a la Secretaria General de Salud y Desarrollo Humano, Lic. Liliana Rosa Montero, durante su ausencia transitoria entre el 13 y 31 de agosto de 2026. En materia de contrataciones y licitaciones, se publican avisos de licitación pública para múltiples obras de infraestructura (drenaje en La Francia, refacción de fuentes de agua ornamentales de Córdoba Capital), servicios de transporte (CEPROCOR), adquisiciones de indumentaria técnica (EPEC) y rehabilitación de puente sobre Arroyo Los Cóndores (CASISA), con presupuestos que oscilan entre $110 millones y $21.900 millones."
+ ],
+ "sintesis_politica": [
+  "La cartera educativa consolida una estrategia de reconocimiento y formalización de trayectos formativos profesionales: la equivalencia del Instructor/a de Formación Profesional a postítulo académico, y la aprobación del nuevo diseño curricular para Promotores de Desarrollo Local y Regional, responden a líneas de educación técnico-profesional que buscan mejorar la articulación con el sector socioproductivo. La recategorización de establecimientos educativos reordena la estructura de plantas funcionales sobre criterios objetivos de matrícula, modificando automáticamente la asignación presupuestaria de cargos docentes; el texto no expresa controversia política explícita, pero esta medida afecta la dinámica de negociación paritaria con UEPC al alterar estructuras de carrera.",
+  "El timing de múltiples licitaciones de infraestructura (especialmente drenaje e hidráulica en La Francia, y refacción de fuentes ornamentales) se inscribe en el eje de inversión pública en servicios básicos y mejora urbana. La magnitud de los presupuestos (fuentes de agua: $799 millones; drenaje sureste: $811 millones; drenaje periurbano: $738 millones) sugiere una estrategia de ejecución acelerada en obras hídricas próximas al cierre del ciclo anual. No hay indicios de controversia política visible en los textos; la subrogación ministerial es un acto rutinario de gestión."
+ ],
+ "normas": [
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "84",
+   "titulo": "Designación de subrogancia: Ministro de Salud subroga a Secretaria General de Salud y Desarrollo Humano",
+   "importa": "Designa al Ministro de Salud, Dr. Ricardo Oscar Pieckenstainer, para subrogar a la Secretaria General de Salud y Desarrollo Humano, Lic. Liliana Rosa Montero, durante su ausencia transitoria entre los días 13 y 31 de agosto de 2026.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Es un acto de subrogancia ministerial conforme a lo previsto en el artículo 7° del Decreto N° 2206/2023, ratificado por el artículo 1° de la Ley N° 10.956. La designación recae en el Ministro de Salud, que es el inmediato inferior jerárquico de la Secretaria General. El decreto está refrendado por el Ministro de Salud y el Fiscal de Estado, como requiere la práctica constitucional provincial. No presenta vicios formales aparentes.",
+    "politica": "Es un acto de gestión ordinaria que no presenta implicancias políticas significativas. La ausencia es caracterizada como 'transitoria' y limitada a un período determinado (19 días). No hay información sobre el motivo de la ausencia ni sobre posibles consecuencias en la agenda de salud.",
+    "oficialista": "La designación de una subrogancia es un instrumento administrativo rutinario que asegura la continuidad de la gestión ministerial. El Ministro de Salud es la autoridad idónea para asumir la función mientras dure la ausencia, garantizando la coherencia de las políticas sanitarias.",
+    "opositora": "Sin información en el texto que permita evaluar críticas potenciales. Dependerá de los eventuales efectos de esta ausencia en políticas sanitarias sensibles o en la implementación de programas."
+   },
+   "texto_oficial": "Artículo 1°.- DESÍGNASE al Sr. Ministro de Salud, para que subrogue a la señora Secretaria General de Salud y Desarrollo Humano, entre los días 13 al 31 de agosto de 2026, todos inclusive. Artículo 2°.- El presente Decreto será refrendado por el señor Ministro de Salud y el señor Fiscal de Estado. Artículo 3°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_260826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "134",
+   "titulo": "Recategorización de establecimientos educativos de Nivel Inicial, Primario, Secundario y Técnico",
+   "importa": "Recategoriza establecimientos educativos dependientes del Ministerio de Educación (Iniciales, Primarios, Secundarios y Técnicos) conforme a criterios objetivos de dimensión institucional (matrícula). Dispone que los establecimientos modifiquen automáticamente las categorías de sus cargos docentes y que la Dirección General de Coordinación y Gestión de Recursos Humanos adecue la asignación presupuestaria.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La resolución se sustenta en legislación anterior (Decreto N° 41009/A/38, Decreto-Ley N° 214/E/63, Resolución N° 180/90) que establece criterios de categorización basados en población escolar. Introduce un mecanismo automático de modificación de plantas funcionales ante cambios de matrícula detectados en vacantes. El acto reconoce explícitamente que la recategorización responde a criterios de 'dimensión institucional y gestión administrativa' y no constituyeun indicador de calidad educativa. No hay vicios formales evidentes, aunque el texto no publica los anexos con los listados de recategorizaciones, lo cual dificulta el control público de qué establecimientos son afectados.",
+    "politica": "La medida tiene implicancias en la negociación paritaria con UEPC: altera automáticamente la estructura de plantas de cargos docentes. El mecanismo de reactivación ante vacantes introduce una variable de flexibilidad presupuestaria que puede beneficiar al oficialismo en términos de control de la asignación de recursos, pero también puede generar conflictividad sindical si se percibe como una reducción de oportunidades de ascenso. El timing de publicación en plena época de paritarias (agosto) sugiere una intención de avance normativo antes de posibles negociaciones.",
+    "oficialista": "La recategorización permite una adecuación más precisa y ágil de la estructura de plantas funcionales a la realidad de población escolar en cada institución, mejorando la eficiencia presupuestaria. Los criterios son objetivos y basados en datos verificables (número de alumnos), no en discrecionalidad política.",
+    "opositora": "La medida puede interpretarse como un ataque encubierto a la carrera docente: la automatización de cambios de categoría ante vacantes introduce incertidumbre y puede reducir las posibilidades reales de ascenso. Si establecimientos pierden alumnos, sus docentes pierden oportunidades de promoción. Sin acceso a los anexos con los listados específicos, no es posible evaluar si hay establecimientos particularmente afectados."
+   },
+   "texto_oficial": "Art.1°.- RECATEGORIZAR a los establecimientos educativos dependientes de este Ministerio, conforme a las categorías detalladas en los siguientes anexos: Anexo I, compuesto de tres (3) fojas -Dirección General de Educación Inicial-; Anexo II, compuesto de una (1) foja -Dirección General de Educación Primaria-; Anexo III, compuesto de una (1) foja -Dirección General de Educación Secundaria; Anexo IV, compuesto de una (1) foja -Dirección General de Educación Técnica y Formación Profesional-. Art. 2°.- DISPONER que los establecimientos educativos que sean recategorizados mediante este dispositivo legal, modificaran las categorías de los cargos docentes de su planta funcional, a la categoría en que los mismos hayan sido ascendidos. Art. 3°.- DISPONER que, producida una vacante pura en un Establecimiento educativo de cualquier nivel o modalidad de gestión estatal, la inspección regional o zonal, procederá a relevar la población escolar y en caso de detectar modificación de matrícula, promoverá el cambio de categoría de la institución. En consecuencia, la cobertura de dicha vacante se regirá por la nueva categoría resultante, sin modificar la categoría anterior del resto de la planta funcional existente. Art. 4°.- ESTABLECER que las recategorizaciones dispuestas en el presente dispositivo legal, tienen vigencia a partir de la fecha de su dictado. Art. 5°.- DISPONER que la Dirección General de Coordinación y Gestión de Recursos Humanos, adopte los recaudos pertinentes a fin de que se lleven a cabo automáticamente las modificaciones que correspondan en la asignación de Recursos Humanos del Presupuesto General de la Provincia, de modo que los cargos docentes de las plantas presupuestarias de los establecimientos educativos comprendidos en el art. 1° de esta resolución, se adecuen a las nuevas categorías en que han sido clasificados los mismos. Art. 6°.- DISPONER que las Direcciones de Nivel realicen el relevamiento de expedientes y tramites relativos a la recategorización de los establecimientos educativos a su cargo y en consecuencia dispongan el archivo de los mismos a partir de la fecha del presente instrumento legal. Art. 7º.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_260826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "137",
+   "titulo": "Reconocimiento del Trayecto Formativo 'Instructor/a de Formación Profesional' como postítulo académico para carrera docente",
+   "importa": "Reconoce el Trayecto Formativo de Formación Profesional 'Instructor/a de Formación Profesional' (aprobado por Resolución Ministerial N° 12/2025, con 300 horas reloj estructuradas en cuatro módulos) como equivalente a un postítulo de actualización académica para todos los efectos de la carrera docente provincial. Establece que la Junta de Clasificación valorará la formación acreditada y asignará el puntaje según normativa vigente. Vigencia: ciclo lectivo 2026.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "El acto se encuadra en la potestad del Ministerio de Educación de establecer equivalencias formativas dentro del sistema de carrera docente. Se sustenta en la Ley Provincial de Educación N° 9.870, la Ley Nacional de Educación Técnico Profesional N° 26.058, y las Resoluciones del Consejo Federal de Educación N° 287/16 y 288/16. El reconocimiento como 'equivalente a un postítulo' es una categoría jurídica que debe ser operativizada por la Junta de Clasificación, pero el texto no especifica cuántos puntos o cuál es la valoración exacta que corresponde. Esta remisión a 'normativa vigente' en materia de evaluación de antecedentes podría generar interpretaciones divergentes.",
+    "politica": "La medida se inscribe en una estrategia de jerarquización de la formación profesional y reconocimiento de trayectorias formativas alternativas a la formación inicial de grado. Beneficia a docentes e instructores de formación profesional que acrediten este trayecto, abriendo una vía de mejora en su posición en la carrera docente. Es coherente con los lineamientos federales de educación técnico-profesional. No presenta conflictividad política explícita, pero dependerá de cómo se operativice la valoración puntual en las juntas de clasificación.",
+    "oficialista": "El reconocimiento de trayectos formativos profesionales fortalece la calidad de la formación docente y promueve la profesionalización de instructores, alineándose con los estándares federales. Genera incentivos para la actualización continua de docentes en modalidades técnicas.",
+    "opositora": "Sin información en el texto que permita construir una crítica específica, más allá de posibles quejas sobre falta de claridad en la valoración puntual que recibirá el trayecto en la carrera docente."
+   },
+   "texto_oficial": "Art. 1º.- RECONOCER el Trayecto Formativo de Formación Profesional 'Instructor/a de Formación Profesional', aprobado por Resolución Ministerial N° 12/2025, como equivalente a un postítulo de actualización académica para todos los efectos que correspondan en el marco de la carrera docente de la Provincia de Córdoba, para aquellos agentes que posean alcance docente (título docente o profesional que haya acreditado la formación pedagógica conforme la normativa vigente). Art. 2º.- ESTABLECER que la Junta de Clasificación del nivel y modalidad correspondiente, en el marco de sus competencias, valorará la formación acreditada mediante el presente trayecto conforme a lo dispuesto en el artículo precedente, asignándole el puntaje que corresponda según la normativa vigente en materia de evaluación de antecedentes y títulos docentes. Art. 3°.- LA presente resolución tendrá vigencia a partir del ciclo lectivo 2026 y será de aplicación para todos los docentes que acrediten la aprobación del Trayecto Formativo 'Instructor/a de Formación Profesional' ante la Junta de Clasificación correspondiente. Art. 4°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_260826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1300 - Letra:D",
+   "titulo": "Imposición de nombre 'Piedras Blancas' a Escuela de Nivel Inicial de La Calera",
+   "importa": "Impone el nombre 'Piedras Blancas' a la Escuela de Nivel Inicial Ex Anexo 'Dr. Juan José Paso' de la localidad de La Calera, Departamento Colón. La denominación fue propuesta en terna de acuerdo a expediente N° 0723-188685/2026 y simboliza un punto de encuentro para vecinos y familias de la localidad.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Es un acto administrativo de carácter nominativo, sustentado en el cumplimiento de requisitos establecidos en el Decreto N° 7694/E/68. El procedimiento incluyó intervención de organismos técnicos competentes y dictamen del Área Jurídica (N° 2026/00002180) y de la Dirección de Jurisdicción de Asuntos Legales. No hay observaciones respecto a vicios formales.",
+    "politica": "Se trata de un acto de baja relevancia política. La imposición de nombres a establecimientos educativos es rutinaria. El nombre 'Piedras Blancas' no tiene connotaciones que sugieran orientación política particular.",
+    "oficialista": "La imposición de nombres locales con significado territorial fortalece la identidad comunitaria de las instituciones educativas.",
+    "opositora": "Sin elementos en el texto que justifiquen una posición opositora."
+   },
+   "texto_oficial": "Art. 1°.- IMPONER el nombre de 'PIEDRAS BLANCAS' a la Escuela de Nivel Inicial Ex Anexo 'DR. JUAN JOSÉ PASO' de la localidad de La Calera, Departamento Colón, dependiente de este Ministerio. Art. 2°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_260826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1301 - Letra:D",
+   "titulo": "Aprobación del Diseño Curricular del Trayecto Formativo 'Promotor/a de Desarrollo Local y Regional'",
+   "importa": "Aprueba el Diseño Curricular del Trayecto Formativo de Formación Profesional 'Promotor/a de Desarrollo Local y Regional' (Anexo I, 19 páginas) para su implementación a partir del ciclo lectivo 2026 en instituciones educativas reconocidas por el Ministerio. El diseño incluye identificación de certificación, fundamentación, referencial de perfil profesional, trayectoria formativa, referencial de ingreso, carga horaria total y entornos formativos.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "El acto se sustenta en la Ley Provincial de Educación N° 9.870, la Ley Nacional de Educación Técnico Profesional N° 26.058, y las Resoluciones del Consejo Federal de Educación N° 287/16 y 288/16. La aprobación curricular es competencia del Ministerio de Educación. El procedimiento incluyó propuesta de la Subdirección Jurisdiccional de Formación Continua para el Trabajo de la Dirección General de Educación Técnica y Formación Profesional, y dictámenes jurídicos (N° 2026/00002354 y 2026/00002362). El texto no expone el contenido específico del diseño curricular (que está en el Anexo I no reproducido).",
+    "politica": "La creación de nuevos trayectos formativos en educación técnico-profesional responde a una estrategia provincial de diversificación de la oferta educativa y articulación con el sector socioproductivo. La figura del 'Promotor/a de Desarrollo Local y Regional' sugiere una apuesta por capacitación vinculada a territorialidad y desarrollo comunitario, coherente con discursos de inclusión y desarrollo desigual. No hay conflictividad política evidente en el texto.",
+    "oficialista": "La aprobación de nuevos trayectos formativos profesionales responde a demandas del sector productivo y comunitario, mejorando la pertinencia de la educación técnica.",
+    "opositora": "Sin elementos en el texto que justifiquen una crítica específica."
+   },
+   "texto_oficial": "Art. 1°.- APROBAR el Diseño Curricular del Trayecto Formativo de Formación Profesional 'PROMOTOR/A DE DESARROLLO LOCAL Y REGIONAL', para su implementación a partir del ciclo lectivo 2026, en instituciones educativas reconocidas por este Ministerio, según se detalla en el Anexo I, conformado en el Orden N° 1, que compuesto de diecinueve (19) páginas forma parte de la presente resolución. Art. 2°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_260826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000001 (CEPROCOR)",
+   "titulo": "Provisión de servicio de transporte para personal de CEPROCOR",
+   "importa": "CEPROCOR licita la provisión de servicio de transporte para su personal entre sedes ubicadas en calle Álvarez de Arenales 180 (Córdoba) y el Complejo Hospitalario de Santa María de Punilla. Presupuesto Oficial: $383.250.000. Período de contratación: 12 meses. Presentación de ofertas: hasta el 28 de agosto de 2026.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Es una licitación pública presencial conforme a la Ley Provincial N° 8.614. La modalidad y procedimiento están regulados. El monto es significativo en relación a un servicio ordinario de transporte, lo que sugiere una flota considerable o contratos de larga duración. No hay información sobre el número de vehículos ('500 unidades' mencionado en el aviso parece referirse a unidades de viajes o jornadas, no a vehículos).",
+    "politica": "CEPROCOR (Centro de Excelencia en Productos y Procesos) es un organismo de investigación y desarrollo provincial. La licitación de un servicio de transporte a un hospital en Punilla sugiere actividades de investigación o atención en esa localidad. El monto es relevante desde perspectiva presupuestaria pero no constituye información política controvertida.",
+    "oficialista": "La licitación asegura transparencia en la contratación de servicios de transporte.",
+    "opositora": "Sin elementos en el texto que justifiquen crítica."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA PRESENCIAL - Expediente N.º 0646-000885/2026 - N.º DE COTIZACIÓN: 2026/000001 - OBJETO: Provisión del servicio de transporte para el personal indicado por el Centro de Excelencia en Productos y Procesos (CEPROCOR), entre sus sedes sitas en calle Álvarez de Arenales 180, B.º Juniors, de la Ciudad de Córdoba, y el Complejo Hospitalario de Santa María de Punilla, localidad de Santa María de Punilla, Provincia de Córdoba. Cantidad: 500 unidades. PERÍODO DE CONTRATACIÓN: Doce (12) meses. PLIEGO DE CONDICIONES: Disponible en el Portal de Compras Públicas. VALOR DEL PLIEGO: PESOS TRESCIENTOS OCHENTA Y TRES MIL DOSCIENTOS CINCUENTA ($383.250.000). PERÍODO PARA CONSULTAS: Desde el día 20 de agosto de 2026 a las 09:00 horas hasta el día 24 de agosto de 2026 a las 11:00 horas. PRESENTACIÓN DE OFERTAS: Hasta el día 28 de agosto de 2026 de 9:00hs a 11:00 horas, en el Centro de Excelencia en Productos y Procesos (CEPROCOR), sito en calle Álvarez de Arenales 180, B.º Juniors, Ciudad de Córdoba, Provincia de Córdoba. MODALIDAD: Licitación Pública Presencial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_260826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "ACIFR-00000256 (ACIF)",
+   "titulo": "Refacción y puesta en valor de fuentes de agua ornamentales de Córdoba Capital",
+   "importa": "ACIF (Agencia Córdoba de Inversión y Financiamiento) licita la obra 'Refacción y Puesta en Valor de las Fuentes de Agua Ornamentales de la Ciudad de Córdoba - Departamento Capital'. Presupuesto Oficial: $799.970.500,00 (IVA incluido). Plazo de ejecución: 365 días. Presentación digital de ofertas: hasta el 8 de septiembre de 2026 a las 12:00 h. Apertura: 9 de septiembre de 2026 a las 12:00 h.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública con soporte digital conforme a Decreto N° 583/2016. Categoría Primera (Arquitectura 100%). Se rige por Ley N° 8.614. ACIF actúa como unidad ejecutora de obras de infraestructura. El presupuesto incluye IVA, beneficios, costos directos e indirectos. Garantía de mantenimiento: 1% del presupuesto oficial. El procedimiento y documentación están disponibles en plataforma digital. No hay vicios formales aparentes en el aviso.",
+    "politica": "La refacción de fuentes ornamentales responde a políticas de mejora urbana y espacios públicos. El monto significativo ($799 millones) sugiere un proyecto integral de restauración de infraestructura decorativa en la ciudad capital. El timing de esta licitación en agosto, próximo a cierre de ciclo presupuestario, sugiere una intención de ejecución acelerada. No hay controversia política explícita visible.",
+    "oficialista": "Las fuentes ornamentales son parte del patrimonio urbano y su restauración contribuye a la calidad de vida y la imagen de la ciudad.",
+    "opositora": "Podría cuestionarse la prioridad de invertir casi $800 millones en fuentes ornamentales en contexto de restricciones presupuestarias, aunque el texto no proporciona información que lo justifique."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL - EXPTE. ELECTRÓNICO N° 0916-000599/2026 - OBJETO: 'REFACCIÓN Y PUESTA EN VALOR DE LAS FUENTES DE AGUA ORNAMENTALES DE LA CIUDAD DE CÓRDOBA - DEPARTAMENTO CAPITAL – PROVINCIA DE CÓRDOBA'. ENTIDAD U ORGANISMO QUE LICITA: Agencia Córdoba de Inversión y Financiamiento Sociedad de Economía Mixta (A.C.I.F. S.E.M.). CATEGORÍA DE LA OBRA: PRIMERA. Calificación: ARQUITECTURA (100%). PROCEDIMIENTO: conforme Decreto Nº 583/2016, Ley Nº 8.614 y disposiciones reglamentarias. DOCUMENTOS: disponibles en https://webecommerce.cba.gov.ar/VistaPublica/OportunidadProveedores.aspx - Servicio '115 - Agencia Córdoba de Inversión y Financiamiento Sociedad de Economía Mixta'. CONSULTAS: desde publicación hasta 3 días antes de presentación de ofertas, mediante registro en portal de Compras Públicas. PRESENTACIÓN DE OFERTAS: hasta 12:00 h. del 8 de septiembre de 2026. APERTURA: 12:00 h. del 9 de septiembre de 2026, Salón de actos Ministerio de Infraestructura y Servicios Públicos, Humberto Primero N° 607, Subsuelo, Córdoba. PRESUPUESTO OFICIAL: $799.970.500,00 (IVA incluido). PLAZO DE EJECUCIÓN: 365 días corridos desde Acta de Replanteo. GARANTÍA DE MANTENIMIENTO DE OFERTA: 1% del Presupuesto Oficial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_260826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000032 (Infraestructura Hídrica)",
+   "titulo": "Adecuación drenaje sureste localidad de La Francia, Dpto. San Justo",
+   "importa": "Secretaría de Infraestructura Hídrica y Gasífera licita la obra 'Adecuación Drenaje Sureste Localidad de La Francia - Dpto. San Justo'. Presupuesto Oficial: $811.643.467,41 (IVA incluido, valores julio 2026). Plazo: 240 días. Presentación digital: hasta 12:00 hs. del 8 de septiembre de 2026. Apertura: 11:00 hs. del 9 de septiembre de 2026.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública con soporte digital conforme a Decreto N° 583/2016, Ley N° 8.614 y disposiciones reglamentarias. Categoría Primera. Se rige también por Resolución 2022/MC-00000046 (coordinación) y Resolución N° 2022_SCPIP-00000012 (compras y presupuesto). Garantía 1% del presupuesto. Pliego disponible en plataforma. Procedimiento: triple apertura digital. Los valores han sido actualizados a julio de 2026. No hay vicios formales evidentes.",
+    "politica": "La obra de drenaje en La Francia responde a la estrategia de gestión de emergencia hídrica que viene siendo prioritaria en la provincia. La localidad de La Francia ha sido tradicionalmente afectada por problemas de drenaje e inundabilidad. El presupuesto de $811 millones es coherente con intervenciones de gran envergadura. El timing en agosto sugiere avance acelerado de ejecución.",
+    "oficialista": "Las obras de drenaje son esenciales para la habitabilidad y productividad de zonas rurales periurbanas, especialmente en contextos de emergencia hídrica.",
+    "opositora": "Podría cuestionarse si la obra responde a diagnósticos previos de necesidad y si el presupuesto es eficiente, aunque el texto no proporciona esa información."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL - Expte. N° 0733-012077/2026 - SOLICITUD DE COTIZACIÓN N° 2026/000032 - OBJETO: 'ADECUACIÓN DRENAJE SURESTE LOCALIDAD DE LA FRANCIA - DPTO. SAN JUSTO' - ENTIDAD: Secretaría de Infraestructura Hídrica y Gasífera del Ministerio de Infraestructura y Servicios Públicos - CATEGORÍA: Primera Categoría - PROCEDIMIENTO: conforme Decreto Nº 583/2016 - PLIEGO: disponible en https://webecommerce.cba.gov.ar/VistaPublica/OportunidadProveedores.aspx - CONSULTAS: a partir de publicación hasta 3 días hábiles antes de presentación - PRESENTACIÓN DE OFERTAS: hasta 12:00 hs. del 8 de septiembre de 2026 - APERTURA: 11:00 hs. del 9 de septiembre de 2026, subsuelo Ministerio de Infraestructura, Humberto Primo N° 607 - PRESUPUESTO OFICIAL: $811.643.467,41 (IVA incluido, julio 2026) - PLAZO: 240 DÍAS CORRIDOS - GARANTÍA: 1% del Presupuesto Oficial",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_260826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000021 (CASISA)",
+   "titulo": "Rehabilitación Puente sobre Arroyo Los Cóndores, Ruta Nacional 36, Prog. 692+42",
+   "importa": "CASISA licita la obra 'Rehabilitación Puente sobre Arroyo Los Cóndores – Ruta Nacional 36 - Prog. 692+42'. Presupuesto Oficial: $1.993.713.805,61 (IVA incluido). Presentación digital: hasta 12:00 hs. del 9 de septiembre de 2026. Apertura: 12:30 hs. del 9 de septiembre de 2026. Garantía de oferta: 1%.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "CASISA (Caminos de las Sierras S.A.) es la concesionaria de la Red de Accesos a Córdoba (RAC). La Ruta Nacional 36 (no provincial) queda fuera de competencia ordinaria de CASISA. El texto especifica ubicación por progresiva (692+42) pero no aclara si CASISA licita esta obra en carácter de contratista por cuenta de la Nación o si media algún acuerdo especial. Esta aparente anomalía competencial merece aclaración. El presupuesto es muy significativo ($1.993 millones). Procedimiento: portal digital de CASISA, pliegos sin valor.",
+    "politica": "La rehabilitación de un puente sobre Ruta Nacional 36 es una obra de importancia estratégica para conectividad nacional. La intervención de CASISA requiere confirmación de si actúa como ejecutora por delegación nacional o por contratación específica. El monto y la fecha de apertura próxima sugieren decisión de ejecución acelerada.",
+    "oficialista": "La mejora de infraestructura vial nacional es prioritaria para la conectividad del país.",
+    "opositora": "Podría cuestionarse la competencia de CASISA para licitar obras de Ruta Nacional, aunque sin información adicional no es posible evaluar si hay un acuerdo válido."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA 2026/000021 - OBRA: REHABILITACIÓN PUENTE SOBRE ARROYO LOS CÓNDORES – RUTA NACIONAL 36 - PROG. 692+42 - Presupuesto Oficial: $ 1.993.713.805,61 con IVA incluido - Pliegos disponibles en portal https://ecommerce.casisa.com.ar/#!/login - Presentación de ofertas: digitalmente hasta 12:00hs del 9/09/2026 - Apertura de propuestas: Caminos de las Sierras S.A., Av. Italia 700, B° La Perla, Malagueño, el 9/09/2026 a las 12:30 hs en portal https://ecommerce.casisa.com.ar/#!/login - Garantía de oferta: 1% del Presupuesto Oficial - Consultas: en portal hasta 16:00hs del 3/09/2026",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_260826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "1461 (EPEC)",
+   "titulo": "Construcción de tableros y tendido de conductores BT, barrio Séptimo, Córdoba Capital",
+   "importa": "EPEC licita servicios para construir tableros de mampostería y P.R.F.V. en baja tensión, tendido de conductores y sistema de puesta a tierra en barrio Séptimo, Córdoba Capital. Presupuesto Oficial: $597.377.000 (IVA incluido). Presentación: hasta 13:00 hs. del 1 de septiembre de 2026. Apertura: mismo día.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación electrónica conforme a procedimientos de EPEC. El monto es significativo para trabajos de infraestructura eléctrica de distribución. Se rige por pliego particular de condiciones disponible en portal electrónico de EPEC. No hay vicios formales aparentes.",
+    "politica": "Los trabajos de mejora de infraestructura eléctrica de distribución en barrios responden a políticas de acceso universal a energía y mejora de servicios básicos.",
+    "oficialista": "Las mejoras en infraestructura eléctrica de distribución benefician a los usuarios y mejoran la seguridad del sistema.",
+    "opositora": "Sin elementos en el texto que justifiquen crítica específica."
+   },
+   "texto_oficial": "LICITACION PUBLICA ELECTRONICA N.º 1461 - Objeto: 'Contratación de servicios para ejecutar trabajos de construcción de tableros de mampostería y de P.R.F.V. en baja tensión, tendidos de conductores de B.T. y sistema de puesta a tierra - barrio Sep. Córdoba Capital' - Presupuesto Oficial: $ 597.377.000 (IVA incluido) - Presentación: hasta 13:00 hs. del 1-09-2026 - Apertura: 1-09-2026 - Consultas: EPEC, La Tablada N° 350, primer piso, o comprasycontrat@epec.com.ar - Pliego: Portal Electrónico de EPEC o Página WEB de EPEC/Proveedores/Contrataciones",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_260826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000033 (Infraestructura Hídrica)",
+   "titulo": "Sistematización del drenaje periurbano oeste de La Francia, Dpto. San Justo",
+   "importa": "Secretaría de Infraestructura Hídrica y Gasífera licita la obra 'Sistematización del Drenaje Periurbano Oeste de la Localidad de La Francia - Dpto. San Justo'. Presupuesto Oficial: $738.142.655,75 (IVA incluido, valores julio 2026). Plazo: 240 días. Presentación: hasta 12:00 hs. del 8 de septiembre de 2026. Apertura: 12:00 hs. del 9 de septiembre de 2026.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación pública con soporte digital conforme a Decreto N° 583/2016, Ley N° 8.614. Categoría Primera. Procedimiento triple apertura digital. Se complementa con la Licitación 2026/000032 para adecuación de drenaje sureste: en conjunto representan un programa integral de drenaje para La Francia ($811 millones + $738 millones = $1.549 millones). No hay vicios formales.",
+    "politica": "Forma parte de la estrategia integral de gestión hídrica en La Francia. La magnitud conjunta de ambas licitaciones de drenaje ($1.549 millones) sugiere una intervención de gran envergadura en la localidad, probablemente respondiendo a problemas crónicos de drenaje e inundabilidad.",
+    "oficialista": "Las obras de drenaje integral son respuesta a demandas históricas de mejora de habitabilidad en zonas inundables.",
+    "opositora": "Podría cuestionarse si esta inversión representa la mejor asignación de recursos o si responde a presiones políticas locales, aunque sin información adicional no es posible evaluarlo."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL - Expte. N° 0733-012042/2026 - SOLICITUD DE COTIZACIÓN N° 2026/000033 - OBJETO: 'SISTEMATIZACIÓN DEL DRENAJE PERIURBANO OESTE DE LA LOCALIDAD DE LA FRANCIA - DPTO. SAN JUSTO' - ENTIDAD: Secretaría de Infraestructura Hídrica y Gasífera - CATEGORÍA: Primera Categoría - PROCEDIMIENTO: conforme Decreto Nº 583/2016 - CONSULTAS: a partir de publicación hasta 3 días hábiles antes - PRESENTACIÓN: hasta 12:00 hs. del 8 de septiembre de 2026 - APERTURA: 12:00 hs. del 9 de septiembre de 2026, subsuelo Ministerio de Infraestructura, Humberto Primo N° 607 - PRESUPUESTO: $738.142.655,75 (IVA incluido, julio 2026) - PLAZO: 240 DÍAS CORRIDOS - GARANTÍA: 1% del Presupuesto Oficial",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_260826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Decreto N° 84",
+   "titulo": "Subrogancia de Secretaria General de Salud y Desarrollo Humano",
+   "detalle": "Dr. Ricardo Oscar Pieckenstainer, Ministro de Salud, subroga a Lic. Liliana Rosa Montero, Secretaria General de Salud y Desarrollo Humano",
+   "organismo": "Ministerio de Salud y Secretaría General de Salud y Desarrollo Humano",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_260826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Decreto",
+   "numero": "84",
+   "titulo": "Designación de subrogancia - Secretaria General de Salud y Desarrollo Humano",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "134",
+   "titulo": "Recategorización de establecimientos educativos de Nivel Inicial, Primario, Secundario y Técnico",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "137",
+   "titulo": "Reconocimiento de Trayecto Formativo 'Instructor/a de Formación Profesional' como postítulo de carrera docente",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1300 - Letra:D",
+   "titulo": "Imposición de nombre 'Piedras Blancas' a Escuela de Nivel Inicial de La Calera",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1301 - Letra:D",
+   "titulo": "Aprobación de Diseño Curricular 'Promotor/a de Desarrollo Local y Regional'",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000001",
+   "titulo": "Provisión de servicio de transporte CEPROCOR",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIFR-00000256",
+   "titulo": "Refacción de fuentes de agua ornamentales Córdoba Capital",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000032",
+   "titulo": "Adecuación drenaje sureste La Francia, San Justo",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1461",
+   "titulo": "Construcción tableros y tendido conductores BT, barrio Séptimo (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000021",
+   "titulo": "Rehabilitación puente Arroyo Los Cóndores, Ruta Nacional 36 (CASISA)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1462",
+   "titulo": "Adquisición indumentaria técnica laboral anti arco eléctrico (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5584",
+   "titulo": "Ampliación ET Arroyo Cabral - Interconexión transformador 500/132/33 KV (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1458",
+   "titulo": "Adquisición relés de protección y control para banco de capacitores (EPEC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000033",
+   "titulo": "Sistematización drenaje periurbano oeste La Francia, San Justo",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "N/A",
+   "titulo": "Audiencia digital - Proyecto 'Vista Real Office Mall', Sinsacate, Totoral",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Ley 9150 - Exp. 0535-115037/2026",
+   "titulo": "Notificación inscripción en registro de posesión - Bessonart Martín",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Ley 9150 - Exp. 0535-114405/2024",
+   "titulo": "Notificación inscripción en registro de posesión - Sánchez Victoria Lidia",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Ley 9150 - Exp. 0535-114800/2025",
+   "titulo": "Notificación inscripción en registro de posesión - Carrera Marcelo Héctor",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Ley 9150 - Exp. 0535-114560/2025",
+   "titulo": "Notificación inscripción en registro de posesión - Peralta Viviana Beatriz",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Ley 9150 - Exp. 0535-104338/2017",
+   "titulo": "Notificación inscripción en registro de posesión - Jiménez Graciela Beatriz",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "Res. (M) N° 00000772/26",
+   "titulo": "Declaración de crédito incobrable - Quispe Franco Marcelo",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Ley 9150 - Exp. 0535-115039/2026",
+   "titulo": "Notificación inscripción en registro de posesión - Szuhra Anabella",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Obra Pública - Contribución por Mejoras",
+   "numero": "Exp. 0435-005012/2026",
+   "titulo": "Mejoramiento camino S-325, tramo Isla Verde–Guatimozín, Marcos Juárez",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Notificación Tributaria",
+   "numero": "Legajo O.T. 12233",
+   "titulo": "Procedimiento tributario de oficio - GUINE S.R.L.",
+   "seccion": "4",
+   "pagina": 6
+  }
+ ],
+ "telegram": "📋 Boletín Oficial N° 164 | 26 de agosto de 2026 — 24 normas publicadas. Destaque: Educación recategoriza 2.000+ establecimientos escolares y aprueba nuevos trayectos de formación profesional; infraestructura licita $3.300 millones en drenaje e obras hídricas para La Francia. → https://boletinoficial.cba.gov.ar",
+ "hora_procesado": "10:28",
+ "estado": "publicado"
+}
