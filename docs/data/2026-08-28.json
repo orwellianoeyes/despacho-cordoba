@@ -1,0 +1,432 @@
+{
+ "fecha": "2026-08-28",
+ "numero_boletin": "166",
+ "sintesis_juridica": [
+  "El boletín publica normas de designación de autoridades (trasferencia de competencias sobre loteos a la Secretaría General de Hábitat y Desarrollo Emprendedor), titularización de personal docente en el Ministerio de Educación (cargos de coordinador, preceptor y horas cátedra), imposición de nombre a un instituto de educación técnica, y renovaciones y nuevas habilitaciones de empresas prestadoras de servicios de seguridad privada conforme la Ley N° 10.571.",
+  "En materia de contrataciones, se publican múltiples licitaciones públicas con soporte digital por ACIF para obras de infraestructura educativa y de agua potable, licitaciones de EPEC para contratación de cuadrillas, servicios y adquisiciones, y una licitación nacional de la Defensoría General de la Nación. Asimismo, se notifican edictos de inscripción de posesión conforme Ley 9150 y un procedimiento tributario de la DGR."
+ ],
+ "sintesis_politica": [
+  "La reorganización de competencias sobre loteos hacia Hábitat y Desarrollo Emprendedor refleja una reconfiguración administrativa en materia de vivienda y desarrollo territorial, concentrando estas funciones en una nueva secretaría dependiente de Jefatura de Gabinete. Las titularizaciones docentes continúan un proceso de estabilización laboral en educación técnica, aunque la Resolución requiere acreditación de incompatibilidades pendientes.",
+  "El volumen de licitaciones de educación (seis procesos por obras mayores en establecimientos de Capital, por más de $4.800 millones) y de agua potable sugiere ejecución presupuestaria en infraestructura social. Las licitaciones de EPEC (especialmente la N° 5589 por adecuación eléctrica de plazas, por $12.066 millones) indican inversión en espacios públicos. La timing concentrado de publicación de estos procesos (todos con vencimiento de ofertas entre 7 y 17 de septiembre) apunta a cierre de ejercicio fiscal."
+ ],
+ "normas": [
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "86",
+   "titulo": "Designación de Autoridad de Aplicación de Programas de Loteos",
+   "importa": "Designa a la Secretaría General de Hábitat y Desarrollo Emprendedor (en órbita de Jefatura de Gabinete) como Autoridad de Aplicación de los Programas de Loteos creados por arts. 87 de Ley 11.089 y Ley 11.111, dejando sin efecto incisos 11 y 12 del art. 15 bis del Decreto 2206/2023 y sus modificatorios.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "El acto ejerce delegación conferida por art. 3 de Ley 11.133, que faculta al Poder Ejecutivo a determinar la Autoridad de Aplicación. La norma deroga expresamente dos incisos del Decreto 2206/2023. El fundamento es la necesidad de instituir autoridad aplicadora conforme normativa preexistente; no modifica sustancialmente las leyes 11.089 ni 11.111, sino solo asigna competencia orgánica. Técnicamente válido.",
+    "politica": "La medida refleja reorganización de competencias en materia habitacional y desarrollo emprendedor, trasladando estas funciones a una nueva Secretaría dependiente de Jefatura de Gabinete. Posible relación con consolidación de una estructura ejecutiva de vivienda y desarrollo territorial (a confirmar; el aviso no lo menciona explícitamente).",
+    "oficialista": "Moderniza la estructura administrativa para centralizar la gestión de loteos bajo una autoridad especializada en hábitat y emprendimiento, optimizando respuesta estatal a demanda de vivienda.",
+    "opositora": "Concentra poder ejecutivo sobre loteos sin aclarar criterios de asignación, delegación de competencias o participación de gobiernos locales; el acto carece de fundamentación sobre por qué esta transferencia es necesaria."
+   },
+   "texto_oficial": "DESÍGNASE a la Secretaría General de Hábitat y Desarrollo Emprendedor, en la órbita del Ministerio Jefatura de Gabinete, o el organismo que en el futuro lo sustituya, como Autoridad de Aplicación de los Programas de Loteos creados por el artículo 87 de la Ley N° 11.089 y la Ley N° 11.111.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_280826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1309 - Letra D",
+   "titulo": "Titularización de Docentes en Cargos de Coordinador de Curso, Preceptor y Horas Cátedra",
+   "importa": "Dispone titularización de docentes nominados en Anexo I en cargos de Coordinador de Curso Enseñanza Media (13215), Preceptor (13520) y Horas Cátedra Enseñanza Media (13910), dependientes del Ministerio de Educación. Instrumento de ejecución: Resolución N° 1309.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La titularización se ampara en art. 3 de Ley 10.729 (modificatoria de Decreto-Ley 214/E/63). El texto exige verificación previa de incompatibilidades conforme Decretos 3489/1969 y 389/2011, así como acreditación de documentación (título docente, apto psicofísico, constancia de servicios, registro de deudores alimentarios, antecedentes penales, situación disciplinaria). Vicio formal: la Resolución condiciona la adquisición de titularidad a actos administrativos posteriores (acreditación de incompatibilidades), que debería estar resuelta antes de la publicación, no después.",
+    "politica": "Continúa proceso de estabilización laboral docente en educación técnica. El Anexo (no reproducido en el boletín) contiene lista de beneficiarios: sin identificación nominal en esta síntesis, pero impacta presupuesto (Personal Permanente, Grupo 13). La necesidad de aclaración sobre incompatibilidades sugiere que la documentación inicial no fue completa.",
+    "oficialista": "Concreta derecho de docentes que han completado requisitos formales, consolidando relaciones laborales estables en la educación técnica provincial.",
+    "opositora": "La titularización requiere validación posterior de incompatibilidades, lo que genera inseguridad jurídica; además, el Anexo no se publica en el boletín, impidiendo control público sobre quiénes resultan beneficiados."
+   },
+   "texto_oficial": "DISPONER la titularización de los docentes nominados en el Anexo I, que con dos (2) páginas forman parte del presente instrumento legal, en los cargos de Coordinador de Curso Enseñanza Media (13215), de Preceptor (13520) y de Horas Cátedra Enseñanza Media (13910), dependientes de este Ministerio.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_280826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1311 - Letra D",
+   "titulo": "Imposición de Nombre al Instituto Provincial de Educación Técnica N° 416",
+   "importa": "Impone el nombre de 'ROSA MARIANA AZAR' al Instituto Provincial de Educación Técnica N° 416 de Capital (Ministerio de Educación), en homenaje a su significativa participación en construcción y consolidación del proyecto educativo de la institución.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Acto administrativo conforme Decreto 7694/E/68, que regula imposición de nombres a establecimientos educativos. Competencia correcta del Ministro de Educación. Sin vicios formales aparentes; los organismos técnicos competentes intervinieron según protocolo.",
+    "politica": "Acto de reconocimiento institucional a figura vinculada a educación técnica. Bajo impacto político; es designación estándar que refuerza identidad institucional.",
+    "oficialista": "Justo homenaje a educadora que acompañó crecimiento de la institución y consolidación de propuesta de educación técnica vinculada a necesidades comunitarias.",
+    "opositora": "Acto sin controversia aparente, aunque falta información pública sobre quién es Rosa Mariana Azar y sus méritos específicos (el boletín solo menciona 'significativa participación')."
+   },
+   "texto_oficial": "IMPONER el nombre de 'ROSA MARIANA AZAR' al Instituto Provincial de Educación Técnica N° 416 de Capital, dependiente de este Ministerio.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_280826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "412",
+   "titulo": "Renovación de Habilitación – Empresa A-22 (FLORES FEDERICO ALBERTO)",
+   "importa": "Renueva habilitación de empresa unipersonal (hasta 10 dependientes) FLORES FEDERICO ALBERTO, nombre de fantasía 'A-22' (CUIT 20-29374095-0), domicilio Tucumán 160, Tránsito, Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada sin autorización de armas. Renueva también cargo de Director Técnico (FLORES Federico Alberto, DNI 29.374.095).",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Renovación conforme arts. 8, 9, 12, 13, 18, 29 inc. b) de Ley 10.571. Condición: dentro de 30 días acreditar cumplimiento de arts. 9 inc. d), 14, 15 y 16 (obligaciones operacionales y de registro en Ciudadano Digital - CIDI Nivel 2). El plazo post-hoc para acreditación de obligaciones es contrario a principio de legalidad: la habilitación se otorga sujeta a condiciones de cumplimiento futuro, en lugar de verificarse antes.",
+    "politica": "Renovación rutinaria de habilitación de prestadora de seguridad privada sin armas. Sin datos que revelen controversia.",
+    "oficialista": "Renueva habilitación a empresa que cumple requisitos legales y ha operado sin incidentes.",
+    "opositora": "La habilitación se otorga condicionada al cumplimiento futuro de obligaciones; debería exigirse documentación completa antes de renovar, no después."
+   },
+   "texto_oficial": "DISPÓNESE la renovación de la habilitación de la empresa unipersonal hasta 10 dependientes de FLORES FEDERICO ALBERTO, nombre de fantasía 'A – 22' CUIT 20-29374095-0 con domicilio en calle Tucumán N° 160 de la ciudad de Tránsito, Provincia de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_280826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "413",
+   "titulo": "Renovación de Habilitación – Empresa CORSACOR S.A.S.",
+   "importa": "Renueva habilitación de empresa CORPORACIÓN DE SOLUCIONES AMBIENTALES CORDOBA S.A.S. (CORSACOR S.A.S., CUIT 30-71655148-9), domicilio Suipacha 1822, Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada sin autorización de armas. Renueva cargo de Director Técnico (LOBOS Ariel Hugo, DNI 25.038.289).",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Renovación conforme arts. 8, 9, 12, 13, 18, 29 inc. b) de Ley 10.571. Condición: dentro de 30 días acreditar cumplimiento de obligaciones (arts. 9 inc. d), 14, 15, 16) y registración en CIDI Nivel 2. Mismo vicio que Resolución 412: habilitación sujeta a condiciones posteriores.",
+    "politica": "Renovación rutinaria sin datos de controversia.",
+    "oficialista": "Renueva habilitación a empresa que cumple requisitos legales.",
+    "opositora": "Habilitación condicionada a cumplimiento futuro de obligaciones, sin verificación previa completa."
+   },
+   "texto_oficial": "DISPÓNESE la renovación de la habilitación de la empresa 'CORPORACIÓN DE SOLUCIONES AMBIENTALES CORDOBA S.A.S.' (CORSACOR S.A.S.) C.U.I.T. 30-71655148-9 con domicilio en calle Suipacha N° 1822 de la Ciudad de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_280826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "414",
+   "titulo": "Habilitación Nueva – Empresa VOUNCER S.A.S.",
+   "importa": "Habilita empresa VOUNCER S.A.S. (CUIT 30-71922419-5), domicilio Pasaje Fernández Hilario 17 Planta Baja Dpto. B, Nueva Córdoba, Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada sin autorización de armas. Designa Director Técnico (PEREYRA LUCERO Ramiro Ernesto, DNI 22.705.534).",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Habilitación nueva conforme arts. 8, 9, 10, 13, 18, 29 inc. a) punto 1 de Ley 10.571. Plazo para acreditar cumplimiento: 60 días corridos (mayor que en renovaciones). Condición posterior: registración en CIDI Nivel 2 y acreditación de obligaciones (arts. 9 inc. d), 14, 15, 16). Mismo vicio: habilitación otorgada sujeta a verificación futura.",
+    "politica": "Nueva prestadora de seguridad privada sin controversia aparente.",
+    "oficialista": "Habilita empresa nueva que ha acreditado requisitos iniciales de operación.",
+    "opositora": "Habilitación condicionada a acciones futuras de la empresa, sin garantía de cumplimiento antes del inicio de actividades."
+   },
+   "texto_oficial": "DISPÓNESE la habilitación de la empresa 'VOUNCER S.A.S.' C.U.I.T. 30-71922419-5, con domicilio legal en calle Pasaje Fernández Hilario N° 17 Planta Baja Dpto. 'B' Barrio Nueva Córdoba de la Ciudad de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_280826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "415",
+   "titulo": "Habilitación Nueva – Empresa ASL CÓRDOBA S.A.S.",
+   "importa": "Habilita empresa ASL CÓRDOBA S.A.S. (CUIT 30-71686955-1), domicilio José Roque Funes 1723 Planta Baja Local 2, Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada sin autorización de armas. Designa Director Técnico (CONTRERA Roberto Edgardo, DNI 16.373.741).",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Habilitación nueva conforme arts. 8, 9, 10, 13, 18, 29 inc. a) punto 1 de Ley 10.571. Plazo para acreditación: 60 días corridos. Registración en CIDI Nivel 2 y acreditación de obligaciones posteriores (arts. 9 inc. d), 14, 15, 16). Mismo patrón de vicio: condiciones de cumplimiento posterior a otorgamiento de habilitación.",
+    "politica": "Nueva prestadora de seguridad privada sin datos de controversia.",
+    "oficialista": "Habilita empresa nueva que ha cumplido requisitos de documentación inicial.",
+    "opositora": "Habilitación sujeta a verificación futura de cumplimiento normativo."
+   },
+   "texto_oficial": "DISPÓNESE la habilitación de la empresa 'ASL CÓRDOBA S.A.S.' CUIT 30-71686955-1, con domicilio legal en calle José Roque Funes N° 1723 Planta Baja Local 2 de la Ciudad de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_280826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "ACIF EXPTE. 0047-000344/2025",
+   "titulo": "Ampliación Administración, Consultorios y Directorio del Hospital Raúl Cárcano de Laboulaye",
+   "importa": "ACIF lanza licitación pública digital para contratación de obra 'Ampliación Administración Consultorios y Directorio del Hospital Raúl Cárcano de Laboulaye – Dpto. Presidente Roque Sáenz Peña'. Presupuesto oficial: $1.200.491.594,13 (IVA incluido). Plazo ejecución: 270 días corridos. Presentación ofertas: hasta 12:00 h. 11 de septiembre 2026. Apertura: 12:00 h. 11 de septiembre 2026 en Ministerio de Infraestructura y Servicios Públicos, Humberto Primero 607, Córdoba.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública conforme Decreto 583/2016 y Ley 8.614. Procedimiento digital. Garantía de mantenimiento: 1% del presupuesto oficial. Visita técnica obligatoria 3 de septiembre 2026, 12:00 h., Hospital Ramón J. Cárcano, Pres. Gral. Juan Domingo Perón 20, Laboulaye, Córdoba. La circular aclaratoria N° 1 sin consulta aneja (no reproducida en texto) requiere consulta de documento anexo. Categoría Primera, calificación Arquitectura 100%. Sin vicios formales aparentes.",
+    "politica": "Inversión en infraestructura sanitaria de interior provincial (Laboulaye, Dpto. Presidente Roque Sáenz Peña). Monto relevante ($1.200 millones) sugiere consolidación de hospital de referencia regional. Timing de publicación compatible con ejecución presupuestaria cierre de ejercicio.",
+    "oficialista": "Ampliación de capacidad administrativa y de consulta en hospital de interior, mejorando accesibilidad a servicios de salud.",
+    "opositora": "Presupuesto elevado para ampliación de sector administrativo; se desconoce si hay proyectos de ampliación de camas o servicios clínicos prioritarios."
+   },
+   "texto_oficial": "Presupuesto Oficial: $1.200.491.594,13 (IVA incluido). Plazo de ejecución: 270 días corridos. Garantía de Mantenimiento: 1% del Presupuesto Oficial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_280826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "ACIF EXPTE. 0733-011787/2026",
+   "titulo": "Red de Distribución de Agua Potable Localidad de Serrano",
+   "importa": "ACIF lanza licitación pública digital para contratación de obra 'Red de Distribución de Agua Potable Localidad de Serrano – Dpto. Presidente Roque Sáenz Peña – Etapa II –Sector Centro'. Presupuesto oficial: $2.114.469.923,00 (IVA incluido). Plazo ejecución: 180 días corridos. Presentación ofertas: hasta 12:00 h. 14 de septiembre 2026. Apertura: 12:00 h. 15 de septiembre 2026 en Ministerio de Infraestructura y Servicios Públicos.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto 583/2016 y Ley 8.614. Categoría Primera, calificación Hidráulica 100%. Garantía mantenimiento: 1%. Procedimiento digital. Sin vicios formales aparentes. Parte de proyecto multiestadio (Etapa II, Sector Centro).",
+    "politica": "Inversión en infraestructura de agua potable en localidad de interior (Serrano, Dpto. Presidente Roque Sáenz Peña). Monto muy significativo ($2.114 millones). Segunda etapa de proyecto hídrido, compatible con respuesta a demanda de agua en zona rural/semiurbana. Posible relación con emergencia hídrica (a confirmar; el aviso no lo menciona).",
+    "oficialista": "Ampliación de cobertura de agua potable en localidad de interior, consolidando acceso a servicios básicos.",
+    "opositora": "Monto elevado para distribución en localidad; se desconoce cobertura actual, extensión de red y beneficiarios potenciales."
+   },
+   "texto_oficial": "Presupuesto Oficial: $2.114.469.923,00 (IVA incluido). Plazo de ejecución: 180 días corridos. Garantía de Mantenimiento: 1% del Presupuesto Oficial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_280826.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "ACIF EXPTE. 0620-002477/2026",
+   "titulo": "Contratación de Obras Mayores en Establecimientos Educativos – Grupo 4",
+   "importa": "ACIF lanza licitación pública digital para 'Contratación de Obras Mayores en Establecimientos Educativos de la Ciudad de Córdoba Capital - Grupo 4': Escuela Modesta Rodríguez, Escuela Gregoria Matorras de San Martín, IPEM Nº 301 Malvina Rosa Quiroga, Jardín Infantes Eva Duarte, Escuela Ángel Fausto Ávalos, Jardín Infantes s/nombre Barrio San Felipe, Escuela Ejército Argentino. Presupuesto: $1.076.770.240,00 (IVA incluido). Plazo ejecución: 120 días corridos. Presentación ofertas: hasta 12:00 h. 16 de septiembre 2026. Apertura: 14:00 h. 17 de septiembre 2026 en Sala de Reuniones ACIF, Rosario de Santa Fe 231, piso 1, PH 107, Córdoba. Visita técnica obligatoria: 11 de septiembre 2026, 9-14 h., Dirección General de Infraestructura y Equipamiento, Ituzaingó 1351.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto 583/2016 y Ley 8.614. Categoría Primera, Arquitectura 100%. Garantía mantenimiento 1%. Procedimiento digital. Visita técnica obligatoria. Sin vicios formales aparentes.",
+    "politica": "Inversión en mantenimiento y mejora de infraestructura educativa en Capital. Grupo 4 de series de licitaciones (total seis grupos según boletín). Monto de $1.076 millones solo para este grupo sugiere Plan de Mejora Educativa de magnitud significativa. Timing de publicación (vencimiento 16-17 septiembre) compatible con cierre fiscal.",
+    "oficialista": "Mejora integral de infraestructura de establecimientos educativos en Capital, consolidando espacios de enseñanza de calidad.",
+    "opositora": "Se desconoce alcance de las obras (ampliación, refacción, tecnología, etc.); publicación de licitaciones en grupos sucesivos sin información integrada sobre plan total."
+   },
+   "texto_oficial": "Presupuesto Oficial: $1.076.770.240,00 (IVA incluido). Plazo de ejecución: 120 días corridos. Garantía de Mantenimiento: 1% del Presupuesto Oficial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/4_Secc_280826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Creación",
+   "clase": "creacion",
+   "instrumento": "Decreto N° 86",
+   "titulo": "Secretaría General de Hábitat y Desarrollo Emprendedor – Autoridad de Aplicación",
+   "detalle": "Se designa (crea/traslada competencia) a la Secretaría General de Hábitat y Desarrollo Emprendedor, en órbita del Ministerio Jefatura de Gabinete, como Autoridad de Aplicación de Programas de Loteos (Ley 11.089, art. 87 y Ley 11.111).",
+   "organismo": "Ministerio Jefatura de Gabinete – Secretaría General de Hábitat y Desarrollo Emprendedor",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_280826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Decreto",
+   "numero": "86",
+   "titulo": "Designación de Autoridad de Aplicación de Programas de Loteos",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1309 - Letra D",
+   "titulo": "Titularización de Docentes – Coordinador de Curso, Preceptor, Horas Cátedra",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1311 - Letra D",
+   "titulo": "Imposición de Nombre – Instituto Provincial de Educación Técnica N° 416",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Cronograma",
+   "numero": "Secretaría General de la Gobernación",
+   "titulo": "Cronograma de Pagos",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "412",
+   "titulo": "Renovación de Habilitación – Prestadora de Servicios de Seguridad Privada (A-22)",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "413",
+   "titulo": "Renovación de Habilitación – Prestadora de Servicios de Seguridad Privada (CORSACOR S.A.S.)",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "414",
+   "titulo": "Habilitación Nueva – Prestadora de Servicios de Seguridad Privada (VOUNCER S.A.S.)",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "415",
+   "titulo": "Habilitación Nueva – Prestadora de Servicios de Seguridad Privada (ASL CÓRDOBA S.A.S.)",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF EXPTE. 0047-000344/2025",
+   "titulo": "Ampliación Administración, Consultorios y Directorio del Hospital Raúl Cárcano de Laboulaye",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "2026/000030",
+   "titulo": "Prórroga Subasta Electrónica – Línea Aérea Media Tensión 33 kV Idiazabal",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF EXPTE. 0733-011787/2026",
+   "titulo": "Red de Distribución de Agua Potable Localidad de Serrano – Etapa II",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF EXPTE. 0620-002477/2026",
+   "titulo": "Obras Mayores Establecimientos Educativos Capital – Grupo 4",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF EXPTE. 0620-002474/2026",
+   "titulo": "Obras Mayores Establecimientos Educativos Capital – Grupo 1",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF EXPTE. 0620-002482/2026",
+   "titulo": "Obras Mayores Establecimientos Educativos Capital – Grupo 9",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF EXPTE. 0620-002485/2026",
+   "titulo": "Obras Mayores Establecimientos Educativos Capital – Grupo 12",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Circular Aclaratoria",
+   "numero": "1 / EXPTE. 0047-000344/2025",
+   "titulo": "Circular Aclaratoria N° 1 – Hospital Raúl Cárcano Laboulaye (sin consulta)",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "EPEC 1463",
+   "titulo": "Contratación de Cuadrillas para Trabajos de Apoyo en Redes de Alta Tensión 2026",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "EPEC 1466",
+   "titulo": "Implementación de IBM MAXIMO para Gerencia de Transmisión",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "EPEC 1464",
+   "titulo": "Mano de Obra Especializada – Zanjeo y Operación de Redes de Distribución Eléctrica",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 5588",
+   "titulo": "Adecuación y Refuncionalización Iluminación Exterior",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "EPEC 1465",
+   "titulo": "Adquisición de Indumentaria Técnica Laboral Masculina – Provisión 2026",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 5589",
+   "titulo": "Servicio de Adecuación Eléctrica de Plazas",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Ministerio Público de la Defensa 32/2026",
+   "titulo": "Adquisición de Propiedad para Defensoría Pública Oficial – Juzgado Federal Río Cuarto",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "CEPROCOR EXPTE. 0646-000890/2026",
+   "titulo": "Servicio Externo e Integral de Limpieza – Sedes CEPROCOR",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Estado Anual Patrimonial",
+   "numero": "Conciencia Desarrollista – Ejercicio 2025",
+   "titulo": "Cuenta de Ingresos y Egresos – Partido Político",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Unidad Ejecutora Ley 9150 – EXPTE. 0535-115037/2026",
+   "titulo": "Solicitud Inscripción Registro de Posesión – BESSONART MARTÍN",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Unidad Ejecutora Ley 9150 – EXPTE. 0535-114405/2024",
+   "titulo": "Solicitud Inscripción Registro de Posesión – SÁNCHEZ VICTORIA LIDIA",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Unidad Ejecutora Ley 9150 – EXPTE. 0535-114800/2025",
+   "titulo": "Solicitud Inscripción Registro de Posesión – CARRERA MARCELO HÉCTOR",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Unidad Ejecutora Ley 9150 – EXPTE. 0535-114560/2025",
+   "titulo": "Solicitud Inscripción Registro de Posesión – PERALTA VIVIANA BEATRIZ",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Unidad Ejecutora Ley 9150 – EXPTE. 0535-104338/2017",
+   "titulo": "Solicitud Inscripción Registro de Posesión – JIMÉNEZ GRACIELA BEATRIZ",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Unidad Ejecutora Ley 9150 – EXPTE. 0535-115039/2026",
+   "titulo": "Solicitud Inscripción Registro de Posesión – SZUHRA ANABELLA",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "DGR – GUINE S.R.L. – O.T. 12233",
+   "titulo": "Procedimiento de Determinación de Oficio – Impuesto sobre Ingresos Brutos",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "Ministerio de Educación – Res. 00001174/26",
+   "titulo": "Declaración de Crédito Incobrable – Haberes Indebidamente Liquidados",
+   "seccion": "4",
+   "pagina": 8
+  }
+ ],
+ "telegram": "Boletín Oficial 166/2026 (28 de agosto). Designación de autoridad de aplicación de loteos; titularización docente; licitaciones por $10.800 millones en educación, agua y energía. Detalle en app.",
+ "hora_procesado": "14:08",
+ "estado": "publicado"
+}
