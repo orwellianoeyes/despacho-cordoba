@@ -1,0 +1,425 @@
+{
+ "fecha": "2026-08-31",
+ "numero_boletin": "167",
+ "sintesis_juridica": [
+  "El boletín de hoy presenta cambios normativos en materia tributaria, vial, regulatoria y judicial. En lo fiscal, se modifica el régimen de aportes a la Caja de Jubilaciones mediante actualización de escalas salariales (Res. ME 62). En infraestructura, se rectifican proyectos de mejoramiento vial en el departamento Marcos Juárez (Res. MB 349 y 350). En materia de regulación tarifaria, ERSeP aprueba incrementos diferenciados en servicios de agua potable (4,92% a 5,95%) y energía eléctrica en cooperativas (1,06% promedio). En lo judicial, el TSJ reorganiza la Cámara de Familia de Primera Nominación fusionándola con la Segunda Nominación a partir del 1º de septiembre de 2026.",
+  "Se registran además resoluciones sobre renovación de habilitaciones de empresas de seguridad privada, prórroga de órdenes de mérito para selección judicial, autorización de tarifas de peaje en distribuidoras eléctricas, y delegación de facultades del Tribunal de Cuentas a su Fiscalía General para agilizar trámites de transferencia de cargos por subsidios. La mayoría de los actos resultan de la aplicación de marcos regulatorios preexistentes, sin reformas normativas estructurales de alcance general."
+ ],
+ "sintesis_politica": [
+  "El timing de estas medidas refleja ajustes fiscales y tarifarios dentro del contexto inflacionario actual. La actualización de escalas de aportes jubilatorios (agosto de 2026) anticipa presiones sobre las finanzas del sistema de pensiones provincial. Los incrementos tarifarios en agua y energía, aunque modestos en porcentaje (1-6%), generan fricción política: dos vocales del ERSeP votaron negativamente argumentando impacto acumulativo sobre usuarios en contexto recesivo. La reorganización judicial del TSJ (fusión de Cámaras de Familia) apunta a eficiencia operativa sin tensiones aparentes entre poderes.",
+  "La delegación de facultades del Tribunal de Cuentas a su Fiscalía General busca simplificar trámites administrativos. No se detectan cambios legislativos nuevos ni conflictividad con organismos de control. Las licitaciones públicas (obras de educación, agua, vialidad urbana) mantienen ritmo de ejecución presupuestaria. La ausencia de anuncios sobre emergencias o crisis indican continuidad operativa de la administración pública provincial, aunque los votos disidentes sobre tarifas sugieren tensión latente sobre política redistributiva."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución Ministerial",
+   "clase": "resolucion",
+   "numero": "62/2026",
+   "titulo": "Modificación Anexo II de Resolución 2025/MEyGP-00000496 - Escalas salariales para aportes a Caja de Jubilaciones",
+   "importa": "Modifica vigencia a partir del 01/08/2026 las escalas salariales del régimen de aportes adicionales de empleados provinciales a la Caja de Jubilaciones, Pensiones y Retiros de Córdoba, para evitar que incrementos de haberes ocasionen aumento automático de alícuotas.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La resolución se funda en el artículo 5° de la Ley 11.087 que autoriza al Poder Ejecutivo adecuar alícuotas de aportes hasta el 8% sobre existentes, previa intervención de la Caja. El artículo 3° del Decreto 268/2025 reglamentario otorga competencia al Ministro para dictar normas complementarias. El acto modifica anexos de una resolución anterior sin derogarla, ajustándose al procedimiento de modificación presupuestaria.",
+    "politica": "Esta medida fiscal afecta indirectamente al personal público provincial al congelar el efecto tributario de sus incrementos salariales. Realizada en agosto, anticipa presiones sobre fondos jubilatorios. No genera oposición aparente dentro del gobierno, sugiriendo consenso sobre necesidad de contención fiscal en contexto inflacionario.",
+    "oficialista": "La actualización de escalas es técnica y necesaria para mantener la equidad del sistema contributivo, impidiendo que simples incrementos salariales nominales causen saltos tributarios desproporcionados. Protege tanto a empleados como a la sostenibilidad de la Caja.",
+    "opositora": "La medida refleja insuficiencia de recursos del sistema jubilatorio provincial y fuerza ajustes sobre los trabajadores. Debería examinarse financiamiento alternativo en lugar de limitar efectos tributarios automáticos."
+   },
+   "texto_oficial": "Artículo 1°: MODIFÍCASE con vigencia a partir del 01 de agosto de 2026, el Anexo II de la Resolución N° 2025/MEyGP-00000496 [...] en relación a los empleados aportantes a la Caja de Jubilaciones, Pensiones y Retiros de la Provincia de Córdoba. Artículo 2°: PROTOCOLÍCESE, comuníquese, dese a la Caja de Jubilaciones, Pensiones y Retiros de Córdoba, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "clase": "resolucion",
+   "numero": "349/2026",
+   "titulo": "Rectificación Anexo Único Resolución 2026/00000337 - Obra Mejoramiento Camino S-325 Etapa 2",
+   "importa": "Rectifica error material en denominación de número de cuenta de parcela afectada por obra 'Mejoramiento Camino S-325. Etapa 2. Tr: Isla Verde – Guatimozín. Depto: Marcos Juárez' (SPIP 7991). Incorpora corrección en Croquis de Afectaciones del Proyecto Ejecutivo conforme información del área técnica.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "El acto rectifica un error material involuntario en acto administrativo anterior (Res. 2026/00000337 del 19/08/2026) conforme facultad del artículo 14 del Anexo Único del Decreto 1053/2018 reglamentario de la Ley 10.546. Se funda en dictamen de Dirección de Asuntos Legales. La rectificación no modifica sustancia del proyecto, solo corrección de datos identificatorios de parcelas.",
+    "politica": "Refleja proceso administrativo ordinario de verificación de documentación de obra pública. La corrección es técnica y posterior a publicación inicial, lo que genera necesidad de nueva publicación. No indica cambios de política ni beneficiarios sustanciales.",
+    "oficialista": "La rectificación de errores materiales es procedimiento estándar que no afecta derechos adquiridos, asegura precisión catastral y garantiza cumplimiento del régimen de contribución por mejoras.",
+    "opositora": "Debe verificarse que los errores no afecten derechos de contribuyentes y que exista participación adecuada en nueva ronda de publicación."
+   },
+   "texto_oficial": "Artículo 1°: RECTIFICAR el Anexo Único de la Resolución N° 2026/00000337, de fecha 19 de agosto de 2026 [...] Artículo 2°: PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial, notifíquese, pase a la Unidad Ejecutora a sus efectos y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "clase": "resolucion",
+   "numero": "350/2026",
+   "titulo": "Apertura Registro de Opositores - Obra Mejoramiento Caminos S-242 y T027-26 Tramo 2",
+   "importa": "Abre Registro de Opositores para obra 'Mejoramiento Caminos S-242 y T027-26 - Tramo 2: S-337 - Villa Elisa. Departamento: Marcos Juárez' (SPIP 7990). Presupuesto oficial: $6.711.331.994,07. Plazo: conforme a actas de asambleas del Consorcio Caminero Único. Zona de influencia: 12.678,48 hectáreas.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Acto conforme Decreto 2206/2023 ratificado por Ley 10.956, Ley 10.546, Decreto 1053/2018 y modificatorio 454/2020. Aplica régimen de contribución por mejoras de Ley 10.622, 10.675, Ley 6205 y Decreto 4945/79. Procedimiento de apertura de registro permite oposiciones de contribuyentes afectados conforme artículo 14 de Decreto 1053/2018. El monto de obra surge de cotización del Consorcio Caminero Único.",
+    "politica": "Segunda etapa de mejoramiento integral del camino Leones Sur–Villa Elisa. Inversión cercana a $6.7 mil millones sugiere prioridad en vialidad rural del departamento Marcos Juárez. Consorcio Caminero Único gestiona ejecución, modelo de asociación público-privada provincial.",
+    "oficialista": "Mejora vial integral en zona productiva, financiada mediante contribución de beneficiarios directo. Beneficia economía agropecuaria regional y accesibilidad territorial.",
+    "opositora": "Debe garantizarse equidad en distribución de costos de contribución entre beneficiarios y verificarse capacidad de pago de productores afectados en contexto económico actual."
+   },
+   "texto_oficial": "Artículo 1°: DISPÓNESE la Apertura de un Registro de Opositores de la Obra: 'MEJORAMIENTO CAMINOS S-242 y T027-26 - TRAMO 2: S-337 - VILLA ELISA-DEPARTAMENTO: MARCOS JUÁREZ' SPIP: 7990 y la publicación en el Boletín Oficial durante cinco días consecutivos. Artículo 2°: PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial, notifíquese, pase a la Unidad Ejecutora a sus efectos y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "121/2026",
+   "titulo": "Aprobación incremento tarifario 4,92% Cooperativa Acueducto Centro Ltda.",
+   "importa": "ERSeP aprueba por mayoría incremento de 4,92% sobre cuadro tarifario vigente de Cooperativa de Trabajo Acueducto Centro Limitada, aplicable a partir de publicación. Fundamentado en aumento 16,17% solicitado por incremento costo energía eléctrica; análisis técnico reduce cifra a 4,92% considerando corrección en consumo base.",
+   "seccion": "1",
+   "pagina": 7,
+   "ampliada": {
+    "juridica": "Acto conforme Ley 8835 (Carta del Ciudadano) artículo 25 inc. h) que atribuye a ERSeP aprobación de modificaciones tarifarias. Aplica Decreto 529/94 (Marco Regulador Servicios Agua Potable) artículos 35-43 y Resoluciones Generales ERSeP 01/2024 y 106/2024 que establecen mecanismo especial de traslado de costo energía eléctrica. Informe Técnico 254/2026 verifica cumplimiento de tope máximo según IPC (1,80%). Voto disidente de vocal Vega por impacto acumulativo; voto disidente de vocal Negri por contexto recesivo.",
+    "politica": "Tercera recomposición tarifaria en periodo corto genera fricción política dentro del ERSeP. Dos vocales expresan preocupación por efecto acumulativo sobre usuarios y contraposición entre sustentabilidad de prestadora vs. protección de capacidad de pago de usuarios. Contexto: inflación acumulada y capacidad de pago limitada en economía provincial.",
+    "oficialista": "La aprobación responde a mecanismo técnico establecido en Resoluciones Generales previas. El incremento es moderado (4,92%) respecto al solicitado (16,17%) y respeta tope de IPC. Necesario para mantener continuidad y calidad del servicio.",
+    "opositora": "Sucesivos incrementos tarifarios trasladados automáticamente a usuarios generan regresividad en contexto recesivo. Debería explorarse alternativas operativas que reduzcan dependencia de aumentos tarifarios."
+   },
+   "texto_oficial": "Artículo 1°: APRUÉBASE un incremento del 4,92% sobre el cuadro tarifario vigente correspondiente a la prestadora del Servicio de Agua Potable Cooperativa de Trabajo Acueducto Centro Limitada a aplicarse a partir de su publicación en el Boletín Oficial. Artículo 2°: PÓNGASE EN CONOCIMIENTO del Poder Concedente y a la Administración Provincial de Recursos Hídricos el Cuadro Tarifario aprobado. Artículo 3°: PROTOCOLÍCESE, comuníquese, y dese copias.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "122/2026",
+   "titulo": "Aprobación incremento tarifario 5,95% Cooperativa Villa Santa Cruz del Lago",
+   "importa": "ERSeP aprueba por mayoría incremento 5,95% sobre cuadro tarifario de Cooperativa de Obras, Servicios Públicos y Asistenciales de Villa Santa Cruz del Lago y Zonas Adyacentes Ltda., por incremento costos energía eléctrica y canon del servicio. Aplicable a partir de publicación.",
+   "seccion": "1",
+   "pagina": 9,
+   "ampliada": {
+    "juridica": "Conforme Ley 8835 artículos 22, 25 inc. h) y Decreto 529/94 artículos 35-43. Aplica mecanismo especial Resoluciones Generales 01/2024 y 106/2024. Informe Técnico 258/2026 analiza período marzo-julio 2026 y determina variación 26,63% en costos energía, resultando incremento tarifario de 5,95%. Vocal Vega vota negativamente reiterando necesidad de ponderar impacto acumulativo sobre usuarios.",
+    "politica": "Similar patrón a RG 121/2026: fricción entre sustentabilidad de cooperativa (necesidad de incremento) y capacidad de pago de usuarios. Vocal Vega mantiene postura crítica sobre mecanismo automático de traslado de costos.",
+    "oficialista": "Incremento técnicamente justificado por variación de costos verificada en período analizado. Respeta procedimientos establecidos en normativa regulatoria.",
+    "opositora": "Incrementos sucesivos sin exploración de eficiencias operativas o fuentes alternativas de financiamiento repercuten regresivamente sobre usuarios vulnerables."
+   },
+   "texto_oficial": "ARTÍCULO 1º: APRUÉBASE un incremento del 5,95% para el servicio de Agua, sobre los cargos fijos y variables; correspondiente a la prestadora del Servicio de Agua Potable Sociedad Cooperativa de Servicios Públicos Laprida Ltda. a aplicarse a partir de la fecha de su publicación. ARTÍCULO 2°: PÓNGASE EN CONOCIMIENTO del Poder Concedente Municipalidad de Villa Santa Cruz del Lago. ARTÍCULO 3°: PROTOCOLÍCESE, comuníquese, y dese copias.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "123/2026",
+   "titulo": "Aprobación incrementos tarifarios energía eléctrica cooperativas por 1,06% promedio (julio 2026)",
+   "importa": "ERSeP aprueba por mayoría recomposición tarifaria para Cooperativas Concesionarias Servicio Distribución Energía Eléctrica provinicia (Grupos A-F y A-AT) por variación costos período julio 2026. Incrementos globales: 1,02% a 1,11% no residencial, 1,00% a 1,12% residencial sin SEF, promedio 1,06%. Vigencia: 01/09/2026.",
+   "seccion": "1",
+   "pagina": 12,
+   "ampliada": {
+    "juridica": "Conforme Ley 8835 artículos 22, 25 inc. h), Decreto 797/01 y Resoluciones Generales 01/2024 y 2026/RG-00000043 que establecen mecanismo especial de adecuaciones periódicas de tarifas. Informe Técnico determina variación promedio costos 2,00% para período. Vocal Vega vota negativamente argumentando necesidad de evaluar efectos acumulativos y explorar alternativas de eficiencia operativa. Vocal Negri vota negativamente por contexto recesivo.",
+    "politica": "Tercera recomposición tarifaria en período corto genera tensión política. Dos vocales (Vega, Negri) expresan preocupación sistemática sobre automaticidad del mecanismo y su impacto en usuarios con capacidad de pago limitada. Fiscal General no se pronuncia públicamente.",
+    "oficialista": "Incremenros técnicamente justificados, respetan procedimiento y tope de IPC (1,80%). Mecanismo automático asegura sostenibilidad de distribuidoras y continuidad del servicio.",
+    "opositora": "Automaticidad del mecanismo genera trasferencia permanente de presiones de costos a usuarios sin análisis alternativo de eficiencias. En contexto recesivo, debería suspenderse o limitarse."
+   },
+   "texto_oficial": "ARTÍCULO 1º a 7º: APRUÉBANSE los incrementos detallados en Anexos I a VII [...] determinados conforme a la variación de costos registrada a lo largo del período julio de 2026, aplicables a los servicios prestados a partir del 01 de septiembre de 2026. ARTÍCULO 8º: ESTABLÉCESE que para Cooperativas no alcanzadas, la solicitud debe ser presentada. ARTÍCULO 9º a 11º: [Disposiciones sobre tarifas especiales y peaje]. ARTÍCULO 12º: PROTOCOLÍCESE, hágase saber, dese copia y publíquese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "124/2026",
+   "titulo": "Aprobación Cuadro Tarifario Cooperativa Luque Ltda. - Redeterminación VAD Alta Tensión",
+   "importa": "ERSeP aprueba Cuadro Tarifario Cooperativa Servicios Públicos y Sociales Luque Ltda. con incrementos 8,23% (residencial) y 7,79% (no residencial), derivados de redeterminación Valor Agregado Distribución (VAD) conforme Resolución General 16/2025 por ser abastecida en Alta Tensión. Vigencia: 01/09/2026.",
+   "seccion": "1",
+   "pagina": 18,
+   "ampliada": {
+    "juridica": "Conforme artículo 5° Resolución General 16/2025 que autoriza redeterminación VAD para cooperativas en Alta Tensión. Informe Técnico determina que Cooperativa Luque presenta tarifa inferior a la que resulta de estudio técnico, comprometiendo continuidad y calidad del servicio. Análisis comparativo con promedio de Grupo A determina ajustes. Vocal Vega vota negativamente argumentando insuficiencia de medidas alternativas de eficiencia operativa.",
+    "politica": "Incremento significativo (7,79%-8,23%) por mecanismo de convergencia tarifaria para cooperativa en Alta Tensión. Refleja política de homogeneización de tarifas dentro de grupos cooperativos. Vocal Vega mantiene crítica sistemática sobre falta de exploración de alternativas operativas.",
+    "oficialista": "Redeterminación técnicamente justificada de VAD conforme Resolución General 16/2025. Cooperativa en Alta Tensión incurre costos superiores a los de Media Tensión; ajuste asegura sustentabilidad.",
+    "opositora": "Incremento significativo sin exploración de eficiencias operativas compromete acceso a servicio. Debería condicionarse a auditoría de costos operativos."
+   },
+   "texto_oficial": "ARTÍCULO 1º: APRUÉBASE el Cuadro Tarifario de la COOPERATIVA DE SERVICIOS PÚBLICOS Y SOCIALES LUQUE LIMITADA [...] obtenido a partir de la redeterminación del Valor Agregado de Distribución (VAD) [...] para su aplicación respecto de los servicios prestados a partir del 01 de septiembre de 2026. ARTÍCULO 2º: INDÍCASE que [...] quedará impedida de aplicar cualquier tipo de cargo adicional [...]. ARTICULO 3º: PROTOCOLÍCESE, hágase saber, dese copia y publíquese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  },
+  {
+   "tipo": "Acuerdo",
+   "clase": "resolucion",
+   "numero": "1949/2026",
+   "titulo": "Reorganización Cámara de Familia - Fusión Primera y Segunda Nominación Capital",
+   "importa": "Tribunal Superior de Justicia resuelve a partir del 01/09/2026: (a) radicar totalidad expedientes Cámara Familia Primera Nominación ante Cámara Familia Segunda Nominación; (b) trasladar funcionarios y empleados de Primera a Segunda Nominación; (c) facultar Sala Civil y Comercial para dictar resoluciones complementarias. Fundamenta en desintegración de Cámara Primera y necesidad de optimizar recursos.",
+   "seccion": "1",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Conforme artículos 166 incs. 1° y 2° Constitución Provincial y artículo 12 incs. 1, 24, 25, 32 y 33 Ley Orgánica Poder Judicial 8435. Acuerdo Reglamentario ejercita potestad de superintendencia del TSJ. Medida es reorganización administrativa de estructuras judiciales sin afectación de derechos sustantivos. Menciona: Ley 7675 (1988) creó dos Cámaras de Familia; Código Procedimiento Fuero Familia (2015) modificó sustancialmente proceso causando redistribución de recursos humanos.",
+    "politica": "Reorganización responde a cambios legales en procedimiento de familia (2015) que generaron desbalance de cargas de trabajo. Primera Nominación quedó desintegrada (sin vocales ocupantes), Segunda Nominación tiene 3 vocales. Medida no genera conflictividad aparente entre poderes ni objeciones públicas.",
+    "oficialista": "Reorganización administrativa necesaria para asegurar continuidad y eficiencia del servicio de justicia. Responde a realidades operativas post-reforma procesal.",
+    "opositora": "Debería garantizarse que traslado de expedientes no afecte debido proceso ni derechos de partes. Consulta previa con abogacía y usuarios de sistema."
+   },
+   "texto_oficial": "1. DISPONER a partir del 01/09/2026 que la totalidad de los expedientes existentes en la Cámara de Familia de Primera Nominación, como asimismo los nuevos ingresos, se radiquen ante la Cámara de Familia de Segunda Nominación. 2. DISPONER a partir del 01/09/2026 el traslado de los funcionarios y empleados pertenecientes a la Cámara de Familia de Primera Nominación, a la Cámara de Familia de Segunda Nominación. 3. INSTRUIR a la Sub Área de Investigación Desarrollo e Innovación Tecnológica y al Área de Recursos Humanos. 4. FACULTAR a la Sala Civil y Comercial a dictar resoluciones necesarias. 5. PROTOCOLÍCESE. Comuníquese. 6. PUBLÍQUESE.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "113/2026",
+   "titulo": "Delegación facultad aprobación transferencias cargo subsidios - Tribunal de Cuentas",
+   "importa": "Tribunal de Cuentas delega en Fiscalía General facultad de aprobar procedencia de transferencias cargo previstas en artículo 37 Anexo I Resolución 132/2024, previa verificación requisitos artículo 36. Fiscalía informará mensualmente a Vocalías sobre transferencias aprobadas.",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Conforme artículos 23 d) apartado 1) y 49 Ley 10.930 que atribuyen al Tribunal potestad de organización y reglamentación. Delegación busca agilizar tramitación sin menoscabo de facultades de control. Procedimiento se ajusta a Ley 10.618 y artículo 37 Anexo I Resolución 132/2024. Control ex-post mantiene Tribunal.",
+    "politica": "Delegación administrativa refleja búsqueda de eficiencia operativa. No genera conflictividad. Mantiene centralidad del Tribunal en supervisión final.",
+    "oficialista": "Delegación operativa de procedimientos administrativos rutinarios acelera gestión sin debilitar control público.",
+    "opositora": "Delegación a Fiscalía sin directrices públicas claras puede generar discrecionalidad. Debería especificarse criterios de aprobación."
+   },
+   "texto_oficial": "I. DELEGAR en la Fiscalía General del Tribunal de Cuentas de la Provincia de Córdoba la facultad de aprobar la procedencia de las transferencias de cargo previstas en el artículo 37 del Anexo I de la Resolución 132/2024 de este Organismo, previa verificación del cumplimiento de los requisitos establecidos en el artículo 36 y demás disposiciones aplicables. II. ESTABLECER que la Fiscalía General deberá informar mensualmente a las Vocalías respecto de las transferencias de cargo aprobadas. III. PROTOCOLÍCESE, comuníquese, publíquese y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 244/2026",
+   "titulo": "Prórroga orden de mérito Defensor de Familia Capital",
+   "detalle": "Prórroga desde vencimiento y por término de Ley del orden de mérito definitivo confeccionado por Acuerdo 89 del 18/08/2025 del Consejo de la Magistratura, correspondiente a concurso para cubrir cargo de Defensor de Familia de Capital.",
+   "organismo": "Ministerio de Justicia y Trabajo",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 421/2026",
+   "titulo": "Renovación habilitación empresa seguridad privada PF SEC S.A.S. TISEG",
+   "detalle": "Dispone renovación habilitación empresa PF SEC S.A.S. (CUIT 30-71835204-1) con fantasía TISEG para funcionar como Prestadora Servicios Seguridad Privada sin autorización para uso de armas. Procede renovación en cargo Director Técnico Sr. PINTO Martín Conrado (DNI 24.769.244).",
+   "organismo": "Dirección Control y Gestión Operativa en Seguridad Privada",
+   "pagina": 4,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/1_Secc_310826.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "62/2026",
+   "titulo": "Modificación escalas salariales aportes Caja Jubilaciones",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "349/2026",
+   "titulo": "Rectificación Anexo Obra Mejoramiento Camino S-325 Etapa 2",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "350/2026",
+   "titulo": "Apertura Registro Opositores Mejoramiento Caminos S-242 y T027-26",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "244/2026",
+   "titulo": "Prórroga orden de mérito Defensor Familia Capital",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "519/2026",
+   "titulo": "Formalización compensaciones Recursos Financieros mayo 2026",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "421/2026",
+   "titulo": "Renovación habilitación empresa seguridad privada TISEG",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "113/2026",
+   "titulo": "Delegación facultad transferencias cargo Tribunal Cuentas",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Acuerdo",
+   "numero": "997/2026",
+   "titulo": "Cronograma turnos Oficiales de Justicia Capital (sept-dic 2026)",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "numero": "1949/2026",
+   "titulo": "Reorganización Cámara Familia - Fusión Primera y Segunda Nominación",
+   "seccion": "1",
+   "pagina": 6
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "121/2026",
+   "titulo": "Aprobación incremento 4,92% Cooperativa Acueducto Centro",
+   "seccion": "1",
+   "pagina": 7
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "122/2026",
+   "titulo": "Aprobación incremento 5,95% Cooperativa Villa Santa Cruz Lago",
+   "seccion": "1",
+   "pagina": 9
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "123/2026",
+   "titulo": "Aprobación incrementos energía eléctrica cooperativas (1,06% promedio)",
+   "seccion": "1",
+   "pagina": 12
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "124/2026",
+   "titulo": "Aprobación Cuadro Tarifario Cooperativa Luque (7,79%-8,23%)",
+   "seccion": "1",
+   "pagina": 18
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "125/2026",
+   "titulo": "Aprobación Tarifa Peaje Cooperativa Villa General Belgrano",
+   "seccion": "1",
+   "pagina": 20
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "s/n",
+   "titulo": "Línea Aérea Media Tensión 33 kV Idiazabal Etapa 1 (Nota Aclaratoria)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/ACIFR-00000277",
+   "titulo": "Ampliación Administración Hospital Raúl Cárcano Laboulaye",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/ACIFR-00000285",
+   "titulo": "Red Distribución Agua Potable Localidad Serrano (Etapa II)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/ACIFR-00000265",
+   "titulo": "Obras Mayores Establecimientos Educativos Grupo 4",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/ACIFR-00000284",
+   "titulo": "Mantenimiento Parque Alberdi y Plaza General Paz Río IV",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/ACIFR-00000262",
+   "titulo": "Obras Mayores Establecimientos Educativos Grupo 1",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/ACIFR-00000263",
+   "titulo": "Obras Mayores Establecimientos Educativos Grupo 9",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/ACIFR-00000275",
+   "titulo": "Obras Mayores Establecimientos Educativos Grupo 12",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000062",
+   "titulo": "Bacheo Zona 1 Etapa II (Apertura Económica)",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/ACIFR-00000273",
+   "titulo": "Cordón Cuneta Pavimento Villa Cornú Capital",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/ACIFR-00000283",
+   "titulo": "Cordón Cuneta Pavimento Nicolás Avellaneda Capital",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/ACIFR-00000266",
+   "titulo": "Cordón Cuneta Pavimento Rivera Indarte Capital",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1463",
+   "titulo": "EPEC - Contratación cuadrillas trabajos apoyo redes alta tensión",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1466",
+   "titulo": "EPEC - Implementación IBM Máximo Gerencia Transmisión",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1464",
+   "titulo": "EPEC - Mano obra zanjeo redes distribución energía",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "32/2026",
+   "titulo": "Ministerio Público Defensa - Adquisición propiedad Defensoría Río Cuarto",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5588",
+   "titulo": "EPEC - Adecuación iluminación exterior",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1465",
+   "titulo": "EPEC - Adquisición indumentaria técnica laboral masculina",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5589",
+   "titulo": "EPEC - Servicio adecuación eléctrica plazas",
+   "seccion": "4",
+   "pagina": 7
+  }
+ ],
+ "telegram": "🔴 BOLETÍN 167 (31/8/2026): 33 normas. Destacado: ERSeP aprueba tres incrementos tarifarios (agua 4,92-5,95%, energía 1,06%). Reorganiza TSJ Cámara Familia. Múltiples licitaciones obra pública educación y agua. Dos vocales ERSeP votan negativo por impacto acumulativo en usuarios. 👉 Completo en app: https://boletinoficial.cba.gov.ar",
+ "hora_procesado": "07:31",
+ "estado": "publicado"
+}
