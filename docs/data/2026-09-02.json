@@ -1,0 +1,464 @@
+{
+ "fecha": "2026-09-02",
+ "numero_boletin": "169",
+ "sintesis_juridica": [
+  "El boletín publica cuatro normas legislativas y administrativas de alcance variable. La Resolución N° 69 del Ministerio de Economía ratifica un contrato de comodato gratuito por 20 años entre el Ministerio de Educación y la Fundación Vicentina para funcionamiento de una Sala Cuna en un inmueble ubicado en Barrio Los Boulevares de Córdoba Capital. La Resolución N° 895 de la Secretaría General de la Gobernación aprueba el Plan Anual de Capacitación para Personal de la Administración Pública Provincial (septiembre 2026 / agosto 2027) y establece obligatoriedad de capacitación para personal con funciones de conducción como requisito para calificación satisfactoria y promociones. La Resolución General N° 41 de APRHI cesa la intervención del Consorcio de Usuarios del Sistema de Riego del Dique Cruz del Eje tras 16 años, aprueba acta de asamblea del 4 de junio de 2026 con designación de nuevas autoridades y toma razón de estados contables con superávit significativo. El Acuerdo Reglamentario N° 1950 del Tribunal Superior de Justicia recomienda a Fiscales de Instrucción y Jueces de Control y Faltas comunicar al Tribunal de Disciplina de Abogados toda resolución firme de elevación a juicio respecto de abogados matriculados.",
+  "En materia de contrataciones públicas, la Sección 4 publica múltiples licitaciones de ACIF por mantenimiento de espacios públicos (Parque Alberbi y Plaza General Paz de Río IV, presupuesto $4.999.964.060) y obras viales (córdón cuneta y pavimento en barrios de Córdoba Capital y zona 1, 2, 4 y 5 de bacheo); licitaciones de EPEC por adquisición de máquinas, equipos, antenas, lubricantes y servicios de reparación; licitaciones de la Policía Provincial por alquiler de contenedores, adquisición de alfalfa, bastones lumínicos y elementos de limpieza; y licitación de la Fuerza Policial Antinarcotráfico por servicio de racionamiento. Se publican además notificaciones de la Unidad Ejecutora Ley 9150 de expedientes de inscripción de posesión, declaratorias de incobrabilidad de créditos por haberes indebidamente liquidados del Ministerio de Educación, y apertura de registros de oposición para dos obras de mejora de caminos rurales."
+ ],
+ "sintesis_politica": [
+  "El cierre de la intervención de 16 años del Consorcio de Riego Cruz del Eje marca un hito administrativo: tras más de una década de gestión provincial, el organismo recupera autonomía con un superávit contable significativo y recaudación incrementada, según el informe del interventor. La decisión de elevar capacitación obligatoria a requisito para promoción y calificación satisfactoria en personal con funciones de conducción responde a una prioridad oficialista de modernización estatal y fortalecimiento de liderazgo; incluye temáticas de género y prevención de violencias, alineadas con compromisos institucionales de equidad. La ratificación del comodato a Fundación Vicentina para Sala Cuna consolida una alianza público-privada en educación inicial, visible en la coordinación entre Educación, Secretaría de Salud y entidades gremiales.",
+  "La recomendación del Tribunal Superior sobre comunicación entre organismos judicales y Tribunal de Disciplina responde a inquietud de colegios de abogados sobre accountability profesional sin afectar principio de inocencia; busca reforzar confianza en administración de justicia. En infraestructura, el volumen de licitaciones de ACIF (obras viales y espacios públicos) por más de $18 mil millones en presupuesto oficial refleja continuidad de inversión en mantenimiento urbano; los «bacheos» por zonas sugieren estrategia de cobertura territorial. La apertura de registros de oposición para mejoras de caminos rurales (S-325 en Marcos Juárez, S-242 y T027-26 en zona Leones-Villa Elisa) con contribución por mejoras indica política de financiamiento mixto en infraestructura rural, con participación de beneficiarios en 5-7 cuotas anuales."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "69",
+   "titulo": "Ratificación de Contrato de Comodato - Ministerio de Educación y Fundación Vicentina",
+   "importa": "El Ministerio de Economía ratifica contrato de comodato gratuito por 20 años entre Ministerio de Educación (comodante) y Fundación Vicentina, C.U.I.T. N° 30-71142731-3 (comodataria), para cesin de aproximadamente 165 m2 en inmueble de calle Las Bailarinas entre Terracita y La Espera, Barrio Los Boulevares, Córdoba Capital, destinado a funcionamiento de Sala Cuna. El bloque cedido se encuentra delimitado mediante alambrado olímpico entre IPET 337 y Jardín de Infantes Manuel Calviño, en predio que forma parte de Lote 1 Manzana 26 (Espacio Comunitario) no empadronado en DGR.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "El contrato se ampara en Ley 10580 y Decreto Reglamentario 927/2019, sobre uso de inmuebles fiscales. El comodato es gratuito y revocable a voluntad del comodante sin indemnización, conforme derechos que sobre inmuebles fiscales tiene el Estado. La comodataria asume obligación de reparaciones, adecuaciones y pago de servicios e impuestos municipales. El plazo de 20 años es considerable para una relación de comodato, que por naturaleza es precaria. La ratificación por Resolución Ministerial (acto administrativo) es procedimiento conforme a la Ley citada y no presenta vicios formales aparentes.",
+    "politica": "La cesión a Fundación Vicentina para Sala Cuna integra política de Educación Inicial mediante asociación con sector privado (fundación). La Fundación cuenta con autorización para funcionar (Res. 187/10 DGIPJ) y estado regularizado de obligaciones (según informe de julio 2026). Ambos ministerios (Educación y Salud) dan visto bueno; existe aval de inspectora general de Educación Técnica y directora de IPET 337. La iniciativa responde a demanda de cuidado de menores de cuatro años en zona urbana consolidada.",
+    "oficialista": "La Administración facilita acceso a infraestructura estatal para servicios comunitarios de cuidado infantil sin costo fiscal de construcción. La Fundación Vicentina ya opera Sala Cuna autorizada desde 2017 (Res. 890/2017, Secretaría de Equipo y Promoción del Empleo). La cesión por 20 años otorga certidumbre institucional a la entidad y permite planificación de largo plazo en educación inicial, fortaleciendo red de espacios de cuidado.",
+    "opositora": "La cesión de bien público por 20 años a entidad privada sin valor de mercado plantea interrogante sobre aprovechamiento óptimo de patrimonio estatal y sobre control de destino efectivo de los servicios. Si bien hay autorizaciones de funcionamiento, la duración del comodato es inusualmente extensa para un contrato precario. Podría cuestionarse si la evaluación de impacto fiscal y de políticas alternativas fue exhaustiva, y si existen mecanismos de supervisión de calidad de prestaciones en la Sala Cuna."
+   },
+   "texto_oficial": "Artículo 1º: RATIFICAR el \"Contrato de Comodato\" celebrado con fecha 29 de mayo de 2026 entre el Ministerio de Educación de la Provincia de Córdoba, en carácter de comodante, y la Fundación Vicentina, C.U.I.T. N° 30-71142731-3, en carácter de comodataria, protocolizado en el registro de dicha Cartera de Estado con el número 064/2026 por el cual se cede en préstamo de uso gratuito, por el término de veinte (20) años, una porción de aproximadamente 165 m2 del inmueble ubicado en calle Las Bailarinas, entre las esquinas de las calles Terracita y La Espera, de Barrio Los Boulevares, de la ciudad de Córdoba que forma parte de una mayor superficie identificada como Lote 1 de la Manzana 26 (Espacio Comunitario) conforme el Plano de Mensura, Unión y Loteo visado en Expediente N° 0033-087975/2014, con una superficie total de 10.164,81 m2, no empadronada en la Dirección General de Rentas, en el que se encuentran emplazados la Escuela Primaria \"Dra. Liliana Beatriz Sarmiento Herrera\", el Jardín de Infantes \"Manuel Calviño\" y el IPET N° 337 \"Jorge Alberto Sábato\", dependientes del Ministerio de Educación de la Provincia, configurando un bloque constructivo delimitado mediante alambrado olímpico entre el IPET 337 y el Jardín de Infantes \"Manuel Calviño\", con una superficie aproximada de 165 m2, a los fines de ser destinado al funcionamiento de una Sala Cuna, el que como Anexo, forma parte integrante de este instrumento legal. Artículo 2º: PROTOCOLÍCESE, comuníquese, dese intervención a la Subsecretaría de Presupuesto y Contaduría General de la Provincia, a la Dirección de Patrimonial de la Secretaría General de la Gobernación, notifíquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_020926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "895",
+   "titulo": "Aprobación Plan Anual de Capacitación Personal Administración Pública Provincial 2026-2027 - Obligatoriedad para Personal con Funciones de Conducción",
+   "importa": "La Secretaría General de la Gobernación aprueba Plan Anual de Capacitación para Personal de Administración Pública Provincial (septiembre 2026 / agosto 2027) e instituye como requisito obligatorio la aprobación de capacitaciones del \"Programa de Actualización para Personal con Funciones de Conducción\" para obtención de calificación satisfactoria, percepción del Adicional por Permanencia en la Categoría y promociones en Tramo Ejecución.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La Resolución se ampara en Decreto 2206/2023 y modificatorios (ratificados por Leyes 10956, 11094, 11110 y 11133) y en Leyes 7233 y 9361 que regulan la Carrera Administrativa. Artículos 10 y 14 de Ley 9361 establecen capacitación como requisito indispensable en la Carrera Administrativa. El nuevo requisito se añade a condiciones previstas en punto 3.1 de Resolución 460/2020 de la Secretaría General. La Secretaría de Capital Humano queda facultada para determinar cambios en contenidos, aspectos operativos y establecer obligatoriedad de asistencia a eventos que considere convenientes. La medida es normativa sobre recursos humanos provinciales y se enmarca en competencias estatutarias de carrera.",
+    "politica": "La medida responde a prioridades de modernización estatal y fortalecimiento de capacidades de liderazgo en mandos medios y superiores. Incluye explícitamente temáticas de género, nuevas masculinidades, igualdad de oportunidades y prevención de violencias, alineadas con agenda de equidad y compromisos de Agenda 2030. La articulación con universidades e institutos de nivel superior de Córdoba (en particular Universidad Provincial) busca transferencia de conocimiento actualizado. El timing del plan (septiembre 2026) coincide con ciclo presupuestario y de evaluación anual de personal.",
+    "oficialista": "La obligatoriedad de capacitación para personal con conducción refuerza gestión profesional y transparente del Estado. Ofrece modalidades presenciales y virtuales garantizando igualdad de oportunidades de acceso. Fortalece capacidades en liderazgo, toma de decisiones y trabajo en equipo, herramientas necesarias para eficiencia, ética y compromiso con bien común. La incorporación de temáticas de género y prevención de violencias avanza en construcción de Administración más equitativa y respetuosa de diversidades.",
+    "opositora": "La imposición de obligatoriedad de capacitación como condición para promoción y permanencia salarial podría cuestionarse como limitación de autonomía administrativa si no se acompaña de claridad total en criterios de aprobación, evaluación y elección de contenidos. El Artículo 2.b) delega en Secretaría de Capital Humano determinar obligatoriedad, generando potencial discrecionalidad. Falta especificación de cuál será el mecanismo de evaluación de aprendizaje y si hay costo o tiempo para agentes. La referencia a «temáticas de actualidad» en conducción es vaga.",
+    "importa": "Posible relación con políticas de recursos humanos y profesionalización del Estado (tema vigilado); el texto no menciona explícitamente APROSS u otros organismos que vigilamos, pero impacta en carrera administrativa provincial general."
+   },
+   "texto_oficial": "Artículo 1°.- APRUÉBASE el \"Plan Anual de Capacitación para el Personal de la Administración Pública Provincial - septiembre 2026 / agosto 2027\" que, como Anexo I, forma parte integrante de la presente Resolución. Artículo 2°.- FACÚLTASE a la Secretaría de Capital Humano a: a) Determinar cambios en los contenidos y en aspectos operativos del Plan de Capacitación aprobado en el artículo precedente, en función de las necesidades de capacitación que surgiesen, teniendo en cuenta las propuestas elevadas por la Dirección de Desarrollo del Talento Humano, los responsables de las áreas y/o reparticiones y por las entidades gremiales reconocidas por la Ley N° 7233. b) Establecer la obligatoriedad de la asistencia a los eventos de capacitación que considere conveniente a los fines del logro de los objetivos del Plan Anual aprobado en el artículo precedente, garantizando la publicidad de la medida y generando las condiciones para el acceso a las capacitaciones por parte de los agentes alcanzados. Artículo 3°.- DISPÓNESE como requisito para la obtención de \"Calificación Satisfactoria\" a los fines de la percepción del Adicional por Permanencia en la Categoría o su incremento –en caso de personal del Tramo Superior– y de las promociones en el Tramo Ejecución –exclusivamente para el personal que perciba el Adicional por Asignación Transitoria de Funciones de Mayor Responsabilidad (Decreto N° 1432/2014) por un tiempo mayor o igual a 6 meses, consecutivos o no, dentro del periodo Calificatorio y cuya función implique tareas de conducción–, la aprobación de la/s capacitación/es que en este periodo calificatorio la Secretaría de Capital Humano disponga con carácter de obligatorio como parte del \"Programa de Actualización para Personal con Funciones de Conducción\", según lo establecido en el punto 8.3.1 . del Anexo I de la presente Resolución. Para estos casos, dicho requisito deberá cumplirse de manera adicional a las condiciones previstas en el punto 3.1 . del Anexo I de la Resolución N° 460/2020 de esta Secretaría General de la Gobernación. Artículo 4°.- PROTOCOLÍCESE, comuníquese, dese a la Secretaría de Capital Humano, publíquese en el Boletín Oficial y en el Sitio Web Oficial del Gobierno de la Provincia y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_020926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "41",
+   "titulo": "APRHI - Cese de Intervención y Aprobación de Nuevas Autoridades del Consorcio de Usuarios del Sistema de Riego del Dique Cruz del Eje",
+   "importa": "APRHI cesa intervención que se mantenía desde 2010 (Resoluciones 77/2010 y 271/2010 de entonces Subsecretaría de Recursos Hídricos) del Consorcio de Usuarios del Sistema de Riego del Dique Cruz del Eje, resultado de fusión de Consorcio de Riego Los Chañaritos y Consorcio de Riego Cruz del Eje. Se aprueba acta de Asamblea General Ordinaria del 4 de junio de 2026 con designación de nuevas autoridades (Presidente Carlos Miguel Arnedo, Vicepresidente Mauro Emanuel Valentín, Secretario Pedro Javier Carmelo Garrafa, Tesorero Federico Kronwitter, y tres vocales identificados). Se toman razón de estados contables ejercicio finalizado 31 de diciembre de 2025 con superávit significativo.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "La intervención administrativa se mantuvo por 16 años conforme a Resoluciones 77/2010 y 271/2010 de Subsecretaría de Recursos Hídricos (predecesor de APRHI). Plazo de intervención era prorrogable y debía finalizar con resolución que aprobara elecciones. Se acredita participación de representante de APRHI como Autoridad de Aplicación en Asamblea (Orden 12). Padrón de votos aprobado por Resolución General Digital 2026/APRHI-00000025. Estados contables certificados por Contadora Pública Cecilia Verónica Mercado (M.P 10-14433-0 CPCE Cba.), auditados conforme Resolución Técnica 37 FACPCE. Dictamen 2026/000-00000203 del Área de Asuntos Legales propicia cese por cumplimiento de extremos que motivaron intervención y constitución de nueva Comisión Directiva. No se detectan vicios procedimentales en lo textualmente expresado.",
+    "politica": "El cese marca fin de 16 años de tutela provincial sobre organismo de riego en Cruz del Eje. Según informe del interventor Ing. Gonzalo E. Plencovich (Vocal del Directorio, 10 años como interventor), durante intervención se contrataron anualmente empresas de mejoramiento de infraestructura hidráulica, se restituyo confianza institucional y se logro superávit contable significativo. Recuperación de autonomía del Consorcio responde a estabilización administrativa y financiera alcanzada. La Provincia ha invertido en modernización de sistema de riego durante la intervención; la retirada es ordenada después de ciclo de consolidación.",
+    "oficialista": "La intervención fue necesaria para restablecer funcionamiento del Consorcio tras 16 años de desempeño deficiente. Bajo tutela provincial, se mejoro significativamente infraestructura, eficiencia hidráulica y recaudación, permitiendo superar etapa crítica. El estado contable con superávit demuestra que Consorcio está en condiciones de autogestión y que inversión provincial fue efectiva. Cese ordenado tras Asamblea con participación de usuarios, con nuevas autoridades electas, es muestra de recuperación institucional.",
+    "opositora": "Si bien intervención logro resultados económicos, 16 años es período muy prolongado de ausencia de autonomía. No aparecen en el texto detalles sobre causas de deterioro inicial ni sobre si se evaluaron responsabilidades de anterior gestión. El superávit contable podría obedecer a recaudación de aportes a usuarios más que a eficiencia operativa genuina. Falta información sobre sostenibilidad de mantenimiento de infraestructura sin financiamiento externo a futuro."
+   },
+   "texto_oficial": "Artículo 1°: APROBAR los actos ejecutados por el Ing. Gonzalo E. Plencovich – DNI 23.683.462, en el marco de la intervención oportunamente dispuesta y conforme a la designación efectuada mediante Resolución N° 012/2016 de la entonces Secretaría de Recursos Hídricos y sus prórrogas, dispuestas por Resolución N° 054/2016, de la precitada Secretaría y por Resoluciones Generales N° 055/2019, N° 013/2020 y N° 014/2021, expedidas por esta Administración Provincial de Recursos Hídricos. Artículo 2°: DISPONER EL CESE DE LA INTERVENCIÓN dispuesta por las Resoluciones N° 77/2010 y N° 271/2010 de la entonces Subsecretaría de Recursos Hídricos y sus respectivas prórrogas. Artículo 3°: APROBAR el Acta de Asamblea General Ordinaria de fecha 4 de Junio de 2026 del CONSORCIO DE USUARIOS DEL SISTEMA DE RIEGO DEL DIQUE CRUZ DEL EJE, resultando designadas las siguientes autoridades, a saber: COMISION DIRECTIVA -Presidente: Carlos Miguel Arnedo - CUIT: 20-28149056-8; -Vicepresidente: Mauro Emanuel Valentín - CUIT: 20-28579423-5; -Secretario: Pedro Javier Carmelo Garrafa - CUIT: 23-29669531-9 -Tesorero: Federico Kronwitter - CUIT: 20-36139092-0; -Vocales: 1°: Nicolás Martin Bonetto Demaria - CUIT: 20-29687439-7; 2°: José María Tessi - CUIT: 20-29933291-9; 3°: Ricardo Nicolás Laudin - CUIT: 20-33881959-6. Artículo 4º: TOMAR RAZON de los Estados Contables e Informe del Auditor Independiente correspondientes al Ejercicio Económico finalizado el 31 de diciembre del 2025 correspondientes al CONSORCIO DE USUARIOS DEL SISTEMA DE RIEGO DEL DIQUE CRUZ DEL EJE. Artículo 5º: PROTOCOLÍCESE. Publíquese en el Boletín Oficial. Notifíquese al CONSORCIO DE USUARIOS DEL SISTEMA DE RIEGO DEL DIQUE CRUZ DEL EJE. Pase a la Dirección General de Irrigación.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_020926.pdf"
+  },
+  {
+   "tipo": "Acuerdo",
+   "clase": "resolucion",
+   "numero": "1950",
+   "titulo": "Tribunal Superior de Justicia - Recomendación de Comunicación entre Organismos Judiciales y Tribunal de Disciplina de Abogados",
+   "importa": "Tribunal Superior de Justicia emite Acuerdo Reglamentario recomendando a Fiscales de Instrucción y Jueces de Control y Faltas que comuniquen al Tribunal de Disciplina de Abogados de Córdoba toda resolución firme de elevación a juicio contra abogados matriculados, para que Tribunal de Disciplina evalúe eventual adopción de medidas disciplinarias conforme artículos 75 y 2 inc. 3 de Ley 5805 (suspensión preventiva en matrícula).",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "La recomendación se fundamenta en Ley 5805 (regulación de abogacía y Colegios de Abogados). Artículo 75 faculta a Tribunal de Disciplina a suspender preventivamente en matrícula a abogado cuando quede firme elevación a juicio por delitos previstos en art. 2 inc. 3 (delitos contra propiedad, prevaricato, revelación de secreto, falsedad, delitos infamantes e inhabilitación profesional), previa vista al profesional y por plazo máximo 6 meses. Artículo 50 establece poder disciplinario del Tribunal sobre abogados inscriptos, y artículo 90 ya prevé comunicación de sentencias de Cámaras de Crimen y Jueces de Faltas. Acuerdo es «Recomendación» (no mandato) para fortalecer canales de cooperación interinstitucional. No es norma con fuerza de ley sino protocolo administrativo-judicial para articulación.",
+    "politica": "Petición originó de Colegio de Abogados de Villa María, buscando reforzar capacidad de Tribunal de Disciplina de supervisar conducta ética profesional. El control disciplinario sobre abogados responde a preocupación por integridad del sistema judicial y confianza pública en administración de justicia. Timing de la recomendación (27 de agosto de 2026) precede a calendario de sesiones legislativas de evaluación institucional. No hay controversia política aparente; responde a mejora procedimental dentro del sistema judicial.",
+    "oficialista": "La articulación interinstitucional fortalece administración de justicia mediante canales formales de información. Protege independencia del Tribunal de Disciplina (no interfiere con decisiones judiciales) mientras facilita ejercicio de facultades disciplinarias. Respeta presunción de inocencia (medidas disciplinarias sólo tras elevación a juicio, no tras acusación inicial). Contribuye a transparencia y acceso a información para órganos de control ético.",
+    "opositora": "Aunque se afirma que no afecta presunción de inocencia, comunicación automática de elevaciones a juicio podría resultar en suspensiones preventivas de matrícula antes de condena, generando perjuicio profesional anticipado sin plena culpabilidad probada. La medida amplia potencial alcance de control disciplinario sobre base de acusación (elevación a juicio) no de sentencia firme. Falta especificidad sobre criterios para suspensión preventiva y sobre recursos contra suspensión."
+   },
+   "texto_oficial": "RESUELVE: 1. RECOMENDAR a los/as Fiscales de Instrucción y a los/as Jueces/zas de Control y Faltas que, según corresponda y sin perjuicio de las comunicaciones previstas en el art. 90 de la Ley n.º 5805, procedan a informar al Tribunal de Disciplina de Abogados de la Provincia de Córdoba toda resolución firme que disponga la elevación a juicio respecto de abogados/as matriculados/as, a fin de que dicho Tribunal evalúe, en el ámbito de su competencia, la eventual aplicación de lo dispuesto en los arts. 75 y 2, inc. 3, de la citada ley. 2. ENCOMENDAR a la Secretaría Penal de este Tribunal Superior de Justicia que, en coordinación con la Sub Área de Investigación Desarrollo e Innovación Tecnológica dependiente de la Administración General, arbitre los medios necesarios a fin de instrumentar mecanismos que faciliten el cumplimiento de la presente recomendación. 3. PROTOCOLÍCESE. Comuníquese a los tribunales, oficinas y dependencias jurisdiccionales, al Ministerio Público Fiscal, Ministerio Público de la Defensa, a la Federación de Colegios de Abogados, al Colegio de Abogados de Córdoba y a la Asociación de Magistrados y Funcionarios de Córdoba. PUBLÍQUESE en el Boletín Oficial. Por los canales oficiales dese amplia difusión.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_020926.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Acta de Asamblea General Ordinaria 4 de junio de 2026, aprobada por Resolución General N° 41 APRHI",
+   "titulo": "Autoridades Consorcio de Usuarios del Sistema de Riego del Dique Cruz del Eje",
+   "detalle": "Designación de Presidente, Vicepresidente, Secretario, Tesorero y tres Vocales del Consorcio tras cese de intervención provincial de 16 años.",
+   "organismo": "Consorcio de Usuarios del Sistema de Riego del Dique Cruz del Eje",
+   "pagina": 4,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_020926.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "69",
+   "titulo": "Ratificación Contrato de Comodato - Ministerio de Educación y Fundación Vicentina",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "895",
+   "titulo": "Plan Anual de Capacitación Personal Administración Pública Provincial 2026-2027",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "41",
+   "titulo": "APRHI - Cese Intervención Consorcio de Usuarios Sistema de Riego Dique Cruz del Eje",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "numero": "1950",
+   "titulo": "Tribunal Superior de Justicia - Comunicación Organismos Judiciales y Tribunal de Disciplina de Abogados",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0047-000633/2026",
+   "titulo": "Mantenimiento, conservación, reparación, refuncionalización y puesta en valor Parque Alberdi y Plaza General Paz de Río IV",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0045-027740/2026",
+   "titulo": "Bacheo Zona 1 - Etapa II",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0916-000642/2026",
+   "titulo": "Cordón cuneta y pavimento Barrio Villa Cornú - Córdoba Capital",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0916-000643/2026",
+   "titulo": "Cordón cuneta y pavimento Nicolás Avellaneda - Córdoba Capital",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0916-000644/2026",
+   "titulo": "Cordón cuneta y pavimento Barrio Rivera Indarte - Córdoba Capital",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0045-027715/2026",
+   "titulo": "Bacheo Zona 5 - Etapa II",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0045-027712/2026",
+   "titulo": "Bacheo Zona 2 - Etapa II",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Policía 9/2026",
+   "titulo": "Alquiler de contenedores de residuos para dependencias varias",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Policía 6/2026 (2º llamado)",
+   "titulo": "Adquisición de fardos de alfalfa para plantel de equinos",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Policía 8/2026",
+   "titulo": "Adquisición bastones lumínicos, conos, balizas, bandoleras y cintas perimetrales",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Policía 7/2026",
+   "titulo": "Adquisición elementos de limpieza para Dirección Logística",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "FPAN 1/2026",
+   "titulo": "Servicio de racionamiento en cocido para agentes y aspirantes de Escuela de Formación",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0045-027714/2026",
+   "titulo": "Bacheo Zona 4 - Etapa II",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1467",
+   "titulo": "Adquisición máquinas y equipos varios",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1468",
+   "titulo": "Reparación bomba a tornillo central Reolín",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1471",
+   "titulo": "Adquisición mezcla patrón certificada",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1472",
+   "titulo": "Reparación integral equipo tratamiento aceite dieléctrico ETEA 5000",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1473",
+   "titulo": "Adquisición antenas para módems GPRS/2G/3G/4G para telemedición",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1474",
+   "titulo": "Adquisición autoelevadores 2x2500 kg y 1x5000 kg motorización eléctrica",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1469",
+   "titulo": "Herrajes RAT 2026",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1470",
+   "titulo": "Adquisición lubricantes para turbinas",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1449 (Nota Aclaratoria)",
+   "titulo": "Cargador vehículos eléctricos monofásico 7 KW",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "MPD 32/2026",
+   "titulo": "Adquisición propiedad Defensoría Pública Oficial Juzgado Federal Río Cuarto",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 5589",
+   "titulo": "Servicio adecuación eléctrica de plazas",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1475",
+   "titulo": "Reacondicionamiento puntas terminales alta tensión 132 kV Guiñazú-Mendiolaza",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "MSDS 2026/000011",
+   "titulo": "Provisión agua envasada potabilizada en bidones con dispensadores",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "CCW 136",
+   "titulo": "Asamblea General Ordinaria Consorcio Caminero Wenceslao Escalante",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "CCO 183",
+   "titulo": "Asamblea General Ordinaria Consorcio Caminero Olaeta",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0535-113455/2023",
+   "titulo": "Edicto solicitud inscripción posesión - FERNANDEZ, RAÚL",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0535-113247/2023",
+   "titulo": "Edicto solicitud inscripción posesión - OCAMPO, JORGE LEONARDO",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0535-113346/2023",
+   "titulo": "Edicto solicitud inscripción posesión - LECORNEL, MAURO SEBASTIAN",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0535-113176/2023",
+   "titulo": "Edicto solicitud inscripción posesión - JOSE, ALFREDO ELIAS y DELLEPIANE, MIRTA NÉLIDA",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0535-110189/2021",
+   "titulo": "Edicto solicitud inscripción posesión - FAKZ, MARIA PAULA",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0535-113309/2023",
+   "titulo": "Edicto solicitud inscripción posesión - LUQUE, PAULA BELEN",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0535-113186/2023",
+   "titulo": "Edicto solicitud inscripción posesión - LOZA, EDUARDO DEL VALLE",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0535-113837/2023",
+   "titulo": "Edicto solicitud inscripción posesión - LOZADA, GUSTAVO ADOLFO",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0535-110856/2021",
+   "titulo": "Edicto solicitud inscripción posesión - TAPIA, JULIETA ABRIL",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0535-113353/2023",
+   "titulo": "Edicto solicitud inscripción posesión - MAGMAR, MARÍA LORENA y PERALTA, PABLO RAMÓN",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "MED - 0595-186175/2025",
+   "titulo": "Declaratoria incobrabilidad crédito - FREYTES, Stella Maris del Carmen",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "MED - 0595-190951/2026",
+   "titulo": "Declaratoria incobrabilidad crédito - ALONSO, Lucia Teresa",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "MED - 0595-191381/2026",
+   "titulo": "Declaratoria incobrabilidad crédito - GUZMAN, Maria Celeste",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "MED - 0595-190886/2026",
+   "titulo": "Declaratoria incobrabilidad crédito - MINA, Gabriela Maria Adela",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "MED - 0109-110325/2012",
+   "titulo": "Declaratoria incobrabilidad crédito - URBANI, Maria del Valle",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "MED - 0109-076819/2007",
+   "titulo": "Declaratoria incobrabilidad crédito - BOZZI, Elba Aurelia",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0435-005012/2026",
+   "titulo": "Apertura registro oposición - Mejoramiento Camino S-325 Etapa 2 (Isla Verde-Guatimozín)",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "MED - 0494-191738/2026",
+   "titulo": "Declaratoria incobrabilidad crédito - PIZZORNI, Rosana",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "MED - 0494-191373/2026",
+   "titulo": "Declaratoria incobrabilidad crédito - MORILLO, Adriana",
+   "seccion": "4",
+   "pagina": 12
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "UE Ley 9150 - 0435-005037/2026",
+   "titulo": "Apertura registro oposición - Mejoramiento Caminos S-242 y T027-26 (Leones-Villa Elisa)",
+   "seccion": "4",
+   "pagina": 12
+  }
+ ],
+ "telegram": "📰 Boletín Oficial N° 169 | 2 de septiembre de 2026 - 17 normas principales. Ratificación de comodato a Fundación Vicentina por Sala Cuna en Córdoba Capital, Plan Anual de Capacitación Provincial con obligatoriedad para mandos medios, cese de intervención de 16 años en Consorcio de Riego Cruz del Eje. Recomendación judicial sobre comunicación de elevaciones a juicio para Tribunal de Disciplina de Abogados. Licitaciones ACIF por $18+ mil millones en infraestructura urbana y vial. Consulta completa: [link app]",
+ "hora_procesado": "10:22",
+ "estado": "publicado"
+}
