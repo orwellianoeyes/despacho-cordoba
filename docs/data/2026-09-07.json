@@ -1,0 +1,368 @@
+{
+ "fecha": "2026-09-07",
+ "numero_boletin": "173",
+ "sintesis_juridica": [
+  "Se publicaron dos resoluciones del Ministerio de Bioagroindustria vinculadas a obras viales rurales: la Resolución N° 369 rectifica el Anexo de la Resolución N° 2026/00000350 sobre mejoramiento de caminos S-242 y T027 en el departamento Marcos Juárez (Villa Elisa), modificando el listado de beneficiarios de la contribución por mejoras conforme el Informe de Zona de Influencia. Por su parte, la Caja de Jubilaciones, Pensiones y Retiros de Córdoba aprobó mediante Resolución N° 79 los índices de movilidad para beneficiarios de sectores con variaciones salariales, a liquidarse con los haberes de agosto de 2026, conforme lo dispuesto en el artículo 51 de la Ley N° 8024.",
+  "En materia de contrataciones, la edición incluye licitaciones públicas de ACIF para obras viales (repavimentación y duplicación de calles en Río Cuarto por montos que rondan los $1.000 millones a $5.133 millones) y educacionales (obras mayores en establecimientos de Córdoba capital por montos entre $828 millones y $1.035 millones). EPEC publica licitaciones para mejoramiento de alumbrado público en rutas provinciales por zonas (presupuestos entre $3.679 millones y $6.559 millones) y una licitación importante por $30.000 millones para una Estación Transformadora en Cruz del Eje. También se publica apertura de Registro de Oposición para obras de mejoramiento de caminos rurales conforme Ley N° 10.546."
+ ],
+ "sintesis_politica": [
+  "El boletín refleja continuidad en la ejecución de programas de infraestructura vial rural (Ley N° 10.546) mediante contribución por mejoras, con rectificaciones administrativas que ajustan beneficiarios según informes técnicos posteriores a la apertura del registro. Este mecanismo de financiamiento por zona de influencia permite distribuir costos entre beneficiarios, aunque genera espacios de oposición que pueden alimentar conflictividad local. La multiplicidad de licitaciones de ACIF en educación y vialidad urbana (120-240 días de plazo, presupuestos millonarios) sugiere aceleración de ejecución pública ante cierre de ciclo administrativo.",
+  "La aprobación de índices de movilidad en pensiones responde a aumentos salariales sectoriales verificados mediante aportes, mecanismo legal que vincula beneficiarios pasivos a dinámicas del empleo público. Las licitaciones de EPEC para alumbrado público y transformadores de potencia constituyen inversión en servicios básicos de largo plazo; la licitación de $30.000 millones para infraestructura eléctrica en Cruz del Eje es de relevancia estratégica para capacidad de suministro regional. No se detectan controversias legislativas inmediatas en el texto publicado."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "369/2026",
+   "titulo": "Rectificación de Anexo — Mejoramiento caminos S-242 y T027, Tramo 2 (Villa Elisa, Marcos Juárez)",
+   "importa": "El Ministerio de Bioagroindustria rectifica el Anexo de la Resolución N° 2026/00000350 que abre Registro de Oposición para la obra de mejoramiento de caminos S-242 y T027 (Villa Elisa), incorporando modificaciones en el listado de beneficiarios de contribución por mejoras conforme Informe de Zona de Influencia aprobado. Se reemplaza la síntesis anterior del proyecto, costo, plazo y área contributiva, manteniendo el procedimiento de oposición.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La rectificación se ampara en el artículo 14 del Anexo Único del Decreto N° 1053/2018 (reglamentario de Ley N° 10.546, modificado por Decreto N° 454/2020), que autoriza ajustes en el registro de oposición por correcciones en la zona de influencia y beneficiarios. No hay vicio formal explícito; la norma cumple requisitos de motivación (Informe de Zona de Influencia) y refrendo. El aviso no especifica qué modificaciones se introdujeron en el listado de beneficiarios ni sus efectos sobre montos de contribución individuales.",
+    "politica": "La rectificación típica de actos administrativos de ejecución de programas federales (Ley N° 10.546, ratificada por Ley N° 10.956) permite corregir imprecisiones antes de consolidar derechos de oposición. La Dirección de Jurisdicción Coordinación de Infraestructura Agropecuaria solicitó el ajuste, lo que sugiere un mapeo deficiente inicial; los contribuyentes afectados pueden reiterar oposiciones. No hay conflicto aparente.",
+    "oficialista": "La rectificación demuestra rigor administrativo: el ministerio verifica información de zona de influencia y beneficiarios antes de formalizar derechos de oposición, asegurando transparencia y exactitud. El ajuste oportuno previene reclamos posteriores.",
+    "opositora": "Si la rectificación modifica significativamente beneficiarios o montos de contribución, debería haber replicado integra el plazo de oposición (5 días) desde cero, no solo rectificado el anexo. El texto no aclara si beneficiarios excluidos o incluidos nuevamente pueden oponerse dentro de la ventana original."
+   },
+   "texto_oficial": "Artículo 1º: RECTIFICAR el Anexo Único de la Resolución N° 2026/00000350, de fecha 28 de agosto de 2026, el que forma parte del presente instrumento legal, todo ello en los términos del artículo N° 14 del Anexo Único del Decreto N° 1053/2018, reglamentario de la Ley N° 10.546, modificado mediante Decreto N° 454/2020. Artículo 2º: PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial, notifíquese, pase a la Unidad Ejecutora a sus efectos y archívese.",
+   "url_anexo": "No disponible en el texto",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_070926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "79/2026 (Letra F)",
+   "titulo": "Aprobación de índices de movilidad — Caja de Jubilaciones, Pensiones y Retiros de Córdoba",
+   "importa": "La Caja de Jubilaciones aprueba índices de movilidad para beneficios de sectores con variaciones salariales, conforme artículo 51 de Ley N° 8024. La liquidación se efectuará con haberes de agosto de 2026. El aviso no especifica qué sectores ni qué porcentajes de aumento se aprueban; remite a Anexo Único no reproducido en el boletín.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La movilidad de prestaciones se vincula a aumentos salariales de personal activo en cada sector/repartición (art. 51, apartado a, Decreto N° 408/2020). El mecanismo exige verificación de que el aumento promedio declarado esté reflejado en incremento de aportes y contribuciones. La resolución cumple forma (refrendo, considerandos, articulados simples) pero el Anexo es esencial para evaluar si los porcentajes aplicados guardan proporción con incrementos salariales verificados.",
+    "politica": "La movilidad es automática si la variación salarial sectorial se acredita. Liquidar en agosto 2026 refleja un atraso típico (la resolución es de septiembre) en la implementación de índices. No hay conflicto gremial evidente, pero la omisión de los porcentajes específicos en el texto publicado impide análisis del impacto fiscal.",
+    "oficialista": "Se respeta la fórmula legal: movilidad proporcional a aumentos salariales de activos, verificados mediante aportes. El procedimiento es transparente y protege el poder adquisitivo de jubilados.",
+    "opositora": "Sin ver el Anexo no puede evaluarse si los índices son reales o deflacionados. El retraso en aplicación (septiembre para agosto) sugiere demora en procesamiento administrativo."
+   },
+   "texto_oficial": "ARTÍCULO 1: APROBAR los índices de movilidad correspondientes a los sectores nominados en el Anexo Único de la presente resolución, en función de las variaciones salariales establecidas al personal en actividad, de conformidad con lo dispuesto en el artículo 51 de la Ley N° 8024. ARTICULO 2: LIQUIDAR con los haberes del mes de AGOSTO año 2026 la actualización correspondiente a los sectores mencionados en el Anexo Único de la presente resolución. ARTÍCULO 3: Comuníquese a todas las áreas y publíquese en el Boletín Oficial.",
+   "url_anexo": "No disponible en el texto",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_070926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "01/2026",
+   "titulo": "Contratación de servicio de racionamiento en cocido — Fuerza Policial Antinarcotráfico",
+   "importa": "Fuerza Policial Antinarcotráfico licita servicio de racionamiento en cocido para agentes y aspirantes de escuela de formación. Objeto: 103.246 raciones en 12 meses. Presupuesto oficial: $1.197.653.600. Apertura de ofertas: 16/09/2026, 13:00 hs, en Dirección General de Administración y Logística, calle General Alvear 26, Córdoba.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública conforme procedimientos estándar. El pliego está disponible en portal de compras públicas. Forma de pago y especificaciones técnicas se detallan en pliego particular. Fórmula de adjudicación: por renglón. No se detectan vicios formales en el aviso.",
+    "politica": "Contratación de subsistencia para fuerza de seguridad pública. Monto significativo ($1.197 millones) para servicio de catering sugiere efectivos o duración extendida. Cierre administrativo de ciclo fiscal podría explicar adelanto de licitación.",
+    "oficialista": "Se cumple procedimiento de licititud pública para contratación de servicios de apoyo a fuerzas de seguridad, asegurando competencia entre proveedores.",
+    "opositora": "Monto elevado para racionamiento podría cuestionarse en términos de eficiencia; contratación directa con proveedores internos podría ser más económica."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA N°01/2026 - FUERZA POLICIAL ANTINARCOTRAFICO - Expediente N°0711-025803/2026 – OBJETO: CONTRATACION DE SERVICIO DE RACIONAMIENTO EN COCIDO PARA AGENTES QUE PRESTAN SERVICIOS EN DEPARTAMENTO CAPITAL Y ASPIRANTES - CURSANTES DE ESCUELA DE FORMACIÓN Y CAPACITACIÓN DE LA FUERZA POLICIAL ANTINARCOTRÁFICO. Renglón Único: 103.246 raciones a ser provistas en período estimado de 12 meses. Presupuesto oficial: $1.197.653.600,00. Apertura: 16/09/2026 13:00 hs, Dirección General de Administración y Logística, calle General Alvear 26 – 1er piso Oficina C, Córdoba.",
+   "url_anexo": "http://compraspublicas.cba.gov.ar",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_070926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000064 (ACIF)",
+   "titulo": "Bacheo Zona 3 - Etapa II",
+   "importa": "ACIF abre licitación pública con soporte digital para contratación de obra Bacheo Zona 3 - Etapa II. Apertura de Sobre Propuesta Económica Digital: 9/9/2026, 10:00 hs, Salón de Actos Dirección de Vialidad, Córdoba. El aviso no especifica presupuesto oficial ni plazo de ejecución en el texto publicado.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Procedimiento conforme Decreto N° 583/2016 (licitación digital para obras). La apertura de propuestas económicas en acto público a los días de publicación sugiere cronograma comprimido. El texto no reproduce el presupuesto oficial ni plazo, remitiendo a pliego particular.",
+    "politica": "Obra vial de mantenimiento (bacheo) en zona urbana de Córdoba. Calendarios acelerados en septiembre son típicos de cierre de ejercicio fiscal. Desconcentración de obra en etapas (Zona 3 Etapa II) permite continuidad sin monopolio de un contratista.",
+    "oficialista": "Procedimiento digital mejora transparencia y reduce costos de administración. Desagregación de obra en etapas permite participación de pymes.",
+    "opositora": "Falta información de presupuesto y plazo en el aviso, lo que limita análisis de proporcionalidad."
+   },
+   "texto_oficial": "EXPEDIENTE N°: 0045-027713/2026. ASUNTO: BACHEO ZONA 3 - ETAPA II - LICITACIÓN PÚBLICA CON SOPORTE DIGITAL - N° DE COTIZACIÓN 2026/000064. Apertura de Sobres Propuesta Económica Digital: 9/9/2026 10:00 hs, Salón de Actos Dirección de Vialidad, Figueroa Alcorta 445 PB, Córdoba.",
+   "url_anexo": "https://webecommerce.cba.gov.ar/VistaPublica/OportunidadProveedores.aspx",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_070926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000067 (ACIF)",
+   "titulo": "Bacheo Zona 6 - Etapa II",
+   "importa": "ACIF licita obra Bacheo Zona 6 - Etapa II. Apertura de Sobre Propuesta Económica Digital: 7/9/2026, 11:30 hs, Salón de Actos Dirección de Vialidad, Figueroa Alcorta 445 PB, Córdoba. Presupuesto oficial y plazo no especificados en aviso.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación digital, procedimiento Decreto N° 583/2016. Cronograma comprimido (apertura apenas días después de publicación).",
+    "politica": "Continuidad de programa de bacheo en zonas urbanas. Desagregación geográfica permite distribución de obra.",
+    "oficialista": "Procedimiento digital transparente, desagregación de obra.",
+    "opositora": "Falta información de presupuesto y plazo en el aviso."
+   },
+   "texto_oficial": "EXPEDIENTE N° 0045-027716/2026. ASUNTO: BACHEO ZONA 6 - ETAPA II - LICITACIÓN PÚBLICA CON SOPORTE DIGITAL - N° DE COTIZACIÓN 2026/000067. Apertura: 7/9/2026 11:30 hs, Salón de Actos Dirección de Vialidad, Figueroa Alcorta 445 PB, Córdoba.",
+   "url_anexo": "https://webecommerce.cba.gov.ar/VistaPublica/OportunidadProveedores.aspx",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_070926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/ACIFR-00000298",
+   "titulo": "Repavimentación con asfalto 120 cuadras — Ciudad de Río Cuarto",
+   "importa": "ACIF licita repavimentación con asfalto de 120 cuadras en Río Cuarto. Presupuesto oficial: $5.133.620.800,00 (incluyendo IVA). Plazo de ejecución: 180 días. Presentación de ofertas: hasta 21/09/2026, 12:00 hs. Apertura: 22/09/2026, 10:00 hs, Salón Blanco Palacio Municipal Río Cuarto. Visita técnica obligatoria: 15/09/2026.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Obra vial Categoría Primera, Ingeniería 100%, conforme Ley N° 8.614. Procedimiento digital Decreto N° 583/2016. Garantía de mantenimiento: 1% del presupuesto oficial. Pliego y documentación disponibles en portal web. Requisitos y especificaciones en pliego particular; no reproducidas en aviso. Forma jurídica conforme.",
+    "politica": "Inversión significativa ($5.133 millones) en infraestructura urbana de Río Cuarto. Obra de ciclo 180 días sugiere ejecución en primer semestre 2027. Concentración de licitaciones de ACIF en septiembre refleja cierre de programación anual.",
+    "oficialista": "Licitación pública abierta, procedimiento digital, visita técnica obligatoria garantiza conocimiento de la obra. Presupuesto oficial publicado anticipadamente asegura transparencia.",
+    "opositora": "Presupuesto elevado sin desagregación de costos en aviso; período de presentación (14 días) es corto para obras complejas; localización única de acto de apertura (Río Cuarto) puede limitar participación de oferentes."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL. EXPTE. ELECTRÓNICO N° 0916-000630/2026. OBJETO: REPAVIMENTACIÓN CON ASFALTO 120 CUADRAS – CIUDAD DE RÍO CUARTO. Resolución N° 2026/ACIFR-00000298 (31/08/2026). PRESUPUESTO OFICIAL: $5.133.620.800,00 (incluyendo IVA). PLAZO DE EJECUCIÓN: 180 días corridos desde Acta de Replanteo. PRESENTACIÓN DE OFERTAS: 21/09/2026, 12:00 hs, portal http://compraspublicas.cba.gov.ar. APERTURA: 22/09/2026, 10:00 hs, Salón Blanco Palacio Municipal Río Cuarto, Pasaje de la Concepción N° 650.",
+   "url_anexo": "https://webecommerce.cba.gov.ar/VistaPublica/OportunidadProveedores.aspx",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_070926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/ACIFR-00000303",
+   "titulo": "Duplicación y rotonda — Calle Reforma Universitaria, Ciudad de Río Cuarto",
+   "importa": "ACIF licita obra Duplicación y Rotonda en Calle Reforma Universitaria, Río Cuarto. Presupuesto oficial: $3.961.365.736,20 (incluyendo IVA). Plazo de ejecución: 240 días. Presentación: 21/09/2026, 12:00 hs. Apertura: 22/09/2026, 14:00 hs, Salón Blanco Palacio Municipal Río Cuarto.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Obra vial Categoría Primera, Ingeniería 100%. Plazo 240 días refleja mayor complejidad que bacheo (requiere replanteo, reingeniería de tránsito). Procedimiento y garantías conforme estándar ACIF.",
+    "politica": "Obra de conectividad urbana en Río Cuarto con presupuesto de casi $4.000 millones. Combinación de duplicación vial + intersección a rotonda sugiere mejora de capacidad en zona crítica de la ciudad.",
+    "oficialista": "Proyecto de mejora vial con participación abierta a oferentes.",
+    "opositora": "Presupuesto elevado sin justificación de costos unitarios en aviso; concentración de tres licitaciones en Río Cuarto podría indicar favoritismo administrativo local."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL. EXPTE. ELECTRÓNICO N° 0916-000632/2026. OBJETO: DUPLICACIÓN Y ROTONDA – CALLE REFORMA UNIVERSITARIA CIUDAD DE RÍO CUARTO. Resolución N° 2026/ACIFR-00000303 (02/09/2026). PRESUPUESTO OFICIAL: $3.961.365.736,20 (incluyendo IVA). PLAZO: 240 días corridos. PRESENTACIÓN: 21/09/2026, 12:00 hs. APERTURA: 22/09/2026, 14:00 hs.",
+   "url_anexo": "https://webecommerce.cba.gov.ar/VistaPublica/OportunidadProveedores.aspx",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_070926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "5592 (EPEC)",
+   "titulo": "ET Cruz del Eje Nueva 132/13,2 kV 2x28/40 MVA + ATD 132/66kV 40/55MVA",
+   "importa": "EPEC licita mediante doble apertura Estación Transformadora (ET) Cruz del Eje Nueva con transformadores 132/13,2 kV y autotransformador 132/66 kV. Presupuesto oficial: $30.000.077.244,29. Plazo de ejecución: 600 días. Especialidades: Civil y Electromecánica. Categoría: Primera. Apertura: 23/09/2026, 11:00 hs, Administración Central EPEC, La Tablada N° 350, Córdoba.",
+   "seccion": "4",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Licitación de infraestructura eléctrica de gran envergadura, sistema de doble apertura (técnica y económica, típico en obras complejas). Plazo 600 días refleja complejidad constructiva y pruebas. Presupuesto de $30.000 millones es la inversión más significativa publicada en este boletín. Procedimiento conforme normas EPEC y Ley N° 8.614.",
+    "politica": "Inversión estratégica en capacidad de transformación eléctrica en Cruz del Eje (zona centro de la provincia). Estación nueva sugiere insuficiencia de capacidad actual; obras de 600 días indican horizonte 2027-2028. Tema vigilado: inversión en infraestructura crítica (energía).",
+    "oficialista": "Inversión de largo plazo en infraestructura esencial para suministro eléctrico provincial, fortalece sistema de potencia.",
+    "opositora": "Costo de $30.000 millones sin desglose de partidas en aviso; cronograma 600 días implica riesgos de sobrecostos por inflación futura; ubicación única de acto de apertura limita participación de oferentes."
+   },
+   "texto_oficial": "LICITACION PUBLICA Nº 5592 SE REALIZARÁ MEDIANTE EL SISTEMA DE DOBLE APERTURA: 23-09-2026 HORA: 11 – OBJETO: ET CRUZ DEL EJE NUEVA 132/13,2 kV 2x28/40 MVA + ATD 132/66kV 40/55MVA. ENTREGA DE SOBRES: 23-09-2026 HORA 10:00. PRESUPUESTO OFICIAL: $30.000.077.244,29. Especialidad: Civil y Electromecánica. Categoría: Primera. Plazo: 600 días. Administración Central, Área Compras y Contrataciones, La Tablada N° 350, Córdoba.",
+   "url_anexo": "https://www.epec.com.ar/perfiles/proveedores/concursos-y-licitaciones",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_070926.pdf"
+  },
+  {
+   "tipo": "Apertura de Registro de Oposición",
+   "clase": "licitacion",
+   "numero": "349/2026 (Ley N° 10.546)",
+   "titulo": "Mejoramiento Camino S-325, Etapa 2 — Isla Verde – Guatimozín, Marcos Juárez",
+   "importa": "Ministerio de Bioagroindustria abre Registro de Oposición (5 días desde 7/9/2026) para obra mejoramiento Camino S-325, tramo 12,4 km sur de Isla Verde, Marcos Juárez. Monto: $8.657.486.665,04 (julio 2026). Plazo de ejecución: 360 días. Zona de influencia: 11.864,92 hectáreas. Beneficiarios pagarán contribución por mejoras en 7 cuotas anuales en Unidades Fijas (equivalente a precio nafta súper).",
+   "seccion": "4",
+   "pagina": 10,
+   "ampliada": {
+    "juridica": "Procedimiento conforme Decreto N° 1053/2018 y modificaciones (Decreto N° 454/2020), Ley N° 10.546 y ratificatoria Ley N° 10.956. Sistema de contribución por mejoras: beneficiarios directos de obra vial aportan proporcionalmente. Zona de influencia: 11.864,92 Has (dato textual). Plazo de oposición: 5 días desde publicación. Mecanismo: nota vía Ciudadano Digital o email a UnidadEjecutoraCCU@cba.gov.ar. Listado de beneficiarios en Anexo (no reproducido en texto). Índice de reajuste: U.F. (precio litro nafta súper, conforme Resolución N° 33 DG Prevención Accidentes Tránsito).",
+    "politica": "Obra rural de segundo nivel con financiamiento por zona de influencia agrícola. Contribución en U.F. (variación de combustible) acopla reajuste a factor económico objetivo, aunque genera volatilidad. Plazo de oposición comprimido (5 días) puede limitar conocimiento en zonas rurales. Tema vigilado: obra vial provincial, mecanismo de financiamiento especial.",
+    "oficialista": "Sistema de contribución por mejoras redistributivo: quien se beneficia aporta proporcionalmente. Índice de reajuste objetivo (precio nafta) evita manipulación. Plazo de oposición cumple norma.",
+    "opositora": "Plazo de 5 días insuficiente para productores rurales dispersos; índice U.F. volátil penaliza contribuyentes si combustible sube; falta precisión en beneficiarios con DNI/CUIT en texto (remite a anexo no disponible)."
+   },
+   "texto_oficial": "Obra: MEJORAMIENTO CAMINO S-325. ETAPA 2.TR: ISLA VERDE – GUATIMOZÍN. DEPTO: MARCOS JUAREZ. Expte.: 0435-005012/2026 (Resolución N° 349/2026). Monto: $8.657.486.665,04 (julio 2026). Plazo: 360 días. Zona de influencia: 11.864,92 Has. Beneficiarios pagarán contribución por mejoras en 7 cuotas anuales, valor determinado en U.F. equivalente a precio venta al público litro nafta súper (Resolución N° 33 DG Prevención Accidentes Tránsito). REGISTRO DE OPOSICIÓN: 5 días desde 7/9/2026. Procedimiento: nota vía Ciudadano Digital o email UnidadEjecutoraCCU@cba.gov.ar con Asunto Registro de Oposición.",
+   "url_anexo": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/CBA_SIR01_2026_00005688_MIN_BIOAGROIND.pdf",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_070926.pdf"
+  },
+  {
+   "tipo": "Apertura de Registro de Oposición",
+   "clase": "licitacion",
+   "numero": "350/2026 (Ley N° 10.546)",
+   "titulo": "Mejoramiento Caminos S-242 y T027-26, Tramo 2 — Leones Sur – Villa Elisa, Marcos Juárez (Rectificado por Res. 369/2026)",
+   "importa": "Ministerio de Bioagroindustria abre Registro de Oposición (5 días desde 7/9/2026) para obra mejoramiento caminos S-242 y T027-26, tramo 10,5 km Leones Sur – Villa Elisa, Marcos Juárez (Segunda Etapa). Monto: $6.711.331.994,07 (julio 2026). Plazo: 360 días. Zona de influencia: 12.678,48 Has (modificada conforme CCU). Beneficiarios abonarán contribución en 5 cuotas anuales en Unidades Fijas. Nota: Resolución N° 369/2026 (de este boletín) rectifica listado de beneficiarios.",
+   "seccion": "4",
+   "pagina": 11,
+   "ampliada": {
+    "juridica": "Procedimiento conforme Decreto N° 1053/2018, modificado Decreto N° 454/2020, Ley N° 10.546, ratificada por Ley N° 10.956. Zona de influencia: 12.678,48 Has (modificada a solicitud de CCU, signo de participación de consorcio caminero en definición de zona). Contribución: 5 cuotas (vs. 7 en Camino S-325), sugiere presupuesto de ejecución más comprimido o beneficiarios con mayor capacidad de pago. Rectificación mediante Res. N° 369/2026 introduce nuevo listado de beneficiarios; el aviso del Registro de Oposición no aclara si plazos se reinician o mantienen desde 7/9.",
+    "politica": "Obra de conectividad inter-localidades (Leones – Villa Elisa) en zona agrícola de Marcos Juárez. Segunda etapa sugiere continuidad de programa. Modificación de zona de influencia por CCU refleja poder de consorcios camineros en negociación con estado provincial. Tema vigilado: obra vial provincial, financiamiento especial.",
+    "oficialista": "Segunda etapa de obra integral; modificación de zona respeta participación consorcial. Contribución en menos cuotas refleja mejor viabilidad financiera.",
+    "opositora": "Plazo de oposición corto (5 días); rectificación de beneficiarios (Res. 369/2026) al día siguiente podría crear confusión sobre vigencia de plazo; contribuyentes excluidos o agregados podrían reclamar falta de notificación."
+   },
+   "texto_oficial": "Obra: MEJORAMIENTO CAMINOS S-242 y T027-26–TRAMO 2: S-337-VILLA ELISA-DEPARTAMENTO: MARCOS JUÁREZ. Expte.: 0435-005037/2026 (Resolución N° 350/2026). Monto: $6.711.331.994,07 (julio 2026). Plazo: 360 días. Zona de influencia: 12.678,48 Has (modificada conforme CCU). Beneficiarios pagarán contribución en 5 cuotas anuales en U.F. (precio nafta súper). REGISTRO DE OPOSICIÓN: 5 días desde 7/9/2026. Procedimiento: nota vía Ciudadano Digital o email UnidadEjecutoraCCU@cba.gov.ar con Asunto Registro de Oposición.",
+   "url_anexo": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/08/pdf24_1787917037225_CBA_SIR01_2026_00005706.pdf",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_070926.pdf"
+  }
+ ],
+ "movimientos": [],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "369/2026",
+   "titulo": "Rectificación Anexo — Mejoramiento caminos S-242 y T027, Tramo 2",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "79/2026",
+   "titulo": "Movilidad jubilaciones — Caja de Jubilaciones, Pensiones y Retiros",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "01/2026 (Fuerza Policial Antinarcotráfico)",
+   "titulo": "Racionamiento en cocido — Agentes y Escuela de Formación",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/000064 (ACIF)",
+   "titulo": "Bacheo Zona 3 - Etapa II",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/000067 (ACIF)",
+   "titulo": "Bacheo Zona 6 - Etapa II",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000298",
+   "titulo": "Repavimentación con asfalto 120 cuadras — Río Cuarto",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000303",
+   "titulo": "Duplicación y rotonda — Calle Reforma Universitaria, Río Cuarto",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000304",
+   "titulo": "Repavimentación con hormigón 16 cuadras — Río Cuarto",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000288",
+   "titulo": "Obras mayores establecimientos educativos Grupo 2 — Córdoba Capital",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000293",
+   "titulo": "Obras mayores establecimientos educativos Grupo 3 — Córdoba Capital",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000294",
+   "titulo": "Obras mayores establecimientos educativos Grupo 6 — Córdoba Capital",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000302",
+   "titulo": "Obras mayores establecimientos educativos Grupo 11 — Córdoba Capital",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "5590 (EPEC)",
+   "titulo": "Mejoramiento alumbrado público rutas Zona 1",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "5591 (EPEC)",
+   "titulo": "Mejoramiento alumbrado público rutas Zona 2",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "5593 (EPEC)",
+   "titulo": "Mejoramiento alumbrado público rutas Zona 3",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "5594 (EPEC)",
+   "titulo": "Mejoramiento alumbrado público rutas Zona 4",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "5592 (EPEC)",
+   "titulo": "ET Cruz del Eje Nueva 132/13,2 kV + ATD 132/66kV",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "5595 (EPEC)",
+   "titulo": "Mejoramiento alumbrado público rutas Zona 5",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Electrónica",
+   "numero": "1476 (EPEC)",
+   "titulo": "Recambio sistema filtrado agua refrigeración",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Electrónica",
+   "numero": "1477 (EPEC)",
+   "titulo": "Adquisición 4 vehículos eléctricos tipo furgón",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "7/2026 (San Francisco)",
+   "titulo": "Extensión red colectora cloacal — Barrios San Francisco, Brisas del Sur",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "5588 (EPEC)",
+   "titulo": "Adecuación y refuncionalización iluminación exterior — Fecha prorrogada",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "32/2026 (Defensoría General Nación)",
+   "titulo": "Adquisición propiedad — Defensoría Pública Río Cuarto",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Compulsa Abreviada",
+   "numero": "2026/000017 (CEPROCOR)",
+   "titulo": "Contratación de profesionales — Unidades Espectrometría Molecular",
+   "seccion": "4",
+   "pagina": 7
+  }
+ ],
+ "telegram": "Boletín Nº 173 (7/9/2026): Rectificación de beneficiarios en obra vial rural Marcos Juárez + movilidad jubilaciones + licitaciones ACIF infraestructura educativa y vial ($20B+) + inversión EPEC en alumbrado provincial y ET Cruz del Eje ($30B). Detalles en la app ▶ http://boletinoficial.cba.gov.ar",
+ "hora_procesado": "07:32",
+ "estado": "publicado"
+}
