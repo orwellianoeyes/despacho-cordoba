@@ -1,0 +1,446 @@
+{
+ "fecha": "2026-09-14",
+ "numero_boletin": "178",
+ "sintesis_juridica": [
+  "Se publican siete resoluciones ministeriales de relevancia institucional: una de Seguridad que formaliza la participación provincial en el Comando Unificado Federal para la visita papal de noviembre; dos del Ministerio de Economía que adaptan condiciones de ingreso a programas de becas (Medición de Bienestar y Soporte a distintas secretarías); una de Jefatura de Gabinete que designa escribana titular en Las Varillas; dos de la Secretaría General de Salud y Desarrollo Humano que crean los programas 'Emprender' y 'VIA: Viviendas para la Vida Independiente con Apoyos' para personas con discapacidad; y una de la Dirección General de Prevención de Accidentes de Tránsito que habilita autoridades de control municipal en nueve localidades tras evaluación de capacitación.",
+  "La edición incluye además numerosas licitaciones públicas de obras de infraestructura (educación, salud, vialidad, deportiva) por montos que alcanzan los 47.171 millones de pesos en el caso del Hospital de Oliva; procedimientos de contratación por parte de EPEC, APROSS y otras entidades; subastas electrónicas; y edictos de la Unidad Ejecutora Ley 9150 para inscripciones de posesión. Una fe de errata de la Secretaría de Salud corrige la fecha de una resolución anterior."
+ ],
+ "sintesis_politica": [
+  "La resolución de seguridad sobre el viaje papal marca una definición institucional cuidadosa: reconoce el rol coordinador federal pero resguarda explícitamente la conducción operativa provincial de la Policía de Córdoba, evitando una subordinación total al Comando Unificado Nacional. La designación del Jefe de Policía (Crio. General Marcelo Alejandro Marín) junto al Ministro como representantes da continuidad a la estructura de mando provincial. El timing es estratégico: fija competencias antes del evento de máxima visibilidad internacional en noviembre.",
+  "Las dos resoluciones sobre programas de discapacidad (Emprender y VIA) responden a una narrativa de ampliación de derechos y autonomía, posicionándose frente a los recortes del gobierno nacional en APROSS. La creación simultánea de dos líneas de acción (emprendimientos y vivienda independiente) amplía el espacio fiscal y político de la cartera de Desarrollo Humano. Las modificaciones a condiciones de ingreso de becas estatales (exigencia de antecedentes penales, registro de deudores alimentarios) reflejan endurecimiento de controles de elegibilidad estándar en programas públicos."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "851",
+   "titulo": "Comando Unificado Federal Córdoba – Viaje Apostólico de Su Santidad el Papa León XIV",
+   "importa": "El Ministerio de Seguridad formaliza la participación provincial en el Comando Unificado Federal creado por la Nación (Res. 900/2026 Nacional) para coordinar seguridad durante la visita papal entre los días 8 y 11 de noviembre de 2026. Designa al Jefe de Policía Crio. General Marcelo Alejandro Marín como representante provincial con capacidad de decisión operativa, en coordinación con autoridades nacionales.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La resolución respeta la distribución de competencias prevista por la Ley Provincial 9.235 (seguridad pública bajo cargo del Estado Provincial) y la Ley Nacional 24.059 (coordinación interjurisdiccional). Establece que la Policía Provincial conservará conducción operativa sobre servicios y recursos provinciales dentro de sus competencias legales, sin alteración de la cadena de mando estatal. El mecanismo de enlace con fuerzas federales y la Guardia Suiza se realiza a través de 'canales formales' sin especificar protocolos detallados en el texto, lo que podría generar ambigüedades en contingencias.",
+    "politica": "La resolución cede coordinación general al dispositivo federal pero mantiene autonomía operativa provincial, equilibrio cuidadoso en una provincia gobernada por una coalición distinta a la nacional. La designación del Jefe de Policía refuerza la cadena de mando provincial. El énfasis en 'competencias propias de las provincias' responde a tensiones federales latentes sobre seguridad interior. El timing previo al evento evita cuestionamientos posteriores sobre responsabilidades.",
+    "oficialista": "La participación coordina eficazmente los recursos de ambas jurisdicciones para garantizar la seguridad del Santo Padre durante un evento de máxima importancia diplomática y religiosa. Se resguardan las competencias constitucionales provinciales mientras se asegura una respuesta interinstitucional profesional, sin afectar la autonomía de mando de la Policía Provincial en territorios bajo su jurisdicción.",
+    "opositora": "Aunque formaliza la participación, no especifica los mecanismos concretos de enlace, comunicación ni procedimientos ante contingencias, dejando margen para coordinaciones insuficientes o conflictos de autoridad en campo. La resolución delega tareas de planificación operativa ('correspondería elaborar plan operacional conjunto') sin garantizar que los intereses provinciales se reflejen en decisiones tácticas."
+   },
+   "texto_oficial": "ARTÍCULO 1°. RECONÓCESE la voluntad de la Provincia de Córdoba de cooperar, complementar y coordinar acciones con el Comando Unificado Federal Córdoba Viaje Apostólico de Su Santidad el Papa León XIV, creado por Resolución N° 900/2026 del Ministerio de Seguridad Nacional, a fin de contribuir al mantenimiento del orden público y a la seguridad durante la visita apostólica prevista entre los días 8 y 11 de noviembre de 2026. ARTÍCULO 2° DISPONES E que la participación de la Provincia de Córdoba en el Comando Unificado Federal Córdoba se efectuará mediante representantes provinciales con capacidad de decisión operativa, quienes actuarán como enlace permanente con las autoridades nacionales y con los responsables del dispositivo provincial. ARTÍCULO 3° ESTABLÉCESE que la Policía de la Provincia de Córdoba conservará, respecto de los servicios y recursos provinciales y dentro del ámbito de sus competencias legales, la conducción operativa que le corresponde, sin perjuicio de la coordinación general del dispositivo especial, de la actuación de las fuerzas federales en el marco de sus competencias y de los mecanismos de coordinación que se acuerden en el plan operacional conjunto. ARTÍCULO 7° DESIGNASE al señor Jefe de Policía Crio. General Marcelo Alejandro Marín para que actúe conjuntamente con el suscripto, como representantes provinciales que integrarán el Comando Unificado Federal Córdoba en el marco de lo dispuesto en el artículo 6 de la Resolución 900/2026 del Ministerio de Seguridad de la Nación.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_140926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "83 - Letra:D",
+   "titulo": "Modificación de condiciones de ingreso – Programa de Becas Medición de Bienestar",
+   "importa": "El Ministerio de Economía modifica el artículo 4° del Reglamento Operativo del Programa de Becas Medición de Bienestar (aprobado por Resolución 2024/MEyGP-00000539), incorporando exigencia de certificado de antecedentes penales expedido por la Policía de Córdoba a presentar en plazo de treinta días hábiles desde la incorporación, bajo apercibimiento de cancelación de la beca.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La modificación se realiza conforme autorización previa de la Secretaría General de Gobernación (Res. 2026/SGG-00000911 del 3.09.2026). Amplía requisitos de elegibilidad mediante acto reglamentario sin cambiar sustancia del programa. Introduce plazo de treinta días para acreditación de antecedentes, con sanción de cancelación por incumplimiento. El texto no aclara si la cancelación es automática o requiere trámite administrativo previo, generando potencial defecto de debido proceso.",
+    "politica": "Refleja endurecimiento de estándares de control en contrataciones estatales con fondos públicos, alineado con tendencias de austeridad fiscal. La exigencia de antecedentes penales aporta legitimidad pública a la selección de becarios. Afecta principalmente a personas con antecedentes penales que de otro modo califiquen, replicando patrones de exclusión vigentes en empleo público.",
+    "oficialista": "Fortalece la integridad de los programas de becas garantizando que los fondos públicos se destinen a personas sin historial penal, mejorando estándares de transparencia y responsabilidad fiscal.",
+    "opositora": "Introduce restricción excesiva que puede vulnerar derechos de reinserción laboral de personas con antecedentes; no existe justificación específica en la resolución sobre qué delitos o cuán remotos deben excluir; el plazo de 30 días es muy acotado para conseguir documentación en contextos de vulnerabilidad."
+   },
+   "texto_oficial": "Artículo 4°. - CONDICIONES DE INGRESO. Los interesados deberán poseer perfil de Ciudadano Digital Nivel 2, presentar copia de DNI, constancia de CUIL, antecedentes curriculares, certificado de antecedentes penales emitido por el Registro Nacional de Reincidencia, certificado de no inscripción en el Registro Provincial de Personas Condenadas por Delitos contra la Integridad Sexual, no encontrarse registrados como deudores alimentarios morosos en el Registro perteneciente a la Dirección General de Registro Civil de la Provincia de Córdoba y cualquier otra documentación que el Ministerio de Economía considere necesaria. Todo ello de manera previa a su incorporación y sin lo cual no podrá formalizarse la designación. Los beneficiarios deberán presentar, además, el certificado de antecedentes expedido por la Policía de la Provincia de Córdoba, dentro del plazo de treinta (30) días hábiles contados a partir de su incorporación, bajo apercibimiento de cancelación de la beca.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_140926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "525",
+   "titulo": "Aprobación del Programa Provincial Emprender para personas con discapacidad",
+   "importa": "La Secretaría General de Salud y Desarrollo Humano aprueba el Programa Provincial Emprender destinado a incentivar y apoyar económicamente a emprendedores con discapacidad en toda la provincia, para fortalecer iniciativas productivas que promuevan autonomía a través del trabajo. Designa a la Secretaría de Coordinación y Fortalecimiento Familiar como unidad ejecutora.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "La resolución se fundamenta en competencias asignadas por artículo 24 bis inciso 14 del Decreto 2206/2023 (ratificado por Ley 10.956, modificado por Decreto 274/2025 y ratificado por Ley 11.110), que otorga a la Secretaría potestad para elaborar programas de promoción de derechos y otorgamiento de subsidios. El texto no especifica presupuesto, montos de subsidios, criterios de evaluación de proyectos, ni procedimiento de selección de beneficiarios, remitiendo a 'Anexo Único' que forma parte de la resolución pero cuyo contenido no se transcribe en el boletín. Esta omisión dificulta evaluación de legalidad material.",
+    "politica": "Responde a contexto de crisis fiscal nacional con recortes a programas de discapacidad (APROSS, subsidios). La provincia apela a narrativa de autonomía y derechos consagrados en Convención sobre Derechos de Personas con Discapacidad (con jerarquía constitucional) para justificar nuevo gasto. Amplía base electoral al reconocer demandas de sector vulnerable. Crea programa de pequeña escala que no requiere nuevas estructuras administrativas.",
+    "oficialista": "Reconoce capacidades productivas de personas con discapacidad y crea oportunidades reales de inclusión laboral y económica, en línea con principios de autonomía e igualdad. Ataja vacío dejado por retracción nacional de inversión en discapacidad.",
+    "opositora": "Programa sin presupuesto explícito ni detalles operativos en el texto principal; remisión al anexo no publicado genera falta de transparencia. No hay mención de monto total, cantidad de beneficiarios esperados, plazo de ejecución ni mecanismo de evaluación de impacto."
+   },
+   "texto_oficial": "Artículo 1°.-  APROBAR el \"Programa Provincial Emprender\" , el que como Anexo Único forma parte de la presente Resolución. Artículo 2°.- DISPONER que el otorgamiento de ayudas económicas, encuadradas en el marco del \"Programa Provincial Emprender\" , se regirá de acuerdo a lo estipulado en el Anexo Único aprobado por el artículo precedente del presente instrumento legal y subsidiariamente por la Resolución Nº 2026/SGSDH-00000001, de esta Secretaría General de Salud y Desarrollo Humano. Artículo 3°-. DESIGNAR a la Secretaría de Coordinación y Fortalecimiento Familiar de esta Secretaría General de Salud y Desarrollo Humano como unidad ejecutora del presente programa. Artículo 4°.- AUTORIZAR a la Subsecretaría de Asuntos Administrativos de esta Secretaría General a realizar todas las adecuaciones presupuestarias necesarias para la ejecución del presente programa.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_140926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "600",
+   "titulo": "Aprobación del Programa Provincial VIA: Viviendas para la Vida Independiente con Apoyos",
+   "importa": "La Secretaría General de Salud y Desarrollo Humano aprueba el Programa Provincial VIA destinado a promover la vida independiente de personas con discapacidad, incentivando económicamente su autonomía y acceso a vivienda con apoyos. Designa a la Secretaría de Coordinación y Fortalecimiento Familiar como unidad ejecutora.",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Fundado en idéntica base legal que Res. 525 (art. 24 bis inc. 14 de Decreto 2206/2023). Nuevamente, el texto aprobatorio no contiene detalles operativos ni presupuestarios, remitiéndose integralmente a Anexo Único no publicado. Introduce lenguaje sobre 'capacidad de decidir por sí mismas' y rechazo a 'modelo de tutelaje', alineado con estándares internacionales de derechos humanos (CDPD), pero vacío normativo en cuanto a mecanismos de implementación y garantías procedimentales.",
+    "politica": "Segundo programa de la cartera en misma edición, refuerza posicionamiento de Desarrollo Humano como eje de expansión de derechos frente a contexto nacional restrictivo. Énfasis en autonomía y vivienda refleja demandas organizadas de sector de discapacidad. Diferencia de enfoque respecto a Emprender: éste es más orientado a producción/empleo, VIA a derechos civiles (dónde y con quién vivir).",
+    "oficialista": "Avanza en reconocimiento de capacidades de toma de decisión de personas con discapacidad, rompiendo con modelo tutelar. Ofrece herramientas concretas para garantizar dignidad y autonomía, cumpliendo obligaciones internacionales de la Provincia.",
+    "opositora": "Nuevamente, ausencia de cifras, presupuesto, cantidad de beneficiarios esperados y cronograma. Riesgo de que sea programa 'de catálogo' sin ejecución real si carece de asignación de fondos específica en Presupuesto Provincial."
+   },
+   "texto_oficial": "Artículo 1°.- APROBAR el \"Programa Provincial VIA: VIVIENDAS PARA LA VIDA INDEPENDIENTE CON APOYOS\" , el que como Anexo Único forma parte de la presente Resolución. Artículo 2°.-  DISPONER que el otorgamiento de ayudas económicas, encuadradas en el marco del \"Programa Provincial VIA \" , se regirá de acuerdo a lo estipulado en el Anexo Único aprobado por el artículo precedente del presente instrumento legal ysubsidiariamente por la Resolución Nº 2026/SGSDH-00000001, de esta Secretaría General de Salud y Desarrollo Humano. Artículo 3°-. DESIGNAR a la Secretaría de Coordinación y Fortalecimiento Familiar de esta Secretaría General de Salud y Desarrollo Humano como unidad ejecutora del presente programa.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_140926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "41",
+   "titulo": "Habilitación de Autoridades de Control de Tránsito en localidades municipales",
+   "importa": "La Dirección General de Prevención de Accidentes de Tránsito habilita como Autoridades de Control a personal de los municipios de Mendiolaza, Río Ceballos, Tuclame, Marull, Matorrales, Pasco, Las Varillas, Salsipuedes y La Para, previa evaluación mediante plataformas digitales (Actas 28/2026 y 30/2026 del 28 y 29 de julio). Ordena inscripción en registros pertinentes con matrículas asignadas según Anexos I y II.",
+   "seccion": "1",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Se basa en Art. 5 de Ley Provincial Tránsito 8.560 que define Autoridad de Control como 'organismo designado por autoridad municipal cuyo personal está capacitado mediante cursos reglamentarios y sea habilitado por Autoridad Provincial'. La resolución atiende Art. 10 inc. 6 Decreto 318/07 reglamentario, que confiere a DGPAT competencia de aprobar instancia y otorgar certificados. El texto no especifica cantidad de personas habilitadas ni proporciona Anexos I y II (listas nominales), generando imposibilidad de verificación de cumplimiento normativo.",
+    "politica": "Descentralización administrativa de funciones de control de tránsito a municipios menores, reduciendo carga del aparato provincial. Responde a demandas de autonomía municipal en gestión de seguridad vial local. Conjunto de localidades seleccionadas (pequeñas a medianas) sugiere programa piloto de extensión progresiva.",
+    "oficialista": "Fortalece capacidades locales de control de tránsito mediante capacitación y habilitación profesional, mejorando seguridad vial a escala municipal sin incrementar burocracia provincial.",
+    "opositora": "Falta transparencia en cantidad y identidad de habilitados (Anexos no publicados). No se especifican estándares de calificación, tasa de aprobación de evaluación, ni mecanismos de supervisión posterior de desempeño de nuevas autoridades."
+   },
+   "texto_oficial": "1°. - APROBAR lo actuado en el proceso de evaluación realizado a través de plataformas digitales de esta Dirección General al personal dependiente de las localidades de: Mendiolaza, Río Ceballos, Tuclame, Marull, Matorrales, Pasco, Las Varillas, Salsipuedes y La Para, el cual fue llevado adelante por el área de capacitación de esta Dirección General e instrumentado mediante las Actas N° 28/2026 de fecha 28/07/2026 y N°30/2026 de fecha 29/07/2026. 2° - HABILITAR en carácter de Autoridad de Control al personal nominado en el Anexo I y II que forma parte integrante de la presente Resolución, con las matrículas asignadas en cada caso. 3°. - ORDENAR por el área de capacitación de esta Dirección General, se proceda a la inscripción en los registros pertinentes del personal habilitado conforme al artículo precedente consignado en los Anexos I y II, de la presente Resolución.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_140926.pdf"
+  },
+  {
+   "tipo": "Licitación",
+   "clase": "licitacion",
+   "numero": "Expte. 0953-001188/2026",
+   "titulo": "Construcción Centros Deportivos, Recreativos y Sociales en El Fortín, Cintra y Cavanagh",
+   "importa": "ACIF lanza licitación pública digital para construcción de tres centros deportivos, recreativos y sociales en El Fortín, Cintra y Cavanagh. Presupuesto oficial: $1.851.477.687,30 (IVA incluido). Plazo ejecución: 220 días. Apertura ofertas: 2 de octubre de 2026.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto 583/2016 (plataforma digital de compras públicas) y Ley Provincial 8.614. Especifica monto presupuestario, plazo, categoría de obra (PRIMERA, Arquitectura 100%), fecha de apertura y visita técnica obligatoria (22.09.2026). Garantía de oferta: 1% del presupuesto. El texto no aclara si obras son financiadas por ACIF o transferidas a municipios, ni especifica si responden a programa de expansión territorial previo o son demandas puntuales.",
+    "politica": "Inversión en infraestructura deportiva-recreativa social en localidades pequeñas del interior refuerza presencia estatal territorial y puede responder a demandas electorales de municipios gobernados por coalición provincial. ACIF como ejecutora permite acceso a financiamiento mixto y gestión profesionalizada.",
+    "oficialista": "Amplía acceso a infraestructura deportiva de calidad en localidades menores, promoviendo integración territorial e inclusión social.",
+    "opositora": "Monto muy elevado ($1.850M) para tres pequeños centros sugiere posible sobrecosto o inflación de presupuesto; no consta análisis de viabilidad financiera de operación y mantenimiento posterior; obra en localidades pequeñas puede tener baja utilización real."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000306, de fecha 02 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra \"CONSTRUCCIÓN CENTROS DEPORTIVOS, RECREATIVOS Y SOCIALES EN LAS CIUDADES DE EL FORTÍN, CINTRA Y CAVANAGH\". 8.- PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS MIL OCHOCIENTOS CINCUENTA Y UNO MILLONES CUATROCIENTOS SETENTA Y SIETE MIL SEISCIENTOS OCHENTA Y SIETE CON 30/100 ($1.851.477.687,30), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. 9.- PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de doscientos veinte (220) días corridos, a contar desde la fecha en que se suscriba el Acta de Replanteo.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_140926.pdf"
+  },
+  {
+   "tipo": "Licitación",
+   "clase": "licitacion",
+   "numero": "Expte. 0045-027796/2026",
+   "titulo": "Puente sobre Río Panaholma en San Lorenzo, Departamento San Alberto",
+   "importa": "ACIF licita construcción de puente sobre Río Panaholma en localidad de San Lorenzo (Dpto. San Alberto). Presupuesto oficial: $2.711.492.970,78 (IVA incluido). Categoría: Vial (100%). Plazo: 365 días. Doble apertura; apertura de presentación: 2 de octubre de 2026.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública digital, Decreto 583/2016, Ley 8.614. Especifica procedimiento de doble apertura (presentación y propuesta separadas), plazo de ejecución de un año, garantía 1%. Obra vial clasificada como Primera Categoría. El texto no incluye detalles técnicos del puente (luz, capacidad, materiales), ni especifica si reemplaza estructura existente o es nueva construcción.",
+    "politica": "Obra de conectividad rural en zona poco poblada (San Alberto es departamento del sur lejano cordobés). Presupuesto significativo ($2.700M) para infraestructura que beneficia a población dispersa; puede responder a acuerdos municipales o provinciales de expansión vial.",
+    "oficialista": "Mejora acceso vial en zona rural, favoreciendo transportes de mercaderías y servicios, integrando territorios alejados.",
+    "opositora": "Inversión muy importante en obra de bajo tránsito potencial; ausencia de estudio de demanda o impacto económico esperado; costo por año de ejecución muy elevado sugiere complejidad no explicada en el aviso."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000305, de fecha 02 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra \"PUENTE SOBRE RIO PANAHOLMA EN LA LOCALIDAD DE SAN LORENZO - DEPARTAMENTO: SAN ALBERTO\". 8.- PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS DOS MIL SETECIENTOS ONCE MILLONES CUATROCIENTOS NOVENTA Y DOS MIL NOVECIENTOS SETENTA CON 78/100 ($2.711.492.970,78), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. 9.- PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de trescientos sesenta y cinco (365) días corridos, a contar desde la fecha en que se suscriba el Acta de Replanteo.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_140926.pdf"
+  },
+  {
+   "tipo": "Licitación",
+   "clase": "licitacion",
+   "numero": "Expte. 0047-000629/2026",
+   "titulo": "Construcción Escuela Superior de Formación Profesional La Bolsa, Dpto. Santa María",
+   "importa": "ACIF licita construcción de Escuela Superior de Formación Profesional en La Bolsa (Dpto. Santa María). Presupuesto oficial: $4.145.401.121,33 (IVA incluido). Categoría: Arquitectura (100%). Plazo: 360 días. Apertura: 5 de octubre de 2026. Visita técnica obligatoria: 28 de septiembre.",
+   "seccion": "4",
+   "pagina": 7,
+   "ampliada": {
+    "juridica": "Licitación digital, Decreto 583/2016, Ley 8.614. Especifica categoría arquitectura, plazo anual, garantía 1%. El aviso no detalla especialidades educativas que ofrecerá la escuela, capacidad de matrícula, ni articulación con sistema educativo provincial o nacional.",
+    "politica": "Inversión educativa en localidad del interior (~$4.145M) para educación profesional-técnica. Responde a demanda de formación de oficios en zonas rurales. La ubicación en Santa María (zona ganadera-agrícola) sugiere orientación hacia capacitación en sectores productivos locales. Timing: antes de ciclo electoral 2027.",
+    "oficialista": "Amplía ofertas de educación técnica de calidad en territorio interior, preparando recursos humanos para sectores productivos locales.",
+    "opositora": "Presupuesto muy elevado para localidad de ~2.000 habitantes; falta justificación de demanda educativa; riesgo de subutilización de infraestructura si no hay integración curricular con empresas locales."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000321, de fecha 09 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra \"CONSTRUCCIÓN ESCUELA SUPERIOR DE FORMACIÓN PROFESIONAL LA BOLSA - DPTO. SANTA MARÍA\". 8.- PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS CUATRO MIL CIENTO CUARENTA Y CINCO MILLONES CUATROCIENTOS UNO MIL CIENTO VEINTIUNO CON 33/100 ($4.145.401.121,33), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. 9.- PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de trescientos sesenta (360) días corridos, a contar desde la fecha en que se suscriba el Acta de Replanteo.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_140926.pdf"
+  },
+  {
+   "tipo": "Licitación",
+   "clase": "licitacion",
+   "numero": "Expte. 0047-000341/2025",
+   "titulo": "Construcción Nuevo Edificio para Hospital de Oliva, Departamento Tercero Arriba",
+   "importa": "ACIF licita construcción de nuevo edificio para Hospital de Oliva (Dpto. Tercero Arriba). Presupuesto oficial: $47.171.775.026,86 (IVA incluido, monto más elevado de la edición). Categoría: Arquitectura (100%). Plazo: 540 días. Apertura: 29 de septiembre de 2026.",
+   "seccion": "4",
+   "pagina": 7,
+   "ampliada": {
+    "juridica": "Licitación digital conforme Decreto 583/2016, Ley 8.614. Especifica monto presupuestario muy significativo, plazo de ejecución de 18 meses (doble respecto a otras obras educativas), categoría arquitectónica. El aviso no detalla: capacidad de camas, especialidades médicas, población objetivo, ni justificación de por qué un nuevo edificio en lugar de ampliación de existente. Posible relación con tema vigilado 'emergencia hídrica' (Oliva está en Tercero Arriba, zona de posibles restricciones de agua) no mencionada.",
+    "politica": "Inversión más grande de la edición ($47.171M) para hospital en localidad pequeña. Oliva tiene población ~1.500 hab.; obra de esa envergadura requiere justificación de rol regional del hospital (referencia para zona amplia). Plazo extenso (540 días) sugiere complejidad constructiva o limitaciones presupuestarias graduales. Posible respuesta a conflicto sanitario previo o demanda de infraestructura histórica insatisfecha.",
+    "oficialista": "Infraestructura sanitaria de calidad en interior remoto, mejorando cobertura y reduciendo necesidad de derivaciones de urgencia a centros urbanos.",
+    "opositora": "Monto desproporcionado para población de cobertura; falta análisis de viabilidad operativa (recursos humanos, mantenimiento, financiamiento de funcionamiento); riesgo de obra incompleta si presupuesto provincial se contrae; no hay mención de articulación con APROSS o sistema de salud provincial."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000327 , de fecha 10 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra \"CONSTRUCCIÓN NUEVO EDIFICIO PARA EL HOSPITAL DE OLIVA, DEPARTAMENTO TERCERO ARRIBA\". 8.- PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS CUARENTA Y SIETE MIL CIENTO SETENTA Y UNO MILLONES SETECIENTOS SETENTA Y CINCO MIL VEINTISEIS CON 86/100 ($47.171.775.026,86), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. 9.- PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de quinientos cuarenta (540) días corridos, a contar desde la fecha en que se suscriba el Acta de Replanteo.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_140926.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Jefatura de Gabinete",
+   "titulo": "Designación de Escribana Titular",
+   "detalle": "Se designa a Marta Gabriela SEBASTE (DNI 12.362.377, Matrícula 1464) como Escribana Titular del Registro Notarial Nº 492, con asiento en Las Varillas, Departamento San Justo. Designación después de renuncia de titular anterior (Antonio Martín PALMERO) por jubilación.",
+   "organismo": "Tribunal de Disciplina Notarial / Registro Notarial Nº 492",
+   "pagina": 4,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_140926.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Ministerio de Seguridad Nº 851",
+   "titulo": "Designación de Representante Provincial en Comando Unificado Federal",
+   "detalle": "Se designa al Jefe de Policía Crio. General Marcelo Alejandro Marín para actuar conjuntamente con el Ministro de Seguridad como representantes provinciales en el Comando Unificado Federal Córdoba para visita papal.",
+   "organismo": "Ministerio de Seguridad / Comando Unificado Federal",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_140926.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "851",
+   "titulo": "Ministerio de Seguridad – Comando Unificado Federal Córdoba Viaje Apostólico",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "83 Letra:D",
+   "titulo": "Ministerio de Economía – Modificación Programa Becas Medición de Bienestar",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "84 Letra:D",
+   "titulo": "Ministerio de Economía – Modificación Programa Becas Soporte a Subsecretarías",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "16",
+   "titulo": "Ministerio Jefatura de Gabinete – Designación Escribana Titular Registro 492",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "525",
+   "titulo": "Secretaría General de Salud y Desarrollo Humano – Programa Provincial Emprender",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "600",
+   "titulo": "Secretaría General de Salud y Desarrollo Humano – Programa VIA Viviendas Vida Independiente",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "41",
+   "titulo": "Dirección General Prevención Accidentes Tránsito – Habilitación Autoridades Control",
+   "seccion": "1",
+   "pagina": 6
+  },
+  {
+   "tipo": "Fe de Errata",
+   "numero": "519",
+   "titulo": "Secretaría General Salud y Desarrollo Humano – Corrección de fecha",
+   "seccion": "1",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000306",
+   "titulo": "ACIF – Centros Deportivos El Fortín, Cintra, Cavanagh",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000305",
+   "titulo": "ACIF – Puente Río Panaholma, San Lorenzo",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000299",
+   "titulo": "ACIF – Escuela Primaria Las Higueras",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000318",
+   "titulo": "ACIF – Escuela Secundaria Cosquín",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000313",
+   "titulo": "ACIF – Obras Mayores Establecimientos Educativos Grupo 7 Capital",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000314",
+   "titulo": "ACIF – Obras Mayores Establecimientos Educativos Grupo 10 Capital",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "01/2026",
+   "titulo": "Dirección General Vivienda – Servicio Logística Postal 25.000 cartas",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/RSIHG-00000689",
+   "titulo": "Secretaría Infraestructura Hídrica – Defensa Escurrimiento Oeste El Tío",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "000004/2026",
+   "titulo": "Universidad Provincial Córdoba – Módulo Anexo Sede Regional Villa María",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "RP 2094",
+   "titulo": "ERSeP – Adquisición tres vehículos cero kilómetros",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000322",
+   "titulo": "ACIF – Pavimentación Ruta Prov. S-433 Río Primero",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000325",
+   "titulo": "ACIF – Centros Deportivos Guanaco Muerto, Conlara, Colazo",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000327",
+   "titulo": "ACIF – Hospital Oliva Tercero Arriba",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/ACIFR-00000321",
+   "titulo": "ACIF – Escuela Superior Formación Profesional La Bolsa",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "2026/000022",
+   "titulo": "CASISA – Rehabilitación Juntas Dilatación Puentes RAC",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "1481",
+   "titulo": "EPEC – Adquisición Electroventiladores Taller Río Cuarto",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "1482",
+   "titulo": "EPEC – Adquisición Repuestos Compresores Regulación",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "1483",
+   "titulo": "EPEC – Provisión Bujías Encendido Turbinas Gas",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "1485",
+   "titulo": "EPEC – Adquisición Instrumental Medición Control",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "1480",
+   "titulo": "EPEC – Producto Absorbente Hidrocarburo",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "1484",
+   "titulo": "EPEC – Servo Válvula Direccional Bosch Rexroth",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "5592",
+   "titulo": "EPEC – ET Cruz del Eje Nueva 132/13,2 kV",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "5596",
+   "titulo": "EPEC – Construcción Operación Mantenimiento CTBRS Piedras Blancas Etapa 1",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "2026/000045",
+   "titulo": "APROSS – Adquisición tres vehículos furgón Iveco",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "2026/000013",
+   "titulo": "Secretaría Desarrollo Social – Servicio integral limpieza inmuebles Complejo Pizzurno",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "2026",
+   "titulo": "Audiencia Pública Ambiental – Estación de Servicio Villa General Belgrano",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Compulsa Abreviada",
+   "numero": "2026/000421",
+   "titulo": "Tribunal Superior Justicia – Servicios Diseño Editorial Comunicación Visual",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Ley 9150",
+   "titulo": "Unidad Ejecutora Saneamiento Títulos – Múltiples expedientes de posesión",
+   "seccion": "4",
+   "pagina": 11
+  }
+ ],
+ "telegram": "📋 Boletín Nº 178 del 14-09-2026: 33 normas. Destacado: participación de Córdoba en Comando Unificado Federal para visita papal (nov.); 2 nuevos programas de discapacidad (Emprender, VIA); licitaciones por $47.171M (Hospital Oliva) y 9 obras de infraestructura educativa, vial y deportiva. Accedé a la app ↓",
+ "hora_procesado": "07:32",
+ "estado": "publicado"
+}
