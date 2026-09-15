@@ -1,0 +1,396 @@
+{
+ "fecha": "2026-09-15",
+ "numero_boletin": "179",
+ "sintesis_juridica": [
+  "Se publican tres decretos de designación de magistrados reemplazantes: Alan Damián Hellin como Juez de Primera Instancia en Deán Funes (Decreto Nº 92), Valeria Liliana Brain como Fiscal de Instrucción en Huinca Renancó (Decreto Nº 93) y Natalia Carolina Pacheco como Jueza de Control y Faltas Nº 5 en Córdoba (Decreto Nº 94). Todos cuentan con acuerdo de la Legislatura Provincial conforme al artículo 104 inciso 42 de la Constitución Provincial y se imputan al Presupuesto Vigente de la Jurisdicción del Poder Judicial.",
+  "Se aprueba la Resolución Nº 87 del Ministerio de Economía que reglamenta la Ley Nº 11.137 (Programa Provincial de Alivio y Reordenamiento del Endeudamiento Familiar), fijando condiciones de elegibilidad para solicitantes (ingresos máximos de diez SMVM, límites de bienes registrables e inversiones financieras) y estableciendo procedimientos de adhesión de entidades otorgantes, acreditación y control. Se aprueba también la Resolución Nº 3548 del Ministerio de Desarrollo Social que impone a beneficiarios del Programa de Becas 'Promotores Sociales' la presentación de certificados de antecedentes penales y declaración jurada sobre incompatibilidades laborales dentro de treinta días hábiles."
+ ],
+ "sintesis_politica": [
+  "Las designaciones de magistrados responden al ciclo normal de cobertura transitoria de cargos vacantes, con acuerdos ya prestados por la Legislatura en agosto. Son designaciones menores en términos de controversia política, aunque reflejan el funcionamiento del sistema de selección judicial basado en propuestas del Consejo de la Magistratura.",
+  "El Programa de Alivio del Endeudamiento Familiar avanza en su operacionalización tras la sanción de la Ley Nº 11.137. La reglamentación establece estándares claros de acceso y control, evitando subsidios explícitos (la norma aclara que no es garantía provincial) pero habilitando tasas fijas máximas del 35% TNA. Es una política de alcance social dirigida a familias con ingresos bajos que enfrenten deuda de consumo. Los nuevos requisitos de antecedentes penales para becarios sociales responden a auditoría administrativa, sin conflictividad política aparente."
+ ],
+ "normas": [
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "92",
+   "titulo": "Designación de Alan Damián Hellin como Juez de Primera Instancia reemplazante en Deán Funes",
+   "importa": "Designa al abogado Alan Damián Hellin (DNI 33.047.089) como Juez de Primera Instancia reemplazante en el Juzgado de Primera Instancia en lo Civil, Comercial, Conciliación y Familia de Deán Funes (Novena Circunscripción Judicial), conforme propuesta del Consejo de la Magistratura y acuerdo de la Legislatura Provincial. Cargo transitorio hasta cobertura definitiva por concurso o cese del impedimento conforme Ley 8802.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "El decreto respeta los trámites constitucionales: propuesta del Consejo de la Magistratura (Acuerdo Nº 30 del 19/05/2026), acuerdo de la Legislatura Provincial (R-4305/26 del 26/08/2026 conforme artículo 104 inciso 42 de la Constitución Provincial) y refrendo por el Ministro de Justicia y Fiscal de Estado. No presenta vicios formales detectables. La imputación presupuestaria se realiza a partida específica de Personal (Jurisdicción 3.00, Programa 920).",
+    "politica": "Se trata de un movimiento de cobertura transitoria de vacancia. No hay controversia política identificable. El plazo de 30 días entre acuerdo legislativo (26/08) y decreto de designación (11/09) es razonable.",
+    "oficialista": "El Ejecutivo cumple puntualmente con los trámites legales y constitucionales para proveer la administración de justicia en una localidad del interior. La designación transitoria permite funcionalidad mientras se convoca a concurso.",
+    "opositora": "No hay elementos en el texto que justifiquen crítica. La regularidad de los procedimientos es evidente."
+   },
+   "texto_oficial": "Artículo 1º.- DESÍGNASE al señor abogado Alan Damián HELLIN, D.N.I. N° 33.047 .089, como Juez de Primera Instancia \"reemplazante\" en el Juzgado de Primera Instancia en lo Civil, Comercial, Conciliación y Familia de la ciudad de Deán Funes, perteneciente a la Novena Circunscripción Judicial. Artículo 2º.- El egreso que demande el cumplimiento de lo dispuesto en el Artículo anterior se imputará a la Jurisdicción 3.00, Programa 920, Partida Parcial 01, Grupo 26, cargo 030, del Presupuesto Vigente. Artículo 3º.- El presente Decreto será refrendado por el señor Ministro de Justicia y Trabajo, y el señor Fiscal de Estado. Artículo 4º.- PROTOCOLÍCESE, comuníquese al Tribunal Superior de Justicia, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "93",
+   "titulo": "Designación de Valeria Liliana Brain como Fiscal de Instrucción reemplazante en Huinca Renancó",
+   "importa": "Designa a la abogada Valeria Liliana Brain (DNI 28.344.436) como Fiscal de Instrucción reemplazante en la Fiscalía de Fuero Múltiple de Huinca Renancó (Segunda Circunscripción Judicial), conforme propuesta del Consejo de la Magistratura (Acuerdo Nº 41 del 01/07/2026) y acuerdo de la Legislatura Provincial (R-4307/26 del 26/08/2026). Cargo transitorio hasta cobertura definitiva por concurso o cese del impedimento conforme Ley 8802.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Cumple con trámites constitucionales: propuesta del Consejo de la Magistratura, acuerdo de Legislatura conforme artículo 104 inciso 42 de la Constitución Provincial, y refrendo por Ministro de Justicia y Fiscal de Estado. Imputación presupuestaria a Jurisdicción 3.00, Programa 921 (Fiscalía de Instrucción). No presenta vicios formales.",
+    "politica": "Designación ordinaria de fiscal reemplazante. Sin controversia política. La data entre acuerdo legislativo (26/08) y decreto (11/09) es estándar.",
+    "oficialista": "Cumplimiento regular de los procedimientos de selección judicial para cubrir función esencial en comarca del interior.",
+    "opositora": "Sin observaciones relevantes de fondo."
+   },
+   "texto_oficial": "Artículo 1º.- DESÍGNASE a la señora abogada Valeria Liliana BRAIN, D.N.I. N° 28.344.436, como Fiscal de Instrucción \"reemplazante\" en la Fiscalía de Fuero Múltiple de la ciudad de Huinca Renancó, pertenecientes a la Segunda Circunscripción Judicial. Artículo 2º.- El egreso que demande el cumplimiento de lo dispuesto en el Artículo anterior se imputará a la Jurisdicción 3.00, Programa 921, Partida Parcial 01, Grupo 26, cargo 045, del Presupuesto Vigente.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "94",
+   "titulo": "Designación de Natalia Carolina Pacheco como Jueza de Control y Faltas reemplazante en Córdoba",
+   "importa": "Designa a la abogada Natalia Carolina Pacheco (DNI 28.558.413) como Jueza de Control y Faltas reemplazante en el Juzgado de Control y Faltas Nº 5 de Córdoba (Primera Circunscripción Judicial), conforme propuesta del Consejo de la Magistratura (Acuerdo Nº 32 del 19/05/2026) y acuerdo de la Legislatura Provincial (R-4306/26 del 26/08/2026).",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Designación transitoria conforme procedimiento constitucional vigente: propuesta del Consejo de la Magistratura, acuerdo de la Legislatura (artículo 104 inciso 42 Constitución Provincial), refrendo ministerial. Imputación a Jurisdicción 3.00, Programa 920. Sin defectos formales detectables.",
+    "politica": "Cobertura ordinaria de vacancia en juzgado de Córdoba capital. No hay conflictividad político-institucional.",
+    "oficialista": "Designación conforme procedimientos regulares de selección judicial.",
+    "opositora": "Sin observaciones."
+   },
+   "texto_oficial": "Artículo 1º.- DESÍGNASE a la señora abogada Natalia Carolina PACHECO, D.N.I. N° 28.558.413, como Jueza de Control y Faltas \"reemplazante\" en el Juzgado de Control y Faltas N° 5 de la ciudad de Córdoba, pertenecientes a la Primera Circunscripción Judicial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "87 - Letra D",
+   "titulo": "Reglamentación Ley Nº 11.137 - Programa Provincial de Alivio y Reordenamiento del Endeudamiento Familiar",
+   "importa": "Reglammenta la Ley Nº 11.137 sobre Programa Provincial de Alivio y Reordenamiento del Endeudamiento Familiar. Establece condiciones de elegibilidad: ingresos mensuales máximos de 10 SMVM del grupo familiar, máximo un inmueble para casa-habitación, límite de hasta dos automotores con base imponible de $29.800.000 (año 2026), prohibición de embarcaciones, y restricción de inversiones financieras. Tasa Nominal Anual máxima del 35% y plazo de devolución entre 24 y 48 cuotas. Exige declaración jurada de condiciones de elegibilidad, acreditación ante Dirección General de Rentas y mecanismos de control uniforme.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La resolución operacionaliza una ley provincial (Nº 11.137) dentro de competencia del Ministerio de Economía. Define con precisión técnica las condiciones económicas y patrimoniales (artículos 3 a 5), establece procedimiento de adhesión de entidades financieras mediante convenio modelo (Anexo I), y faculta a DGR para dictar normas complementarias en su ámbito. El artículo 8 reitera que no constituye garantía, aval, subsidio ni asunción de riesgo por la Provincia. Los mecanismos de identificación de operaciones (artículo 9) y registro de adhesiones (artículo 7) son adecuados para control tributario. No presenta vicios formales aparentes, aunque el articulado es complejo y remite frecuentemente a anexos (Anexo I).",
+    "politica": "El Programa se posiciona como medida de alivio social en contexto macroeconómico adverso. Al fijar tasas máximas del 35% TNA se busca competir con mercado de crédito de consumo, sin competir directamente. La estructura de elegibilidad (ingresos bajos, patrimonio limitado) orienta el beneficio hacia sectores vulnerables. La restricción de inversiones financieras evita que ahorradores o inversores accedan. No hay subsidio explícito pero sí regulación del costo del crédito.",
+    "oficialista": "Es medida compensatoria que facilita refinanciación de deudas existentes sin aumentar gasto público, mediante condiciones financieras razonables y control administrativo sobre entidades otorgantes. Favorece a familias cordobesas afectadas por crisis macroeconómica.",
+    "opositora": "Podría señalarse que tasas del 35% TNA siguen siendo altas para población vulnerable, y que la Provincia no garantiza el riesgo pero sí regula y controla, lo que implica algún respaldo reputacional. El límite de ingresos en 10 SMVM es restrictivo."
+   },
+   "texto_oficial": "Artículo 1º - Objeto. La presente Resolución reglamenta los artículos 4°, 5° y 8° de la Ley N° 11 .137 y establece las condiciones de elegibilidad, el procedimiento de adhesión de las entidades y los mecanismos de control aplicables al Programa Provincial de Alivio y Reordenamiento del Endeudamiento Familiar. Artículo 3º - Condiciones económicas y patrimoniales. El Solicitante en el marco del artículo 4° de la Ley N° 11 .137 deberá cumplir, a la fecha de presentación de su solicitud, las siguientes condiciones económicas y patrimoniales: a) Ingresos. El ingreso mensual total del Solicitante y, cuando corresponda, de su grupo familiar conviviente no deberá superar el equivalente a diez (10) Salarios Mínimos, Vitales y Móviles (SMVM)... b) Bienes registrables. El Solicitante deberá cumplir las siguientes condiciones: 1 . ser titular o poseedor a título de dueño de hasta un único inmueble y cuyo destino sea la casa-habitación del beneficiario. 2. no poseer más de dos (2) automotores o que la base imponible... no sea superior a Pesos Veintinueve Millones Ochocientos Mil ($ 29.800.000,00)... 3. no poseer embarcaciones. c) Inversiones financieras... Artículo 8º - Condiciones financieras. Cada Convenio precisará las condiciones operativas y financieras de la línea del préstamo especial, respetando una Tasa Nominal Anual fija máxima del treinta y cinco por ciento (35 %) y un plazo de devolución no inferior a veinticuatro (24) ni superior a cuarenta y ocho (48) cuotas mensuales.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "3548",
+   "titulo": "Programa de Becas 'Promotores Sociales' - Nuevos requisitos de antecedentes penales y compatibilidad laboral",
+   "importa": "Modifica condiciones de permanencia en Programa de Becas 'Promotores Sociales' (autorizado por Resolución Nº 2026/PRDSE-00002147). Impone a beneficiarios la presentación, dentro de 30 días hábiles, de: certificado de antecedentes penales de la Policía de Córdoba, certificado del Registro Nacional de Reincidencia (si el anterior tiene más de 6 meses), certificado de Registro de Deudores Alimentarios Morosos, y certificado de no inscripción en Registro Provincial de Delitos contra la Integridad Sexual. Exige declaración jurada sobre ausencia de otra relación laboral pública o privada (excepto docencia) y compromiso de informar inmediatamente cambios en situación laboral o involucramiento en causas penales o contravencionales.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "La resolución se ampara en competencia otorgada por Decreto Nº 2206/23 (y sus ratificatorias: Leyes 10956, 11094, 11110) y en modificación previa del Reglamento Operativo mediante Resolución Nº 2026/SGG-00000911. Los requisitos de antecedentes penales, inscripción en registros de deudores alimentarios y causas contra integridad sexual son estándares en contratación pública y privada con responsabilidad frente a terceros. La exigencia de incompatibilidad laboral es razonable para becas de dedicación. Sin embargo, el texto no aclara si los beneficiarios ya en programa deben cumplir en 30 días o si sólo aplica a nuevos ingresos (artículo 2 dice 'emplácese'), generando potencial ambigüedad aplicativa.",
+    "politica": "Medida de control administrativo y reducción de riesgo reputacional. Los requisitos de antecedentes responden a estándares de due diligence pero pueden resultar onerosos para población vulnerable (obtener múltiples certificados, actualizar registros). No hay controversia política aparente, es una auditoría interna.",
+    "oficialista": "Fortalece integridad del programa mediante requisitos estándar de verificación de antecedentes, coherente con fondos públicos.",
+    "opositora": "La exigencia de múltiples certificados en 30 días puede ser desproporcionada para becarios de bajo ingreso; el costo de obtener certificados no se contempla."
+   },
+   "texto_oficial": "Artículo 1º.- DISPONER que los beneficiarios del Programa de Becas \"Promotores Sociales\" autorizados por la Resolución N°2026/PRDSE-00002147 de este Ministerio, como condición de permanencia en el mismo, deberán cumplir con las condiciones de ingreso previstas en el artículo 4º del Reglamento Operativo para la gestión e implementación de programas de becas regido por la Resolución Nº2024/SGG-00000099... Artículo 2º.- EMPLÁCESE a los beneficiarios del Programa de Becas \"Promotores Sociales\" autorizados por la Resolución N°2026/PRDSE-00002147 de este Ministerio para que, en el plazo de treinta (30) días hábiles y como condición de permanencia en el mismo, presenten por ante la Dirección de Jurisdicción de Recursos Humanos de este Ministerio, el certificado de antecedentes penales expedido por la Policía de la Provincia de Córdoba...",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1264 - Letra J",
+   "titulo": "Licitación Pública Nº 10/2026 - Adquisición de Alimento Balanceado para Canes de la Policía",
+   "importa": "Aprueba Pliegos de Condiciones Generales, Particulares y Especificaciones Técnicas y autoriza Licitación Pública Nº 10/2026 para adquisición de alimento balanceado para canes de la División Intendencia (Dirección Logística) de la Policía de la Provincia de Córdoba, con presupuesto oficial de PESOS OCHENTA Y UN MILLONES OCHENTA Y CUATRO MIL SEISCIENTOS VEINTICINCO CON TREINTA Y CUATRO CENTAVOS ($ 81.084.625,34). La erogación se imputará parcialmente al presupuesto vigente 2026 ($27.027.051,04) y en anticipo para ejercicio 2027 ($54.057.574,30).",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "La Resolución se ampara en Ley Nº 10.155/2013 (Régimen de Compras y Contrataciones) reglamentada por Decreto Nº 305/2014, y en artículo 46 de Ley Nº 11.088/2025 (fijación de Índice Uno). Procede conforme a procedimiento de licitación pública ordinaria. Imputación presupuestaria sobre Jurisdicción 1.75 (Policía), Programa 757 (Servicios Policiales), se distribuye entre 2026 y anticipos 2027. La apertura está prevista para 25 de septiembre de 2026 a las 10:00 horas. El monto en pesos es significativo (81 millones aproximados), pero corresponde a provisión ordinaria de insumo para operaciones policiales.",
+    "politica": "Es licitación ordinaria de insumo para institución de seguridad. El desglose presupuestario entre ejercicio vigente y anticipo 2027 puede reflejar restricciones presupuestarias, pero es procedimiento técnico estándar. No hay conflictividad política aparente.",
+    "oficialista": "Procedimiento conforme a normas de contratación pública, con presupuesto estimado y anticipos documentados.",
+    "opositora": "El monto significativo podría cuestionarse en contexto de austeridad, pero es partida legitimada para seguridad pública."
+   },
+   "texto_oficial": "1. APROBAR los Pliegos de Condiciones Generales, Particulares y de Especificaciones Técnicas que rigen la presente licitación. 2. AUTORIZAR al Departamento Finanzas a realizar, por intermedio de la División Contrataciones, el llamado a Licitación Pública Nº: 10/2026 para la \" ADQUISICIÓN DE ALIMENTO BALANCEADO PARA CANES CON DESTINO A LA DIVISIÓN INTENDENCIA (DIRECCIÓN LOGÍSTICA) DE LA POLICÍA DE LA PROVINCIA DE CÓRDOBA \" , hasta la suma total estimada de PESOS OCHENTA Y UNO MILLONES OCHENTA Y CUATRO MIL SEISCIENTOS VEINTICINCO CON TREINTA Y CUATRO CENTAVOS ($ 81 .084.625,34)... 4. La erogación correspondiente se imputará a: Jurisdicción 1 .75, Programa 757 (C.E.) Servicios Policiales... hasta la suma de PESOS VEINTISIETE MILLONES VEINTISIETE MIL CINCUENTA Y UNO CON CUATRO CENTAVOS ($ 27 .027 .051,04) del presupuesto vigente y como Anticipo Ejercicio Año 2027...",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Licitación",
+   "clase": "licitacion",
+   "numero": "ACIF - Exp. 0047-000312/2025",
+   "titulo": "Construcción Escuela de Secundaria con Formación Profesional de Cosquín - Departamento Punilla",
+   "importa": "ACIF (Agencia Córdoba de Inversión y Financiamiento S.E.M.) licita obras de construcción de escuela de nivel secundario con formación profesional en Cosquín (Dpto. Punilla). Presupuesto oficial: PESOS CUATRO MIL CIENTO CINCO MILLONES SEISCIENTOS TREINTA Y UNO MIL TRESCIENTOS SETENTA Y NUEVE CON 56/100 ($4.105.631.379,56) incluyendo IVA. Plazo de ejecución: 360 días corridos desde acta de replanteo. Categoría Primera (Arquitectura 100%). Presenta tema vigilado: obra educativa ejecutada por ACIF.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública conforme Decreto Nº 583/2016 (plataforma digital para Ley Nº 8.614 sobre Obras Públicas). Procedimiento de doble apertura con plazo hasta 28 de septiembre de 2026 a las 10:00 h para presentación digital. Apertura de ofertas 28/09/2026 a las 12:00 h en ACIF. Garantía de mantenimiento de oferta: 1% del presupuesto oficial. El presupuesto es muy significativo (superior a 4 mil millones de pesos). No presenta defectos formales de publicidad.",
+    "politica": "Obra educativa de envergadura en zona del interior (Cosquín, Punilla). ACIF es operador habitual de obras provinciales. El presupuesto y plazo (360 días) son congruentes con obra de arquitectura de este tipo. Podría ser estratégica para oferta educativa rural/rural-cercana.",
+    "oficialista": "Inversión en infraestructura educativa ejecutada por operador especializado con fondos e instrumentos provinciales.",
+    "opositora": "Sin observaciones de fondo a partir del texto licitatorio."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000318, de fecha 08 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra \"CONSTRUCCIÓN ESCUELA DE SECUNDARIA CON FORMACION PROFESIONAL DE COSQUIN - DPTO. PUNILLA\" ... PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS CUATRO MIL CIENTO CINCO MILLONES SEISCIENTOS TREINTA Y UNO MIL TRESCIENTOS SETENTA Y NUEVE CON 56/100 ($4.105.631 .379,56), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de trescientos sesenta (360) días corridos, a contar desde la fecha en que se suscriba el Acta de Replanteo.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Licitación",
+   "clase": "licitacion",
+   "numero": "ACIF - Exp. 0045-027643/2026",
+   "titulo": "Pavimentación Ruta Provincial S-433 - Tramo Prog 38+500 a 50+420 (Va. Santa Rosa – Int. R.P. Nº 10) - Departamento Río Primero",
+   "importa": "ACIF licita obra vial de pavimentación en Ruta Provincial S-433 entre Villa Santa Rosa e intersección R.P. Nº 10, Departamento Río Primero. Presupuesto oficial: PESOS VEINTIUN MIL DOSCIENTOS DOCE MILLONES CIENTO SETENTA Y CUATRO MIL QUINIENTOS CINCUENTA Y SEIS CON 78/100 ($21.212.174.556,78) incluyendo IVA. Plazo de ejecución: dieciocho (18) meses desde acta de replanteo. Categoría Primera (Vial 100%). Presenta tema vigilado: obra vial provincial.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación pública con doble apertura conforme Decreto Nº 583/2016. Procedimiento digital; presentación hasta 01 de octubre 2026 a las 12:00 h; apertura de sobres 02/10/2026 a las 12:30 h en Dirección de Vialidad (Figueroa Alcorta 445, PB, Córdoba). Presupuesto estratosférico (21 mil millones de pesos), plazo de 18 meses refleja obra de envergadura. Garantía de mantenimiento 1% del presupuesto. No detecta vicios formales.",
+    "politica": "Obra vial de envergadura provincial. La inversión significativa en pavimentación de ruta secundaria S-433 responde a política de conectividad territorial. Posible relación con preocupación oficialista por infraestructura vial rural (tema vigilado). El presupuesto extraordinario sugiere presión sobre ejercicio vigente y/o 2027.",
+    "oficialista": "Inversión en infraestructura vial clave para conectividad territorial en zona agrícola del departamento Río Primero.",
+    "opositora": "Podría cuestionarse el presupuesto extraordinario en contexto de restricciones fiscales, aunque obra es legítima."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000322, de fecha 09 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra \"PAVIMENTACIÓN RUTA PROV. S-433 – TRAMO: PROG 38+500 A 50+420 (VA. SANTA ROSA – INT. R.P . N°10) – DEPARTAMENTO: RÍO PRIMERO\" ... PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS VEINTIUN MIL DOSCIENTOS DOCE MILLONES CIENTO SETENTA Y CUATRO MIL QUINIENTOS CINCUENTA Y SEIS CON 78/100 ($21 .212.174.556,78)... PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de dieciocho (18) meses...",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Licitación",
+   "clase": "licitacion",
+   "numero": "ACIF - Exp. 0047-000341/2025",
+   "titulo": "Construcción Nuevo Edificio para Hospital de Oliva - Departamento Tercero Arriba",
+   "importa": "ACIF licita construcción de nuevo edificio para Hospital de Oliva (Departamento Tercero Arriba). Presupuesto oficial: PESOS CUARENTA Y SIETE MIL CIENTO SETENTA Y UNO MILLONES SETECIENTOS SETENTA Y CINCO MIL VEINTISÉIS CON 86/100 ($47.171.775.026,86) incluyendo IVA. Plazo de ejecución: quinientos cuarenta (540) días corridos desde acta de replanteo. Categoría Primera (Arquitectura 100%). Visita técnica 22 de septiembre 2026 a las 11:00 h en Emilio Vidal Abal 498-402, Oliva. Presenta tema vigilado: obra sanitaria.",
+   "seccion": "4",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Licitación pública conforme Decreto Nº 583/2016. Procedimiento digital; presentación hasta 28 de septiembre 2026 a las 12:00 h; apertura 29/09/2026 a las 11:30 h en ACIF. Presupuesto extraordinario (47 mil millones) y plazo muy extenso (540 días = aproximadamente 18 meses) sugieren obra de gran complejidad hospitalaria. Garantía de mantenimiento 1%. No hay vicios formales.",
+    "politica": "Obra sanitaria provincial de envergadura. Hospital de Oliva es localidad del departamento Tercero Arriba (zona centro-sur). Inversión sanitaria significativa refleja política de equipamiento territorial de salud. Posible relación con temas de emergencia sanitaria o preexistentes en la región.",
+    "oficialista": "Inversión en infraestructura hospitalaria para zona del interior, mejorando capacidad asistencial provincial.",
+    "opositora": "Sin cuestionamiento evidente del texto."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000327 , de fecha 10 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra \"CONSTRUCCIÓN NUEVO EDIFICIO PARA EL HOSPITAL DE OLIVA, DEPARTAMENTO TERCERO ARRIBA \" ... PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS CUARENTA Y SIETE MIL CIENTO SETENTA Y UNO MILLONES SETECIENTOS SETENTA Y CINCO MIL VEINTISÉIS CON 86/100 ($47 .171 .775.026,86)... PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de quinientos cuarenta (540) días corridos...",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Licitación",
+   "clase": "licitacion",
+   "numero": "EPEC - Nº 5596",
+   "titulo": "Construcción, Operación y Mantenimiento CTBRS Piedras Blancas - Etapa 1",
+   "importa": "EPEC (Empresa Provincial de Energía de Córdoba S.A.U.) licita mediante sistema de doble apertura la obra 'Construcción, Operación y Mantenimiento CTBRS Piedras Blancas - Etapa 1'. Presupuesto oficial: PESOS 15.972.652.074,55. Tercera Clase (Obras de Ingeniería) y Primera Clase (Obras de Arquitectura). Plazo: 450 días. Entrega de sobres hasta 09/10/2026 a las 09:00 h en Mesa de Entradas EPEC (La Tablada Nº 350, Córdoba). Apertura de Sobres en Arturo Orgaz Nº 1279 (Central Dean Funes). Presenta tema vigilado: EPEC.",
+   "seccion": "4",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Licitación de obra pública conforme procedimiento de doble apertura. El operador es EPEC (empresa estatal de energía). Presupuesto muy significativo (casi 16 mil millones de pesos) sugiere obra crítica de infraestructura energética. CTBRS significa Central Térmica de Biomasa, Residuos Sólidos, según siglas. Plazo de 450 días refleja complejidad. No hay defectos formales de publicación.",
+    "politica": "Central de generación térmica en Piedras Blancas (localidad de la provincia, departamento a confirmar). Posible inversión en diversificación de matriz energética o modernización de capacidad térmica de EPEC. El presupuesto es estratégico.",
+    "oficialista": "Inversión en infraestructura energética provincial para mejorar o mantener capacidad de generación y distribución.",
+    "opositora": "Sin observaciones de fondo."
+   },
+   "texto_oficial": "LICITACION PUBLICA Nº 5596 SE REALIZARÁ MEDIANTE EL SISTEMA DE DOBLE APERTURA: 09-10-2026 HORA: 11:00.- OBJETO: \"CONSTRUCCIÓN, OPERACIÓN Y MANTENIMIENTO CTBRS PIEDRAS BLANCAS - Etapa 1\" ... PRESUPUESTO OFICIAL: $ 15.972.652.074,55 .- Tercera Clase: Obras De Ingeniería -Primera Clase: Obras De Arquitectura - Plazo: 450 días...",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_150926.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Decreto Nº 92",
+   "titulo": "Juez de Primera Instancia reemplazante - Juzgado Civil, Comercial, Conciliación y Familia de Deán Funes",
+   "detalle": "Alan Damián Hellin (DNI 33.047.089)",
+   "organismo": "Poder Judicial - Novena Circunscripción Judicial",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Decreto Nº 93",
+   "titulo": "Fiscal de Instrucción reemplazante - Fiscalía de Fuero Múltiple de Huinca Renancó",
+   "detalle": "Valeria Liliana Brain (DNI 28.344.436)",
+   "organismo": "Poder Judicial - Segunda Circunscripción Judicial",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_150926.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Decreto Nº 94",
+   "titulo": "Jueza de Control y Faltas reemplazante - Juzgado de Control y Faltas Nº 5 de Córdoba",
+   "detalle": "Natalia Carolina Pacheco (DNI 28.558.413)",
+   "organismo": "Poder Judicial - Primera Circunscripción Judicial",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_150926.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Decreto",
+   "numero": "92",
+   "titulo": "Designación Alan Damián Hellin - Juez de Primera Instancia reemplazante",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Decreto",
+   "numero": "93",
+   "titulo": "Designación Valeria Liliana Brain - Fiscal de Instrucción reemplazante",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Decreto",
+   "numero": "94",
+   "titulo": "Designación Natalia Carolina Pacheco - Jueza de Control y Faltas reemplazante",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "87 - Letra D",
+   "titulo": "Reglamentación Ley Nº 11.137 - Programa Provincial de Alivio y Reordenamiento del Endeudamiento Familiar",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "3548",
+   "titulo": "Requisitos antecedentes penales y compatibilidad laboral - Programa Becas Promotores Sociales",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1264 - Letra J",
+   "titulo": "Licitación Pública Nº 10/2026 - Adquisición Alimento Balanceado para Canes - Policía",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "ACIF - Exp. 0047-000312/2025",
+   "titulo": "Construcción Escuela de Secundaria con Formación Profesional de Cosquín",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "ACIF - Exp. 0620-002480/2026",
+   "titulo": "Contratación Obras Mayores Establecimientos Educativos Córdoba Capital - Grupo 7",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "ACIF - Exp. 0620-002483/2026",
+   "titulo": "Obras Mayores Establecimientos Educativos Córdoba Capital - Grupo 10",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "Universidad Provincial Córdoba - Exp. 0677-000596/2026",
+   "titulo": "Construcción Módulo Anexo Sede Regional UPC Villa María del Río Seco",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "ACIF - Exp. 0045-027643/2026",
+   "titulo": "Pavimentación Ruta Provincial S-433 - Tramo Prog 38+500 a 50+420",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "ACIF - Exp. 0953-001187/2026",
+   "titulo": "Construcción Centros Deportivos, Recreativos y Sociales en Guanaco Muerto, Conlara y Colazo",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "ACIF - Exp. 0047-000341/2025",
+   "titulo": "Construcción Nuevo Edificio para Hospital de Oliva",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "ACIF - Exp. 0047-000629/2026",
+   "titulo": "Construcción Escuela Superior de Formación Profesional La Bolsa - Dpto. Santa María",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "Policía - Exp. 0002-082264/2026",
+   "titulo": "Licitación Pública Nº 10/2026 - Adquisición Alimento Balanceado para Canes",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "ERSeP - RP 2093",
+   "titulo": "Servicio Control Contaminación Ambiental por Radiación Electromagnética Antenas Telefonía Celular",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "EPEC - Nº 1485",
+   "titulo": "Adquisición de Instrumental de Medición y Control",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "EPEC - Nº 1480",
+   "titulo": "Producto Absorbente de Hidrocarburo",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "EPEC - Nº 1484",
+   "titulo": "Servo Válvula Direccional Bosch Rexroth",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación",
+   "numero": "EPEC - Nº 5596",
+   "titulo": "Construcción, Operación y Mantenimiento CTBRS Piedras Blancas - Etapa 1",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "Policía - Exp. 0002-091121/2026",
+   "titulo": "Adquisición Capas de Lluvia y Banderolas Refractarias - Visita Santo Padre FADEA",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "Fuerza Policial Antinarcotráfico - Exp. 0711-026322/2026",
+   "titulo": "Servicio Integral de Limpieza Bases Operativas FPA",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "Secretaría Desarrollo Sostenible",
+   "titulo": "Audiencia Pública Ambiental - Estación de Servicio Villa General Belgrano",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "Consorcio Caminero Los Pozos Nº 113",
+   "titulo": "Asamblea General Ordinaria 18/09/2026",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Unidad Ejecutora Ley 9150 - Exp. 0535-110728/2021",
+   "titulo": "Inscripción Registro de Posesión - Rosales Marga Silvana Mariana",
+   "seccion": "4",
+   "pagina": 8
+  }
+ ],
+ "telegram": "Boletín Nº 179 del 15/09/2026: 6 normas de alto impacto. Destaca Resolución Nº 87 (Reglamentación Programa de Alivio del Endeudamiento Familiar, tasas máx. 35% TNA, ingresos máx. 10 SMVM) y múltiples licitaciones por ACIF por más de 100 mil millones de pesos en obras educativas, viales y sanitarias. Accedé a la app para detalle completo.",
+ "hora_procesado": "12:07",
+ "estado": "publicado"
+}
