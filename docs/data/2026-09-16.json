@@ -1,0 +1,513 @@
+{
+ "fecha": "2026-09-16",
+ "numero_boletin": "180",
+ "sintesis_juridica": [
+  "La edición del día contiene principalmente actos administrativos de competencia judicial (Resolución Administrativa del TSJ sobre turnos de amparo), licitaciones públicas de obras de infraestructura vial, educativa y sanitaria ejecutadas por ACIF, EPEC y otros organismos, subastas electrónicas de contrataciones menores, y un régimen de contribución por mejoras para obra vial rural. No hay cambios normativos sustantivos en sentido estricto (leyes, decretos reglamentarios o regímenes nuevos), sino actos concretos de ejecución presupuestaria y procedimientos de selección conforme a normativa preexistente.",
+  "La sección de notificaciones contiene edictos de la Unidad Ejecutora (Ley 9150) para inscripción de posesión de inmuebles en diversas localidades, una intimación de la Dirección Gral. de Coordinación y Gestión de Recursos Humanos por recupero de deuda por haberes indebidamente percibidos, y un aviso sobre apertura de registro de oposición para contribución por mejoras en obra vial rural. Todas estas actuaciones se amparan en normativa vigente sin introducir cambios al marco legal."
+ ],
+ "sintesis_politica": [
+  "El boletín refleja una ejecución presupuestaria concentrada en infraestructura vial (pavimentación Ruta Provincial S-433 por $21.212.174.556,78), educativa (tres escuelas superiores y reformas en establecimientos por montos entre $2.291 millones y $47.171 millones), y sanitaria (nuevo edificio para Hospital de Oliva por $47.171.775.026,86). ACIF opera como unidad ejecutora central para obras de gran envergadura. Los plazos de ejecución (18 a 540 días) y presupuestos elevados sugieren continuidad de proyectos multianuales. La concentración de licitaciones en septiembre (apertura en fechas cercanas) refleja calendario de contrataciones regulares sin señales de cambios de prioridades.",
+  "El oficialismo presenta estas licitaciones como inversión en sectores críticos (educación, salud, vialidad), alineadas con compromisos de infraestructura. La oposición podría cuestionar la capacidad de absorción de gastos de tan magnitud en coyuntura de presiones fiscales, o los criterios de zonificación y beneficiarios en la contribución por mejoras. La ausencia de normativas conflictivas sugiere consenso operativo en instrumentos de contratación, aunque la amplitud de montos amerita vigilancia en transparencia de adjudicaciones."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución Administrativa",
+   "clase": "resolucion",
+   "numero": "250",
+   "titulo": "Rectificación parcial del Anexo de la Resolución N° 220/2026 - Modificación de cronograma de turnos de amparo",
+   "importa": "El TSJ rectifica parcialmente el cronograma de turnos para acciones de amparo entre los Juzgados de 1° Instancia Civil y Comercial de 41° y 42° Nominación de la Capital, permutas solicitadas por el Dr. Cornet Roberto Lautaro. Afecta números de orden 63 y 64 con efectos a partir de septiembre 2026.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Acto administrativo intrajudicial que modifica un cronograma preexistente conforme Acuerdo Reglamentario 916/2007 del TSJ. La rectificación es parcial y afecta solo dos números de orden de los turnos «turnero» para amparo; mantiene el resto de los órdenes vigentes. No presenta aparentes vicios formales: está fundado en solicitud cursada, motivado en necesidad de permuta y dotado de firmantes. El instrumento refleja competencia del TSJ para administración interna del Poder Judicial.",
+    "politica": "Acto de gestión procesal rutinaria sin alcance político. Responde a solicitud individual de permuta de turnos entre magistrados de igual jerarquía. No genera impacto en acceso a justicia ni en distribución de carga procesal de fondo.",
+    "oficialista": "Muestra funcionamiento normal y flexible del TSJ para atender solicitudes de magistrados, sin rigidez innecesaria.",
+    "opositora": "Sin elementos controvertibles; acto administrativo menor de gestión interna del Poder Judicial."
+   },
+   "texto_oficial": "Por ello y lo dispuesto en los Artículos 2, 3 y 6 del Acuerdo Reglamentario N° 916/2007, Serie «A», sus modificatorios y ampliatorios del Tribunal Superior de Justicia de la Provincia de Córdoba. Esta Administración General del Poder Judicial de la Provincia de Córdoba RESUELVE: I) RECTIFICAR PARCIALMENTE el Anexo de la Resolución N° 220/2026 de ésta Administración General, el que en una (1) foja útil integra el presente instrumento, como su Anexo. II) MODIFICAR el ANEXO de la mencionada Resolución en lo consignado en los siguientes Números de Orden: N° de orden 63: Juzgado de 1° Instancia Civil y Comercial de 41° Nominación en la fecha del 19/9/2026 al 25/9/2026. N° de orden 64: Juzgado de 1° Instancia Civil y Comercial de 42° Nominación en la fecha del 12/9/2026 al 18/9/2026. III) DISPONER que el resto de los órdenes consignados se deberán mantener en los términos y condiciones estipulados. IV) COMUNICAR y dar la más amplia difusión.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_160926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "Expte. 0045-027643/2026 - Resolución N° 2026/ACIFR-00000322",
+   "titulo": "Pavimentación Ruta Provincial S-433, Tramo Prog 38+500 a 50+420 (Va. Santa Rosa – Int. R.P. N°10), Departamento Río Primero",
+   "importa": "ACIF licita obra vial de categoría primera (100% vial) en Ruta Provincial S-433, tramo de 11,92 km aproximadamente. Presupuesto oficial: $21.212.174.556,78 (IVA incluido). Plazo de ejecución: 18 meses. Apertura de sobres 02/10/2026. El texto no especifica las fuentes de financiamiento ni si se contemplan aportes de contribución por mejoras.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública con soporte digital conforme Decreto 583/2016 y Ley 8.614 de procedimiento de obras públicas. Procedimiento de doble apertura, con consultas permitidas hasta 3 días antes de presentación de ofertas (01/10/2026). Presupuesto oficial publicado sin desglose de IVA separado (incluido en suma total). Garantía de mantenimiento de oferta: 1% del presupuesto. La Resolución de llamado (2026/ACIFR-00000322) del 09/09/2026 otorga competencia clara a ACIF. Técnicamente correcta en procedimiento.",
+    "politica": "Inversión en vialidad rural de magnitud significativa ($21.200 millones) sugiere continuidad de programa de mejora de caminos secundarios. Pliego disponible en portal oficial sin restricciones. Participación abierta. Obra vinculada a zona agrícola (Río Primero); beneficia productores de la región reduciendo costos de transporte y mantenimiento. Timing septiembre 2026 sugiere ejecución 2026-2028 en ciclo presupuestario regular.",
+    "oficialista": "Inversión estructurante en infraestructura vial secundaria que mejora integración territorial y reduce costos logísticos agrícolas, con procedimiento transparente y abierto a todos los oferentes.",
+    "opositora": "Magnitud presupuestaria elevada requiere vigilancia sobre capacidad de absorción fiscal y seguimiento en ejecución; riesgo de desvíos de crédito si surgen conflictos o demoras."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000322, de fecha 09 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra «PAVIMENTACIÓN RUTA PROV. S-433 – TRAMO: PROG 38+500 A 50+420 (VA. SANTA ROSA – INT. R.P. N°10) – DEPARTAMENTO: RÍO PRIMERO». 1.- ENTIDAD U ORGANISMO QUE LICITA: Agencia Córdoba de Inversión y Financiamiento Sociedad de Economía Mixta (A.C.I.F. S.E.M.). 2.- CATEGORÍA DE LA OBRA: PRIMERA. Calificación: VIAL (100%). 3.- PROCEDIMIENTO DE SELECCIÓN: La Licitación se efectuará conforme lo normado por el Decreto Nº 583/2016, que implementa la utilización de una plataforma digital en el procedimiento de Licitación Pública para la ejecución de Obras Públicas previsto por la Ley Nº 8.614 y sus disposiciones reglamentarias y complementarias, y está abierta a todos los Oferentes, según se define en los Documentos de Licitación. [...] 8.- PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS VEINTIUN MIL DOSCIENTOS DOCE MILLONES CIENTO SETENTA Y CUATRO MIL QUINIENTOS CINCUENTA Y SEIS CON 78/100 ($21.212.174.556,78), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. 9.- PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de dieciocho (18) meses, a contar desde la fecha en que se suscriba el Acta de Replanteo.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_160926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "Expte. 0953-001187/2026 - Resolución N° 2026/ACIFR-00000325",
+   "titulo": "Construcción Centros Deportivos, Recreativos y Sociales en Guanaco Muerto, Conlara y Colazo",
+   "importa": "ACIF licita obra de arquitectura (100%) para construcción simultánea de tres centros deportivos, recreativos y sociales en tres localidades del interior provincial. Presupuesto oficial: $2.291.375.391,88 (IVA incluido). Plazo de ejecución: 220 días corridos. Apertura de sobres 02/10/2026. Visita técnica 25/09/2026.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública digital conforme Decreto 583/2016 y Ley 8.614, categoría primera. Procedimiento de doble apertura. Presupuesto total por las tres obras (no desglosado por localidad en el aviso). Plazo más acotado (220 días) que licitación anterior, sugiere menor complejidad constructiva. Garantía de mantenimiento: 1%. Visita técnica obligatoria con indicación de lugar (Av. Juan B. Justo 3600) y horario (12:00 a 14:00 hs.). Técnicamente correcto.",
+    "politica": "Inversión en equipamiento social/deportivo en localidades del interior (Guanaco Muerto, Conlara, Colazo) alineada con política de descentralización territorial. Presupuesto menor que obra vial anterior ($2.290 vs $21.200 millones). Ejecución en 220 días sugiere entrega para período electoral 2027 si se adjudica a fin de 2026. Beneficia comunidades locales con infraestructura recreativa.",
+    "oficialista": "Inversión equitativa en tres localidades del interior, fortaleciendo cohesión territorial y acceso a espacios deportivos y sociales para comunidades fuera de capital.",
+    "opositora": "Obras fragmentadas en tres puntos; riesgo de economías de escala menores. Plazo comprimido (220 días) podría comprometer calidad. Conviene seguimiento en ejecución simultánea de tres frentes."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000325, de fecha 10 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra «CONSTRUCCIÓN CENTROS DEPORTIVOS, RECREATIVOS Y SOCIALES EN LAS CIUDADES DE GUANACO MUERTO, CONLARA Y COLAZO». 1.- ENTIDAD U ORGANISMO QUE LICITA: Agencia Córdoba de Inversión y Financiamiento Sociedad de Economía Mixta (A.C.I.F. S.E.M.). 2.- CATEGORÍA DE LA OBRA: PRIMERA. Calificación: ARQUITECTURA (100%). [...] 8.- PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS DOS MIL DOSCIENTOS NOVENTA Y UNO MILLONES TRESCIENTOS SETENTA Y CINCO MIL TRESCIENTOS NOVENTA Y UNO CON 88/100 ($2.291.375.391,88), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. 9.- PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de doscientos veinte (220) días corridos, a contar desde la fecha en que se suscriba el Acta de Replanteo. 11.- VISITA TÉCNICA: Tendrá lugar el 25 de septiembre de 2026, en el horario de 12:00 a 14:00 h, en Avenida Juan B Justo 3600 de la ciudad de Córdoba, provincia de Córdoba.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_160926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "Expte. 0047-000341/2025 - Resolución N° 2026/ACIFR-00000327",
+   "titulo": "Construcción Nuevo Edificio para Hospital de Oliva, Departamento Tercero Arriba",
+   "importa": "ACIF licita obra de arquitectura (100%) para construcción de nuevo edificio hospitalario en Oliva. Presupuesto oficial: $47.171.775.026,86 (IVA incluido). Plazo de ejecución: 540 días corridos. Apertura de sobres 29/09/2026. Visita técnica 22/09/2026. El mayor presupuesto entre licitaciones del día, refleja magnitud de obra sanitaria.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto 583/2016 y Ley 8.614, categoría primera, arquitectura (100%). Plazo extenso (540 días) acorde a complejidad sanitaria de un edificio hospitalario nuevo. Presupuesto muy elevado ($47.171 millones); es la licitación de mayor monto del boletín. Garantía: 1%. Visita técnica obligatoria (22/09, 11:00 hs., en Emilio Vidal Abal 498-402, Oliva). Expediente abarca desde 2025 (0047-000341/2025), sugiere proyecto en preparación desde ciclo anterior. Técnicamente correcto en forma.",
+    "politica": "Inversión sanitaria de primera magnitud: nuevo edificio para hospital de provincia interior (Tercero Arriba). Monto de $47.171 millones (mayor que suma de dos licitaciones educativas) indica prioridad en infraestructura de salud. Plazo 2027-2028 de ejecución sugiere proyecto de largo aliento. Impacto territorial significativo en localidad de Oliva. Posible relación con compromisos de ampliación de capacidad sanitaria provincial (a confirmar; el aviso no lo menciona).",
+    "oficialista": "Inversión transformadora en infraestructura sanitaria para provincia interior, mejora cobertura y capacidad del sistema público de salud en zona de menor desarrollo relativo.",
+    "opositora": "Presupuesto extraordinario requiere fiscalización rigurosa; riesgo de sobrecostos en obras de envergadura sanitaria. Conviene vigilar adecuación de dotación de equipamiento médico y personal en fase post-construcción."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000327, de fecha 10 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra «CONSTRUCCIÓN NUEVO EDIFICIO PARA EL HOSPITAL DE OLIVA, DEPARTAMENTO TERCERO ARRIBA». 1.- ENTIDAD U ORGANISMO QUE LICITA: Agencia Córdoba de Inversión y Financiamiento Sociedad de Economía Mixta (A.C.I.F. S.E.M.). 2.- CATEGORÍA DE LA OBRA: PRIMERA. Calificación: ARQUITECTURA (100%). [...] 8.- PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS CUARENTA Y SIETE MIL CIENTO SETENTA Y UNO MILLONES SETECIENTOS SETENTA Y CINCO MIL VEINTISÉIS CON 86/100 ($47.171.775.026,86), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. 9.- PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de quinientos cuarenta (540) días corridos, a contar desde la fecha en que se suscriba el Acta de Replanteo.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_160926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "Expte. 0047-000629/2026 - Resolución N° 2026/ACIFR-00000321",
+   "titulo": "Construcción Escuela Superior de Formación Profesional La Bolsa, Departamento Santa María",
+   "importa": "ACIF licita obra de arquitectura (100%) para construcción de escuela superior de formación profesional en Villa La Bolsa, Santa María. Presupuesto oficial: $4.145.401.121,33 (IVA incluido). Plazo de ejecución: 360 días corridos. Apertura de sobres 05/10/2026. Visita técnica 28/09/2026.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación pública conforme Decreto 583/2016 y Ley 8.614, categoría primera, arquitectura (100%). Plazo medio (360 días) para obra educativa de formación profesional. Presupuesto $4.145 millones. Garantía: 1%. Visita técnica 28/09 a las 12:00 en coordenadas geográficas especificadas (31°44'14.5\"S 64°25'33.2\"W), localidad Villa La Bolsa. Procedimiento correcto en forma.",
+    "politica": "Inversión en educación técnica/profesional en zona rural (Santa María). Escuelas superiores de formación son prioridad en política educativa provincial. Presupuesto moderado ($4.145 millones) en comparación con hospital. Alineación con necesidades de capacitación laboral en interior.",
+    "oficialista": "Institución educativa de formación profesional en zona interior fortalece capacidades laborales y fomenta retención de población joven en provincia.",
+    "opositora": "Conviene verificar articulación con demanda laboral local; riesgo de infrautilización si oferta formativa no se ajusta a mercado de trabajo regional."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000321, de fecha 09 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra «CONSTRUCCIÓN ESCUELA SUPERIOR DE FORMACIÓN PROFESIONAL LA BOLSA - DPTO. SANTA MARÍA». 1.- ENTIDAD U ORGANISMO QUE LICITA: Agencia Córdoba de Inversión y Financiamiento Sociedad de Economía Mixta (A.C.I.F. S.E.M.). 2.- CATEGORÍA DE LA OBRA: PRIMERA. Calificación: ARQUITECTURA (100%). [...] 8.- PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS CUATRO MIL CIENTO CUARENTA Y CINCO MILLONES CUATROCIENTOS UNO MIL CIENTO VEINTIUNO CON 33/100 ($4.145.401.121,33), incluyendo IVA, beneficios, costos directos e indirectos, administrativos y toda carga tributaria y social vigente. 9.- PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de trescientos sesenta (360) días corridos, a contar desde la fecha en que se suscriba el Acta de Replanteo.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_160926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "N° 10/2026 - Expte. 0002-082264/2026",
+   "titulo": "Adquisición de Alimento Balanceado para Canes, División Intendencia (Dirección Logística), Policía de la Provincia de Córdoba",
+   "importa": "Policía de Córdoba licita adquisición de alimento para canes de la División Intendencia. Presupuesto oficial: $81.084.625,34. Apertura 25/09/2026 a las 10:00 hs. Contratación menor, bienes de consumo.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación pública conforme Ley 8.614 con apertura prevista. Procedimiento estándar para contratación de bienes. Presupuesto muy menor comparado con obras públicas. Acto conforme a normativa general de compras públicas provinciales.",
+    "politica": "Gasto operativo de policía para mantenimiento de unidades caninas. Magnitud presupuestaria trivial, ejecución routinaria.",
+    "oficialista": "Aprovisionamiento normal para operaciones de seguridad pública.",
+    "opositora": "Sin aspectos controvertibles."
+   },
+   "texto_oficial": "Llámese a Licitación Pública Nº: 10/2026, a realizarse por intermedio de la División Contrataciones – Departamento Finanzas de la Dirección de Administración de la Policía de la Provincia de Córdoba, tramitada mediante Expediente Nº: 0002-082264/2026, con el objeto de realizar la «ADQUISICION DE ALIMENTO BALANCEADO PARA CANES CON DESTINO A LA DIVISION INTENDENCIA (DIRECCION LOGISTICA) DE LA POLICIA DE LA PROVINCIA DE CORDOBA». PRESUPUESTO OFICIAL: PESOS OCHENTA Y UN MILLONES OCHENTA Y CUATRO MIL SEISCIENTOS VEINTICINCO CON TREINTA Y CUATRO CENTAVOS ($81.084.625,34). Apertura: el día 25 de septiembre de 2026 a las 10:00 horas, en el «SALON DE REUNION» ubicado en la Dirección General de Gestión Administrativa, sito en Av. Colón Nº: 1250 - 1º piso, Córdoba Capital.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_160926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "RP 2093 - ERSeP",
+   "titulo": "Servicio para el Control de Contaminación Ambiental por Radiación Electromagnética de Antenas de Telefonía Celular (Ley Provincial 9055)",
+   "importa": "ERSeP licita servicio de control ambiental de radiación electromagnética de antenas celulares conforme Ley Provincial 9055. Presupuesto oficial: $612.000.000,00. Apertura 24/09/2026 a las 10:00 hs. Organismo: Ente Regulador de los Servicios Públicos.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación conforme marco de Ley 9055 de control ambiental de radiación. ERSeP es regulador de servicios públicos con competencia en esta materia. Presupuesto $612 millones. Acto formal correcto. Pliego particular de especificaciones técnicas y bases y condiciones particulares adjuntos.",
+    "politica": "Control ambiental de infraestructura de telecomunicaciones. Tema vigilado si se relaciona con cumplimiento de normas ambientales en expansión de redes celulares. El aviso no menciona cobertura geográfica ni localidades específicas.",
+    "oficialista": "Garantiza control ambiental de servicios públicos de telecomunicaciones conforme normativa vigente.",
+    "opositora": "Conviene seguimiento en alcance de control: ¿cobertura provincial total o selectiva? ¿Frecuencia de monitoreo?"
+   },
+   "texto_oficial": "El Ente Regulador de los Servicios Públicos de la Provincia de Córdoba mediante RP 2093 realiza llamado a Licitación para la contratación «del Servicio para el Control de Contaminación Ambiental por Radiación Electromagnética de Antenas de Telefonía Celular – Ley Provincial 9055». Apertura de sobres: día 24 de septiembre de 2026, a las 10:00 hs. en las oficinas del ERSEP sito en la Av. Emilio Olmos n° 513, primer piso, de esta ciudad de Córdoba. [...] Presupuesto Oficial: PESOS seiscientos doce millones ($612.000.000,00).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_160926.pdf"
+  },
+  {
+   "tipo": "Obra Vial",
+   "clase": "licitacion",
+   "numero": "Expte. 0435-005037/2026 - Resolución N° 369/2026",
+   "titulo": "Mejoramiento Caminos S-242 y T027-26, Tramo 2: S-337 - Villa Elisa, Departamento Marcos Juárez (Contribución por Mejoras)",
+   "importa": "Unidad Ejecutora (Ley 9150) anuncia obra de mejoramiento de caminos rurales S-242 y T027-26 en zona Leones Sur-Villa Elisa (segunda etapa), departamento Marcos Juárez. Monto: $6.711.331.994,07 (julio 2026). Plazo: 360 días. Zona de influencia: 12.678,48 hectáreas. Régimen de contribución por mejoras en 5 cuotas anuales post-obra, en Unidades Fijas (UF) equivalentes a litro de nafta súper. Apertura de registro de oposición desde 14/09/2026 durante 5 días.",
+   "seccion": "4",
+   "pagina": 12,
+   "ampliada": {
+    "juridica": "Acto administrativo que declara obra conforme Leyes 10.546, 10.622, 10.679, 10.928 (Programa de Pavimentación y Mejora de Caminos Rurales). Régimen contributivo por mejoras ajustado a Dec. 1053/2018. Zona de influencia delimitada en Anexo; beneficiarios y montos en Anexo. Presupuesto confeccionado con valores julio 2026. Procedimiento permite oposiciones vía Ciudadano Digital o correo hasta 5 días desde 14/09/2026. Acto técnicamente correcto en forma, aunque requiere vigilancia en identificación de beneficiarios y cálculo de contribuciones.",
+    "politica": "Obra vial rural segunda etapa de proyecto integral Leones Sur-Villa Elisa, mejora acceso y reduce costos logísticos agrícolas en zona de predominancia agrícola. Financiamiento mixto (tesoro provincial + contribución por mejoras de beneficiarios). Cuotas anuales diferidas post-obra atenúan impacto fiscal inmediato. Registro de oposición abierto sugiere respeto a procedimiento democrático de consulta a contribuyentes.",
+    "oficialista": "Inversión en caminos rurales con participación de beneficiarios en financiamiento; reduce déficit fiscal y promueve corresponsabilidad comunitaria.",
+    "opositora": "Conviene vigilar: (1) delimitación de zona de influencia y criterios de inclusión de beneficiarios; (2) adecuación del monto de contribución a beneficio real por predio; (3) riesgo de sobrecostos durante ejecución que traslade carga a contribuyentes."
+   },
+   "texto_oficial": "Obra: «MEJORAMIENTO CAMINOS S-242 y T027-26–TRAMO 2: S-337-VILLA ELISA-DEPARTAMENTO: MARCOS JUÁREZ», Expte.: 0435-005037/2026 (Resolución N° 369/2026). Síntesis del proyecto: El objeto de la presente obra consiste en el mejoramiento de los caminos secundario S-242 y terciario T027-26, que inicia en la intersección con el camino secundario S-337, al sur de localidad de Leones, y se desarrolla hacia el sureste hasta la localidad de Villa Elisa específicamente hasta el inicio de la zona urbana de Villa Elisa, con una longitud total de 10,5 km. [...] Monto: $6.711.331.994,07, confeccionado conforme a valores del mes de julio de 2026. Plazo de Ejecución: 360 días desde la suscripción del acta de replanteo. [...] Beneficiarios, contribución y forma de pago: A los beneficiarios de la obra se les cobrará su aporte mediante contribución por mejoras, en cinco (5) cuotas anuales, las cuales empezarán a regir una vez finalizada la obra; el valor de las cuotas se determinará en Unidades Fijas denominadas U.F., que equivale al precio de venta al público de un litro de nafta súper, conforme lo informado por Resolución N° 33 de la Dirección Gral. de Prevención de Accidentes de Tránsito. APERTURA REGISTRO DE OPOSICIÓN – art.14 Anexo Único Dec. N°1053/2018- El Registro de opositores se habilitará durante el término de 5 días a contar desde el 14/09/2026.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_160926.pdf"
+  }
+ ],
+ "movimientos": [],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución Administrativa",
+   "numero": "250",
+   "titulo": "Rectificación parcial del Anexo de la Resolución N° 220/2026 - Turnos de amparo",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Expte. 0045-027643/2026",
+   "titulo": "Pavimentación Ruta Provincial S-433",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Expte. 0953-001187/2026",
+   "titulo": "Construcción Centros Deportivos Guanaco Muerto, Conlara y Colazo",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Expte. 0047-000341/2025",
+   "titulo": "Construcción Nuevo Edificio Hospital de Oliva",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Expte. 0047-000629/2026",
+   "titulo": "Construcción Escuela Superior de Formación Profesional La Bolsa",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "N° 10/2026",
+   "titulo": "Adquisición Alimento Balanceado para Canes",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "RP 2093",
+   "titulo": "Control Contaminación Ambiental Radiación Electromagnética Antenas Celulares",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Expte. 0733-011731/2026",
+   "titulo": "Acueducto Arco Noreste Área Metropolitana Gran Córdoba - Apertura Sobre Propuesta",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Expte. 0620-002480/2026",
+   "titulo": "Contratación Obras Mayores Establecimientos Educativos Córdoba Capital - Circular Aclaratoria N° 1",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "N° 5596 EPEC",
+   "titulo": "Construcción, Operación y Mantenimiento CTBRS Piedras Blancas - Etapa 1",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "N° 1476",
+   "titulo": "Recambio Sistema de Filtrado de Agua de Refrigeración EPEC",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "N° 5576 EPEC",
+   "titulo": "Aumento de Disponibilidad de Potencia y Mejora Tecnológica Complejo Hidroeléctrico Río Grande",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "N° 1486 EPEC",
+   "titulo": "Reparación y Balanceo de Rotor de Turbina FIAT TG 16",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "N° 1487 EPEC",
+   "titulo": "Adquisición Cables de Baja Tensión",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "N° 1488 EPEC",
+   "titulo": "Adquisición Indumentaria Técnica Laboral con Protección Anti-Arco Eléctrico",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "SC 2026/000038",
+   "titulo": "Adquisición Artículos de Almacén Perecederos para Residencias de Niñas, Niños y Adolescentes",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "SC N° 2026/000005",
+   "titulo": "Servicio Integral de Limpieza Fuerza Policial Antinarcotráfico",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-110728/2021",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Rosales Marga Silvana Mariana",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113441/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Terán Gustavo Federico",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-112233/2022",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Sosa Carlos del Valle",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-112779/2022",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Agüero Pablo German",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113161/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Pérez Pablo Marcelo y Pérez Miguel Humberto",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113732/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Salvatierra Roberto Oscar y Torrez Gabriela Margarita",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113698/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Chirino Fernando Esteban",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113460/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Dos Reis Marta Beatriz",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113692/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Quinteros José Miguel Angel",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113546/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Stancanelli Zalazar Marcelo Hernán",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113601/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Herrera Gabriela Alejandra",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114863/2026",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Toro Miguel Angel",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114565/2025",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Pezzini Silvina Alicia y Lizzi María Virginia",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114372/2024",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Carlos Oscar Guado y Causa Analía Mónica",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113513/2022",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Tehan Ernesto y Gassmann Miriam Graciela",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113274/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Ibáñez Natalia Vanesa",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113253/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Navarro Federico Iván",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114363/2024",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Agostina del Rosario Carena",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114420/2024",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Demeo Laura Carina",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114358/2024",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Victor Franco",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114605/2025",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Juncos Griselda Carolina",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114752/2025",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Casalotti Fernando Alberto y González Néstor Anibal Ricardo",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114768/2025",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Caamaño Jimena y Quintana Jorge Luis",
+   "seccion": "4",
+   "pagina": 12
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "369/2026",
+   "titulo": "Mejoramiento Caminos S-242 y T027-26 - Contribución por Mejoras",
+   "seccion": "4",
+   "pagina": 12
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-115114/2026",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Amelotti Nicolás",
+   "seccion": "4",
+   "pagina": 12
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114354/2024",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Domingo Antonio Bonalumi",
+   "seccion": "4",
+   "pagina": 12
+  },
+  {
+   "tipo": "Intimación",
+   "numero": "s/n",
+   "titulo": "Intimación de Pago Arrieta Ivanna Edith - Deuda por Haberes Indebidamente Percibidos",
+   "seccion": "4",
+   "pagina": 14
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-113998/2023",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Fernández José Oscar y Biga Graciela Esperanza",
+   "seccion": "4",
+   "pagina": 14
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114498/2025",
+   "titulo": "Solicitud Inscripción Registro de Posesión - German Franco Font",
+   "seccion": "4",
+   "pagina": 15
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-095446/2009",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Gainza Graciela María",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-096584/2010",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Ozán Miguel Angel",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114426/2024",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Jorge Marcelo Siñeriz",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114429/2024",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Milagros Elizabeth Corbalan",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Expte. 0535-114433/2024",
+   "titulo": "Solicitud Inscripción Registro de Posesión - Mariana Elizabeth Vargas",
+   "seccion": "4",
+   "pagina": 14
+  }
+ ],
+ "telegram": "BOE 180 | Miércoles 16 de septiembre de 2026. 7 licitaciones de obras (vialidad, educación, sanitaria) por $74.800 millones; EPEC con 5 licitaciones de bienes y servicios energéticos; acueducto Arco Noreste en apertura de propuestas; 30+ edictos de posesión inmuebles y contribución por mejoras en caminos rurales. Síntesis completa en https://boletinoficial.cba.gov.ar",
+ "hora_procesado": "07:32",
+ "estado": "publicado"
+}
