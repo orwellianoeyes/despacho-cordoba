@@ -1,5 +1,10 @@
-# Claves privadas — NUNCA se suben a GitHub
+# Claves privadas — NUNCA se suben a GitHub.
+# El comodín cubre también respaldos y variantes (.env.local, .env.bak…).
+# `.env` a secas solo matchea ese nombre exacto, y un .env.respaldo quedaría
+# afuera: pasó de verdad el 18/09/2026 al reparar una clave mal pegada.
 .env
+.env.*
+!.env.example
 
 # Entorno de Python local
 .venv/

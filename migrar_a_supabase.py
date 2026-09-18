@@ -160,7 +160,13 @@ def armar_normas(despacho: dict, fecha: str) -> list[dict]:
         })
         filas[k] = fila
 
-    return list(filas.values())
+    # PostgREST exige que todas las filas del lote tengan EXACTAMENTE las
+    # mismas claves ("All object keys must match"). Las del índice no traen
+    # análisis, así que se completan con null.
+    columnas = ("fecha", "tipo", "clase", "numero", "titulo", "seccion",
+                "pagina", "url_oficial", "destacada", "importa", "ampliada",
+                "texto_oficial", "analizada_por")
+    return [{c: f.get(c) for c in columnas} for f in filas.values()]
 
 
 # ------------------------------- Subida --------------------------------

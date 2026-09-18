@@ -1,0 +1,259 @@
+{
+ "fecha": "2026-09-18",
+ "numero_boletin": "182",
+ "sintesis_juridica": [
+  "La presente edición del Boletín Oficial de la Provincia de Córdoba formaliza diversas actuaciones administrativas, destacándose la ratificación ministerial de modificaciones a planes de estudio de nivel superior y la rectificación de valores inmobiliarios unitarios de la tierra por parte de la Dirección General de Catastro. Asimismo, se instrumentan numerosos llamados a licitaciones públicas, subastas electrónicas y edictos de saneamiento de títulos dominiales en el marco de la normativa provincial vigente.",
+  "En el ámbito de las contrataciones y servicios públicos, sobresalen importantes procesos licitatorios y de prórroga para obras de infraestructura vial, provisión de sistemas tecnológicos, adquisición de equipamiento de seguridad y provisión de insumos energéticos por parte de empresas del Estado provincial y organismos descentralizados, ajustándose a los regímenes de compras públicas y contratación administrativa de la Provincia."
+ ],
+ "sintesis_politica": [
+  "El movimiento normativo del día refleja una intensa actividad en materia de gestión de infraestructura y control administrativo, evidenciada en las convocatorias de la Agencia Córdoba de Inversión y Financiamiento (ACIF) para obras de resguardo contra incendios y mantenimiento vial. La asignación de presupuestos millonarios para la EPEC, la APROSS y áreas de seguridad evidencia las prioridades de ejecución presupuestaria del Ejecutivo provincial en el tramo final del año.",
+  "Por otro lado, la proliferación de edictos dominiales de la Unidad Ejecutora Ley 9150 demuestra la continuidad de las políticas de regularización dominial en distintos departamentos provinciales, mientras que el control estricto sobre deudas previsionales y salariales en el Ministerio de Educación marca el tono de la gestión de recursos humanos y fiscalización interna."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución N° 1548 - Letra:D",
+   "clase": "resolucion",
+   "numero": "1548",
+   "titulo": "MINISTERIO DE EDUCACIÓN - Ratificación de Modificación de Plan de Estudios",
+   "importa": "El Ministro de Educación ratifica la Resolución N° 2026/PRIVA-00000475 de la Dirección General de Educación Pública de Gestión Privada, que aprueba las modificaciones al Plan de Estudios de la carrera 'Tecnicatura Superior en Instrumento' en el Instituto 'COLLEGIUM' a partir del ciclo lectivo 2026.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Se trata de un acto administrativo de alcance individual emitido por el Ministro de Educación en uso de las atribuciones conferidas por el Decreto N° 556/2016 y en cumplimiento de los requisitos de la Ley N° 5326. El acto convalida la resolución de gestión privada tras el dictamen legal pertinente, sin advertirse vicios formales ni contradicciones con la normativa superior.",
+    "politica": "La medida atiende a la demanda de actualización académica en instituciones de gestión privada, consolidando la supervisión estatal sobre los trayectos formativos superiores sin generar mayores rispideces políticas con el sector educativo.",
+    "oficialista": "Demuestra el compromiso del Gobierno provincial con la calidad educativa y la articulación eficiente entre el Estado y las instituciones de gestión privada para actualizar la oferta académica.",
+    "opositora": "Podría señalarse la necesidad de un mayor control sobre la pertinencia y el alcance de los títulos expedidos por institutos privados frente a la oferta de las universidades públicas provinciales."
+   },
+   "texto_oficial": "EL MINISTRO DE EDUCACIÓN RESUELVE: Art. 1°.- RATIFICAR la Resolución N° 2026/PRIVA-00000475 emanada de la Dirección General de Educación Pública de Gestión Privada... Art. 2°.- Protocolícese, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_180926.pdf"
+  },
+  {
+   "tipo": "Resolución General N° 28",
+   "clase": "resolucion",
+   "numero": "28",
+   "titulo": "DIRECCIÓN GENERAL DE CATASTRO - Rectificación de Valor Unitario de la Tierra",
+   "importa": "El Director General de Catastro resuelve rectificar el Valor Unitario de la Tierra (V.U.T.) de un inmueble en la zona periurbana de la localidad de La Barranquita (Departamento 24) y de oficio el de parcelas linderas, fijándolo en $ 4.807,25/m².",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "El acto es emitido en el marco de las facultades conferidas por los Artículos 6, 7 inc. g), 36, 37, 44 y 45 de la Ley N° 10.454, a raíz de un reclamo particular (trámite CBA-4161831-V8W4V). La rectificación de oficio de las parcelas colindantes se fundamenta en la necesidad de corregir un error material en la valuación catastral.",
+    "politica": "Subraya la corrección de errores administrativos en las tasaciones generales que impactan directamente sobre la base imponible de los tributos inmobiliarios, garantizando equidad fiscal para los contribuyentes afectados.",
+    "oficialista": "Refleja la agilidad y transparencia de los organismos técnicos en la revisión y rectificación de errores catastrales ante reclamos legítimos de los ciudadanos.",
+    "opositora": "Pone de manifiesto las deficiencias metodológicas y los errores en los procesos masivos de revalúo inmobiliario implementados por la Provincia."
+   },
+   "texto_oficial": "EL DIRECTOR GENERAL DE CATASTRO RESUELVE: Artículo 1°.- Rectificar el Valor Unitario de la Tierra del inmueble, aprobado por Resolución General N° 23/2025... Artículo 2°.- Rectificar de oficio, además, el Valor Unitario de la Tierra de los inmuebles aprobado por Resolución General N° 23/2025... Artículo 3°.- Protocolícese, notifíquese...",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_180926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública N° 02/2026",
+   "clase": "licitacion",
+   "numero": "02/2026",
+   "titulo": "FUERZA POLICIAL ANTINARCOTRÁFICO - Adquisición de Chalecos Antibalas",
+   "importa": "La Fuerza Policial Antinarcotráfico llama a Licitación Pública N° 02/2026 para la adquisición de trescientas (300) unidades de chalecos de protección balística RB3, con un presupuesto oficial de $ 443.415.000,00.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Contratación directa de suministros bajo la modalidad de licitación pública, encuadrada en las normas de compras públicas de la Provincia, con especificaciones técnicas detalladas por renglones y cupos de corte ergonómico masculino y femenino.",
+    "politica": "Posible relación con seguridad y equipamiento policial (a confirmar; el aviso no lo menciona). La inversión en equipamiento operativo para fuerzas especiales busca dar respuesta a las demandas de seguridad y combate al narcotráfico.",
+    "oficialista": "Evidencia la inversión constante del Estado en la dotación de elementos de protección de alta calidad para el personal que combate el narcotráfico.",
+    "opositora": "Podría cuestionarse si los montos asignados y los plazos de adjudicación responden a demoras previas en la provisión de insumos básicos de seguridad."
+   },
+   "texto_oficial": "FUERZA POLICIAL ANTINARCOTRAFICO - LICITACIÓN PÚBLICA N°02/2026... A) Objeto de contratación: 'ADQUISICIÓN DE CHALECOS ANTIBALAS PARA LA FUERZA POLICIAL ANTINARCOTRÁFICO'... B) Presupuesto oficial: pesos fourcientos cuarenta y tres millones cuatrocientos quince mil con 00/100 ($443.415.000,00).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_180926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "0047-000649/2026",
+   "titulo": "AGENCIA CÓRDOBA DE INVERSIÓN Y FINANCIAMIENTO (ACIF S.E.M.) - Sala contra Incendios en Tribunal de Cuentas",
+   "importa": "La ACIF S.E.M. llama a Licitación Pública con soporte digital para la ejecución de la obra 'Sala de Reserva para Servicio contra Incendios' en la sede del Tribunal de Cuentas, con un presupuesto oficial de $ 248.819.937,99 y un plazo de 90 días.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación de obra pública bajo el régimen del Decreto N° 583/2016 y la Ley N° 8.614, gestionada a través de la plataforma digital de compras públicas. Posible relación con el Tribunal de Cuentas y su infraestructura edilicia (a confirmar; el aviso no lo menciona).",
+    "politica": "Involucra directamente al organismo de control externo de la provincia, mejorando las condiciones de seguridad de su edificio histórico en el marco de las intervenciones edilicias centralizadas por la ACIF.",
+    "oficialista": "Muestra la modernización en los procesos de contratación de obra pública y la atención permanente a las condiciones de seguridad de los edificios institucionales.",
+    "opositora": "Podría cuestionarse la priorización de gastos en infraestructura edilicia frente a otras demandas urgentes del sector público provincial."
+   },
+   "texto_oficial": "AGENCIA CÓRDOBA DE INVERSIÓN Y FINANCIAMIENTO SOCIEDAD DE ECONOMÍA MIXTA (A.C.I.F. S.E.M.). LICITACIÓN PÚBLICA CON SOPORTE DIGITAL. EXPTE. ELECTRÓNICO N° 0047-000649/2026. OBJETO: 'EJECUCIÓN DE SALA DE RESERVA PARA SERVICIO CONTRA INCENDIOS EN LA SEDE DEL TRIBUNAL DE CUENTAS...' Presupuesto Oficial: $248.819.937,99.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_180926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "0045-027674/2026",
+   "titulo": "AGENCIA CÓRDOBA DE INVERSIÓN Y FINANCIAMIENTO (ACIF S.E.M.) - Mantenimiento y Reparación de Puentes",
+   "importa": "La ACIF S.E.M. llama a Licitación Pública con soporte digital y doble apertura para la contratación de la obra de 'Mantenimiento y reparación de puentes existentes en la red vial pavimentada de la Provincia de Córdoba', con un presupuesto de $ 9.571.135.543,79.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación de gran envergadura bajo el Decreto N° 583/2016 y Ley N° 8.614. El sistema de doble apertura garantiza mayor transparencia en la evaluación técnica y económica de las ofertas para obras viales de alta complejidad. Posible relación con obra vial provincial (a confirmar; el aviso no lo menciona).",
+    "politica": "Representa una de las inversiones viales más importantes del período, orientada a la preservación de la infraestructura crítica de transporte en rutas provinciales pavimentadas.",
+    "oficialista": "Destaca la capacidad de gestión y financiamiento provincial para sostener la infraestructura vial y garantizar la seguridad en el transporte interurbano.",
+    "opositora": "Se evaluará el impacto fiscal de una obra multimillonaria en un contexto de restricciones presupuestarias y la necesidad de priorizar caminos secundarios."
+   },
+   "texto_oficial": "AGENCIA CÓRDOBA DE INVERSIÓN Y FINANCIAMIENTO SOCIEDAD DE ECONOMÍA MIXTA (A.C.I.F. S.E.M.). LICITACIÓN PÚBLICA CON SOPORTE DIGITAL - DOBLE APERTURA EXPTE. ELECTRÓNICO N° 0045-027674/2026. OBJETO: 'MANTENIMIENTO Y REPARACIÓN DE PUENTES EXISTENTES EN LA RED VIAL PAVIMENTADA...' Presupuesto Oficial: $9.571.135.543,79.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_180926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "0088-142627/2026",
+   "titulo": "ADMINISTRACIÓN PROVINCIAL DEL SEGURO DE SALUD (APROSS) - Sistema de Control y Seguimiento Asistencial",
+   "importa": "La APROSS llama a Licitación Pública Presencial para la provisión de un sistema de control y seguimiento de servicios asistenciales en domicilio y traslados programados de afiliados, por un presupuesto de $ 2.160.000.000,00 y un plazo de 24 meses.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Contratación de servicios de alta complejidad prestacional bajo la órbita de APROSS, aplicando el Decreto Reglamentario N° 305/2014. Posible relación con APROSS (a confirmar; el aviso no lo menciona).",
+    "politica": "Busca optimizar el control sobre prestaciones médicas domiciliarias y traslados, un área históricamente sensible y costosa para la obra social provincial.",
+    "oficialista": "Demuestra la voluntad de incorporar tecnología y fiscalización estricta para mejorar la eficiencia prestacional y el uso de los recursos de los afiliados.",
+    "opositora": "Podría ser objeto de escrutinio respecto de la tercerización de servicios de auditoría y control médico y los costos asociados para la obra social."
+   },
+   "texto_oficial": "ADMINISTRACIÓN PROVINCIAL DEL SEGURO DE SALUD - LICITACIÓN PÚBLICA PRESENCIAL - EXPEDIENTE Nº 0088-142627/2026... Objeto: PROVISIÓN DE UN SISTEMA DE CONTROL Y SEGUIMIENTO DE SERVICIOS ASISTENCIALES EN DOMICILIO Y TRASLADOS... Presupuesto Oficial: PESOS DOS MIL CIENTO SESENTA MILLONES ($ 2.160.000.000,00).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_180926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "5576",
+   "titulo": "EMPRESA PROVINCIAL DE ENERGÍA DE CÓRDOBA (EPEC) - Aumento de Disponibilidad Complejo Río Grande",
+   "importa": "La EPEC publica notas aclaratorias y prórroga de la Licitación Pública N° 5576 bajo el sistema de doble apertura, destinada al 'Aumento de disponibilidad de potencia y mejora tecnológica del Complejo Hidroeléctrico Río Grande', con presupuesto de $ 237.291.285.000,01.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Modificación de plazos y emisión de aclaratorias en una licitación pública de montos extraordinarios. La prórroga refleja la complejidad técnica y el volumen de oferentes interesados en la obra energética.",
+    "politica": "Es la obra de infraestructura energética más relevante de la provincia, clave para la matriz de generación y la estabilidad del sistema eléctrico cordobas.",
+    "oficialista": "Evidencia una apuesta estratégica al desarrollo energético provincial y la modernización de la generación hidroeléctrica con estándares internacionales.",
+    "opositora": "La magnitud del endeudamiento o financiamiento requerido para semejante presupuesto amerita un riguroso control legislativo sobre su ejecución."
+   },
+   "texto_oficial": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA S.A.U - LICITACION PUBLICA Nº 5576 – SE AGREGA NOTA ACLARATORIA N°3 - DOBLE APERTURA PRORROGADA: 23-10-26... OBJETO: 'AUMENTO DE DISPONIBILIDAD DE POTENCIA Y MEJORA TECNOLOGICA DEL COMPLEJO HIDROELECTRICO RIO GRANDE.' - PRESUPUESTO OFICIAL: $237.291.285.000,01.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_180926.pdf"
+  }
+ ],
+ "movimientos": [],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución N° 1548 - Letra:D",
+   "numero": "1548",
+   "titulo": "MINISTERIO DE EDUCACIÓN - Ratificación de Plan de Estudios",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución General N° 28",
+   "numero": "28",
+   "titulo": "DIRECCIÓN GENERAL DE CATASTRO - Rectificación de Valor Unitario de la Tierra",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública N° 02/2026",
+   "numero": "02/2026",
+   "titulo": "FUERZA POLICIAL ANTINARCOTRÁFICO - Adquisición de Chalecos Antibalas",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0047-000649/2026",
+   "titulo": "ACIF S.E.M. - Sala contra Incendios Tribunal de Cuentas",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "0045-027674/2026",
+   "titulo": "ACIF S.E.M. - Mantenimiento y Reparación de Puentes",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "003/2026",
+   "titulo": "UNIVERSIDAD PROVINCIAL DE CÓRDOBA - Sede Regional Villa Huidobro",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "numero": "0088-142627/2026",
+   "titulo": "APROSS - Sistema de Control y Seguimiento Asistencial Domiciliario",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1486",
+   "titulo": "EPEC - Reparación y Balanceo de Rotor de Turbina Fiat TG 16",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1487",
+   "titulo": "EPEC - Adquisición de Cables de Baja Tensión",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1488",
+   "titulo": "EPEC - Adquisición de Indumentaria Técnica Laboral con Protección Anti-arco",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5576",
+   "titulo": "EPEC - Aumento de Disponibilidad Complejo Hidroeléctrico Río Grande",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5592",
+   "titulo": "EPEC - Estación Transformadora Cruz del Eje Nueva",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1489",
+   "titulo": "EPEC - Cargador para Vehículos Eléctricos Trifásico",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1491",
+   "titulo": "EPEC - Adquisición de Tarjetas Electrónicas de Control Speed Tronic",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1490",
+   "titulo": "EPEC - Adquisición e Instalación de Bancos de Baterías",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1492",
+   "titulo": "EPEC - Adquisición de Repuestos de RTU G100",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "SC 2026/000039",
+   "titulo": "MINISTERIO DE SALUD - Adecuación Red Contra Incendios Complejo Esperanza",
+   "seccion": "4",
+   "pagina": 4
+  }
+ ],
+ "telegram": "Boletín N° 182: Publicadas 35 normas y licitaciones clave, destacándose multimillonarias contrataciones viales y energéticas en EPEC y ACIF. Accedé a la app para el análisis completo.",
+ "motor": "gemini",
+ "hora_procesado": "00:28",
+ "estado": "publicado"
+}

@@ -35,6 +35,16 @@ legislativo, para control público de normativa provincial.
 - `com.leo.despacho.plist` — tarea de launchd (macOS) que dispara
   `correr.sh` lunes a viernes 7:30, 9:30, 11:30.
 
+- `migrar_a_supabase.py` — sube los archivos del repo a Supabase.
+  Idempotente (upsert contra claves naturales): correrlo de nuevo
+  actualiza, no duplica.
+
+Base: proyecto `despacho-cordoba` (São Paulo, plan free).
+  URL  https://rtawftdaofurzfcywain.supabase.co
+  Esquema versionado en `supabase/001…` — 9 tablas, RLS en todas.
+  Cargado el 18/09/2026: 34 despachos · 1008 normas · 70 movimientos
+  · 654 páginas · 15 MB de 500 disponibles.
+
 Repo: https://github.com/orwellianoeyes/despacho-cordoba
 App:  https://orwellianoeyes.github.io/despacho-cordoba/
 Carpeta local: ~/despacho-cordoba
@@ -154,6 +164,24 @@ Carpeta local: ~/despacho-cordoba
   llamada y dice qué sacar. Si algún día hace falta la 2ª, hay que
   partir el análisis en una llamada por sección y unir los resultados
   —no es un flag, es un cambio de arquitectura del motor.
+
+## Trampas de datos que ya costaron tiempo
+
+- **Las dos listas del JSON nombran distinto a la misma norma.** El
+  despacho trae `normas` (destacadas, con análisis) e `indice_nuevas`
+  (todas, solo metadatos). Solo el **18%** coincide palabra por palabra.
+  Emparejar además por el número —los dígitos sueltos, y SOLO cuando
+  hay un único candidato— lleva la cobertura al 95%. Está en
+  `_emparejar()`. Sin eso, importar crea dos filas por norma.
+
+- **PostgREST exige que todas las filas de un lote tengan exactamente
+  las mismas claves** ("All object keys must match"). Las del índice no
+  traen análisis, así que hay que completarlas con null antes de subir.
+
+- **`.gitignore` con `.env` a secas NO cubre `.env.respaldo`.** Pasó el
+  18/09/2026: al reparar una clave mal pegada quedó un respaldo con la
+  credencial afuera del ignore. Ahora está `.env.*` con excepción para
+  `.env.example`.
 
 ## Problemas ya resueltos (no repetir el diagnóstico)
 
