@@ -481,8 +481,15 @@ def guardar(despacho: dict, urls: dict) -> None:
     titulares = [n.get("titulo", "") for n in despacho.get("normas", [])[:2]]
     entrada = {"fecha": str(HOY), "numero": nro,
                "titular": ("; ".join(t for t in titulares if t))[:160] + "."}
+    # Ordenar por FECHA, no por orden de corrida, y apuntar `hoy` a la
+    # edición más reciente que existe — no a la última que se procesó.
+    # Si no, recuperar un día viejo hace que la app abra en ese día: pasó
+    # el 18/09/2026 al rellenar julio, y el sitio quedaba abriendo en el 27
+    # de julio con los días desordenados debajo.
     archivo = [e for e in ultimo.get("archivo", []) if e.get("fecha") != str(HOY)]
-    ultimo = {"hoy": str(HOY), "archivo": ([entrada] + archivo)[:90]}
+    archivo = sorted([entrada] + archivo, key=lambda e: e.get("fecha", ""),
+                     reverse=True)[:90]
+    ultimo = {"hoy": archivo[0]["fecha"] if archivo else str(HOY), "archivo": archivo}
     ruta_ultimo.write_text(json.dumps(ultimo, ensure_ascii=False, indent=1), encoding="utf-8")
 
 def guardar_texto(paginas_por_seccion: dict, urls: dict) -> None:
