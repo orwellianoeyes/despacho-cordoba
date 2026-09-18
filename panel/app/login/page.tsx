@@ -1,12 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { clienteNavegador } from "@/lib/supabase/navegador";
 
 export default function Login() {
   const [correo, setCorreo] = useState("");
   const [estado, setEstado] = useState<"quieto" | "enviando" | "enviado" | "error">("quieto");
   const [detalle, setDetalle] = useState("");
+
+  // Si el enlace del correo falló, mostrar POR QUÉ. Rebotar en silencio
+  // hace gastar intentos a ciegas, y Supabase solo da unos pocos por hora.
+  useEffect(() => {
+    const motivo = new URLSearchParams(location.search).get("motivo");
+    if (motivo) { setDetalle(motivo); setEstado("error"); }
+  }, []);
 
   async function entrar(e: React.FormEvent) {
     e.preventDefault();
