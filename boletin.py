@@ -39,6 +39,8 @@ import requests
 from pypdf import PdfReader
 
 import anthropic
+
+import datos   # capa de Supabase; si no hay credenciales, se ignora sola
 # ----------------------------- Configuración -----------------------------
 
 TZ_CORDOBA = dt.timezone(dt.timedelta(hours=-3))
@@ -485,6 +487,22 @@ def guardar_texto(paginas_por_seccion: dict, urls: dict) -> None:
                                ensure_ascii=False), encoding="utf-8")
 
 
+def _a_la_base(que: str, fn) -> None:
+    """Sube a Supabase sin poder tumbar la corrida.
+
+    Los archivos de docs/data/ y texto/ ya están escritos y son el respaldo
+    en git; la base es lo que lee el panel. Si la base no contesta, se avisa
+    fuerte y se sigue: perder la subida es recuperable (migrar_a_supabase.py),
+    perder el despacho del día no."""
+    if not datos.disponible():
+        return
+    try:
+        print(f"   · Supabase: {que} → {fn()}")
+    except Exception as e:
+        print(f"   ⚠️  Supabase NO recibió {que}: {e}")
+        print("       (los archivos están bien; se sube con migrar_a_supabase.py)")
+
+
 # --------------------------------- Avisos ---------------------------------
 
 def avisar(despacho: dict, degradado: bool = False) -> None:
@@ -633,6 +651,8 @@ def main() -> None:
     # El texto ya está archivado: aunque el análisis no entre o la IA falle,
     # el día no se pierde y se puede reintentar con --rehacer.
     guardar_texto(paginas_por_seccion, urls)
+    _a_la_base("páginas", lambda: datos.subir_paginas(
+        json.loads((TEXTO / f"{HOY}.json").read_text(encoding="utf-8")), str(HOY)))
 
     nro = detectar_numero_boletin(texto)
     print(f"Boletín N° {nro} · ~{len(texto) // 1000} mil caracteres")
@@ -662,6 +682,7 @@ def main() -> None:
         print(f"⚠️  El despacho de hoy lo escribió {motor_usado}, no {motor}.")
 
     guardar(despacho, urls)
+    _a_la_base("despacho", lambda: datos.subir_despacho(despacho, str(HOY)))
     avisar(despacho, degradado=(motor_usado != motor))
     print(f"✅ Despacho generado con {motor_usado} y guardado en docs/data/.")
 

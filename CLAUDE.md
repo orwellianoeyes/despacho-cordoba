@@ -35,9 +35,18 @@ legislativo, para control público de normativa provincial.
 - `com.leo.despacho.plist` — tarea de launchd (macOS) que dispara
   `correr.sh` lunes a viernes 7:30, 9:30, 11:30.
 
-- `migrar_a_supabase.py` — sube los archivos del repo a Supabase.
-  Idempotente (upsert contra claves naturales): correrlo de nuevo
-  actualiza, no duplica.
+- `datos.py` — única puerta a Supabase. La usan el motor, el importador
+  y el buzón. Usa la service_role, que saltea RLS: es la credencial del
+  motor, nunca la del panel.
+- `buzon.py` + `escuchar.sh` — la Mac le pregunta a Supabase si hay algo
+  que hacer. **La nube nunca le habla a la Mac**: el panel deja el pedido
+  en la tabla `corridas` y este proceso lo levanta, así no hay que abrir
+  ningún puerto. Lo que viene de la base es DATO, no una orden: `fecha`,
+  `secciones` y `motor` se validan antes de armar el comando, que además
+  va como lista y nunca por shell.
+- `migrar_a_supabase.py` — sube archivos sueltos a Supabase. Desde la
+  Etapa 2.5 el motor sube solo al terminar, así que esto quedó para la
+  carga inicial, rellenar días viejos, o recuperar una subida que falló.
 
 Base: proyecto `despacho-cordoba` (São Paulo, plan free).
   URL  https://rtawftdaofurzfcywain.supabase.co
@@ -164,6 +173,12 @@ Carpeta local: ~/despacho-cordoba
   llamada y dice qué sacar. Si algún día hace falta la 2ª, hay que
   partir el análisis en una llamada por sección y unir los resultados
   —no es un flag, es un cambio de arquitectura del motor.
+
+- **La subida a Supabase NO puede tumbar la corrida.** Los archivos de
+  `docs/data/` y `texto/` se escriben primero y son el respaldo en git;
+  la base es lo que lee el panel. Si la base no contesta, `_a_la_base()`
+  avisa fuerte y sigue: perder la subida es recuperable con
+  `migrar_a_supabase.py`, perder el despacho del día no.
 
 ## Trampas de datos que ya costaron tiempo
 
