@@ -14,8 +14,9 @@ legislativo, para control público de normativa provincial.
       python boletin.py                       # la edición de hoy
       python boletin.py --fecha 2026-09-08    # recuperar un día pasado
       python boletin.py --secciones 1,4,5     # elegir qué monitorear
-      python boletin.py --motor gemini        # forzar un motor
+      python boletin.py --sin-ia              # archivar el texto, sin IA
       python boletin.py --rehacer             # regenerar uno ya hecho
+      python boletin.py --motor gemini        # última instancia (ver abajo)
 
 - `texto/AAAA-MM-DD.json` — el texto crudo del boletín, página por
   página y por sección. **No es un subproducto: es lo que permite
@@ -74,7 +75,25 @@ Carpeta local: ~/despacho-cordoba
   barra suelta después de `</string>` que hacía fallar `plutil -lint`.
   Arreglado el 18/09/2026. Si alguna vez se reinstala copiando desde el
   repo, validar primero con `plutil -lint com.leo.despacho.plist`.
-- **Claude primario, Gemini de respaldo — en ese orden y a propósito.**
+- **Sin crédito, la respuesta es `--sin-ia`, no Gemini** (decidido el
+  18/09/2026). Baja, extrae y archiva el texto sin llamar a ninguna IA.
+  El día queda a salvo por nada y se analiza bien cuando haya crédito,
+  con `--rehacer`. Como el disparo es manual y nadie espera en la
+  puerta, esto es estrictamente mejor que sacar un despacho flojo.
+
+  `--sin-ia` no se frena si el despacho de ese día ya existe: sirve
+  también para sumar al archivo una sección que no se había bajado. Y
+  la guardia de `LIMITE_CARACTERES` no aplica, porque protege la
+  llamada a la IA y acá no hay ninguna.
+
+- **El respaldo automático está APAGADO** (`MOTOR_RESPALDO = None`).
+  Gemini es de última instancia y solo entra si se lo pide a mano con
+  `--motor gemini`. La maquinaria del respaldo está escrita y probada;
+  para reactivarla alcanza con poner `"gemini"` en esa constante. La
+  razón de tenerla apagada: si entrara sola, un día sin crédito saldría
+  flojo sin que nadie lo hubiera decidido.
+
+- **Claude primario, Gemini de última instancia — a propósito.**
   Al revés que en `~/app sentiment`, donde Gemini va de primario porque
   clasificar sentimiento es tarea simple. Acá es análisis jurídico fino:
   es donde la diferencia de calidad se nota y es lo que se le ofrece al

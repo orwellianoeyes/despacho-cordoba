@@ -10,6 +10,7 @@ el boletín aún no se publicó, termina en silencio.
     python boletin.py                      → la edición de hoy
     python boletin.py --fecha 2026-09-08   → recuperar un día pasado
     python boletin.py --rehacer            → regenerar uno ya hecho
+    python boletin.py --sin-ia             → solo archivar el texto
 
 Flujo: descargar PDFs → extraer texto con marcadores de página →
 archivar ese texto en texto/ → llamar a la API con instrucciones.md →
@@ -58,7 +59,18 @@ TEXTO = RAIZ / "texto"
 # ofrece al cliente. Gemini queda de respaldo para el caso que ya pasó una
 # vez: quedarse sin crédito y no poder sacar el despacho del día.
 MOTOR = "claude"
-MOTOR_RESPALDO = "gemini"          # None para desactivar el respaldo
+
+# Respaldo automático APAGADO a propósito (18/09/2026). Gemini queda como
+# último recurso y solo si lo pedís a mano con --motor gemini.
+#
+# El motivo: probado contra el B.O. 182, Gemini respeta la estructura pero
+# el texto_oficial pasa de 982 a 306 caracteres —deja de ser transcripción
+# y pasa a ser resumen con puntos suspensivos— y el índice de 51 entradas
+# a 17. Si entrara solo, un día sin crédito saldría flojo sin que nadie lo
+# decidiera. Como el disparo es manual y nadie espera en la puerta, ante
+# la falta de crédito conviene --sin-ia: archivar el texto y analizarlo
+# bien después. Poner "gemini" acá reactiva el respaldo automático.
+MOTOR_RESPALDO = None
 
 MODELO_CLAUDE = "claude-haiku-4-5"
 # Pool: el free tier de Gemini tira 503 intermitentes y los alias *-latest a
@@ -550,9 +562,15 @@ def leer_argumentos() -> argparse.Namespace:
                          f"Por defecto {','.join(SECCIONES)}. "
                          f"1=Legislación 2=Judiciales 3=Sociedades "
                          f"4=Licitaciones 5=Varios.")
+    ap.add_argument("--sin-ia", action="store_true",
+                    help="Baja y archiva el texto del boletín SIN llamar a "
+                         "ninguna IA. Para los días sin crédito: el día queda "
+                         "a salvo y se analiza después con --rehacer.")
     ap.add_argument("--motor", choices=("claude", "gemini"),
-                    help=f"Motor de IA primario. Por defecto {MOTOR}. "
-                         f"Si falla, se intenta con el respaldo igual.")
+                    help=f"Motor de IA. Por defecto {MOTOR}. 'gemini' es de "
+                         f"última instancia: sale más flojo (ver CLAUDE.md), "
+                         f"así que no entra solo — hay que pedirlo. Si no hay "
+                         f"crédito y no es urgente, mejor --sin-ia.")
     return ap.parse_args()
 
 
@@ -579,7 +597,9 @@ def main() -> None:
 
     print(f"— Despacho Diario · {HOY} —")
 
-    if (DATA / f"{HOY}.json").exists() and not args.rehacer:
+    # --sin-ia solo archiva texto, así que no lo frena un despacho ya hecho:
+    # sirve para sumar una sección que ese día no se había bajado.
+    if (DATA / f"{HOY}.json").exists() and not args.rehacer and not args.sin_ia:
         print("El despacho de esa fecha ya está publicado; nada que hacer "
               "(usá --rehacer para regenerarlo).")
         return
@@ -614,6 +634,16 @@ def main() -> None:
     # el día no se pierde y se puede reintentar con --rehacer.
     guardar_texto(paginas_por_seccion, urls)
 
+    nro = detectar_numero_boletin(texto)
+    print(f"Boletín N° {nro} · ~{len(texto) // 1000} mil caracteres")
+
+    if args.sin_ia:
+        print(f"✅ Texto archivado en texto/{HOY}.json · sin análisis.")
+        print("   Cuando haya crédito: volvé a correr (agregá --rehacer si "
+              "el despacho de ese día ya existía).")
+        return
+
+    # La guardia es para proteger la llamada a la IA; con --sin-ia no aplica.
     if len(texto) > LIMITE_CARACTERES:
         detalle = " · ".join(
             f"secc. {s}: {sum(len(x) for x in pags) // 1000}k"
@@ -624,9 +654,6 @@ def main() -> None:
             f"   Desglose → {detalle}\n"
             f"   El texto quedó archivado igual. Sacá la sección más pesada "
             f"(normalmente la 2ª, Judiciales) y volvé a correr con --secciones.")
-
-    nro = detectar_numero_boletin(texto)
-    print(f"Boletín N° {nro} · ~{len(texto) // 1000} mil caracteres")
 
     despacho, motor_usado = llamar_api(texto, motor)
     despacho.setdefault("numero_boletin", nro)
