@@ -10,9 +10,23 @@ export default function Login() {
 
   // Si el enlace del correo falló, mostrar POR QUÉ. Rebotar en silencio
   // hace gastar intentos a ciegas, y Supabase solo da unos pocos por hora.
+  //
+  // Hay que mirar en dos lados. Cuando el enlace es inválido o venció,
+  // Supabase devuelve el error en el FRAGMENTO (#error_description=…), que
+  // el navegador nunca manda al servidor — así que la ruta de confirmación
+  // no puede verlo y hay que leerlo acá. El resto de los motivos sí llegan
+  // como parámetro normal desde esa ruta.
   useEffect(() => {
-    const motivo = new URLSearchParams(location.search).get("motivo");
-    if (motivo) { setDetalle(motivo); setEstado("error"); }
+    const hash = new URLSearchParams(location.hash.replace(/^#/, ""));
+    const motivo =
+      hash.get("error_description") ??
+      hash.get("error") ??
+      new URLSearchParams(location.search).get("motivo");
+    if (motivo) {
+      setDetalle(motivo.replace(/\+/g, " "));
+      setEstado("error");
+      history.replaceState(null, "", location.pathname);   // no dejarlo pegado en la URL
+    }
   }, []);
 
   async function entrar(e: React.FormEvent) {
