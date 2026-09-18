@@ -103,3 +103,33 @@ input[type=search]{flex:1;min-width:240px}
   font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;line-height:1.6;
   color:#2A3550;background:var(--papel);border:1px solid var(--linea);padding:12px 14px;
 }
+
+/* ---------- Contactos y encargos ---------- */
+.fila-titulo{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+.ficha{background:#fff;border:1px solid var(--linea);padding:18px 20px;margin-top:16px}
+.ficha-cab{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.ficha-nombre{font-family:'Bitter',Georgia,serif;font-weight:700;font-size:17px}
+.sin-tg{color:var(--sello)}
+code{font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px}
+
+.tarjeta-form{background:#fff;border:1px solid var(--linea);border-left:3px solid var(--celeste);
+  padding:18px 20px;margin-top:16px}
+.campos{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px}
+.campos label{display:flex;flex-direction:column;gap:5px;flex:1;min-width:190px;
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:11px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--grafito)}
+.campos input{font-family:'Archivo',sans-serif;font-size:15px;padding:9px 11px;
+  border:1px solid var(--linea-fuerte);background:var(--papel);color:var(--tinta);
+  text-transform:none;letter-spacing:normal}
+
+.encargos{margin-top:16px;border-top:1px solid var(--linea);padding-top:14px}
+.encargo{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;
+  padding:9px 0;border-bottom:1px solid var(--linea)}
+.chip.tema{border-color:var(--celeste);color:var(--celeste);text-transform:none;
+  letter-spacing:0;margin-top:5px;display:inline-block}
+.secciones{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
+.check{display:flex;align-items:center;gap:6px;font-size:13.5px;color:var(--grafito)}
+.tema-fila{display:flex;align-items:center;gap:12px;margin-top:9px;flex-wrap:wrap}
+.calibre{font-family:'Chivo Mono',ui-monospace,monospace;font-size:11.5px;color:var(--grafito)}
+.calibre.ok b{color:var(--celeste)}
+.calibre.mal b{color:var(--sello)}
