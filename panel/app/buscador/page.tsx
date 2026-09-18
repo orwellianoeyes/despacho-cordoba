@@ -13,9 +13,36 @@ type Norma = {
   seccion: string; pagina: number; url_oficial: string | null;
   destacada: boolean; importa: string | null;
   ampliada: Ampliada | null; analizada_por: string | null;
+  extenso: string | null; extenso_por: string | null;
 };
+type Abierto = { id: number; vista: "corto" | "extenso" | "texto" } | null;
 
 const TIPOS = ["Ley", "Decreto", "Resolución", "Licitación", "Edicto", "Subasta"];
+const COLUMNAS =
+  "id,fecha,tipo,numero,titulo,seccion,pagina,url_oficial,destacada," +
+  "importa,ampliada,analizada_por,extenso,extenso_por";
+
+// Markdown mínimo: el instructivo produce títulos ##, párrafos y listas.
+// No vale traer una librería entera para eso.
+function Markdown({ texto }: { texto: string }) {
+  const bloques = texto.split(/\n{2,}/);
+  return (
+    <>
+      {bloques.map((b, i) => {
+        const t = b.trim();
+        if (t.startsWith("## ")) return <h3 key={i} className="md-h">{t.slice(3)}</h3>;
+        if (/^[-*] /m.test(t)) {
+          return (
+            <ul key={i} className="md-lista">
+              {t.split("\n").map((l, j) => <li key={j}>{l.replace(/^[-*]\s*/, "")}</li>)}
+            </ul>
+          );
+        }
+        return <p key={i} className="amp">{t}</p>;
+      })}
+    </>
+  );
+}
 
 export default function Buscador() {
   const supabase = clienteNavegador();
@@ -24,21 +51,18 @@ export default function Buscador() {
   const [filas, setFilas] = useState<Norma[]>([]);
   const [total, setTotal] = useState<number | null>(null);
   const [cargando, setCargando] = useState(false);
-  const [abierta, setAbierta] = useState<number | null>(null);
-  const [resumiendo, setResumiendo] = useState<number | null>(null);
+  const [abierto, setAbierto] = useState<Abierto>(null);
+  const [trabajando, setTrabajando] = useState<string | null>(null);
+  const [textos, setTextos] = useState<Record<number, string>>({});
   const [error, setError] = useState("");
 
   const buscar = useCallback(async () => {
     setCargando(true); setError("");
-    let consulta = supabase
-      .from("normas")
-      .select("id,fecha,tipo,numero,titulo,seccion,pagina,url_oficial,destacada,importa,ampliada,analizada_por",
-              { count: "exact" })
-      .order("fecha", { ascending: false })
-      .limit(40);
+    let consulta = supabase.from("normas").select(COLUMNAS, { count: "exact" })
+      .order("fecha", { ascending: false }).limit(40);
 
-    // La búsqueda la resuelve Postgres con el índice de texto completo en
-    // español, no el navegador filtrando un JSON entero.
+    // La búsqueda la resuelve Postgres con el índice de texto completo, que
+    // está armado para encontrar con y sin tildes.
     if (q.trim()) consulta = consulta.textSearch("busqueda", q.trim(), {
       type: "plain", config: "spanish",
     });
@@ -46,7 +70,7 @@ export default function Buscador() {
 
     const { data, error, count } = await consulta;
     if (error) setError(error.message);
-    setFilas((data as Norma[]) ?? []);
+    setFilas((data as unknown as Norma[]) ?? []);
     setTotal(count ?? null);
     setCargando(false);
   }, [q, tipo, supabase]);
@@ -56,27 +80,37 @@ export default function Buscador() {
     return () => clearTimeout(t);
   }, [buscar]);
 
-  async function resumir(id: number) {
-    setResumiendo(id); setError("");
+  async function analizar(id: number, modo: "corto" | "extenso") {
+    setTrabajando(`${id}:${modo}`); setError("");
     try {
       const r = await fetch("/api/resumir", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ id }),
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, modo }),
       });
-      const cuerpo = await r.json();
-      if (!r.ok) throw new Error(cuerpo.error || "no se pudo resumir");
-      setFilas((prev) => prev.map((n) => (n.id === id
-        ? { ...n, ampliada: cuerpo.ampliada, importa: cuerpo.importa,
-            analizada_por: cuerpo.motor }
-        : n)));
-      setAbierta(id);
+      const c = await r.json();
+      if (!r.ok) throw new Error(c.error || "no se pudo analizar");
+      setFilas((prev) => prev.map((n) => n.id !== id ? n : modo === "extenso"
+        ? { ...n, extenso: c.extenso, extenso_por: c.motor }
+        : { ...n, ampliada: c.ampliada, importa: c.importa, analizada_por: c.motor }));
+      setAbierto({ id, vista: modo });
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally {
-      setResumiendo(null);
+      setTrabajando(null);
     }
   }
+
+  async function verTexto(n: Norma) {
+    if (abierto?.id === n.id && abierto.vista === "texto") { setAbierto(null); return; }
+    setAbierto({ id: n.id, vista: "texto" });
+    if (textos[n.id]) return;
+    const { data } = await supabase.from("paginas").select("texto")
+      .eq("fecha", n.fecha).eq("seccion", n.seccion).eq("pagina", n.pagina).maybeSingle();
+    setTextos((t) => ({ ...t, [n.id]: data?.texto ?? "(no hay texto archivado de esa página)" }));
+  }
+
+  const alterna = (id: number, vista: "corto" | "extenso") =>
+    setAbierto(abierto?.id === id && abierto.vista === vista ? null : { id, vista });
 
   return (
     <div className="marco">
@@ -84,67 +118,101 @@ export default function Buscador() {
 
       <div className="busca-caja">
         <div className="busca-fila">
-          <input
-            type="search" value={q} onChange={(e) => setQ(e.target.value)}
+          <input type="search" value={q} onChange={(e) => setQ(e.target.value)}
             aria-label="Buscar normativa"
-            placeholder="Buscar por número o palabra clave — ej.: emergencia hídrica, APROSS, 812"
-          />
+            placeholder="Buscar por número o palabra clave — ej.: emergencia hidrica, APROSS, 812" />
           <select value={tipo} onChange={(e) => setTipo(e.target.value)} aria-label="Filtrar por tipo">
             <option value="">Todos los tipos</option>
             {TIPOS.map((t) => <option key={t} value={t}>{t}</option>)}
           </select>
         </div>
         <p className="nota">
-          {cargando ? "Buscando…"
-            : total === null ? ""
+          {cargando ? "Buscando…" : total === null ? ""
             : `${total} resultado${total === 1 ? "" : "s"}${total > filas.length ? ` · se muestran ${filas.length}` : ""}`}
         </p>
         {error && <p className="error">{error}</p>}
 
-        {filas.map((n) => (
-          <div key={n.id}>
-            <div className="resultado">
-              <span className="f-fecha">{n.fecha}</span>
-              <span>
-                <span className="chip">{n.tipo || "—"}</span>
-                {n.ampliada && <span className="chip analizada">analizada</span>}
-                <br />
-                {n.titulo} <span className="f-num">· {n.numero}</span>
-              </span>
-              <span className="acciones">
-                {n.ampliada ? (
-                  <button className="btn" onClick={() => setAbierta(abierta === n.id ? null : n.id)}>
-                    {abierta === n.id ? "Cerrar" : "Ver análisis"}
+        {filas.map((n) => {
+          const abierta = abierto?.id === n.id ? abierto.vista : null;
+          return (
+            <div key={n.id}>
+              <div className="resultado">
+                <span className="f-fecha">{n.fecha}</span>
+                <span>
+                  <span className="chip">{n.tipo || "—"}</span>
+                  {n.ampliada && <span className="chip analizada">resumida</span>}
+                  {n.extenso && <span className="chip extensa">análisis extenso</span>}
+                  <br />
+                  {n.titulo} <span className="f-num">· {n.numero}</span>
+                </span>
+                <span className="acciones">
+                  {n.ampliada ? (
+                    <button className="btn" onClick={() => alterna(n.id, "corto")}>
+                      {abierta === "corto" ? "Cerrar" : "Resumen"}
+                    </button>
+                  ) : (
+                    <button className="btn" onClick={() => analizar(n.id, "corto")}
+                            disabled={trabajando === `${n.id}:corto`}>
+                      {trabajando === `${n.id}:corto` ? "Resumiendo…" : "Resumir"}
+                    </button>
+                  )}
+                  {n.extenso ? (
+                    <button className="btn sello" onClick={() => alterna(n.id, "extenso")}>
+                      {abierta === "extenso" ? "Cerrar" : "Ver extenso"}
+                    </button>
+                  ) : (
+                    <button className="btn sello" onClick={() => analizar(n.id, "extenso")}
+                            disabled={trabajando === `${n.id}:extenso`}>
+                      {trabajando === `${n.id}:extenso` ? "Analizando…" : "Análisis extenso"}
+                    </button>
+                  )}
+                  <button className="btn" onClick={() => verTexto(n)}>
+                    {abierta === "texto" ? "Cerrar texto" : "Texto oficial"}
                   </button>
-                ) : (
-                  <button className="btn sello" onClick={() => resumir(n.id)}
-                          disabled={resumiendo === n.id}>
-                    {resumiendo === n.id ? "Analizando…" : "Resumir con IA"}
-                  </button>
-                )}
-                {n.url_oficial && (
-                  <a className="btn" href={`${n.url_oficial}#page=${n.pagina}`}
-                     target="_blank" rel="noopener">PDF · pág. {n.pagina} ↗</a>
-                )}
-              </span>
-            </div>
-
-            {abierta === n.id && n.ampliada && (
-              <div className="panel-analisis">
-                <p className="rotulo">Síntesis ampliada</p>
-                {n.importa && <p className="amp"><b>Por qué importa.</b> {n.importa}</p>}
-                <p className="amp"><b className="lab-j">Lo jurídico.</b> {n.ampliada.juridica}</p>
-                <p className="amp"><b className="lab-p">Lo político.</b> {n.ampliada.politica}</p>
-                <p className="amp mirada"><b>Mirada oficialista.</b> {n.ampliada.oficialista}</p>
-                <p className="amp mirada"><b>Mirada opositora.</b> {n.ampliada.opositora}</p>
-                <p className="aviso-ia">
-                  Análisis generado con IA{n.analizada_por ? ` (${n.analizada_por})` : ""} a
-                  partir del texto oficial · contrastar con el Boletín antes de citarlo.
-                </p>
+                  {n.url_oficial && (
+                    <a className="btn" href={`${n.url_oficial}#page=${n.pagina}`}
+                       target="_blank" rel="noopener">PDF ↗</a>
+                  )}
+                </span>
               </div>
-            )}
-          </div>
-        ))}
+
+              {abierta === "corto" && n.ampliada && (
+                <div className="panel-analisis">
+                  <p className="rotulo">Síntesis ampliada</p>
+                  {n.importa && <p className="amp"><b>Por qué importa.</b> {n.importa}</p>}
+                  <p className="amp"><b className="lab-j">Lo jurídico.</b> {n.ampliada.juridica}</p>
+                  <p className="amp"><b className="lab-p">Lo político.</b> {n.ampliada.politica}</p>
+                  <p className="amp mirada"><b>Mirada oficialista.</b> {n.ampliada.oficialista}</p>
+                  <p className="amp mirada"><b>Mirada opositora.</b> {n.ampliada.opositora}</p>
+                  <p className="aviso-ia">
+                    Generado con IA{n.analizada_por ? ` (${n.analizada_por})` : ""} a partir del
+                    texto oficial · contrastar con el Boletín antes de citarlo.
+                  </p>
+                </div>
+              )}
+
+              {abierta === "extenso" && n.extenso && (
+                <div className="panel-analisis extenso">
+                  <p className="rotulo">Análisis extenso</p>
+                  <Markdown texto={n.extenso} />
+                  <p className="aviso-ia">
+                    Generado con IA{n.extenso_por ? ` (${n.extenso_por})` : ""} a partir del
+                    texto oficial · contrastar con el Boletín antes de citarlo.
+                  </p>
+                </div>
+              )}
+
+              {abierta === "texto" && (
+                <div className="panel-analisis texto-crudo">
+                  <p className="rotulo">
+                    Texto oficial · sección {n.seccion}, página {n.pagina}
+                  </p>
+                  <pre className="crudo">{textos[n.id] ?? "Cargando…"}</pre>
+                </div>
+              )}
+            </div>
+          );
+        })}
 
         {!cargando && total === 0 && (
           <p className="nota">Sin resultados. Probá con el número de la norma o una palabra del título.</p>

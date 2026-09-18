@@ -86,3 +86,20 @@ input[type=search]{flex:1;min-width:240px}
 .tarjeta{background:#fff;border:1px solid var(--linea);padding:34px 32px;max-width:420px;width:100%}
 .error{color:var(--sello);font-size:14px;margin-top:12px}
 .ok{color:var(--celeste);font-size:14px;margin-top:12px}
+
+/* ---------- Análisis extenso y texto crudo ---------- */
+.chip.extensa{border-color:var(--sello);color:var(--sello)}
+.panel-analisis.extenso{border-left-color:var(--sello);max-width:760px}
+.md-h{
+  font-family:'Bitter',Georgia,serif;font-weight:700;font-size:15.5px;
+  margin-top:20px;margin-bottom:2px;color:var(--tinta);
+}
+.md-h:first-child{margin-top:4px}
+.md-lista{margin:8px 0 0 18px;font-size:14.5px;color:#2A3550}
+.md-lista li{margin-top:4px}
+.panel-analisis.texto-crudo{border-left-color:var(--grafito);max-width:760px}
+.crudo{
+  margin-top:10px;max-height:420px;overflow:auto;white-space:pre-wrap;
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;line-height:1.6;
+  color:#2A3550;background:var(--papel);border:1px solid var(--linea);padding:12px 14px;
+}
