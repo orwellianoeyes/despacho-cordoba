@@ -8,8 +8,10 @@ set -u
 cd "$(dirname "$0")" || exit 1
 
 if [ -f ../.env ]; then
-  ANTHROPIC_API_KEY="$(grep -m1 '^ANTHROPIC_API_KEY=' ../.env | cut -d= -f2-)"
-  export ANTHROPIC_API_KEY
+  for clave in ANTHROPIC_API_KEY TELEGRAM_BOT_TOKEN; do
+    valor="$(grep -m1 "^$clave=" ../.env | cut -d= -f2-)"
+    [ -n "$valor" ] && export "$clave=$valor"
+  done
 fi
 
 export PATH="$HOME/.nvm/versions/node/v20.20.2/bin:$PATH"   # Next 16 pide Node 20+

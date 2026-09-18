@@ -401,9 +401,26 @@ a propósito.** El molde técnico de referencia es su propio `~/bot de X`
 (Supabase + panel en Vercel + webhook de Telegram), no una arquitectura
 nueva.
 
-Etapas pendientes: Supabase y migración · panel en Vercel con la libreta
-de contactos · envío por Telegram + documento · buscador con resumen a
-pedido (habilitado por `texto/`) · pedidos entrando por bot, más adelante.
+Cómo funciona el envío, que es el corazón del producto:
+
+- `contactos` + `encargos`: cada cliente tiene uno o más encargos, con un
+  nombre, los temas que pidió vigilar y qué secciones mirar.
+- `normas_del_encargo()` empareja usando el índice de texto completo y
+  devuelve **qué tema hizo entrar cada norma**, para poder mostrarlo.
+- `calibrar_tema()` dice cuánto pegaría un tema ANTES de guardarlo.
+  Nació de medir que "licitacion" matchea 14 normas por edición —media
+  Sección 4— mientras "paritaria docente" pega 3 veces en dos meses. Sin
+  ese número no hay forma de saber si se le está por mandar al cliente un
+  goteo o una avalancha.
+- El panel prepara y **Leo despacha**: el botón de enviar está deshabilitado
+  hasta haber visto la vista previa. El mensaje al cliente **no lleva link
+  al panel** ni menciona la herramienta.
+- `entregas` guarda el texto que REALMENTE salió, no el que se armaría
+  hoy: el análisis puede cambiar después y hay que saber qué leyó.
+
+Etapas pendientes: desplegar el panel en Vercel · documento para el
+cliente que pide algo más completo · pedidos entrando por bot, más
+adelante.
 
 ## Cómo trabaja Leo (importante para el tono y el método)
 
