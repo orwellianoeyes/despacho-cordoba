@@ -1,0 +1,88 @@
+/* Misma paleta que la app pública: el panel tiene que verse de la familia. */
+:root{
+  --tinta:#182339;
+  --papel:#F6F5F1;
+  --sello:#A83226;
+  --celeste:#3E7CB1;
+  --grafito:#5A6478;
+  --linea:rgba(24,35,57,.14);
+  --linea-fuerte:rgba(24,35,57,.30);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--papel); color:var(--tinta);
+  font-family:'Archivo',system-ui,-apple-system,sans-serif;
+  font-size:16px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+a{color:var(--tinta)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{
+  outline:2px solid var(--sello); outline-offset:3px; border-radius:2px;
+}
+.marco{max-width:980px;margin:0 auto;padding:0 24px}
+
+.eyebrow{
+  font-family:'Chivo Mono',ui-monospace,monospace;
+  font-size:12px;letter-spacing:.14em;color:var(--grafito);text-transform:uppercase;
+}
+h1{font-family:'Bitter',Georgia,serif;font-weight:800;font-size:clamp(26px,4vw,38px);line-height:1.1}
+h2{font-family:'Bitter',Georgia,serif;font-weight:700;font-size:20px}
+
+.cabecera{padding:34px 0 18px;border-bottom:2px solid var(--tinta);
+  display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.nav{display:flex;gap:18px;font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;
+  letter-spacing:.08em;text-transform:uppercase}
+.nav a{color:var(--grafito);text-decoration:none;padding-bottom:3px}
+.nav a.activa{color:var(--tinta);border-bottom:2px solid var(--sello)}
+
+.busca-caja{margin-top:28px;background:#fff;border:1px solid var(--linea);padding:20px 22px}
+.busca-fila{display:flex;gap:10px;flex-wrap:wrap}
+input[type=search],select,input[type=email]{
+  font-family:inherit;font-size:15px;padding:10px 12px;
+  border:1px solid var(--linea-fuerte);background:var(--papel);color:var(--tinta);
+}
+input[type=search]{flex:1;min-width:240px}
+.nota{font-family:'Chivo Mono',ui-monospace,monospace;font-size:11.5px;
+  color:var(--grafito);margin-top:10px}
+
+.btn{
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:11.5px;letter-spacing:.06em;
+  border:1px solid var(--tinta);padding:8px 13px;text-decoration:none;
+  color:var(--tinta);background:transparent;cursor:pointer;display:inline-block;
+}
+.btn:hover{background:var(--tinta);color:var(--papel)}
+.btn:disabled{opacity:.45;cursor:progress}
+.btn.sello{border-color:var(--sello);color:var(--sello)}
+.btn.sello:hover{background:var(--sello);color:var(--papel)}
+
+.resultado{
+  display:grid;grid-template-columns:96px 1fr auto;gap:14px;align-items:start;
+  padding:14px 0;border-top:1px solid var(--linea);
+}
+@media(max-width:720px){.resultado{grid-template-columns:1fr}}
+.f-fecha{font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;color:var(--grafito)}
+.chip{
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:10.5px;letter-spacing:.06em;
+  border:1px solid var(--linea-fuerte);padding:2px 7px;margin-right:8px;
+  text-transform:uppercase;color:var(--grafito);white-space:nowrap;
+}
+.chip.analizada{border-color:var(--celeste);color:var(--celeste)}
+.f-num{font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;color:var(--grafito)}
+.acciones{display:flex;gap:8px;flex-wrap:wrap}
+
+.panel-analisis{
+  margin-top:12px;background:#fff;border:1px solid var(--linea);
+  border-left:3px solid var(--celeste);padding:16px 18px;max-width:680px;
+}
+.amp{font-size:14.5px;color:#2A3550;margin-top:8px}
+.amp b{font-weight:600}
+.lab-j{color:var(--tinta)} .lab-p{color:var(--celeste)}
+.amp.mirada{border-left:2px solid var(--linea-fuerte);padding-left:12px;font-size:14px}
+.rotulo{font-family:'Chivo Mono',ui-monospace,monospace;font-size:10.5px;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--grafito)}
+.aviso-ia{font-family:'Chivo Mono',ui-monospace,monospace;font-size:11px;
+  color:var(--grafito);margin-top:12px;border-top:1px solid var(--linea);padding-top:8px}
+
+.centro{min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:24px}
+.tarjeta{background:#fff;border:1px solid var(--linea);padding:34px 32px;max-width:420px;width:100%}
+.error{color:var(--sello);font-size:14px;margin-top:12px}
+.ok{color:var(--celeste);font-size:14px;margin-top:12px}

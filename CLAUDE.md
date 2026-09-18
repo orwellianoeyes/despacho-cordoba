@@ -48,6 +48,22 @@ legislativo, para control público de normativa provincial.
   Etapa 2.5 el motor sube solo al terminar, así que esto quedó para la
   carga inicial, rellenar días viejos, o recuperar una subida que falló.
 
+- `panel/` — el panel privado (Next.js 16, sin Tailwind: CSS a mano con la
+  misma paleta que la app pública). **Necesita Node 20+**; la Mac tiene
+  v16 en el PATH y v20.20.2 por nvm, así que `dev.sh` fuerza la ruta de
+  nvm. Levantarlo: `panel/dev.sh`.
+
+  Dos cosas de seguridad que no hay que deshacer: la clave de Anthropic
+  **no se copia** al panel — `dev.sh` la lee del `.env` del repo padre y
+  vive solo en el entorno del proceso. Y la `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+  sí está en claro a propósito: viaja al navegador por diseño y lo que
+  protege los datos es RLS, no esconderla.
+
+  `panel/lib/instruccion-norma.md` es el cerebro del botón "Resumir con
+  IA", hermano de `instrucciones.md`. Son dos porque hacen dos trabajos:
+  aquel analiza una edición entera y elige destacadas; este analiza UNA
+  norma que alguien fue a buscar. Los dos se editan como texto.
+
 Base: proyecto `despacho-cordoba` (São Paulo, plan free).
   URL  https://rtawftdaofurzfcywain.supabase.co
   Esquema versionado en `supabase/001…` — 9 tablas, RLS en todas.
@@ -94,6 +110,14 @@ Carpeta local: ~/despacho-cordoba
   barra suelta después de `</string>` que hacía fallar `plutil -lint`.
   Arreglado el 18/09/2026. Si alguna vez se reinstala copiando desde el
   repo, validar primero con `plutil -lint com.leo.despacho.plist`.
+- **El primer usuario que se registra se queda con el panel.** Las
+  políticas RLS solo dejan leer a quien esté en `usuarios`, pero para
+  agregarse habría que poder escribir: huevo y gallina. Lo resuelve el
+  trigger `bootstrap_primer_usuario()` — si la tabla está vacía, el
+  primero que entra queda como dueño; después ya no está vacía y nadie
+  más entra solo. **Después del primer login conviene apagar los
+  registros públicos** en Authentication → Sign In / Providers.
+
 - **Sin crédito, la respuesta es `--sin-ia`, no Gemini** (decidido el
   18/09/2026). Baja, extrae y archiva el texto sin llamar a ninguna IA.
   El día queda a salvo por nada y se analiza bien cuando haya crédito,
