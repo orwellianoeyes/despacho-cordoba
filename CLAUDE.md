@@ -87,9 +87,26 @@ Carpeta local: ~/despacho-cordoba
   dice en la primera línea**. Un respaldo silencioso es peor que no
   tener respaldo: la calidad baja sin que nadie se entere.
 
-  `instrucciones.md` está afinado para Claude. **El respaldo todavía no
-  se probó contra un boletín real** — hay que correr los dos motores
-  sobre la misma edición y comparar antes de confiar en él.
+  **Probado contra un boletín real el 18/09/2026 (B.O. 182).** Gemini
+  respeta la estructura —dígitos de sección, dos párrafos por síntesis,
+  las cuatro miradas, JSON válido— pero la calidad baja bastante:
+
+      ampliada.juridica   469 car (Claude)  ->  265 (Gemini)
+      texto_oficial       982 car (Claude)  ->  306 (Gemini)
+      indice_nuevas        51 entradas      ->   17
+
+  Y se contradice: el aviso decía "35 normas" con 17 indexadas (en otra
+  corrida, "53"). El `texto_oficial` deja de ser transcripción y pasa a
+  ser resumen con puntos suspensivos, que para un despacho jurídico no
+  sirve. **Conclusión: Gemini alcanza para que el día no quede vacío,
+  no para mandarle el resumen a un cliente.** Un día escrito por Gemini
+  queda además con un índice pobre, que es la columna vertebral del
+  buscador: conviene rehacerlo con Claude cuando haya crédito.
+
+  También metió un `- ` de lista de markdown en medio del JSON pese al
+  `responseMimeType: application/json`. Por eso el parseo va dentro del
+  intento y un JSON roto se reintenta con el mismo motor antes de pasar
+  al respaldo.
 
 - **El campo `seccion` en el JSON debe ser el dígito pelado** ("1",
   "4"), nunca texto como "Licitaciones (Sección 4)". Hubo un bug donde
@@ -136,6 +153,21 @@ Carpeta local: ~/despacho-cordoba
   Si reaparece el cartel del llavero, revisar con
   `git config --list --show-origin | grep credential` — debe aparecer
   SOLO `store`.
+- **El número NO identifica una norma. Nunca deduplicar por
+  (fecha, número).** En el Boletín una edición trae doce edictos
+  distintos todos con `numero: "s/n"`, notificaciones distintas con
+  `numero: "Juzgado Electoral"`, y notas aclaratorias con `numero: "1"`.
+  Los 14 pares "repetidos" que aparecían en `indice.json` se revisaron
+  uno por uno el 18/09/2026: **los 14 eran normas diferentes, ninguno
+  era una copia.** Un dedup por (fecha, número) habría borrado once
+  edictos reales del 04/09. La clave correcta está en `_clave_indice()`
+  e incluye el título, que sí distingue. Probado regenerando el 04/09:
+  los doce "s/n" sobreviven.
+
+- **Regenerar un día limpia primero su rastro en el índice.** Sin eso,
+  `--rehacer` (o cambiar de motor) dejaba mezcladas las entradas de las
+  dos corridas.
+
 - **Alucinaciones de la IA** (inventaba vínculos entre organismos y
   proyectos que el texto no mencionaba — ej. le puso la Ruta Porteña-
   Freyre a una licitación de CASISA que no la mencionaba): resuelto en
@@ -180,11 +212,6 @@ Carpeta local: ~/despacho-cordoba
   PDF siguen publicados y `--fecha` ya existe, así que son recuperables;
   quedó pendiente de que Leo cargue crédito. El texto crudo del 8 ya
   está archivado en `texto/`.
-
-- **El índice tiene 14 pares (fecha, número) duplicados.** El
-  deduplicador de `guardar()` compara los nuevos contra el índice viejo
-  pero no contra sí mismos: si la IA lista dos veces la misma norma en
-  un día, entran las dos.
 
 - El `.env` con las claves vive solo en la Mac de Leo, nunca en el
   repo (está en `.gitignore`); los nombres de las variables sí están

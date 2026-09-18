@@ -66,6 +66,9 @@ MODELO_CLAUDE = "claude-haiku-4-5"
 MODELOS_GEMINI = ["gemini-flash-lite-latest", "gemini-3.1-flash-lite"]
 MAX_TOKENS_SALIDA = 32000
 TIMEOUT_IA = 600
+# Intentos por motor. Solo se gastan cuando el JSON vuelve roto: cualquier
+# otro error pasa al respaldo sin reintentar, porque daría lo mismo.
+INTENTOS_POR_MOTOR = 2
 
 GEMINI_URL = ("https://generativelanguage.googleapis.com"
               "/v1beta/models/{modelo}:generateContent")
@@ -286,40 +289,64 @@ def _invocar(motor: str, sistema: str, usuario: str) -> str:
     return bruto
 
 
+def _parsear(bruto: str, motor: str, intento: int) -> dict:
+    """Texto crudo → dict. Deja la salida en disco si no parsea."""
+    limpio = re.sub(r"^```(?:json)?\s*|\s*```$", "", bruto.strip())
+    try:
+        return json.loads(limpio)
+    except json.JSONDecodeError:
+        ruta = RAIZ / f"salida_invalida_{HOY}_{motor}_{intento}.txt"
+        ruta.write_text(limpio, encoding="utf-8")
+        print(f"      · JSON inválido; salida cruda en {ruta.name}")
+        raise
+
+
 def llamar_api(texto_boletin: str, motor: str) -> tuple[dict, str]:
     """Genera el despacho. Devuelve (despacho, motor que lo escribió).
 
-    Si el primario falla —sin crédito, caída del proveedor— se intenta con
-    el respaldo. Qué motor salió queda guardado y se avisa: un respaldo
-    silencioso es peor que no tener respaldo, porque la calidad baja sin
-    que nadie se entere."""
+    Si el primario falla —sin crédito, caída del proveedor, JSON roto— se
+    intenta con el respaldo. Qué motor salió queda guardado y se avisa: un
+    respaldo silencioso es peor que no tener respaldo, porque la calidad
+    baja sin que nadie se entere.
+
+    El parseo va DENTRO del intento a propósito. Un JSON malformado es una
+    forma de fallar como cualquier otra, y tiene que poder caer al respaldo;
+    si el parseo quedara afuera, una respuesta rota del primario tiraría
+    todo abajo sin llegar a probar el suplente. Pasó de verdad: el
+    18/09/2026 Gemini metió un "- " de lista de markdown en medio del JSON.
+
+    Un JSON roto SÍ se reintenta con el mismo motor, porque es un tropiezo
+    aleatorio y volver a tirar los dados suele alcanzar. Cualquier otro
+    error (sin crédito, sin clave, red caída) NO se reintenta: repetirlo
+    da el mismo resultado y solo demora el paso al respaldo."""
     sistema, usuario = _construir_prompt(texto_boletin)
 
-    intentos = [motor]
+    motores = [motor]
     if MOTOR_RESPALDO and MOTOR_RESPALDO != motor:
-        intentos.append(MOTOR_RESPALDO)
+        motores.append(MOTOR_RESPALDO)
 
-    bruto, usado, ultimo_error = None, None, None
-    for candidato in intentos:
-        try:
-            print(f"   · consultando {candidato}…")
-            bruto, usado = _invocar(candidato, sistema, usuario), candidato
-            break
-        except Exception as e:
-            ultimo_error = e
-            print(f"   ⚠️  {candidato} falló: {e}")
-            if candidato != intentos[-1]:
-                print("       pruebo con el respaldo…")
-    if bruto is None:
-        raise RuntimeError(f"Fallaron todos los motores. Último: {ultimo_error}")
+    ultimo_error = None
+    for candidato in motores:
+        for intento in range(1, INTENTOS_POR_MOTOR + 1):
+            sufijo = f" (intento {intento})" if intento > 1 else ""
+            try:
+                print(f"   · consultando {candidato}…{sufijo}")
+                return _parsear(_invocar(candidato, sistema, usuario),
+                                candidato, intento), candidato
+            except json.JSONDecodeError as e:
+                ultimo_error = e
+                if intento < INTENTOS_POR_MOTOR:
+                    print(f"   ⚠️  {candidato} devolvió JSON roto; lo vuelvo a pedir.")
+                    continue
+                print(f"   ⚠️  {candidato} devolvió JSON roto otra vez.")
+            except Exception as e:
+                ultimo_error = e
+                print(f"   ⚠️  {candidato} falló: {e}")
+            break                       # sin más intentos con este motor
+        if candidato != motores[-1]:
+            print("       paso al motor de respaldo…")
 
-    bruto = re.sub(r"^```(?:json)?\s*|\s*```$", "", bruto.strip())
-    try:
-        return json.loads(bruto), usado
-    except json.JSONDecodeError:
-        # Guardar la salida cruda para diagnóstico y abortar con error real.
-        (RAIZ / f"salida_invalida_{HOY}_{usado}.txt").write_text(bruto, encoding="utf-8")
-        raise
+    raise RuntimeError(f"Fallaron todos los motores. Último: {ultimo_error}")
 
 
 def sanear_valores(v):
@@ -342,6 +369,19 @@ def _url_de_seccion(etiqueta_seccion: str, urls: dict) -> str:
         return urls[m.group(0)]
     print(f"   ⚠️  Seccion no resuelta para {etiqueta_seccion!r}; usa Seccion 1.")
     return urls.get("1") or next(iter(urls.values()), "https://boletinoficial.cba.gov.ar/")
+
+
+def _clave_indice(entrada: dict) -> tuple:
+    """Identidad de una entrada del índice.
+
+    NO alcanza con (fecha, número): en el Boletín el número no identifica
+    nada. Una edición trae doce edictos distintos todos con numero "s/n",
+    y notificaciones distintas con numero "Juzgado Electoral". Deduplicar
+    por (fecha, número) borraría normas reales — medido: de los 14 pares
+    repetidos que había en el índice, los 14 eran normas diferentes y
+    ninguno una copia. Por eso entra el título, que sí las distingue."""
+    return (entrada.get("fecha"), entrada.get("tipo"),
+            entrada.get("numero"), entrada.get("titulo"))
 
 
 def guardar(despacho: dict, urls: dict) -> None:
@@ -369,7 +409,11 @@ def guardar(despacho: dict, urls: dict) -> None:
     # 2) Índice acumulado (solo metadatos, para el buscador)
     ruta_indice = DATA / "indice.json"
     indice = json.loads(ruta_indice.read_text(encoding="utf-8")) if ruta_indice.exists() else []
-    existentes = {(e.get("fecha"), e.get("numero")) for e in indice}
+    # Al regenerar un día (--rehacer, o un cambio de motor) hay que sacar
+    # primero lo que esa fecha ya había dejado: si no, el índice queda con
+    # una mezcla de las dos corridas y nadie sabe cuál es cuál.
+    indice = [e for e in indice if e.get("fecha") != str(HOY)]
+    existentes = {_clave_indice(e) for e in indice}
     nro = despacho.get("numero_boletin", "s/d")
 
     nuevos = []
@@ -387,7 +431,14 @@ def guardar(despacho: dict, urls: dict) -> None:
             "titulo": f"{m.get('titulo', '')} — {m.get('organismo', '')}".strip(" —"),
             "pagina": m.get("pagina", 1), "url": m.get("url_oficial", ""),
         })
-    indice = [e for e in nuevos if (e["fecha"], e["numero"]) not in existentes] + indice
+    vistos, unicos = set(), []
+    for e in nuevos:
+        clave = _clave_indice(e)
+        if clave in existentes or clave in vistos:
+            continue
+        vistos.add(clave)
+        unicos.append(e)
+    indice = unicos + indice
     ruta_indice.write_text(json.dumps(indice, ensure_ascii=False, indent=0), encoding="utf-8")
 
     # 3) Puntero "ultimo.json" con el archivo de titulares
@@ -535,8 +586,9 @@ def main() -> None:
 
     secciones = resolver_secciones(args.secciones)
     motor = args.motor or MOTOR
+    hay_respaldo = MOTOR_RESPALDO and MOTOR_RESPALDO != motor
     print(f"Secciones: {', '.join(secciones)} · motor: {motor}"
-          + (f" (respaldo: {MOTOR_RESPALDO})" if MOTOR_RESPALDO else ""))
+          + (f" (respaldo: {MOTOR_RESPALDO})" if hay_respaldo else " (sin respaldo)"))
 
     try:
         pdfs = descargar_pdfs(secciones)
