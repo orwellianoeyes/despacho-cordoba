@@ -40,7 +40,7 @@ git pull --rebase --quiet || echo "Aviso: no pude hacer git pull, sigo igual."
 # Motor, con reintentos
 ESTADO=1
 for intento in 1 2 3; do
-  "$REPO/.venv/bin/python" "$REPO/boletin.py"
+  "$REPO/.venv/bin/python" "$REPO/boletin.py" "$@"
   ESTADO=$?
   if [ $ESTADO -eq 0 ]; then
     break
@@ -56,8 +56,8 @@ if [ $ESTADO -ne 0 ]; then
   exit $ESTADO
 fi
 
-mkdir -p docs/data
-git add -A docs/data
+mkdir -p docs/data texto
+git add -A docs/data texto
 if git diff --staged --quiet; then
   echo "Sin novedades para publicar."
 else

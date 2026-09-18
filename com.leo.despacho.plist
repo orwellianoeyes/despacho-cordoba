@@ -9,7 +9,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>
-  <string>/Users/leonelbur/despacho-cordoba/correr.sh</string>/
+    <string>/Users/leonelbur/despacho-cordoba/correr.sh</string>
   </array>
 
   <!-- Lunes a viernes: 07:30, 09:30 y 11:30.
