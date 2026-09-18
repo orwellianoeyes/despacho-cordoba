@@ -81,8 +81,25 @@ legislativo, para control público de normativa provincial.
   `effort: high`. Si la calidad no alcanza, subir a `claude-opus-5` y
   bajar el esfuerzo a `medium` en el mismo movimiento.
 
-  El extenso recibe también la página siguiente: una norma larga puede
-  arrancar en una página y seguir en la otra.
+  **Cuánto texto recibe el extenso, medido el 18/09/2026 y no supuesto.**
+  Una página no alcanza y dos tampoco: la RG 123/2026 del ERSeP va de la
+  página 12 a la 16, y con dos el texto llegaba cortado a mitad de frase,
+  sin el "RESUELVE". El modelo hizo lo correcto —se negó a analizarla y
+  dijo qué le faltaba, en vez de inventar la parte resolutiva— pero el
+  análisis no servía. Ahora el rango va hasta la página donde arranca la
+  norma SIGUIENTE, dato que ya está en la tabla, con tope de 6 páginas
+  por si el índice del día viene incompleto.
+
+  **`max_tokens` cuenta el razonamiento, no solo la respuesta.** Con 8000
+  y `effort: high`, Sonnet se gastaba casi todo pensando y la respuesta
+  salía truncada (`stop_reason: max_tokens`) con 2.500 caracteres. Con
+  16000 y `medium` produce los 10.000 que pide el instructivo y termina
+  solo. Dato útil: `medium` y `low` tardan lo mismo (47 s y 48 s), así que
+  el esfuerzo no era lo que costaba tiempo — era escribir la respuesta.
+
+  Costo y tiempo reales de un extenso de 7 páginas: **47 segundos y 8,7
+  centavos**. Entra en los 60 segundos de Vercel, pero ajustado: si una
+  norma más larga se pasa, subir `maxDuration` o bajar `TOPE_PAGINAS`.
 
 Base: proyecto `despacho-cordoba` (São Paulo, plan free).
   URL  https://rtawftdaofurzfcywain.supabase.co

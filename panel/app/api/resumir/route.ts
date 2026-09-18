@@ -4,6 +4,10 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { clienteServidor } from "@/lib/supabase/servidor";
 
+// Medido el 18/09/2026 sobre una resolución del ERSeP de 7 páginas: 47
+// segundos. Ajustado pero por debajo de 60, que es lo que garantiza
+// cualquier plan de Vercel. Si un día una norma más larga se pasa, acá se
+// sube (Fluid Compute admite hasta 300) o se baja TOPE_PAGINAS.
 export const maxDuration = 60;
 
 // Dos trabajos, dos modelos, a propósito.
@@ -40,8 +44,14 @@ const MODOS = {
   extenso: {
     modelo: "claude-sonnet-5",
     instrucciones: "instruccion-extensa.md",
-    max_tokens: 8000,
-    esfuerzo: "high" as const,
+    // max_tokens cuenta el razonamiento, no solo la respuesta. Con 8000 y
+    // effort "high" el modelo se gastaba casi todo pensando y la respuesta
+    // salía truncada (stop_reason: max_tokens) con apenas 2.500 caracteres.
+    // Con 16000 y "medium" produce los 10.000 que pide el instructivo y
+    // termina solo. Medido: "medium" y "low" tardan lo mismo (47 s y 48 s),
+    // así que el esfuerzo no era lo que costaba tiempo — era escribir.
+    max_tokens: 16000,
+    esfuerzo: "medium" as const,
   },
 } as const;
 
@@ -79,10 +89,25 @@ export async function POST(request: Request) {
   }
 
   // El texto se archivó ANTES de que ninguna IA tocara el boletín, así que
-  // es el original. Para el extenso se suma la página siguiente: una norma
-  // larga puede arrancar en una página y seguir en la otra, y un análisis
-  // cortado a la mitad es peor que ninguno.
-  const hasta = modo === "extenso" ? norma.pagina + 1 : norma.pagina;
+  // es el original.
+  //
+  // Cuánto mandar, para el extenso: una sola página no alcanza. Probado con
+  // la RG 123/2026 del ERSeP, que va de la página 12 a la 16 — con dos
+  // páginas el texto llegaba cortado a mitad de frase, sin el "RESUELVE", y
+  // el modelo (bien) se negaba a analizarla. La página donde arranca la
+  // norma SIGUIENTE marca dónde termina ésta, y ese dato ya está en la
+  // tabla. El tope acota el costo cuando el índice del día viene incompleto.
+  const TOPE_PAGINAS = 6;
+  let hasta = norma.pagina;
+  if (modo === "extenso") {
+    const { data: siguiente } = await supabase.from("normas")
+      .select("pagina")
+      .eq("fecha", norma.fecha).eq("seccion", norma.seccion)
+      .gt("pagina", norma.pagina)
+      .order("pagina", { ascending: true }).limit(1).maybeSingle();
+    hasta = Math.min(siguiente?.pagina ?? norma.pagina + 2,
+                     norma.pagina + TOPE_PAGINAS);
+  }
   const { data: paginas } = await supabase
     .from("paginas")
     .select("pagina,texto")

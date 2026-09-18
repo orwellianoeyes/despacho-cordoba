@@ -31,6 +31,7 @@ function Markdown({ texto }: { texto: string }) {
       {bloques.map((b, i) => {
         const t = b.trim();
         if (t.startsWith("## ")) return <h3 key={i} className="md-h">{t.slice(3)}</h3>;
+        if (t.startsWith("# ")) return <h3 key={i} className="md-h">{t.slice(2)}</h3>;
         if (/^[-*] /m.test(t)) {
           return (
             <ul key={i} className="md-lista">
