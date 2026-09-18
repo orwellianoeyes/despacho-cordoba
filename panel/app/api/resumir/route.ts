@@ -22,10 +22,15 @@ export const maxDuration = 60;
 //   claude-opus-5      8   ¢     $5 / $25      pero generación anterior
 //
 // Opus 4.8 queda descartado: cuesta igual que Opus 5 siendo más viejo.
-// Entre Sonnet 5 y Opus 5 la diferencia es un dólar por mes a 20 análisis,
-// pero Sonnet es más rápido — y Vercel corta a los 60 segundos. Si el
-// extenso se pasa de tiempo, bajar a "claude-sonnet-5" es cambiar esta
-// línea y nada más.
+// Entre Sonnet 5 y Opus 5 la diferencia es un dólar por mes a 20 análisis.
+// Leo eligió Sonnet 5 (18/09/2026), y tiene a favor algo que no es el
+// precio: es más rápido, y Vercel corta las funciones a los 60 segundos.
+// Ese margen extra se gasta en `effort: high` en vez de `medium`, así que
+// se compra mejor análisis con el mismo tiempo.
+//
+// Si al probarlo la calidad no alcanza, subir a "claude-opus-5" es cambiar
+// esta línea — pero conviene bajar el esfuerzo a "medium" al hacerlo,
+// porque Opus piensa más y puede pasarse del tiempo.
 const MODOS = {
   corto: {
     modelo: "claude-haiku-4-5",
@@ -33,13 +38,10 @@ const MODOS = {
     max_tokens: 2000,
   },
   extenso: {
-    modelo: "claude-opus-5",
+    modelo: "claude-sonnet-5",
     instrucciones: "instruccion-extensa.md",
     max_tokens: 8000,
-    // Opus 5 piensa por defecto. 'medium' da un análisis sólido dentro de
-    // los 60 segundos que da Vercel; subirlo a 'high' mejora el resultado
-    // pero puede pasarse del tiempo.
-    esfuerzo: "medium" as const,
+    esfuerzo: "high" as const,
   },
 } as const;
 

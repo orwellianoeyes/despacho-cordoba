@@ -59,10 +59,30 @@ legislativo, para control público de normativa provincial.
   sí está en claro a propósito: viaja al navegador por diseño y lo que
   protege los datos es RLS, no esconderla.
 
-  `panel/lib/instruccion-norma.md` es el cerebro del botón "Resumir con
-  IA", hermano de `instrucciones.md`. Son dos porque hacen dos trabajos:
-  aquel analiza una edición entera y elige destacadas; este analiza UNA
-  norma que alguien fue a buscar. Los dos se editan como texto.
+  Hay TRES instructivos, uno por trabajo, y los tres se editan como texto:
+  `instrucciones.md` analiza la edición completa del día y elige las
+  destacadas; `panel/lib/instruccion-norma.md` da el resumen corto de una
+  norma que alguien fue a buscar; `panel/lib/instruccion-extensa.md` da el
+  análisis en profundidad que se le manda a un cliente.
+
+  **Modelo distinto por trabajo, decidido el 18/09/2026 con los precios a
+  la vista** (costo de un análisis extenso típico, ~3.200 tokens de
+  entrada y ~2.500 de salida):
+
+      haiku-4-5    1,6 ¢    el despacho diario y el resumen corto
+      sonnet-5     3   ¢    el análisis extenso  ← elegido
+      opus-4-8     8   ¢    descartado: cuesta igual que Opus 5 y es anterior
+      opus-5       8   ¢
+
+  El diario sigue en Haiku porque son 100 mil caracteres todos los días y
+  ahí manda el volumen. El extenso va en Sonnet 5: a 20 por mes la
+  diferencia con Opus es un dólar, pero Sonnet es más rápido y **Vercel
+  corta las funciones a los 60 segundos**. Ese margen se gasta en
+  `effort: high`. Si la calidad no alcanza, subir a `claude-opus-5` y
+  bajar el esfuerzo a `medium` en el mismo movimiento.
+
+  El extenso recibe también la página siguiente: una norma larga puede
+  arrancar en una página y seguir en la otra.
 
 Base: proyecto `despacho-cordoba` (São Paulo, plan free).
   URL  https://rtawftdaofurzfcywain.supabase.co
