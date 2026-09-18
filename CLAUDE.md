@@ -187,6 +187,16 @@ Carpeta local: ~/despacho-cordoba
   `--rehacer` (o cambiar de motor) dejaba mezcladas las entradas de las
   dos corridas.
 
+- **Restos de la demo sobre datos reales** (resuelto el 18/09/2026).
+  El cartel "Texto de ejemplo…" y los tooltips "Demo:" estaban fijos en
+  la plantilla, sin depender de `MODO`, así que el sitio publicado le
+  decía al lector que el articulado oficial era inventado —8 veces por
+  edición—. Ahora cuelgan de `MODO`; el helper `tituloPDF()` hace lo
+  mismo con los tooltips. De paso: el pie ya no dice "GitHub Actions",
+  la barra no promete correo (que no está configurado) y la barra
+  muestra **qué motor escribió el despacho**, en rojo si no fue el
+  titular. Probado en los dos modos.
+
 - **Alucinaciones de la IA** (inventaba vínculos entre organismos y
   proyectos que el texto no mencionaba — ej. le puso la Ruta Porteña-
   Freyre a una licitación de CASISA que no la mencionaba): resuelto en
@@ -217,15 +227,6 @@ Carpeta local: ~/despacho-cordoba
   tres corridas se distingue un corte de red (falla en segundos) de un
   timeout real del cliente (falla a los 600). **Mirar el log antes de
   proponer un arreglo.**
-
-- **La app publicada muestra restos de la demo sobre datos reales.**
-  En `docs/index.html:627` el cartel "Texto de ejemplo — en producción
-  se extrae del PDF oficial del día" está fijo en la plantilla, sin
-  depender de `MODO`, así que aparece debajo de cada texto oficial de
-  verdad (8 veces el 16/09). Los botones "Abrir PDF oficial" tienen el
-  tooltip "Demo:" aunque el link sea correcto. El pie dice "GitHub
-  Actions" y la barra dice "Telegram + correo" aunque el correo no esté
-  configurado. `index.html` no se toca desde el 03/08/2026.
 
 - **Faltan 4 días hábiles: 8, 9, 10 y 11 de septiembre de 2026.** Los
   PDF siguen publicados y `--fecha` ya existe, así que son recuperables;

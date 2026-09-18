@@ -86,6 +86,7 @@
     font-family:'Chivo Mono',monospace;font-size:12px;color:var(--grafito);
   }
   .estado-strip strong{color:var(--tinta);font-weight:500}
+  .estado-strip .suplente, .estado-strip .suplente strong{color:var(--sello)}
   .punto{color:var(--sello)}
 
   /* ---------- Aviso de edición anterior ---------- */
@@ -290,9 +291,9 @@
       </div>
     </div>
     <div class="estado-strip">
-      <span id="estado-corrida"><span class="punto">●</span> Última corrida <strong>hoy 07:40</strong></span>
-      <span>Próxima <strong>mañana 07:30</strong></span>
-      <span>Aviso enviado <strong>Telegram + correo</strong></span>
+      <span id="estado-corrida"><span class="punto">●</span> Última edición procesada <strong>—</strong></span>
+      <span id="estado-motor" hidden>Análisis <strong>—</strong></span>
+      <span>Aviso por <strong>Telegram</strong></span>
       <span>Fuente <strong>boletinoficial.cba.gov.ar</strong></span>
       <span id="estado-modo">Datos <strong>de demostración</strong></span>
     </div>
@@ -344,7 +345,7 @@
   </section>
 
   <footer>
-    <span>Generado automáticamente · GitHub Actions + API de Anthropic</span>
+    <span>Generado con IA a partir del PDF oficial · contrastar siempre con el texto publicado</span>
     <span>Si ves datos de ejemplo, la app aún no encontró <code>data/ultimo.json</code> (modo demostración)</span>
   </footer>
 
@@ -354,7 +355,7 @@
 /* ============================================================
    ARQUITECTURA DE DATOS (producción)
 
-   - data/AAAA/MM/DD.json → un archivo por día con TODO el
+   - data/AAAA-MM-DD.json → un archivo por día con TODO el
      despacho de esa edición: lectura del día, normas destacadas
      (con síntesis ampliada y texto oficial completo) y los
      movimientos de la administración. El Archivo navega entre
@@ -552,6 +553,11 @@ function sanear(v){
 }
 const NOMBRES_SECCION = {"1":"1ª Sección · Legislación","2":"2ª Sección · Judiciales",
   "3":"3ª Sección · Sociedades","4":"4ª Sección · Licitaciones","5":"5ª Sección · Varios"};
+// En demo los enlaces apuntan al sitio del Boletín, no a un PDF concreto:
+// conviene decirlo. Con datos reales el enlace es exacto y no hace falta.
+function tituloPDF(texto){
+  return MODO === "demo" ? "Demostración — " + texto.toLowerCase() : texto;
+}
 function etiquetaSeccion(s){
   s = String(s || "");
   return /^\d$/.test(s) ? (NOMBRES_SECCION[s] || s + "ª Sección") : s;
@@ -581,6 +587,20 @@ function renderDespacho(fecha){
   document.getElementById("sello-detalle").innerHTML = d.estado === "pendiente"
     ? "sin boletín aún<br>reintento 09:30"
     : `B.O. N° ${d.numero_boletin}<br>procesado ${d.hora_procesado}`;
+
+  // Qué motor escribió este despacho. Importa: el suplente sale más flojo,
+  // y hay que saberlo antes de reenviarle el resumen a alguien.
+  const chipMotor = document.getElementById("estado-motor");
+  if (d.motor && MODO === "prod"){
+    const titular = d.motor === "claude";
+    chipMotor.hidden = false;
+    chipMotor.classList.toggle("suplente", !titular);
+    chipMotor.innerHTML = titular
+      ? `Análisis <strong>${d.motor}</strong>`
+      : `Análisis <strong>${d.motor}</strong> — motor de respaldo, revisar`;
+  } else {
+    chipMotor.hidden = true;
+  }
 
   const aviso = document.getElementById("aviso-pasado");
   aviso.classList.toggle("visible", fecha !== HOY);
@@ -624,11 +644,11 @@ function renderDespacho(fecha){
         <details class="texto-oficial">
           <summary>Leer el texto completo de la norma</summary>
           <div class="texto-cuerpo">${n.texto_oficial}</div>
-          <p class="texto-aviso">Texto de ejemplo — en producción se extrae del PDF oficial del día.</p>
+          ${MODO === "demo" ? `<p class="texto-aviso">Texto de ejemplo — con datos reales se extrae del PDF oficial del día.</p>` : ""}
         </details>
         <div class="enlaces">
           <a class="btn oficial" href="${n.url_oficial}#page=${n.pagina}" target="_blank" rel="noopener"
-             title="Demo: en producción abre el PDF exacto de la edición, en esta página">Abrir PDF oficial · ${etiquetaSeccion(n.seccion).split(" · ")[0]}, pág. ${n.pagina} ↗</a>
+             title="${tituloPDF('Abre el PDF oficial de la edición, en esta página')}">Abrir PDF oficial · ${etiquetaSeccion(n.seccion).split(" · ")[0]}, pág. ${n.pagina} ↗</a>
           <a class="btn" href="#t-sintesis">Volver a la lectura del día</a>
         </div>
       </div>
@@ -647,7 +667,7 @@ function renderDespacho(fecha){
             <span class="mov-org">${m.organismo}</span>
           </span>
           <a class="btn mini" href="${m.url_oficial}#page=${m.pagina}" target="_blank" rel="noopener"
-             title="Demo: en producción abre el PDF exacto de la edición">PDF · pág. ${m.pagina} ↗</a>
+             title="${tituloPDF('Abre el PDF oficial de la edición, en esta página')}">PDF · pág. ${m.pagina} ↗</a>
         </div>`).join("")
     : `<p class="vacio">Sin designaciones, renuncias ni cambios de estructura en esta edición.</p>`;
 
@@ -720,7 +740,7 @@ function buscar(){
           <span class="f-fecha">${r.fecha}</span>
           <span class="f-cuerpo"><span class="mini-chip">${r.tipo}</span>${r.titulo} <span class="f-num">· ${r.numero}</span></span>
           <a class="btn mini" href="${r.url}#page=${r.pagina}" target="_blank" rel="noopener"
-             title="Demo: en producción abre el PDF de esa edición, en esta página">B.O. ${r.boletin} · pág. ${r.pagina} ↗</a>
+             title="${tituloPDF('Abre el PDF de esa edición, en esta página')}">B.O. ${r.boletin} · pág. ${r.pagina} ↗</a>
         </div>`).join("")
     : `<p class="sin-resultados">Sin resultados para esa búsqueda en el índice de ejemplo. Probá con el número de la norma o una palabra del título.</p>`;
 }
