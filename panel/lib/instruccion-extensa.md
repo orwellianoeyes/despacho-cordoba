@@ -42,9 +42,27 @@ En lenguaje claro: un lector sin formación jurídica tiene que entenderlo
 y un abogado no tiene que encontrar imprecisiones.
 
 ## El articulado, comentado
-Artículo por artículo, los que tengan contenido sustantivo. Qué dispone
-cada uno y qué consecuencia práctica tiene. Los de forma
-("protocolícese, comuníquese") se mencionan juntos en una línea.
+Una entrada por artículo: qué dispone y qué consecuencia práctica tiene.
+Ninguno puede quedar sin mencionar — el lector tiene que poder verificar
+que se miraron todos.
+
+Se permiten exactamente dos agrupaciones, y ninguna más:
+
+1. **Artículos que disponen LITERALMENTE lo mismo aplicado a sujetos
+   distintos.** Por ejemplo, siete artículos que aprueban el mismo
+   incremento para siete grupos de cooperativas, cada uno remitiendo a su
+   anexo. En ese caso se agrupan en una entrada que empieza diciendo
+   cuáles son ("Art. 1º a 7º") y aclara expresamente que dicen lo mismo y
+   en qué cambian entre sí (el sujeto, el anexo, el porcentaje).
+   **No agrupes artículos que disponen cosas distintas aunque traten el
+   mismo tema.** Ante la duda, separalos.
+
+2. **Los artículos de forma** ("protocolícese, comuníquese, publíquese,
+   archívese"), todos juntos en una sola línea al final.
+
+La agrupación es una excepción para no llenar el documento de repeticiones
+idénticas, no una licencia para resumir. Si agrupás, tiene que quedar
+escrito que agrupaste y cuáles.
 
 ## A quién obliga y desde cuándo
 Sujetos alcanzados, obligaciones concretas, plazos, vigencia. Si el texto

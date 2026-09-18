@@ -97,9 +97,20 @@ legislativo, para control público de normativa provincial.
   solo. Dato útil: `medium` y `low` tardan lo mismo (47 s y 48 s), así que
   el esfuerzo no era lo que costaba tiempo — era escribir la respuesta.
 
-  Costo y tiempo reales de un extenso de 7 páginas: **47 segundos y 8,7
-  centavos**. Entra en los 60 segundos de Vercel, pero ajustado: si una
-  norma más larga se pasa, subir `maxDuration` o bajar `TOPE_PAGINAS`.
+  Costo y tiempo reales de un extenso de 6 páginas: **50 segundos y 9,1
+  centavos**, unos 11 mil caracteres. El límite básico de Vercel son 60
+  segundos y ese margen es demasiado fino —lo que marca el tiempo es
+  cuánto escribe—, así que `maxDuration` está en 300 (techo de Fluid
+  Compute). Si el plan no lo admite, el deploy falla con un mensaje claro:
+  ahí se baja a 60 y se compensa recortando `TOPE_PAGINAS`.
+
+  **La agrupación de artículos es una regla, no criterio del modelo.**
+  Puede agrupar SOLO artículos que dispongan literalmente lo mismo
+  aplicado a sujetos distintos, y está obligado a decir que agrupó, cuáles
+  y en qué se diferencian. Salió de ver que agrupaba bien pero por su
+  cuenta: cuando esto va a clientes, dos análisis con criterios distintos
+  se notan. Probado: ahora declara la agrupación y explica las
+  diferencias, que es más informativo que siete viñetas repetidas.
 
 Base: proyecto `despacho-cordoba` (São Paulo, plan free).
   URL  https://rtawftdaofurzfcywain.supabase.co

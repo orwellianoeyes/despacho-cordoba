@@ -4,11 +4,15 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { clienteServidor } from "@/lib/supabase/servidor";
 
-// Medido el 18/09/2026 sobre una resolución del ERSeP de 7 páginas: 47
-// segundos. Ajustado pero por debajo de 60, que es lo que garantiza
-// cualquier plan de Vercel. Si un día una norma más larga se pasa, acá se
-// sube (Fluid Compute admite hasta 300) o se baja TOPE_PAGINAS.
-export const maxDuration = 60;
+// Medido el 18/09/2026 sobre una resolución del ERSeP de 6 páginas: 47
+// segundos primero y 50 después de afinar el instructivo. El límite básico
+// de Vercel son 60: el margen es demasiado fino para confiar, porque lo que
+// marca el tiempo es cuánto escribe y una norma más larga escribe más.
+//
+// 300 es el techo de Fluid Compute. Si el plan no lo admite, el deploy
+// falla con un mensaje claro: ahí se baja a 60 y se compensa recortando
+// TOPE_PAGINAS, que es lo que acota la entrada.
+export const maxDuration = 300;
 
 // Dos trabajos, dos modelos, a propósito.
 //
