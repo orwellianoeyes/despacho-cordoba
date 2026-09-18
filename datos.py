@@ -83,6 +83,15 @@ def upsert(tabla: str, filas: list[dict], conflicto: str) -> int:
 # "N°", "Letra:D" y demás— la cobertura sube al 95%. El resto son destacadas
 # que la IA no indexó: van como fila propia.
 
+def pagina_entera(valor) -> int:
+    """Igual que en boletin.py. Va también acá porque migrar_a_supabase.py
+    lee archivos viejos, escritos antes de que el motor saneara esto."""
+    if isinstance(valor, int):
+        return valor if valor > 0 else 1
+    m = re.search(r"\d+", str(valor or ""))
+    return int(m.group(0)) if m else 1
+
+
 def _sin_tildes(s: str) -> str:
     s = unicodedata.normalize("NFD", (s or "").lower())
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
@@ -133,7 +142,7 @@ def armar_normas(despacho: dict, fecha: str) -> list[dict]:
         filas[clave(e)] = {
             "fecha": fecha, "tipo": e.get("tipo", "") or "",
             "numero": e.get("numero", "") or "", "titulo": e.get("titulo", "") or "",
-            "seccion": str(e.get("seccion", "1")), "pagina": e.get("pagina", 1) or 1,
+            "seccion": str(e.get("seccion", "1")), "pagina": pagina_entera(e.get("pagina")),
             "url_oficial": e.get("url", ""), "destacada": False,
         }
 
@@ -145,14 +154,14 @@ def armar_normas(despacho: dict, fecha: str) -> list[dict]:
         fila = filas.get(k) or {
             "fecha": fecha, "tipo": n.get("tipo", "") or "",
             "numero": n.get("numero", "") or "", "titulo": n.get("titulo", "") or "",
-            "seccion": str(n.get("seccion", "1")), "pagina": n.get("pagina", 1) or 1,
+            "seccion": str(n.get("seccion", "1")), "pagina": pagina_entera(n.get("pagina")),
             "url_oficial": n.get("url_oficial", ""),
         }
         fila.update({
             "destacada": True, "clase": n.get("clase"), "importa": n.get("importa"),
             "ampliada": n.get("ampliada"), "texto_oficial": n.get("texto_oficial"),
             "analizada_por": despacho.get("motor", "claude"),
-            "pagina": n.get("pagina") or fila.get("pagina", 1),
+            "pagina": pagina_entera(n.get("pagina") or fila.get("pagina")),
         })
         filas[k] = fila
 
@@ -164,7 +173,7 @@ def armar_movimientos(despacho: dict, fecha: str) -> list[dict]:
         "fecha": fecha, "tipo": m.get("tipo", "") or "", "clase": m.get("clase"),
         "instrumento": m.get("instrumento", "") or "",
         "titulo": m.get("titulo", "") or "", "detalle": m.get("detalle"),
-        "organismo": m.get("organismo"), "pagina": m.get("pagina", 1) or 1,
+        "organismo": m.get("organismo"), "pagina": pagina_entera(m.get("pagina")),
         "url_oficial": m.get("url_oficial", ""),
     } for m in despacho.get("movimientos", []) or []]
 
@@ -178,8 +187,24 @@ def armar_paginas(texto: dict, fecha: str) -> list[dict]:
 
 # ------------------------------- Escritura -------------------------------
 
+def _limpiar_dia(fecha: str) -> None:
+    """Borra lo que ese día había dejado, antes de reindexarlo.
+
+    Sin esto, regenerar una edición deja conviviendo las dos tandas: el
+    upsert va contra (fecha, tipo, numero, titulo), y si el motor nuevo
+    escribe los títulos distinto —pasa siempre— las filas viejas quedan
+    huérfanas. Es el mismo saneo que hace guardar() con indice.json.
+
+    Se preservan las normas con análisis extenso: eso lo pidió alguien a
+    mano y se pagó aparte. El resumen corto sí se rehace, porque justamente
+    de eso se trata regenerar el día."""
+    _sb("DELETE", f"normas?fecha=eq.{fecha}&extenso=is.null", prefer="return=minimal")
+    _sb("DELETE", f"movimientos?fecha=eq.{fecha}", prefer="return=minimal")
+
+
 def subir_despacho(despacho: dict, fecha: str) -> dict:
     """Despacho + normas + movimientos. Devuelve cuántas filas de cada cosa."""
+    _limpiar_dia(fecha)
     n = upsert("despachos", [{
         "fecha": fecha,
         "numero_boletin": despacho.get("numero_boletin", "s/d") or "s/d",

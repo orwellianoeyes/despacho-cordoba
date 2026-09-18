@@ -1,0 +1,464 @@
+{
+ "fecha": "2026-09-09",
+ "numero_boletin": "175",
+ "sintesis_juridica": [
+  "La edición del 9 de septiembre de 2026 publica tres resoluciones normativas de alcance sectorial: la Resolución N° 40 de la Dirección General de Prevención de Accidentes de Tránsito habilita como Autoridades de Control a personal de 46 municipios tras aprobar evaluaciones en plataformas digitales; la Resolución General N° 44 de APRHI individualiza inmuebles afectados por expropiaciónes para la obra 'Readecuación y Mejora Sistema Hidráulico Cuenca Sur – Departamento Río Cuarto' (proyectada por el Legajo Técnico aprobado mediante resoluciones digitales 2025/APRHI–00000162 y 2026/APRHI–00000118), estimando reserva económica de $1.523.873.805,27 conforme valuación fiscal 2026; y la Resolución N° 272 de APROSS delega temporalmente en el Director General de Prestaciones Asistenciales facultades sobre contratos y convenios de modelos preaprobados durante ausencia del titular (7 al 21 de septiembre de 2026).",
+  "En materia de contrataciones públicas, se publican 20 licitaciones (14 de ACIF para obras educativas, viales y de pavimentación; 5 de EPEC para bienes y servicios técnicos; 1 del Ministerio de Seguridad para clima organizacional en Policía; 1 de Desarrollo Social para colonias de vacaciones) por montos que oscilan entre $2.768.615,52 (EPEC) y $8.280.489.966,00 (ACIF pavimentación zona 2). Se convocan además una subasta electrónica (limpieza del Complejo Pizzurno), dos compulsas abreviadas (CEPROCOR y Poder Judicial) y tres audiencias públicas ambientales. Todas las operaciones se tramitan por plataforma digital conforme Decreto N° 583/2016."
+ ],
+ "sintesis_politica": [
+  "El boletín refleja agenda de infraestructura intensiva: ACIF licita obras educativas por $3.834 millones (4 grupos de establecimientos en capital) e intervenciones viales por $41.071 millones (6 zonas de mantenimiento provincial más 4 proyectos de pavimentación modular). La magnitud presupuestaria y el timing (presentación 22-24 septiembre) sugieren ejecución acelerada de obra pública hacia cierre de año. APRHI, en paralelo, avanza en expropiaciones para sistema hídrico en Río Cuarto con reserva presupuestaria ya imputada, indicador de intención de ocupación judicial de predios.",
+  "En seguridad y salud, el Ministerio licita $150.550.000 por diagnóstico de clima organizacional en policía (señal de gestión de recursos humanos en fuerzas) y $4.443 millones en equipos de protección para bomberos. APROSS delega operativa cuya continuidad temporal controlada sugiere gobernanza matricial previsible. Las audiencias públicas ambientales (pavimentación RP 23 Calamuchita, cantera Río Cuarto, subdivisión Pedanía Reartes) indican cumplimiento de procedimientos regulatorios de Ley 10.208 pero con plazos acotados de inscripción (27-03 octubre) que pueden limitar participación pública real."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "40",
+   "titulo": "Dirección General de Prevención de Accidentes de Tránsito - Habilitación de Autoridades de Control",
+   "importa": "La Dirección General aprueba evaluaciones en plataforma digital y habilita como Autoridades de Control a personal de 46 municipios (Malagueño, Cosquín, Oncativo, Oliva, Pozo Nuevo, La Calera, Chañar Viejo, San José de la Dormida, Agua de Oro, Villa Tulumba, Santa Elena, Altos de Chipión, Bower, Tránsito, Arroyito, Devoto, Balnearia, Mendiolaza, La Para, Santa Catalina Holmberg, San Lorenzo, Estancia Vieja, Charras, Coronel Moldes, La Cumbre, Despeñaderos, Monte Cristo, Colazo, Pasco, Villa Yacanto, Cura Brochero, Laguna Larga, Justiniano Posse, La Laguna, Ausonia, Río Ceballos, La Playosa, San Francisco, Ballesteros, Alta Gracia, Salsipuedes, Chazón, Anisacate, Brinkman, Kilometro 658, San Basilio, Monte Maíz, Toro Pujio, Villa Amancay, Unquillo, Miramar, Tuclame, Matorrales, Las Varillas, Estación Juárez Celman), tramitadas mediante 8 actas de evaluación (N° 22-29/2026, fechas 23/06 a 29/07/2026) conforme Ley Provincial de Tránsito N° 8.560 y Decreto N° 318/07.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "El acto aprueba idoneidad técnica de personal municipal en función de control de tránsito según procedimiento reglamentario. La competencia de la Dirección General para autorizar matriculación de Autoridades de Control emana del Art. 10 inc. 6 del Decreto N° 318/07. La delegación a plataforma digital de exámenes constituye implementación de gobierno digital. No se advierten vicios de forma: los anexos (I a VIII) contienen nóminas de habilitados con matrículas asignadas, las actas de evaluación están documentadas y el registro será ordenado en organismos pertinentes.",
+    "politica": "La medida operacionaliza capacitación descentralizada de personal de tránsito en pequeñas localidades, probablemente resultado de convenio 205 celebrado con Universidad Nacional de Villa María (mencionado en considerandos). Beneficia a municipios rurales con acceso a formación formal y matriculación ante autoridad provincial, fortaleciendo capacidad de control local.",
+    "oficialista": "La digitalización de exámenes reduce costos administrativos y acelera certificación. La capacitación de personal municipal en 46 localidades expande cobertura de control de tránsito en zonas que históricamente carecían de autoridades habilitadas.",
+    "opositora": "El texto no detalla estándares de evaluación ni criterios de aprobación; sin datos de aprobados vs. presentados, no se puede verificar si el umbral fue riguroso o permisivo. La mención de que 46 localidades 'aspiran a matricularse' deja sin claridad cuántas lo lograron realmente."
+   },
+   "texto_oficial": "1°. - APROBAR lo actuado en el proceso de evaluación realizado a través de plataformas digitales de esta Dirección General al personal dependiente de las localidades [...]. 2°. - HABILITAR en carácter de Autoridades de Control al personal nominado en los Anexos I, II, III, IV, V, VI, VII y VIII que forma parte integrante de la presente Resolución, con las matrículas asignadas en cada caso. 3°. - ORDENAR por el área de capacitación de esta Dirección General, se proceda a la inscripción en los registros pertinentes del personal habilitado conforme al artículo precedente consignado en los Anexos I, II, III, IV, V, VI, VII y VIII, de la presente Resolución. 4°. - PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_090926.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "44 - Letra D",
+   "titulo": "Administración Provincial de Recursos Hídricos - Individualización de bienes afectados por expropiación para obra 'Readecuación y Mejora Sistema Hidráulico Cuenca Sur – Departamento Río Cuarto'",
+   "importa": "APRHI, en carácter de sujeto expropiante, individualiza los bienes declarados de utilidad pública sujetos a expropiación para ejecución de obra de drenaje pluvial rural (12,4 km) ubicada al sur de Río Cuarto y este de Santa Catalina, Departamento Río Cuarto. El Legajo Técnico fue aprobado mediante Resoluciones Digitales N° 2025/APRHI–00000162 y N° 2026/APRHI–00000118 (Órdenes N° 4 y 7). La Subdirección de Asuntos Legales estima reserva económica de PESOS UN MIL QUINIENTOS VEINTITRES MILLONES OCHOCIENTOS SETENTA Y TRES MIL OCHOCIENTOS CINCO CON VEINTISIETE CENTAVOS ($1.523.873.805,27) conforme Artículo 20 bis de la Ley N° 6.394 (treinta por ciento adicional a valuación fiscal proporcional 2026).",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La resolución ejercita competencia del Directorio de APRHI prevista en Art. 24 inc. a) de la Ley N° 9.867 (sujeto expropiante). La obra se encuadra en declaración genérica de utilidad pública de Art. 267° Ley Provincial N° 5.589 y Art. 23° Ley N° 9.867. El Artículo 3° (diferimiento de imputación) remite a procedimiento de determinación de valuación por Consejo General de Tasaciones (Art. 24 inc. b y c Ley 9.867), acto que será complementario y separado. El anexo I (planilla de terrenos) y anexo II (planos de afectación parcelaria) integran el instrumento pero no se transcriben en el boletín; el análisis posterior dependerá de su contenido técnico. Potencial defecto: la mención de 'lo que en más o en menos resulte de planos de mensura definitiva' (Art. 2°) introduce variable de acrecentamiento o reducción de base de expropiación sin precisar límites ni mecanismo de comunicación a afectados.",
+    "politica": "La obra responde a problemas de inundación recurrente en cuenca rural de Río Cuarto, zona agrícola-ganadera. Requiere ocupación de campos privados. El monto de $1.523 millones (reserva inicial) sugiere superficie significativa afectada o valuaciones altas. La imputación diferida (Art. 3°) permite avance administrativo sin compromiso presupuestario inmediato, posible necesidad de crédito o reprogramación fiscal.",
+    "oficialista": "La medida institucionaliza solución integral de drenaje frente a problemas históricos de inundaciones, reemplazando intervenciones puntuales por estrategia regional. El procedimiento respeta trámites de utilidad pública y tasación independiente.",
+    "opositora": "La reserva de $1.523 millones sin determinación final puede significar subvaloración o sobrevaloración según resultado de tasación. El plazo de 5 días para abertura de registro de oposiciones (separado, regulado en acto de Unidad Ejecutora Ley 9150) puede ser insuficiente para que afectados se organicen."
+   },
+   "texto_oficial": "Artículo 1°: INDIVIDUALIZAR los bienes declarados de utilidad pública y sujetos a expropiación para la ejecución de la obra denominada 'READECUACIÓN Y MEJORA SISTEMA HIDRÁULICO CUENCA SUR – DEPARTAMENTO RIO CUARTO', según Planilla de Individualización de Terrenos y Planos de Afectación Parcelaria, que como ANEXO I y ANEXO II, respectivamente, integran el presente instrumento legal. Artículo 2°: DESTACAR que la identificación de los inmuebles y las fracciones de terreno afectadas incluyen lo que en más o en menos resulte de los planos de mensura definitiva que se realicen para la ejecución de la obra. Artículo 3°: DIFERIR la imputación del egreso económico en virtud de lo que, en definitiva, pudiese llegar a acordarse con los titulares dominiales de los inmuebles afectados y conforme lo normado por el Artículo 24 inc. b) y c) de la Ley N° 9.867 . Artículo 4°: DETERMINAR oportunamente el valor definitivo de los inmuebles a expropiar por intermedio del Consejo General de Tasaciones de la Provincia de Córdoba. Artículo 5°: PROTOCOLÍCESE. Publíquese en el Boletín Oficial. Dese intervención al Consejo General de Tasaciones de la Provincia de Córdoba y al Registro General de la Provincia. Pasen a la Subdirección de Jurisdicción de Asuntos Legales a sus efectos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_090926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "272",
+   "titulo": "Administración Provincial del Seguro de Salud - Delegación temporaria de facultades",
+   "importa": "El Directorio de APROSS delega en el Director General de Prestaciones Asistenciales y Control de Gestión, Sr. Roberto Facundo BARRABINO (DNI 24.857.153), a partir del 7 al 21 de septiembre de 2026 inclusive, facultades de rubricación y representación en supuestos de contratos/convenios de modelos preaprobados, adendas de actualización de prácticas y presupuestos, actas acuerdo afiliatorias, reintegros/débitos por prestaciones (hasta Índice I de Ley de Presupuesto vigente), redeterminación de precios conforme régimen provincial, recomposición de valores de códigos prestacionales y cesiones de derechos contractuales, en ausencia del Director General Coordinación Operativa, Sr. Lucas Rodrigo VALDEMARAIN (delegatario original por Resolución N° 2026/APR-00000097).",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "La resolución ejercita potestades delegables del Directorio conforme Art. 26 inc. q) Ley N° 9.277 (APROSS). Se funda en Ley N° 5.350 T.O. N° 6.658 y sus modificatorias (normas de delegación de funciones en Administración Provincial). El acto reconoce ausencia de titular desde el 7 al 21/09/2026 y requiere continuidad de gestión. Transferencia en cascada: primero delegatario → segundo delegatario. La limitación temporal (15 días) y sectorial (solo materia preaprobada) respeta principios de delegación. No hay vicio evidente de forma.",
+    "politica": "Medida de gestión ordinaria que asegura continuidad operativa de APROSS durante período de ausencia. El Director General Coordinación Operativa (Valdemarain) ausente; el relevo provisorio recae en Director de Prestaciones. Refleja estructura funcional conocida de la obra social provincial sin controversia previsible.",
+    "oficialista": "Procedimiento standard de cobertura de ausencias en organismo de salud para evitar interrupciones en gestión de convenios y prestaciones.",
+    "opositora": "Sin datos sobre causa de ausencia de Valdemarain; delegación sucesiva (Director A → Director B) podría interpretarse como falta de deputy structure clara, aunque es cuestión de diseño institucional."
+   },
+   "texto_oficial": "Artículo 1°.- DELÉGASE en el Director General Prestaciones Asistenciales y Control de Gestión, Sr. Roberto Facundo BARRABINO, DNI Nº 24.857.153, a partir del día 7 al 21 de septiembre de 2026 inclusive, la facultad de rubricar en representación de esta Administración, los supuestos comprendidos en las Resoluciones N° 2025/APR-00000260, N° 2025/APR-00000261, N° 2025/APR-00000263 y N° 2025/APR-00000264, en virtud de los considerandos expuestos en la presente.- Artículo 2°.- PROTOCOLÍCESE, comuníquese, notifíquese, publíquese en el Boletín Oficial y ARCHÍVESE.-",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_090926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "ACIF Expte. 0620-002475/2026 (Resolución 2026/ACIFR-00000288)",
+   "titulo": "Obras Mayores en Establecimientos Educativos de la Ciudad de Córdoba Capital - Grupo 2",
+   "importa": "ACIF licita obras mayores en 6 establecimientos educativos capitalinos (Escuela Juan Zorrilla de San Martín, J.Inf. Dr. Humberto Roque Dagum, Escuela Gov. Santiago del Castillo, Escuela Obispo Esquiú, I.P.E.M. N° 167 José Manuel Estrada, Escuela Roma, I.P.E.T. N° 318 Combate de la Tablada). Presupuesto oficial: $945.762.552,00 (IVA incluido). Plazo: 120 días corridos desde Acta de Replanteo. Modalidad: Licitación Pública Digital conforme Decreto N° 583/2016. Presentación: 22/09/2026 12:00 hs. Apertura: 23/09/2026 10:00 hs. Visita técnica obligatoria: 18/09/2026 de 9 a 14 hs.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación de obra pública de primera categoría en arquitectura, regulada por Ley N° 8.614 y Decreto N° 583/2016 (plataforma digital). Garantía de mantenimiento de oferta: 1% del presupuesto oficial. Los pliegos están disponibles sin cargo en portal web de compras. El pliego particular de condiciones rige consultas y presentación. La apertura pública en ACIF (Rosario de Santa Fe N° 231, PB, PH 107, Córdoba) preserva transparencia. No se advierten vicios formales en publicación.",
+    "politica": "Primera de cuatro licitaciones educativas por ACIF en esta edición, invertible estimada en $3.834 millones. Concentración de obras en capital educativa sugiere política de mejora de establecimientos públicos de nivel secundario e inicial. El timing (presentación 22/09) apunta a adjudicación acelerada y ejecución antes de cierre de año.",
+    "oficialista": "Inversión significativa en infraestructura educativa pública responde a demanda de mejora de aulas y espacios. Procedimiento licitatorio abierto garantiza competencia.",
+    "opositora": "Monto de $945 millones para 6 escuelas es elevado; sin desglose por escuela publicado, no se valida si distribución responde a prioridades claras o tiene criterios discrecionales."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000288, de fecha 27 de agosto de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra 'OBRAS MAYORES EN ESTABLECIMIENTOS EDUCATIVOS DE LA CIUDAD DE CÓRDOBA CAPITAL - GRUPO 2...' [detalles de categoría, procedimiento, documentación, presentación de ofertas, apertura, presupuesto, plazo, garantía, visita técnica según párrafos 1-11 del aviso].",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_090926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "ACIF Expte. 0045-027717/2026 (Resolución 2026/ACIFR-00000300)",
+   "titulo": "Mantenimiento Zona 1 - Etapa II (Departamentos: Capital, Colón, Calamuchita, Punilla, Santa María)",
+   "importa": "ACIF licita mantenimiento de red vial en zona 1 (5 departamentos) durante período de 365 días. Presupuesto oficial: $6.718.696.272,91 (IVA incluido). Categoría tercera, calificación vial (100%). Plataforma digital conforme Decreto N° 583/2016. Presentación: 23/09/2026 12:00 hs. Apertura: 24/09/2026 10:30 hs en Dirección de Vialidad (Figueroa Alcorta 445, PB, Córdoba).",
+   "seccion": "4",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Licitación de mantenimiento vial de tercera categoría, obra continua de largo plazo (365 días), regulada por Decreto 583/2016. Procedimiento de doble apertura (sobres presentación y técnica). Garantía de mantenimiento: 1% presupuesto oficial. Apertura pública en Dirección de Vialidad preserva transparencia. No se publican anexos de itinerarios específicos del mantenimiento ni presupuesto detallado por departamento, información que debería estar en pliego particular.",
+    "politica": "Primera de 6 licitaciones de mantenimiento vial provincial (zonas 1-6 más zona pavimentación) por monto total estimado en $41.071 millones. Cobertura de 5 departamentos sugiere estrategia de mantenimiento programado de red existente, complementaria a nuevas obras. Timing de presentación (23/09) permite adjudicación antes de cierre de ejercicio.",
+    "oficialista": "Mantenimiento preventivo de infraestructura vial es función básica del Estado. Licitación abierta garantiza competencia y mejor precio.",
+    "opositora": "Monto de $6.718 millones para 365 días de mantenimiento en 5 departamentos (Capital, Colón, Calamuchita, Punilla, Santa María) requiere desagregación por zona para verificar proporcionalidad. Sin datos públicos de estado actual de red, no se valida si inversión responde a necesidad real."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000300, de fecha 01 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra 'MANTENIMIENTO ZONA 1 - ETAPA II – DEPARTAMENTOS: CAPITAL – COLON – CALAMUCHITA- PUNILLA- SANTA MARIA' [...presupuesto, plazo, garantía, apertura según párrafos de aviso].",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_090926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "Ministerio de Seguridad Expte. 0909-078924/2026",
+   "titulo": "Diseño, implementación, medición, análisis y plan de acción de clima organizacional para la Policía de la Provincia de Córdoba",
+   "importa": "Ministerio de Seguridad licita servicio integral de diagnóstico de clima organizacional (diseño, implementación, medición, análisis, plan de acción) para Policía Provincial. Presupuesto: $150.550.000,00 (IVA incluido). Modalidad: Licitación Pública Presencial. Presentación: 18/09/2026 hasta 10:00 hs en Centro Cívico del Bicentenario (Rosario de Santa Fe N° 650, PB, Córdoba). Apertura: 18/09/2026 12:00 hs. Consultas: correo fernando.leon@cba.gov.ar, hasta 14/09/2026 12:00 hs.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación de servicio presencial (no digital) por monto superior a $150 millones. Regulada por normativa de compras públicas provinciales. Pliego gratuito publicado en portal compraspublicas.cba.gov.ar. Presentación en dos sobres cerrados (administrativo y técnico). Procedimiento estándar de apertura pública. No se advierten defectos de forma en publicación.",
+    "politica": "Contratación de diagnóstico organizacional en fuerzas de seguridad responde a agenda de gestión de recursos humanos. El monto ($150 millones) sugiere estudio comprehensivo con consultora especializada. Timing de licitación (presentación 18/09) permite inicio de diagnóstico en Q4 2026.",
+    "oficialista": "Gestión científica de clima laboral en policía contribuye a retención de personal y mejora de desempeño institucional.",
+    "opositora": "Sin especificaciones técnicas publicadas en boletín, no se valida si alcance del diagnóstico justifica costo. Eventual sesgo de consultora seleccionada hacia resultados favorables para administración requiere supervisión."
+   },
+   "texto_oficial": "El Ministerio de Seguridad de la Provincia de Córdoba llama a Licitación Pública Presencial para la contratación del servicio integral para el 'DISEÑO, IMPLEMENTACIÓN, MEDICIÓN, ANÁLISIS Y PLAN DE ACCIÓN DE CLIMA ORGANIZACIONAL PARA LA POLICÍA DE LA PROVINCIA DE CÓRDOBA'. ADJUDICACIÓN: Renglón completo. MODALIDAD: Licitación Pública Presencial. PRESUPUESTO: pesos CIENTO CINCUENTA MILLONES QUINIENTOS CINCUENTA MIL CON 00/100 ($150.550.000,00) IVA INCLUIDO. [detalles de pliegos, consultas, presentación, apertura]",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_090926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "ACIF Expte. 0916-000496/2026 (Resolución 2026/ACIFR-00000312)",
+   "titulo": "Pavimento Modular Completo Zona 1 – Ciudad de Córdoba",
+   "importa": "ACIF licita pavimentación modular completa de zona 1 de capital. Presupuesto oficial: $7.897.536.036,00 (IVA incluido). Categoría primera vial, calificación ingeniería (100%). Plazo: 270 días corridos. Presentación: 24/09/2026 12:00 hs. Apertura: 25/09/2026 9:30 hs en Sala de Reuniones ACIF (Rosario de Santa Fe N° 231, PB, PH 107). Visita técnica obligatoria: 16/09/2026 de 8 a 14 hs en Humberto Primo N° 725, PB.",
+   "seccion": "4",
+   "pagina": 7,
+   "ampliada": {
+    "juridica": "Licitación de obra vial de primera categoría en ingeniería, regulada por Decreto N° 583/2016 (plataforma digital). Plazo de ejecución de 270 días (9 meses) es ajustado para obra de pavimentación urbana; viabilidad dependerá de condiciones climáticas y disponibilidad de recursos. Visita técnica obligatoria es requisito standard para evitar reclamos posteriores por desconocimiento de terreno. Garantía de mantenimiento: 1%.",
+    "politica": "Primera de 4 licitaciones de pavimentación modular (zonas 1-4) por monto total de $31.010 millones. Concentración de inversión en pavimentación urbana sugiere programa mayor de renovación de calles en capital. Timing (presentación 24-25/09) y plazo de ejecución (270 días) apuntan a finalización hacia agosto 2027, posible presentación de obras en contexto electoral o de cambio administrativo.",
+    "oficialista": "Renovación de pavimentación es demanda ciudadana permanente. Pavimento modular ofrece mayor durabilidad y menor costo de mantenimiento.",
+    "opositora": "Inversión de $7.897 millones solo en zona 1 de capital requiere justificación de criterio de zonificación. Sin desglose de calles específicas, no se valida priorización. Plazo de 270 días puede ser ajustado para obra de envergadura."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución N° 2026/ACIFR-00000312, de fecha 07 de septiembre de 2026, se efectúa el Llamado a Licitación Pública para la contratación de la obra 'PAVIMENTO MODULAR COMPLETO ZONA 1 – CIUDAD DE CÓRDOBA' [...detalles de categoría, procedimiento, presupuesto, plazo, garantía, visita técnica].",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_090926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EPEC Licitación Electrónica N° 1477",
+   "titulo": "Adquisición de 4 vehículos tipo furgón utilitario 100% eléctricos para flota de EPEC",
+   "importa": "EPEC licita 4 vehículos de motorización 100% eléctrica para reposición de flota. Presupuesto oficial: $229.088.600,00 (IVA incluido). Presentación: 15/09/2026 12:00 hs en Portal Electrónico de EPEC. Apertura: 15/09/2026 12:00 hs en mismo portal.",
+   "seccion": "4",
+   "pagina": 9,
+   "ampliada": {
+    "juridica": "Licitación pública electrónica de adquisición de bienes, regulada por normativa de compras de EPEC. Pliego sin valor, disponible en portal de EPEC o en compraspublicas.cba.gov.ar. Procedimiento ágil con apertura inmediata tras vencimiento de plazo. No se advierten defectos formales.",
+    "politica": "Adquisición de vehículos eléctricos responde a agenda de sustentabilidad y reducción de emisiones de carbono en operaciones estatales. Costo unitario estimado en ~$57 millones por vehículo sugiere modelos de gama media-alta.",
+    "oficialista": "Transición a flota eléctrica es política de sostenibilidad ambiental compatible con objetivos de descarbonización nacional.",
+    "opositora": "Sin especificaciones técnicas de modelos en boletín, no se valida si precio es competitivo. Potencial riesgo de dependencia de importaciones y servicios técnicos limitados en provincia."
+   },
+   "texto_oficial": "LICITACION PUBLICA ELECTRONICA N.º 1477 - Objeto: 'POR LA ADQUISICION DE 4 (CUATRO) VEHICULOS TIPO FURGON UTILITARIO, DE MOTORIZACION 100% ELECTRICA, PARA LA FLOTA DE EPEC SAU. -'. PRESUPUESTO OFICIAL: $ 229.088.600,00 IVA incluido- PRESENTACIÓN DE OFERTAS: hasta las 12:00 hs. del día 15-09-2026 en el Portal Electrónico de Compras y Contrataciones de la EPEC. APERTURA DE OFERTAS: Vencido el plazo de presentación, a las 12:00 hs. del día 15-09-2026 en el referido Portal.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_090926.pdf"
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "clase": "licitacion",
+   "numero": "Secretaría General de Desarrollo Social Expte. 0427-107885/2026",
+   "titulo": "Servicio integral de limpieza de inmuebles y espacios verdes - Complejo Pablo Pizzurno",
+   "importa": "Subasta electrónica inversa para contratación de limpieza integral (inmuebles y espacios verdes) del Complejo Pablo Pizzurno durante 12 meses a partir del 16/10/2026 con opción de prórroga. Presupuesto: $396.000.000,00. Modalidad: Renglón. Visita: 10/09/2026 09:00 hs con 15 minutos de tolerancia. Subasta: 14/09/2026 de 08:00 a 12:00 hs. Margen mínimo de mejora: 0,5%.",
+   "seccion": "4",
+   "pagina": 10,
+   "ampliada": {
+    "juridica": "Subasta electrónica inversa regulada por Decreto Reglamentario N° 305/2014 y Resolución N° 08/2020 DGCC. Requiere registro previo en compraspublicas.cba.gov.ar como proveedor. Los lances se realizan en plataforma con visualización en tiempo real de posiciones (sin identificación de oferentes). Margen de mejora del 0,5% es bajo, favoreciendo competencia cerrada. Forma de adjudicación por renglón único (no discriminado por sub-servicios).",
+    "politica": "Servicio de limpieza y mantenimiento de espacios verdes es función continua del Estado. Modalidad de subasta inversa incentiva competencia y reduce costos. Presupuesto de $396 millones para 12 meses sugiere complejidad de gestión (múltiples áreas, espacios amplios).",
+    "oficialista": "Subasta electrónica inversa garantiza mejor precio mediante competencia transparente.",
+    "opositora": "Presupuesto base de $396 millones puede ser de referencia inflada; sin desglose de áreas y servicios específicos en boletín, no se valida si justifica costo."
+   },
+   "texto_oficial": "La Secretaría General de Desarrollo Social [...] realiza este procedimiento de selección para contratar el servicio integral de limpieza de inmuebles y espacios verdes [...] EXPEDIENTE N°: 0427-107885/2026 COTIZACIÓN N°: 2026/000012 FECHA DE VISITA: Se realizará el día 10/09/2026, a las 09:00 horas [...] FECHA DE SUBASTA: 14-09-2026 HORARIO DE SUBASTA: 08:00 horas a 12:00 horas. MARGEN MÍNIMO DE MEJORA DE OFERTA: 0.5 % [...] PRESUPUESTO OFICIAL: $ 396.000.000,00",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_090926.pdf"
+  },
+  {
+   "tipo": "Compulsa Abreviada",
+   "clase": "licitacion",
+   "numero": "Tribunal Superior de Justicia Solicitud de Cotización N° 2026/000413",
+   "titulo": "Mantenimiento correctivo, preventivo, predictivo y de urgencias de grupos electrógenos y tableros en edificios del Poder Judicial",
+   "importa": "Compulsa Abreviada Electrónica para contratación de mantenimiento de grupos electrógenos, tableros de transferencias, tablero general y coseno phi en edificios de Poder Judicial. Justiprecio: $22.087.200,00. Renglones: 3 (Edificio Duarte Quirós, Edificios de Tribunales Cura Brochero, Edificios de Tribunales Oliva). Presentación: hasta 20/10/2026 11:00 hs. Visita obligatoria (requisito indispensable, su falta causa rechazo de oferta).",
+   "seccion": "4",
+   "pagina": 11,
+   "ampliada": {
+    "juridica": "Compulsa abreviada electrónica regulada por Decreto N° 305/14. Requisito indispensable: acreditación de asistencia a al menos una (1) visita de inspección en cada edificio, con constancia emitida por personal de Infraestructura del PJ. Falta de acreditación causa rechazo automático de oferta por ese renglón. Presentación de documentación: presencial en Mesa de Entradas (Arturo M. Bas 158, PB, Córdoba) o electrónica en Compras Públicas (requiere firma digital). Plazo de consultas: hasta 14/10/2026 14:00 hs. Respuestas a aclaraciones: hasta 16/10/2026. Procedimiento es riguroso en cuanto a requisitos previos.",
+    "politica": "Mantenimiento correctivo y preventivo de infraestructura crítica del Poder Judicial (generadores, tableros) es esencial para continuidad de servicios. Justiprecio de $22.087 millones para 3 edificios es moderado; divide por renglones según edificio, permitiendo oferentes especializadas por ubicación.",
+    "oficialista": "Procedimiento previo de visitas obligatorias garantiza que oferentes entienden el scope de trabajo real.",
+    "opositora": "Plazo de al menos una (1) visita obligatoria puede ser barrera de entrada para oferentes de otras provincias o de menor capacidad operativa."
+   },
+   "texto_oficial": "Llámese a COMPULSA ABREVIADA ELECTRÓNICA – SOLICITUD DE COTIZACIÓN N° 2026/000413: Para la contratación del servicio de mantenimiento correctivo, preventivo, predictivo y de urgencias de los grupos electrógenos, tablero de transferencias, tablero general y coseno fi de distintos edificios del Poder Judicial. JUSTIPRECIO: Pesos Veintidós Millones Ochenta y Siete Mil Doscientos ($22.087.200,00). VISITA OBLIGATORIA: [...Renglón N° 1 Edificio Duarte Quiros, días 22/9/2026 y 29/9/2026 a las 13:00hs; Renglón N° 2 Edificio de Tribunales de Cura Brochero, días 21/9/2026 y 28/9/2026 a las 13:00hs; Renglón N° 3 Edificio de Tribunales de Oliva, días 23/9/2026 y 01/10/2026 a las 13:00hs...]",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_090926.pdf"
+  }
+ ],
+ "movimientos": [],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "40",
+   "titulo": "Dirección General de Prevención de Accidentes de Tránsito - Habilitación de Autoridades de Control",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "44 - Letra D",
+   "titulo": "APRHI - Individualización de bienes para expropiación - Readecuación Sistema Hidráulico Cuenca Sur",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "272",
+   "titulo": "APROSS - Delegación temporaria de facultades",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0620-002475/2026",
+   "titulo": "Obras Mayores Establecimientos Educativos - Grupo 2",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0620-002476/2026",
+   "titulo": "Obras Mayores Establecimientos Educativos - Grupo 3",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0620-002479/2026",
+   "titulo": "Obras Mayores Establecimientos Educativos - Grupo 6",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0620-002484/2026",
+   "titulo": "Obras Mayores Establecimientos Educativos - Grupo 11",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Ministerio de Seguridad 0909-078924/2026",
+   "titulo": "Clima Organizacional Policía de la Provincia",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Desarrollo Social 0427-108086/2026",
+   "titulo": "Servicios Integrales Colonias de Vacaciones",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Ministerio de Seguridad 0002-081344/2026",
+   "titulo": "Adquisición Equipos de Respiración Autónoma y Protección Personal - Bomberos",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0045-027717/2026",
+   "titulo": "Mantenimiento Zona 1 - Etapa II (Capital, Colón, Calamuchita, Punilla, Santa María)",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0045-027718/2026",
+   "titulo": "Mantenimiento Zona 2 - Etapa II (Río Seco, Tulumba, Totoral, Río Primero, San Justo, Río Segundo, Colón)",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0045-027719/2026",
+   "titulo": "Mantenimiento Zona 3 - Etapa II (General San Martín, Unión, Marcos Juárez, Tercero Arriba, San Justo, Río Segundo, Juárez Celman)",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0045-027720/2026",
+   "titulo": "Mantenimiento Zona 4 - Etapa II (Tercero Arriba, Calamuchita, Río Cuarto, General San Martín, Juárez Celman)",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0045-027721/2026",
+   "titulo": "Mantenimiento Zona 5 - Etapa II (San Javier, San Alberto, Pocho, Minas, Cruz del Eje, Ischilín, Tulumba, Sobremonte, Totoral)",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0045-027722/2026",
+   "titulo": "Mantenimiento Zona 6 - Etapa II (Presidente Roque Sáenz Peña, General Roca, Juárez Celman, Río Cuarto, Unión, Marcos Juárez)",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0916-000496/2026",
+   "titulo": "Pavimento Modular Completo Zona 1 – Ciudad de Córdoba",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0916-000497/2026",
+   "titulo": "Pavimento Modular Completo Zona 2 – Córdoba Capital",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0916-000498/2026",
+   "titulo": "Pavimento Modular Completo Zona 3 – Córdoba Capital",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF 0916-000499/2026",
+   "titulo": "Pavimento Modular Completo Zona 4 – Ciudad de Córdoba",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1476",
+   "titulo": "Recambio de Sistema de Filtrado de Agua de Refrigeración",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1477",
+   "titulo": "Adquisición de 4 Vehículos Tipo Furgón Utilitario 100% Eléctricos",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1478",
+   "titulo": "Adquisición de Puntos de Accesos Inalámbricos WiFi 7",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1479",
+   "titulo": "Contratación Servicio de Urgencia y Emergencia - Distritos Punilla y Cosquín",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EPEC 1458 Nota Aclaratoria N° 2",
+   "titulo": "Adquisición de Relé de Protección y Control para Banco de Capacitores",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "UNC 194/2026",
+   "titulo": "Reconstrucción Terraza Colegio Nacional de Monserrat",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "Desarrollo Social 0427-107885/2026",
+   "titulo": "Limpieza Integral - Complejo Pablo Pizzurno",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Compulsa Abreviada",
+   "numero": "CEPROCOR 0646-000891/2026",
+   "titulo": "Contratación Profesionales - Unidades de Recepción de Muestras y Espectrometría Molecular",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Compulsa Abreviada",
+   "numero": "Tribunal Superior de Justicia 2026/000413",
+   "titulo": "Mantenimiento Grupos Electrógenos y Tableros - Edificios del Poder Judicial",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Compulsa Abreviada",
+   "numero": "Tribunal Superior de Justicia 2026/000419",
+   "titulo": "Provisión Indumentaria y Calzado de Seguridad - Personal Infraestructura Poder Judicial",
+   "seccion": "4",
+   "pagina": 12
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "Expte. 0918-037410/2026",
+   "titulo": "Pavimentación RP N° 23 Tramo La Cruz - Acceso a Villa Quillinzo y Rehabilitación RP N° 23",
+   "seccion": "4",
+   "pagina": 12
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "Expte. 0307-004035/2025",
+   "titulo": "Cantera La Chiquita II - Río Cuarto",
+   "seccion": "4",
+   "pagina": 12
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "Expte. 0918-037409/2026",
+   "titulo": "Mensura y Subdivisión - Federico Gabriel Scichilone - Pedanía Reartes",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento de Personería Jurídico Política",
+   "numero": "Juzgado Electoral",
+   "titulo": "Agrupación Vecinal Identidad y Futuro - Villa Cañada del Sauce (Depto. Calamuchita)",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Unidad Ejecutora Ley 9150 Expte. 0535-106310/2018",
+   "titulo": "Inscripción Posesión - Moreno Marcelo Ramón",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Unidad Ejecutora Ley 9150 Expte. 0535-113599/2023",
+   "titulo": "Inscripción Posesión - Erazo Celeste María Belén",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Obra Pública - Registro de Oposición",
+   "numero": "Resolución N° 349/2026 - Expte. 0435-005012/2026",
+   "titulo": "Mejoramiento Camino S-325 Etapa 2 - Isla Verde a Guatimozín - Marcos Juárez",
+   "seccion": "4",
+   "pagina": 14
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "Unidad Ejecutora Ley 9150 Expte. 0535-112551/2022",
+   "titulo": "Inscripción Posesión - Taborda María Soledad",
+   "seccion": "4",
+   "pagina": 14
+  },
+  {
+   "tipo": "Obra Pública - Registro de Oposición",
+   "numero": "Resolución N° 369/2026 - Expte. 0435-005037/2026",
+   "titulo": "Mejoramiento Caminos S-242 y T027-26 Etapa 2 - Villa Elisa - Marcos Juárez",
+   "seccion": "4",
+   "pagina": 18
+  }
+ ],
+ "telegram": "BOL. Nº 175 del 9/9/2026: 40+ normas. Destaca Resolución APRHI para expropiaciones en Cuenca Sur Río Cuarto ($1.523M) y licitaciones ACIF de $41M por obras viales + $3.8M educativas. Leer completo en app: https://boletinoficial.cba.gov.ar",
+ "motor": "claude",
+ "hora_procesado": "12:11",
+ "estado": "publicado"
+}

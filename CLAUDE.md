@@ -87,8 +87,9 @@ legislativo, para control público de normativa provincial.
 Base: proyecto `despacho-cordoba` (São Paulo, plan free).
   URL  https://rtawftdaofurzfcywain.supabase.co
   Esquema versionado en `supabase/001…` — 9 tablas, RLS en todas.
-  Cargado el 18/09/2026: 34 despachos · 1008 normas · 70 movimientos
-  · 654 páginas · 15 MB de 500 disponibles.
+  Al 18/09/2026: **41 despachos, todos escritos por Claude**, del 23/07
+  al 18/09 — el único día hábil que falta es el 17/08, feriado sin
+  edición. 1222 normas · 85 movimientos · 690 páginas · 17 MB de 500.
 
 Repo: https://github.com/orwellianoeyes/despacho-cordoba
 App:  https://orwellianoeyes.github.io/despacho-cordoba/
@@ -244,6 +245,44 @@ Carpeta local: ~/despacho-cordoba
 
 ## Problemas ya resueltos (no repetir el diagnóstico)
 
+- **El `read operation timed out` NO era la API: era la conexión.**
+  Medido el 18/09/2026 con el cronómetro, nueve llamadas seguidas sin una
+  sola falla:
+
+      43 mil caracteres →  87 s      144 mil → 81 s y 91 s
+      32 mil           →  78 s      148 mil → 125 s
+      101 mil          → 111 s      159 mil →  82 s
+      118 mil          → 114 s      180 mil →  94 s
+
+  **Ninguna pasó de 125 segundos**, y el timeout del cliente está en 600:
+  nunca estuvo ni cerca de dispararse. Tampoco hay correlación con el
+  tamaño (159 mil caracteres en 82 s, 148 mil en 125 s). Las 17 fallas
+  históricas eran cortes de red del lado de casa, no la API tardando.
+  No subir `TIMEOUT_IA` ni cambiar de modelo buscando arreglar esto: si
+  reaparece, mirar la conexión.
+
+- **La IA devuelve JSON roto ~1 de cada 3 veces, y se arregla sola.**
+  Medido en las mismas nueve llamadas: dos volvieron malformadas (una a
+  los 21 mil caracteres, con el JSON completo pero un error de sintaxis
+  en el medio) y el reintento del mismo motor resolvió las dos. Por eso
+  el parseo va DENTRO del intento y `INTENTOS_POR_MOTOR = 2`. Es un
+  tropiezo aleatorio del modelo: volver a tirar los dados alcanza.
+
+- **El número de página puede venir como rango.** La IA escribió
+  `"5-14"` para un edicto que abarcaba de la página 5 a la 14 — razonable,
+  pero la columna de la base es un entero y el ancla del PDF también, así
+  que Supabase rechazó la subida ENTERA con
+  `invalid input syntax for type integer`. `normalizar_paginas()` se llama
+  apenas vuelve la API y deja el primer número, que es donde la norma
+  empieza. Hay una defensa igual en `datos.py` para los archivos viejos.
+
+- **Regenerar un día duplicaba en Supabase.** El upsert va contra
+  (fecha, tipo, numero, titulo) y el motor nuevo escribe los títulos
+  distinto —siempre—, así que las filas viejas quedaban huérfanas
+  conviviendo con las nuevas. `_limpiar_dia()` borra primero, igual que
+  hace `guardar()` con indice.json. **Preserva las normas con análisis
+  extenso**: eso se pidió a mano y se pagó aparte.
+
 - **El SDK exige streaming** cuando `max_tokens` es alto: con `.create()`
   tiraba "Streaming is required for operations that may take longer than
   10 minutes". Resuelto usando `cliente.messages.stream(...)`. Eso sí
@@ -302,23 +341,6 @@ Carpeta local: ~/despacho-cordoba
   contra lo que hay en el repo.
 
 ## Pendiente / conocido, no resuelto
-
-- **El timeout de la API NO está resuelto: falla 1 de cada 3 corridas.**
-  17 de 53 llamadas cortaron con `The read operation timed out`. Siempre
-  se salvó por el reintento de `correr.sh`, así que nunca se vio.
-  El diagnóstico viejo ("boletines grandes") no explica los datos:
-  **falló con 44 mil caracteres y anduvo con 227 mil**. Se comporta más
-  como un corte de red del lado de casa que como un límite de la API,
-  pero eso todavía NO está probado. Desde el 18/09/2026 la llamada está
-  cronometrada y el log dice a los cuántos segundos cortó: con dos o
-  tres corridas se distingue un corte de red (falla en segundos) de un
-  timeout real del cliente (falla a los 600). **Mirar el log antes de
-  proponer un arreglo.**
-
-- **Faltan 4 días hábiles: 8, 9, 10 y 11 de septiembre de 2026.** Los
-  PDF siguen publicados y `--fecha` ya existe, así que son recuperables;
-  quedó pendiente de que Leo cargue crédito. El texto crudo del 8 ya
-  está archivado en `texto/`.
 
 - El `.env` con las claves vive solo en la Mac de Leo, nunca en el
   repo (está en `.gitignore`); los nombres de las variables sí están

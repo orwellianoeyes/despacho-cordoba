@@ -1,0 +1,370 @@
+{
+ "fecha": "2026-09-08",
+ "numero_boletin": "174",
+ "sintesis_juridica": [
+  "Se publican tres resoluciones del ERSeP (N° 126, 127 y 128) autorizando recomposiciones tarifarias para cooperativas eléctricas concesionarias. Las resoluciones aprueban ajustes de tarifas en el Valor Agregado de Distribución (VAD) y costos operativos, conforme al marco regulatorio de concesiones de energía eléctrica. Un vocal (Dr. Juan H. Negri) votó en disidencia considerando los aumentos excesivos.",
+  "Se establece mediante Resolución de Secretaría de Capital Humano un Curso de Actualización obligatorio para personas con funciones de conducción (septiembre 2026/agosto 2027), incluyendo modalidades de jornadas extendidas (outdoor). Se actualiza el valor de la Unidad Fija (UF) para multas de tránsito a $2.109,00, conforme al precio de nafta súper."
+ ],
+ "sintesis_politica": [
+  "La aprobación de recomposiciones tarifarias para cooperativas eléctricas refleja tensión regulatoria: la mayoría del directorio (4 votos) autoriza los aumentos; un vocal se opone explícitamente argumentando que exceden variables económicas y afectan economía familiar y pequeños emprendimientos. El timing coincide con presiones inflacionarias; las resoluciones privilegian 'recomposición de situación económico-financiera' de prestadores sobre poder adquisitivo de usuarios.",
+  "El curso de capacitación para conductores públicos refuerza profesionalización estatal; incluye énfasis en 'liderazgo empático' y 'gestión emocional'. Múltiples licitaciones de obras educativas (grupos 2, 3, 6, 11) en Córdoba capital suman inversión en infraestructura escolar. Se licitan obras viales en Río Cuarto (repavimentación, duplicación) por montos multimillonarios, concentrando gasto público en dos ciudades."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "4",
+   "titulo": "Plan Anual de Capacitación para el Personal de la Administración Pública Provincial – septiembre 2026 / agosto 2027. Curso de Actualización para Personas con Funciones de Conducción",
+   "importa": "La Secretaría de Capital Humano establece como obligatorio el Curso de Actualización para Personas con Funciones de Conducción (septiembre 2026 / agosto 2027) para agentes del Tramo de Personal Superior Ley N° 9361 y contratados con funciones de conducción. Incluye jornadas extendidas (outdoor) para desarrollo de habilidades blandas.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "El acto se dicta conforme a facultad establecida en Resolución N° 2026/SGG-00000895 de la Secretaría General de la Gobernación. La obligatoriedad se impone a agentes de conducción que cumplan condiciones del punto 8.3.1 del Anexo I de esa resolución. Técnicamente no presenta vicios aparentes de competencia ni formalidad.",
+    "politica": "La inversión en formación de conductores públicos responde a narrativa de 'profesionalización' y 'modernización estatal'. El énfasis en 'habilidades blandas' y 'gestión emocional' refleja tendencia global de renovación del management público. Modalidad outdoor genera oposición potencial de gremios docentes (UEPC) si la vinculan a desvío de fondos de capacitación técnica.",
+    "oficialista": "El programa mejora capacidades de conducción, esencial para prestación de servicios. La formación experiencial (outdoor) genera cohesión grupal y motivación, comprobado en ediciones anteriores. Invierte en capital humano provincial, herramienta crítica para implementar políticas públicas.",
+    "opositora": "¿Qué costo tiene la modalidad outdoor? ¿Por qué jornadas extendidas en 'entornos naturales o simulados' para funcionarios mientras servicios básicos carecen de fondos? Ausencia de presupuesto específico en el texto genera sospecha de gasto discrecional."
+   },
+   "texto_oficial": "ARTÍCULO 1°.- ESTABLÉCESE que el Curso 'ACTUALIZACIÓN PARA PERSONAS CON FUNCIONES DE CONDUCCIÓN – Edición 2027', integrará –durante el periodo septiembre 2026 / agosto 2027– el 'Programa de Actualización para Personas con Funciones de Conducción', resultando por lo tanto de carácter obligatorio para los agentes que cumplan las condiciones establecidas en el punto 8.3.1 del Anexo I de la Resolución N° 2026/SGG-00000895. ARTÍCULO 2°.- APRUÉBASE el programa, contenidos, cronograma y demás información sobre el Curso establecido en el artículo precedente el que, como Anexo I, forma parte integrante de la presente Resolución. ARTÍCULO 3°.- INVÍTASE a todos los agentes que cumplan las condiciones [...] a participar de los eventos en la modalidad de jornada extendida de capacitación (outdoor).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_080926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "39",
+   "titulo": "Actualización de Unidad Fija (UF) de multas por infracciones de tránsito",
+   "importa": "La Dirección General de Prevención de Accidentes de Tránsito establece el nuevo valor de la Unidad Fija de Multa (UF) en $2.109,00, conforme al precio de nafta súper al 5 de septiembre de 2026, con vigencia desde la publicación del aviso.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Acto reglamentario de ejecución de la Ley Provincial N° 8560 (Ley de Tránsito, T.O 2004), artículo 121, que autoriza al organismo a fijar el valor de la UF conforme al precio del combustible. La mecánica es automática (indexación legal). No presenta defectos de forma.",
+    "politica": "Actualización técnica sin contenido político directo, pero refleja inflación acumulada (aumento desde la resolución anterior no especificado en el texto). La vinculación a precio de nafta es mecanismo de traslado automático de aumentos energéticos a sanciones de usuarios.",
+    "oficialista": "Actualización mandatada por ley, objetiva, según precio de mercado de combustible. Mantiene equivalencia real de multas evitando erosión por inflación.",
+    "opositora": "Nuevo aumento de multas sin discusión legislativa. Usuarios de transporte público absorben indirectamente incrementos de combustible mediante sanciones de tránsito más costosas."
+   },
+   "texto_oficial": "1°: ESTABLECER el valor de la Unidad Fija de Multa (UF) por infracciones a la Ley Provincial de Transito 8560 (T.O 2004) en la suma de pesos dos mil ciento nueve con cero centavos ($2.109,00). 2°: DISPONER como período de vigencia del valor de la Unidad Fija señalada por el punto que antecede, el comprendido desde el día de la publicación de la presente y hasta que se determine un nuevo valor mediante la resolución respectiva.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_080926.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "126",
+   "titulo": "Autorización de recomposiciones tarifarias para cooperativas eléctricas concesionarias (Grupos múltiples)",
+   "importa": "El ERSeP autoriza por mayoría (4 votos a favor, 1 en disidencia) la aplicación de recomposiciones tarifarias para múltiples cooperativas concesionarias del servicio público de distribución de energía eléctrica que cumplimentaron requisitos técnicos y contables. Los ajustes corresponden a actualizaciones de Valor Agregado de Distribución (VAD) y se instrumentarán desde septiembre de 2026.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La Resolución se dicta conforme a competencia del ERSeP establecida en Ley N° 8835 (Carta del Ciudadano), art. 25 inc. h), Decreto N° 797/01 y Contrato de Concesión, art. 19 punto IX. Agrupa en un único acto administrativo (conforme Ley N° 6658, art. 95) múltiples expedientes para 'celeridad'. El voto disidente (Dr. Negri) objeta que los aumentos 'resultan excesivos' y 'atentan contra economía familiar' porque salarios de usuarios no tuvieron igual incremento. VOTO POR NO APROBAR LO RESUELTO.",
+    "politica": "Conflicto distributivo evidente: mayoría técnica/regulatoria prioriza 'recomposición económico-financiera' de cooperativas sobre protección de usuarios. Vocal Negri articula perspectiva de impacto social; su disidencia no frenó aprobación (4-1) pero genera registro formal de objeción política. Timing: septiembre 2026, contexto de inflación acumulada.",
+    "oficialista": "Recomposición necesaria para viabilidad financiera de prestadores cooperativos, evita subsidios cruzados. Cooperativas requieren actualizar costos operativos certificados. Procedimiento técnico riguroso; mayoría del directorio respalda conveniencia.",
+    "opositora": "Un vocal denuncia que aumentos ignoran capacidad de pago de usuarios. Salarios no crecieron al ritmo de inflación + recomposiciones = empeoramiento de economía familiar y pequeños emprendimientos. ¿Dónde está consulta previa a usuarios? ¿Transparencia de costos certificados?"
+   },
+   "texto_oficial": "ARTÍCULO 1º: AUTORÍZASE la aplicación de las recomposiciones tarifarias detalladas en el ANEXO I de la presente, a instrumentarse de conformidad con las fechas de vigencia allí especificadas, por parte de las Cooperativas listadas en el ANEXO II de esta resolución. ARTÍCULO 2º: DISPÓNESE que el cobro de 'Mayores Costos Operativos' por parte de las Cooperativas alcanzadas y/o su incorporación a tarifas en virtud de las previsiones del artículo 21.6 del Contrato de Concesión, debe ajustarse al procedimiento establecido en la Resolución General ERSeP Nº 57/2017.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_080926.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "127",
+   "titulo": "Recomposiciones tarifarias Cooperativa de Electricidad y Servicios Públicos de Cavanagh Limitada",
+   "importa": "El ERSeP aprueba por mayoría (4-1) recomposiciones tarifarias para la Cooperativa de Electricidad y Servicios Públicos de Cavanagh Limitada (Grupo A) derivadas de actualizaciones de VAD aprobadas en 16 resoluciones previas (2024-2025). Aplicación desde septiembre y noviembre de 2026. Vocal Negri reitera disidencia.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Acto de aprobación individual después de verificación de cumplimiento de requisitos técnicos y contables. Conforme a competencia del ERSeP y procedimiento unificado de art. 95 Ley N° 6658. Voto disidente de Negri reitera argumentos de exceso y daño distributivo.",
+    "politica": "Patrón reiterado: una cooperativa específica se beneficia de cascada de 16 resoluciones tarifarias previas; mayoría del directorio autoriza. Negri persiste en voto disidente, señalando que acumulación de aumentos excede variables económicas 'vigentes'.",
+    "oficialista": "Cooperativa cumplió requisitos acreditados por técnica. VAD es actualización legal conforme títulos habilitantes. Recomposición necesaria.",
+    "opositora": "¿Por qué 16 resoluciones para una cooperativa en 12 meses? Patrón de 'goteo' de aumentos dificulta visibilidad pública. Vocal disidente es voz aislada en directorio."
+   },
+   "texto_oficial": "ARTÍCULO 1º: APRUÉBANSE las recomposiciones tarifarias aplicables por la COOPERATIVA DE ELECTRICIDAD Y SERVICIOS PÚBLICOS DE CAVANAGH LIMITADA, perteneciente al Grupo 'A', derivadas de la implementación de las actualizaciones del Valor Agregado de Distribución (VAD) autorizadas por las Resoluciones Generales ERSeP Nº 05/2024, Nº 101/2024 [...] a instrumentarse de conformidad con las modalidades establecidas en el ANEXO ÚNICO de la presente resolución.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_080926.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "128",
+   "titulo": "Recomposiciones tarifarias Cooperativa de Servicios Públicos y Asistenciales Chancaní Limitada",
+   "importa": "El ERSeP aprueba por mayoría recomposiciones tarifarias para la Cooperativa de Servicios Públicos y Asistenciales Chancaní Limitada (anteriormente Cooperativa de Provisión de Obras y Servicios Públicos de Chancaní, Grupo D), acumulando 39 ajustes desde 2016. El texto menciona regularización de concesión pendiente en expediente paralelo N° 0521-084821/2025.",
+   "seccion": "1",
+   "pagina": 7,
+   "ampliada": {
+    "juridica": "Aprobación tras verificación de cumplimiento técnico-contable. Acto nota la 'continuidad en la prestación del servicio' y menciona expediente paralelo de regularización de concesión/prestación de hecho, elevado a 'Autoridad de Aplicación en materia energética' (posible ARBA/Energías Renovables). Procedimiento unificado válido.",
+    "politica": "39 ajustes tarifarios en 10 años para una sola cooperativa sugiere patrón de erosión tarifaria + recomposiciones periódicas. Mención de 'regularización de concesión' en expediente paralelo indica posible cuestión dominial sin resolver; cooperativa practica de hecho servicio bajo concesión otorgada en 2003 (Decreto N° 502/2003) pero situación contractual aún bajo 'tratamiento'.",
+    "oficialista": "Cooperativa rural requiere actualización periódica. Regularización en marcha. Recomposiciones certificadas técnicamente.",
+    "opositora": "¿Por qué concesión de 2003 aún no regularizada en 2026? ¿Riesgo de insolvencia de cooperativa rural? 39 recomposiciones = volatilidad tarifaria para usuarios rurales sin poder negociación."
+   },
+   "texto_oficial": "ARTÍCULO 1º: APRUÉBANSE las recomposiciones tarifarias aplicables por la COOPERATIVA DE SERVICIOS PÚBLICOS Y ASISTENCIALES CHANCANÍ LIMITADA [...] derivadas de la implementación de las actualizaciones del Valor Agregado de Distribución (VAD) autorizadas por las Resoluciones Generales ERSeP Nº 57/2016, Nº 57/2017 [...] a instrumentarse de conformidad con las modalidades establecidas en el ANEXO ÚNICO de la presente resolución.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_080926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. 0916-000630/2026",
+   "titulo": "Repavimentación con asfalto 120 cuadras – Ciudad de Río Cuarto",
+   "importa": "ACIF licita obra de repavimentación (120 cuadras) en Río Cuarto. Presupuesto oficial: $5.133.620.800,00 (cinco mil 133 millones). Plazo: 180 días. Apertura 22 de septiembre de 2026. Visita técnica obligatoria 15/09.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto N° 583/2016 (plataforma digital), Ley N° 8.614 (Obras Públicas). ACIF es organismo de economía mixta competente. Procedimiento digital estandarizado. Garantía de oferta 1% (51 millones aprox.). Sin vicios formales aparentes.",
+    "politica": "Concentración de inversión vial en Río Cuarto (segunda ciudad provincial). ACIF ejecuta; posible impacto electoral en distrito con gobernador no alineado federalmente. Monto multimillonario atrae contratistas grandes; pequeñas empresas excluidas por escala.",
+    "oficialista": "Obra crítica de infraestructura vial. Río Cuarto requiere modernización. Proceso licitatorio transparente, digital, abierto.",
+    "opositora": "¿Por qué Río Cuarto concentra licitaciones mientras otras ciudades carecen de pavimento? ¿Criterios territoriales de inversión? Monto inflado por presupuestos de julio 2026 (inflación acumulada)."
+   },
+   "texto_oficial": "OBJETO: 'REPAVIMENTACIÓN CON ASFALTO 120 CUADRAS – CIUDAD DE RÍO CUARTO'. [...] PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS CINCO MIL CIENTO TREINTA Y TRES MILLONES SEISCIENTOS VEINTE MIL OCHOCIENTOS CON 00/100 ($5.133.620.800,00), incluyendo IVA [...] PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de ciento ochenta (180) días corridos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_080926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. 0916-000632/2026",
+   "titulo": "Duplicación y rotonda – Calle Reforma Universitaria ciudad de Río Cuarto",
+   "importa": "ACIF licita obra de duplicación de calzada y construcción de rotonda en Reforma Universitaria (Río Cuarto). Presupuesto: $3.961.365.736,20 (tres mil 961 millones). Plazo: 240 días. Apertura 22/09/2026 14:00 h.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación conforme marco normativo Ley N° 8.614 / Decreto N° 583/2016. Procedimiento estándar digital. Garantía 1%. Sin defectos formales.",
+    "politica": "Segunda licitación ACIF en Río Cuarto en el mismo boletín; acumula casi $9 mil millones. Obra vial estratégica (Reforma Universitaria es eje importante de ciudad). Timing: antes de elecciones municipales 2027.",
+    "oficialista": "Obra de tránsito crítica. Duplicación reduce congestión. Inversión en infraestructura urbana.",
+    "opositora": "Dos obras de $9 mil millones en Río Cuarto en simultáneo. ¿Coordinación? ¿Riesgo de duplicación de gastos administrativos? ¿Por qué no obras en interior provincial?"
+   },
+   "texto_oficial": "OBJETO: 'DUPLICACIÓN Y ROTONDA – CALLE REFORMA UNIVERSITARIA CIUDAD DE RÍO CUARTO'. PRESUPUESTO OFICIAL: [...] PESOS TRES MIL NOVECIENTOS SESENTA Y UNO MILLONES TRESCIENTOS SESENTA Y CINCO MIL SETECIENTOS TREINTA Y SEIS CON 20/100 ($3.961.365.736,20).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_080926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. 0620-002475/2026",
+   "titulo": "Obras mayores en establecimientos educativos Córdoba capital – Grupo 2",
+   "importa": "ACIF licita obras mayores en 6 escuelas de Córdoba capital: Juan Zorrilla de San Martín, J.Inf. Dr. Humberto Roque Dagum, Escuela Gob. Santiago del Castillo, Escuela Obispo Esquiu, I.P.E.M. Nº 167 José Manuel Estrada, Escuela Roma e I.P.E.T. Nº 318 Combate de la Tablada. Presupuesto: $945.762.552,00. Plazo: 120 días.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación de obras arquitectónicas conforme Ley N° 8.614 / Decreto N° 583/2016. Objeto claro (infraestructura educativa). Visita técnica obligatoria 18/09/2026. Apertura 23/09/2026 10:00 h.",
+    "politica": "Inversión en educación pública (6 escuelas). Grupos de obras segmentados (2, 3, 6, 11 en boletín de hoy) permite participación de contratistas de diferentes escalas. Posible palanca electoral: mejora visible en educación antes de elecciones municipales.",
+    "oficialista": "Infraestructura educativa crítica. Córdoba capital concentra población; justifica inversión. Obras fragmentadas facilitan participación de pymes.",
+    "opositora": "¿Estas obras debieron financiarse con fondos educativos? ¿O son 'deuda histórica' de mantenimiento? Fragmentación en 4 grupos (2, 3, 6, 11) puede encarecimiento por pérdida de economías de escala."
+   },
+   "texto_oficial": "OBJETO: 'OBRAS MAYORES EN ESTABLECIMIENTOS EDUCATIVOS DE LA CIUDAD DE CÓRDOBA CAPITAL - GRUPO 2: ESCUELA JUAN ZORRILLA DE SAN MARTIN, J.DE INF. DR. HUMBERTO ROQUE DAGUM (Bº R. DE ESCALADA), ESCUELA GOB. SANTIAGO DEL CASTILLO, ESCUELA OBISPO ESQUIU, I.P.E.M. Nº 167 JOSE MANUEL ESTRADA, ESCUELA ROMA E I.P.E.T. N° 318 COMBATE DE LA TABLADA'. PRESUPUESTO OFICIAL: PESOS NOVECIENTOS CUARENTA Y CINCO MILLONES SETECIENTOS SESENTA Y DOS MIL QUINIENTOS CINCUENTA Y DOS CON 00/100 ($945.762.552,00).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_080926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. 0620-002476/2026",
+   "titulo": "Obras mayores en establecimientos educativos Córdoba capital – Grupo 3",
+   "importa": "ACIF licita obras en 7 establecimientos educativos (J.Inf. Juan Zorrilla de San Martín, Escuela Hugo Leonelli, Escuela Provincia de Formosa, J.Inf. Elsa Bornemann, Escuela Rabindranath Tagore, Escuela Adolfo Van Gelderen, I.P.E.M. Nº 11 Alberto Pío Augusto Cognigni). Presupuesto: $1.035.835.176,00. Plazo: 120 días.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación conforme Ley N° 8.614 / Decreto N° 583/2016. Apertura 23/09/2026 11:30 h.",
+    "politica": "Grupo 3 de 4 en el boletín. Acumula con grupos 2, 6, 11 casi $3.7 mil millones en educación. Concentración en Córdoba capital. Segmentación estratégica.",
+    "oficialista": "Continúa inversión educativa.",
+    "opositora": "Fragmentación de obras puede encarecimiento; centralización en capital abandona interior."
+   },
+   "texto_oficial": "PRESUPUESTO OFICIAL: PESOS MIL TREINTA Y CINCO MILLONES OCHOCIENTOS TREINTA Y CINCO MIL CIENTO SETENTA Y SEIS CON 00/100 ($1.035.835.176,00).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_080926.pdf"
+  }
+ ],
+ "movimientos": [],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "4",
+   "titulo": "Plan Anual de Capacitación para el Personal de la Administración Pública Provincial – septiembre 2026 / agosto 2027. Curso de Actualización para Personas con Funciones de Conducción",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "39",
+   "titulo": "Actualización de Unidad Fija (UF) de multas por infracciones de tránsito – Ley Provincial N° 8560",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "126",
+   "titulo": "Autorización de recomposiciones tarifarias para Cooperativas Concesionarias del Servicio Público de Distribución de Energía Eléctrica",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "127",
+   "titulo": "Recomposiciones tarifarias Cooperativa de Electricidad y Servicios Públicos de Cavanagh Limitada",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "128",
+   "titulo": "Recomposiciones tarifarias Cooperativa de Servicios Públicos y Asistenciales Chancaní Limitada",
+   "seccion": "1",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0916-000630/2026",
+   "titulo": "Repavimentación con asfalto 120 cuadras – Ciudad de Río Cuarto",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0916-000632/2026",
+   "titulo": "Duplicación y rotonda – Calle Reforma Universitaria ciudad de Río Cuarto",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0916-000656/2026",
+   "titulo": "Repavimentación con hormigón 16 cuadras – ciudad de Río Cuarto",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002475/2026",
+   "titulo": "Obras mayores en establecimientos educativos Córdoba capital – Grupo 2",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002476/2026",
+   "titulo": "Obras mayores en establecimientos educativos Córdoba capital – Grupo 3",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002479/2026",
+   "titulo": "Obras mayores en establecimientos educativos Córdoba capital – Grupo 6",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002484/2026",
+   "titulo": "Obras mayores en establecimientos educativos Córdoba capital – Grupo 11",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0909-078924/2026",
+   "titulo": "Diseño, implementación, medición, análisis y plan de acción de clima organizacional para la Policía de Córdoba",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0427-108086/2026",
+   "titulo": "Servicio integral de Gastronomía, Alojamiento, Recreación, Servicio Médico y Emergencias para Colonias de Vacaciones",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1476",
+   "titulo": "Recambio de sistema de filtrado de agua de refrigeración – EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1477",
+   "titulo": "Adquisición de 4 vehículos tipo furgón utilitario 100% eléctricos para flota EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1466 Nota Aclaratoria Nº1",
+   "titulo": "Implementación de IBM Máximo para la Gerencia de Transmisión – EPEC",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1478",
+   "titulo": "Adquisición de puntos de accesos inalámbricos estándar wifi 7 – EPEC",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "194/2026",
+   "titulo": "Reconstrucción terraza Colegio Nacional de Monserrat – Universidad Nacional de Córdoba",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "35/2026",
+   "titulo": "Adquisición de fluidos y filtros flota vehicular Dirección de Vialidad",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "2026/000001",
+   "titulo": "Adquisición de equipo mamográfico digital 3D para Departamento Policlínico Policial",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000017",
+   "titulo": "Contratación de 2 profesionales para unidades de Recepción de Muestras y Espectrometría Molecular – CEPROCOR",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "2026/000413",
+   "titulo": "Mantenimiento correctivo, preventivo y predictivo de grupos electrógenos y tableros – Poder Judicial",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "Digital Capítulo V",
+   "titulo": "Pavimentación RP Nº 23 Tramo La Cruz - Acc. a Villa Quillinzo y Rehabilitación RP N° 23 Tramo La Cruz – Cañada de Álvarez",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "numero": "Digital Capítulo V",
+   "titulo": "Cantera La Chiquita II",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "Edicto",
+   "titulo": "Saneamiento de Títulos – Múltiples expedientes (Ley 9150) – Inscripción de posesión",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "Mejoramiento Camino S-325 Etapa 2",
+   "titulo": "Isla Verde – Guatimozín, Departamento Marcos Juárez – Contribución por mejoras",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "Mejoramiento Caminos S-242 y T027-26 Tramo 2",
+   "titulo": "S-337 Villa Elisa, Departamento Marcos Juárez – Contribución por mejoras",
+   "seccion": "4",
+   "pagina": 13
+  }
+ ],
+ "telegram": "🗞️ Boletín Nº 174 | 8/9/2026. Cuatro normas destacadas: ERSeP autoriza (4-1) recomposiciones tarifarias energéticas con vocal disidente por impacto social; ACIF licita casi $9 mil millones en vialidad Río Cuarto + $3.7 mil en educación Córdoba capital. Multas de tránsito actualizadas a $2.109. Consulta: https://boletinoficial.cba.gov.ar",
+ "motor": "claude",
+ "hora_procesado": "12:08",
+ "estado": "publicado"
+}

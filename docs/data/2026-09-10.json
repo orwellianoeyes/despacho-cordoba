@@ -1,0 +1,448 @@
+{
+ "fecha": "2026-09-10",
+ "numero_boletin": "176",
+ "sintesis_juridica": [
+  "Se aprobó una nueva estructura curricular para Educación Secundaria con Formación Profesional en Desarrollo Local y Regional (Res. Min. 146), incluyendo espacios curriculares del ciclo básico y orientado. El Ministerio de Educación autorizó la asignación de personal necesario y el inicio del trámite de validez nacional de títulos. Se incrementó la recompensa por información sobre el paradero del menor Lian Gael Flores Soraide de $20 millones a $40 millones (Res. 260, Ministerio de Justicia y Trabajo). Se habilitó a la empresa GRUPO BACAR S.A. como Prestadora de Servicios de Seguridad Privada sin autorización para uso de armas, designando a Liliana Rita Zárate Belletti como Directora Técnica (Res. 439, Dirección Control y Gestión Operativa en Seguridad Privada).",
+  "En materia de contrataciones se lanzaron múltiples licitaciones por ACIF para mantenimiento vial en 6 zonas provinciales (Etapa II) con presupuestos agregados superiores a $33 mil millones, y 4 licitaciones para pavimento modular en la ciudad de Córdoba con presupuestos agregados de $31 mil millones. También se convocó licitación para puente sobre Río Panaholma en San Lorenzo (Depto. San Alberto) por $2.711 millones, y obra de defensa de escurrimiento en El Tío (Depto. San Justo) por $1.955 millones. EPEC lanzó múltiples licitaciones electrónicas y subastas inversas por adquisiciones de equipos y repuestos. CASISA convocó licitación para rehabilitación de juntas de dilatación en puentes de la RAC por $567 millones."
+ ],
+ "sintesis_politica": [
+  "La edición del día refleja una fuerte aceleración en la ejecución de obras viales provinciales a través de ACIF, coincidiendo con el cierre del año fiscal. Las licitaciones de mantenimiento de rutas en seis zonas regionales y de pavimentación modular en la ciudad de Córdoba representan un volumen de inversión cercano a los $65 mil millones, señalando una apuesta política a la infraestructura vial como eje de la gestión. El timing de publicación (septiembre) sugiere intención de adjudicaciones antes de fin de año. La combinación de obras rurales (caminos secundarios y terciarios) con infraestructura urbana intenta cubrir demandas tanto de sectores productivos agrícola-ganaderos como de espacios metropolitanos.",
+  "En seguridad y justicia, la duplicación de la recompensa por el paradero del menor Lian Gael Flores Soraide (de $20 a $40 millones) responde a solicitud expresa de la Fiscalía de Instrucción de Fuero Múltiple N° 1 de Bell Ville, marcando un movimiento de escalada en una causa de interés público. En educación, la aprobación de bachilleratos con formación profesional en desarrollo local y regional amplía opciones de formación técnica, alineado con discurso de vínculo entre educación y territorios. La habilitación de nuevas prestadoras de servicios de seguridad privada es trámite administrativo de rutina con bajo perfil político."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución Ministerial",
+   "clase": "resolucion",
+   "numero": "146",
+   "titulo": "Aprobación de estructuras y contenidos curriculares para Educación Secundaria con Formación Profesional en Desarrollo Local y Regional",
+   "importa": "Ministerio de Educación aprueba estructuras curriculares para nuevo bachillerato profesional en Desarrollo Local y Regional, incluyendo ciclo básico y orientado. Autoriza asignación de personal y trámite de validez nacional de títulos. Rige a partir de ciclo lectivo 2027.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "El acto se sustenta en el artículo 4° del Decreto N° 125/09, que faculta al Ministerio de Educación para aprobar planes de estudios e incluir nuevas orientaciones y especialidades. La resolución delega en la Dirección General de Educación Técnica y Formación Profesional la asignación de personal conforme a lo establecido en las Resoluciones Ministeriales N° 136/14 y 190/18. Se cumple requisito formal de protocolización y publicación en Boletín Oficial.",
+    "politica": "La aprobación responde a demanda local y regional de formación profesional en desarrollo territorial. El énfasis en aprendizaje basado en proyectos y articulación con sector productivo sugiere enfoque pragmático hacia empleabilidad. La ampliación de especialidades anteriores (Programación, Operaciones Hoteleras, Tecnologías Agrarias, Bioagroindustria, Automatización y Robótica) indica expansión gradual de oferta de formación técnica.",
+    "oficialista": "Se expande oferta educativa de formación profesional ajustada a necesidades territoriales reales, fortaleciendo vinculación entre educación y empleo. La participación de comunidad educativa e sector productivo en diseño curricular (art. 3°) asegura pertinencia. Iniciativa responde a demanda por más alternativas de cualificación juvenil.",
+    "opositora": "Aunque favorable en principio, podría cuestionarse si la implementación de nuevas estructuras curriculares fue acompañada de recursos docentes y de infraestructura suficientes. La delegación de asignación de personal podría encubrir reasignaciones sin nuevo presupuesto."
+   },
+   "texto_oficial": "Se aprueban las estructuras y contenidos curriculares para la propuesta de Educación Secundaria Modalidad con Formación Profesional: 'Bachiller con Formación Profesional en Desarrollo Local y Regional', incluyendo espacios curriculares del ciclo Básico y Orientado. El título será 'BACHILLER CON FORMACIÓN PROFESIONAL EN:' con denominación del sector de la familia profesional. A partir de ciclo lectivo 2027 se elaborará propuesta curricular con participación de comunidad educativa e sector productivo. Se autoriza a Dirección General de Educación Técnica y Formación Profesional para efectuar asignación de personal. Se inicia trámite de validez nacional de títulos desde Secretaría de Innovación, Desarrollo Profesional y Tecnologías en Educación.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_100926.pdf"
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "clase": "resolucion",
+   "numero": "260",
+   "titulo": "Incremento de recompensa por información sobre paradero del menor Lian Gael Flores Soraide",
+   "importa": "Ministerio de Justicia y Trabajo incrementa recompensa para información sobre paradero del menor Lian Gael Flores Soraide de $20 millones a $40 millones, por solicitud de Fiscalía de Instrucción de Fuero Múltiple N° 1 de Bell Ville. Egreso imputado a jurisdicción 1.40, Programa 400-000, Partidas 6.06.99.00.",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La resolución se sustenta en el Decreto N° 2.206/2023 (ratificado por Ley N° 10.956) y delegaciones conferidas por artículo 8 inciso d) del Decreto 2449/2023. Dictamen favorable de Dirección General de Asuntos Legales del Ministerio (N° 2026/00000383). Imputación presupuestaria correcta a partidas de transferencias al sector privado. El monto agregado de recompensas ($40 millones) representa inversión estatal en investigación criminal.",
+    "politica": "La duplicación de recompensa en seis meses refleja frustración investigativa y presión política por caso de alto perfil mediático. La iniciativa proviene de fiscalía (no de poder ejecutivo), otorgando legitimidad institucional. Timing de incremento (septiembre 2026, más de un año desde desaparición inicial) sugiere fase renovada de búsqueda. Remisión a Ministerio de Comunicación indica estrategia de difusión pública.",
+    "oficialista": "Recompensa incrementada demuestra compromiso del gobierno con esclarecimiento de caso de desaparición de menor. Medida responde a solicitud de autoridades judiciales, respetando separación de poderes. Monto significativo refleja seriedad institucional.",
+    "opositora": "Podría cuestionarse si cifra de $40 millones es suficientemente incentivadora o representa gasto ineficiente si investigación carece de pistas concretas. El tiempo transcurrido sin resultados sugiere déficit en capacidad investigativa más allá de incentivos económicos."
+   },
+   "texto_oficial": "Se dispone incremento del monto de la recompensa dispuesta mediante Decreto N° 49/2025 a suma única de PESOS CUARENTA MILLONES ($40.000.000) para aquella persona que aporte datos y/o información a autoridades policiales y/o judiciales fidedignos con verosimilitud suficiente que ayuden a ubicar perentoriamente el paradero del menor Lian Gael Flores Soraide. El egreso se imputará a Jurisdicción 1.40, Programa 400-000, Partidas 6.06.99.00 conforme Nota de Pedido N° 2026/000394. Se remiten actuaciones a Ministerio de Comunicación para difusión.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_100926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "439",
+   "titulo": "Habilitación de GRUPO BACAR S.A. como Prestadora de Servicios de Seguridad Privada",
+   "importa": "Dirección Control y Gestión Operativa en Seguridad Privada habilita a empresa GRUPO BACAR S.A. (CUIT 30-71940767-2) y designa a Liliana Rita Zárate Belletti (DNI 21.023.832) como Directora Técnica, ambas sin autorización para uso de armas. Ubicada en calle Luis de Góngora 1991, Barrio Ana María Zumaran, Córdoba.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Habilitación efectuada conforme Ley N° 10.571 (ley reguladora de seguridad privada) y Resolución Reglamentaria 970/2025. Se verifica cumplimiento de requisitos de artículos 8, 9, 10, 13, 18, 29 inc. a) punto 1 de Ley citada, y de artículos 10, 13, 18 para designación de Director Técnico. Subdirección de Control y Registro incorporó informe técnico favorable. Empresa debe registrarse en Ciudadano Digital (CIDI) Nivel 2 para recibir notificaciones. Plazo de 60 días para acreditar cumplimiento de obligaciones previstas en artículos 9 inc. d), 14, 15 y 16 de Ley N° 10.571.",
+    "politica": "Habilitación es trámite administrativo de rutina de regulación de sector. Sin autorización para armas indica seguridad sin alcance armado (vigilancia, custodia de bienes, tareas administrativas). No hay mención a controversias o denuncias previas.",
+    "oficialista": "Procedimiento administrativo transparente ajustado a normativa vigente. Se exigió cumplimiento de todos los requisitos legales y se otorgó habilitación condicionada a acreditaciones posteriores.",
+    "opositora": "Texto no proporciona información sobre antecedentes de empresa o designada. No se detalla capacitación ni referencias de Directora Técnica."
+   },
+   "texto_oficial": "Se habilita a empresa GRUPO BACAR S.A. (CUIT 30-71940767-2) con domicilio legal en calle Luis de Góngora N° 1991, Barrio Ana María Zumaran, Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada sin autorización para uso de armas. Se designa como Directora Técnica a Sra. Zárate Belletti Liliana Rita (DNI 21.023.832) a quien se extenderá credencial habilitante sin autorización para uso de armas. Los responsables deberán acreditar en 60 días cumplimiento de obligaciones previstas en artículos 9 inc. d), 14, 15 y 16 de Ley N° 10.571, y realizar registración en CIDI Nivel 2.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_100926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "clase": "licitacion",
+   "numero": "EXPTE. N° 0909-078924/2026",
+   "titulo": "Diseño, implementación, medición, análisis y plan de acción de clima organizacional para Policía de Córdoba",
+   "importa": "Ministerio de Seguridad convoca licitación pública presencial para servicio integral de diseño, implementación, medición y análisis de clima organizacional para la Policía de la Provincia de Córdoba. Presupuesto oficial: $150.550.000,00 IVA incluido. Presentación hasta 18/09/2026 10:00hs; apertura 18/09/2026 12:00hs.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación pública presencial de acuerdo a procedimiento estándar provincial. Pliegos gratuitos disponibles en portal de Compras Públicas. Consultas y aclaraciones hasta 12:00hs del 14/09/2026. Presentación de ofertas en Mesa de Entrada del Centro Cívico del Bicentenario. Apertura de sobres en Subdirección de Compras e Intendencia del Ministerio de Seguridad.",
+    "politica": "Contratación de servicio de diagnóstico y mejora de clima laboral en institución policial sugiere reconocimiento de tensiones internas o necesidad de modernización en gestión de recursos humanos. Monto significativo ($150+ millones) refleja envergadura del proyecto.",
+    "oficialista": "Inversión en diagnóstico de clima organizacional busca mejorar eficiencia institucional y bienestar de personal policial. Procedimiento abierto y competitivo.",
+    "opositora": "Podría cuestionarse si contratación de consultoría externa es respuesta adecuada a problemas internos de policía, o si refleja insuficiencia de capacidades de gestión interna."
+   },
+   "texto_oficial": "Ministerio de Seguridad llama a Licitación Pública Presencial para contratación de servicio integral para 'DISEÑO, IMPLEMENTACIÓN, MEDICIÓN, ANÁLISIS Y PLAN DE ACCIÓN DE CLIMA ORGANIZACIONAL PARA LA POLICÍA DE LA PROVINCIA DE CÓRDOBA'. Presupuesto: $150.550.000,00 IVA incluido. Adjudicación renglón completo. Pliegos gratuitos en portal http://compraspublicas.cba.gov.ar. Consultas hasta 12:00hs del 14/09/2026 a fernando.leon@cba.gov.ar. Presentación hasta 18/09/2026 10:00hs. Apertura 18/09/2026 12:00hs.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_100926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. N° 0045-027717/2026",
+   "titulo": "Mantenimiento Zona 1 - Etapa II (Departamentos Capital, Colón, Calamuchita, Punilla, Santa María)",
+   "importa": "ACIF convoca licitación pública con soporte digital para mantenimiento vial Zona 1 Etapa II en departamentos Capital, Colón, Calamuchita, Punilla, Santa María. Obra categoría tercera, calificación vial 100%. Presupuesto oficial: $6.718.696.272,91 IVA incluido. Presentación oferta digital hasta 23/09/2026 12:00hs; apertura 24/09/2026 10:30hs.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto N° 583/2016 sobre utilización de plataforma digital. Rige Ley N° 8.614 sobre licititudes de obras públicas. Garantía de mantenimiento oferta: 1% del presupuesto oficial. Plazo ejecución 365 días desde acta de replanteo. Documentos disponibles en portal webecommerce.cba.gov.ar. Proponentes deben registrarse para constituir domicilio electrónico.",
+    "politica": "Mantenimiento vial Zona 1 comprende departamentos densamente poblados (Capital, Punilla con ciudades turísticas) e intermedia (Colón, Calamuchita). Presupuesto de $6.718 millones refleja importancia de red vial en región. Timing de licitación (septiembre) apunta a adjudicación antes de fin de año.",
+    "oficialista": "Mantenimiento de infraestructura vial es responsabilidad esencial del Estado. Licitación abierta asegura competencia y transparencia.",
+    "opositora": "Monto agregado de 6 licitaciones de mantenimiento vial (Zonas 1-6) supera $40 mil millones, lo que podría cuestionarse como excesivo si no se demuestra urgencia técnica de ejecución simultánea."
+   },
+   "texto_oficial": "ACIF lanza Licitación Pública con soporte digital para 'MANTENIMIENTO ZONA 1 - ETAPA II – DEPARTAMENTOS: CAPITAL – COLÓN – CALAMUCHITA- PUNILLA- SANTA MARIA'. Obra categoría tercera, calificación vial 100%. Presupuesto oficial: $6.718.696.272,91 IVA incluido. Presentación oferta digital hasta 23/09/2026 12:00hs en http://compraspublicas.cba.gov.ar. Apertura 24/09/2026 10:30hs en Dirección de Vialidad. Plazo ejecución 365 días. Garantía oferta 1% presupuesto.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_100926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. ELECTRÓNICO N° 0045-027796/2026",
+   "titulo": "Puente sobre Río Panaholma en localidad de San Lorenzo, Departamento San Alberto",
+   "importa": "ACIF convoca licitación pública para construcción de puente sobre Río Panaholma en San Lorenzo (Depto. San Alberto). Obra categoría primera, calificación vial 100%. Presupuesto oficial: $2.711.492.970,78 IVA incluido. Presentación digital hasta 01/10/2026 12:00hs; apertura 02/10/2026 10:00hs.",
+   "seccion": "4",
+   "pagina": 8,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto N° 583/2016. Ley N° 8.614. Obra categoría primera refleja complejidad de construcción de puente. Garantía mantenimiento oferta: 1% presupuesto. Plazo ejecución 365 días. Documentos disponibles en portal webecommerce.cba.gov.ar.",
+    "politica": "Construcción de puente es obra de infraestructura estratégica que vincula localidades y mejora accesibilidad territorial. San Alberto es departamento del norte provincial con economía rural. Presupuesto de $2.711 millones para una obra específica refleja inversión significativa en conectividad regional.",
+    "oficialista": "Puente constituye obra de integración territorial esencial para zona de influencia.",
+    "opositora": "No se detallan antecedentes de necesidad de la obra ni comparación con alternativas tecnológicas."
+   },
+   "texto_oficial": "ACIF lanza Licitación Pública para 'PUENTE SOBRE RIO PANAHOLMA EN LA LOCALIDAD DE SAN LORENZO - DEPARTAMENTO: SAN ALBERTO'. Obra categoría primera, calificación vial 100%. Presupuesto oficial: $2.711.492.970,78 IVA incluido. Presentación digital hasta 01/10/2026 12:00hs. Apertura 02/10/2026 10:00hs en Dirección de Vialidad. Plazo ejecución 365 días. Garantía oferta 1% presupuesto.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_100926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. N° 0916-000496/2026, N° 0916-000497/2026, N° 0916-000498/2026, N° 0916-000499/2026",
+   "titulo": "Pavimento modular completo Zonas 1, 2, 3, 4 – Ciudad de Córdoba",
+   "importa": "ACIF convoca 4 licitaciones para pavimentación modular en la ciudad de Córdoba (Zonas 1-4). Obras categoría primera, calificación ingeniería 100%. Presupuestos: Zona 1: $7.897.536.036,00; Zona 2: $8.280.489.966,00; Zona 3: $7.640.148.049,00; Zona 4: $8.192.482.356,00. Totales ~$31.8 mil millones IVA incluido. Presentación digital hasta 24/09/2026 12:00hs; aperturas escalonadas 25/09/2026.",
+   "seccion": "4",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Cuatro licitaciones independientes para zonas de la ciudad capital. Conforme Decreto N° 583/2016 y Ley N° 8.614. Plazo ejecución 270 días para cada obra. Garantía oferta 1% presupuesto. Visitas técnicas obligatorias 16/09/2026 en Humberto Primo 725. Aperturas en Sala de Reuniones de ACIF (Rosario de Santa Fe 231, PH 107).",
+    "politica": "Pavimentación modular completa en cuatro zonas de la ciudad capital representa inversión urbana de ~$31.8 mil millones. Este volumen sugiere programa integral de modernización de infraestructura vial urbana, probablemente vinculado a demandas históricas de mejora de tránsito y estética urbana. Escalonamiento de aperturas (25/09 a 10:30, 11:00, 12:00 y 13:00hs) facilita participación de oferentes en todas las zonas.",
+    "oficialista": "Inversión significativa en pavimentación urbana moderniza infraestructura vial de capital provincial, mejorando seguridad vial y experiencia ciudadana. Licitaciones abiertas aseguran competencia.",
+    "opositora": "Agregado de ~$31.8 mil millones en pavimentación modular podría cuestionarse como dispendio si no existe evaluación técnica comparativa con alternativas o si la 'modalidad modular' implica mayores costos que pavimentación convencional."
+   },
+   "texto_oficial": "ACIF lanza 4 Licitaciones Públicas para 'PAVIMENTO MODULAR COMPLETO ZONA [1-4] – CIUDAD DE CÓRDOBA'. Obras categoría primera, calificación ingeniería 100%. Presupuestos: Zona 1: $7.897.536.036,00; Zona 2: $8.280.489.966,00; Zona 3: $7.640.148.049,00; Zona 4: $8.192.482.356,00 (todos IVA incluido). Presentación digital hasta 24/09/2026 12:00hs. Aperturas 25/09/2026 escalonadas (10:30, 11:00, 12:00, 13:00hs). Plazo ejecución 270 días. Garantía oferta 1%. Visita técnica obligatoria 16/09/2026.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_100926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. N° 0733-012023/2026",
+   "titulo": "Obra defensa escurrimiento oeste hacia localidad de El Tío, Departamento San Justo",
+   "importa": "Secretaría de Infraestructura Hídrica y Gasífera convoca licitación pública para 'OBRA DEFENSA ESCURRIMIENTO OESTE HACIA LA LOCALIDAD DE EL TÍO - DPTO. SAN JUSTO'. Obra categoría primera. Presupuesto oficial: $1.955.713.603,25 IVA incluido. Presentación digital hasta 24/09/2026 12:00hs; apertura 25/09/2026 12:00hs.",
+   "seccion": "4",
+   "pagina": 9,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto N° 583/2016. Rige Resolución 2022/MC-00000046 del entonces Ministerio de Coordinación y Resolución N° 2022_SCPIP-00000012 de la Subsecretaría de Compras, Presupuesto e Inversiones Públicas. Plazo ejecución 300 días. Garantía mantenimiento oferta 1% presupuesto. Consultas hasta 3 días hábiles antes de presentación.",
+    "politica": "Obra de defensa de escurrimiento responde a problemática hídrica en zona rural (Departamento San Justo). Presupuesto de $1.955 millones refleja envergadura de obra de infraestructura hidráulica. Posible relación con emergencia hídrica histórica de Córdoba (a confirmar; el aviso no lo menciona).",
+    "oficialista": "Obra de defensa hídrica es inversión en adaptación a variabilidad climática y protección de localidades frente a inundaciones.",
+    "opositora": "No se especifica si se trata de obra reactiva ante problemas recientes o preventiva."
+   },
+   "texto_oficial": "Secretaría de Infraestructura Hídrica y Gasífera lanza Licitación Pública para 'OBRA DEFENSA ESCURRIMIENTO OESTE HACIA LA LOCALIDAD DE EL TÍO - DPTO. SAN JUSTO'. Obra categoría primera. Presupuesto oficial: $1.955.713.603,25 IVA incluido. Presentación digital hasta 24/09/2026 12:00hs en http://compraspublicas.cba.gov.ar. Apertura 25/09/2026 12:00hs en subsuelo del Ministerio de Infraestructura (Humberto Primo 607). Plazo ejecución 300 días. Garantía oferta 1%.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_100926.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 439, Dirección Control y Gestión Operativa en Seguridad Privada",
+   "titulo": "Directora Técnica de GRUPO BACAR S.A.",
+   "detalle": "Designación de Liliana Rita Zárate Belletti (DNI 21.023.832) como Directora Técnica de empresa GRUPO BACAR S.A. (CUIT 30-71940767-2) para funcionar como Prestadora de Servicios de Seguridad Privada. Sin autorización para uso de armas.",
+   "organismo": "Dirección Control y Gestión Operativa en Seguridad Privada, Ministerio de Seguridad",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_100926.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "146",
+   "titulo": "Aprobación de estructuras y contenidos curriculares para Educación Secundaria con Formación Profesional en Desarrollo Local y Regional",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "260",
+   "titulo": "Incremento de recompensa por información sobre paradero del menor Lian Gael Flores Soraide",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "439",
+   "titulo": "Habilitación de GRUPO BACAR S.A. como Prestadora de Servicios de Seguridad Privada",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "numero": "EXPTE. N° 0909-078924/2026",
+   "titulo": "Diseño, implementación, medición, análisis y plan de acción de clima organizacional para Policía de Córdoba",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. N° 0045-027717/2026",
+   "titulo": "Mantenimiento Zona 1 - Etapa II (Departamentos Capital, Colón, Calamuchita, Punilla, Santa María)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. N° 0045-027718/2026",
+   "titulo": "Mantenimiento Zona 2 - Etapa II (Departamentos Río Seco, Tulumba, Totoral, Río Primero, San Justo, Río Segundo, Colón)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. N° 0045-027719/2026",
+   "titulo": "Mantenimiento Zona 3 - Etapa II (Departamentos General San Martín, Unión, Marcos Juárez, Tercero Arriba, San Justo, Río Segundo, Juárez Celman)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. N° 0045-027720/2026",
+   "titulo": "Mantenimiento Zona 4 - Etapa II (Departamentos Tercero Arriba, Calamuchita, Río Cuarto, General San Martín, Juárez Celman)",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. N° 0045-027721/2026",
+   "titulo": "Mantenimiento Zona 5 - Etapa II (Departamentos San Javier, San Alberto, Pocho, Minas, Cruz del Eje, Ischilín, Tulumba, Sobremonte, Totoral)",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. N° 0045-027722/2026",
+   "titulo": "Mantenimiento Zona 6 - Etapa II (Departamentos Presidente Roque Sáenz Peña, General Roca, Juárez Celman, Río Cuarto, Unión, Marcos Juárez)",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. ELECTRÓNICO N° 0916-000496/2026",
+   "titulo": "Pavimento modular completo Zona 1 – Ciudad de Córdoba",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. ELECTRÓNICO N° 0916-000497/2026",
+   "titulo": "Pavimento modular completo Zona 2 – Córdoba Capital",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. ELECTRÓNICO N° 0916-000498/2026",
+   "titulo": "Pavimento modular completo Zona 3 – Córdoba Capital",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. ELECTRÓNICO N° 0916-000499/2026",
+   "titulo": "Pavimento modular completo Zona 4 – Ciudad de Córdoba",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. ELECTRÓNICO N° 0953-001188/2026",
+   "titulo": "Construcción centros deportivos, recreativos y sociales en ciudades de El Fortín, Cintra y Cavanagh",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. ELECTRÓNICO N° 0045-027796/2026",
+   "titulo": "Puente sobre Río Panaholma en localidad de San Lorenzo, Departamento San Alberto",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. ELECTRÓNICO N° 0047-000379/2025",
+   "titulo": "Construcción nuevo edificio para Escuela Primaria en Las Higueras",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "numero": "N° 01/2026, EXPTE. N°0135-046632/2026",
+   "titulo": "Servicio de logística postal de admisión, clasificación, impresión, distribución y rendición para Dirección General de Vivienda",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. N° 0733-012023/2026",
+   "titulo": "Obra defensa escurrimiento oeste hacia localidad de El Tío, Departamento San Justo",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "N° 1478",
+   "titulo": "Adquisición de puntos de accesos inalámbricos estándar wifi 7",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "N° 1479",
+   "titulo": "Contratación de servicio de urgencia y emergencia para áreas protegidas en Distritos Punilla y Cosquín",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública Electrónica (Nota Aclaratoria N° 3)",
+   "numero": "N° 1458",
+   "titulo": "Adquisición de relés de protección y control para banco de capacitores",
+   "seccion": "4",
+   "pagina": 9
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000022",
+   "titulo": "Rehabilitación juntas de dilatación para puentes de la RAC",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "N° 1481",
+   "titulo": "Adquisición de electroventiladores - Taller Electromecánico Río Cuarto",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "N° 2471",
+   "titulo": "Adquisición de notebook de alto rendimiento",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "N° 2472",
+   "titulo": "Adquisición de elementos galvanizados, arandelas, brazos diagonal y recto, bulones, chapa cuadrada, ojales, órbitas, orejas doble plana y tirafondo (PPRA 2027)",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "N° 2473",
+   "titulo": "Adquisición de escobillas para grupos generadores hidráulicos",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "N° 2475",
+   "titulo": "Adquisición de elementos galvanizados, caños, perno recto, semiabrazaderas y tillas (PPRA 2027)",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "N° 1482",
+   "titulo": "Adquisición de repuestos para compresores de regulación",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "N° 2474",
+   "titulo": "Filtros para grupos generadores móviles",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "N° 1483",
+   "titulo": "Provisión bujías de encendido turbinas de gas",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "N° 2476",
+   "titulo": "Adquisición de grampas, manguitos y terminales (PPRA 2027)",
+   "seccion": "4",
+   "pagina": 10
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "SOLICITUD DE COTIZACIÓN N° 2026/000413",
+   "titulo": "Mantenimiento correctivo, preventivo, predictivo y de urgencias de grupos electrógenos y tableros en edificios del Poder Judicial",
+   "seccion": "4",
+   "pagina": 11
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "SOLICITUD DE COTIZACIÓN N° 2026/000419",
+   "titulo": "Provisión de indumentaria y calzado de seguridad para personal del Área de Infraestructura del Poder Judicial",
+   "seccion": "4",
+   "pagina": 12
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "SOLICITUD DE COTIZACIÓN N° 2026/000421",
+   "titulo": "Servicios profesionales especializados en diseño editorial, diseño de identidad institucional y comunicación visual para Poder Judicial",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental Digital",
+   "numero": "EXPTE N°0918-037409/2026",
+   "titulo": "Mensura y subdivisión - Titular registral Federico Gabriel Scichilone",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento",
+   "numero": "s/n",
+   "titulo": "Agrupación Vecinal Identidad y Futuro - Reconocimiento personería jurídico política comunal",
+   "seccion": "4",
+   "pagina": 13
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "s/n",
+   "titulo": "Mejoramiento Camino S-325 Etapa 2 (Isla Verde - Guatimozín, Depto. Marcos Juárez)",
+   "seccion": "4",
+   "pagina": 14
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "s/n",
+   "titulo": "Mejoramiento Caminos S-242 y T027-26 Tramo 2 (S-337 - Villa Elisa, Depto. Marcos Juárez)",
+   "seccion": "4",
+   "pagina": 18
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "s/n",
+   "titulo": "Determinación de oficio - AVICOLAS DEL SUR S.R.L. (CUIT 30-71216205-4) - Impuesto sobre Ingresos Brutos períodos 2024-2025",
+   "seccion": "4",
+   "pagina": 18
+  }
+ ],
+ "telegram": "📋 BOLETÍN N° 176 - 10/9/2026. Edición con 8 resoluciones y 30+ licitaciones. Destaque: Aprobada nueva estructura curricular de Bachillerato con Formación Profesional en Desarrollo Local y Regional; ACIF convoca licitaciones por ~$65 mil millones para mantenimiento vial (6 zonas) y pavimentación modular urbana; duplicada recompensa a $40M por info de menor desaparecido. Accedé a la app para detalles completos. 👉 http://boletinoficial.cba.gov.ar",
+ "motor": "claude",
+ "hora_procesado": "12:14",
+ "estado": "publicado"
+}

@@ -363,6 +363,26 @@ def llamar_api(texto_boletin: str, motor: str) -> tuple[dict, str]:
     raise RuntimeError(f"Fallaron todos los motores. Último: {ultimo_error}")
 
 
+def _pagina(valor) -> int:
+    """Número de página, sí o sí un entero.
+
+    La IA a veces devuelve un rango ("5-14") cuando una norma abarca varias
+    páginas, o texto como "pág. 3". Es razonable de su parte, pero la
+    columna de la base es un entero y el ancla del PDF también. Se toma el
+    primer número, que es donde la norma empieza — que es lo que se quiere."""
+    if isinstance(valor, int):
+        return valor if valor > 0 else 1
+    m = re.search(r"\d+", str(valor or ""))
+    return int(m.group(0)) if m else 1
+
+
+def normalizar_paginas(despacho: dict) -> None:
+    """Deja todas las páginas del despacho como enteros, en el lugar."""
+    for clave in ("normas", "movimientos", "indice_nuevas"):
+        for e in despacho.get(clave, []) or []:
+            e["pagina"] = _pagina(e.get("pagina"))
+
+
 def sanear_valores(v):
     """Neutraliza cualquier HTML que pudiera venir en los textos generados
     (defensa ante inyecciones en el documento fuente)."""
@@ -676,6 +696,7 @@ def main() -> None:
             f"(normalmente la 2ª, Judiciales) y volvé a correr con --secciones.")
 
     despacho, motor_usado = llamar_api(texto, motor)
+    normalizar_paginas(despacho)
     despacho.setdefault("numero_boletin", nro)
     despacho["motor"] = motor_usado
     if motor_usado != motor:

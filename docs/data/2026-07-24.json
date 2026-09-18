@@ -1,0 +1,283 @@
+{
+ "fecha": "2026-07-24",
+ "numero_boletin": "141",
+ "sintesis_juridica": [
+  "Se modifican escalas salariales para el cálculo de aportes a la Caja de Jubilaciones de empleados provinciales (Res. 265/MEyGP); se amplía la prohibición de uso de herbicidas hormonales (específicamente Ácido 2,4-D en formulación éster etilhexílico) a todo el territorio provincial en período agosto–marzo de cada año agrícola, con régimen de declaración jurada para puntos de expendio (Res. 275/Bioagroindustria); se aprueban técnicamente líneas de ribera definitiva y de riesgo hídrico en tramos del Río Tercero (Ctalamochita) en Villa María y Villa Nueva, y del Arroyo Chico en Santa Catalina (Res. Gen. 32 y 33/APRHI), determinando áreas de restricción al dominio conforme al Código de Aguas provincial.",
+  "Las resoluciones de APRHI establecen límites precisos mediante coordenadas georreferenciadas y modelación hidráulica (software HEC-RAS) con caudales de referencia de 25 y 100 años de recurrencia; la línea de riesgo hídrico opera solo a nivel informativo sin generar restricción legal del dominio. La prohibición de herbicidas deroga la Resolución 341/2025 de alcance territorial más restringido y crea obligación de control mediante declaraciones juradas de expendedores. Las modificaciones salariales evitan que el aumento de haberes incremente automáticamente las alícuotas de aporte."
+ ],
+ "sintesis_politica": [
+  "El gobierno amplía el control regulatorio sobre el uso de agroquímicos en un contexto de conflictividad latente con productores vitícolas sensibles a la deriva de herbicidas hormonales; la medida recentraliza la fiscalización (Dirección General de Fiscalización y Control) e impone carga administrativa sobre puntos de venta. El timing de esta edición del boletín concentra tres actos de APRHI en dos días (20 de julio), sugiriendo agenda coordinada de delimitaciones hídricas que afecta patrimonios privados en zonas de riesgo.",
+  "Los movimientos en líneas de ribera de Río Tercero y Arroyo Chico responden a procedimientos administrativos con 60 días de notificación a colindantes; APRHI subraya reiteradamente que la línea de riesgo es 'solo informativa' y no impone restricción legal, lo que contrasta con la línea de ribera que sí lo hace, marcando una distinción jurídica que probablemente responde a anticipar objeciones sobre limitaciones al dominio privado. La modificación salarial de jubilaciones es técnica pero relevante para las finanzas de la Caja de Jubilaciones."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución Ministerial",
+   "clase": "resolucion",
+   "numero": "265",
+   "titulo": "Modificación de escalas salariales para aportes a la Caja de Jubilaciones, Pensiones y Retiros de Córdoba",
+   "importa": "El Ministerio de Economía y Gestión Pública modifica el Anexo II de la Resolución 2025/MEyGP-00000496 con vigencia a partir del 1 de julio de 2026, actualizando los valores de las escalas salariales para evitar que incrementos de haberes de empleados aportantes aumenten automáticamente las alícuotas de aporte establecidas.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La modificación se ampara en el artículo 5° de la Ley 11.087 que permite al Poder Ejecutivo adecuar alícuotas de aportes hasta un 8% sobre las existentes, y en el artículo 3° del Decreto 268/2025 que faculta al ministro a dictar normas reglamentarias. El acto modifica un anexo de una resolución anterior sin alterar sustancialmente el régimen sino manteniéndolo mediante actualización técnica de umbrales salariales. No presenta vicios aparentes de forma ni competencia.",
+    "politica": "Es un acto técnico-administrativo que evita que beneficios salariales generen aumento automático de cargas para los aportantes. Tiene bajo perfil político pero es significativo para las finanzas de la Caja de Jubilaciones, que enfrenta tensiones financieras recurrentes. La ejecución a partir de julio sugiere que fue coordinada con negociaciones salariales previas.",
+    "oficialista": "Se trata de una medida de contención que protege a los empleados aportantes evitando que sus aumentos salariales les generen mayor carga contributiva automáticamente, manteniendo el equilibrio de la Caja de Jubilaciones.",
+    "opositora": "Una actualización técnica que oculta posibles deficiencias estructurales de financiamiento del sistema jubilatorio provincial; sin conocer los montos exactos de las nuevas escalas no es posible evaluar si la medida favorece genuinamente a los aportantes o simplemente retrasa inevitables incrementos de alícuotas."
+   },
+   "texto_oficial": "Artículo 1°: MODIFÍCASE, con vigencia a partir del 01 de julio de 2026, el Anexo II de la Resolución N° 2025/MEyGP-00000496 y sus modificatorias, de este Ministerio, en relación a los empleados aportantes a la Caja de Jubilaciones, Pensiones y Retiros de la Provincia de Córdoba, conforme el detalle que, como Anexo I, forma parte integrante de la presente Resolución. Artículo 2°: PROTOCOLÍCESE, comuníquese, dese a la Caja de Jubilaciones, Pensiones y Retiros de Córdoba, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_240726.pdf"
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "clase": "resolucion",
+   "numero": "275",
+   "titulo": "Prohibición de uso de Ácido 2,4-D en formulación éster etilhexílico en todo el territorio provincial, agosto–marzo de cada ciclo productivo",
+   "importa": "El Ministerio de Bioagroindustria prohíbe desde el 1 de agosto al 31 de marzo de cada año agrícola el uso y aplicación aérea, terrestre, mecánica o manual del principio activo Ácido 2,4-D en su formulación éster etilhexílico en todo el territorio de la Provincia de Córdoba, ampliando la cobertura territorial de la anterior Resolución 341/2025 (que alcanzaba solo departamentos Calamuchita, Colón y Santa María). Deroga el acto anterior.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "El acto se sustenta en las Leyes 8820 y 9164 que prohíben ciertos herbicidas y autorizan a este ministerio a determinar áreas donde la prohibición será efectiva. Amplía el alcance territorial de una prohibición previa justificada por riesgo de fitotoxicidad en cultivos sensibles (vid) por volatilización y deriva del herbicida. La medida crea obligación de control regulatorio (declaración jurada de expendedores, remisión mensual a la Dirección General de Fiscalización) que refuerza el enforcement. Técnicamente válida pero genera carga administrativa sobre puntos de expendio.",
+    "politica": "La medida amplía el control estatal sobre agroquímicos en un contexto de conflictividad sectorial entre productores de granos (que usan herbicidas hormonales) y vitivinicultores (que los temen por daños por deriva). La centralización en todo el territorio sugiere respuesta a presiones del sector vitivinícola más concentrado y articulado. El período agosto–marzo coincide con pico de sensibilidad vegetativa de cultivos sensibles.",
+    "oficialista": "Es una medida de protección ambiental y agroproductiva que resguarda cultivos sensibles de daños por volatilización, cumpliendo mandatos de sustentabilidad y protección de terceros conforme a la Ley 9164.",
+    "opositora": "Una prohibición territorialmente desproporcionada que perjudica productores de granos en zonas sin riesgo comprobado de daño a viñas, orientada por presiones corporativas del lobby vitivinícola antes que por análisis técnico integral."
+   },
+   "texto_oficial": "Artículo 1º: PROHIBIR desde el 1 de agosto al 31 de marzo de cada ciclo productivo el uso y aplicación aérea, terrestre, mecánica o manual en todos los cultivos del principio activo: Acido 2,4-D en su formulación éster etilhexílico en todo el territorio de la Provincia de Córdoba. Artículo 2°: DISPONER que la venta del Ácido 2,4-D en su formulación éster etilhexílico, deberá realizarse bajo declaración jurada del adquirente donde se indique que la aplicación no se realizará en el periodo alcanzado por la prohibición; y en consecuencia APROBAR el modelo de Declaración Jurada de Expendio del herbicida Ácido 2,4-D en su formulación éster etilhexílico; el que como Anexo Único forma parte integrante de la presente Resolución. Artículo 3°: ESTABLECER que los puntos de expendio deberán remitir mensualmente a la Dirección General de Fiscalización y Control, las correspondientes declaraciones juradas debidamente suscriptas por los adquirentes del herbicida Ácido 2,4-D en su formulación éster etilhexílico, en las que asimismo deberá indicarse el descuento del stock que el expendio posea. Artículo 4°: INSTRÚYASE a la Secretaría de Agricultura y Recursos Naturales y a la Dirección General de Fiscalización y Control a dar amplia difusión a lo establecido en la presente Resolución. Artículo 5°: DEJESE SIN EFECTO la Resolución N°341/2025 registro de este Ministerio de Bioagroindustria.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_240726.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "32",
+   "titulo": "Aprobación de Determinación Técnica de Línea de Ribera Definitiva e Información de Línea de Riesgo Hídrico del Río Tercero (Ctalamochita) en Villa María y Villa Nueva, Departamento General San Martín",
+   "importa": "APRHI aprueba técnicamente la Línea de Ribera Definitiva del Río Tercero (Ctalamochita) en un tramo de aproximadamente 1050 metros en su paso por Villa María y Villa Nueva (coordenadas georreferenciadas según Gauss Krüger), determinada mediante modelación hidráulica con software HEC-RAS sobre caudal de 400 m³/s de recurrencia 25 años, e informa (carácter informativo) la Línea de Riesgo Hídrico con recurrencia 100 años (508 m³/s).",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La determinación se sustenta en los artículos 146°, 270° y concordantes de la Ley Provincial 5589 (Código de Aguas), el Decreto 868/2015 y la Resolución SRH 77/2015. El procedimiento incluyó relevamiento topográfico, análisis técnico de Límites y Restricciones al Dominio, publicación de edictos y notificación a colindantes conforme a Ley 5.350, sin objeciones técnicas de terceros. La línea de ribera definitiva genera restricción al dominio conforme al Código de Aguas; la línea de riesgo hídrico se destaca como puramente informativa, sin efectos restrictivos. Técnicamente válida y procedimentalmente regular.",
+    "politica": "Acto administrativo de relevancia inmobiliaria: los colindantes notificados tendrán sus propiedades afectadas por la línea de ribera definitiva. La insistencia de APRHI en que la línea de riesgo es 'solo informativa' y 'no genera restricción al dominio' refleja probable litigio anticipado. Coordenadas precisas permiten identificación individual de predios. Notificación a municipios de Villa María y Villa Nueva es obligatoria.",
+    "oficialista": "Acto técnico de delimitación de áreas de riesgo hídrico y ribera conforme a metodología hidráulica estándar (HEC-RAS), cumpliendo mandatos de protección de vidas y bienes. La línea de riesgo es informativa para que municipios y colindantes tomen decisiones propias.",
+    "opositora": "La delimitación de ribera restringe derechos de dominio privado sin compensación aparente. La insistencia en que la línea de riesgo es 'informativa' es discurso; cualquier plano oficial que circule entre municipios y registradores de propiedad genera efectos materiales de restricción crediticia y transferencial de los inmuebles afectados."
+   },
+   "texto_oficial": "Artículo 1°: APROBAR la DETERMINACIÓN TÉCNICA DE LA LÍNEA DE RIBERA DEFINITIVA del Río Tercero (Ctalamochita) en su paso por las localidades de Villa María y Villa Nueva del Departamento General San Martín de esta Provincia de Córdoba, en el tramo comprendido entre las Coordenadas planas proyección Gauss Krüger (Faja 4) – Posgar 98 – WGS 84: Inicio aguas abajo en margen izquierda: X(N)=6413687.30 –Y(E)= 4476017.67 (vértice 01iad) y en margen derecha: X(N)= 6413618.045– Y(E)= 4475893.41 (vértice 01dad) hasta las coordenadas de final aguas arriba en margen izquierda: X(N)= 6413353.24 – Y(E) = 4475321.83 (vértice 25iad) y en margen derecha: X(N)= 6413331.80 – Y(E) = 4475406.87 (vértice 27dad), que ha sido graficada en Plano que como ANEXO I, forma parte integrante del presente instrumento legal. Artículo 2°: INFORMAR la DETERMINACIÓN TÉCNICA DE LA LÍNEA DE RIESGO HÍDRICO, conforme un criterio hidrológico – hidráulico con una recurrencia de 100 años, del Río Tercero (Ctalamochita), en su paso por las localidades de Villa María y Villa Nueva del Departamento General San Martín de esta Provincia de Córdoba, en el tramo comprendido entre las Coordenadas planas proyección Gauss-Krüger (Faja 4) – Posgar 98 – WGS 84: Inicio aguas abajo en margen izquierda: X(N)= 6413687.59 – Y(E)= 4476018.21 (vértice 01I) y en margen derecha: X(N)= 6413618.02 – Y(E)= 4475893.35 (vértice 01D), hasta las coordenadas de final aguas arriba en margen izquierda: X(N)= 6413366.23 – Y(E) = 4475270.29 (vértice 23I) y en margen derecha: X(N)= 6413331.80 – Y(E) = 4475406.87 (vértice 26D), que ha sido graficada en Plano que como ANEXO II, forma parte integrante del presente instrumento legal. Artículo 3°: DISPONER la intervención del Departamento Límites y Restricciones al Dominio a los fines de la visación de la documentación correspondiente. Artículo 4°: PROTOCOLICESE. Publíquese en el Boletín Oficial. Notifíquese al Ing. Mauricio Di Febo – M.P 5350/X, al Ing. Pablo Stehli – M.P. 5267/X, a la Municipalidad de Villa María y a la Municipalidad de Villa Nueva. Pase al Departamento Límites y Restricciones al Dominio con noticia a la Dirección General de Catastro y al Registro General de la Provincia de Córdoba.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_240726.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "33",
+   "titulo": "Aprobación de Determinación Técnica de Línea de Ribera Definitiva e Información de Línea de Riesgo Hídrico del Arroyo Chico en Santa Catalina, Departamento Río Cuarto",
+   "importa": "APRHI aprueba técnicamente la Línea de Ribera Definitiva del Arroyo Chico en un tramo de aproximadamente 1000 metros en su paso por Santa Catalina, Departamento Río Cuarto (coordenadas georreferenciadas), determinada mediante modelación hidráulica HEC-RAS sobre caudal de 110 m³/s de recurrencia 25 años e informe geomorfológico del área; e informa (carácter informativo) la Línea de Riesgo Hídrico con recurrencia 100 años (152 m³/s).",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Sustentada en los artículos 146°, 270° y concordantes de la Ley Provincial 5589 (Código de Aguas), Decreto 868/2015 y Resolución SRH 77/2015. El procedimiento incluyó análisis geomorfológico con imágenes satelitales y herramientas SIG (análisis de terrazas fluviales T1, T2, T3), relevamiento topográfico, memoria técnica, publicación de edictos y notificación a colindantes conforme a Ley 5.350, sin objeciones técnicas. La zona presenta intervención antrópica histórica (actividad minera en márgenes), lo que dificultó delimitación natural de terrazas. Técnicamente válida y procedimentalmente regular.",
+    "politica": "Acto delimitador de áreas de restricción en zona con histórica intervención minera. La inclusión de análisis geomorfológico (no solo hidráulico) sugiere complejidad territorial. Notificación a municipio de Santa Catalina es obligatoria. Valor territorial afectado es relevante.",
+    "oficialista": "Acto técnico de delimitación de ribera mediante metodología integral (hidráulica + geomorfología) que mejora identificación de límites naturales incluso en zonas con intervención humana histórica. Protege vidas y patrimonios.",
+    "opositora": "La intervención antrópica histórica reconocida en el acta técnica debería impedir una delimitación que crea restricciones hoy sobre propiedades que fueron intervenidas legalmente hace décadas. La línea de riesgo se cubre nuevamente como 'informativa', aunque en la práctica será restrictiva."
+   },
+   "texto_oficial": "Artículo 1°: APROBAR la DETERMINACIÓN TÉCNICA DE LA LÍNEA DE RIBERA DEFINITIVA del Arroyo Chico en su paso por la localidad de Santa Catalina del Departamento Río Cuarto de esta Provincia de Córdoba, en el tramo comprendido entre las Coordenadas planas proyección Gauss Krüger (Faja 4) – Posgar 98 – WGS 84: Inicio aguas abajo en margen izquierda: X(N)= 6324269.03 – Y(E)= 4364527.72 (vértice 40I) y en margen derecha: X(N)= 6324213.87 – Y(E)= 4364389.42 (vértice 40D*) hasta las coordenadas de final aguas arriba en margen izquierda: X(N)= 6325007.24 – Y(E) = 4364547.68 (vértice 1I*) y en margen derecha: X(N)= 6325192.95 – Y(E) = 4364322.81 (vértice 1D*), que ha sido graficada en Planos que como ANEXO I, forma parte integrante del presente instrumento legal. Artículo 2°: INFORMAR la DETERMINACIÓN TÉCNICA DE LA LÍNEA DE RIESGO HÍDRICO conforme un criterio hidrológico – hidráulico y geomorfológico, con una recurrencia de 100 años del Arroyo Chico en su paso por la localidad de Santa Catalina del Departamento Río Cuarto de esta Provincia de Córdoba, en el tramo comprendido entre las Coordenadas planas proyección Gauss-Krüger (Faja 4) – Posgar 98 – WGS 84: Inicio aguas abajo en margen izquierda: X(N)= 6324093.99 – Y(E)=4364616.79 (vértice 44I*) y en margen derecha: X(N)= 6324121.32 – Y(E)= 4363675.11 (vértice 15D*) hasta las coordenadas de final aguas arriba en margen izquierda: X(N)=6325007.24 – Y(E) = 4364583.22 (vértice 1I*) y en margen derecha: X(N)= 6325368.01 Y(E) = 4363819.98 (vértice 1D*), que ha sido graficada en Planos que como ANEXO II, forma parte integrante del presente instrumento legal. Artículo 3°: DISPONER la intervención del Departamento Límites y Restricciones al Dominio a los fines de la visación de la documentación correspondiente. Artículo 4°: PROTOCOLICESE. Publíquese en el Boletín Oficial. Notifíquese al Ing. Edgar Picca – M.P 4356/X. y a la Municipalidad de Santa Catalina. Pase al Departamento Límites y Restricciones al Dominio con noticia a la Dirección General de Catastro y al Registro General de la Provincia de Córdoba.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/1_Secc_240726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "1418",
+   "titulo": "Poda Alta Tensión 2026 - Zona San Francisco (EPEC) – Nota Aclaratoria N° 4 y 5",
+   "importa": "EPEC publica notas aclaratorias a su Licitación Pública Electrónica 1418 (Poda de líneas de alta tensión en zona San Francisco). El texto del aviso no especifica qué cambios se introducen; refiere que se prolonga plazo de presentación de ofertas hasta las 13:00 hs del 30 de julio de 2026, con apertura de ofertas técnicas ese mismo día. Presupuesto Oficial: $1.355.200.000,00.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La prórroga de plazo es facultad ordinaria en procedimientos licitatorios. El aviso menciona Notas Aclaratorias 4 y 5 pero el boletín no transcribe su contenido; el texto oficial se refiere solo a la prórroga de fechas. No presenta vicios aparentes.",
+    "politica": "Prórroga de plazo sugiere respuesta a consultas de potenciales oferentes o complejidad técnica en la evaluación de ofertas previas. Monto es significativo ($1.355 millones, sin IVA discriminado). Zona de San Francisco es prioritaria para mantenimiento de redes EPEC.",
+    "oficialista": "Prórroga razonable que permite mejor participación de oferentes calificados en una obra de importancia.",
+    "opositora": "Sin conocer el contenido de las Notas Aclaratorias 4 y 5 no es posible evaluar si la prórroga responde a defectos del pliego original o a modificaciones de sustancia que debieron ser publicadas íntegramente."
+   },
+   "texto_oficial": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA S.A.U LICITACION PUBLICA ELECTRONICA N.º 1418 DOBLE APERTURA – NOTA ACLARATORIA N° 4 Y 5 Objeto: \"PODA ALTA TENSION 2026 - ZONA SAN FRANCISCO-\". Presupuesto Oficial: $ 1.355.200.000,00. IVA incluido- Presentación de ofertas apertura prorrogada: Portal Electrónico de Compras y Contrataciones de la EPEC hasta las 13:00 hs del día 30-07-2026. Apertura de Ofertas técnicas: 30-07-2026.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_240726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "1416",
+   "titulo": "Poda Alta Tensión 2026 - Zona Norte Provincial (EPEC) – Nota Aclaratoria N° 4 y 5",
+   "importa": "EPEC publica notas aclaratorias a su Licitación Pública Electrónica 1416 (Poda de líneas de alta tensión en zona norte provincial). El texto del aviso no especifica qué cambios se introducen. Se prolonga plazo de presentación de ofertas hasta las 12:30 hs del 30 de julio de 2026, con apertura de ofertas técnicas ese mismo día. Presupuesto Oficial: $1.573.000.000,00.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Prórroga ordinaria de plazo licitatorio. El aviso refiere Notas Aclaratorias 4 y 5 sin transcribir contenido. No presenta vicios aparentes de forma.",
+    "politica": "Ambas licitaciones de poda de EPEC (Zona San Francisco y Zona Norte) se prorrogan el mismo día (30 julio); sugiere coordinación de aperturas. Monto similar y significativo ($1.573 millones). Mantenimiento preventivo de redes de alta tensión es actividad crítica anual de EPEC.",
+    "oficialista": "Prórroga coordinada que permite administración ordenada de múltiples procedimientos simultáneos.",
+    "opositora": "Sin contenido de Notas Aclaratorias no se puede evaluar transparencia de la prórroga."
+   },
+   "texto_oficial": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA S.A.U LICITACION PUBLICA ELECTRONICA N.º 1416 DOBLE APERTURA – NOTA ACLARATORIA N°4 y 5 - Objeto: \"PODA ALTA TENSION 2026 - ZONA NORTE PROVINCIAL.\". Presupuesto Oficial: $ 1.573.000.000,00 IVA incluido- Presentación de ofertas apertura prorrogada: Portal Electrónico de Compras y Contrataciones de la EPEC hasta las 12:30 hs del día 30-07-2026. Apertura de Ofertas técnicas: 30-07-2026.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_240726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "clase": "licitacion",
+   "numero": "1432",
+   "titulo": "Retiro y Traslado Generador N° 2 Central Hidroeléctrica Ing. Fitz Simón (EPEC)",
+   "importa": "EPEC abre Licitación Pública Electrónica 1432 para retiro y traslado del Generador N° 2 de la Central Hidroeléctrica Ing. Fitz Simón. Presupuesto Oficial: $212.415.500,00 IVA incluido. Presentación de ofertas hasta las 12:00 hs del 3 de agosto de 2026; apertura de ofertas ese mismo día.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación ordinaria de servicios de ingeniería para retirar y trasladar equipo generador. El monto es significativo ($212 millones). Plazo de presentación es breve (menos de 10 días desde publicación). Competencia técnica relevante del contratista.",
+    "politica": "Retiro de generador de central hidroeléctrica sugiere mantenimiento mayor o sustitución. Central Ing. Fitz Simón es infraestructura crítica de EPEC; este movimiento puede responder a planificación de mantenimiento o reparación. Monto significativo.",
+    "oficialista": "Licitación para tarea especializada de retiro y traslado de equipo de generación, necesaria para mantenimiento de la infraestructura hidroeléctrica provincial.",
+    "opositora": "El monto elevado justifica una licitación pública, pero el plazo muy breve (menos de 10 días) puede limitar participación de oferentes de regiones alejadas."
+   },
+   "texto_oficial": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA S.A.U APERTURA LICITACION PUBLICA ELECTRONICA N.º 1432- Objeto: \"RETIRO Y TRASLADO GENERADOR N° 2 CENTRAL HIDROELÉCTRICA ING. FITZ SIMÓN\". Presupuesto Oficial: $ 212.415.500. IVA incluido- Presentación de ofertas: Portal Electrónico de Compras y Contrataciones de la EPEC hasta las 12:00 hs del día 03-08-2026. Apertura de Ofertas: 03-08-2026 12HS.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_240726.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "5576",
+   "titulo": "Aumento de Disponibilidad de Potencia y Mejora Tecnológica del Complejo Hidroeléctrico Río Grande (EPEC)",
+   "importa": "EPEC convoca Licitación Pública 5576 de doble apertura para aumento de disponibilidad de potencia y mejora tecnológica del Complejo Hidroeléctrico Río Grande. Presupuesto Oficial: $237.291.285.000,01. Entrega de sobres hasta el 21 de septiembre de 2026, hora 10; apertura a las 11 hs. Obra de magnitud extraordinaria.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación pública tradicional (no electrónica) de obra de infraestructura de importancia estratégica para EPEC. Presupuesto es colosal ($237 mil millones): es una de las mayores contrataciones de servicios públicos de la provincia. Plazo de presentación es amplio (casi dos meses desde publicación), indicando complejidad técnica y administrativa.",
+    "politica": "Mejora de complejo hidroeléctrico es inversión crítica en infraestructura energética provincial. El monto extraordinario sugiere proyecto de largo plazo, probablemente cofinanciado con crédito nacional o internacional (ACIF posible unidad ejecutora). Timing de publicación en julio para apertura en septiembre permite campañas de difusión y consultas técnicas.",
+    "oficialista": "Proyecto de modernización de infraestructura energética de importancia estratégica para la provincia, mejorando disponibilidad de potencia y eficiencia tecnológica.",
+    "opositora": "Monto extraordinario requiere máxima transparencia y control; sin información sobre fuentes de financiamiento y cronograma de ejecución no es posible evaluar viabilidad fiscal."
+   },
+   "texto_oficial": "EMPRESA PROVINCIAL DE ENERGIA DE CORDOBA S.A.U LICITACION PUBLICA Nº 5576 DOBLE APERTURA: 21-09-26 HORA: 11. OBJETO: \"AUMENTO DE DISPONIBILIDAD DE POTENCIA Y MEJORA TECNOLOGICA DEL COMPLEJO HIDROELECTRICO RIO GRANDE. -\" - ENTREGA DE SOBRES HASTA EL 21-09-26 HORA 10 – PRESUPUESTO OFICIAL: $237.291.285.000,01. - LUGAR: Administración Central, Área Compras y Contrataciones, La Tablada N° 350 – Córdoba",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/07/4_Secc_240726.pdf"
+  }
+ ],
+ "movimientos": [],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "265",
+   "titulo": "Modificación de escalas salariales para cálculo de aportes a Caja de Jubilaciones, Pensiones y Retiros",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "275",
+   "titulo": "Prohibición de uso de Ácido 2,4-D formulación éster etilhexílico",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "32",
+   "titulo": "Aprobación Línea de Ribera Definitiva Río Tercero (Ctalamochita) Villa María y Villa Nueva",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "33",
+   "titulo": "Aprobación Línea de Ribera Definitiva Arroyo Chico Santa Catalina",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1423",
+   "titulo": "Módulo Deshumificador para Espectro IR (EPEC)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1432",
+   "titulo": "Retiro y Traslado Generador N° 2 Central Hidroeléctrica Ing. Fitz Simón",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1431",
+   "titulo": "Adquisición de Materiales Eléctricos para Sistema de Energía en Salas de Comunicaciones",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1433",
+   "titulo": "Poda de Árboles por Terceros en BT y MT Delegación Zona G Bell Ville (EPEC)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5576",
+   "titulo": "Aumento de Disponibilidad de Potencia y Mejora Tecnológica Complejo Hidroeléctrico Río Grande",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1418",
+   "titulo": "Poda Alta Tensión 2026 Zona San Francisco – Nota Aclaratoria",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1416",
+   "titulo": "Poda Alta Tensión 2026 Zona Norte Provincial – Nota Aclaratoria",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "101/2026",
+   "titulo": "Reparación Desagüe Pluvial y Remodelación Hall Ingreso Secretaría de Gestión Institucional (UNC)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "SC 2026/000025",
+   "titulo": "Adquisición Artículos de Almacén No Perecederos Residencias Niños, Niñas y Adolescentes",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública 2026/000015",
+   "numero": "2026/000015",
+   "titulo": "Rehabilitación de Calzada Autopista Córdoba–Pilar – Calzada Norte (CASISA)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública 2026/000016",
+   "numero": "2026/000016",
+   "titulo": "Rehabilitación de Calzada Autopista Córdoba–Pilar – Calzada Sur (CASISA)",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Compulsa Abreviada Electrónica",
+   "numero": "0646-000877/2026",
+   "titulo": "Contratación Profesionales Vinculación Tecnológica y Microbiología (CEPROCOR)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Notificación / Edicto",
+   "numero": "0535-114547/2025",
+   "titulo": "Solicitud Inscripción Registro de Posesión Denisse Aymeth Aliaga Li",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución Ministerial",
+   "numero": "00000925/26",
+   "titulo": "Baja por Fallecimiento Docente Elsa Irma Briganti",
+   "seccion": "4",
+   "pagina": 4
+  }
+ ],
+ "telegram": "🔔 Boletín Oficial Nº 141 (24/7/26): Amplían prohibición de herbicidas hormonales a todo territorio; APRHI aprueba líneas de ribera en Río Tercero y Arroyo Chico; EPEC licita por $237 mil millones mejora de Complejo Río Grande. 18 nuevas normas. Detalles en https://boletinoficial.cba.gov.ar",
+ "motor": "claude",
+ "hora_procesado": "12:17",
+ "estado": "publicado"
+}
