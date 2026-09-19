@@ -166,6 +166,16 @@ export default function Entregas() {
     setHistorial((data as unknown as Enviada[]) ?? []);
   }
 
+  // El problema de cada mañana no es la plata (0,6 ¢ por norma) sino los
+  // clics: con cuatro clientes son ~10 normas por día sin analizar. Un botón
+  // las resume todas, en fila, mostrando el costo antes.
+  async function resumirFaltantes() {
+    const faltan = normas.filter((n) => elegidas.has(n.id) && !n.ampliada);
+    for (const n of faltan) {
+      await analizar(n.id, "corto");
+    }
+  }
+
   const alterna = (id: number) => setElegidas((s) => {
     const n = new Set(s); n.has(id) ? n.delete(id) : n.add(id); return n;
   });
@@ -263,6 +273,20 @@ export default function Entregas() {
                   ))}
                 </div>
 
+                {(() => {
+                  const faltan = normas.filter((n) => elegidas.has(n.id) && !n.ampliada).length;
+                  if (!faltan) return null;
+                  return (
+                    <p className="nota" style={{ marginTop: 12 }}>
+                      {faltan} de las marcadas no tienen análisis — en titulares van
+                      sin monto ni fecha.{" "}
+                      <button type="button" className="btn mini sello" disabled={!!analizando}
+                              onClick={resumirFaltantes}>
+                        {analizando ? "resumiendo…" : `Resumir las ${faltan} · ${(faltan * 0.61).toFixed(1)} ¢`}
+                      </button>
+                    </p>
+                  );
+                })()}
                 <p className="nota" style={{ marginTop: 12 }}>
                   {elegidas.size} de {normas.length} marcadas · destildá lo que no quieras mandar
                   {(() => {
