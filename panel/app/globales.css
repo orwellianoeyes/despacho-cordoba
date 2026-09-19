@@ -177,3 +177,12 @@ textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
   display:flex;flex-direction:column;gap:9px;max-width:680px;
 }
 .correr .acciones{gap:8px}
+
+/* Vincular Telegram sin pedirle nada técnico al cliente */
+.vincular{
+  background:var(--papel);border:1px solid var(--linea-fuerte);
+  border-left:3px solid var(--sello);padding:13px 15px;max-width:460px;
+}
+.quien{display:flex;justify-content:space-between;align-items:center;gap:12px;
+  padding:8px 0;border-bottom:1px solid var(--linea);font-size:14px}
+.btn.mini.sello{border-color:var(--sello);color:var(--sello)}

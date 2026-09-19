@@ -13,6 +13,7 @@ type Contacto = {
   notas: string | null; activo: boolean; encargos: Encargo[];
 };
 type Calibre = { total: number; promedio_por_edicion: number };
+type Quien = { id: number; nombre: string; usuario: string | null; texto: string };
 
 const SECCIONES = [
   ["1", "Legislación"], ["2", "Judiciales"], ["3", "Sociedades"],
@@ -118,6 +119,7 @@ export default function Contactos() {
                     </p>
                   </div>
                   <span className="acciones">
+                    {!c.telegram_id && <Vincular contacto={c} alCambiar={cargar} />}
                     <button className="btn mini" onClick={() => { setEditando(c.id); setNuevo(false); }}>Editar</button>
                     <button className="btn mini" onClick={() => borrarContacto(c.id, c.nombre)}>Borrar</button>
                   </span>
@@ -133,6 +135,66 @@ export default function Contactos() {
   );
 }
 
+// Vincular sin pedirle nada técnico al cliente: él escribe "hola" al bot y
+// acá aparece para elegirlo. Pedirle su chat_id sería pedirle que abra una
+// URL con un token y busque un número adentro de un JSON.
+function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () => void }) {
+  const supabase = clienteNavegador();
+  const [abierto, setAbierto] = useState(false);
+  const [quienes, setQuienes] = useState<Quien[] | null>(null);
+  const [error, setError] = useState("");
+
+  const buscar = useCallback(async () => {
+    setError(""); setQuienes(null);
+    const r = await fetch("/api/telegram");
+    const c = await r.json();
+    if (!r.ok) { setError(c.error ?? "no pude consultar Telegram"); return; }
+    setQuienes(c.quienes ?? []);
+  }, []);
+
+  async function vincular(q: Quien) {
+    const { error } = await supabase.from("contactos")
+      .update({ telegram_id: q.id }).eq("id", contacto.id);
+    if (error) setError(error.message);
+    else { setAbierto(false); alCambiar(); }
+  }
+
+  if (!abierto) {
+    return <button className="btn mini sello"
+                   onClick={() => { setAbierto(true); buscar(); }}>Vincular Telegram</button>;
+  }
+
+  return (
+    <div className="vincular">
+      <p className="nota">
+        Pedile a <b>{contacto.nombre}</b> que le escriba <b>cualquier cosa</b> al bot.
+        Cuando lo haga, va a aparecer acá.
+      </p>
+      {error && <p className="error">{error}</p>}
+      {quienes === null && <p className="nota">Consultando…</p>}
+      {quienes?.length === 0 && (
+        <p className="nota">
+          Nadie nuevo escribió todavía. Telegram descarta los mensajes sin leer
+          a las 24 horas, así que tiene que escribir y vincularlo el mismo día.
+        </p>
+      )}
+      {quienes?.map((q) => (
+        <div key={q.id} className="quien">
+          <span>
+            <b>{q.nombre}</b> {q.usuario && <span className="f-num">{q.usuario}</span>}
+            <br /><span className="nota">escribió: “{q.texto}”</span>
+          </span>
+          <button className="btn mini" onClick={() => vincular(q)}>Es este</button>
+        </div>
+      ))}
+      <span className="acciones" style={{ marginTop: 8 }}>
+        <button className="btn mini" onClick={buscar}>Actualizar</button>
+        <button className="btn mini" onClick={() => setAbierto(false)}>Cerrar</button>
+      </span>
+    </div>
+  );
+}
+
 function FormularioContacto({ c }: { c?: Contacto }) {
   return (
     <>
@@ -142,7 +204,7 @@ function FormularioContacto({ c }: { c?: Contacto }) {
         </label>
         <label>ID de Telegram
           <input name="telegram_id" inputMode="numeric" defaultValue={c?.telegram_id ?? ""}
-                 placeholder="se completa cuando le escriba al bot" />
+                 placeholder="dejalo vacío — se vincula solo" />
         </label>
         <label>Notas
           <input name="notas" defaultValue={c?.notas ?? ""} placeholder="quién es, qué le interesa" />
