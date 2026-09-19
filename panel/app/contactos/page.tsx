@@ -217,21 +217,35 @@ function FormularioContacto({ c }: { c?: Contacto }) {
 
 function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () => void }) {
   const supabase = clienteNavegador();
-  const [nuevo, setNuevo] = useState(false);
+  // null = nada abierto · 0 = creando uno nuevo · id = editando ese
+  const [editando, setEditando] = useState<number | null>(null);
+  const [etiqueta, setEtiqueta] = useState("");
   const [temas, setTemas] = useState<string[]>([]);
   const [tema, setTema] = useState("");
   const [secciones, setSecciones] = useState<string[]>(["1", "4"]);
   const [calibres, setCalibres] = useState<Record<string, Calibre>>({});
 
-  async function calibrar(t: string, secs: string[]) {
+  const calibrar = useCallback(async (t: string, secs: string[]) => {
     const { data } = await supabase.rpc("calibrar_tema", { p_tema: t, p_secciones: secs });
     const c = Array.isArray(data) ? data[0] : data;
     if (c) setCalibres((prev) => ({ ...prev, [t]: c as Calibre }));
+  }, [supabase]);
+
+  function abrir(e?: Encargo) {
+    setEditando(e?.id ?? 0);
+    setEtiqueta(e?.etiqueta ?? "");
+    setTemas(e?.temas ?? []);
+    setSecciones(e?.secciones ?? ["1", "4"]);
+    setCalibres({});
+    setTema("");
+    // Al editar, se recalibra lo que ya estaba: los números cambian con el
+    // archivo y con las secciones elegidas.
+    (e?.temas ?? []).forEach((x) => calibrar(x, e?.secciones ?? ["1", "4"]));
   }
 
   // Acepta varios de una: "obras, apross, epec" entra como TRES temas.
   // Escribirlos con comas es lo natural —y era lo que sugería el cartel del
-  // campo—, pero guardarlos como un solo tema exige que las cuatro palabras
+  // campo—, pero guardarlos como un solo tema exige que las tres palabras
   // estén en la misma norma, así que no pegaba nunca.
   function agregarTema() {
     const nuevos = tema.split(",")
@@ -245,13 +259,11 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
 
   async function guardar(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const f = new FormData(e.currentTarget);
-    const { error } = await supabase.from("encargos").insert({
-      contacto_id: contacto.id,
-      etiqueta: String(f.get("etiqueta") || "").trim(),
-      temas, secciones,
-    });
-    if (!error) { setNuevo(false); setTemas([]); setCalibres({}); alCambiar(); }
+    const fila = { etiqueta: etiqueta.trim(), temas, secciones };
+    const r = editando
+      ? await supabase.from("encargos").update(fila).eq("id", editando)
+      : await supabase.from("encargos").insert({ contacto_id: contacto.id, ...fila });
+    if (!r.error) { setEditando(null); alCambiar(); }
   }
 
   async function borrar(id: number) {
@@ -269,15 +281,19 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
             <br />
             {e.temas.map((t) => <span key={t} className="chip tema">{t}</span>)}
           </span>
-          <button className="btn mini" onClick={() => borrar(e.id)}>Quitar</button>
+          <span className="acciones">
+            <button className="btn mini" onClick={() => abrir(e)}>Editar</button>
+            <button className="btn mini" onClick={() => borrar(e.id)}>Quitar</button>
+          </span>
         </div>
       ))}
 
-      {nuevo ? (
+      {editando !== null ? (
         <form className="tarjeta-form" onSubmit={guardar}>
           <div className="campos">
             <label>Nombre del encargo
-              <input name="etiqueta" required placeholder="ej.: Salud y obra vial" />
+              <input required value={etiqueta} onChange={(e) => setEtiqueta(e.target.value)}
+                     placeholder="ej.: Salud y obra vial" />
             </label>
           </div>
 
@@ -334,13 +350,15 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
             norma — por eso conviene cargarlas sueltas y no como una frase.
           </p>
           <div style={{ marginTop: 12 }}>
-            <button className="btn sello" type="submit" disabled={!temas.length}>Guardar encargo</button>
+            <button className="btn sello" type="submit" disabled={!temas.length}>
+              {editando ? "Guardar cambios" : "Guardar encargo"}
+            </button>
             <button type="button" className="btn" style={{ marginLeft: 8 }}
-                    onClick={() => setNuevo(false)}>Cancelar</button>
+                    onClick={() => setEditando(null)}>Cancelar</button>
           </div>
         </form>
       ) : contacto.encargos?.length ? (
-        <button className="btn mini" onClick={() => setNuevo(true)}>+ Agregar encargo</button>
+        <button className="btn mini" onClick={() => abrir()}>+ Agregar encargo</button>
       ) : (
         <div className="vacio-guia chico">
           <p className="nota">
@@ -348,7 +366,7 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
             qué temas vigilarle.
           </p>
           <button className="btn sello" style={{ marginTop: 10 }}
-                  onClick={() => setNuevo(true)}>+ Crear su primer encargo</button>
+                  onClick={() => abrir()}>+ Crear su primer encargo</button>
         </div>
       )}
     </div>

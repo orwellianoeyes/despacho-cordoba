@@ -19,6 +19,10 @@ type Norma = {
   temas_que_pegaron: string[];
 };
 type Formato = "titulares" | "breve" | "completo" | "extenso";
+type Enviada = {
+  id: number; fecha: string; enviada_en: string; texto: string;
+  contactos: { nombre: string } | null;
+};
 
 // Medido sobre las 335 normas analizadas: cuánto ocupa cada una según el
 // formato. Sirve para avisar que no entra ANTES de armar el mensaje.
@@ -49,6 +53,8 @@ export default function Entregas() {
   const [error, setError] = useState("");
   const [aviso, setAviso] = useState("");
   const [analizando, setAnalizando] = useState<string | null>(null);
+  const [historial, setHistorial] = useState<Enviada[] | null>(null);
+  const [verTexto, setVerTexto] = useState<number | null>(null);
   const [ocupado, setOcupado] = useState(false);
   const [corrida, setCorrida] = useState<{ estado: string; detalle: string | null } | null>(null);
 
@@ -146,6 +152,18 @@ export default function Entregas() {
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally { setAnalizando(null); }
+  }
+
+  // Lo enviado se guardaba desde el principio pero no había dónde mirarlo.
+  // Importa por dos motivos: saber qué leyó un cliente cuando pregunta, y
+  // no mandarle dos veces lo mismo.
+  async function verHistorial() {
+    if (historial) { setHistorial(null); return; }
+    const { data } = await supabase.from("entregas")
+      .select("id,fecha,enviada_en,texto,contactos(nombre)")
+      .eq("estado", "enviada")
+      .order("enviada_en", { ascending: false }).limit(30);
+    setHistorial((data as unknown as Enviada[]) ?? []);
   }
 
   const alterna = (id: number) => setElegidas((s) => {
@@ -333,6 +351,46 @@ export default function Entregas() {
           </div>
         ))}
       </section>
+      <section style={{ marginTop: 34 }}>
+        <div className="fila-titulo">
+          <h2>Lo que ya mandaste</h2>
+          <button className="btn" onClick={verHistorial}>
+            {historial ? "Ocultar" : "Ver historial"}
+          </button>
+        </div>
+
+        {historial?.length === 0 && (
+          <p className="nota" style={{ marginTop: 14 }}>
+            Todavía no despachaste nada.
+          </p>
+        )}
+
+        {historial?.map((e) => (
+          <div key={e.id} className="ficha">
+            <div className="ficha-cab">
+              <div>
+                <b>{e.contactos?.nombre ?? "—"}</b>
+                <p className="nota" style={{ marginTop: 2 }}>
+                  edición {e.fecha} · enviado el{" "}
+                  {new Date(e.enviada_en).toLocaleString("es-AR",
+                    { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })}
+                  {" · "}{e.texto?.length ?? 0} caracteres
+                </p>
+              </div>
+              <button className="btn mini"
+                      onClick={() => setVerTexto(verTexto === e.id ? null : e.id)}>
+                {verTexto === e.id ? "Cerrar" : "Ver lo que recibió"}
+              </button>
+            </div>
+            {verTexto === e.id && (
+              <div className="panel-analisis texto-crudo" style={{ marginTop: 12 }}>
+                <pre className="crudo">{e.texto}</pre>
+              </div>
+            )}
+          </div>
+        ))}
+      </section>
+
       <div style={{ height: 60 }} />
     </div>
   );
