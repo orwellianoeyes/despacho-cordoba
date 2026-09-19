@@ -48,6 +48,7 @@ export default function Entregas() {
   const [formato, setFormato] = useState<Formato>("titulares");
   const [error, setError] = useState("");
   const [aviso, setAviso] = useState("");
+  const [analizando, setAnalizando] = useState<string | null>(null);
   const [ocupado, setOcupado] = useState(false);
   const [corrida, setCorrida] = useState<{ estado: string; detalle: string | null } | null>(null);
 
@@ -124,6 +125,27 @@ export default function Entregas() {
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally { setOcupado(false); }
+  }
+
+  // Generar el análisis acá mismo. Antes había que ir al Buscador, encontrar
+  // la norma otra vez y volver — pero cuando el cliente pide "contame más de
+  // la segunda", la segunda está justo acá en la pantalla.
+  async function analizar(id: number, modo: "corto" | "extenso") {
+    setAnalizando(`${id}:${modo}`); setError("");
+    try {
+      const r = await fetch("/api/resumir", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, modo }),
+      });
+      const c = await r.json();
+      if (!r.ok) throw new Error(c.error || "no se pudo analizar");
+      setNormas((prev) => prev.map((n) => n.id !== id ? n : modo === "extenso"
+        ? { ...n, extenso: c.extenso }
+        : { ...n, ampliada: c.ampliada, importa: c.importa }));
+      setPrevia(null);   // el mensaje cambió: hay que volver a verlo
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    } finally { setAnalizando(null); }
   }
 
   const alterna = (id: number) => setElegidas((s) => {
@@ -242,9 +264,26 @@ export default function Entregas() {
                       {n.temas_que_pegaron.map((t) => (
                         <span key={t} className="chip tema">{t}</span>
                       ))}
-                      {!n.ampliada && <span className="chip mal">sin análisis</span>}
+                      {n.extenso && <span className="chip extensa">extenso</span>}
                       <br />
                       {n.titulo} <span className="f-num">· {n.numero}</span>
+                      <br />
+                      <span className="acciones" style={{ marginTop: 6 }}>
+                        {!n.ampliada && (
+                          <button type="button" className="btn mini"
+                                  disabled={analizando === `${n.id}:corto`}
+                                  onClick={(e) => { e.preventDefault(); analizar(n.id, "corto"); }}>
+                            {analizando === `${n.id}:corto` ? "…" : "Resumir · 0,6 ¢"}
+                          </button>
+                        )}
+                        {!n.extenso && (
+                          <button type="button" className="btn mini sello"
+                                  disabled={analizando === `${n.id}:extenso`}
+                                  onClick={(e) => { e.preventDefault(); analizar(n.id, "extenso"); }}>
+                            {analizando === `${n.id}:extenso` ? "analizando…" : "Extenso · 9 ¢"}
+                          </button>
+                        )}
+                      </span>
                     </span>
                   </label>
                 ))}
