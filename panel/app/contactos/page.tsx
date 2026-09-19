@@ -119,7 +119,7 @@ export default function Contactos() {
                     </p>
                   </div>
                   <span className="acciones">
-                    {!c.telegram_id && <Vincular contacto={c} alCambiar={cargar} />}
+                    <Vincular contacto={c} alCambiar={cargar} />
                     <button className="btn mini" onClick={() => { setEditando(c.id); setNuevo(false); }}>Editar</button>
                     <button className="btn mini" onClick={() => borrarContacto(c.id, c.nombre)}>Borrar</button>
                   </span>
@@ -142,6 +142,7 @@ function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
   const supabase = clienteNavegador();
   const [abierto, setAbierto] = useState(false);
   const [quienes, setQuienes] = useState<Quien[] | null>(null);
+  const [desvinculando, setDesvinculando] = useState(false);
   const [error, setError] = useState("");
 
   const buscar = useCallback(async () => {
@@ -159,17 +160,30 @@ function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
     else { setAbierto(false); alCambiar(); }
   }
 
+  // Vale también para corregir: si al vincular se eligió a la persona
+  // equivocada, o si el cliente cambió de cuenta, hay que poder rehacerlo
+  // sin borrar el contacto y perder sus encargos.
   if (!abierto) {
-    return <button className="btn mini sello"
-                   onClick={() => { setAbierto(true); buscar(); }}>Vincular Telegram</button>;
+    return (
+      <button className={`btn mini ${contacto.telegram_id ? "" : "sello"}`}
+              onClick={() => { setAbierto(true); buscar(); }}>
+        {contacto.telegram_id ? "Cambiar Telegram" : "Vincular Telegram"}
+      </button>
+    );
   }
 
   return (
     <div className="vincular">
       <p className="nota">
-        Pedile a <b>{contacto.nombre}</b> que le escriba <b>cualquier cosa</b> al bot.
-        Cuando lo haga, va a aparecer acá.
+        Pedile a <b>{contacto.nombre}</b> que le escriba <b>cualquier cosa</b> a{" "}
+        <b>@AsesorLegislativoBot</b>. Cuando lo haga, va a aparecer acá.
       </p>
+      {contacto.telegram_id && (
+        <p className="nota">
+          Hoy está vinculado a <code>{contacto.telegram_id}</code>. Elegir otro
+          lo reemplaza; los encargos y el historial no se tocan.
+        </p>
+      )}
       {error && <p className="error">{error}</p>}
       {quienes === null && <p className="nota">Consultando…</p>}
       {quienes?.length === 0 && (
@@ -189,6 +203,15 @@ function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
       ))}
       <span className="acciones" style={{ marginTop: 8 }}>
         <button className="btn mini" onClick={buscar}>Actualizar</button>
+        {contacto.telegram_id && (
+          <button className="btn mini" disabled={desvinculando}
+                  onClick={async () => {
+                    setDesvinculando(true);
+                    await supabase.from("contactos")
+                      .update({ telegram_id: null }).eq("id", contacto.id);
+                    setDesvinculando(false); setAbierto(false); alCambiar();
+                  }}>Desvincular</button>
+        )}
         <button className="btn mini" onClick={() => setAbierto(false)}>Cerrar</button>
       </span>
     </div>
