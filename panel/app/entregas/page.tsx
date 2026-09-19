@@ -49,6 +49,7 @@ export default function Entregas() {
   const [error, setError] = useState("");
   const [aviso, setAviso] = useState("");
   const [ocupado, setOcupado] = useState(false);
+  const [corrida, setCorrida] = useState<{ estado: string; detalle: string | null } | null>(null);
 
   useEffect(() => {
     (async () => {
@@ -69,6 +70,33 @@ export default function Entregas() {
   }, [fecha, supabase]);
 
   useEffect(() => { cargar(); }, [cargar]);
+
+  // El buzón: el panel deja el pedido y la Mac lo levanta. La nube no puede
+  // darle una orden a la Mac (el Boletín bloquea a las IP de datacenter, así
+  // que la descarga sale de casa), por eso se da vuelta la dirección.
+  const mirarCorrida = useCallback(async () => {
+    const { data } = await supabase.from("corridas")
+      .select("estado,detalle").order("pedida_en", { ascending: false }).limit(1);
+    const c = data?.[0];
+    if (c) setCorrida(c as { estado: string; detalle: string | null });
+    if (c && (c.estado === "lista" || c.estado === "fallida")) { cargar(); return true; }
+    return false;
+  }, [supabase, cargar]);
+
+  async function pedirCorrida(sinIa: boolean) {
+    setOcupado(true); setError(""); setAviso("");
+    const { error } = await supabase.from("corridas").insert({
+      fecha, secciones: ["1", "4"], motor: "claude", sin_ia: sinIa, rehacer: true,
+    });
+    setOcupado(false);
+    if (error) { setError(error.message); return; }
+    setCorrida({ estado: "pendiente", detalle: null });
+    // La Mac consulta cada minuto; se mira hasta que termine.
+    const reloj = setInterval(async () => {
+      if (await mirarCorrida()) clearInterval(reloj);
+    }, 8000);
+    setTimeout(() => clearInterval(reloj), 20 * 60 * 1000);
+  }
 
   async function abrir(p: Pendiente) {
     if (abierto === p.encargo_id) { setAbierto(null); return; }
@@ -116,6 +144,32 @@ export default function Entregas() {
         <p className="nota">
           El sistema prepara; vos despachás. Nada sale sin que lo hayas visto.
         </p>
+
+        <div className="correr">
+          <span className="nota">
+            ¿Falta procesar esta edición, o querés rehacerla?
+          </span>
+          <span className="acciones">
+            <button className="btn" disabled={ocupado} onClick={() => pedirCorrida(true)}>
+              Solo archivar el texto · gratis
+            </button>
+            <button className="btn sello" disabled={ocupado} onClick={() => pedirCorrida(false)}>
+              Procesar con IA · ~10 ¢
+            </button>
+          </span>
+          {corrida && (
+            <p className={`nota ${corrida.estado === "fallida" ? "error" : ""}`}>
+              {corrida.estado === "pendiente" && "Pedido anotado. La Mac lo levanta en menos de un minuto…"}
+              {corrida.estado === "tomada"    && "La Mac lo está procesando. Tarda un par de minutos."}
+              {corrida.estado === "lista"     && "Listo: la edición quedó procesada."}
+              {corrida.estado === "fallida"   && `Falló: ${corrida.detalle ?? "sin detalle"}`}
+            </p>
+          )}
+          <p className="nota">
+            Necesita que la Mac esté escuchando: <code>panel/../escuchar.sh</code>.
+            La descarga tiene que salir de una IP hogareña — el Boletín bloquea a la nube.
+          </p>
+        </div>
         {error && <p className="error">{error}</p>}
         {aviso && <p className="ok">{aviso}</p>}
 

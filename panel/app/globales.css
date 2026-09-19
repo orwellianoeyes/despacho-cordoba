@@ -169,3 +169,11 @@ textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
 .formato.elegido{border-color:var(--sello);background:#fff}
 .formato input{margin-top:3px;flex:none}
 .formato .nota{font-size:11px}
+
+/* Pedir una corrida desde el panel: el buzón */
+.correr{
+  margin-top:16px;background:#fff;border:1px solid var(--linea);
+  border-left:3px solid var(--grafito);padding:14px 16px;
+  display:flex;flex-direction:column;gap:9px;max-width:680px;
+}
+.correr .acciones{gap:8px}

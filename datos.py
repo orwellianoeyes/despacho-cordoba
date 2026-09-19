@@ -126,6 +126,20 @@ def _emparejar(destacada: dict, indice: list[dict]) -> dict | None:
     return None
 
 
+BASE_PDF = "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp"
+
+
+def url_del_pdf(fecha: str, seccion: str) -> str:
+    """El PDF de una sección se deduce de la fecha: no hay que arrastrar el
+    link de ningún lado, se calcula.
+
+    Se arrastraba, y por eso 1167 de 1222 normas quedaron sin link: al
+    fusionar una destacada con su fila del índice se copiaban el análisis y
+    la página, pero no el link, así que quedaba el vacío del índice."""
+    a, m, d = fecha.split("-")
+    return f"{BASE_PDF}/{a}/{m}/{seccion}_Secc_{d}{m}{a[2:]}.pdf"
+
+
 COLUMNAS_NORMA = ("fecha", "tipo", "clase", "numero", "titulo", "seccion",
                   "pagina", "url_oficial", "destacada", "importa", "ampliada",
                   "texto_oficial", "analizada_por")
@@ -143,7 +157,8 @@ def armar_normas(despacho: dict, fecha: str) -> list[dict]:
             "fecha": fecha, "tipo": e.get("tipo", "") or "",
             "numero": e.get("numero", "") or "", "titulo": e.get("titulo", "") or "",
             "seccion": str(e.get("seccion", "1")), "pagina": pagina_entera(e.get("pagina")),
-            "url_oficial": e.get("url", ""), "destacada": False,
+            "url_oficial": url_del_pdf(fecha, str(e.get("seccion", "1"))),
+            "destacada": False,
         }
 
     for n in despacho.get("normas", []) or []:
@@ -155,7 +170,7 @@ def armar_normas(despacho: dict, fecha: str) -> list[dict]:
             "fecha": fecha, "tipo": n.get("tipo", "") or "",
             "numero": n.get("numero", "") or "", "titulo": n.get("titulo", "") or "",
             "seccion": str(n.get("seccion", "1")), "pagina": pagina_entera(n.get("pagina")),
-            "url_oficial": n.get("url_oficial", ""),
+            "url_oficial": url_del_pdf(fecha, str(n.get("seccion", "1"))),
         }
         fila.update({
             "destacada": True, "clase": n.get("clase"), "importa": n.get("importa"),
@@ -174,7 +189,7 @@ def armar_movimientos(despacho: dict, fecha: str) -> list[dict]:
         "instrumento": m.get("instrumento", "") or "",
         "titulo": m.get("titulo", "") or "", "detalle": m.get("detalle"),
         "organismo": m.get("organismo"), "pagina": pagina_entera(m.get("pagina")),
-        "url_oficial": m.get("url_oficial", ""),
+        "url_oficial": url_del_pdf(fecha, "1"),
     } for m in despacho.get("movimientos", []) or []]
 
 
