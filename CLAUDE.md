@@ -253,6 +253,32 @@ Carpeta local: ~/despacho-cordoba
   avisa fuerte y sigue: perder la subida es recuperable con
   `migrar_a_supabase.py`, perder el despacho del día no.
 
+## Dos listas de temas que NO hay que mezclar
+
+- `instrucciones.md` → **TEMAS VIGILADOS**: los de Leo. El motor los usa
+  para elegir cuáles de las ~45 normas del día merecen análisis completo
+  (entre 3 y 10). Son su criterio editorial.
+- `encargos.temas` en Supabase: los de cada cliente. Deciden **a quién le
+  llega qué**, no qué se analiza.
+
+**Analizado y decidido el 18/09/2026: no se unifican.** El argumento a
+favor era el costo: una norma que matchea a un cliente pero que el motor
+no destacó hay que resumirla aparte. Medido sobre 9 ediciones y un
+encargo real: de 58 normas, 36 venían gratis y 22 no — 2,4 clics por día
+y 13 centavos en nueve días. **El problema eran los clics, no la plata**,
+y se resolvió con el botón de resumir en lote.
+
+Las razones para NO mezclarlas, en orden de peso: el criterio de Leo es
+el producto (si lo fija la cartera, las destacadas pierden su valor); el
+archivo dejaría de ser comparable en el tiempo por razones comerciales;
+rompería el principio del cerebro editable (el instructivo pasaría a ser
+una plantilla armada desde la base); y hay 3-10 lugares por día para los
+que competirían todos los temas de todos los clientes.
+
+Si algún día muchos clientes piden un tema que no está, **Leo lo agrega a
+mano** mirando el mercado. Revisión humana periódica, nunca sincronización
+automática.
+
 ## Trampas de datos que ya costaron tiempo
 
 - **Las dos listas del JSON nombran distinto a la misma norma.** El
