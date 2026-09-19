@@ -264,8 +264,17 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
                     onClick={() => setNuevo(false)}>Cancelar</button>
           </div>
         </form>
-      ) : (
+      ) : contacto.encargos?.length ? (
         <button className="btn mini" onClick={() => setNuevo(true)}>+ Agregar encargo</button>
+      ) : (
+        <div className="vacio-guia chico">
+          <p className="nota">
+            Sin encargos, este contacto no recibe nada. El encargo es lo que dice
+            qué temas vigilarle.
+          </p>
+          <button className="btn sello" style={{ marginTop: 10 }}
+                  onClick={() => setNuevo(true)}>+ Crear su primer encargo</button>
+        </div>
       )}
     </div>
   );

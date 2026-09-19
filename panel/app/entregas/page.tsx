@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { Cabecera } from "../componentes";
 import { clienteNavegador } from "@/lib/supabase/navegador";
@@ -99,9 +100,17 @@ export default function Entregas() {
         {aviso && <p className="ok">{aviso}</p>}
 
         {!pendientes.length && (
-          <p className="nota" style={{ marginTop: 20 }}>
-            No hay encargos activos. Cargá un contacto y sus temas en Contactos.
-          </p>
+          <div className="vacio-guia">
+            <p>Todavía no hay encargos activos.</p>
+            <p className="nota">
+              Un encargo es lo que define qué le llega a cada contacto: un nombre,
+              los temas a vigilar y las secciones a mirar. Sin eso, esta pantalla
+              no tiene nada que preparar.
+            </p>
+            <Link className="btn sello" href="/contactos" style={{ marginTop: 14 }}>
+              Ir a Contactos y crear el primero →
+            </Link>
+          </div>
         )}
 
         {pendientes.map((p) => (
