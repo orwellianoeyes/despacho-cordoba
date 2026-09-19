@@ -158,3 +158,14 @@ textarea.crudo.editable{
   border-color:var(--linea-fuerte);
 }
 textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
+
+/* Selector de formato del mensaje */
+.formatos{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.formato{
+  display:flex;gap:8px;align-items:flex-start;cursor:pointer;
+  border:1px solid var(--linea-fuerte);padding:10px 13px;background:var(--papel);
+  font-size:13.5px;flex:1;min-width:190px;
+}
+.formato.elegido{border-color:var(--sello);background:#fff}
+.formato input{margin-top:3px;flex:none}
+.formato .nota{font-size:11px}

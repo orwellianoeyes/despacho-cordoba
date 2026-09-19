@@ -413,8 +413,21 @@ Cómo funciona el envío, que es el corazón del producto:
   ese número no hay forma de saber si se le está por mandar al cliente un
   goteo o una avalancha.
 - El panel prepara y **Leo despacha**: el botón de enviar está deshabilitado
-  hasta haber visto la vista previa. El mensaje al cliente **no lleva link
-  al panel** ni menciona la herramienta.
+  hasta haber visto la vista previa, que además **se puede editar** — lo
+  que sale lleva su firma, no la del sistema. El mensaje al cliente **no
+  lleva link al panel** ni menciona la herramienta.
+
+- **Tres formatos, porque Telegram corta en 4096 caracteres.** Medido
+  sobre las 335 normas analizadas:
+
+      breve      512 car/norma  →  entran ~8   (de qué se trata + link)
+      completo  1652 car/norma  →  entran ~2,5 (con las cuatro miradas)
+      extenso   ~9000           →  de a una
+
+  **El diario va en breve**: es el menú, no la comida. Nadie lee mil
+  ochocientas palabras en el celular. Quien quiere profundidad la pide, y
+  ahí se le manda esa norma sola en completo o extenso. Lo detectó Leo
+  probando: con dos normas en completo ya casi llenaba el mensaje.
 - `entregas` guarda el texto que REALMENTE salió, no el que se armaría
   hoy: el análisis puede cambiar después y hay que saber qué leyó.
 

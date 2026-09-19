@@ -15,8 +15,21 @@ type Norma = {
   seccion: string; pagina: number; url_oficial: string | null;
   destacada: boolean; importa: string | null;
   ampliada: Record<string, string> | null;
+  extenso: string | null;
   temas_que_pegaron: string[];
 };
+type Formato = "breve" | "completo" | "extenso";
+
+// Medido sobre las 335 normas analizadas: cuánto ocupa cada una según el
+// formato. Sirve para avisar que no entra ANTES de armar el mensaje.
+const PESO: Record<Formato, number> = { breve: 512, completo: 1652, extenso: 9000 };
+const TOPE = 4096;
+
+const FORMATOS: [Formato, string, string][] = [
+  ["breve",    "Breve",    "de qué se trata y el link · entran ~8"],
+  ["completo", "Completo", "con las cuatro miradas · entran ~2"],
+  ["extenso",  "Extenso",  "el análisis en profundidad · de a una"],
+];
 
 export default function Entregas() {
   const supabase = clienteNavegador();
@@ -28,6 +41,7 @@ export default function Entregas() {
   const [elegidas, setElegidas] = useState<Set<number>>(new Set());
   const [previa, setPrevia] = useState<{ texto: string; largo: number; tope: number } | null>(null);
   const [borrador, setBorrador] = useState("");
+  const [formato, setFormato] = useState<Formato>("breve");
   const [error, setError] = useState("");
   const [aviso, setAviso] = useState("");
   const [ocupado, setOcupado] = useState(false);
@@ -54,7 +68,7 @@ export default function Entregas() {
 
   async function abrir(p: Pendiente) {
     if (abierto === p.encargo_id) { setAbierto(null); return; }
-    setAbierto(p.encargo_id); setPrevia(null); setError("");
+    setAbierto(p.encargo_id); setPrevia(null); setError(""); setFormato("breve");
     const { data } = await supabase.rpc("normas_del_encargo",
       { p_encargo: p.encargo_id, p_fecha: fecha });
     const ns = (data as Norma[]) ?? [];
@@ -67,7 +81,7 @@ export default function Entregas() {
     try {
       const r = await fetch("/api/entregar", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ encargo_id, fecha, previa: previaSola,
+        body: JSON.stringify({ encargo_id, fecha, previa: previaSola, formato,
                                ids: [...elegidas],
                                texto: previaSola ? undefined : borrador }),
       });
@@ -140,8 +154,26 @@ export default function Entregas() {
 
             {abierto === p.encargo_id && (
               <div className="revision">
-                <p className="nota">
+                <p className="rotulo">Formato del mensaje</p>
+                <div className="formatos">
+                  {FORMATOS.map(([f, nombre, ayuda]) => (
+                    <label key={f} className={`formato ${formato === f ? "elegido" : ""}`}>
+                      <input type="radio" name={`fmt-${p.encargo_id}`} checked={formato === f}
+                             onChange={() => { setFormato(f); setPrevia(null); }} />
+                      <span><b>{nombre}</b><br /><span className="nota">{ayuda}</span></span>
+                    </label>
+                  ))}
+                </div>
+
+                <p className="nota" style={{ marginTop: 12 }}>
                   {elegidas.size} de {normas.length} marcadas · destildá lo que no quieras mandar
+                  {(() => {
+                    const est = elegidas.size * PESO[formato];
+                    if (est <= TOPE) return null;
+                    const caben = Math.max(1, Math.floor(TOPE / PESO[formato]));
+                    return <span className="calibre mal"> · no van a entrar: en
+                      formato {formato} caben unas {caben}</span>;
+                  })()}
                 </p>
                 {normas.map((n) => (
                   <label key={n.id} className="norma-check">
