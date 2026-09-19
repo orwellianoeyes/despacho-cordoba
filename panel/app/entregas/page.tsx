@@ -27,6 +27,7 @@ export default function Entregas() {
   const [normas, setNormas] = useState<Norma[]>([]);
   const [elegidas, setElegidas] = useState<Set<number>>(new Set());
   const [previa, setPrevia] = useState<{ texto: string; largo: number; tope: number } | null>(null);
+  const [borrador, setBorrador] = useState("");
   const [error, setError] = useState("");
   const [aviso, setAviso] = useState("");
   const [ocupado, setOcupado] = useState(false);
@@ -67,11 +68,12 @@ export default function Entregas() {
       const r = await fetch("/api/entregar", {
         method: "POST", headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ encargo_id, fecha, previa: previaSola,
-                               ids: [...elegidas] }),
+                               ids: [...elegidas],
+                               texto: previaSola ? undefined : borrador }),
       });
       const c = await r.json();
       if (!r.ok) throw new Error(c.error || "falló");
-      if (previaSola) setPrevia(c);
+      if (previaSola) { setPrevia(c); setBorrador(c.texto); }
       else { setAviso(c.aviso ?? `Enviado: ${c.cuantas} normas.`); setPrevia(null); cargar(); }
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
@@ -163,7 +165,9 @@ export default function Entregas() {
                     {ocupado ? "…" : "Ver el mensaje"}
                   </button>
                   <button className="btn sello" style={{ marginLeft: 8 }}
-                          disabled={ocupado || !elegidas.size || !p.telegram_id || !previa}
+                          disabled={ocupado || !elegidas.size || !p.telegram_id
+                                    || !previa || !borrador.trim()
+                                    || borrador.length > previa.tope}
                           onClick={() => pedir(p.encargo_id, false)}>
                     Enviar por Telegram
                   </button>
@@ -177,12 +181,22 @@ export default function Entregas() {
                 {previa && (
                   <div className="panel-analisis texto-crudo" style={{ marginTop: 14 }}>
                     <p className="rotulo">
-                      Esto es exactamente lo que va a recibir ·{" "}
-                      <span className={previa.largo > previa.tope ? "calibre mal" : "calibre"}>
-                        {previa.largo} de {previa.tope} caracteres
+                      Esto es lo que va a recibir — se puede editar ·{" "}
+                      <span className={borrador.length > previa.tope ? "calibre mal" : "calibre"}>
+                        {borrador.length} de {previa.tope} caracteres
                       </span>
+                      {borrador !== previa.texto && <span className="calibre ok"> · editado</span>}
                     </p>
-                    <pre className="crudo">{previa.texto}</pre>
+                    <textarea className="crudo editable" value={borrador} spellCheck
+                              onChange={(e) => setBorrador(e.target.value)} />
+                    <p className="nota">
+                      Sale exactamente esto, con tus cambios. Se guarda en la bitácora
+                      el texto que realmente salió, no el borrador automático.
+                      {borrador !== previa.texto && (
+                        <> · <button className="btn mini" style={{ marginLeft: 6 }}
+                             onClick={() => setBorrador(previa.texto)}>Volver al original</button></>
+                      )}
+                    </p>
                   </div>
                 )}
               </div>

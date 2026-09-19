@@ -75,7 +75,12 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "no hay normas para enviar" }, { status: 422 });
   }
 
-  const texto = armarMensaje(fecha, encargo.etiqueta, normas);
+  // El texto que llegue desde el panel gana: Leo lo edita en la vista
+  // previa antes de mandarlo. El armado automático es el borrador, no la
+  // última palabra — en un servicio donde él es el editor, lo que sale
+  // lleva su firma.
+  const editado = typeof cuerpo?.texto === "string" ? cuerpo.texto.trim() : "";
+  const texto = editado || armarMensaje(fecha, encargo.etiqueta, normas);
 
   // Vista previa: se devuelve el mensaje exacto que saldría, sin mandarlo.
   // Nada sale sin que Leo lo haya visto antes.
