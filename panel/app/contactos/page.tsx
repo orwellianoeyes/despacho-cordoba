@@ -167,10 +167,18 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
     if (c) setCalibres((prev) => ({ ...prev, [t]: c as Calibre }));
   }
 
+  // Acepta varios de una: "obras, apross, epec" entra como TRES temas.
+  // Escribirlos con comas es lo natural —y era lo que sugería el cartel del
+  // campo—, pero guardarlos como un solo tema exige que las cuatro palabras
+  // estén en la misma norma, así que no pegaba nunca.
   function agregarTema() {
-    const t = tema.trim().toLowerCase();
-    if (!t || temas.includes(t)) return;
-    setTemas([...temas, t]); setTema(""); calibrar(t, secciones);
+    const nuevos = tema.split(",")
+      .map((x) => x.trim().toLowerCase())
+      .filter((x) => x && !temas.includes(x));
+    if (!nuevos.length) return;
+    setTemas([...temas, ...nuevos]);
+    setTema("");
+    nuevos.forEach((x) => calibrar(x, secciones));
   }
 
   async function guardar(e: React.FormEvent<HTMLFormElement>) {
@@ -231,7 +239,7 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
           <p className="rotulo" style={{ marginTop: 14 }}>Temas a vigilar</p>
           <div className="busca-fila">
             <input value={tema} onChange={(e) => setTema(e.target.value)}
-              placeholder="ej.: apross, obra vial, emergencia hidrica"
+              placeholder="una palabra o frase — se pueden varias separadas por coma"
               onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); agregarTema(); } }} />
             <button type="button" className="btn" onClick={agregarTema}>Agregar</button>
           </div>
@@ -257,6 +265,11 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
           <p className="nota" style={{ marginTop: 10 }}>
             El número que importa es el de por edición: uno o dos por día es un tema
             útil; catorce le manda al cliente media sección.
+          </p>
+          <p className="nota">
+            Cada tema se busca por separado y alcanza con que pegue uno. Pero si un
+            tema tiene varias palabras, tienen que estar <b>todas</b> en la misma
+            norma — por eso conviene cargarlas sueltas y no como una frase.
           </p>
           <div style={{ marginTop: 12 }}>
             <button className="btn sello" type="submit" disabled={!temas.length}>Guardar encargo</button>
