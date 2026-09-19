@@ -18,17 +18,21 @@ type Norma = {
   extenso: string | null;
   temas_que_pegaron: string[];
 };
-type Formato = "breve" | "completo" | "extenso";
+type Formato = "titulares" | "breve" | "completo" | "extenso";
 
 // Medido sobre las 335 normas analizadas: cuánto ocupa cada una según el
 // formato. Sirve para avisar que no entra ANTES de armar el mensaje.
-const PESO: Record<Formato, number> = { breve: 512, completo: 1652, extenso: 9000 };
+const PESO: Record<Formato, number> = {
+  titulares: 240, breve: 512, completo: 1652, extenso: 9000,
+};
 const TOPE = 4096;
 
+// Una escalera: cada peldaño contesta una pregunta más.
 const FORMATOS: [Formato, string, string][] = [
-  ["breve",    "Breve",    "de qué se trata y el link · entran ~8"],
-  ["completo", "Completo", "con las cuatro miradas · entran ~2"],
-  ["extenso",  "Extenso",  "el análisis en profundidad · de a una"],
+  ["titulares", "Titulares", "qué salió, con monto y fecha · entran ~15"],
+  ["breve",     "Con resumen", "y de qué se trata cada una · entran ~8"],
+  ["completo",  "Completo",  "con las cuatro miradas · entran ~2"],
+  ["extenso",   "Extenso",   "el análisis en profundidad · de a una"],
 ];
 
 export default function Entregas() {
@@ -41,7 +45,7 @@ export default function Entregas() {
   const [elegidas, setElegidas] = useState<Set<number>>(new Set());
   const [previa, setPrevia] = useState<{ texto: string; largo: number; tope: number } | null>(null);
   const [borrador, setBorrador] = useState("");
-  const [formato, setFormato] = useState<Formato>("breve");
+  const [formato, setFormato] = useState<Formato>("titulares");
   const [error, setError] = useState("");
   const [aviso, setAviso] = useState("");
   const [ocupado, setOcupado] = useState(false);
@@ -68,7 +72,7 @@ export default function Entregas() {
 
   async function abrir(p: Pendiente) {
     if (abierto === p.encargo_id) { setAbierto(null); return; }
-    setAbierto(p.encargo_id); setPrevia(null); setError(""); setFormato("breve");
+    setAbierto(p.encargo_id); setPrevia(null); setError(""); setFormato("titulares");
     const { data } = await supabase.rpc("normas_del_encargo",
       { p_encargo: p.encargo_id, p_fecha: fecha });
     const ns = (data as Norma[]) ?? [];
@@ -168,7 +172,7 @@ export default function Entregas() {
                 <p className="nota" style={{ marginTop: 12 }}>
                   {elegidas.size} de {normas.length} marcadas · destildá lo que no quieras mandar
                   {(() => {
-                    const est = elegidas.size * PESO[formato];
+                    const est = elegidas.size * PESO[formato] + 200;
                     if (est <= TOPE) return null;
                     const caben = Math.max(1, Math.floor(TOPE / PESO[formato]));
                     return <span className="calibre mal"> · no van a entrar: en

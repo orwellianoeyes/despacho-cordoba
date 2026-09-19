@@ -13,7 +13,23 @@ type Norma = {
   temas_que_pegaron: string[];
 };
 
-type Formato = "breve" | "completo" | "extenso";
+type Formato = "titulares" | "breve" | "completo" | "extenso";
+
+// El campo `importa` trae, después de la primera oración, la plata y las
+// fechas — que es lo accionable. En el formato de titulares el título ya
+// dice de qué se trata, así que se extraen solo esos datos duros.
+const MONTO = /\$\s?[\d.]+(?:,\d+)?/;
+const FECHA = /\b\d{1,2}\/\d{1,2}\/\d{2,4}\b/;
+
+function datosDuros(txt: string | null): string {
+  if (!txt) return "";
+  const partes: string[] = [];
+  const m = txt.match(MONTO);
+  if (m) partes.push(m[0].replace("$ ", "$"));
+  const f = txt.match(FECHA);
+  if (f) partes.push(`apertura ${f[0]}`);
+  return partes.join(" · ");
+}
 
 // Telegram corta los mensajes en 4096 caracteres. Si se pasa, no manda un
 // mensaje cortado: rechaza el envío entero.
@@ -34,6 +50,24 @@ function armarMensaje(fecha: string, etiqueta: string, normas: Norma[],
 
   // Sin link al panel y sin mención al sistema: el cliente recibe su
   // resumen, no una ventana a la herramienta.
+  // Titulares: el mensaje de la mañana. El título ya dice qué es; se le
+  // suman el tipo, el monto y la fecha de apertura, y el link. Medido:
+  // 240 caracteres por norma contra 520 del formato con resumen, así que
+  // entran 15 en vez de 8. Nadie lee más que eso en el celular antes del
+  // café, y quien quiera profundidad la pide.
+  if (formato === "titulares") {
+    const p = [`📋 B.O. Córdoba · ${dia}`, etiqueta, ""];
+    normas.forEach((n, i) => {
+      p.push(`${i + 1}. ${n.titulo}`);
+      const dd = datosDuros(n.importa);
+      p.push(`   ${n.tipo}${dd ? ` · ${dd}` : ""}`);
+      if (n.url_oficial) p.push(`   ${n.url_oficial}#page=${n.pagina}`);
+      p.push("");
+    });
+    p.push("¿Querés el análisis de alguna? Avisame.");
+    return p.join("\n");
+  }
+
   const partes = [
     `📋 Boletín Oficial de Córdoba — ${dia}`,
     `Seguimiento: ${etiqueta}`,
@@ -79,8 +113,9 @@ export async function POST(request: Request) {
   const encargo_id = cuerpo?.encargo_id;
   const fecha = cuerpo?.fecha;
   const soloVistaPrevia = cuerpo?.previa === true;
-  const formato: Formato = ["breve", "completo", "extenso"].includes(cuerpo?.formato)
-    ? cuerpo.formato : "breve";
+  const formato: Formato =
+    ["titulares", "breve", "completo", "extenso"].includes(cuerpo?.formato)
+      ? cuerpo.formato : "titulares";
   const idsElegidos: number[] | null = Array.isArray(cuerpo?.ids) ? cuerpo.ids : null;
 
   if (typeof encargo_id !== "number" || !/^\d{4}-\d{2}-\d{2}$/.test(String(fecha))) {

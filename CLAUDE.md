@@ -417,17 +417,24 @@ Cómo funciona el envío, que es el corazón del producto:
   que sale lleva su firma, no la del sistema. El mensaje al cliente **no
   lleva link al panel** ni menciona la herramienta.
 
-- **Tres formatos, porque Telegram corta en 4096 caracteres.** Medido
-  sobre las 335 normas analizadas:
+- **Cuatro formatos, una escalera.** Telegram corta en 4096 caracteres y
+  el celular corta antes: la atención. Medido sobre las 335 normas
+  analizadas:
 
-      breve      512 car/norma  →  entran ~8   (de qué se trata + link)
-      completo  1652 car/norma  →  entran ~2,5 (con las cuatro miradas)
+      titulares  240 car/norma  →  entran ~15  (qué salió, monto y fecha)
+      breve      512            →  entran ~8   (y de qué se trata)
+      completo  1652            →  entran ~2,5 (las cuatro miradas)
       extenso   ~9000           →  de a una
 
-  **El diario va en breve**: es el menú, no la comida. Nadie lee mil
-  ochocientas palabras en el celular. Quien quiere profundidad la pide, y
-  ahí se le manda esa norma sola en completo o extenso. Lo detectó Leo
-  probando: con dos normas en completo ya casi llenaba el mensaje.
+  **El diario va en titulares, que es el que Leo pidió después de leer
+  uno en el celular.** El título ya dice de qué se trata; lo que falta es
+  la plata y la fecha de apertura, que se extraen de `importa` con dos
+  expresiones regulares. Un mensaje de 2 normas pasó de 1312 a 474
+  caracteres sin perder nada accionable.
+
+  El camino completo: a la mañana van los titulares, el cliente pide una,
+  se destilda el resto y se manda esa sola en completo o extenso. Mismo
+  flujo, sin pantallas nuevas.
 - `entregas` guarda el texto que REALMENTE salió, no el que se armaría
   hoy: el análisis puede cambiar después y hay que saber qué leyó.
 
