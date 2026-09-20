@@ -19,6 +19,10 @@ const PRECIO_USD_POR_MILLON = 0.042;
 // Cuántas normas van en un request. Las preguntas de un mismo request
 // corren en paralelo y comparten el state, así que agrupar es lo que abarata:
 // 20 normas × 4 temas son 80 preguntas sobre un state de ~3 mil tokens.
+//
+// La docs no publica un tope de preguntas por request (sí de tokens: 64k en
+// total, 32k para el state). Si alguna vez la API rechaza el lote, bajar
+// este número es el arreglo — cuesta más plata, no menos calidad.
 const POR_LOTE = 20;
 
 // El `importa` de una norma analizada puede ser largo y no hace falta
