@@ -134,7 +134,16 @@ export async function POST(request: Request) {
   let normas = (todas ?? []) as Norma[];
   if (idsElegidos) normas = normas.filter((n) => idsElegidos.includes(n.id));
   if (!normas.length) {
-    return NextResponse.json({ error: "no hay normas para enviar" }, { status: 422 });
+    // `normas_del_encargo` lee de `coincidencias`: vacío puede ser "no le
+    // toca nada" o "esta edición todavía no se emparejó".
+    const { count } = await supabase.from("coincidencias")
+      .select("norma_id", { count: "exact", head: true })
+      .eq("encargo_id", encargo_id).eq("fecha", fecha);
+    return NextResponse.json({
+      error: (count ?? 0) > 0
+        ? "no hay normas para enviar"
+        : "esta edición todavía no se emparejó para este encargo",
+    }, { status: 422 });
   }
 
   // El texto que llegue desde el panel gana: Leo lo edita en la vista

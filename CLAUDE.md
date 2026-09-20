@@ -253,6 +253,60 @@ Carpeta local: ~/despacho-cordoba
   avisa fuerte y sigue: perder la subida es recuperable con
   `migrar_a_supabase.py`, perder el despacho del día no.
 
+## El emparejamiento va por significado, no por palabra (19/09/2026)
+
+Lo que decide qué recibe cada cliente **ya no es** `plainto_tsquery`.
+Medido sobre las 1.173 normas archivadas de las secciones 1 y 4:
+
+    tema escrito     queda como      pega
+    obra             'obra'           111
+    obras            'obras'           86
+    designaciones    'design'          87
+    designacion      'designacion'     67
+    licitaciones     'licit'          577
+    licitacion       'licitacion'     574
+
+El stemmer español reduce unos plurales y otros no, **sin regla que se
+pueda aprender**. Y las listas no se contienen: 69 normas pegan con
+"obra" y NO con "obras"; la unión son 155. El encargo real decía
+"obras", así que el cliente veía **86 de 155 — el 45% invisible por
+haber escrito el plural**.
+
+Aun con el plural correcto quedaba afuera todo lo que no comparte
+palabra: "Pavimento Modular Completo Zona 1", "Mantenimiento y
+Reparación de Puentes en Red Vial Pavimentada", y "Construcción Nuevo
+Edificio Hospital de Oliva" — esta última para alguien que pidió salud
+**y** obras.
+
+Peor que la pérdida: `calibrar_tema()` contaba con la MISMA consulta, así
+que **confirmaba el tema con el mismo error** que después le hacía perder
+las normas.
+
+Ahora juzga Jev (TypeSafe) en `panel/lib/jev.ts`. Tres cosas que no hay
+que deshacer:
+
+- **Corre del lado de la aplicación, no en Postgres.** Supabase no permite
+  instalar extensiones propias, así que no hay `WHERE` semántico dentro
+  del motor. El resultado es el mismo; el lugar de ejecución no.
+- **Se guardan TODAS las normas evaluadas con su probabilidad**, no solo
+  las que superan el umbral (tabla `coincidencias`). Por eso mover el
+  umbral es un filtro de lectura que no vuelve a gastar inferencia, y por
+  eso se puede distinguir "no le toca nada" de "todavía no se miró".
+- **Se calcula una vez por (encargo, edición).** Abrir el panel diez veces
+  no cuesta diez veces. Sin caché, el costo escalaría con las veces que
+  mira la pantalla, que es lo peor que puede pasarle a un gasto.
+
+`encargos.umbral` es la perilla ancho/angosto, y se elige por la intención
+(campaña 0,5 · normal 0,7 · angosta 0,85), nunca mostrando el número
+pelado. Y las normas van **ordenadas por probabilidad, no por página**: en
+titulares entran ~15 y el celular lee las tres primeras.
+
+Límites reales del modelo (docs.typesafe.ai/models, verificados el
+19/09/2026): 64k tokens por request, 32k para el state más la pregunta más
+larga, entrada a USD 0,042 por millón y **la salida no se cobra**. Las
+preguntas de un mismo request corren en paralelo, así que sumar temas no
+suma tiempo: 20 normas × 4 temas son 80 preguntas en una sola llamada.
+
 ## Dos listas de temas que NO hay que mezclar
 
 - `instrucciones.md` → **TEMAS VIGILADOS**: los de Leo. El motor los usa
@@ -431,13 +485,17 @@ Cómo funciona el envío, que es el corazón del producto:
 
 - `contactos` + `encargos`: cada cliente tiene uno o más encargos, con un
   nombre, los temas que pidió vigilar y qué secciones mirar.
-- `normas_del_encargo()` empareja usando el índice de texto completo y
-  devuelve **qué tema hizo entrar cada norma**, para poder mostrarlo.
-- `calibrar_tema()` dice cuánto pegaría un tema ANTES de guardarlo.
+- `normas_del_encargo()` lee de `coincidencias` y devuelve **qué tema hizo
+  entrar cada norma** y con qué probabilidad, para poder mostrarlo y
+  ordenar por eso. Quien llena `coincidencias` es `/api/emparejar`, con
+  Jev — ver la sección del emparejamiento por significado más arriba.
+- `/api/calibrar` dice cuánto pegaría un tema ANTES de guardarlo.
   Nació de medir que "licitacion" matchea 14 normas por edición —media
   Sección 4— mientras "paritaria docente" pega 3 veces en dos meses. Sin
   ese número no hay forma de saber si se le está por mandar al cliente un
-  goteo o una avalancha.
+  goteo o una avalancha. Desde el 19/09/2026 juzga una muestra de las
+  últimas 10 ediciones y **devuelve los títulos que pegaron**: el número
+  dice cuántas, los títulos dicen si son las que él esperaba.
 - El panel prepara y **Leo despacha**: el botón de enviar está deshabilitado
   hasta haber visto la vista previa, que además **se puede editar** — lo
   que sale lleva su firma, no la del sistema. El mensaje al cliente **no

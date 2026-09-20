@@ -8,7 +8,7 @@ set -u
 cd "$(dirname "$0")" || exit 1
 
 if [ -f ../.env ]; then
-  for clave in ANTHROPIC_API_KEY TELEGRAM_BOT_TOKEN; do
+  for clave in ANTHROPIC_API_KEY TELEGRAM_BOT_TOKEN TYPESAFE_API_KEY; do
     valor="$(grep -m1 "^$clave=" ../.env | cut -d= -f2-)"
     [ -n "$valor" ] && export "$clave=$valor"
   done

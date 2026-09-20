@@ -133,6 +133,15 @@ code{font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px}
 .calibre{font-family:'Chivo Mono',ui-monospace,monospace;font-size:11.5px;color:var(--grafito)}
 .calibre.ok b{color:var(--celeste)}
 .calibre.mal b{color:var(--sello)}
+/* Los títulos que pegaron: el número solo dice cuántas, esto dice cuáles. */
+.muestra{margin:6px 0 2px 14px;padding-left:12px;border-left:2px solid var(--linea);
+  list-style:none;font-size:12px;line-height:1.55;color:var(--grafito)}
+.muestra li{padding:1px 0}
+/* Cuánto pega una norma con el encargo. Ordena la lectura del cliente. */
+.prob{font-family:'Chivo Mono',ui-monospace,monospace;font-size:11px;
+  color:var(--grafito);border:1px solid var(--linea);border-radius:3px;
+  padding:1px 4px;margin-right:6px}
+.prob.alta{color:var(--celeste);border-color:var(--celeste)}
 
 /* ---------- Entregas ---------- */
 .cuenta{font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;color:var(--grafito)}

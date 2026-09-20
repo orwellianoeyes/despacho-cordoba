@@ -9,6 +9,7 @@ type Pendiente = {
   encargo_id: number; etiqueta: string; temas: string[];
   contacto_id: number; contacto: string; telegram_id: number | null;
   cuantas: number; ya_entregada: boolean;
+  emparejado: boolean; evaluadas: number;
 };
 type Norma = {
   id: number; tipo: string; numero: string; titulo: string;
@@ -17,6 +18,7 @@ type Norma = {
   ampliada: Record<string, string> | null;
   extenso: string | null;
   temas_que_pegaron: string[];
+  prob: number;
 };
 type Formato = "titulares" | "breve" | "completo" | "extenso";
 type Enviada = {
@@ -56,6 +58,7 @@ export default function Entregas() {
   const [historial, setHistorial] = useState<Enviada[] | null>(null);
   const [verTexto, setVerTexto] = useState<number | null>(null);
   const [ocupado, setOcupado] = useState(false);
+  const [emparejando, setEmparejando] = useState(false);
   const [corrida, setCorrida] = useState<{ estado: string; detalle: string | null } | null>(null);
 
   useEffect(() => {
@@ -73,7 +76,28 @@ export default function Entregas() {
     setError(""); setAbierto(null); setPrevia(null);
     const { data, error } = await supabase.rpc("pendientes_del_dia", { p_fecha: fecha });
     if (error) setError(error.message);
-    setPendientes((data as Pendiente[]) ?? []);
+    const ps = (data as Pendiente[]) ?? [];
+    setPendientes(ps);
+
+    // Emparejar lo que falte. Se dispara solo porque el panorama de la
+    // mañana sin esto no dice nada: "0 normas" y "todavía no miré" se ven
+    // igual. Cuesta fracciones de centavo y queda guardado, así que volver
+    // a abrir el panel no vuelve a gastar.
+    if (ps.some((p) => !p.emparejado)) {
+      setEmparejando(true);
+      try {
+        const r = await fetch("/api/emparejar", {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ fecha }),
+        });
+        const c = await r.json();
+        if (!r.ok) throw new Error(c.error || "no se pudo emparejar");
+        const { data: d2 } = await supabase.rpc("pendientes_del_dia", { p_fecha: fecha });
+        setPendientes((d2 as Pendiente[]) ?? ps);
+      } catch (e) {
+        setError(e instanceof Error ? e.message : String(e));
+      } finally { setEmparejando(false); }
+    }
   }, [fecha, supabase]);
 
   useEffect(() => { cargar(); }, [cargar]);
@@ -103,6 +127,25 @@ export default function Entregas() {
       if (await mirarCorrida()) clearInterval(reloj);
     }, 8000);
     setTimeout(() => clearInterval(reloj), 20 * 60 * 1000);
+  }
+
+  async function reemparejar(encargo_id: number) {
+    setEmparejando(true); setError(""); setAviso("");
+    try {
+      const r = await fetch("/api/emparejar", {
+        method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ fecha, encargo_id, rehacer: true }),
+      });
+      const c = await r.json();
+      if (!r.ok) throw new Error(c.error || "no se pudo emparejar");
+      const h = c.hechos?.[0];
+      if (h) setAviso(`${h.coinciden} de ${h.evaluadas} · ${(h.costo * 100).toFixed(2)} ¢`);
+      const { data } = await supabase.rpc("pendientes_del_dia", { p_fecha: fecha });
+      setPendientes((data as Pendiente[]) ?? []);
+      setAbierto(null);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    } finally { setEmparejando(false); }
   }
 
   async function abrir(p: Pendiente) {
@@ -248,10 +291,20 @@ export default function Entregas() {
               </div>
               <span className="acciones">
                 <span className={`cuenta ${p.cuantas ? "hay" : ""}`}>
-                  {p.cuantas} {p.cuantas === 1 ? "norma" : "normas"}
+                  {!p.emparejado
+                    ? (emparejando ? "mirando la edición…" : "sin emparejar")
+                    : `${p.cuantas} de ${p.evaluadas}`}
                 </span>
                 {p.ya_entregada && <span className="chip analizada">ya enviada</span>}
                 {!p.telegram_id && <span className="chip mal">sin Telegram</span>}
+                {/* Si le cambió los temas o el ancho, lo de ayer no sirve.
+                    No se recalcula solo para no gastar sin que lo pida. */}
+                {p.emparejado && (
+                  <button className="btn mini" disabled={emparejando}
+                          onClick={() => reemparejar(p.encargo_id)}>
+                    Volver a mirar
+                  </button>
+                )}
                 {p.cuantas > 0 && (
                   <button className="btn" onClick={() => abrir(p)}>
                     {abierto === p.encargo_id ? "Cerrar" : "Revisar"}
@@ -302,6 +355,12 @@ export default function Entregas() {
                     <input type="checkbox" checked={elegidas.has(n.id)}
                            onChange={() => alterna(n.id)} />
                     <span>
+                      {/* Cuánto pega. Van ordenadas por esto, no por página:
+                          en titulares entran ~15 y el celular lee las tres
+                          primeras. */}
+                      <span className={`prob ${n.prob >= 0.9 ? "alta" : ""}`}>
+                        {n.prob.toFixed(2)}
+                      </span>
                       <span className="chip">{n.tipo}</span>
                       {n.temas_que_pegaron.map((t) => (
                         <span key={t} className="chip tema">{t}</span>

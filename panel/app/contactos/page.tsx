@@ -6,13 +6,25 @@ import { clienteNavegador } from "@/lib/supabase/navegador";
 
 type Encargo = {
   id: number; contacto_id: number; etiqueta: string;
-  temas: string[]; secciones: string[]; activo: boolean;
+  temas: string[]; secciones: string[]; umbral: number; activo: boolean;
 };
 type Contacto = {
   id: number; nombre: string; telegram_id: number | null;
   notas: string | null; activo: boolean; encargos: Encargo[];
 };
-type Calibre = { total: number; promedio_por_edicion: number };
+type Calibre = {
+  total: number; promedio_por_edicion: number;
+  evaluadas: number; ediciones: number;
+  muestra: { prob: number; fecha: string; titulo: string }[];
+};
+
+// El umbral es la perilla ancho/angosto. No se expone como "0.7" porque
+// ese número no le dice nada a nadie: se elige por la intención.
+const ANCHOS: [number, string, string][] = [
+  [0.5, "Ancha",  "todo lo que roce el tema — para campaña"],
+  [0.7, "Normal", "lo que trate del tema"],
+  [0.85, "Angosta", "solo lo que sea claramente del tema"],
+];
 type Quien = { id: number; nombre: string; usuario: string | null; texto: string };
 
 const SECCIONES = [
@@ -246,24 +258,31 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
   const [temas, setTemas] = useState<string[]>([]);
   const [tema, setTema] = useState("");
   const [secciones, setSecciones] = useState<string[]>(["1", "4"]);
+  const [umbral, setUmbral] = useState(0.7);
   const [calibres, setCalibres] = useState<Record<string, Calibre>>({});
 
-  const calibrar = useCallback(async (t: string, secs: string[]) => {
-    const { data } = await supabase.rpc("calibrar_tema", { p_tema: t, p_secciones: secs });
-    const c = Array.isArray(data) ? data[0] : data;
-    if (c) setCalibres((prev) => ({ ...prev, [t]: c as Calibre }));
-  }, [supabase]);
+  // Calibrar cuesta plata (juzga una muestra real con Jev), así que va por
+  // el servidor y no por RPC: la clave nunca baja al navegador.
+  const calibrar = useCallback(async (t: string, secs: string[], u: number) => {
+    setCalibres((prev) => { const c = { ...prev }; delete c[t]; return c; });
+    const r = await fetch("/api/calibrar", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ tema: t, secciones: secs, umbral: u }),
+    });
+    const c = await r.json();
+    if (r.ok) setCalibres((prev) => ({ ...prev, [t]: c as Calibre }));
+  }, []);
 
   function abrir(e?: Encargo) {
     setEditando(e?.id ?? 0);
     setEtiqueta(e?.etiqueta ?? "");
     setTemas(e?.temas ?? []);
     setSecciones(e?.secciones ?? ["1", "4"]);
+    setUmbral(e?.umbral ?? 0.7);
     setCalibres({});
     setTema("");
-    // Al editar, se recalibra lo que ya estaba: los números cambian con el
-    // archivo y con las secciones elegidas.
-    (e?.temas ?? []).forEach((x) => calibrar(x, e?.secciones ?? ["1", "4"]));
+    // Al editar NO se recalibra solo: cada calibración es una llamada paga.
+    // Se pide a mano, tema por tema.
   }
 
   // Acepta varios de una: "obras, apross, epec" entra como TRES temas.
@@ -277,12 +296,11 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
     if (!nuevos.length) return;
     setTemas([...temas, ...nuevos]);
     setTema("");
-    nuevos.forEach((x) => calibrar(x, secciones));
   }
 
   async function guardar(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const fila = { etiqueta: etiqueta.trim(), temas, secciones };
+    const fila = { etiqueta: etiqueta.trim(), temas, secciones, umbral };
     const r = editando
       ? await supabase.from("encargos").update(fila).eq("id", editando)
       : await supabase.from("encargos").insert({ contacto_id: contacto.id, ...fila });
@@ -330,7 +348,7 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
                       ? [...secciones, n].sort()
                       : secciones.filter((x) => x !== n);
                     setSecciones(s);
-                    temas.forEach((t) => calibrar(t, s));
+                    setCalibres({});   // los números cambian con las secciones
                   }} />
                 {n} · {nombre}
               </label>
@@ -349,28 +367,61 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
             const c = calibres[t];
             const v = c ? veredicto(Number(c.promedio_por_edicion), c.total) : null;
             return (
-              <div key={t} className="tema-fila">
-                <span className="chip tema">{t}</span>
-                {c ? (
-                  <span className={`calibre ${v!.clase}`}>
-                    {c.total} normas en el archivo · {c.promedio_por_edicion} por edición
-                    <b> — {v!.txt}</b>
-                  </span>
-                ) : <span className="calibre">midiendo…</span>}
-                <button type="button" className="btn mini"
-                        onClick={() => setTemas(temas.filter((x) => x !== t))}>×</button>
+              <div key={t}>
+                <div className="tema-fila">
+                  <span className="chip tema">{t}</span>
+                  {c ? (
+                    <span className={`calibre ${v!.clase}`}>
+                      {c.total} de {c.evaluadas} en las últimas {c.ediciones} ediciones
+                      · {c.promedio_por_edicion} por edición
+                      <b> — {v!.txt}</b>
+                    </span>
+                  ) : (
+                    <button type="button" className="btn mini"
+                            onClick={() => calibrar(t, secciones, umbral)}>
+                      Medir cuánto pega
+                    </button>
+                  )}
+                  <button type="button" className="btn mini"
+                          onClick={() => setTemas(temas.filter((x) => x !== t))}>×</button>
+                </div>
+                {/* El número dice cuántas; los títulos dicen si son las que
+                    él esperaba. Sin esto, calibrar es confiar a ciegas. */}
+                {c && c.muestra.length > 0 && (
+                  <ul className="muestra">
+                    {c.muestra.map((m, i) => (
+                      <li key={i}>
+                        <span className="f-num">{m.prob.toFixed(2)}</span>{" "}
+                        <span className="f-num">{m.fecha.slice(5)}</span>{" "}
+                        {m.titulo}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             );
           })}
+
+          <p className="rotulo" style={{ marginTop: 14 }}>Qué tan amplio</p>
+          <div className="secciones">
+            {ANCHOS.map(([u, nombre, explica]) => (
+              <label key={u} className="check">
+                <input type="radio" name="umbral" checked={umbral === u}
+                       onChange={() => { setUmbral(u); setCalibres({}); }} />
+                {nombre} — <span className="f-num">{explica}</span>
+              </label>
+            ))}
+          </div>
 
           <p className="nota" style={{ marginTop: 10 }}>
             El número que importa es el de por edición: uno o dos por día es un tema
             útil; catorce le manda al cliente media sección.
           </p>
           <p className="nota">
-            Cada tema se busca por separado y alcanza con que pegue uno. Pero si un
-            tema tiene varias palabras, tienen que estar <b>todas</b> en la misma
-            norma — por eso conviene cargarlas sueltas y no como una frase.
+            Los temas se miran por <b>significado</b>, no por palabra: «obra vial»
+            alcanza a «Bacheo Zona 4» y a «Pavimento Modular», que no comparten
+            ninguna palabra. Se pueden escribir como frase. Alcanza con que pegue
+            uno de los temas.
           </p>
           <div style={{ marginTop: 12 }}>
             <button className="btn sello" type="submit" disabled={!temas.length}>
