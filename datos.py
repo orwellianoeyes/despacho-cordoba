@@ -175,7 +175,12 @@ def armar_normas(despacho: dict, fecha: str) -> list[dict]:
         fila.update({
             "destacada": True, "clase": n.get("clase"), "importa": n.get("importa"),
             "ampliada": n.get("ampliada"), "texto_oficial": n.get("texto_oficial"),
-            "analizada_por": despacho.get("motor", "claude"),
+            # El modelo exacto, no la familia. El panel ya guarda
+            # "claude-sonnet-5" acá; el motor guardaba "claude" a secas hasta
+            # el 22/09/2026. Los despachos viejos se quedan con la familia:
+            # eso no se reconstruye hacia atrás.
+            "analizada_por": despacho.get("modelo")
+                             or despacho.get("motor", "claude"),
             "pagina": pagina_entera(n.get("pagina") or fila.get("pagina")),
         })
         filas[k] = fila

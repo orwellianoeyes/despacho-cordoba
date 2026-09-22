@@ -214,6 +214,14 @@ def detectar_numero_boletin(texto: str) -> str:
 
 # ------------------------------ Llamado a la API ---------------------------
 
+# Qué modelo exacto escribió el despacho. `motor` dice la familia
+# (claude|gemini) y de eso depende el cartel rojo de la app pública, así que
+# no se toca; esto dice la versión, que es lo que hace falta cuando un
+# cliente pregunta por qué su análisis difiere del de la semana pasada.
+# El panel ya guarda el id exacto en `analizada_por` desde que existe; el
+# motor guardaba "claude" a secas hasta el 22/09/2026.
+MODELO_USADO = ""
+
 def _construir_prompt(texto_boletin: str) -> tuple[str, str]:
     """Devuelve (instrucciones, boletín). Van separados porque los dos
     motores toman las instrucciones como mensaje de sistema."""
@@ -222,6 +230,8 @@ def _construir_prompt(texto_boletin: str) -> tuple[str, str]:
 
 
 def _llamar_claude(sistema: str, usuario: str) -> str:
+    global MODELO_USADO
+    MODELO_USADO = MODELO_CLAUDE
     cliente = anthropic.Anthropic(timeout=float(TIMEOUT_IA), max_retries=3)
 
     # Streaming: obligatorio cuando max_tokens es alto (el SDK lo exige si
@@ -267,13 +277,16 @@ def _gemini_una_vez(sistema: str, usuario: str, modelo: str, clave: str) -> str:
 
 
 def _llamar_gemini(sistema: str, usuario: str) -> str:
+    global MODELO_USADO
     clave = os.environ.get("GEMINI_API_KEY")
     if not clave:
         raise RuntimeError("Falta GEMINI_API_KEY en el entorno.")
     ultimo = None
     for modelo in MODELOS_GEMINI:
         try:
-            return _gemini_una_vez(sistema, usuario, modelo, clave)
+            respuesta = _gemini_una_vez(sistema, usuario, modelo, clave)
+            MODELO_USADO = modelo
+            return respuesta
         except Exception as e:
             ultimo = f"{modelo}: {type(e).__name__}"
             print(f"      · gemini/{modelo} falló ({type(e).__name__}); sigo.")
@@ -706,6 +719,7 @@ def main() -> None:
     normalizar_paginas(despacho)
     despacho.setdefault("numero_boletin", nro)
     despacho["motor"] = motor_usado
+    despacho["modelo"] = MODELO_USADO or motor_usado
     if motor_usado != motor:
         print(f"⚠️  El despacho de hoy lo escribió {motor_usado}, no {motor}.")
 
