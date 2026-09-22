@@ -1,0 +1,544 @@
+{
+ "fecha": "2026-09-21",
+ "numero_boletin": "183",
+ "sintesis_juridica": [
+  "La edición de hoy introduce cambios significativos en formación docente, justicia laboral y procedimientos judiciales. El Ministerio de Educación aprobó nuevas propuestas de postítulos de formación docente continua bajo el Programa TransFORMAR@Cba, articulables con universidades provinciales. El Tribunal Superior de Justicia amplió el Procedimiento Declarativo Abreviado en San Francisco para casos de enfermedad profesional, homogeneizó criterios de elevación a juicio en todas las circunscripciones judiciales, centralizó control de personas en libertad mediante nueva oficina de ejecución penal, e implementó el Tribunal de Tratamiento de Drogas a partir del 1 de octubre. ERSeP aprobó tarifas de peaje para dos cooperativas eléctricas, con un vocal en disidencia por considerar excesivos los incrementos.",
+  "En seguridad privada, se habilitaron cinco nuevas empresas prestadoras de servicios de seguridad sin autorización para uso de armas. La Agencia Córdoba Cultura lanzó la tercera convocatoria del programa 'Córdoba Distrito Audiovisual – Cash Rebate' con presupuesto de $2.500.000.000. Se convocó intervención del Consorcio Caminero Nº 255 de Villa San Esteban. Importantes licitaciones de obras viales, educativas y sanitarias están en curso, con presupuestos que superan los $9.500 millones para mantenimiento de puentes y $4.163 millones para construcción de escuela secundaria de oficios."
+ ],
+ "sintesis_politica": [
+  "La agenda de justicia muestra fortalecimiento institucional: centralización de competencias laborales especializadas en Capital, nueva infraestructura para control de penados, e implementación del polémico programa de tribunales de drogas con características de justicia terapéutica. La expansión del Procedimiento Declarativo Abreviado y la homogeneización de sorteos en todo el fuero criminal responden a agenda de eficiencia administrativa tras años de debate sobre celeridad procesal. El timing coincide con presión legislativa histórica por modernización judicial.",
+  "En educación, el Programa TransFORMAR@Cba avanza sin mencionar a gremios docentes (UEPC): articulación con universidades provinciales y formato de postítulos pueden leerse como intentos de flexibilización formativa sin negociación paritaria explícita. Las licitaciones viales y educativas (construcción de escuela secundaria de oficios por $4.163 millones, mantenimiento de puentes por $9.571 millones) reflejan ejecución presupuestaria en infraestructura. El desacuerdo de un vocal de ERSeP sobre tarifas de peaje señala fricción interna en el regulador ante contexto de contracción económica."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "116/2026",
+   "titulo": "Ministerio de Educación — Aprobación de Propuestas de Formación Docente Continua (Postítulos)",
+   "importa": "Aprueba postítulos de formación docente continua en el marco del Programa TransFORMAR@Cba, delegando en Secretaría de Innovación la autorización de implementación en Institutos Superiores de Formación Docente. Posibilita articulación con Universidad Provincial de Córdoba u otras universidades provinciales para otorgar certificación complementaria de Curso de Posgrado.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Acto administrativo reglamentario que ejecuta Ley 9.870 (Ley de Educación provincial) y Ley Nacional 26.206. Delega en órgano subordinado (Secretaría de Innovación) facultades de autorización individual, conforme normas de desconcentración administrativa. Competencia compartida con UPC requiere encomienda complementaria (Art. 3). No se detectan vicios formales: motivación clara en plan educativo provincial, fundamentación en leyes vigentes, protocolización ordenada.",
+    "politica": "Avanza agenda TransFORMAR@Cba sin referencia explícita a negociación paritaria con UEPC. Formato de postítulos en universidades provinciales puede interpretarse como flexibilización de formación docente continua fuera de estructuras sindicales tradicionales. Timing coincide con agenda de modernización educativa provincial. Beneficiarios directos: docentes que cursen postítulos certificados; instituciones de formación docente acreditadas.",
+    "oficialista": "Profundiza compromiso con calidad educativa y actualización docente permanente. Integración con universidades provinciales fortalece educación superior pública. Postítulos responden a necesidades territoriales identificadas en consultas con comunidad educativa. Implementación descentralizada respeta autonomía de institutos de formación.",
+    "opositora": "Ausencia de mención a paritaria docente UEPC en proceso que afecta formación y certificación docente. Delegación amplía discrecionalidad de Secretaría sin garantías de transparencia en selección de postítulos. Riesgo de fragmentación: postítulos diversos sin estándares unificados podrían crear docentes de distintas calificaciones según institución."
+   },
+   "texto_oficial": "Art. 1°.- APROBAR las Propuestas de Formación Docente Continua bajo el formato de POSTÍTULOS que integran el Anexo I. Art. 2°.- DELEGAR en la Secretaría de Innovación, Desarrollo Profesional y Tecnologías en Educación el dictado de los actos administrativos necesarios para autorizar la implementación de los postítulos aprobados. Art. 3°.- DISPONER que las Propuestas de POSTÍTULOS podrán articularse con la Universidad Provincial de Córdoba (U.P.C.) u otra Universidad estatal o privada del territorio provincial. Art. 4°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "312/2026",
+   "titulo": "Agencia Córdoba Cultura — Lanzamiento tercer llamado 'Córdoba Distrito Audiovisual – Cash Rebate'",
+   "importa": "Autoriza tercera convocatoria del programa 'Córdoba Distrito Audiovisual – Cash Rebate' para promoción de industria audiovisual provincial. Presupuesto: $2.500.000.000. Plazo de inscripciones: 18 de septiembre a 19 de octubre de 2026. Establece bases y condiciones de participación.",
+   "seccion": "1",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Acto administrativo de carácter operativo que ejecuta autorización del Directorio de Agencia Córdoba Cultura. Fundamento en Ley 10.029 (Estatuto) y Ley 10.381; Decreto 522/17. Procedimiento ha contado con intervención de área contable (confirmación de disponibilidad presupuestaria) e incorporación de bases y condiciones que cumplen principios de transparencia e información (Art. 10 Ley 8.835: 'información en lenguaje simple, preciso, de fácil acceso'). No se observan vicios: convocatoria pública, criterios de evaluación especificados, plazos claros.",
+    "politica": "Tercera convocatoria del programa refleja continuidad de política cultural de posicionamiento de Córdoba como polo audiovisual. Presupuesto significativo ($2.500 millones) en contexto de contracción económica sugiere prioridad ejecutiva en sector creativo-cultural como generador de empleo e ingresos provinciales. Posible vínculo con estrategia de reactivación económica regional (no afirmado en texto).",
+    "oficialista": "Programa probado que ha generado producción audiovisual local. Convocatoria pública garantiza acceso equitativo a creativos y productoras. Bases claras facilitan participación. Presupuesto presupuestado demuestra compromiso fiscal con industria creativa.",
+    "opositora": "Falta especificación de resultados concretos de convocatorias anteriores (empleos generados, producciones realizadas, recaudación fiscal). Presupuesto de $2.500 millones en contexto de emergencia económica podría cuestionarse como gasto discrecional. Ausencia de participación de municipios del interior en difusión limita alcance territorial."
+   },
+   "texto_oficial": "Art. 1°.- DISPONER el lanzamiento de tercer llamado a convocatoria del PROGRAMA CÓRDOBA DISTRITO AUDIOVISUAL – CASH REBATE, con apertura del plazo de inscripciones el día 18 de septiembre y cierre el día 19 de octubre de 2026, conforme Bases y Condiciones que como Anexo I se aprueban. Art. 2°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial de la Provincia de Córdoba y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "clase": "resolucion",
+   "numero": "1951/2026",
+   "titulo": "Tribunal Superior de Justicia — Remisión de causas concursales de Huinca Renancó a Capital",
+   "importa": "Dispone remisión de causas concursales radicadas en Juzgado de Huinca Renancó a juzgados concursales de Capital, por carencia de recursos especializados en sede de Huinca Renancó. Justifica especialización en Capital tras 50 años de experiencia. Ordena sorteo de causas a remitir y futuras causas concursales.",
+   "seccion": "1",
+   "pagina": 8,
+   "ampliada": {
+    "juridica": "Ejercicio legítimo de superintendencia (Const. Prov. Art. 166 inc. 2; Ley 8435 Art. 12 inc. 23). Tribunales pueden 'fijar competencia territorial en caso de omisión u oscuridad de la ley'. Considerandos desarrollan justificación fáctica (volumen de causas: 93 concursales + 128 incidentes en Huinca Renancó) e institucional (principio de inmediación requerido en concursos; infraestructura de Capital superior; expediente electrónico facilita tramitación remota sin perjuicio a partes). No hay vicio procesal: acto reglamentario con audiencia tácita (solicitud de juez petitor).",
+    "politica": "Concentración de competencia en Capital responde a realidad de especialización judicial en grandes centros urbanos. Conflicto implícito: justicia de proximidad vs. eficiencia especializada. Decisión favorece abogados y síndicos de Córdoba/Río Cuarto sobre profesionales de Huinca Renancó (a quienes acuerdo reconoce que pueden actuar remotamente vía expediente electrónico). Puede generar resistencia de actores judiciales locales; sin embargo, tribunal enfatiza facilidades de SACM.",
+    "oficialista": "Decisión mejora eficiencia del fuero concursal. Capital cuenta con juzgados especializados desde hace 50 años; mayor carga no afecta calidad si se reparte equitativamente. Expediente electrónico elimina necesidad de presencia física. Síndicos pueden actuar remotamente sin costo adicional significativo.",
+    "opositora": "Vaciamiento de jurisdicción local. Empresas, acreedores y deudores del interior pierden acceso cercano a justicia especializada. Costo de litigación aumenta para actores locales que deben trasladarse a Capital o pagar representación. Riesgo de dilación por remisión de expedientes. Ausencia de datos sobre tiempo promedio de resolución en Capital vs. Huinca Renancó."
+   },
+   "texto_oficial": "1.- DISPONER que las causas concursales detalladas en el anexo único que forma parte integrante del presente, radicadas ante el Juzgado de Huinca Renancó, continúen su trámite en la Primera Circunscripción Judicial; a cuyo fin, deberá efectuarse el correspondiente sorteo entre los juzgados concursales de Capital. 3.- DISPONER que las causas concursales que en lo sucesivo ingresen en el Juzgado de Huinca Renancó sean remitidas mediante sorteo a los juzgados concursales de Capital.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "clase": "resolucion",
+   "numero": "1953/2026",
+   "titulo": "Tribunal Superior de Justicia — Ampliación Procedimiento Declarativo Abreviado a enfermedad profesional en San Francisco",
+   "importa": "Amplía Procedimiento Declarativo Abreviado (PDA) laboral a casos de enfermedad profesional (Art. 83 bis inc. k) en sede de San Francisco, a partir del 2 de noviembre de 2026. Contingencias posteriores a esa fecha rechazadas por Comisión Médica Jurisdiccional de SRT. Informe técnico constata: 35% de causas inician por PDA (H1 2026), duración promedio 184 días, tasa conciliación 54,4%, satisfacción sobre 85%.",
+   "seccion": "1",
+   "pagina": 11,
+   "ampliada": {
+    "juridica": "Ejercicio legítimo de superintendencia conforme Const. Prov. Art. 166 inc. 2 y Ley 8435 Art. 12 inc. 32. Fundamentación técnica robusta: estadísticas de impacto positivo (reducción de tiempo, mejora de conciliación, satisfacción de usuarios). Implementación progresiva permite escalamiento sin colapso operativo. Requisito de aptitud médica (rechazo previo de SRT) crea filtro temporal para evitar saturación. Legitimidad procesal: reforma nace de Ley 10.596 que otorgó facultad de extensión gradual.",
+    "politica": "Profundización de modelo de justicia laboral 'terapéutica' (énfasis en conciliación, rol activo del juez, reducción de litigio adversarial). Timing: ampliación a enfermedad profesional responde a demanda gremial (UEPC y sindicatos de trabajadores) por acceso a resolución rápida en supuestos de accidentes/enfermedades laborales. San Francisco elegida como segunda sede (tras Capital) por volumen de causas agroindustriales y carga de litigios de SRT.",
+    "oficialista": "Resultados probados del PDA: 54,4% conciliación vs. litigio adversarial permite que partes acuerden sin sentencia condenatoria. Duración 6 meses vs. años en procedimientos ordinarios. Satisfacción sobre 85% entre abogados y usuarios refleja calidad de servicio. Expansión a enfermedad profesional atiende vulnerabilidad de trabajadores en reclamo de prestaciones SRT.",
+    "opositora": "Ausencia de datos sobre tasa de apelación de fallos en PDA laboral (¿sentencias bien fundamentadas o precipitadas?). Modelo 'terapéutico' puede favorecer transacciones por debajo de derechos. Concentración en San Francisco deja sin PDA otras sedes del interior con demanda (Río Cuarto, Villa María tienen juzgados laborales). Falta análisis de impacto de enfermedad profesional en presupuesto de SRT."
+   },
+   "texto_oficial": "1. DISPONER para la sede judicial de San Francisco, a partir del 02/11/2026, la ampliación del procedimiento declarativo abreviado a los supuestos de enfermedad profesional contemplado en el inciso k) del art. 83 bis de la Ley 7987. 2. ENCOMENDAR al Área de Modernización que efectúe las adecuaciones necesarias en el Sistema de Administración de Causas – SAC. 3. FACULTAR a la Presidencia de la Sala Laboral para el dictado de instrumentos necesarios.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "clase": "resolucion",
+   "numero": "1954/2026",
+   "titulo": "Tribunal Superior de Justicia — Homogeneización de criterios de elevación a juicio en Criminal y Correccional (todas las circunscripciones)",
+   "importa": "Extiende a partir del 1 de octubre de 2026 el sistema unificado de distribución por complejidad de Acuerdo Reglamentario 1764/2022 (Capital) a todas las circunscripciones judiciales (Segunda a Décima). Reinicia contadores de distribución en Segunda Circunscripción. Unifica sorteos en materia de elevación a juicio criminal en toda la provincia.",
+   "seccion": "1",
+   "pagina": 12,
+   "ampliada": {
+    "juridica": "Acto administrativo de ejecución del Código Procesal Penal (Ley 8123 Art. 4). Regulación de procedimiento administrativo (distribución de causas) no comporta vicio constitucional: sorteador informático automatizado garantiza transparencia. Manual de Procedimiento (Anexo B) especifica parámetros de complejidad (cantidad de imputados › 3, víctimas/testigos › 15). Coordinación entre fiscalías de instrucción, juzgados de control y cámaras criminales. Validez del sistema probada en Primera Circunscripción desde 2022 sin impugnaciones conocidas.",
+    "politica": "Homogeneización responde a demanda histórica de igualdad procesal entre circunscripciones. Evita 'vicios de distribución' que favorecían algunos tribunales sobre otros (fuente de dilaciones y corrupción). Segunda Circunscripción (Río Cuarto) es única del interior con múltiples tribunales criminales; refuerza mecanismo ante posible presión política local. Implícitamente reconoce que mecanismos informáticos transparentes reducen discrecionalidad de magistrados.",
+    "oficialista": "Igualdad procesal en toda la provincia: mismo sistema en Capital que en interior. Sorteador informático elimina sospecha de parcialidad en asignación de causas. Experiencia de 4 años en Capital sin problemas de gestión. Mejora carga de trabajo equilibrada entre tribunales homólogos. Facilita comparabilidad de sentencias entre circunscripciones.",
+    "opositora": "Ausencia de estudios comparativos de celeridad y calidad sentenciadora entre circunscripciones antes/después del cambio. Imposición de sistema 'desde arriba' sin participación de actores judiciales del interior. Reinicio de contadores en Segunda Circunscripción borra historia de distribución anterior (opacidad de transición). Capacitación mencionada solo 'en caso de ser necesaria' insuficiente para operadores acostumbrados a otro procedimiento."
+   },
+   "texto_oficial": "I.- DISPONER que, a partir del 1° de octubre de 2026, Fiscalías de Instrucción y Juzgados con competencia en Control de las Segunda a Décima Circunscripciones, a los fines de elevación a juicio, deberán seguir exclusivamente el procedimiento establecido en el Anexo 'B' del Acuerdo Reglamentario n° 1764 Serie A del 16/6/2022. II.- DISPONER el reinicio de los contadores de distribución de causas de la Segunda Circunscripción. IV.- ENCOMENDAR al Área de Modernización el otorgamiento de permisos en sistema SAC Multifuero.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "clase": "resolucion",
+   "numero": "1955/2026",
+   "titulo": "Tribunal Superior de Justicia — Puesta en marcha Tribunal de Tratamiento de Drogas (TTD) a partir 1 octubre 2026",
+   "importa": "Fija 1 de octubre de 2026 como fecha de lanzamiento del Programa Integral de Intervención 'Tribunal de Tratamiento de Drogas' (TTD) suscripto en Convenio Marco del 1 julio 2026. Aplica Protocolo Conjunto Nacionales (Ministerios Justicia y Salud Nación), con participación de SEDRONAR. TTD opera en Capital y Cruz del Eje. Modifica Tabla de Puntajes para reconocer funciones de integrantes de TTD (2 puntos/año), Gestores de Caso (0,8) y Dupla Profesional (0,8).",
+   "seccion": "1",
+   "pagina": 13,
+   "ampliada": {
+    "juridica": "Implementación de Convenio celebrado bajo Ley Nacional 26.206 (competencia de justicia terapéutica). Protocolo de Resolución Conjunta Nacional 1/2025 establece reglas de operación. Participación de Equipo Técnico Interdisciplinario (ETIS) de SEDRONAR responde a coordinación federal (justicia provincial + política nacional de drogas). Creación de TTD con participación de magistrados judiciales y profesionales de salud mental genera cuestión de competencia: ¿tribunal o comisión administrativa con funciones evaluativas? Texto reconoce función jurisdiccional ('presidido por titular del juzgado'). Modificación de tabla de puntajes es acto administrativo de gestión de recursos humanos con efecto compensatorio (no incrementa erogación sino reconocimiento).",
+    "politica": "TTD responde a política nacional de descriminalización de consumo problemático (shift de castigo a tratamiento). Timing: implementación en octubre 2026 coincide con agenda de reforma penal gradual. Sedes en Capital y Cruz del Eje sugieren piloto en zonas de mayor demanda. Participación de Fiscal General, Defensor General, magistrados y funcionarios de Salud/Justicia refleja cooperación interinstitucional rara en Córdoba. Posible resistencia de procuradores que pierdan competencia en casos de consumidores.",
+    "oficialista": "Modelo de justicia terapéutica reducirá reincidencia vs. criminalización. Participación de ETIS de SEDRONAR garantiza acceso a recursos federales de tratamiento (redes de drogas). Reconocimiento de puntajes para personal judicial refuerza compromiso con programa sin costo fiscal directo. Equipos interdisciplinarios mejoran resultados en consumidores con comorbilidades.",
+    "opositora": "Falta claridad sobre criterios de derivación: ¿todos los acusados de delitos menores por drogas? ¿solo consumidores 'tratables'? Riesgo de discriminación (favorece consumidores de clase media con acceso a tratamiento vs. marginados). Ausencia de garantías procesales: ¿derecho a defensa en evaluación de 'tamizaje' del ETIS? Dependencia de SEDRONAR (institución federal) puede crear vacíos en provincia si financiamiento nacional se retrae. Personal del ETIS no identificado con nombre; falta transparencia de designación."
+   },
+   "texto_oficial": "1. ESTABLECER el próximo 01/10/2026 como fecha de puesta en marcha del PROGRAMA INTEGRAL DE INTERVENCIÓN DENOMINADO TRIBUNAL DE TRATAMIENTO DE DROGAS (TTD). 2. MODIFICAR la Tabla de Puntajes para la elaboración de Órdenes de Mérito del Régimen de promoción automática, ASIGNANDO los siguientes puntajes: a. Integrante del TTD: 2 puntos por año o proporcional. b. Gestor/a del caso de cada TTD: 0,8 puntos por año o proporcional. c. Integrante de la Dupla profesional: 0,8 puntos por año o proporcional.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "clase": "resolucion",
+   "numero": "1956/2026",
+   "titulo": "Tribunal Superior de Justicia — Creación Oficina Judicial de Control de Condiciones en Libertad y Prisiones Domiciliarias",
+   "importa": "Crea oficina única de apoyo común para juzgados de ejecución penal de Capital, para centralizar tareas de control de condiciones de personas en libertad y prisiones domiciliarias (libertad condicional, libertad asistida, suspensión de juicio a prueba, condena de ejecución condicional). Justifica incremento exponencial de carga: cada juzgado pasó de 400-500 internos (2007) a 1800-2150 personas privadas de libertad + 2500 en libertad. Implementación progresiva según disponibilidad operativa y tecnológica.",
+   "seccion": "1",
+   "pagina": 16,
+   "ampliada": {
+    "juridica": "Acto de superintendencia (Const. Prov. Art. 166 inc. 2; Ley 8435 Art. 12 inc. 1). Creación de oficina subordinada a Secretaría Penal del Tribunal Superior refleja reorganización administrativa sin cambio de competencia material (magistrados retienen funciones jurisdiccionales en decisiones de revocación/modificación). Secretario letrado de primera instancia como titular garantiza nivel profesional. Modelo de 'co-dependencia' en SAC permite coordinación sin desjerarquización. Acuerdo reconoce ausencia/vacancia de jueces y autoriza sustitución por otros jueces de ejecución (búsqueda de continuidad). Falta especificación: ¿qué sucede si los tres jueces de ejecución están ausentes?",
+    "politica": "Responde a crisis operativa real documentada en estadísticas de carga. Tercera solución entre extremos: ni mantener status quo (parálisis) ni crear juez nuevo (gasto fiscal). Centralización de funciones administrativas/de seguimiento libera magistrados para decisiones jurisdiccionales. Posible resistencia de jueces de ejecución penal que pierden control directo de seguimiento. Beneficiarios: personas en libertad (mejor seguimiento = menos violaciones de condiciones = menos revocaciones arbitrarias) y sistema penitenciario (monitoreo más sistemático).",
+    "oficialista": "Solución costo-efectiva: una oficina coordina trabajo de tres juzgados sin multiplicar magistrados. Mejora celeridad: jueces se dedican a decisiones complejas (revocaciones, modificaciones) sin atascar en tareas administrativas de seguimiento. Estandarización de criterios entre jueces de ejecución mediante acuerdos comunes (solicitado en considerando VIII).",
+    "opositora": "Concentración de datos y control en una oficina crea cuello de botella: ¿qué ocurre si oficina colapsa (enfermedad del secretario, falta de presupuesto)? Distancia entre oficina y magistrados puede diluir responsabilidad: juez no ve directamente estado de cumplimiento, depende de informes de oficina (riesgo de mala información). Falta autonomía de oficina: 'siempre bajo directivas del juez' puede paralizar iniciativas. Ausencia de protocolo para coordinación entre tres jueces en emergencias."
+   },
+   "texto_oficial": "1. CREAR la 'Oficina Judicial de Control de Condiciones en Libertad y Prisiones Domiciliarias' bajo la dependencia jerárquica de la Secretaría Penal del Tribunal Superior de Justicia de Córdoba como dependencia de apoyo común de los juzgados de ejecución penal. 2. DISPONER que la oficina estará a cargo de un secretario letrado de primera instancia. 3. PRECISAR que la oficina intervendrá en los incidentes o legajos que le sean encomendados por el juzgado de ejecución penal competente, bajo el conocimiento y las directivas del juez interviniente. 4. DISPONER que la implementación se realizará en forma progresiva, conforme a las condiciones operativas y tecnológicas necesarias.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "130/2026",
+   "titulo": "ERSeP — Aprobación Tarifa Nº 9 (Servicio de Peaje) para Cooperativa Chilibroste",
+   "importa": "Aprueba por mayoría (5 votos a favor, 1 en contra) incorporación al Cuadro Tarifario de Cooperativa de Servicios Públicos y Cultural de Chilibroste Limitada de la Tarifa Nº 9 (Servicio de Peaje) aplicable a Prestación Adicional de Función Técnica de Transporte (PAFTT) de energía eléctrica. Tarifa fijada según diferencia entre Tarifas de Venta a Usuarios Propios (Media Tensión + 3%) y Tarifas de Compra a EPEC. El Vocal Juan H. Negri votó en disidencia por considerar incrementos excesivos en contexto de recesión económica.",
+   "seccion": "1",
+   "pagina": 17,
+   "ampliada": {
+    "juridica": "Acto regulatorio que ejercita competencia de ERSeP conforme Ley 8835 Art. 25 inc. h) ('aprobar modificaciones de cuadros tarifarios'). Precedente: Audiencia Pública de 21 diciembre 2018 (Resolución 2659/2018) en la que se trató ajuste de cuadros tarifarios de todas las cooperativas eléctricas provinciales; Resolución General 89/2018 estableció procedimiento de cálculo de tarifas de peaje basado en diferencial Venta-Compra. Informe Técnico de Gerencia de Energía Eléctrica desarrolla metodología: discrimina Usuarios Urbanos/Rurales; incluye cargos por pérdidas de transformación; contempla fondos que EPEC facture a la cooperativa. Cumple Ley 8835 Art. 20 (audiencia pública previa): base en audiencia 2018, que permanece abierta para nuevas solicitudes de peaje según art. 9 Res. 89/2018. Solidez técnica alta, con anexo de valores específicos.",
+    "politica": "Fricción interna en ERSeP: Vocal Negri expresa preocupación macroeconomía (recesión, desempleo, cierre de empresas). Disidencia rara en regulador (usualmente consenso interno). Refleja debate nacional sobre transferencia de costos a usuarios en crisis. Timing: aprobación en contexto de contracción económica (H2 2026) puede generar presión política si industrias pequeñas-medianas argumentan insostenibilidad. Posible lobby: Chilibroste espera autorización hace meses (expediente 095310/2026); aprobación ahora puede responder a presión de cooperativa o políticos locales.",
+    "oficialista": "Tarifa basada en metodología técnica aprobada hace 8 años. Cálculo diferencial (Venta-Compra) refleja costo real de la cooperativa; usuarios de PAFTT pagan lo que cuesta prestarles servicio. Audiencia pública cumplida (2018) con participación de federaciones de cooperativas (FACE, FECESCOR). Discriminación urbano/rural respeta estructura de usuarios existente. Incentiva generación distribuida (PAFTT permite usuarios generar electricidad y usar red como transporte).",
+    "opositora": "Tarifa aprobada sin análisis de impacto en usuarios finales (pymes, productores). Metodología Venta-Compra puede no reflejar costos reales si EPEC tiene economías de escala que Chilibroste no alcanza. Vocal Negri cuestiona oportunidad política: en recesión, nuevos costos pueden quebrar empresas marginales. Ausencia de subsidio cruzado (cooperativa no compensada por clientes PAFTT con bajo consumo). Falta evaluación de alternativa: ¿podría peaje calcularse sobre pérdidas reales medidas, no diferencial teórico?"
+   },
+   "texto_oficial": "ARTÍCULO 1°: APRUÉBASE la incorporación al Cuadro Tarifario de la COOPERATIVA DE SERVICIOS PÚBLICOS Y CULTURAL DE CHILIBROSTE LIMITADA, de la TARIFA Nº 9 – SERVICIO DE PEAJE, que como Anexo Único integra la presente. ARTÍCULO 2º: PROTOCOLÍCESE, publíquese, hágase saber y dese copia. (Votación: Presidente Scarlatto y Vocales Caserio, Scavino, Peralta, Vega a favor; Vocal Negri en contra).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "131/2026",
+   "titulo": "ERSeP — Aprobación Tarifa Nº 9 (Servicio de Peaje) para Cooperativa La Cumbrecita",
+   "importa": "Aprueba por mayoría (5 votos a favor, 1 en contra) incorporación al Cuadro Tarifario de Cooperativa de Luz y Fuerza y Aguas Corrientes de La Cumbrecita Limitada de la Tarifa Nº 9 (Servicio de Peaje) PAFTT. Metodología idéntica a Resolución 130: diferencial Venta-Compra, discriminación urbano/rural, cargos por pérdidas. El Vocal Negri reitera disidencia con argumentos de contexto recesivo e incremento desproporcionado.",
+   "seccion": "1",
+   "pagina": 19,
+   "ampliada": {
+    "juridica": "Acto regulatorio paralelo a Res. 130. Mismo fundamento: Audiencia 2018, Res. 89/2018. Técnicamente robusto: informe de Gerencia especifica componentes de tarifa (cargos por capacidad, pérdidas, otros cargos). Cumple procedimiento administrativo: consultas técnicas, informe jurídico, acto administrativo con signatarios identificados. Voto en disidencia del Vocal Negri (reproducido textualmente) sugiere precedente único en sesión de directorio para cuestionar metodología tarifaria.",
+    "politica": "Duplicación de conflicto interno en ERSeP. Dos cooperativas de zonas montañosas (Chilibroste, La Cumbrecita) solicitan peaje en simultáneo. Coordonadas: ambas en sierras de Córdoba, geografía similar, demanda coordinada posible. Negri opone argumento macro ('recesión, desempleo, cierre empresas') aplicable a ambas; su voto podría interpretarse como bloqueo de patrón regulatorio (todas las cooperativas solicitantes serían aprobadas con su voto disidente). Riesgo: si otras cooperativas ven aprobadas estas dos, seguirá cascada de solicitudes (FECESCOR ha presionado por peajes desde 2018).",
+    "oficialista": "Metodología técnica probada. Cooperativa La Cumbrecita con demanda documentada de PAFTT (usuarios generadores). Tarifa permitirá entrada de inversión distribuida en sierra (paneles solares, pequeña hidro). Aprobación coherente con Res. 130 (no discrimina entre cooperativas).",
+    "opositora": "Patrón regulatorio cuestionado por disidencia oficial: ¿son estas tarifas 'excesivas' como plantea Negri? Si sí, ¿por qué se aprueban? Si no, ¿por qué Negri vota no? Falta debate público sobre impacto acumulado de introducción simultánea de peajes en múltiples cooperativas. Riesgo de generación distribuida insostenible si peajes demasiado altos (desincentivo)."
+   },
+   "texto_oficial": "ARTÍCULO 1°: APRUÉBASE la incorporación al Cuadro Tarifario de la COOPERATIVA DE LUZ Y FUERZA Y AGUAS CORRIENTES DE LA CUMBRECITA LIMITADA, de la TARIFA Nº 9 – SERVICIO DE PEAJE, que como Anexo Único integra la presente. ARTÍCULO 2º: PROTOCOLÍCESE, publíquese, hágase saber y dese copia. (Votación: Presidente Scarlatto y Vocales Caserio, Scavino, Peralta, Vega a favor; Vocal Negri en contra).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 453/2026",
+   "titulo": "Director Técnico — Bacar Transportadora de Caudales S.A.",
+   "detalle": "Designación de Rubén Alberto Carnero (DNI 27.296.017) como Director Técnico de Bacar Transportadora de Caudales S.A. (CUIT 30-66813497-8). Credencial sin autorización para uso de armas.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada, Ministerio de Seguridad",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 454/2026",
+   "titulo": "Director Técnico y Habilitación — Valuaris Seguridad S.A.S.",
+   "detalle": "Habilitación de Valuaris Seguridad S.A.S. (CUIT 30-71893056-8, domicilio Manuel Andrada 265, Malvinas Argentinas) como Prestadora de Servicios de Seguridad Privada sin autorización de armas. Designación de Walter Fabián Beas (DNI 24.841.972) como Director Técnico sin autorización de armas.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada, Ministerio de Seguridad",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 455/2026",
+   "titulo": "Director Técnico y Habilitación — ADQ S.R.L.",
+   "detalle": "Habilitación de ADQ S.R.L. (CUIT 30-71735845-3, domicilio Bartolomé Mitre 39, Villa Allende) como Prestadora de Servicios de Seguridad Privada sin autorización de armas. Designación de Adrián Arsenio Delgado (DNI 16.556.155) como Director Técnico sin autorización de armas.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada, Ministerio de Seguridad",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 460/2026",
+   "titulo": "Director Técnico y Habilitación — Argos Seguridad (Empresa Unipersonal)",
+   "detalle": "Habilitación de empresa unipersonal de más de 10 dependientes de Rodrigo Agustín Ibarra (CUIT 20-44295645-7, nombre de fantasía 'Argos Seguridad', domicilio Belgrano 528, Barrio Güemes, Córdoba Capital) como Prestadora de Servicios de Seguridad Privada sin autorización de armas. Designación de Guillermo Nicolás Zalaya (DNI 16.741.899) como Director Técnico sin autorización de armas.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada, Ministerio de Seguridad",
+   "pagina": 4,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 466/2026",
+   "titulo": "Director Técnico y Habilitación — Uslar (Empresa Unipersonal)",
+   "detalle": "Habilitación de empresa unipersonal de hasta 10 dependientes de Emilio Roque Peralta (CUIT 20-28036356-2, nombre de fantasía 'Uslar', domicilio Hipólito Yrigoyen 155, Córdoba Capital) como Prestadora de Servicios de Seguridad Privada sin autorización de armas. Designación de Luis Guillermo Petta (DNI 25.172.141) como Director Técnico sin autorización de armas.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada, Ministerio de Seguridad",
+   "pagina": 5,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución 469/2026",
+   "titulo": "Director Técnico y Habilitación — Grupo Itanlea S.A.",
+   "detalle": "Habilitación de Grupo Itanlea S.A. (CUIT 30-71255734-2, domicilio Raúl Scalabrini Ortiz 64, Río Tercero) como Prestadora de Servicios de Seguridad Privada sin autorización de armas. Designación de Gerardo Gabriel Cosme Metrangolo (DNI 16.311.718) como Director Técnico sin autorización de armas.",
+   "organismo": "Dirección de Control y Gestión Operativa en Seguridad Privada, Ministerio de Seguridad",
+   "pagina": 6,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_210926.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "116/2026",
+   "titulo": "Ministerio de Educación — Aprobación de Propuestas de Formación Docente Continua (Postítulos)",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "453/2026",
+   "titulo": "Dirección Control y Gestión Operativa en Seguridad Privada — Designación Director Técnico Bacar Transportadora de Caudales",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "454/2026",
+   "titulo": "Dirección Control y Gestión Operativa en Seguridad Privada — Habilitación Valuaris Seguridad S.A.S. y Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "455/2026",
+   "titulo": "Dirección Control y Gestión Operativa en Seguridad Privada — Habilitación ADQ S.R.L. y Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "460/2026",
+   "titulo": "Dirección Control y Gestión Operativa en Seguridad Privada — Habilitación Argos Seguridad y Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "466/2026",
+   "titulo": "Dirección Control y Gestión Operativa en Seguridad Privada — Habilitación Uslar y Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "469/2026",
+   "titulo": "Dirección Control y Gestión Operativa en Seguridad Privada — Habilitación Grupo Itanlea S.A. y Designación Director Técnico",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "312/2026",
+   "titulo": "Agencia Córdoba Cultura — Lanzamiento tercer llamado 'Córdoba Distrito Audiovisual – Cash Rebate'",
+   "seccion": "1",
+   "pagina": 6
+  },
+  {
+   "tipo": "Acuerdo",
+   "numero": "3/Letra B/2026",
+   "titulo": "Tribunal Superior de Justicia — Inscripción Nóminas Enajenadores y Martilleros para 2026",
+   "seccion": "1",
+   "pagina": 7
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "numero": "1951/2026",
+   "titulo": "Tribunal Superior de Justicia — Remisión Causas Concursales Huinca Renancó a Capital",
+   "seccion": "1",
+   "pagina": 8
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "numero": "1952/2026",
+   "titulo": "Tribunal Superior de Justicia — Remisión Causas Concursales San Francisco a Capital",
+   "seccion": "1",
+   "pagina": 9
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "numero": "1953/2026",
+   "titulo": "Tribunal Superior de Justicia — Ampliación Procedimiento Declarativo Abreviado a Enfermedad Profesional en San Francisco",
+   "seccion": "1",
+   "pagina": 10
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "numero": "1954/2026",
+   "titulo": "Tribunal Superior de Justicia — Homogeneización Criterios Elevación a Juicio Criminal (Todas Circunscripciones)",
+   "seccion": "1",
+   "pagina": 12
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "numero": "1955/2026",
+   "titulo": "Tribunal Superior de Justicia — Puesta en Marcha Tribunal de Tratamiento de Drogas a partir 1 octubre 2026",
+   "seccion": "1",
+   "pagina": 13
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "numero": "1956/2026",
+   "titulo": "Tribunal Superior de Justicia — Creación Oficina Judicial de Control de Condiciones en Libertad y Prisiones Domiciliarias",
+   "seccion": "1",
+   "pagina": 15
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "130/2026",
+   "titulo": "ERSeP — Aprobación Tarifa Nº 9 (Servicio de Peaje) para Cooperativa Chilibroste",
+   "seccion": "1",
+   "pagina": 17
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "131/2026",
+   "titulo": "ERSeP — Aprobación Tarifa Nº 9 (Servicio de Peaje) para Cooperativa La Cumbrecita",
+   "seccion": "1",
+   "pagina": 19
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "02/2026",
+   "titulo": "Fuerza Policial Antinarcotráfico — Adquisición Chalecos Antibalas (300 unidades)",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF/0047-000649/2026",
+   "titulo": "ACIF — Ejecución Sala de Reserva para Servicio Contra Incendios en Tribunal de Cuentas",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF/0045-027674/2026",
+   "titulo": "ACIF — Mantenimiento y Reparación de Puentes Existentes en Red Vial Pavimentada Provincial",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "003/2026",
+   "titulo": "Universidad Provincial de Córdoba — Construcción Módulo Anexo Sede Regional Villa Huidobro",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "APROSS/0088-142627/2026",
+   "titulo": "APROSS — Provisión Sistema de Control y Seguimiento Servicios Asistenciales en Domicilio",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Circular Aclaratoria ACIF/0047-000341/2025",
+   "titulo": "ACIF — Construcción Nuevo Edificio Hospital de Oliva (Prórroga Fechas)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Acquisición",
+   "numero": "Mil (1.000) Camas Cucheta",
+   "titulo": "Secretaría General de Desarrollo Social — Adquisición Camas para Asistencia Población en Indigencia (427 Municipios)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Circular Aclaratoria ACIF/0916-000632/2026",
+   "titulo": "ACIF — Duplicación y Rotonda Calle Reforma Universitaria, Río Cuarto (Prórroga Fechas)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "Circular Aclaratoria ACIF/0916-000656/2026",
+   "titulo": "ACIF — Repavimentación con Hormigón 16 Cuadras, Río Cuarto (Prórroga Fechas)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF/0620-002486/2026",
+   "titulo": "ACIF — Contratación Obras Mayores en Establecimientos Educativos Córdoba Capital (Grupo 13: 8 escuelas)",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "ACIF/0047-000255/2025",
+   "titulo": "ACIF — Construcción Nuevo Edificio Escuela Secundaria de Oficios, Barrio Müller, Córdoba",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1489/2026",
+   "titulo": "EPEC — Adquisición Cargador para Vehículos Eléctricos Trifásico (Corriente Continua, 20 KW)",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1491/2026",
+   "titulo": "EPEC — Adquisición Tarjetas Electrónicas de Control Speed Tronic",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1490/2026",
+   "titulo": "EPEC — Adquisición e Instalación Bancos de Baterías de Electrolito Absorbido",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5576/2026",
+   "titulo": "EPEC — Aumento Disponibilidad Potencia y Mejora Tecnológica Complejo Hidroeléctrico Río Grande (Nota Aclaratoria Nº 4; Prórroga a 23 octubre 2026)",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1492/2026",
+   "titulo": "EPEC — Adquisición Repuestos de RTU G100",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1469/2026",
+   "titulo": "EPEC — Herrajes RAT 2026 (Nota Aclaratoria Nº 3; Prórroga)",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1493/2026",
+   "titulo": "EPEC — Adquisición Relés Direccionales de Máxima Corriente y Tierra",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5597/2026",
+   "titulo": "EPEC — Reacondicionamiento Edilicio en Villa Revol – Construcción Redes",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5598/2026",
+   "titulo": "EPEC — Reacondicionamiento General Delegación San Francisco",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1494/2026",
+   "titulo": "EPEC — Adquisición Sistema de Video Wall para Centro de Control de Luminarias",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5599/2026",
+   "titulo": "EPEC — Reacondicionamiento General Delegación Carlos Paz",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Nota Aclaratoria",
+   "numero": "1491/2026 Nota Aclaratoria Nº 1",
+   "titulo": "EPEC — Adquisición Tarjetas Electrónicas de Control Speed Tronic (Prórroga a 1 octubre 2026)",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "2026/000046",
+   "titulo": "APROSS — Provisión Un (1) Mamógrafo Digital para Unidad Móvil + Adecuación e Instalación",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "Intervención Consorcio Caminero Nº 255",
+   "titulo": "Ministerio de Bioagroindustria — Emplazamiento a Acreedores para Verificación de Créditos (Plazo 60 días)",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento",
+   "numero": "Río Segundo Humanista",
+   "titulo": "Juzgado Electoral — Reconocimiento Personería Jurídico Política Municipal (Depto. Río Segundo)",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Estado Anual Patrimonial",
+   "numero": "Carlos Paz Despierta",
+   "titulo": "Juzgado Electoral — Estado Anual Patrimonial — Cuenta de Ingresos y Egresos Ejercicio 2025",
+   "seccion": "4",
+   "pagina": 7
+  }
+ ],
+ "telegram": "📋 Boletín Oficial Nº 183 | 21/9/2026. Principales: Tribunal Superior aprobó ampliación de justicia laboral declarativa en San Francisco (enfermedad profesional) y creó nueva oficina centralizada de control de penados en Capital; Educación lanzó postítulos docentes bajo Programa TransFORMAR@Cba; ERSeP aprobó tarifas de peaje para dos cooperativas eléctricas (un vocal en disidencia); Licitaciones por $9.500M+ para puentes y obras educativas. Todas las normas en: https://boletinoficial.cba.gov.ar",
+ "motor": "claude",
+ "modelo": "claude-haiku-4-5",
+ "hora_procesado": "02:07",
+ "estado": "publicado"
+}
