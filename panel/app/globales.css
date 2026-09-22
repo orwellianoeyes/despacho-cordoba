@@ -174,7 +174,12 @@ input[type=search]{flex:1;min-width:240px}
 .fila-titulo{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
 .ficha{background:var(--superficie);border:1px solid var(--linea);padding:18px 20px;margin-top:16px}
 .ficha-cab{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
-.ficha-nombre{font-family:'Bitter',Georgia,serif;font-weight:700;font-size:17px}
+.ficha-nombre{font-family:'Bitter',Georgia,serif;font-weight:700;font-size:17px;
+  display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+/* El estado de Telegram es un atributo de la persona, no una acción: va
+   pegado al nombre. Antes vivía en la nota gris, al mismo peso que "quién
+   es" — y es lo único que puede impedir un envío. */
+.ficha-nombre .chip{margin-right:0}
 .sin-tg{color:var(--sello)}
 code{font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px}
 
@@ -297,8 +302,11 @@ textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
 
 /* Vincular Telegram sin pedirle nada técnico al cliente */
 .vincular{
-  background:var(--papel);border:1px solid var(--linea-fuerte);
-  border-left:3px solid var(--sello);padding:13px 15px;max-width:460px;
+  /* Fondo propio además del filete rojo: el borde solo se pierde entre
+     tanta línea fina y esto tiene que saltar a la vista. */
+  background:color-mix(in srgb, var(--sello) 7%, var(--superficie));
+  border:1px solid var(--linea-fuerte);
+  border-left:3px solid var(--sello);padding:13px 15px;max-width:520px;
 }
 .quien{display:flex;justify-content:space-between;align-items:center;gap:12px;
   padding:8px 0;border-bottom:1px solid var(--linea);font-size:14px}

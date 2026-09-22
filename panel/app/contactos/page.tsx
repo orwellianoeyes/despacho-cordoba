@@ -122,12 +122,16 @@ export default function Contactos() {
               <>
                 <div className="ficha-cab">
                   <div>
-                    <h3 className="ficha-nombre">{c.nombre}</h3>
-                    <p className="nota" style={{ marginTop: 2 }}>
+                    <h3 className="ficha-nombre">
+                      {c.nombre}
                       {c.telegram_id
+                        ? <span className="chip tema">Telegram activo</span>
+                        : <span className="chip mal">sin Telegram</span>}
+                    </h3>
+                    <p className="nota" style={{ marginTop: 2 }}>
+                      {c.notas || (c.telegram_id
                         ? <>Telegram <code>{c.telegram_id}</code></>
-                        : <span className="sin-tg">sin Telegram — todavía no puede recibir</span>}
-                      {c.notas ? ` · ${c.notas}` : ""}
+                        : "todavía no puede recibir")}
                     </p>
                   </div>
                   <span className="acciones">
@@ -314,6 +318,11 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
 
   return (
     <div className="encargos">
+      {contacto.encargos?.length ? (
+        <p className="rotulo">
+          Encargos · {contacto.encargos.length}
+        </p>
+      ) : null}
       {contacto.encargos?.map((e) => (
         <div key={e.id} className="encargo">
           <span>
