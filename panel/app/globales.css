@@ -103,8 +103,15 @@ input[type=search]{flex:1;min-width:240px}
 }
 .btn:hover{background:var(--tinta);color:var(--papel)}
 .btn:disabled{opacity:.45;cursor:progress}
-.btn.sello{border-color:var(--sello);color:var(--sello)}
-.btn.sello:hover{background:var(--sello);color:var(--papel)}
+/* El principal va MACIZO, no delineado. Con todos los botones en contorno
+   fino, guardar pesaba lo mismo que cancelar y había que leer para saber
+   cuál era cuál. El contorno queda para lo secundario. */
+.btn.sello{background:var(--sello);border-color:var(--sello);color:var(--papel)}
+.btn.sello:hover{background:var(--tinta);border-color:var(--tinta);color:var(--papel)}
+/* Los chicos en línea siguen delineados: macizos en rojo, repetidos una
+   vez por norma, gritarían. */
+.btn.mini.sello{background:transparent;color:var(--sello)}
+.btn.mini.sello:hover{background:var(--sello);color:var(--papel)}
 
 .resultado{
   display:grid;grid-template-columns:96px 1fr auto;gap:14px;align-items:start;
@@ -332,3 +339,37 @@ textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
 .precios div b{color:var(--tinta)}
 .precios .equilibrio{border-bottom:none}
 .precios .equilibrio b{color:var(--sello)}
+
+/* Los temas como un registro cerrado y numerado, no como chips flotando.
+   Sueltos no se leían como una lista finita —que es lo que son, entre
+   tres y diez renglones que deciden el análisis del día— y el chip azul
+   sobre el papel casi no despegaba del fondo. */
+.temas-caja{margin-top:10px;border:1px solid var(--linea-fuerte);
+  background:var(--superficie)}
+.temas-cab{display:flex;justify-content:space-between;gap:12px;
+  padding:9px 14px;border-bottom:1px solid var(--linea-fuerte);
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:10.5px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--grafito)}
+.tema-reng{display:flex;align-items:center;gap:12px;padding:9px 14px;
+  border-bottom:1px solid var(--linea)}
+.tema-reng:last-child{border-bottom:none}
+.tema-orden{font-family:'Chivo Mono',ui-monospace,monospace;font-size:11px;
+  color:var(--grafito);flex:none}
+.tema-texto{flex:1;display:flex;align-items:center;gap:8px;min-width:0;
+  border:1px solid var(--celeste);padding:5px 9px;
+  background:color-mix(in srgb, var(--celeste) 8%, var(--superficie));
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;
+  color:var(--celeste);line-height:1.45}
+.tema-texto::before{content:"";width:6px;height:6px;flex:none;
+  background:var(--celeste)}
+.temas-pie{padding:9px 14px;border-top:1px solid var(--linea-fuerte);
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:11px;
+  color:var(--grafito)}
+
+/* Paginación del buscador. */
+.paginas{display:flex;justify-content:space-between;align-items:center;
+  gap:12px;flex-wrap:wrap;margin-top:18px;padding-top:14px;
+  border-top:1px solid var(--linea-fuerte)}
+.paginas .acciones{gap:6px}
+.btn.pag{min-width:40px;padding:6px 10px;min-height:34px}
+.btn.pag.aqui{background:var(--tinta);border-color:var(--tinta);color:var(--papel)}

@@ -17,6 +17,9 @@ type Norma = {
 };
 type Abierto = { id: number; vista: "corto" | "extenso" | "texto" } | null;
 
+// Antes eran 40 con `limit` y sin salida: la pantalla avisaba "se muestran
+// 40 de 113" y no daba ninguna forma de llegar a las otras 73.
+const POR_PAGINA = 25;
 const TIPOS = ["Ley", "Decreto", "Resolución", "Licitación", "Edicto", "Subasta"];
 const COLUMNAS =
   "id,fecha,tipo,numero,titulo,seccion,pagina,url_oficial,destacada," +
@@ -53,6 +56,7 @@ export default function Buscador() {
   const [ediciones, setEdiciones] = useState<string[]>([]);
   const [filas, setFilas] = useState<Norma[]>([]);
   const [total, setTotal] = useState<number | null>(null);
+  const [pagina, setPagina] = useState(0);
   const [cargando, setCargando] = useState(false);
   const [abierto, setAbierto] = useState<Abierto>(null);
   const [trabajando, setTrabajando] = useState<string | null>(null);
@@ -62,7 +66,8 @@ export default function Buscador() {
   const buscar = useCallback(async () => {
     setCargando(true); setError("");
     let consulta = supabase.from("normas").select(COLUMNAS, { count: "exact" })
-      .order("fecha", { ascending: false }).limit(40);
+      .order("fecha", { ascending: false })
+      .range(pagina * POR_PAGINA, pagina * POR_PAGINA + POR_PAGINA - 1);
 
     // La búsqueda la resuelve Postgres con el índice de texto completo, que
     // está armado para encontrar con y sin tildes.
@@ -77,7 +82,9 @@ export default function Buscador() {
     setFilas((data as unknown as Norma[]) ?? []);
     setTotal(count ?? null);
     setCargando(false);
-  }, [q, tipo, edicion, supabase]);
+  }, [q, tipo, edicion, pagina, supabase]);
+
+  useEffect(() => { setPagina(0); }, [q, tipo, edicion]);
 
   useEffect(() => {
     const t = setTimeout(buscar, 250);   // no consultar en cada tecla
@@ -147,7 +154,11 @@ export default function Buscador() {
         </div>
         <p className="nota">
           {cargando ? "Buscando…" : total === null ? ""
-            : `${total} resultado${total === 1 ? "" : "s"}${total > filas.length ? ` · se muestran ${filas.length}` : ""}`}
+            : total === 0 ? "sin resultados"
+            : `${total} resultado${total === 1 ? "" : "s"}`
+              + (total > POR_PAGINA
+                  ? ` · ${pagina * POR_PAGINA + 1} a ${Math.min((pagina + 1) * POR_PAGINA, total)}`
+                  : "")}
         </p>
         {error && <p className="error">{error}</p>}
 
@@ -248,6 +259,35 @@ export default function Buscador() {
         {!cargando && total === 0 && (
           <p className="nota">Sin resultados. Probá con el número de la norma o una palabra del título.</p>
         )}
+
+        {total !== null && total > POR_PAGINA && (() => {
+          const paginas = Math.ceil(total / POR_PAGINA);
+          // Una ventana de cinco alrededor de donde estás: hoy el archivo da
+          // pocas páginas, pero crece todos los días hábiles.
+          const desde = Math.max(0, Math.min(pagina - 2, paginas - 5));
+          const ir = (n: number) => {
+            setPagina(n);
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          };
+          return (
+            <div className="paginas">
+              <span className="nota" style={{ margin: 0 }}>
+                página {pagina + 1} de {paginas}
+              </span>
+              <span className="acciones">
+                <button className="btn pag" disabled={pagina === 0}
+                        onClick={() => ir(pagina - 1)}>‹ anterior</button>
+                {Array.from({ length: Math.min(5, paginas) }, (_, i) => desde + i)
+                  .map((n) => (
+                    <button key={n} className={`btn pag ${n === pagina ? "aqui" : ""}`}
+                            onClick={() => ir(n)}>{n + 1}</button>
+                  ))}
+                <button className="btn pag" disabled={pagina + 1 >= paginas}
+                        onClick={() => ir(pagina + 1)}>siguiente ›</button>
+              </span>
+            </div>
+          );
+        })()}
       </div>
       <div style={{ height: 60 }} />
     </div>

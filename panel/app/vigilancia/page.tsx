@@ -94,22 +94,37 @@ export default function Vigilancia() {
           <button type="button" className="btn" onClick={agregar}>Agregar</button>
         </div>
 
-        {v.temas.map((t, i) => (
-          <div key={t} className="tema-fila">
-            <span className="f-num">{String(i + 1).padStart(2, "0")}</span>
-            <span className="chip tema">{t}</span>
-            <button type="button" className="btn mini"
-                    onClick={() => setV({ ...v, temas: v.temas.filter((x) => x !== t) })}>
-              ×
-            </button>
+        {/* Un registro cerrado y numerado. Sueltos no se leían como lo que
+            son: una lista finita de entre tres y diez renglones que decide
+            el análisis del día. */}
+        <div className="temas-caja">
+          <div className="temas-cab">
+            <span>Términos bajo vigilancia</span>
+            <span>{v.temas.length} {v.temas.length === 1 ? "activo" : "activos"}</span>
           </div>
-        ))}
-        {!v.temas.length && (
-          <p className="nota">
-            Sin temas, el motor destaca solo por alcance general e impacto
-            fiscal. Funciona, pero pierde lo que a vos te importa.
-          </p>
-        )}
+          {v.temas.map((t, i) => (
+            <div key={t} className="tema-reng">
+              <span className="tema-orden">{String(i + 1).padStart(2, "0")}</span>
+              <span className="tema-texto">{t}</span>
+              <button type="button" className="btn mini" aria-label={`Quitar ${t}`}
+                      onClick={() => setV({ ...v, temas: v.temas.filter((x) => x !== t) })}>
+                ×
+              </button>
+            </div>
+          ))}
+          {!v.temas.length && (
+            <p className="temas-pie">
+              Sin temas, el motor destaca solo por alcance general e impacto
+              fiscal. Funciona, pero pierde lo que a vos te importa.
+            </p>
+          )}
+          {v.temas.length > 0 && (
+            <p className="temas-pie">
+              Las normas que coincidan se analizan enteras en la corrida
+              de la mañana, sin costo extra por pedirlas después.
+            </p>
+          )}
+        </div>
 
         </div>
         <div>
