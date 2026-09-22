@@ -101,7 +101,16 @@ export async function POST(request: Request) {
   // el modelo (bien) se negaba a analizarla. La página donde arranca la
   // norma SIGUIENTE marca dónde termina ésta, y ese dato ya está en la
   // tabla. El tope acota el costo cuando el índice del día viene incompleto.
+  //
+  // Y se arranca UNA PÁGINA ANTES. Medido el 21/09/2026 contra el texto
+  // crudo de las 41 ediciones: de 301 normas con número verificable, la
+  // página citada es exacta en 265 (88%), pero cuando falla el sesgo es
+  // de un solo lado — 34 citan DESPUÉS de donde la norma arranca y solo 2
+  // antes. Empezar en la página citada le come el encabezado y los vistos
+  // a ese 12%. Una página de más cuesta décimas de centavo; perderse el
+  // arranque de la norma invalida el análisis.
   const TOPE_PAGINAS = 6;
+  const desde = Math.max(1, norma.pagina - 1);
   let hasta = norma.pagina;
   if (modo === "extenso") {
     const { data: siguiente } = await supabase.from("normas")
@@ -116,7 +125,7 @@ export async function POST(request: Request) {
     .from("paginas")
     .select("pagina,texto")
     .eq("fecha", norma.fecha).eq("seccion", norma.seccion)
-    .gte("pagina", norma.pagina).lte("pagina", hasta)
+    .gte("pagina", desde).lte("pagina", hasta)
     .order("pagina");
 
   const texto = (paginas ?? []).map((p) => p.texto).join("\n\n").trim();
