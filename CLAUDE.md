@@ -76,10 +76,10 @@ legislativo, para control público de normativa provincial.
 
   El diario sigue en Haiku porque son 100 mil caracteres todos los días y
   ahí manda el volumen. El extenso va en Sonnet 5: a 20 por mes la
-  diferencia con Opus es un dólar, pero Sonnet es más rápido y **Vercel
-  corta las funciones a los 60 segundos**. Ese margen se gasta en
-  `effort: high`. Si la calidad no alcanza, subir a `claude-opus-5` y
-  bajar el esfuerzo a `medium` en el mismo movimiento.
+  diferencia con Opus es un dólar, pero Sonnet es más rápido y el tiempo
+  de función no es infinito. Ese margen se gasta en `effort: high`. Si la
+  calidad no alcanza, subir a `claude-opus-5` y bajar el esfuerzo a
+  `medium` en el mismo movimiento.
 
   **Cuánto texto recibe el extenso, medido el 18/09/2026 y no supuesto.**
   Una página no alcanza y dos tampoco: la RG 123/2026 del ERSeP va de la
@@ -98,11 +98,15 @@ legislativo, para control público de normativa provincial.
   el esfuerzo no era lo que costaba tiempo — era escribir la respuesta.
 
   Costo y tiempo reales de un extenso de 6 páginas: **50 segundos y 9,1
-  centavos**, unos 11 mil caracteres. El límite básico de Vercel son 60
-  segundos y ese margen es demasiado fino —lo que marca el tiempo es
-  cuánto escribe—, así que `maxDuration` está en 300 (techo de Fluid
-  Compute). Si el plan no lo admite, el deploy falla con un mensaje claro:
-  ahí se baja a 60 y se compensa recortando `TOPE_PAGINAS`.
+  centavos**, unos 11 mil caracteres. Lo que marca el tiempo es cuánto
+  escribe, así que conviene margen de sobra: `maxDuration` está en 300.
+
+  **Los 60 segundos de Vercel son folclore viejo y acá estaba mal escrito
+  hasta el 21/09/2026.** Verificado en vercel.com/docs/functions/limitations:
+  con Fluid Compute, que viene encendido por defecto en proyectos nuevos,
+  **Hobby da 300 segundos de default y de máximo**; Pro llega a 800 y hay
+  1800 en beta. El tope de 60 es de antes de Fluid. O sea que `maxDuration
+  = 300` no puede hacer fallar el deploy por plan.
 
   **La agrupación de artículos es una regla, no criterio del modelo.**
   Puede agrupar SOLO artículos que dispongan literalmente lo mismo

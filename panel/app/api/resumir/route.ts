@@ -5,13 +5,15 @@ import path from "node:path";
 import { clienteServidor } from "@/lib/supabase/servidor";
 
 // Medido el 18/09/2026 sobre una resolución del ERSeP de 6 páginas: 47
-// segundos primero y 50 después de afinar el instructivo. El límite básico
-// de Vercel son 60: el margen es demasiado fino para confiar, porque lo que
-// marca el tiempo es cuánto escribe y una norma más larga escribe más.
+// segundos primero y 50 después de afinar el instructivo. Lo que marca el
+// tiempo es cuánto escribe, y una norma más larga escribe más: conviene
+// margen de sobra, no el justo.
 //
-// 300 es el techo de Fluid Compute. Si el plan no lo admite, el deploy
-// falla con un mensaje claro: ahí se baja a 60 y se compensa recortando
-// TOPE_PAGINAS, que es lo que acota la entrada.
+// 300 está bien en CUALQUIER plan. Verificado el 21/09/2026 en
+// vercel.com/docs/functions/limitations: con Fluid Compute —que viene
+// encendido por defecto en los proyectos nuevos— Hobby da 300s de
+// default Y de máximo; Pro llega a 800. El viejo tope de 60 segundos es
+// de antes de Fluid y ya no aplica.
 export const maxDuration = 300;
 
 // Dos trabajos, dos modelos, a propósito.
@@ -32,7 +34,7 @@ export const maxDuration = 300;
 // Opus 4.8 queda descartado: cuesta igual que Opus 5 siendo más viejo.
 // Entre Sonnet 5 y Opus 5 la diferencia es un dólar por mes a 20 análisis.
 // Leo eligió Sonnet 5 (18/09/2026), y tiene a favor algo que no es el
-// precio: es más rápido, y Vercel corta las funciones a los 60 segundos.
+// precio: es más rápido, y el tiempo de función no es infinito.
 // Ese margen extra se gasta en `effort: high` en vez de `medium`, así que
 // se compra mejor análisis con el mismo tiempo.
 //
