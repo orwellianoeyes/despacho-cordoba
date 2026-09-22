@@ -49,6 +49,8 @@ export default function Buscador() {
   const supabase = clienteNavegador();
   const [q, setQ] = useState("");
   const [tipo, setTipo] = useState("");
+  const [edicion, setEdicion] = useState("");
+  const [ediciones, setEdiciones] = useState<string[]>([]);
   const [filas, setFilas] = useState<Norma[]>([]);
   const [total, setTotal] = useState<number | null>(null);
   const [cargando, setCargando] = useState(false);
@@ -68,18 +70,29 @@ export default function Buscador() {
       type: "plain", config: "spanish",
     });
     if (tipo) consulta = consulta.ilike("tipo", `${tipo}%`);
+    if (edicion) consulta = consulta.eq("fecha", edicion);
 
     const { data, error, count } = await consulta;
     if (error) setError(error.message);
     setFilas((data as unknown as Norma[]) ?? []);
     setTotal(count ?? null);
     setCargando(false);
-  }, [q, tipo, supabase]);
+  }, [q, tipo, edicion, supabase]);
 
   useEffect(() => {
     const t = setTimeout(buscar, 250);   // no consultar en cada tecla
     return () => clearTimeout(t);
   }, [buscar]);
+
+  // Para poder mirar UNA edición entera. Sin esto solo se podía buscar por
+  // palabra, y "qué salió hoy" no es una búsqueda por palabra.
+  useEffect(() => {
+    (async () => {
+      const { data } = await supabase.from("despachos").select("fecha")
+        .order("fecha", { ascending: false }).limit(60);
+      setEdiciones((data ?? []).map((d: { fecha: string }) => d.fecha));
+    })();
+  }, [supabase]);
 
   async function analizar(id: number, modo: "corto" | "extenso") {
     setTrabajando(`${id}:${modo}`); setError("");
@@ -122,6 +135,11 @@ export default function Buscador() {
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)}
             aria-label="Buscar normativa"
             placeholder="Buscar por número o palabra clave — ej.: emergencia hidrica, APROSS, 812" />
+          <select value={edicion} onChange={(e) => setEdicion(e.target.value)}
+                  aria-label="Filtrar por edición">
+            <option value="">Todas las ediciones</option>
+            {ediciones.map((f) => <option key={f} value={f}>{f}</option>)}
+          </select>
           <select value={tipo} onChange={(e) => setTipo(e.target.value)} aria-label="Filtrar por tipo">
             <option value="">Todos los tipos</option>
             {TIPOS.map((t) => <option key={t} value={t}>{t}</option>)}
