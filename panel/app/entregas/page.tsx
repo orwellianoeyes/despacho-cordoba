@@ -59,6 +59,7 @@ export default function Entregas() {
   const [verTexto, setVerTexto] = useState<number | null>(null);
   const [ocupado, setOcupado] = useState(false);
   const [emparejando, setEmparejando] = useState(false);
+  const [duplicadas, setDuplicadas] = useState<Set<number>>(new Set());
   const [corrida, setCorrida] = useState<{ estado: string; detalle: string | null } | null>(null);
 
   useEffect(() => {
@@ -148,6 +149,37 @@ export default function Entregas() {
     } finally { setEmparejando(false); }
   }
 
+  // El despacho trae DOS listas —las destacadas con análisis y el índice
+  // completo— y la función que las une acierta el 95%. En el 5% restante el
+  // motor escribió el título de dos formas y queda la misma norma dos
+  // veces: "Bacheo Zona 4 - Etapa II" y "Bacheo Zona 4 - Etapa II (ACIF)",
+  // mismo expediente y misma página. Son 34 pares en el archivo.
+  //
+  // No se borra ninguna: se destilda la copia sin análisis. Si la regla
+  // acierta, el mensaje sale limpio sin hacer nada; si alguna vez se
+  // equivoca, la fila está a la vista y se vuelve a tildar. Nunca
+  // desaparece algo en silencio, que es lo que no se puede arriesgar.
+  //
+  // La condición es estrecha a propósito: mismo número Y misma página Y
+  // exactamente una con análisis. Sin lo de la página, una edición con dos
+  // normas distintas numeradas "7" se fusionaría — y eso ya pasó con nueve
+  // avisos numerados todos "Digital Capítulo V".
+  function repetidas(ns: Norma[]): Set<number> {
+    const grupos = new Map<string, Norma[]>();
+    for (const n of ns) {
+      const k = `${n.seccion}|${n.numero}|${n.pagina}`;
+      grupos.set(k, [...(grupos.get(k) ?? []), n]);
+    }
+    const fuera = new Set<number>();
+    for (const g of grupos.values()) {
+      if (g.length < 2) continue;
+      const conAnalisis = g.filter((n) => n.ampliada);
+      if (conAnalisis.length !== 1) continue;
+      g.filter((n) => !n.ampliada).forEach((n) => fuera.add(n.id));
+    }
+    return fuera;
+  }
+
   async function abrir(p: Pendiente) {
     if (abierto === p.encargo_id) { setAbierto(null); return; }
     setAbierto(p.encargo_id); setPrevia(null); setError(""); setFormato("titulares");
@@ -155,7 +187,9 @@ export default function Entregas() {
       { p_encargo: p.encargo_id, p_fecha: fecha });
     const ns = (data as Norma[]) ?? [];
     setNormas(ns);
-    setElegidas(new Set(ns.map((n) => n.id)));   // todas marcadas por defecto
+    const dobles = repetidas(ns);
+    setDuplicadas(dobles);
+    setElegidas(new Set(ns.filter((n) => !dobles.has(n.id)).map((n) => n.id)));
   }
 
   async function pedir(encargo_id: number, previaSola: boolean) {
@@ -342,6 +376,12 @@ export default function Entregas() {
                 })()}
                 <p className="nota" style={{ marginTop: 12 }}>
                   {elegidas.size} de {normas.length} marcadas · destildá lo que no quieras mandar
+                  {duplicadas.size > 0 && (
+                    <span className="calibre"> · {duplicadas.size}{" "}
+                      {duplicadas.size === 1 ? "salió repetida" : "salieron repetidas"}
+                      {" "}en la edición y {duplicadas.size === 1 ? "quedó" : "quedaron"}{" "}
+                      sin marcar</span>
+                  )}
                   {(() => {
                     const est = elegidas.size * PESO[formato] + 200;
                     if (est <= TOPE) return null;
@@ -365,6 +405,8 @@ export default function Entregas() {
                       {n.temas_que_pegaron.map((t) => (
                         <span key={t} className="chip tema">{t}</span>
                       ))}
+                      {duplicadas.has(n.id) &&
+                        <span className="chip mal">repetida</span>}
                       {n.extenso && <span className="chip extensa">extenso</span>}
                       <br />
                       {n.titulo} <span className="f-num">· {n.numero}</span>
