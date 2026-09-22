@@ -1,0 +1,455 @@
+{
+ "fecha": "2026-09-22",
+ "numero_boletin": "184",
+ "sintesis_juridica": [
+  "Se publican tres resoluciones del Ministerio de Bioagroindustria que completan la implementación de la Ley N° 11.059 sobre gestión integral de caminos rurales no pavimentados: la Resolución N° 394 aprueba el Reglamento Operativo de Unidades Ejecutoras de Obras; la Resolución N° 396 establece formularios estandarizados para solicitudes de permisos (nuevas obras, obras de emergencia, usos especiales, conservación) a través de la plataforma Ciudadano Digital, con requisitos de plazo mínimo de presentación (7 días hábiles para usos especiales, 7 días corridos de aviso previo para obras). Se sanciona además la actualización de viáticos estatales por la Secretaría de Capital Humano (Resolución N° 5), que aumenta los montos diarios a partir del 1° de octubre de 2026 según variación del IPC de marzo-agosto 2026.",
+  "En materia fiscal, la Secretaría de Ingresos Públicos (Resolución N° 19) da de baja a dos empresas como agentes de retención y percepción de impuestos sobre ingresos brutos: AVEX S.A. y Granja Tres Arroyos S.A., ambas por razones de interés fiscal y ligadas a procesos judiciales derivados de denuncias penales. APRHI dicta Resolución General N° 45 que individualiza terrenos afectados por expropiación para la obra 'Modernización y Refuncionalización Integral del Acueducto y Sistema de Provisión de Agua de Quilino, San José de las Salinas y Lucio V. Mansilla' (departamentos Ischilín y Tulumba), reservando presupuestariamente $54.865.551,49 para indemnizaciones conforme a la Ley N° 6.394."
+ ],
+ "sintesis_politica": [
+  "La edición refleja continuidad regulatoria en infraestructura rural y educativa: el Ministerio de Bioagroindustria cierra ciclos de normalización procedural para caminos rurales (tema de gestión agraria de mediano alcance), mientras que ACIF concentra un grueso de licitaciones de refacción en establecimientos educativos de Córdoba Capital (múltiples grupos de escuelas, con inversión agregada superior a $5.000 millones). El Ejecutivo no señala urgencias político-legislativas ni cambios de rumbo: prevalece gestión operativa. La intervención del Consorcio Caminero Villa San Esteban (convocatoria de acreedores) sugiere tensión en la gobernanza de estos organismos; el tema merece seguimiento.",
+  "En lo tributario, la baja de AVEX y Granja Tres Arroyos como agentes de retención marca una acción selectiva de control: el comunicado del Ejecutivo no amplía contexto sobre las causas específicas de los procesos judicales citados, pero ancla la decisión en 'interés fiscal' y 'conducta desplegada'. Esto puede reflejar tanto vigilancia de cumplimiento como tensión con ciertos operadores agroindustriales. Las licitaciones de EPEC (infraestructura eléctrica, subestaciones, baterías, sistemas de control, prendas de trabajo) sugieren modernización tecnológica del sector energético a escala territorial; el presupuesto más voluminoso corresponde a la Estación Transformadora Cruz del Eje ($30.000 millones)."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "394",
+   "titulo": "Aprobación del Reglamento Operativo de Unidades Ejecutoras de Obra en el marco de la Ley N° 11.059",
+   "importa": "El Ministerio de Bioagroindustria aprueba mediante anexo el reglamento que establece lineamientos unificados de organización y funcionamiento de las Unidades Ejecutoras de Obras creadas conforme a la Ley N° 11.059 (Sistema de Gestión Integral de Caminos Rurales No Pavimentados). El instrumento rige procedimientos de fiscalización, control y vigilancia desde la creación de dichas unidades.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La resolución es de naturaleza reglamentaria, delegada por Decreto N° 280/2025 al Ministerio en carácter de Autoridad de Aplicación de la Ley N° 11.059. Su objeto es operacionalizar la creación de consorcios camineros y unidades ejecutoras de obras mediante criterios unificados. El anexo que contiene el reglamento no se transcribe en el boletín; el texto oficial disponible es solo el articulado de aprobación. Desde la óptica de vicios formales, la Resolución cita correctamente marco normativo superior (Ley y Decreto), pero la sustancia reglamentaria queda en anexo no reproducido, lo que limita control público directo del contenido.",
+    "politica": "Completa un ciclo normativo que comenzó con la Ley N° 11.059 (de raigambre agraria-caminera) y su reglamentación general (Resolución N° 4/2026). Al establecer procedimientos unificados, busca profesionalizar la ejecución de obras en caminos rurales, presumiblemente mejorando eficiencia en zonas con debilidad institucional local. No hay indicios de controversia inmediata, aunque el tema de gobernanza de estos consorcios (como sugiere la intervención de Villa San Esteban) merece vigilancia.",
+    "oficialista": "La reglamentación operativa responde al mandato legislativo de ordenar la ejecución de obras en infraestructura rural, instrumento clave para desarrollar la actividad agropecuaria, industrial y turística en zonas deprimidas. Unificar criterios fortalece las capacidades técnicas y administrativas de los ejecutores, reduciendo costos transaccionales y corrupción.",
+    "opositora": "Sin información sustantiva sobre el contenido del reglamento (anexo no reproducido), es imposible evaluar si introduce excesiva discrecionalidad, delegaciones problemáticas o favoritismos en la asignación de obras. La ausencia de transparencia en la publicación es en sí una preocupación de acceso al control público."
+   },
+   "texto_oficial": "ARTÍCULO 1°: APROBAR el Reglamento Operativo que regirá a las Unidades Ejecutoras de Obra en el marco de la Ley N° 11.059 y su Reglamentación; el que como Anexo Único forma parte integrante de la presente Resolución.\nARTÍCULO 2°: PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_220926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "396",
+   "titulo": "Establecimiento de formularios estandarizados y requisitos de trámite para permisos de obras y usos especiales en caminos rurales no pavimentados",
+   "importa": "El Ministerio de Bioagroindustria canaliza cuatro tipos de solicitudes de permisos (nuevas obras, obras de emergencia, usos especiales, conservación) en caminos rurales no pavimentados mediante formularios estandarizados en la plataforma Ciudadano Digital (GUT/CiDi), con carácter de declaración jurada. Establece plazos mínimos de presentación (7 días hábiles para usos especiales; 7 días corridos de aviso previo de inicio para obras) y procedimientos de recepción, con sanciones por incumplimiento (duplicación de plazo para recepción definitiva y registro de antecedentes).",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "La Resolución delega en el Secretario de Infraestructura Agropecuaria la tramitación y resolución de expedientes, facultándolo a modificar formularios y requisitos. Esto es acorde a Resolución N° 38/2026 previa. Los procedimientos establecidos (plazo de 7 días hábiles para usos especiales, 7 días corridos para aviso de inicio de obra) son razonables respecto a las obligaciones de las partes. Destaca el mecanismo punitivo del artículo 5°: duplicación de plazo de recepción definitiva si no se presenta aviso previo, más antecedente administrativo. Este castigo es proporcional pero discrecional (el criterio de ponderación para futuras solicitudes no está objetivado).",
+    "politica": "Moderniza la gestión al trasladar trámites a plataforma digital de acceso (CiDi), lo que potencialmente democratiza el acceso a permisos. Los plazos mínimos de notificación previa (7 días) protegen capacidad de fiscalización estatal. La carga administrativa en el solicitante (declaración jurada, documentación completa con anticipación) es estándar en obras públicas, pero puede funcionar como barrera para pequeños operadores rurales sin asesoramiento técnico.",
+    "oficialista": "Agiliza tramitación, reduce tiempos de espera y corrupción al centralizar formularios. Permite que la Secretaría de Infraestructura Agropecuaria supervise obras de manera ordenada, evitando ejecuciones clandestinas que dañen caminos. La sanción por incumplimiento (duplicación de plazo, antecedentes) incentiva cumplimiento normativo.",
+    "opositora": "Los plazos de 7 días hábiles pueden ser insuficientes para que solicitantes del interior provincial recopilen documentación. La delegación amplia al Secretario para modificar formularios sin procedimiento participativo o publicidad previa plantea riesgo de cambios unilaterales. Falta precisión sobre cómo se computa el plazo de 'garantía de la obra' que condiciona la recepción definitiva."
+   },
+   "texto_oficial": "ARTÍCULO 1°: DISPONER que las solicitudes de \"permiso para ejecutar obras nuevas en caminos rurales no pavimentados\", \"permiso para ejecutar obras de Emergencia en caminos rurales no pavimentados\", \"permiso para uso especial de infraestructura vial rural provincial\", \"permiso para ejecutar obras de conservación en caminos rurales no pavimentados\" sobre zonas de caminos rurales no pavimentados, deberán canalizarse mediante formularios creados a tal efecto, y que tendrán carácter de declaración jurada, el mismo será habilitado en la Guía Única de Trámites (GUT) de la Plataforma Ciudadano Digital (CiDi) del Gobierno de la Provincia de Córdoba...\nARTÍCULO 3°: DISPONER que, para los trámites correspondientes al formulario \"Solicitar permiso para uso especial de infraestructura vial rural provincial\", el solicitante deberá presentar la totalidad de la documentación y requisitos exigidos para la prosecución del trámite con una antelación mínima de siete (7) días hábiles respecto de la fecha prevista para la realización del evento o actividad objeto de la solicitud, bajo apercibimiento de que la solicitud sea desestimada.\nARTÍCULO 4°: DISPONER que, para los trámites correspondientes a los formularios \"Solicitar permiso para ejecutar obras nuevas en caminos rurales no pavimentados\" y \"Solicitar permiso para ejecutar obras de conservación en caminos rurales no pavimentados\", el responsable de la obra deberá comunicar el Aviso de Inicio de Obra con una antelación mínima de siete (7) días corridos respecto de la fecha prevista para el inicio de las tareas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_220926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "5",
+   "titulo": "Actualización de montos de viáticos para personal del Poder Ejecutivo Provincial",
+   "importa": "La Secretaría de Capital Humano actualiza los montos diarios en concepto de viáticos del personal estatal, con vigencia a partir del 1° de octubre de 2026, según variación semestral del Índice de Precios al Consumidor (marzo a agosto 2026). Personal Directivo, Superior y de Gabinete: $48.327,88 diarios. Resto del personal: $37.175,39 diarios.",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Resolución de aplicación directa del Decreto N° 1534/2006 (modificado por Decreto N° 392/2020) y su artículo 2° bis, que ordena actualización semestral automática según IPC. El instrumento es administrativo y vinculante para toda la administración pública provincial. No presenta vicios de forma: cita correctamente fundamento legal, especifica período de cálculo (marzo-agosto 2026) y nuevos montos con precisión. El procedimiento de actualización es delegado y no discrecional: responde a fórmula matemática (variación de IPC).",
+    "politica": "Refleja la política de actuar sobre compensaciones por desplazamiento territorial mediante indexación automática, lo que evita debates legislativos y desgaste político. La última actualización previa fue en 2020 (Decreto N° 392). Actualizar ahora, post-inflación significativa en 2024-2026, es correcta administrativamente pero podría indicar retraso acumulado en decisiones sobre política salarial.",
+    "oficialista": "Mantiene el poder adquisitivo de viáticos al actualizar por índice oficial de precios, asegurando que los funcionarios y empleados no carguen el costo de desplazamientos con sus salarios reales. Procedimiento automático evita discrecionalidad.",
+    "opositora": "Sin contexto sobre si la actualización cubre realmente el costo de vida territorial actual (hospedaje, comidas, transporte en provincia) o es insuficiente. La diferencia entre Personal Directivo ($48.327,88) y Resto ($37.175,39) es del ~30%, lo que puede no reflejar diferencias reales de costos en terreno."
+   },
+   "texto_oficial": "Artículo 1°.- DISPÓNESE la actualización de los montos en concepto de viáticos, establecidos en el artículo 2° del Decreto N° 1534/2006, los que quedarán fijados en los siguientes importes diarios con vigencia a partir del 1° de octubre de 2026:\nI. Personal Directivo, Superior y de Gabinete (Cargos Ley N° 8991, Art. 4°, niveles 8 a 11; Cargos Ley N° 9361, categorías 12 a 17; Asesores de Gabinete y Secretarios Privados; Personal Contratado Nivel/Servicio F y superiores): pesos cuarenta y ocho mil trescientos veintisiete con ochenta y ocho centavos ($ 48.327,88).\nII. Resto del Personal: pesos treinta y siete mil ciento setenta y cinco con treinta y nueve centavos ($ 37.175,39).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_220926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "19 - Letra:D",
+   "titulo": "Baja de AVEX S.A. y Granja Tres Arroyos S.A. como agentes de retención y percepción de impuestos sobre ingresos brutos",
+   "importa": "La Secretaría de Ingresos Públicos da de baja a AVEX S.A. (CUIT 30-70872992-9) como agente de retención y percepción en los anexos I y II de Resolución N° 2023/D-00000045, y a Granja Tres Arroyos Sociedad Anónima Comercial Agropecuaria (CUIT 30-51730709-9) como agente de percepción del mismo régimen. Ambas dejan de actuar como agentes en el Régimen de Percepción operaciones de Comercialización de Carne. La decisión se funda en razones de interés fiscal, conducta de los agentes según Dirección de Inteligencia Fiscal, y procesos judicales derivados de denuncias penales formuladas por el fisco.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "La Resolución ejerce potestad reglamentaria delegada por Decreto N° 2445/2023, que faculta a la Secretaría a designar o dar de baja agentes de retención/percepción (art. 271). El fundamento legal es correcto: el régimen prevé revisión continua de sujetos alcanzados según interés fiscal, capacidad de administración y cumplimiento de deberes. El acto se dicta conforme a dictamen del Servicio Jurídico del Ministerio de Economía (N° 2026/DAL-00000602) e informe de la Unidad de Asesoramiento Fiscal (Nota N° 19/2026), aunque estos no se reproducen. Vicio potencial: la fundamentación es escueta sobre los hechos específicos que motivaron la baja (no detalla naturaleza de los procesos judicales, ni períodos, ni montos). Esto limita control público ex post.",
+    "politica": "La baja simultánea de dos operadores agropecuarios/ganaderos sugiere vigilancia del Fisco sobre un sector (carne) donde ha habido recurrentemente denuncias de incumplimiento tributario. El hecho de que ambas estén ligadas a 'procesos judicales derivados de denuncias penales' indica que el Ejecutivo no tolera comportamientos tipificados criminalmente. Sin embargo, la Resolución no aclara si las empresas fueron condenadas judicialmente, si hay sentencia firme, o si están aún bajo investigación. Esto es relevante para evaluar proporcionalidad de la sanción (revocación de calidad de agentes).",
+    "oficialista": "La baja responde a un principio de prudencia fiscal: si hay procesos judicales penales contra los agentes de retención, no es razonable que sigan teniendo responsabilidad sobre fondos tributarios de terceros. La Dirección de Inteligencia Fiscal monitoreó su conducta y recomendó baja. Es decisión conforme a ley.",
+    "opositora": "Falta claridad sobre los hechos. ¿Qué hicieron mal AVEX y Granja Tres Arroyos? ¿Retuvieron incorrectamente, no pagaron al Fisco, usaron dineros tributarios de forma indebida? La Resolución es una sanción sin transparencia material. Además, ¿se han comunicado formalmente a las empresas la razón específica de la baja, más allá de lo aquí publicado? El derecho de defensa exige que conozcan la acusación concreta."
+   },
+   "texto_oficial": "Artículo 1°: MODIFICAR el ANEXO I - TÍTULO I AGENTES DE RETENCIÓN GENERAL de la Resolución N° 2023/D-00000045 de esta Secretaría, y sus modificatorias, según se indica a continuación:\nDar de baja-:\nANEXO I – TÍTULO I AGENTES DE RETENCIÓN GENERAL\nCUIT NOMBRE\n30-70872992-9 AVEX S.A.\n\nArtículo 2°: MODIFICAR el ANEXO II - L) Sector Productos Alimenticios de la Resolución N° 2023/D-00000045 de esta Secretaría, y sus modificatorias, según se indica a continuación:\nDar de baja-:\nANEXO II – L) SECTOR PRODUCTOS ALIMENTICIOS\nCUIT NOMBRE\n30-70872992-9 AVEX S.A.\n30-51730709-9 GRANJA TRES ARROYOS SOCIEDAD ANONIMA COMERCIAL AGROPECUARIA FIN E INDUSTRIAL",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_220926.pdf"
+  },
+  {
+   "tipo": "Resolución General",
+   "clase": "resolucion",
+   "numero": "45 - Letra:D",
+   "titulo": "Individualización de inmuebles afectados por expropiación para obra de modernización de sistema de provisión de agua en Quilino, San José de las Salinas y Lucio V. Mansilla",
+   "importa": "APRHI (Administración Provincial de Recursos Hídricos) resuelve individualizar los inmuebles declarados de utilidad pública y sujetos a expropiación para la ejecución de la obra 'Modernización y Refuncionalización Integral del Acueducto y Sistema de Provisión de Agua de las Localidades de Quilino, San José de las Salinas y Lucio V. Mansilla' (departamentos Ischilín y Tulumba, 150 km noroeste de Córdoba Capital). Determina presupuestariamente una reserva económica de $54.865.551,49 (30% adicional sobre valuación fiscal proporcional de terrenos afectados, conforme Ley N° 6.394). Difiere la imputación del egreso final hasta acuerdos con titulares dominiales. Encomienda al Consejo General de Tasaciones determinar valor definitivo de los inmuebles.",
+   "seccion": "1",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Resolución del Directorio de APRHI (órgano colegiado con firma de 5 vocales) ejerciendo competencia de 'sujeto expropiante' conforme Ley N° 6.394 (expropiaciones provinciales). Acto fundado en: (i) Ley Provincial N° 5.589 art. 267° (declaración genérica de utilidad pública); (ii) Ley N° 9.867 art. 23° (idem); (iii) Ley N° 6.394 art. 2° (necesidad de individualización de bienes afectados). Procedimiento correcto: Legajo Técnico aprobado por Resolución N° 2025/APRHI–00000072 (22/5/2025), Memoria Descriptiva, planimetría, Planilla de Individualización de Terrenos, Planos de Afectación Parcelaria, reportes de DGR (valuaciones 2026), informes de dominio, intervención de Subdirección de Asuntos Legales. Cálculo de reserva presupuestaria: según art. 20 bis Ley N° 6.394, se toma valuación fiscal proporcional (según superficie afectada) más 30%. El monto $54.865.551,49 surge de cálculo aritmético explicitado en informe legal (Orden N° 27 del expediente, citado en considerandos). APRHI difiere imputación final, lo que es conforme a art. 24 inc. b) y c) Ley N° 9.867 (negociación previa con titulares). Vicio potencial: Anexos I (Planilla) y II (Planos) 'que como ANEXO I y ANEXO II, respectivamente, integran el presente instrumento' no se reproducen en el Boletín; esto limita control público de qué terrenos y qué propietarios son afectados.",
+    "politica": "Obra de mediano alcance (agua potable para noroeste cordubés, ~150 km de capital, tres localidades). Interés público claro (servicios básicos). Procedimiento exproppiatorio es estándar, pero hay dos consideraciones: (i) Timing: la Resolución es de septiembre 2026, pero el Legajo Técnico fue aprobado en mayo 2025; el desfase de 16 meses puede indicar trámite lento o negociaciones previas. (ii) Magnitud: $54,8 millones de reserva presupuestaria es significativa, pero el Boletín no aclara cuántos terrenos ni cuántos propietarios están afectados (información que debiera estar en Anexo I no reproducido). Esto puede sugerir afectación dispersa (pequeños propietarios) o concentrada (pocos grandes inmuebles). El diferimiento de imputación definitiva (art. 3°) es mecanismo prudente si hay negociación con titulares, pero deja en suspenso la ejecución presupuestaria.",
+    "oficialista": "Obra de infraestructura hídrica en zona deprimida de la provincia, mejora cobertura de agua potable. Procedimiento exproppiatorio sigue ley y jurisprudencia. APRHI actúa como titular de caminos rurales conforme Ley N° 11.059 y es competente para promover expropiaciones de utilidad pública. Diferir acuerdos con propietarios respeta el derecho a negociar previa a juicio exproppiatorio.",
+    "opositora": "Sin conocer detalle de Anexos, imposible evaluar si la afectación es proporcional al beneficio público. ¿Cuántos pequeños propietarios serán desplazados? ¿Hay alternativas menos invasivas (servidumbre)? La reserva de $54,8 millones es estimación 2026; en caso de inflación o negociación más costosa, ¿habrá presupuesto? El diferimiento sine die de imputación real suspende accountability fiscal sobre cuándo se ejecuta la obra y cuáles son costos finales."
+   },
+   "texto_oficial": "Artículo 1°: INDIVIDUALIZAR los bienes declarados de utilidad pública y sujetos a expropiación para la ejecución de la obra denominada \"MODERNIZACIÓN Y REFUNCIONALIZACIÓN INTEGRAL DEL ACUEDUCTO Y SISTEMA DE PROVISIÓN DE AGUA DE LAS LOCALIDADES DE QUILINO, SAN JOSÉ DE LAS SALINAS Y LUCIO V. MANSILLA (DPTOS. ISCHILÍN Y TULUMBA)\", según Planilla de Individualización de Terrenos y Planos de Afectación Parcelaria, que como ANEXO I y ANEXO II, respectivamente, integran el presente instrumento legal.\nArtículo 3°: DIFERIR la imputación del egreso económico en virtud de lo que, en definitiva, pudiese llegar a acordarse con los titulares dominiales de los inmuebles afectados y conforme lo normado por el Artículo 24 inc. b) y c) de la Ley N° 9.867.\nArtículo 4°: DETERMINAR oportunamente el valor definitivo de los inmuebles a expropiar por intermedio del Consejo General de Tasaciones de la Provincia de Córdoba.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_220926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "clase": "licitacion",
+   "numero": "EXPEDIENTE Nº 0088-142627/2026",
+   "titulo": "Provisión de sistema de control y seguimiento de servicios asistenciales en domicilio y traslados programados de afiliados de APROSS",
+   "importa": "APROSS convoca a licitación pública presencial para provisión de un sistema de control y seguimiento de servicios asistenciales en domicilio y traslados programados/recurrentes de afiliados. Plazo: 24 meses con opción a prórroga de igual duración. Presupuesto oficial: $2.160.000.000 IVA incluido. Apertura de ofertas: 07/10/2026 a las 12:30 hs. Presentación: hasta las 10:00 hs del 07/10/2026 en Mesa de Entradas SUAC de APROSS (Marcelo T. de Alvear 758, Córdoba).",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto Reglamentario N° 305/2014 art. 7.1.6.3 inciso b) (plazo de contratación de 24 meses con prórroga facultativa de igual término). Presupuesto estimado de $2.160.000 millones sugiere prestación de servicios de magnitud. Forma presencial requiere comparecencia de oferentes en acto de apertura. APROSS es autoridad de aplicación; no se especifica autoridad de adjudicación en el aviso. El Boletín reproduce solo sumario; pliegos están en portal (compraspublicas.cba.gov.ar). Procedimiento estándar, sin anomalías formales aparentes. Consultas se aceptan hasta 5 días hábiles antes de apertura (a correo comprasbienes@apross.gov.ar).",
+    "politica": "Sistema de control y seguimiento de servicios en domicilio es tema de gestión de salud provincial (APROSS es obra social estatal). La licitación cubre seguimiento de asistencia domiciliaria (posiblemente acompañamiento, terapia, monitoreo de pacientes) y traslados programados. Magnitud presupuestaria ($2.160 millones) es mayor a muchas licitaciones de APROSS, sugiriendo proyecto de tecnología informática (plataforma de tracking, aplicativo, hardware). Tema vinculado a ejecución presupuestaria: es gasto en infraestructura TI que mejora capacidad operativa de APROSS.",
+    "oficialista": "APROSS moderniza gestión con sistema digital de seguimiento. Permite mejor control de servicios, reducción de ausentismo, eficiencia en traslados. Licitación pública abierta asegura competencia y precio razonable.",
+    "opositora": "Presupuesto de $2.160 millones para 'sistema de control' es significativo; falta transparencia sobre alcance exacto (¿solo software, o incluye hardware, capacitación, soporte?). Plazo de 24 meses es extenso para contrato de servicios; comporta riesgo de obsolescencia tecnológica o cambio de necesidades. Opción de prórroga (hasta 48 meses total) puede extender dependencia de un proveedor único sin nueva licitación."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA PRESENCIAL - EXPEDIENTE Nº 0088-142627/2026 - Objeto: La ADMINISTRACIÓN PROVINCIAL DEL SEGURO DE SALUD -APROSS- llama a LICITACIÓN PÚBLICA PRESENCIAL PARA LA PROVISIÓN DE UN SISTEMA DE CONTROL Y SEGUIMIENTO DE SERVICIOS ASISTENCIALES EN DOMICILIO Y TRASLADOS PROGRAMADOS Y/O RECURRENTES DE AFILIADOS DE LA APROSS. Plazo de duración: veinticuatro (24) meses contados a partir de la efectiva notificación de la Orden de Compra correspondiente, con opción a prórroga a favor de la APROSS por hasta igual término... Presupuesto Oficial estimado: PESOS DOS MIL CIENTO SESENTA MILLONES ($ 2.160.000.000,00) IMPUESTOS INCLUIDOS.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_220926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002486/2026",
+   "titulo": "Contratación de obras mayores en establecimientos educativos de Córdoba Capital - Grupo 13 (ACIF)",
+   "importa": "ACIF convoca a licitación pública digital para contratación de obras mayores en 9 establecimientos educativos de Córdoba Capital: Escuela Honorato Laconi, Escuela Arturo Capdevila, J.de Inf. Provincia de Entre Ríos, Escuela Florencio Sánchez, Escuela Esteban Echeverría, Escuela Manuel Belgrano, I.P.E.M. N° 41 Jorge Luis Borges, I.P.E.M. N° 39 Don Bosco, Escuela Provincia de Córdoba. Presupuesto oficial: $1.064.937.600 IVA incluido. Plazo de ejecución: 120 días. Apertura: 06/10/2026 a las 10:30 hs. Visita técnica obligatoria: 29/09/2026 (9 hs a 14 hs, Dirección General de Infraestructura y Equipamiento, Ituzaingó 1351, Nueva Córdoba).",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto N° 583/2016 (plataforma digital de licitaciones públicas de obras) y Ley N° 8.614. ACIF es entidad de economía mixta facultada para actuar como unidad ejecutora de grandes obras. Obra categoría PRIMERA, especialidad Arquitectura (100%). Presupuesto oficial de $1.064.937.600 es estimado; garantía de mantenimiento de oferta exigida: 1% del presupuesto. Plazo de 120 días es relativamente breve para obras de envergadura en 9 edificios (sugiere reparaciones y reacondicionamientos más que construcciones nuevas). Presentación digital cierra 12:00 hs del 05/10/2026. Apertura 06/10/2026 a las 10:30 hs en sala de ACIF (Rosario de Santa Fe 231, piso 1, PH 107, Córdoba). Visita técnica obligatoria es requisito de participación (29/09/2026).",
+    "politica": "Grupo 13 es uno de varios grupos de licitaciones de infraestructura educativa en Córdoba Capital (otras aparecen en el Boletín: Grupos 1, 2, 3, 4, 6, 7, 9, 11, 12). El agregado de todas estas licitaciones de ACIF en Sección 4 supera $5.000 millones en presupuesto oficial, lo que refleja política provincial de mejora de establecimientos educativos urbanos. Timing: licitaciones se publican en septiembre 2026 para apertura en octubre, lo que sugiere calendario de ejecución post-elecciones legislativas (octubre 2025 ya pasó; estas son para 2026-2027). Tema vigilado: educación/infraestructura escolar.",
+    "oficialista": "Mejora integral de edificios educativos en Córdoba Capital. Reparaciones y reacondicionamientos garantizan aulas dignas, seguridad, accesibilidad. Licitación pública abierta. Plazo de 120 días permite ejecución rápida sin comprometer calidad.",
+    "opositora": "Múltiples licitaciones de educación simultáneamente pueden saturar capacidad de contralor de ACIF y Ministerio de Educación. Presupuesto de $1.064 millones para Grupo 13 cubre 9 edificios (~$118 millones por edificio promedio); ¿es suficiente para 'obras mayores' o es insuficiente y requiere ampliaciones posteriores? Plazo de 120 días es muy ajustado si hay contingencias constructivas."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL. EXPTE. ELECTRÓNICO N° 0620-002486/2026. OBJETO: \"CONTRATACIÓN DE OBRAS MAYORES EN ESTABLECIMIENTOS EDUCATIVOS DE LA CIUDAD DE CÓRDOBA CAPITAL - GRUPO 13: ESCUELA HONORATO LACONI, ESCUELA ARTURO CAPDEVILA, J.DE INF. PROVINCIA DE ENTRE RIOS, ESCUELA FLORENCIO SANCHEZ, ESCUELA ESTEBAN ECHEVERRIA, ESCUELA MANUEL BELGRANO, I.P.E.M. Nº 41 JORGE LUIS BORGES, I.P.E.M. Nº 39 DON BOSCO Y ESCUELA PROVINCIA DE CORDOBA\". ... PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS MIL SESENTA Y CUATRO MILLONES NOVECIENTOS TREINTA Y SIETE MIL SEISCIENTOS CON 00/100 ($1.064.937.600,00), incluyendo IVA... PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de ciento veinte (120) días corridos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_220926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. ELECTRÓNICO N° 0047-000255/2025",
+   "titulo": "Construcción nuevo edificio para Escuela Secundaria de Oficios en Barrio Müller, Córdoba Capital (ACIF)",
+   "importa": "ACIF convoca a licitación pública digital para construcción nuevo edificio de Escuela Secundaria de Oficios en Barrio Müller, Córdoba Capital. Presupuesto oficial: $4.163.213.517,35 IVA incluido. Plazo de ejecución: 360 días corridos. Apertura: 05/10/2026 a las 12:00 hs. Visita técnica: 28/09/2026 a las 11:00 hs (Antonio Machado esq. Antonio Berutti, Barrio Müller).",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Licitación conforme Decreto N° 583/2016 y Ley N° 8.614. Obra categoría PRIMERA, especialidad Arquitectura (100%), nueva construcción. Presupuesto oficial de $4.163.213.517,35 es el mayor de los licitados por ACIF en esta edición. Plazo de ejecución de 360 días (un año calendario) es razonable para construcción nueva de establecimiento educativo. Garantía de mantenimiento de oferta: 1% del presupuesto. Presentación digital cierra 10:00 hs del 05/10/2026 (una hora antes que Grupo 13). Apertura también 05/10/2026 a las 12:00 hs en sala de ACIF. Visita técnica obligatoria 28/09/2026.",
+    "politica": "Escuela Secundaria de Oficios en Barrio Müller es proyecto de educación técnica-vocacional. Barrio Müller es zona urbano-marginal de Córdoba. Inversión de $4.163 millones en nueva infraestructura refleja apuesta estatal por formación profesional. Timing coincide con ciclo de licitaciones educativas. Tema vigilado: educación.",
+    "oficialista": "Construcción de infraestructura educativa técnica en barrio que requiere oportunidades de capacitación. Escuela de Oficios prepara para empleabilidad. Licitación pública, plazo razonable, inversión importante en educación del sector vulnerable.",
+    "opositora": "Presupuesto de $4.163 millones para un edificio de escuela es elevado; requiere justificación de estándares de calidad/equipamiento. Plazo de 360 días para construcción nueva es ajustado si hay contingencias (terreno, permisos de construcción, hallazgos arqueológicos, variaciones climáticas). ¿Qué ocurre si no termina en tiempo?"
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL EXPTE. ELECTRÓNICO N° 0047-000255/2025. OBJETO: \"CONSTRUCCIÓN NUEVO EDIFICIO PARA LA ESCUELA SECUNDARIA DE OFICIOS EN BARRIO MÜLLER, LOCALIDAD CÓRDOBA, DEPARTAMENTO CAPITAL\". ... PRESUPUESTO OFICIAL: El Presupuesto Oficial de la presente obra asciende a la suma de PESOS CUATRO MIL CIENTO SESENTA Y TRES MILLONES DOSCIENTOS TRECE MIL QUINIENTOS DIECISIETE CON 35/100 ($4.163.213.517,35)... PLAZO DE EJECUCIÓN: El plazo de ejecución de la presente obra es de trescientos sesenta (360) días corridos.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_220926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. N° 0683-080515/2026",
+   "titulo": "Adquisición de neumáticos para vehículos de la Secretaría de Gestión de Riesgo Climático, Catástrofes y Protección Civil (Ministerio de Seguridad)",
+   "importa": "Ministerio de Seguridad convoca a licitación pública presencial para adquisición de 284 neumáticos para 71 vehículos de la Secretaría de Gestión de Riesgo Climático, Catástrofes y Protección Civil. Adjudicación por renglón completo. Presupuesto: $94.193.656 IVA incluido. Fecha y hora límite de presentación: 06/10/2026 hasta las 10:00 hs. Presentación: Mesa de Entrada, Centro Cívico del Bicentenario, Rosario de Santa Fe N° 650, Córdoba. Muestras: hasta 13:00 hs del 05/10/2026 en oficina de Secretaría de Gestión de Riesgo (Edificio Anexo II, Av. Pablo Richieri esq. Deodoro Roca, Parque Sarmiento). Apertura: 06/10/2026 a las 12:00 hs.",
+   "seccion": "4",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Licitación pública presencial conforme Ley N° 8.614 y normas de contrataciones públicas provinciales. Adquisición de bien mueble (neumáticos) para flota de vehículos de seguridad/emergencia. Presupuesto de $94.193.656 es gasto corriente de manutención. Renglón completo es modalidad de adjudicación que favorece oferentes únicos sobre fragmentación. Se requiere presentación de muestras físicas (neumáticos) hasta 13:00 hs del 05/10/2026 en oficina estatal. Consultas acepta hasta 12:00 hs del 01/10/2026.",
+    "politica": "Secretaría de Gestión de Riesgo Climático es nueva cartera estatal (se menciona 'Secretaría' en estructura del Ministerio de Seguridad). Adquisición de neumáticos para 71 vehículos es gasto típico de mantenimiento de flota de emergencia. Presupuesto parece razonable: ~$1 millón por vehículo ($94.1 M ÷ 71) para 4 neumáticos por unidad = ~$250.000 por neumático promedio. Tema vigilado: obras y contrataciones relevantes.",
+    "oficialista": "Reposición de neumáticos es mantenimiento esencial de flota de protección civil. Licitación pública asegura mercado competitivo.",
+    "opositora": "No hay información sobre especificaciones técnicas de los neumáticos (tamaño, tipo, carga, duración, origen), lo que dificulta evaluar si el presupuesto es proporcional. Adjudicación 'por renglón completo' puede favorecer a un solo oferente si los demás no cumplen especificaciones exactas."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA PRESENCIAL – EXPTE. N° 0683-080515/2026. El Ministerio de Seguridad de la Provincia de Córdoba llama a Licitación Pública Presencial para la \"ADQUISICION DE DOSCIENTOS OCHENTA Y CUATRO (284) NEUMÁTICOS PARA SETENTA Y UN (71) VEHÍCULOS PERTENECIENTES A LAS DISTINTAS DEPENDENCIAS DE LA SECRETARÍA DE GESTIÓN DE RIESGO CLIMÁTICO, CATASTROFES Y PROTECCIÓN CIVIL DEL MINISTERIO DE SEGURIDAD\". ADJUDICACIÓN: Renglón completo. PRESUPUESTO: pesos NOVENTA Y CUATRO MILLONES CIENTO NOVENTA Y TRES MIL SEISCIENTOS CINCUENTA Y SEIS CON 00/100 ($94.193.656,00) IVA INCLUIDO.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_220926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "LICITACION PUBLICA Nº 5592",
+   "titulo": "Estación Transformadora Cruz del Eje Nueva 132/13,2 kV + Autotransformador 132/66 kV (EPEC)",
+   "importa": "EPEC convoca a licitación pública para construcción/equipamiento de Estación Transformadora Cruz del Eje Nueva (ET Cruz del Eje Nueva 132/13,2 kV 2x28/40 MVA + ATD 132/66 kV 40/55 MVA). Presupuesto oficial: $30.000.077.244,29. Especialidad: Civil y Electromecánica. Categoría: Primera. Plazo: 600 días. Apertura: 25/09/2026 a las 12:00 hs (prorrogada). Entrega de sobres: hasta 11:00 hs del 25/09/2026. Lugar: Delegación de Cruz del Eje, Sarmiento 331, Cruz del Eje, Cba.",
+   "seccion": "4",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Licitación pública conforme procedimientos de EPEC (Empresa Provincial de Energía de Córdoba S.A.U.). Obra de infraestructura energética de primera categoría. Presupuesto oficial de $30.000.077.244,29 es el más elevado de todas las licitaciones publicadas en este Boletín. Plazo de 600 días (aproximadamente 20 meses) es extenso, justificado por complejidad de obra de infraestructura eléctrica. Especialidad civil y electromecánica requiere contratista con experiencia en transformadores y subestaciones. Acto de doble apertura prorrogado (fecha original presumiblemente fue anterior a 25/09/2026). Nota Aclaratoria N° 3 fue emitida, sugiriendo cambios o aclaraciones al pliego inicial.",
+    "politica": "Estación Transformadora en Cruz del Eje es proyecto de modernización de infraestructura eléctrica provincial. Cruz del Eje es ciudad del norte de Córdoba, zona de importante consumo energético (agricultura, minería, industria). Inversión de $30.000 millones en nueva subestación refleja política de EPEC de expansión/mejora de red. Tema vigilado: infraestructura energética.",
+    "oficialista": "Modernización de infraestructura eléctrica en interior provincial. Nueva subestación en Cruz del Eje mejora suministro y confiabilidad en zona de demanda. Licitación pública. Plazo extenso respeta complejidad técnica.",
+    "opositora": "Presupuesto de $30.000 millones para una subestación es muy elevado; comparación con mercado internacional de transformadores (típicamente $50-100 millones por unidad de 40+ MVA) sugiere que puede incluir obras civiles mayores, accesos, interconexiones o que los costos están inflados. Plazo de 600 días es extenso: ¿está ya aprobado financiamiento? ¿Hay riesgo de parálisis si entra en insolvencia el contratista?"
+   },
+   "texto_oficial": "LICITACION PUBLICA Nº5592 - SE AGREGA NOTA ACLARATORIA N°3- SE REALIZARÁ MEDIANTE EL SISTEMA DE DOBLE APERTURA PRORROGADA: 25-09-2026 HORA: 12.- OBJETO: \"ET CRUZ DEL EJE NUEVA 132/13,2 kV 2x28/40 MVA + ATD 132/66kV 40/55MVA\" - ENTREGA DE SOBRES HASTA EL 25-09-2026 HORA 11.- PRESUPUESTO OFICIAL: $ 30.000.077.244,29 .-Especialidad: Civil y Electromecánica -Categoría: Primera- Plazo: 600 días",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_220926.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Intervención",
+   "clase": "creacion",
+   "instrumento": "Resolución Ministerio de Bioagroindustria N° 2026/00000198 (14/08/2026)",
+   "titulo": "Intervención del Consorcio Caminero N° 255 - Villa San Esteban",
+   "detalle": "Se ha dispuesto el inicio del proceso de Intervención del Consorcio Caminero N° 255 - Villa San Esteban (localidad Villa San Esteban, Dpto. San Justo, CUIT N° 30-68886811-0). Se designan Interventores: Valeria Soledad Piva (DNI 26.767.710) y José Alberto López (DNI 29.207.982). Domicilio especial: Av. Figueroa Alcorta N° 234, Córdoba Capital. Domicilio electrónico: institucionalconsorciosmbai@gmail.com. Se emplazan acreedores a presentar verificación de créditos hasta 09/10/2026 inclusive, mediante trámite multinota en Ciudadano Digital dirigido al Ministerio de Bioagroindustria.",
+   "organismo": "Ministerio de Bioagroindustria",
+   "pagina": 6,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_220926.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "394",
+   "titulo": "Aprobación del Reglamento Operativo de Unidades Ejecutoras de Obra - Ley N° 11.059",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "396",
+   "titulo": "Establecimiento de formularios estandarizados para trámites de permisos en caminos rurales no pavimentados",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "5",
+   "titulo": "Actualización de montos de viáticos para personal de la Administración Provincial",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "19 - Letra:D",
+   "titulo": "Baja de AVEX S.A. y Granja Tres Arroyos S.A. como agentes de retención y percepción",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución General",
+   "numero": "45 - Letra:D",
+   "titulo": "Individualización de inmuebles afectados por expropiación para obra de agua en Ischilín y Tulumba",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "numero": "EXPEDIENTE Nº 0088-142627/2026",
+   "titulo": "Provisión de sistema de control y seguimiento de servicios asistenciales - APROSS",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública Digital",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002486/2026",
+   "titulo": "Obras mayores en establecimientos educativos Córdoba Capital Grupo 13 - ACIF",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Digital",
+   "numero": "EXPTE. ELECTRÓNICO N° 0047-000255/2025",
+   "titulo": "Construcción nuevo edificio Escuela Secundaria de Oficios Barrio Müller - ACIF",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública Presencial",
+   "numero": "EXPTE. N° 0683-080515/2026",
+   "titulo": "Adquisición de 284 neumáticos para vehículos Protección Civil - Ministerio de Seguridad",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Enmienda a Licitación",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002474/2026",
+   "titulo": "Enmienda N° 1 - Obras mayores educativas Córdoba Capital Grupo 1 - ACIF",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Enmienda a Licitación",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002475/2026",
+   "titulo": "Enmienda N° 1 - Obras mayores educativas Córdoba Capital Grupo 2 - ACIF",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Enmienda a Licitación",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002476/2026",
+   "titulo": "Enmienda N° 1 - Obras mayores educativas Córdoba Capital Grupo 3 - ACIF",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Enmienda a Licitación",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002477/2026",
+   "titulo": "Enmienda N° 1 - Obras mayores educativas Córdoba Capital Grupo 4 - ACIF",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Enmienda a Licitación",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002479/2026",
+   "titulo": "Enmienda N° 1 - Obras mayores educativas Córdoba Capital Grupo 6 - ACIF",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Enmienda a Licitación",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002480/2026",
+   "titulo": "Enmienda N° 1 - Obras mayores educativas Córdoba Capital Grupo 7 - ACIF",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Enmienda a Licitación",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002482/2026",
+   "titulo": "Enmienda N° 1 - Obras mayores educativas Córdoba Capital Grupo 9 - ACIF",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Enmienda a Licitación",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002484/2026",
+   "titulo": "Enmienda N° 1 - Obras mayores educativas Córdoba Capital Grupo 11 - ACIF",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Enmienda a Licitación",
+   "numero": "EXPTE. ELECTRÓNICO N° 0620-002485/2026",
+   "titulo": "Enmienda N° 1 - Obras mayores educativas Córdoba Capital Grupo 12 - ACIF",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "LICITACION PUBLICA ELECTRONICA N.º 1489",
+   "titulo": "Cargador para vehículos eléctricos trifásico 20 kW corriente continua - EPEC",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "LICITACION PUBLICA ELECTRONICA N.º 1491",
+   "titulo": "Adquisición de tarjetas electrónicas de control Speed Tronic - EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "LICITACION PUBLICA ELECTRONICA N.º 1490",
+   "titulo": "Adquisición e instalación de bancos de baterías de electrolito absorbido - EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "LICITACION PUBLICA ELECTRONICA N.º 1492",
+   "titulo": "Adquisición de repuestos de RTU G100 - EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "LICITACION PUBLICA ELECTRONICA N.º 1493",
+   "titulo": "Adquisición de relés direccionales de máxima corriente y tierra - EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "LICITACION PUBLICA Nº 5597",
+   "titulo": "Reacondicionamiento edilicio en Villa Revol - Construcción redes - EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "LICITACION PUBLICA Nº 5598",
+   "titulo": "Reacondicionamiento general delegación San Francisco - EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "LICITACION PUBLICA ELECTRONICA N.º 1494",
+   "titulo": "Adquisición de sistema de video wall para centro de control de luminarias - EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "LICITACION PUBLICA Nº 5599",
+   "titulo": "Reacondicionamiento general delegación Carlos Paz - EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "LICITACION PUBLICA ELECTRONICA N.º 1488",
+   "titulo": "Adquisición de indumentaria técnica laboral anti-arco eléctrico - EPEC",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "LICITACION PUBLICA Nº 5592 - NOTA ACLARATORIA N°3",
+   "titulo": "ET Cruz del Eje Nueva 132/13,2 kV + ATD 132/66 kV - EPEC",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "EXPEDIENTE Nº: 0002-091199/2026 S.E. Nº 2026/000003",
+   "titulo": "Servicio de Traslado para personal de seguridad visita Sumo Pontífice - Policía Provincial",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "Resolución Ministerio de Bioagroindustria N° 2026/00000198",
+   "titulo": "Intervención Consorcio Caminero Villa San Esteban N° 255 - Convocatoria de acreedores",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento de Personería Jurídico-Política Municipal",
+   "numero": "s/n",
+   "titulo": "Rio Segundo Humanista - Juzgado Electoral Provincial",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento de Personería Jurídico-Política Municipal",
+   "numero": "s/n",
+   "titulo": "Colonia Tirolesa Ciudad de Todos - Juzgado Electoral Provincial",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Solicitud de Reconocimiento de Personería Jurídico-Política Municipal",
+   "numero": "s/n",
+   "titulo": "Renacer Los Reartes - Juzgado Electoral Provincial",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto de Notificación",
+   "numero": "EXPEDIENTE Nº 0535-102785/2013",
+   "titulo": "Solicitud inscripción posesión Baez, Jorge Raúl - Unidad Ejecutora Ley 9150",
+   "seccion": "4",
+   "pagina": 8
+  },
+  {
+   "tipo": "Notificación Tributaria",
+   "numero": "LEGAJO ELECTRONICO O.T. Nº 12181",
+   "titulo": "Sumario de oficio EMIGA S.A.S. - Dirección de Inteligencia Fiscal",
+   "seccion": "4",
+   "pagina": 8
+  }
+ ],
+ "telegram": "Boletín Oficial N° 184 | 22 de septiembre de 2026 | 39 normas publicadas. Destaca: APRHI individualiza inmuebles para expropiación de obra de agua en Ischilín-Tulumba ($54,8M presupuestarios); ACIF licita múltiples grupos de obras educativas en Córdoba Capital (agregado $5B+); EPEC licita subestación Cruz del Eje ($30B). Consultar → https://boletinoficial.cba.gov.ar",
+ "motor": "claude",
+ "modelo": "claude-haiku-4-5",
+ "hora_procesado": "02:10",
+ "estado": "publicado"
+}
