@@ -308,11 +308,11 @@ export default function Entregas() {
               : "¿Querés rehacer esta edición?"}
           </span>
           <span className="acciones">
-            <button className="btn" disabled={ocupado} onClick={() => pedirCorrida(true)}>
-              Solo archivar el texto · gratis
-            </button>
             <button className="btn sello" disabled={ocupado} onClick={() => pedirCorrida(false)}>
-              Procesar con IA · ~10 ¢
+              Traer la edición · ~10 ¢
+            </button>
+            <button className="btn" disabled={ocupado} onClick={() => pedirCorrida(true)}>
+              Guardar el texto sin analizar · gratis
             </button>
           </span>
           {corrida && (
@@ -323,6 +323,17 @@ export default function Entregas() {
               {corrida.estado === "fallida"   && `Falló: ${corrida.detalle ?? "sin detalle"}`}
             </p>
           )}
+          {/* El botón gratis NO trae las normas: archiva el texto crudo y
+              nada más. Es el seguro para un día sin crédito, no un modo de
+              uso — sin esta aclaración se lee como la opción barata de lo
+              mismo, y el panel queda igual que antes de apretarlo. */}
+          <p className="nota">
+            <b>Traer la edición</b> es la que llena el buscador y Entregas.{" "}
+            <b>Guardar el texto</b> no deja nada visible en el panel: baja el
+            boletín y lo archiva para poder analizarlo después. Es el seguro
+            para un día sin crédito, porque el texto de una edición vieja no
+            siempre se puede volver a bajar.
+          </p>
           <p className="nota">
             Necesita que la Mac esté escuchando: <code>panel/../escuchar.sh</code>.
             La descarga tiene que salir de una IP hogareña — el Boletín bloquea a la nube.
