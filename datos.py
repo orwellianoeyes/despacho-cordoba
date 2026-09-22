@@ -53,6 +53,22 @@ def _sb(metodo: str, path: str, prefer: str | None = None, **kw):
     return r.json() if r.text else []
 
 
+def leer_vigilancia() -> dict | None:
+    """Los TEMAS VIGILADOS y el rango de destacadas, editados desde el panel.
+
+    Devuelve None si no hay credenciales o si la base no contesta: el motor
+    sigue con lo que dice `instrucciones.md`. Esa caída blanda es a
+    propósito — `boletin.py` tiene que poder correr sin depender de la nube,
+    que es lo que hace que --rehacer y --sin-ia siempre funcionen."""
+    if not disponible():
+        return None
+    try:
+        filas = _sb("GET", "vigilancia?id=eq.1&select=temas,min_destacadas,max_destacadas")
+    except Exception:
+        return None
+    return filas[0] if filas else None
+
+
 def upsert(tabla: str, filas: list[dict], conflicto: str) -> int:
     """Sube en lotes acotados por peso. Devuelve cuántas filas mandó.
 

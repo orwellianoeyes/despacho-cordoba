@@ -4,6 +4,7 @@ export function Cabecera({ activa }: { activa: string }) {
   const secciones = [
     { href: "/buscador", texto: "Buscador" },
     { href: "/contactos", texto: "Contactos" },
+    { href: "/vigilancia", texto: "Vigilancia" },
     { href: "/entregas", texto: "Entregas" },
   ];
   return (

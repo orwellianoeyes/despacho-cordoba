@@ -376,6 +376,41 @@ Si algún día muchos clientes piden un tema que no está, **Leo lo agrega a
 mano** mirando el mercado. Revisión humana periódica, nunca sincronización
 automática.
 
+### La palanca no es quién elige, es cuántas (medido el 22/09/2026)
+
+Vuelve a aparecer el argumento de costo, ahora con un dato nuevo: que el
+motor destaque una norma sale **más barato** que resumirla a pedido.
+Medido sobre el 18/09 —101.059 caracteres de entrada, 22.578 de salida,
+9 destacadas—, a ~3,5 caracteres por token:
+
+    destacarla en el despacho diario   0,36 ¢   (solo salida: la entrada ya está)
+    resumirla a pedido desde el panel  0,61 ¢   (hay que remandar la página)
+
+Tentador, pero **la conclusión NO es acoplar los encargos al instructivo**.
+La entrada es fija —el boletín entero se manda igual, tenga 3 destacadas o
+15— así que lo único que crece es la salida, y el ahorro real medido con un
+cliente es **un centavo por edición, veintidós al mes**. No paga lo que
+cuesta del otro lado.
+
+Lo que SÍ sale de ahí es otra palanca, que no acopla nada:
+`instrucciones.md:79` dice **"Cuántas: entre 3 y 10 por día ← rango
+ajustable"**. Subir ese número compra más análisis al precio barato sin
+tocar quién decide, sin que el motor dependa de Supabase y sin romper la
+comparabilidad del archivo.
+
+**El punto de equilibrio es 8 normas por edición:**
+
+    destacar las 14 no destacadas   14 × 0,36 ¢ = 5,0 ¢
+    5,0 ¢ ÷ 0,61 ¢                  = 8,2 normas
+
+Si entre todos los clientes se piden **más de 8 normas distintas por
+edición** que el motor no destacó, conviene subir el rango. Menos de 8,
+conviene dejarlo: con un solo cliente fueron 4, y destacar todo habría
+perdido 2,6 ¢ por edición pagando análisis que nadie lee.
+
+La forma de medirlo no es teórica: el panel avisa solo cuando el promedio
+pasa de 8.
+
 ## Trampas de datos que ya costaron tiempo
 
 - **Las dos listas del JSON nombran distinto a la misma norma.** El

@@ -76,7 +76,14 @@ lo que diga el texto, sin suponer su competencia.
 
 ## SECCIÓN 2 — NORMAS DESTACADAS (selección individual)
 
-**Cuántas:** entre 3 y 10 por día.   ← rango ajustable
+<!-- RANGO:INICIO -->
+**Cuántas:** entre 3 y 10 por día.
+<!-- RANGO:FIN -->
+
+Este rango y la lista de TEMAS VIGILADOS de más abajo se editan desde el
+panel (pestaña Vigilancia). El motor los trae de Supabase y reemplaza los
+bloques marcados. Si Supabase no contesta, usa lo que dice este archivo y
+lo avisa por pantalla: el instructivo sigue siendo válido por sí solo.
 
 **Criterios de selección, en orden de prioridad:**
 1. TEMAS VIGILADOS (lista abajo): cualquier mención EXPLÍCITA en el texto
@@ -94,7 +101,8 @@ lo que diga el texto, sin suponer su competencia.
 5. Excluir salvo relevancia especial: edictos, sociedades, jubilaciones,
    designaciones menores (esas van a la Sección 4).
 
-**TEMAS VIGILADOS** (editá libremente esta lista):
+**TEMAS VIGILADOS** (se editan desde el panel, pestaña Vigilancia):
+<!-- TEMAS:INICIO -->
 - APROSS (financiamiento, aportes, emergencia sanitaria, convenios)
 - Obra vial provincial (licitaciones, adjudicaciones, convenios de mantenimiento)
 - Emergencia hídrica y contrataciones de excepción
@@ -103,6 +111,7 @@ lo que diga el texto, sin suponer su competencia.
 - Gobierno digital, firma digital, modernización del Estado
 - Endeudamientos y pagos del estado a acreedores nacionales o internacionales
 - Ejecuciones prespupuestarias
+<!-- TEMAS:FIN -->
 
 **Para cada norma destacada, generar:**
 - `importa`: 1-2 oraciones. Arrancá SOLO con lo que dice literalmente el

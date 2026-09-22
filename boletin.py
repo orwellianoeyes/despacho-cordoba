@@ -222,10 +222,36 @@ def detectar_numero_boletin(texto: str) -> str:
 # motor guardaba "claude" a secas hasta el 22/09/2026.
 MODELO_USADO = ""
 
+def _reemplazar_bloque(texto: str, marca: str, contenido: str) -> str:
+    """Cambia lo que hay entre <!-- MARCA:INICIO --> y <!-- MARCA:FIN -->."""
+    patron = re.compile(
+        rf"(<!-- {marca}:INICIO -->\n).*?(\n<!-- {marca}:FIN -->)",
+        re.DOTALL)
+    return patron.sub(lambda m: m.group(1) + contenido + m.group(2), texto, count=1)
+
+
 def _construir_prompt(texto_boletin: str) -> tuple[str, str]:
     """Devuelve (instrucciones, boletín). Van separados porque los dos
-    motores toman las instrucciones como mensaje de sistema."""
+    motores toman las instrucciones como mensaje de sistema.
+
+    Los TEMAS VIGILADOS y el rango de destacadas se editan desde el panel y
+    viven en Supabase; acá se insertan en los bloques marcados. **Si la base
+    no contesta se usa lo que dice el archivo y se avisa por pantalla**: el
+    instructivo es válido por sí solo y el motor no queda atado a la nube."""
     instrucciones = (RAIZ / "instrucciones.md").read_text(encoding="utf-8")
+
+    v = datos.leer_vigilancia()
+    if not v or not v.get("temas"):
+        print("   · temas vigilados: los del archivo (la base no los dio)")
+        return instrucciones, "=== BOLETÍN DE HOY ===\n\n" + texto_boletin
+
+    temas = "\n".join(f"- {x}" for x in v["temas"])
+    rango = (f"**Cuántas:** entre {v['min_destacadas']} y "
+             f"{v['max_destacadas']} por día.")
+    instrucciones = _reemplazar_bloque(instrucciones, "TEMAS", temas)
+    instrucciones = _reemplazar_bloque(instrucciones, "RANGO", rango)
+    print(f"   · temas vigilados: {len(v['temas'])} del panel · destacadas "
+          f"{v['min_destacadas']}-{v['max_destacadas']}")
     return instrucciones, "=== BOLETÍN DE HOY ===\n\n" + texto_boletin
 
 
