@@ -60,15 +60,40 @@ export default function Entregas() {
   const [ocupado, setOcupado] = useState(false);
   const [emparejando, setEmparejando] = useState(false);
   const [duplicadas, setDuplicadas] = useState<Set<number>>(new Set());
+  const [sinProcesar, setSinProcesar] = useState<Set<string>>(new Set());
   const [corrida, setCorrida] = useState<{ estado: string; detalle: string | null } | null>(null);
+
+  // Los días hábiles recientes que TODAVÍA no tienen despacho, para poder
+  // elegirlos. Sin esto el selector solo ofrecía ediciones ya procesadas y
+  // los botones de correr quedaban sin sentido: preguntaban "¿falta
+  // procesar esta edición?" sobre ediciones que por definición no faltaban.
+  function habilesRecientes(cuantos: number): string[] {
+    const dias: string[] = [];
+    const d = new Date();
+    while (dias.length < cuantos) {
+      const finde = d.getDay() === 0 || d.getDay() === 6;
+      if (!finde) {
+        dias.push(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`
+                  + `-${String(d.getDate()).padStart(2, "0")}`);
+      }
+      d.setDate(d.getDate() - 1);
+    }
+    return dias;
+  }
 
   useEffect(() => {
     (async () => {
       const { data } = await supabase.from("despachos").select("fecha")
         .order("fecha", { ascending: false }).limit(60);
-      const f = (data ?? []).map((d: { fecha: string }) => d.fecha);
-      setFechas(f);
-      if (f.length) setFecha(f[0]);
+      const hechas = (data ?? []).map((d: { fecha: string }) => d.fecha);
+      const faltan = habilesRecientes(6).filter((f) => !hechas.includes(f));
+      setSinProcesar(new Set(faltan));
+      const todas = [...faltan, ...hechas].sort().reverse();
+      setFechas(todas);
+      // Se abre en la última YA procesada: es lo que se mira a la mañana.
+      // Las que faltan están ahí arriba para ir a buscarlas a propósito.
+      if (hechas.length) setFecha(hechas[0]);
+      else if (todas.length) setFecha(todas[0]);
     })();
   }, [supabase]);
 
@@ -265,7 +290,11 @@ export default function Entregas() {
         <div className="fila-titulo">
           <h2>Qué hay para quién</h2>
           <select value={fecha} onChange={(e) => setFecha(e.target.value)} aria-label="Edición">
-            {fechas.map((f) => <option key={f} value={f}>{f}</option>)}
+            {fechas.map((f) => (
+              <option key={f} value={f}>
+                {f}{sinProcesar.has(f) ? " · sin procesar" : ""}
+              </option>
+            ))}
           </select>
         </div>
         <p className="nota">
@@ -274,7 +303,9 @@ export default function Entregas() {
 
         <div className="correr">
           <span className="nota">
-            ¿Falta procesar esta edición, o querés rehacerla?
+            {sinProcesar.has(fecha)
+              ? "Esta edición todavía no se bajó. Si el Boletín de ese día ya salió, la Mac la trae."
+              : "¿Querés rehacer esta edición?"}
           </span>
           <span className="acciones">
             <button className="btn" disabled={ocupado} onClick={() => pedirCorrida(true)}>
