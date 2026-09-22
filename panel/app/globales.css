@@ -1,9 +1,16 @@
-/* Misma paleta que la app pública: el panel tiene que verse de la familia. */
+/* Misma paleta que la app pública: el panel tiene que verse de la familia.
+   Contraste contra el papel (#F6F5F1), medido el 22/09/2026:
+   tinta 14,4:1 · sello 6,1:1 · grafito 5,5:1 · celeste 5,1:1. Todos pasan
+   WCAG AA. Si se toca un color, volver a medirlo. */
 :root{
   --tinta:#182339;
   --papel:#F6F5F1;
   --sello:#A83226;
-  --celeste:#3E7CB1;
+  /* Era #3E7CB1 y daba 4,08:1 contra el papel — abajo del 4,5 que pide
+     WCAG AA. Lo usan los chips de tema, los de analizada y las notas en
+     verde, que no son decoración: son la etiqueta que dice por qué entró
+     una norma. #376C9B da 5,09:1 y es el mismo azul un punto más oscuro. */
+  --celeste:#376C9B;
   --grafito:#5A6478;
   --linea:rgba(24,35,57,.14);
   --linea-fuerte:rgba(24,35,57,.30);
@@ -41,13 +48,20 @@ input[type=search],select,input[type=email]{
   border:1px solid var(--linea-fuerte);background:var(--papel);color:var(--tinta);
 }
 input[type=search]{flex:1;min-width:240px}
-.nota{font-family:'Chivo Mono',ui-monospace,monospace;font-size:11.5px;
-  color:var(--grafito);margin-top:10px}
+/* `.nota` nació para anotaciones cortas al pie y terminó cargando
+   instrucciones de verdad ("Traer la edición es la que llena el buscador…").
+   12,5px en monoespaciada sigue siendo secundario pero se lee en el
+   celular, que es donde Leo mira el panel. */
+.nota{font-family:'Chivo Mono',ui-monospace,monospace;font-size:12.5px;
+  line-height:1.6;color:var(--grafito);margin-top:10px}
 
+/* min-height 40px: los botones quedaban en ~31 y este panel se usa desde
+   el celular, tildando y destildando normas de a una. */
 .btn{
-  font-family:'Chivo Mono',ui-monospace,monospace;font-size:11.5px;letter-spacing:.06em;
-  border:1px solid var(--tinta);padding:8px 13px;text-decoration:none;
-  color:var(--tinta);background:transparent;cursor:pointer;display:inline-block;
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.06em;
+  border:1px solid var(--tinta);padding:8px 14px;text-decoration:none;
+  color:var(--tinta);background:transparent;cursor:pointer;
+  display:inline-flex;align-items:center;justify-content:center;min-height:40px;
 }
 .btn:hover{background:var(--tinta);color:var(--papel)}
 .btn:disabled{opacity:.45;cursor:progress}
@@ -150,7 +164,10 @@ code{font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px}
 .revision{margin-top:16px;border-top:1px solid var(--linea);padding-top:14px}
 .norma-check{display:flex;gap:10px;align-items:flex-start;padding:9px 0;
   border-bottom:1px solid var(--linea);font-size:14.5px;cursor:pointer}
-.norma-check input{margin-top:4px;flex:none}
+/* El casillero por defecto mide ~14px: chico para el dedo, y es el control
+   que más se usa en esta pantalla. */
+.norma-check input{margin-top:3px;flex:none;width:20px;height:20px;
+  accent-color:var(--sello);cursor:pointer}
 
 /* ---------- Pantallas vacías que guían en vez de informar ---------- */
 .vacio-guia{
@@ -194,4 +211,8 @@ textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
 }
 .quien{display:flex;justify-content:space-between;align-items:center;gap:12px;
   padding:8px 0;border-bottom:1px solid var(--linea);font-size:14px}
+/* `.mini` no tenía ninguna regla de tamaño: el nombre mentía y todos los
+   botones medían igual. Ahora sí es más chico, pero sin bajar del área
+   táctil mínima. */
+.btn.mini{font-size:11px;padding:6px 10px;min-height:34px}
 .btn.mini.sello{border-color:var(--sello);color:var(--sello)}
