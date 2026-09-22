@@ -12,6 +12,9 @@
 // request en total, 32k para el state más la pregunta más larga. Entrada a
 // USD 0,042 por millón; la salida no se cobra.
 
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+
 const ENDPOINT = "https://api.typesafe.ai/v1/systemone";
 const MODELO = "jev-latest";
 const PRECIO_USD_POR_MILLON = 0.042;
@@ -86,9 +89,23 @@ type Respuesta = {
   usage?: { input_tokens?: number };
 };
 
+// El criterio vive en un .md, como los otros tres instructivos del
+// proyecto: cambiar qué entra y qué no es editar texto, no tocar código.
+// Ya se ganó el lugar — el 22/09/2026 Leo lo cambió para que una obra de
+// generación eléctrica contara como obra, y eso movió diez notas.
+let criterioCache: string | null = null;
+async function criterio(): Promise<string> {
+  if (criterioCache === null) {
+    criterioCache = (await readFile(
+      path.join(process.cwd(), "lib", "criterio-tema.md"), "utf-8")).trim();
+  }
+  return criterioCache;
+}
+
 async function juzgarLote(
   lote: Candidata[], temas: string[], clave_api: string
 ): Promise<{ juicios: Juicio[]; tokens: number }> {
+  const reglas = await criterio();
   const state = {
     contexto:
       "Normas publicadas en el Boletín Oficial de la Provincia de Córdoba, "
@@ -116,11 +133,7 @@ async function juzgarLote(
             + "Decidir si esta norma en particular es una de esas.",
           norma: `\`normas[${i}]\``,
           tema,
-          criterio:
-            "Vale por lo que la norma dispone, no por las palabras que usa: "
-            + "un caso concreto del tema cuenta aunque no lo nombre. "
-            + "Una mención de paso, o el organismo apareciendo solo como "
-            + "firmante, no cuenta.",
+          criterio: reglas,
         },
         criteria: {
           true: `Lo que dispone \`normas[${i}]\` es del tema «${tema}».`,

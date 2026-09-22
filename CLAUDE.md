@@ -334,6 +334,22 @@ La nota es **estable**: dos corridas idénticas dieron desvío medio 0,012 y
 ningún cambio de lado del umbral. Lo que mueve la nota es con quién viaja
 la norma, no el azar.
 
+**El criterio de qué entra vive en `panel/lib/criterio-tema.md`**, como los
+otros tres instructivos. Se ganó el lugar el 22/09/2026: Leo dictó que un
+gasto para modificar una estructura o un mecanismo interno de una obra
+cuenta como obra. Agregar eso —y decir explícitamente que comprar insumos
+NO cuenta— movió diez notas y **agrandó la separación en vez de achicarla**:
+
+    Aumento Disponibilidad Potencia Complejo Hidroeléctrico  0,62 → 0,79  entra
+    Adquisición Indumentaria Técnica Laboral EPEC            0,40 → 0,06
+    Cargador Vehículos Eléctricos EPEC                       0,36 → 0,29
+    Adquisición Cables Baja Tensión EPEC                     0,17 → 0,09
+    Adquisición Repuestos RTU G100 EPEC                      0,10 → 0,06
+
+Quedan 10 de 23, con la más baja que entra en 0,78 y la más alta que queda
+afuera en 0,51: un colchón de 27 puntos alrededor del umbral. Nombrar lo
+que NO cuenta resultó más potente que nombrar lo que sí.
+
 ## Dos listas de temas que NO hay que mezclar
 
 - `instrucciones.md` → **TEMAS VIGILADOS**: los de Leo. El motor los usa
