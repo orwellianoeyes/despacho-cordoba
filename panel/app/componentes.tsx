@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Tema } from "./tema";
 
 export function Cabecera({ activa }: { activa: string }) {
   const secciones = [
@@ -19,6 +20,7 @@ export function Cabecera({ activa }: { activa: string }) {
             {s.texto}
           </Link>
         ))}
+        <Tema />
       </nav>
     </header>
   );

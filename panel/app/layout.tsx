@@ -11,6 +11,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es">
       <head>
+        {/* Antes de pintar, para que no haya un fogonazo blanco al entrar de
+            noche. Si no hay elección guardada, manda el sistema. */}
+        <script dangerouslySetInnerHTML={{ __html:
+          `try{var t=localStorage.getItem('tema');`
+          + `if(t)document.documentElement.setAttribute('data-tema',t)}catch(e){}` }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link

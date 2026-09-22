@@ -366,7 +366,8 @@ export default function Entregas() {
                 </p>
               </div>
               <span className="acciones">
-                <span className={`cuenta ${p.cuantas ? "hay" : ""}`}>
+                <span className={`cuenta ${p.cuantas ? "hay" : ""} `
+                                 + `${p.emparejado ? "dato" : ""}`}>
                   {!p.emparejado
                     ? (emparejando ? "mirando la edición…" : "sin emparejar")
                     : `${p.cuantas} de ${p.evaluadas}`}
@@ -392,12 +393,17 @@ export default function Entregas() {
             {abierto === p.encargo_id && (
               <div className="revision">
                 <p className="rotulo">Formato del mensaje</p>
+                {/* Cuatro columnas del mismo ancho y numeradas, no radios
+                    sueltos: el formato es una escalera —cada peldaño contesta
+                    una pregunta más— y así se lee como tal. El elegido va en
+                    negativo, que se ve de un vistazo. */}
                 <div className="formatos">
-                  {FORMATOS.map(([f, nombre, ayuda]) => (
+                  {FORMATOS.map(([f, nombre, ayuda], i) => (
                     <label key={f} className={`formato ${formato === f ? "elegido" : ""}`}>
                       <input type="radio" name={`fmt-${p.encargo_id}`} checked={formato === f}
                              onChange={() => { setFormato(f); setPrevia(null); }} />
-                      <span><b>{nombre}</b><br /><span className="nota">{ayuda}</span></span>
+                      <span className="formato-nombre">{i + 1}. {nombre}</span>
+                      <span className="formato-ayuda">{ayuda}</span>
                     </label>
                   ))}
                 </div>
@@ -416,8 +422,15 @@ export default function Entregas() {
                     </p>
                   );
                 })()}
+                {/* Qué estás mirando a la izquierda, cuánto elegiste a la
+                    derecha, separados por un filete. Un renglón en vez de
+                    dos frases sueltas. */}
+                <div className="linea-estado">
+                  <span>Ordenadas por cuánto le importan a {p.contacto.split(" ")[0]}</span>
+                  <span>{elegidas.size} elegidas de {normas.length}</span>
+                </div>
                 <p className="nota" style={{ marginTop: 12 }}>
-                  {elegidas.size} de {normas.length} marcadas · destildá lo que no quieras mandar
+                  destildá lo que no quieras mandar
                   {duplicadas.size > 0 && (
                     <span className="calibre"> · {duplicadas.size}{" "}
                       {duplicadas.size === 1 ? "salió repetida" : "salieron repetidas"}

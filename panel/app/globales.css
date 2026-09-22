@@ -14,6 +14,44 @@
   --grafito:#5A6478;
   --linea:rgba(24,35,57,.14);
   --linea-fuerte:rgba(24,35,57,.30);
+  --superficie:#FFFFFF;      /* fichas, tarjetas y paneles sobre el papel */
+  --texto-suave:#2A3550;     /* cuerpo del análisis, un tono menos que la tinta */
+}
+
+/* ---------- Modo noche ----------
+   Sigue al sistema y se puede forzar con el interruptor de la cabecera, que
+   deja la elección en el navegador (data-tema en <html>).
+
+   No es el mismo diseño invertido: el papel se vuelve tinta, pero el rojo y
+   el azul hay que ACLARARLOS o se hunden. Contraste medido el 22/09/2026
+   contra el fondo #141824 y contra la superficie #1C2131, el peor de los dos:
+   texto 12,9:1 · texto-suave 10,2 · celeste 7,3 · grafito 6,3 · sello 5,4.
+   Todos por encima del 4,5 de WCAG AA. Si se toca un color, volver a medir. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+    color-scheme: dark;
+  --tinta:#E9E7E1;
+  --papel:#141824;
+  --sello:#E0796A;
+  --celeste:#85B4DC;
+  --grafito:#9BA3B5;
+  --linea:rgba(233,231,225,.15);
+  --linea-fuerte:rgba(233,231,225,.32);
+  --superficie:#1C2131;
+  --texto-suave:#C9CEDA;
+  }
+}
+:root[data-tema="oscuro"] {
+  color-scheme: dark;
+  --tinta:#E9E7E1;
+  --papel:#141824;
+  --sello:#E0796A;
+  --celeste:#85B4DC;
+  --grafito:#9BA3B5;
+  --linea:rgba(233,231,225,.15);
+  --linea-fuerte:rgba(233,231,225,.32);
+  --superficie:#1C2131;
+  --texto-suave:#C9CEDA;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{
@@ -41,7 +79,7 @@ h2{font-family:'Bitter',Georgia,serif;font-weight:700;font-size:20px}
 .nav a{color:var(--grafito);text-decoration:none;padding-bottom:3px}
 .nav a.activa{color:var(--tinta);border-bottom:2px solid var(--sello)}
 
-.busca-caja{margin-top:28px;background:#fff;border:1px solid var(--linea);padding:20px 22px}
+.busca-caja{margin-top:28px;background:var(--superficie);border:1px solid var(--linea);padding:20px 22px}
 .busca-fila{display:flex;gap:10px;flex-wrap:wrap}
 input[type=search],select,input[type=email]{
   font-family:inherit;font-size:15px;padding:10px 12px;
@@ -84,10 +122,10 @@ input[type=search]{flex:1;min-width:240px}
 .acciones{display:flex;gap:8px;flex-wrap:wrap}
 
 .panel-analisis{
-  margin-top:12px;background:#fff;border:1px solid var(--linea);
+  margin-top:12px;background:var(--superficie);border:1px solid var(--linea);
   border-left:3px solid var(--celeste);padding:16px 18px;max-width:680px;
 }
-.amp{font-size:14.5px;color:#2A3550;margin-top:8px}
+.amp{font-size:14.5px;color:var(--texto-suave);margin-top:8px}
 .amp b{font-weight:600}
 .lab-j{color:var(--tinta)} .lab-p{color:var(--celeste)}
 .amp.mirada{border-left:2px solid var(--linea-fuerte);padding-left:12px;font-size:14px}
@@ -97,7 +135,7 @@ input[type=search]{flex:1;min-width:240px}
   color:var(--grafito);margin-top:12px;border-top:1px solid var(--linea);padding-top:8px}
 
 .centro{min-height:100dvh;display:flex;align-items:center;justify-content:center;padding:24px}
-.tarjeta{background:#fff;border:1px solid var(--linea);padding:34px 32px;max-width:420px;width:100%}
+.tarjeta{background:var(--superficie);border:1px solid var(--linea);padding:34px 32px;max-width:420px;width:100%}
 .error{color:var(--sello);font-size:14px;margin-top:12px}
 .ok{color:var(--celeste);font-size:14px;margin-top:12px}
 
@@ -109,24 +147,24 @@ input[type=search]{flex:1;min-width:240px}
   margin-top:20px;margin-bottom:2px;color:var(--tinta);
 }
 .md-h:first-child{margin-top:4px}
-.md-lista{margin:8px 0 0 18px;font-size:14.5px;color:#2A3550}
+.md-lista{margin:8px 0 0 18px;font-size:14.5px;color:var(--texto-suave)}
 .md-lista li{margin-top:4px}
 .panel-analisis.texto-crudo{border-left-color:var(--grafito);max-width:760px}
 .crudo{
   margin-top:10px;max-height:420px;overflow:auto;white-space:pre-wrap;
   font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;line-height:1.6;
-  color:#2A3550;background:var(--papel);border:1px solid var(--linea);padding:12px 14px;
+  color:var(--texto-suave);background:var(--papel);border:1px solid var(--linea);padding:12px 14px;
 }
 
 /* ---------- Contactos y encargos ---------- */
 .fila-titulo{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
-.ficha{background:#fff;border:1px solid var(--linea);padding:18px 20px;margin-top:16px}
+.ficha{background:var(--superficie);border:1px solid var(--linea);padding:18px 20px;margin-top:16px}
 .ficha-cab{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
 .ficha-nombre{font-family:'Bitter',Georgia,serif;font-weight:700;font-size:17px}
 .sin-tg{color:var(--sello)}
 code{font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px}
 
-.tarjeta-form{background:#fff;border:1px solid var(--linea);border-left:3px solid var(--celeste);
+.tarjeta-form{background:var(--superficie);border:1px solid var(--linea);border-left:3px solid var(--celeste);
   padding:18px 20px;margin-top:16px}
 .campos{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px}
 .campos label{display:flex;flex-direction:column;gap:5px;flex:1;min-width:190px;
@@ -171,7 +209,7 @@ code{font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px}
 
 /* ---------- Pantallas vacías que guían en vez de informar ---------- */
 .vacio-guia{
-  margin-top:20px;background:#fff;border:1px solid var(--linea);
+  margin-top:20px;background:var(--superficie);border:1px solid var(--linea);
   border-left:3px solid var(--celeste);padding:20px 22px;max-width:620px;
 }
 .vacio-guia.chico{margin-top:10px;padding:14px 16px;border-left-color:var(--sello)}
@@ -186,19 +224,58 @@ textarea.crudo.editable{
 textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
 
 /* Selector de formato del mensaje */
-.formatos{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+/* Los cuatro formatos son una escalera: cada peldaño contesta una pregunta
+   más. Por eso van numerados, del mismo ancho y pegados —una tira, no cuatro
+   opciones sueltas— y el elegido se pinta en negativo en vez de marcarse con
+   un puntito. El casillero de radio queda oculto pero sigue ahí: lo mueve el
+   teclado y lo lee un lector de pantalla. */
+.formatos{display:grid;grid-template-columns:repeat(4,1fr);margin-top:8px;
+  border:1px solid var(--linea-fuerte)}
+@media(max-width:720px){.formatos{grid-template-columns:repeat(2,1fr)}}
 .formato{
-  display:flex;gap:8px;align-items:flex-start;cursor:pointer;
-  border:1px solid var(--linea-fuerte);padding:10px 13px;background:var(--papel);
-  font-size:13.5px;flex:1;min-width:190px;
+  display:flex;flex-direction:column;gap:4px;cursor:pointer;
+  padding:11px 13px;background:var(--papel);
+  border-right:1px solid var(--linea-fuerte);
 }
-.formato.elegido{border-color:var(--sello);background:#fff}
-.formato input{margin-top:3px;flex:none}
-.formato .nota{font-size:11px}
+.formato:last-child{border-right:none}
+@media(max-width:720px){
+  .formato:nth-child(2){border-right:none}
+  .formato:nth-child(-n+2){border-bottom:1px solid var(--linea-fuerte)}
+}
+.formato input{position:absolute;opacity:0;width:0;height:0}
+.formato:has(input:focus-visible){outline:2px solid var(--sello);outline-offset:-2px}
+.formato-nombre{font-family:'Chivo Mono',ui-monospace,monospace;font-size:11.5px;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--tinta)}
+.formato-ayuda{font-family:'Chivo Mono',ui-monospace,monospace;font-size:11px;
+  line-height:1.5;color:var(--grafito)}
+.formato.elegido{background:var(--tinta)}
+.formato.elegido .formato-nombre{color:var(--papel)}
+.formato.elegido .formato-ayuda{color:var(--papel);opacity:.72}
+
+/* El contador como dato, no como frase: recuadro monoespaciado a la derecha
+   del nombre, que se lee de un vistazo al barrer la columna. */
+.cuenta.dato{border:1px solid var(--linea-fuerte);padding:5px 9px;color:var(--tinta)}
+
+/* Qué estás mirando a la izquierda, cuánto elegiste a la derecha. */
+.linea-estado{
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
+  margin-top:16px;padding-bottom:6px;border-bottom:1px solid var(--linea-fuerte);
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:11px;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--grafito);
+}
+
+/* Interruptor de tema: un rótulo más de la navegación, no un ícono. */
+.tema{
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;
+  letter-spacing:.08em;text-transform:uppercase;color:var(--grafito);
+  background:transparent;border:1px solid var(--linea-fuerte);
+  padding:2px 8px;cursor:pointer;
+}
+.tema:hover{color:var(--tinta);border-color:var(--tinta)}
 
 /* Pedir una corrida desde el panel: el buzón */
 .correr{
-  margin-top:16px;background:#fff;border:1px solid var(--linea);
+  margin-top:16px;background:var(--superficie);border:1px solid var(--linea);
   border-left:3px solid var(--grafito);padding:14px 16px;
   display:flex;flex-direction:column;gap:9px;max-width:680px;
 }
