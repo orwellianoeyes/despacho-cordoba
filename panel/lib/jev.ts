@@ -16,14 +16,34 @@ const ENDPOINT = "https://api.typesafe.ai/v1/systemone";
 const MODELO = "jev-latest";
 const PRECIO_USD_POR_MILLON = 0.042;
 
-// Cuántas normas van en un request. Las preguntas de un mismo request
-// corren en paralelo y comparten el state, así que agrupar es lo que abarata:
-// 20 normas × 4 temas son 80 preguntas sobre un state de ~3 mil tokens.
+// UNA norma por request. Parece caro y no lo es, porque lo que domina el
+// costo es el texto de las preguntas (4 por norma), no el state — agrupar
+// ahorraba poquísimo y costaba calidad.
 //
-// La docs no publica un tope de preguntas por request (sí de tokens: 64k en
-// total, 32k para el state). Si alguna vez la API rechaza el lote, bajar
-// este número es el arreglo — cuesta más plata, no menos calidad.
-const POR_LOTE = 20;
+// Medido el 22/09/2026 sobre las 23 normas del 18/09 y el encargo real:
+//
+//                               requests   tokens   entran   USD
+//   lote de 20                        2    19.530     7/23   0,0008
+//   de a una                         23    26.099     9/23   0,0011
+//   de a una + texto de la página    23    51.811    14/23   0,0022
+//
+// **Meter 20 normas en un state diluye el juicio.** "Mantenimiento
+// Puentes Red Vial Pavimentada Provincial" saca 0,66 en lote y 0,89 sola;
+// su gemela, 0,77 y 0,94. Son obra vial y tienen que llegarle a quien
+// pidió "obras": en lote quedaban afuera. Las dos entran de a una.
+//
+// **Y sumarle el texto de la página fue peor, no mejor.** Parecía gratis
+// —el crudo ya está archivado y pago— pero una página del Boletín
+// contiene VARIAS normas, así que el modelo le atribuye a una lo que dice
+// la de al lado: "Adquisición Tarjetas Electrónicas Speed Tronic" pasó de
+// 0,09 a 0,83, y los cables de EPEC de 0,23 a 0,80. Entraban 14 de 23,
+// casi media edición. No reintentar esto sin resolver antes el recorte
+// por norma, que hoy no existe.
+//
+// La nota es estable: dos corridas idénticas del lote dieron desvío medio
+// 0,012 y ningún cambio de lado del umbral. Lo que mueve la nota es con
+// quién viaja, no el azar.
+const POR_LOTE = 1;
 
 // El `importa` de una norma analizada puede ser largo y no hace falta
 // entero para decidir de qué trata.
@@ -83,8 +103,8 @@ async function juzgarLote(
     })),
   };
 
-  // Una pregunta por (norma, tema). Van todas juntas porque agregar
-  // preguntas sobre el mismo state no agrega latencia.
+  // Una pregunta por (norma, tema). Las de un mismo request corren en
+  // paralelo, así que sumar temas no suma tiempo.
   const questions: Record<string, unknown> = {};
   lote.forEach((_, i) => {
     temas.forEach((tema, j) => {
@@ -153,6 +173,8 @@ export async function juzgar(
     lotes.push(candidatas.slice(i, i + POR_LOTE));
   }
 
+  // Una edición son ~45 requests. El tope publicado es 1.200 por minuto,
+  // así que van todos juntos; lo que tarda es el más lento, no la suma.
   const partes = await Promise.all(
     lotes.map((l) => juzgarLote(l, limpios, clave_api))
   );

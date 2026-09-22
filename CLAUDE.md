@@ -307,9 +307,32 @@ titulares entran ~15 y el celular lee las tres primeras.
 
 Límites reales del modelo (docs.typesafe.ai/models, verificados el
 19/09/2026): 64k tokens por request, 32k para el state más la pregunta más
-larga, entrada a USD 0,042 por millón y **la salida no se cobra**. Las
-preguntas de un mismo request corren en paralelo, así que sumar temas no
-suma tiempo: 20 normas × 4 temas son 80 preguntas en una sola llamada.
+larga, entrada a USD 0,042 por millón y **la salida no se cobra**.
+
+**UNA norma por request, medido el 22/09/2026 y no supuesto.** Sobre las
+23 normas del 18/09 con el encargo real:
+
+                                  requests   tokens   entran   USD
+      lote de 20                         2   19.530     7/23   0,0008
+      de a una                          23   26.099     9/23   0,0011
+      de a una + texto de la página     23   51.811    14/23   0,0022
+
+Agrupar ahorraba poquísimo —lo que domina el costo es el texto de las
+preguntas, no el state— y **diluía el juicio**: "Mantenimiento Puentes Red
+Vial Pavimentada Provincial" saca 0,66 en lote y 0,89 sola. Es obra vial y
+tiene que llegarle a quien pidió "obras"; en lote quedaba afuera.
+
+**Sumarle el texto de la página fue peor, no mejor, y eso NO es intuitivo.**
+El crudo ya está archivado y pago, así que parecía gratis. Pero una página
+del Boletín contiene VARIAS normas, y el modelo le atribuye a una lo que
+dice la de al lado: "Adquisición Tarjetas Electrónicas Speed Tronic" pasó
+de 0,09 a 0,83 y los cables de EPEC de 0,23 a 0,80 — entraban 14 de 23,
+media edición. No reintentarlo sin resolver antes el recorte por norma,
+que hoy no existe.
+
+La nota es **estable**: dos corridas idénticas dieron desvío medio 0,012 y
+ningún cambio de lado del umbral. Lo que mueve la nota es con quién viaja
+la norma, no el azar.
 
 ## Dos listas de temas que NO hay que mezclar
 
