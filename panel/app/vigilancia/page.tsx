@@ -76,7 +76,15 @@ export default function Vigilancia() {
           los temas de tus clientes son otra lista y viven en Contactos.
         </p>
 
-        <p className="rotulo" style={{ marginTop: 18 }}>Temas</p>
+        {/* Dos columnas: los temas a la izquierda, que es la lista que se
+            edita, y a la derecha lo que hay que mirar para decidir si está
+            bien — el rango y la calibración económica. Apilado obligaba a
+            bajar hasta el final para ver el número que justifica el rango. */}
+        <div className="vigilancia">
+        <div>
+        <p className="rotulo">
+          Temas <span className="f-num">· {v.temas.length} activos</span>
+        </p>
         <div className="busca-fila">
           <input value={tema} onChange={(e) => setTema(e.target.value)}
                  placeholder="ej.: Régimen de promoción industrial"
@@ -86,8 +94,9 @@ export default function Vigilancia() {
           <button type="button" className="btn" onClick={agregar}>Agregar</button>
         </div>
 
-        {v.temas.map((t) => (
+        {v.temas.map((t, i) => (
           <div key={t} className="tema-fila">
+            <span className="f-num">{String(i + 1).padStart(2, "0")}</span>
             <span className="chip tema">{t}</span>
             <button type="button" className="btn mini"
                     onClick={() => setV({ ...v, temas: v.temas.filter((x) => x !== t) })}>
@@ -102,7 +111,9 @@ export default function Vigilancia() {
           </p>
         )}
 
-        <p className="rotulo" style={{ marginTop: 22 }}>Cuántas destacar por día</p>
+        </div>
+        <div>
+        <p className="rotulo">Cuántas destacar por día</p>
         <div className="busca-fila">
           <input type="number" min={1} max={40} value={v.min_destacadas}
                  aria-label="Mínimo"
@@ -113,23 +124,28 @@ export default function Vigilancia() {
                  onChange={(e) => setV({ ...v, max_destacadas: Number(e.target.value) })} />
         </div>
 
-        {/* El aviso que reemplaza tener que deducirlo a mano cada tanto. */}
-        {medida && medida.a_mano > 0 && (
-          <p className={`nota ${conviene ? "" : ""}`} style={{ marginTop: 10 }}>
-            En las últimas {medida.ediciones} ediciones resumiste a pedido{" "}
-            <b>{medida.a_mano}</b> normas · {medida.promedio} por edición.{" "}
-            {conviene ? (
-              <span className="calibre mal">
-                Pasa de {EQUILIBRIO}: te conviene subir el máximo. Que las
-                destaque el motor sale 0,36 ¢ y resumirlas a mano 0,61 ¢.
-              </span>
-            ) : (
-              <span className="calibre ok">
-                Por debajo de {EQUILIBRIO}, así que conviene dejarlo: subir el
-                rango pagaría análisis que nadie va a leer.
-              </span>
-            )}
-          </p>
+        {/* El número solo no dice nada: lo que decide son los dos precios y
+            dónde se cruzan. Por eso va como tabla y no como frase. */}
+        {medida && (
+          <div className="calibracion">
+            <p className="rotulo">Calibración</p>
+            <p className="nota" style={{ marginTop: 6 }}>
+              En las últimas {medida.ediciones} ediciones resumiste a pedido{" "}
+              <b>{medida.a_mano}</b> normas · {medida.promedio} por edición.
+            </p>
+            <div className="precios">
+              <div><span>Que la destaque el motor</span><b>0,36 ¢</b></div>
+              <div><span>Resumirla a mano después</span><b>0,61 ¢</b></div>
+              <div className="equilibrio">
+                <span>Punto de equilibrio</span><b>{EQUILIBRIO} por edición</b>
+              </div>
+            </div>
+            <p className={`calibre ${conviene ? "mal" : "ok"}`} style={{ marginTop: 8 }}>
+              {conviene
+                ? "Pasa del equilibrio: conviene subir el máximo."
+                : "Por debajo del equilibrio: subir el rango pagaría análisis que nadie va a leer."}
+            </p>
+          </div>
         )}
 
         <p className="nota" style={{ marginTop: 10 }}>
@@ -137,6 +153,9 @@ export default function Vigilancia() {
           usa la lista de <code>instrucciones.md</code> y lo avisa por pantalla,
           así que una caída no le cambia el criterio.
         </p>
+
+        </div>
+        </div>
 
         <div style={{ marginTop: 16 }}>
           <button className="btn sello" onClick={guardar}>Guardar</button>

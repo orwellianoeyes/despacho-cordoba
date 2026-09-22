@@ -199,10 +199,22 @@ export default function Buscador() {
                 <div className="panel-analisis">
                   <p className="rotulo">Síntesis ampliada</p>
                   {n.importa && <p className="amp"><b>Por qué importa.</b> {n.importa}</p>}
-                  <p className="amp"><b className="lab-j">Lo jurídico.</b> {n.ampliada.juridica}</p>
-                  <p className="amp"><b className="lab-p">Lo político.</b> {n.ampliada.politica}</p>
-                  <p className="amp mirada"><b>Mirada oficialista.</b> {n.ampliada.oficialista}</p>
-                  <p className="amp mirada"><b>Mirada opositora.</b> {n.ampliada.opositora}</p>
+                  {/* Las cuatro en cuadrícula, no apiladas: jurídico contra
+                      político arriba, oficialista contra opositora abajo. El
+                      par opuesto queda lado a lado, que es como se compara. */}
+                  <div className="miradas">
+                    {([["Lo jurídico", n.ampliada.juridica, "j"],
+                       ["Lo político", n.ampliada.politica, "p"],
+                       ["Mirada oficialista", n.ampliada.oficialista, "o"],
+                       ["Mirada opositora", n.ampliada.opositora, "c"]] as const)
+                      .filter(([, txt]) => txt)
+                      .map(([rotulo, txt, clase]) => (
+                        <div key={rotulo} className="mirada">
+                          <p className={`mirada-rotulo m-${clase}`}>{rotulo}</p>
+                          <p className="amp">{txt}</p>
+                        </div>
+                      ))}
+                  </div>
                   <p className="aviso-ia">
                     Generado con IA{n.analizada_por ? ` (${n.analizada_por})` : ""} a partir del
                     texto oficial · contrastar con el Boletín antes de citarlo.

@@ -127,8 +127,22 @@ input[type=search]{flex:1;min-width:240px}
 }
 .amp{font-size:14.5px;color:var(--texto-suave);margin-top:8px}
 .amp b{font-weight:600}
-.lab-j{color:var(--tinta)} .lab-p{color:var(--celeste)}
-.amp.mirada{border-left:2px solid var(--linea-fuerte);padding-left:12px;font-size:14px}
+/* Las cuatro miradas en cuadrícula de 2×2. Apiladas obligaban a recordar
+   la de arriba para compararla con la de abajo; en par, oficialista y
+   opositora se leen enfrentadas, que es lo que son. En pantalla angosta
+   vuelven a una columna, donde el orden ya alcanza. */
+.miradas{display:grid;grid-template-columns:1fr 1fr;gap:1px;margin-top:14px;
+  background:var(--linea-fuerte);border:1px solid var(--linea-fuerte)}
+@media(max-width:720px){.miradas{grid-template-columns:1fr}}
+.mirada{background:var(--superficie);padding:12px 14px}
+.mirada .amp{margin-top:5px;font-size:14px}
+.mirada-rotulo{font-family:'Chivo Mono',ui-monospace,monospace;font-size:10.5px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--papel);
+  background:var(--grafito);display:inline-block;padding:2px 7px}
+.m-j{background:var(--tinta)}
+.m-p{background:var(--celeste)}
+.m-o{background:var(--grafito)}
+.m-c{background:var(--sello)}
 .rotulo{font-family:'Chivo Mono',ui-monospace,monospace;font-size:10.5px;
   letter-spacing:.12em;text-transform:uppercase;color:var(--grafito)}
 .aviso-ia{font-family:'Chivo Mono',ui-monospace,monospace;font-size:11px;
@@ -293,3 +307,20 @@ textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
    táctil mínima. */
 .btn.mini{font-size:11px;padding:6px 10px;min-height:34px}
 .btn.mini.sello{border-color:var(--sello);color:var(--sello)}
+
+/* ---------- Vigilancia ---------- */
+.vigilancia{display:grid;grid-template-columns:1.35fr 1fr;gap:28px;
+  align-items:start;margin-top:18px}
+@media(max-width:860px){.vigilancia{grid-template-columns:1fr;gap:20px}}
+
+/* Los dos precios y dónde se cruzan. La frase sola no deja decidir. */
+.calibracion{margin-top:20px;background:var(--superficie);
+  border:1px solid var(--linea-fuerte);padding:14px 16px}
+.precios{margin-top:10px;border-top:1px solid var(--linea)}
+.precios div{display:flex;justify-content:space-between;gap:12px;
+  padding:7px 0;border-bottom:1px solid var(--linea);
+  font-family:'Chivo Mono',ui-monospace,monospace;font-size:12px;
+  color:var(--grafito)}
+.precios div b{color:var(--tinta)}
+.precios .equilibrio{border-bottom:none}
+.precios .equilibrio b{color:var(--sello)}
