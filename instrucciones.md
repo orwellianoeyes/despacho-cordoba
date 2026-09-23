@@ -159,6 +159,20 @@ Para CADA norma de la edición (destacada o no): fecha, boletín, tipo,
 número, título en una línea, sección, página del PDF. Esto alimenta el
 buscador histórico: acá no se filtra nada.
 
+**Y un campo `resumen`: UNA sola oración que diga qué dispone el acto** —
+organismo que lo dicta, objeto, y a quién alcanza. Sin análisis, sin
+opinión, sin adjetivos. Si el título ya lo dice todo, escribirlo igual en
+forma de oración completa.
+
+Por qué importa, medido el 23/09/2026: el título solo, cuando lo escribe
+el índice, puede decir lo contrario de lo que la norma hace. "Intervención
+– Convocatoria a acreedores" era en realidad la **designación de dos
+interventores** en un Consorcio Caminero. Con el título pelado, el
+emparejador le dio 0,05 al tema "designaciones" y la norma no le llegó a
+la clienta que había pedido justo eso; con una oración que dijera qué
+dispone, 0,93. Una línea cuesta ~0,02 ¢ y evita que tres cuartas partes de
+la edición se juzguen por un rótulo.
+
 ---
 
 ## SECCIÓN 5 — AVISO DE TELEGRAM
@@ -187,6 +201,7 @@ markdown, con esta estructura exacta:
     "instrumento": "…", "titulo": "…", "detalle": "…", "organismo": "…",
     "pagina": 0 } ],
   "indice_nuevas": [ { "tipo": "…", "numero": "…", "titulo": "…",
+    "resumen": "una oración: qué dispone, quién y a quién alcanza",
     "seccion": "1", "pagina": 0 } ],
   "telegram": "texto del aviso"
 }

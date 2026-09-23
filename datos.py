@@ -175,6 +175,13 @@ def armar_normas(despacho: dict, fecha: str) -> list[dict]:
             "seccion": str(e.get("seccion", "1")), "pagina": pagina_entera(e.get("pagina")),
             "url_oficial": url_del_pdf(fecha, str(e.get("seccion", "1"))),
             "destacada": False,
+            # La oración del índice va a `importa`. Es lo que el emparejador
+            # lee para decidir a quién le toca la norma, y sin ella juzga un
+            # título que a veces dice lo contrario de lo que el acto hace
+            # (medido el 23/09/2026: 0,05 con título pelado, 0,93 con la
+            # oración). `destacada` y `ampliada` siguen distinguiendo lo que
+            # el motor analizó en profundidad de lo que solo está indexado.
+            "importa": (e.get("resumen") or "").strip() or None,
         }
 
     for n in despacho.get("normas", []) or []:
