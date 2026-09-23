@@ -118,32 +118,77 @@ export async function POST(request: Request) {
       ? cuerpo.formato : "titulares";
   const idsElegidos: number[] | null = Array.isArray(cuerpo?.ids) ? cuerpo.ids : null;
 
-  if (typeof encargo_id !== "number" || !/^\d{4}-\d{2}-\d{2}$/.test(String(fecha))) {
-    return NextResponse.json({ error: "faltan encargo o fecha" }, { status: 400 });
+  // Dos caminos de entrada, un solo motor de armado y envío.
+  //
+  //   encargo_id  la entrega de la mañana: lo que matcheó su encargo.
+  //   contacto_id un envío suelto desde el Buscador, con las normas
+  //               elegidas a mano. Es para cuando el cliente pide algo
+  //               puntual que su encargo no cubre — "¿qué pasó con la
+  //               ruta 9?" — y antes no había por dónde hacerlo.
+  //
+  // Lo que NO cambia en el camino suelto: la vista previa editable, el
+  // tope de Telegram y la bitácora. Nada sale sin que Leo lo vea.
+  const suelto = typeof cuerpo?.contacto_id === "number";
+
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(fecha))
+      || (!suelto && typeof encargo_id !== "number")) {
+    return NextResponse.json({ error: "faltan destinatario o fecha" }, { status: 400 });
+  }
+  if (suelto && !idsElegidos?.length) {
+    return NextResponse.json({ error: "no elegiste ninguna norma" }, { status: 400 });
   }
 
-  const { data: encargo } = await supabase
-    .from("encargos").select("id,etiqueta,contacto_id,contactos(nombre,telegram_id)")
-    .eq("id", encargo_id).single();
-  if (!encargo) return NextResponse.json({ error: "no encontré el encargo" }, { status: 404 });
+  let destino: { nombre: string; telegram_id: number | null } | null = null;
+  let contacto_id: number | null = null;
+  let etiqueta = "";
+  let normas: Norma[] = [];
 
-  const { data: todas, error: e1 } = await supabase
-    .rpc("normas_del_encargo", { p_encargo: encargo_id, p_fecha: fecha });
-  if (e1) return NextResponse.json({ error: e1.message }, { status: 500 });
+  if (suelto) {
+    contacto_id = cuerpo.contacto_id as number;
+    const { data: c } = await supabase.from("contactos")
+      .select("id,nombre,telegram_id").eq("id", contacto_id).single();
+    if (!c) return NextResponse.json({ error: "no encontré el contacto" }, { status: 404 });
+    destino = c;
+    etiqueta = "A pedido";
 
-  let normas = (todas ?? []) as Norma[];
-  if (idsElegidos) normas = normas.filter((n) => idsElegidos.includes(n.id));
-  if (!normas.length) {
-    // `normas_del_encargo` lee de `coincidencias`: vacío puede ser "no le
-    // toca nada" o "esta edición todavía no se emparejó".
-    const { count } = await supabase.from("coincidencias")
-      .select("norma_id", { count: "exact", head: true })
-      .eq("encargo_id", encargo_id).eq("fecha", fecha);
-    return NextResponse.json({
-      error: (count ?? 0) > 0
-        ? "no hay normas para enviar"
-        : "esta edición todavía no se emparejó para este encargo",
-    }, { status: 422 });
+    // Se leen por id, sin pasar por `coincidencias`: el sentido de este
+    // camino es justamente mandar algo que NO matcheó su encargo.
+    const { data, error } = await supabase.from("normas")
+      .select("id,tipo,numero,titulo,seccion,pagina,url_oficial,importa,ampliada,extenso")
+      .in("id", idsElegidos!);
+    if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+    normas = ((data ?? []) as unknown as Norma[])
+      .map((x) => ({ ...x, temas_que_pegaron: [] }));
+    if (!normas.length) {
+      return NextResponse.json({ error: "esas normas ya no están" }, { status: 422 });
+    }
+  } else {
+    const { data: encargo } = await supabase
+      .from("encargos").select("id,etiqueta,contacto_id,contactos(nombre,telegram_id)")
+      .eq("id", encargo_id).single();
+    if (!encargo) return NextResponse.json({ error: "no encontré el encargo" }, { status: 404 });
+    destino = (encargo as unknown as
+      { contactos: { nombre: string; telegram_id: number | null } }).contactos;
+    contacto_id = encargo.contacto_id;
+    etiqueta = encargo.etiqueta;
+
+    const { data: todas, error: e1 } = await supabase
+      .rpc("normas_del_encargo", { p_encargo: encargo_id, p_fecha: fecha });
+    if (e1) return NextResponse.json({ error: e1.message }, { status: 500 });
+    normas = (todas ?? []) as Norma[];
+    if (idsElegidos) normas = normas.filter((n) => idsElegidos.includes(n.id));
+    if (!normas.length) {
+      // `normas_del_encargo` lee de `coincidencias`: vacío puede ser "no le
+      // toca nada" o "esta edición todavía no se emparejó".
+      const { count } = await supabase.from("coincidencias")
+        .select("norma_id", { count: "exact", head: true })
+        .eq("encargo_id", encargo_id).eq("fecha", fecha);
+      return NextResponse.json({
+        error: (count ?? 0) > 0
+          ? "no hay normas para enviar"
+          : "esta edición todavía no se emparejó para este encargo",
+      }, { status: 422 });
+    }
   }
 
   // El texto que llegue desde el panel gana: Leo lo edita en la vista
@@ -161,7 +206,7 @@ export async function POST(request: Request) {
       }, { status: 422 });
     }
   }
-  const texto = editado || armarMensaje(fecha, encargo.etiqueta, normas, formato);
+  const texto = editado || armarMensaje(fecha, etiqueta, normas, formato);
 
   // Vista previa: se devuelve el mensaje exacto que saldría, sin mandarlo.
   // Nada sale sin que Leo lo haya visto antes.
@@ -170,8 +215,7 @@ export async function POST(request: Request) {
                                tope: TOPE_TELEGRAM });
   }
 
-  const contacto = (encargo as unknown as
-    { contactos: { nombre: string; telegram_id: number | null } }).contactos;
+  const contacto = destino;
   if (!contacto?.telegram_id) {
     return NextResponse.json({
       error: `${contacto?.nombre ?? "el contacto"} todavía no tiene ID de Telegram. `
@@ -206,7 +250,7 @@ export async function POST(request: Request) {
   // La bitácora guarda el texto que REALMENTE salió, no el que se armaría
   // hoy: el análisis puede cambiar después y hay que saber qué leyó.
   const { error: e2 } = await supabase.from("entregas").insert({
-    contacto_id: encargo.contacto_id, encargo_id, fecha,
+    contacto_id, encargo_id: suelto ? null : encargo_id, fecha,
     norma_ids: normas.map((n) => n.id),
     canal: "telegram", estado: "enviada", texto,
     enviada_en: new Date().toISOString(),

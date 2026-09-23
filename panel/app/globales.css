@@ -379,3 +379,7 @@ textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
   margin-top:10px;background:var(--superficie);border:1px solid var(--linea);
   border-left:3px solid var(--celeste);padding:12px 14px}
 .pedido-texto{margin-top:5px;font-size:14px;color:var(--texto-suave)}
+
+/* Enviar una norma suelta desde el buscador. */
+.panel-analisis.enviar{border-left-color:var(--sello);max-width:760px}
+.panel-analisis.enviar textarea.crudo.editable{min-height:220px}
