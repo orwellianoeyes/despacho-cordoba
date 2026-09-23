@@ -78,7 +78,12 @@ begin
            exists (select 1 from contactos c where c.telegram_id = p_chat_id);
 end $$;
 
+-- Supabase le da EXECUTE a anon y authenticated por defecto a cada función
+-- nueva: se le saca a authenticated, que no la necesita. El linter va a
+-- seguir marcando la de anon, y está bien: es el único que la usa, y sin el
+-- secreto no hace nada.
 revoke all on function recibir_telegram(text, bigint, bigint, text, text, text) from public;
+revoke execute on function recibir_telegram(text, bigint, bigint, text, text, text) from authenticated;
 grant execute on function recibir_telegram(text, bigint, bigint, text, text, text) to anon;
 comment on function recibir_telegram is
   'Única puerta del webhook de Telegram. Exige el secreto de la tabla bot.';
