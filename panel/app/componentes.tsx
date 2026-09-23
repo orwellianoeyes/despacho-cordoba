@@ -3,6 +3,7 @@ import { Tema } from "./tema";
 
 export function Cabecera({ activa }: { activa: string }) {
   const secciones = [
+    { href: "/despacho", texto: "Despacho" },
     { href: "/buscador", texto: "Buscador" },
     { href: "/contactos", texto: "Contactos" },
     { href: "/vigilancia", texto: "Vigilancia" },

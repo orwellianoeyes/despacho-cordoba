@@ -383,3 +383,9 @@ textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
 /* Enviar una norma suelta desde el buscador. */
 .panel-analisis.enviar{border-left-color:var(--sello);max-width:760px}
 .panel-analisis.enviar textarea.crudo.editable{min-height:220px}
+
+/* Movimientos del día: designaciones, renuncias, creación de organismos. */
+.movimiento{display:flex;gap:12px;align-items:flex-start;padding:12px 0;
+  border-bottom:1px solid var(--linea)}
+.movimiento .amp{margin-top:4px;font-size:14px}
+.movimiento .nota{margin-top:4px}
