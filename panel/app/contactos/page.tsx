@@ -80,10 +80,20 @@ export default function Contactos() {
     setNuevo(false); setEditando(null); cargar();
   }
 
-  async function borrarContacto(id: number, nombre: string) {
-    if (!confirm(`¿Borrar a ${nombre}? Se van también sus encargos.`)) return;
-    const { error } = await supabase.from("contactos").delete().eq("id", id);
-    if (error) setError(error.message); else cargar();
+  async function borrarContacto(c: Contacto) {
+    if (!confirm(`¿Borrar a ${c.nombre}? Se van también sus encargos.`)) return;
+    const { error } = await supabase.from("contactos").delete().eq("id", c.id);
+    if (error) { setError(error.message); return; }
+    // Su ficha del bot también: si no, vuelve a aparecer en "Escribieron al
+    // bot" con los temas viejos, y si escribe de nuevo el bot no lo saluda.
+    // Así, si vuelve, arranca como alguien nuevo. Lo que escribió queda en
+    // mensajes_telegram. Desvincular NO hace esto: sirve para corregir un
+    // vínculo equivocado, y ahí conviene que siga en la lista.
+    if (c.telegram_id) {
+      const r = await supabase.from("chats_telegram").delete().eq("chat_id", c.telegram_id);
+      if (r.error) setError(`Se borró, pero quedó su ficha del bot: ${r.error.message}`);
+    }
+    cargar();
   }
 
   return (
@@ -143,7 +153,7 @@ export default function Contactos() {
                   <span className="acciones">
                     <Vincular contacto={c} alCambiar={cargar} />
                     <button className="btn mini" onClick={() => { setEditando(c.id); setNuevo(false); }}>Editar</button>
-                    <button className="btn mini" onClick={() => borrarContacto(c.id, c.nombre)}>Borrar</button>
+                    <button className="btn mini" onClick={() => borrarContacto(c)}>Borrar</button>
                   </span>
                 </div>
                 <Encargos contacto={c} alCambiar={cargar} />
