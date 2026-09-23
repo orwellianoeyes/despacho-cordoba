@@ -606,8 +606,17 @@ def avisar(despacho: dict, degradado: bool = False) -> None:
         texto = (f"⚠️ Escrito por el motor de respaldo "
                  f"({despacho.get('motor', '?')}) — revisar antes de reenviar.\n\n"
                  + texto)
+    # Dos destinos, dos usos. La app pública es la lectura rápida en el
+    # celular —la ve solo Leo— y el panel es donde se trabaja: revisar a
+    # quién le toca qué y despachar. El aviso es el timbre de las dos.
+    # Los links los pone el motor, no la IA: el instructivo le pedía "el
+    # link a la app" y escribía el del Boletín Oficial, que no es ninguna
+    # de las dos.
     if app_url:
-        texto += f"\n{app_url}"
+        texto += f"\n\nLeer: {app_url}"
+    panel_url = os.environ.get("PANEL_URL", "")
+    if panel_url:
+        texto += f"\nRevisar y despachar: {panel_url}"
 
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat = os.environ.get("TELEGRAM_CHAT_ID")

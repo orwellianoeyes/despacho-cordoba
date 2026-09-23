@@ -177,9 +177,13 @@ la edición se juzguen por un rótulo.
 
 ## SECCIÓN 5 — AVISO DE TELEGRAM
 
-EXTENSIÓN: máximo 4 líneas. Número de boletín, cantidad de normas,
-la más importante del día en una frase, y el link a la app.
-(La versión completa siempre vive en la app; Telegram es solo el timbre.)
+EXTENSIÓN: máximo 3 líneas. Número de boletín, cantidad de normas y
+la más importante del día en una frase.
+
+**NO incluir ningún link.** Los pone el motor al final del mensaje, y son
+dos: el de la app de lectura y el del panel de trabajo. Cuando esto decía
+"y el link a la app", la IA escribía el del Boletín Oficial, que no es
+ninguno de los dos.
 
 ---
 
