@@ -437,6 +437,32 @@ pasa de 8.
 
 ## Problemas ya resueltos (no repetir el diagnóstico)
 
+- **La clave de Anthropic vive en DOS lugares desde que el panel está en
+  Vercel**, y crear una nueva puede dejar huérfano al otro. Pasó el
+  23/09/2026: el 22 se creó `vercel-panel` y la clave vieja —la que usa el
+  motor en la Mac— dejó de existir. El motor siguió “bien” hasta que Leo
+  pidió una corrida y saltó:
+
+      401 · authentication_error · "API key is invalid."
+
+  **Ese error NO es falta de crédito** (eso dice `credit_balance_too_low`),
+  ni el Boletín, ni la conexión. Y la consola **no marca** una clave
+  borrada: simplemente no la lista, así que "las veo todas normales" es
+  perfectamente compatible con que la del `.env` ya no exista.
+
+  Diagnóstico sin abrir el valor —hay que mirar la FORMA, no el secreto—:
+  largo ~108, prefijo `sk-ant-api0`, sin comillas ni espacios. Si la forma
+  está bien, el problema es la clave, no el pegado, y la respuesta es
+  crearla de nuevo: diagnosticar una credencial cuesta más que reemplazarla.
+
+  **Al rotar, crear la nueva ANTES y actualizar los dos lados**: el `.env`
+  de la Mac y las variables de Vercel. Y poner vencimiento `Never`, o el
+  panel se muere solo un martes cualquiera.
+
+  Lo que salvó el día: el motor **archiva el texto antes de llamar a la
+  IA**. Quedaron los 68 KB en `texto/` y 13 páginas en Supabase, así que
+  cuando la clave anduvo el análisis salió sin volver a bajar nada.
+
 - **El `read operation timed out` NO era la API: era la conexión.**
   Medido el 18/09/2026 con el cronómetro, nueve llamadas seguidas sin una
   sola falla:
