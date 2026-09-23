@@ -2,44 +2,44 @@
  "fecha": "2026-09-23",
  "numero_boletin": "185",
  "sintesis_juridica": [
-  "Se crean tres instrumentos normativos principales: el Programa Provincial EDUTEC (articulación público-privada en educación técnica), la aprobación de procedimientos sumariales para sanciones en establecimientos de salud y residencias geriátricas, y se ratifican modificaciones a planes de estudios en instituciones privadas. Se declara desierta la Licitación Pública N° 9/2026 de la Policía por falta de ofertas y se autoriza un segundo llamado por $189.099.999,72.",
-  "En materia educativa se ratifican cambios curriculares en la Tecnicatura Superior en Laboratorio de Análisis Clínicos (Escuela Normal Superior Víctor Mercante, Villa María) y en Comercio Internacional (Instituto Superior de Comercio Exterior, Córdoba capital). El Ministerio de Salud aprueba procedimientos sancionatorios actualizados conforme decretos 33/2008 y 657/2009, incorporando expediente digital y plataforma CIDI. Todas estas normas entran en vigencia según se especifica en sus respectivos articulados."
+  "Se crea el Programa Provincial EDUTEC, destinado a fortalecer la formación técnico-profesional de estudiantes de establecimientos educativos técnicos de Córdoba mediante la articulación entre el Estado Provincial, sector privado e instituciones educativas. El Programa funcionará bajo coordinación del Ministerio de Educación, Ministerio de Infraestructura y Servicios Públicos y Secretaría General de Ambiente, Economía Circular y Biociudadanía; se establece un Registro Provincial de Empresas de carácter digital y se crean una Comisión Interministerial con funciones de planificación, aprobación de programas y evaluación de resultados.",
+  "Se ratifican modificaciones a planes de estudios de dos carreras técnicas: Tecnicatura Superior en Laboratorio de Análisis Clínicos en la Escuela Normal Superior \"Victor Mercante\" de Villa María (con efecto 2027) y Tecnicatura Superior en Comercio Internacional en modalidad a distancia en el Instituto Superior de Comercio Exterior de Córdoba (con efecto 2025). Se aprueba procedimiento sumarial unificado para establecimientos de salud y residencias geriátricas (leyes 6.222 y 7.872). Se declara desierto el primer llamado a licitación para alquiler de contenedores de residuos de la Policía Provincial y se autoriza segundo llamado por $ 189.099.999,72."
  ],
  "sintesis_politica": [
-  "El Programa EDUTEC representa un movimiento de coordinación interministerial (Educación, Infraestructura y Servicios Públicos, Ambiente y Biociudadanía) orientado a alinear la formación técnica provincial con demandas de sectores estratégicos (energía, infraestructura, transición energética). La iniciativa favorece la participación voluntaria de empresas sin generar relación laboral, reduciendo riesgos institucionales pero potencialmente limitando el compromiso del sector privado.",
-  "La actualización de procedimientos en Salud responde a modernización administrativa incorporando herramientas digitales (CIDI, expediente electrónico), reflejando una búsqueda de mayor eficiencia en fiscalización sanitaria. El contexto de múltiples licitaciones educativas (obras mayores en establecimientos de Córdoba capital) y contrataciones de EPEC sugiere continuidad en inversión pública en infraestructura. No hay evidencia de controversias políticas explícitas en esta edición, aunque el fracaso de la licitación policial de contenedores puede indicar dificultades en cotización o especificaciones técnicas."
+  "El Programa EDUTEC refleja una estrategia de alineación entre educación técnica y demandas productivas provinciales, priorizando sectores de transición energética, infraestructura e innovación. La creación de un registro digital de empresas y una comisión interministerial busca institucionalizar la vinculación público-privada. El timing (septiembre 2026) posiciona la iniciativa como política educativa relevante en contexto de planificación presupuestaria anual.",
+  "El grueso de la edición está dominado por licitaciones de obras mayores en establecimientos educativos coordinadas por ACIF, sugeriendo un programa capital de inversión educativa en curso. La Policía Provincial reabre licitación de contenedores (desierta en primer llamado) sin cambios en monto, lo que puede indicar falta de oferentes en el mercado local de servicios ambientales. No se detectan controversias legislativas abiertas en la normativa publicada."
  ],
  "normas": [
   {
    "tipo": "Resolución",
    "clase": "resolucion",
    "numero": "117",
-   "titulo": "Creación del Programa Provincial EDUTEC – Articulación educación técnica, sector público y privado",
-   "importa": "Crea el Programa Provincial EDUTEC para fortalecer la formación técnico-profesional mediante articulación entre Estado Provincial, sector privado e instituciones educativas. Establece registro de empresas adheridas, modalidades de participación (prácticas, mentorías, pasantías, formación dual, transferencia tecnológica) y comisión interministerial coordinadora. La participación es voluntaria y no genera relación laboral ni derecho económico con la Provincia.",
+   "titulo": "Creación del Programa Provincial EDUTEC de formación técnico-profesional",
+   "importa": "El Ministerio de Educación y el Ministerio de Infraestructura y Servicios Públicos crean el Programa Provincial EDUTEC destinado a fortalecer la formación técnico-profesional mediante coordinación entre el Estado, sector privado e instituciones educativas. Se establece un Registro Provincial de Empresas de carácter digital y se crea una Comisión Interministerial con funciones de planificación, aprobación de programas y evaluación. Posible relación con tema vigilado Educación (a confirmar; el aviso no menciona explícitamente presupuesto específico ni plazo de implementación).",
    "seccion": "1",
    "pagina": 1,
    "ampliada": {
-    "juridica": "La resolución es firmada conjuntamente por Ministros de Educación e Infraestructura y Servicios Públicos, con coordinación de la Secretaría General de Ambiente, Economía Circular y Biociudadanía. Delega en la Comisión Interministerial facultades para aprobar protocolos técnicos, instructivos y formularios (art. 14). No contiene vicios aparentes de forma. La estructura de delegación respeta competencias ministeriales conforme Decreto 2206/2023 ratificado por Ley 10.956. El art. 12 expresamente descarta generación de relaciones laborales, un resguardo importante contra contestaciones futuras.",
-    "politica": "La iniciativa refuerza la narrativa oficial de 'desarrollo sostenible' e 'innovación tecnológica', alineando educación técnica con sectores estratégicos (energía renovable, hidrógeno, infraestructura). Políticamente, evita conflictos al no imponer obligaciones al sector privado (participación voluntaria). Beneficiados potenciales: estudiantes de escuelas técnicas, empresas participantes, gobiernos de sectores con demanda de capacitación. La ausencia de presupuesto explícito sugiere que la ejecución dependerá de recursos internos ministeriales y aportes privados.",
-    "oficialista": "El Programa EDUTEC materializa el compromiso del gobierno con modernización educativa y transición energética. Integra actores públicos y privados sin generar costos fiscales directos, aprovechando la experiencia empresarial para mejorar la empleabilidad. Responde a demandas reales del mercado laboral provincial y favorece la inserción de jóvenes en sectores de futuro.",
-    "opositora": "Crea un programa de coordinación interministerial sin presupuesto definido, lo que sugiere falta de compromiso real con financiamiento. La participación privada 'voluntaria' podría quedar vacía si no hay incentivos. No se especifican mecanismos de evaluación de resultados ni responsabilidades claras entre ministerios, generando riesgo de dispersión."
+    "juridica": "Se trata de un acto reglamentario que crea una estructura de coordinación interministerial sin delegación excesiva de competencias; cada ministerio retiene sus funciones específicas (Educación: supervisión pedagógica; Infraestructura: identificación de demandas sectoriales). El Decreto N° 2206/2023 y Ley N° 10.956 confieren competencias suficientes para esta regulación. No se detectan vicios formales; el texto es claro en motivación y atribuciones. La participación empresarial voluntaria sin relación contractual o laboral mitiga riesgos de responsabilidad estatal.",
+    "politica": "EDUTEC busca alinear educación técnica con demandas reales del mercado laboral y sectores estratégicos provinciales (energías renovables, hidrógeno, infraestructura, movilidad sustentable). La estructura interministerial y el registro digital sugieren modernización administrativa. Potencialmente beneficia empresas que buscan perfiles técnicos específicos y estudiantes con mejor empleabilidad. La apertura a universidades, municipios y organismos nacionales amplía alcance pero puede generar dificultades de coordinación si no se definen protocolos con claridad.",
+    "oficialista": "El Programa responde a una política clara de fortalecimiento de la empleabilidad y modernización de la formación técnica provincial, alineando oferta educativa con demandas reales del sector productivo y estrategias provinciales de transición energética e innovación. La participación voluntaria del sector privado sin costo para el Estado y el uso de plataforma digital garantizan eficiencia y sostenibilidad.",
+    "opositora": "Falta definición de presupuesto, plazo de implementación y métricas de éxito concretas. La delegación de funciones operativas a la Secretaría de Ambiente y Economía Circular (organismo menor en estructura del Poder Ejecutivo) puede resultar en débil coordinación con Educación e Infraestructura. Riesgo de que el programa quede en letra muerta sin presupuesto específico o que se convierta en instrumento de lobby empresarial sobre contenidos curriculares."
    },
-   "texto_oficial": "Art. 1°.- CREAR el Programa Provincial \"EDUTEC\", destinado a fortalecer la formación técnico-profesional de estudiantes de establecimientos educativos técnicos de la Provincia de Córdoba mediante procesos de articulación entre el Estado Provincial, el sector privado y las instituciones educativas. Art. 3°.- ESTABLECER que el Programa EDUTEC funcionará bajo la Coordinación Institucional del Ministerio de Educación, El Ministerio de Infraestructura y Servicios Públicos y la Secretaría General de Ambiente, Economía Circular Biociudadanía, la cual actuará además como Unidad Ejecutora del Programa. Art. 4°.- CREAR el Registro Provincial de Empresas EDUTEC, de carácter administrativo, público y digital. Art. 12°.- LA participación de las empresas será voluntaria y no generará relación laboral, contractual ni derecho económico alguno con la Provincia.",
+   "texto_oficial": "Art. 1°.- CREAR el Programa Provincial \"EDUTEC\", destinado a fortalecer la formación técnico-profesional de estudiantes de establecimientos educativos técnicos de la Provincia de Córdoba mediante procesos de articulación entre el Estado Provincial, el sector privado y las instituciones educativas. Art. 2°.- EL Programa tendrá como objetivos: a) Fortalecer las capacidades técnicas de los estudiantes; b) Promover instancias de formación teórico-prácticas; c) Generar espacios de innovación tecnológica; d) Favorecer la inserción laboral; e) Adecuar la educación técnica a las demandas actuales del sector público y privado; f) Promover el desarrollo sostenible y la economía circular; g) Incentivar la participación activa del sector empresarial en la formación técnica provincial. Art. 3°.- ESTABLECER que el Programa EDUTEC funcionará bajo la Coordinación Institucional del Ministerio de Educación, El Ministerio de Infraestructura y Servicios Públicos y la Secretaría General de Ambiente, Economía Circular Biociudadanía, la cual actuará además como Unidad Ejecutora del Programa, coordinando las acciones necesarias para su implementación, seguimiento y evaluación con la Dirección de Educación Técnica y Formación Profesional de la Secretaria de Educación. Art. 4°.- CREAR el Registro Provincial de Empresas EDUTEC, de carácter administrativo, público y digital, destinado a la inscripción voluntaria de empresas, cámaras empresariales, colegios profesionales, cooperativas, parques industriales, entidades intermedias y demás organizaciones interesadas en participar del Programa. Art. 5°.- LA inscripción en el Registro será realizada mediante plataforma digital que determine la Autoridad de Aplicación y tendrá carácter permanente. Art. 6°.- LAS entidades adheridas podrán participar mediante: prácticas educativas; mentorías; visitas técnicas; pasantías; formación dual; capacitación docente; préstamo de equipamiento; transferencia tecnológica; participación en mesas técnicas; desarrollo de proyectos de innovación; otras modalidades compatibles con los objetivos del Programa. Las condiciones de la participación serán establecidas en los convenios específicos que se suscriban al efecto. Art. 9°.- CREAR la Comisión Interministerial EDUTEC, integrada por representantes titulares y suplentes del Ministerio de Educación, del Ministerio de Infraestructura y Servicios Públicos y de la Secretaría General de Ambiente, Economía Circular y Biociudadanía. La Comisión tendrá como funciones: elaborar el Plan Anual de Capacitación; aprobar los programas de formación; evaluar resultados; convocar empresas; proponer mejoras; dictar normas operativas.",
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_230926.pdf"
   },
   {
    "tipo": "Resolución",
    "clase": "resolucion",
    "numero": "1610",
-   "titulo": "Ratificación de modificaciones al plan de estudios: Tecnicatura Superior en Laboratorio de Análisis Clínicos",
-   "importa": "Ratifica la Resolución N° 2026/PRIVA-00000833 de la Dirección General de Educación Pública de Gestión Privada, que aprueba modificaciones al plan de estudios de la carrera Tecnicatura Superior en Laboratorio de Análisis Clínicos (3 años, 1702 horas) en la Escuela Normal Superior Víctor Mercante, Villa María, Departamento General San Martín, con efecto desde ciclo lectivo 2027.",
+   "titulo": "Ratificación de modificación de plan de estudios: Tecnicatura Superior en Laboratorio de Análisis Clínicos",
+   "importa": "Se ratifica la Resolución N° 2026/PRIVA-00000833 de la Dirección General de Educación Pública de Gestión Privada, que aprueba las modificaciones al plan de estudios de la carrera Tecnicatura Superior en Laboratorio de Análisis Clínicos (presencial, 3 años, 1702 horas reloj) en la Escuela Normal Superior \"Victor Mercante\" de Villa María (Departamento General San Martín), con efecto a partir del ciclo lectivo 2027.",
    "seccion": "1",
    "pagina": 3,
    "ampliada": {
-    "juridica": "Acto de ratificación ministerial de una resolución anterior de un órgano dependiente (Dirección General de Educación Pública de Gestión Privada). Confirma ajuste a Ley N° 5326 según dictamen jurídico ministerial (Nro. 2026/00002563) y consejo del área legal. El texto anexado (Anexo I, 56 páginas) forma parte integrante pero no se reproduce en el boletín, por lo que no es posible verificar contenidos específicos del plan de estudios modificado. La ratificación opera como control administrativo de la decisión inicial.",
-    "politica": "Autoriza cambios curriculares en una institución privada adscripta con acreditación estatal, reflejando modernización de oferta formativa en la provincia del interior. No hay controversias aparentes; es trámite rutinario de educación técnica privada.",
-    "oficialista": "Garantiza actualización de planes de estudio conforme a estándares pedagógicos vigentes, fortaleciendo la capacitación en laboratorio clínico.",
-    "opositora": "Ratificación de cambios curriculares sin detalle público de qué se modificó; el anexo de 56 páginas no se transcribe en el boletín, limitando la transparencia."
+    "juridica": "Se trata de una ratificación ministerial de un acto de una dirección dependiente (Gestión Privada). El texto confirma que la medida cumple requerimientos jurídicos-formales-pedagógicos de la Ley N° 5326. No se detectan vicios de forma; la resolución menciona anexo de 53 páginas (compuesto de 56 páginas según el acto), sin que se transcriba el contenido del plan modificado. La ratificación es competencia clara del Ministerio de Educación.",
+    "politica": "Modificación de plan de estudios en institución de gestión privada. El timing (ratificación en septiembre, efecto 2027) permite ajuste de oferta académica antes del ciclo lectivo. No se detectan controversias políticas específicas; es acto administrativo de trámite ordinario.",
+    "oficialista": "Adecuación rutinaria de planes de estudios a evolución de la formación técnica en análisis clínicos, con participación de institución privada acreditada.",
+    "opositora": "La ratificación no publica el contenido de la modificación (anexo no transcripto), limitando control público sobre qué cambios se aprueban en la formación de técnicos en laboratorio."
    },
    "texto_oficial": "Art. 1°.- RATIFICAR la Resolución N° 2026/PRIVA-00000833 y su Anexo I emanada de la Dirección General de Educación Pública de Gestión Privada, la que compuesta por cincuenta y seis (56) páginas forma parte de la presente Resolución, por la que se aprueban las modificaciones al plan de estudios de la carrera \"Tecnicatura Superior en Laboratorio de Análisis Clínicos\" -opción pedagógica Presencial-, de tres (3) años de duración y una carga horaria de 1702 horas reloj, que otorga el título de \"Técnico Superior en Laboratorio de Análisis Clínicos\", en el establecimiento educativo adscripto ESCUELA NORMAL SUPERIOR \"VICTOR MERCANTE\" -Nivel Superior- de Villa María, Departamento General San Martín, con efecto a partir del ciclo lectivo 2027.",
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_230926.pdf"
@@ -48,15 +48,15 @@
    "tipo": "Resolución",
    "clase": "resolucion",
    "numero": "1614",
-   "titulo": "Ratificación de modificaciones al plan de estudios: Tecnicatura Superior en Comercio Internacional",
-   "importa": "Ratifica resoluciones anteriores (N° 0488/2025 y su rectificatoria N° 2026/PRIVA-00000034) que aprueban modificaciones al plan de estudios de la carrera Tecnicatura Superior en Comercio Internacional (modalidad Educación a Distancia, 3 años, 1760 horas) en el Instituto Superior de Comercio Exterior, Córdoba capital, Departamento Capital, con efecto desde ciclo lectivo 2025.",
+   "titulo": "Ratificación de modificación de plan de estudios: Tecnicatura Superior en Comercio Internacional",
+   "importa": "Se ratifica la Resolución N° 0488/2025 y su rectificatoria Resolución N° 2026/PRIVA-00000034 de la Dirección General de Institutos Privados de Enseñanza, que aprueba las modificaciones al plan de estudios de la carrera Tecnicatura Superior en Comercio Internacional (educación a distancia, 3 años, 1760 horas reloj) en el Instituto Superior de Comercio Exterior de Córdoba (Departamento Capital), con efecto a partir del ciclo lectivo 2025.",
    "seccion": "1",
    "pagina": 3,
    "ampliada": {
-    "juridica": "Ratificación de cambios curriculares en institución privada adscripta, con apoyo de dictamen jurídico (Nro. 2026/00002496) y consejo legal. Nota que la anterior resolución tuvo una rectificatoria (Nro. 2026/PRIVA-00000034), indicando correcciones en la decisión inicial. El anexo de 118 páginas no se reproduce. Ajuste a Ley N° 5326. Trámite administrativo standard sin irregularidades aparentes.",
-    "politica": "Modernización de oferta educativa en comercio exterior con modalidad a distancia, respondiendo a demanda de formación flexible. Institución ubicada en capital provincial, sector privado de educación superior.",
-    "oficialista": "Actualiza plan de estudios en comercio internacional para responder a demandas del comercio moderno y la economía digital.",
-    "opositora": "Modificaciones curriculares ratificadas sin exposición de contenidos específicos; anexo de 118 páginas no es público en el boletín."
+    "juridica": "Ratificación ministerial de acto de dirección dependiente. El acto original (Resolución N° 0488/2025) fue rectificado (N° 2026/PRIVA-00000034), indicando que se detectaron errores. El texto confirma cumplimiento de requerimientos de Ley N° 5326. Anexo de 118 páginas no se transcribe. Competencia clara del Ministerio de Educación.",
+    "politica": "Modificación de plan en institución privada en modalidad a distancia. El efecto retroactivo al ciclo 2025 sugiere que la modificación ya estaba en ejecución antes de ratificación formal (cierta regularización tardía). No se detectan controversias.",
+    "oficialista": "Adecuación de oferta educativa de comercio internacional a modalidad a distancia, respondiendo a demandas de flexibilidad educativa post-pandemia.",
+    "opositora": "Anexo de 118 páginas no publicado; ratificación de cambios ya ejecutados sugiere débil control previo sobre curriculum de institución privada."
    },
    "texto_oficial": "Art. 1°.- RATIFICAR la Resolución N° 0488/2025 y su rectificatoria Resolución N° 2026/PRIVA-00000034, emanadas de la entonces Dirección General de Institutos Privados de Enseñanza, la que compuesta por ciento dieciocho (118) páginas forma parte de la presente Resolución, por las que se aprueban las modificaciones al plan de estudios de la carrera \"Tecnicatura Superior en Comercio Internacional\" -opción Educación a Distancia-, de tres (3) años de duración y una carga horaria de 1760 horas reloj, en el establecimiento educativo adscripto INSTITUTO SUPERIOR DE COMERCIO EXTERIOR -Nivel Superior- de Córdoba, Departamento Capital, con efecto a partir del ciclo lectivo 2025.",
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_230926.pdf"
@@ -65,15 +65,15 @@
    "tipo": "Resolución",
    "clase": "resolucion",
    "numero": "2209",
-   "titulo": "Aprobación de procedimiento sumarial para sanciones en establecimientos de salud y residencias geriátricas",
-   "importa": "Aprueba nuevo procedimiento sumarial administrativo para aplicación de sanciones a establecimientos de salud y residencias geriátricas conforme Decretos Reglamentarios 33/2008 y 657/2009. Se moderniza con incorporación de expediente digital y plataforma CIDI. Anexos I y II (no transcriptos) contienen instrumentos operativos. Autoridad de aplicación: Ministerio de Salud a través de la Subsecretaría de Asuntos Legales.",
+   "titulo": "Aprobación de procedimiento sumarial para establecimientos de salud y residencias geriátricas",
+   "importa": "El Ministerio de Salud aprueba un procedimiento sumarial administrativo unificado para la instrucción de sumarios a establecimientos de salud y residencias geriátricas alcanzados por las leyes 6.222 y 7.872. El procedimiento se especifica en Anexos I y II, estableciendo un marco actualizado para fiscalización y sanción que incorpora expediente digital y plataforma CIDI. Posible relación con tema vigilado APROSS (a confirmar; el aviso menciona leyes 6.222 y 7.872 pero no APROSS explícitamente).",
    "seccion": "1",
    "pagina": 4,
    "ampliada": {
-    "juridica": "Acto de administración reglamentaria del Ministerio de Salud, ejerciendo potestad delegada por arts. 3 de Decretos 33/2008 y 657/2009 para dictar instrumentos complementarios. Sustentado en dictamen de Dirección de Jurisdicción de Asuntos Legales (Nro. 2026/0001-00002395). Afirma que estándar propuesto respeta principios de juridicidad, legalidad, tutela administrativa efectiva, proporcionalidad y razonabilidad según 'bloque de constitucionalidad' nacional y provincial. No se publican los anexos, lo que limita control de si el procedimiento efectivamente respeta debida proceso. Delegación a Comisión para aprobar protocolos posteriores podría ser excesiva.",
-    "politica": "Modernización administrativa orientada a digitalización y eficiencia en fiscalización sanitaria. Refleja maduración institucional del Ministerio tras reestructuración orgánica. Favorecería eventuales acciones contra establecimientos incumplidores, pero el procedimiento no se expone públicamente (anexos no incluidos).",
-    "oficialista": "Moderniza procedimientos sancionatorios para mayor rapidez y claridad, garantizando debida proceso conforme normativa vigente.",
-    "opositora": "Los anexos I y II (que definen el procedimiento concreto) no se publican en el boletín; procura opaca que impide evaluación pública de si se respetan garantías de defensa."
+    "juridica": "Se trata de un acto de regulación procedural basado en competencias delegadas a la autoridad de aplicación (Decretos 33/2008 y 657/2009, artículos 3). El texto afirma que el estándar propuesto satisface principios de juridicidad, legalidad, tutela administrativa efectiva, proporcionalidad y razonabilidad. Declara que reconoce práctica institucional y precedentes de otras reparticiones. Sin embargo, los Anexos I y II no se publican en el boletín (solo se alude a ellos); esto limita control público sobre contenido del procedimiento. Riesgo de que procedimiento sea restrictivo de derechos de defensa de administrados sin visibilidad normativa.",
+    "politica": "Modernización administrativa del Ministerio de Salud mediante integración de expediente digital y plataforma CIDI. El timing (septiembre 2026) responde a reestructuración orgánica mencionada en considerandos. Potencialmente acelera procedimientos sancionatorios contra establecimientos de salud, beneficiando control estatal pero con riesgo de afectar derechos de pequeñas clínicas o residencias si procedimiento es muy expeditivo.",
+    "oficialista": "Modernización de procedimientos administrativos de fiscalización, incorporando herramientas digitales y evitando trabas burocráticas. Responde a evolución del Estado provincial en tramitación telemática y mejora de eficiencia de control.",
+    "opositora": "Aprobación de procedimiento sumarial sin publicación de sus reglas (Anexos no transcritos) viola principio de publicidad normativa. Riesgo de que procedimiento acelere sanciones sin garantizar defensa adecuada de establecimientos de salud; potencial represión sobre sector privado de salud."
    },
    "texto_oficial": "1°.- APRUÉBASE el procedimiento sumarial aplicable en los supuestos de aplicación de los Decretos 33/2008 y 657/2009, para establecimientos alcanzados por la ley 6.222 y 7.872 o los instrumentos que en el futuro las reemplacen, conforme los Anexos I y II que forman parte integrante del presente. 2°.- LA Subsecretaría de Asuntos Legales y/o la unidad ministerial de asesoramiento jurídico permanente que en el futuro la reemplace, con la cooperación de los órganos encargados de la regulación y fiscalización de los establecimientos señalados en el apartado 1°, velará por el cumplimiento de la presente resolución.",
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_230926.pdf"
@@ -82,96 +82,28 @@
    "tipo": "Resolución",
    "clase": "resolucion",
    "numero": "1324",
-   "titulo": "Declaración desierta de Licitación N° 9/2026 (alquiler contenedores) y autorización de segundo llamado",
-   "importa": "Declara desierta la Licitación Pública N° 9/2026 de la Policía de la Provincia para alquiler de contenedores de residuos con destino a dependencias varias (División Mantenimiento Central), por falta de ofertas en acto de apertura del 11/09/2026. Autoriza segundo llamado hasta $189.099.999,72 según pliegos de condiciones generales, particulares y técnicas. Procedimiento conforme Ley 10.155/2013 (Régimen de Compras y Contrataciones).",
+   "titulo": "Declaración desierta de licitación de contenedores de residuos y segundo llamado",
+   "importa": "El Jefe de Policía declara desierto el primer llamado a Licitación Pública N° 9/2026 para alquiler de contenedores de residuos con destino a dependencias varias de la Policía Provincial (División Mantenimiento Central), por ausencia de ofertas en apertura de 11/09/2026. Se autoriza segundo llamado por presupuesto oficial de $ 189.099.999,72, conforme Pliegos de Condiciones Generales, Particulares y de Especificaciones Técnicas.",
    "seccion": "1",
    "pagina": 4,
    "ampliada": {
-    "juridica": "Acto administrativo de declaración de desierto conforme art. 7.1.7 Decreto Reglamentario 305/2014 (que reglamenta Ley 10.155/2013). Procedimiento regular: autorización previa (Resolución J N° 2026/000-00001224 del 26/08/2026), primer llamado sin ofertas, reautorización de segundo llamado. El presupuesto estimado ($189.099.999,72) es casi $190 millones, sugiriendo servicio de envergadura. No hay vicio aparente; el procedimiento respeta normativa de compras públicas provinciales.",
-    "politica": "El fracaso del primer llamado podría indicar: (a) especificaciones técnicas restrictivas, (b) presupuesto bajo para el mercado, o (c) falta de interés del sector en prestar servicio a la Policía. El segundo llamado, con mismo presupuesto y hasta la misma fecha de apertura (06/10/2026), sugiere que se mantienen condiciones similares. No hay evidencia de controversia política.",
-    "oficialista": "Procedimiento conforme normas de compras públicas; segundo llamado busca garantizar competencia.",
-    "opositora": "Fracaso de primer llamado sugiere que condiciones (precio, especificaciones) no son competitivas o atractivas para el mercado."
+    "juridica": "Acto administrativo conforme artículo 7.1.7 del Decreto Reglamentario N° 305/2014 (Régimen de Compras y Contrataciones, Ley N° 10.155/2013). La desertificación por ausencia de ofertas es procedimiento regular; la reapertura de licitación es facultativa del organismo. El presupuesto se mantiene idéntico ($ 189.099.999,72), sin análisis de por qué falló primer llamado (posible presupuesto insuficiente, especificaciones técnicas no atractivas para mercado local, o simplemente falta de proveedores de ese servicio). No hay vicio formal evidente.",
+    "politica": "Falla de mercado en primer llamado sugiere oferta limitada de servicios de alquiler de contenedores en Córdoba capital, o que presupuesto estimado no resulta atractivo. Reabrir con igual presupuesto sin cambios de pliegos puede resultar en segundo fracaso. Potencial indicador de concentración de mercado en ese servicio.",
+    "oficialista": "Procedimiento regular de desertificación y reapertura de licitación, buscando obtener mejor respuesta del mercado en segundo llamado.",
+    "opositora": "Reapertura sin análisis de causas de desertificación original; presupuesto puede ser insuficiente, lo que perpetuaría ciclo de fracasos licitatorios."
    },
-   "texto_oficial": "1º) DECLARAR DESIERTO el primer llamado a la Licitación Pública Nº 9/2026, para el servicio de \"ALQUILER DE CONTENEDORES DE RESIDUOS CON DESTINO A DEPENDENCIAS VARIAS DE LA POLICÍA DE LA PROVINCIA DE CÓRDOBA – DIVISIÓN MANTENIMIENTO CENTRAL\", en virtud a lo reglado en el artículo 7.1.7 del Decreto Reglamentario Nº: 305/2014 que reglamenta la Ley Nº: 10.155/2013. 3º) AUTORIZAR al Departamento Finanzas a realizar, por intermedio de la División Contrataciones, el SEGUNDO LLAMADO a Licitación Pública Nº 9/2026, para el servicio de \"ALQUILER DE CONTENEDORES DE RESIDUOS CON DESTINO A DEPENDENCIAS VARIAS DE LA POLICÍA DE LA PROVINCIA DE CÓRDOBA – DIVISIÓN MANTENIMIENTO CENTRAL\", hasta la suma total estimada de PESOS CIENTO OCHENTA Y NUEVE MILLONES NOVENTA Y NUEVE MIL NOVECIENTOS NOVENTA Y NUEVE CON SETENTA Y DOS CENTAVOS ($ 189.099.999,72).",
+   "texto_oficial": "1º) DECLARAR DESIERTO el primer llamado a la Licitación Pública Nº 9/2026, para el servicio de \"ALQUILER DE CONTENEDORES DE RESIDUOS CON DESTINO A DEPENDENCIAS VARIAS DE LA POLICÍA DE LA PROVINCIA DE CÓRDOBA – DIVISIÓN MANTENIMIENTO CENTRAL\", en virtud a lo reglado en el artículo 7.1.7 del Decreto Reglamentario Nº: 305/2014 que reglamenta la Ley Nº: 10.155/2013 \"Régimen de Compras y Contrataciones de la Administración Pública Provincial\". 2º) DISPONER se realicen los ajustes contables pertinentes. 3º) AUTORIZAR al Departamento Finanzas a realizar, por intermedio de la División Contrataciones, el SEGUNDO LLAMADO a Licitación Pública Nº 9/2026, para el servicio de \"ALQUILER DE CONTENEDORES DE RESIDUOS CON DESTINO A DEPENDENCIAS VARIAS DE LA POLICÍA DE LA PROVINCIA DE CÓRDOBA – DIVISIÓN MANTENIMIENTO CENTRAL\", hasta la suma total estimada de PESOS CIENTO OCHENTA Y NUEVE MILLONES NOVENTA Y NUEVE MIL NOVECIENTOS NOVENTA Y NUEVE CON SETENTA Y DOS CENTAVOS ($ 189.099.999,72).",
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_230926.pdf"
-  },
-  {
-   "tipo": "Licitación Pública",
-   "clase": "licitacion",
-   "numero": "Grupo 13",
-   "titulo": "ACIF – Contratación de obras mayores en establecimientos educativos (Grupo 13, ciudad de Córdoba capital)",
-   "importa": "ACIF (Agencia Córdoba de Inversión y Financiamiento, S.E.M.) licita obras mayores en 9 establecimientos educativos de Córdoba capital: Escuela Honorato Laconi, Escuela Arturo Capdevila, J.de Inf. Provincia de Entre Ríos, Escuela Florencio Sánchez, Escuela Esteban Echeverría, Escuela Manuel Belgrano, I.P.E.M. N° 41 Jorge Luis Borges, I.P.E.M. N° 39 Don Bosco, Escuela Provincia de Córdoba. Presupuesto oficial: $1.064.937.600,00. Plazo: 120 días. Presentación: 05/10/2026 hasta las 12:00 h. Apertura: 06/10/2026 a las 10:30 h.",
-   "seccion": "4",
-   "pagina": 1,
-   "ampliada": {
-    "juridica": "Licitación pública con soporte digital conforme Decreto 583/2016 (plataforma digital para licitaciones de obras públicas conforme Ley 8.614). Garantía de mantenimiento de oferta: 1% del presupuesto oficial. Visita técnica obligatoria: 29/09/2026 de 9 a 14 hs en Dirección General de Infraestructura y Equipamiento del Ministerio de Educación (Ituzaingó 1351, B° Nueva Córdoba). Procedimiento regular conforme normativa de obras públicas provinciales.",
-    "politica": "Inversión de ~$1.065 millones en infraestructura educativa en capital provincial. ACIF es el ejecutor histórico de grandes obras públicas, lo que sugiere continuidad de la estrategia de usar entes descentralizados para canalizar financiamiento (créditos nacionales/internacionales, subsidios). La envergadura de la inversión refleja prioridad en infraestructura educativa urbana.",
-    "oficialista": "Inversión significativa en mejoramiento de edificios escolares, reflejando compromiso con calidad educativa.",
-    "opositora": "ACIF es estructura de economía mixta que ha sido cuestionada por opacidad en contrataciones; grandes presupuestos de obras sin detalles públicos de avances previos."
-   },
-   "texto_oficial": "OBJETO: \"CONTRATACIÓN DE OBRAS MAYORES EN ESTABLECIMIENTOS EDUCATIVOS DE LA CIUDAD DE CÓRDOBA CAPITAL - GRUPO 13: ESCUELA HONORATO LACONI, ESCUELA ARTURO CAPDEVILA, J.DE INF. PROVINCIA DE ENTRE RIOS, ESCUELA FLORENCIO SANCHEZ, ESCUELA ESTEBAN ECHEVERRIA, ESCUELA MANUEL BELGRANO, I.P.E.M. Nº 41 JORGE LUIS BORGES, I.P.E.M. Nº 39 DON BOSCO Y ESCUELA PROVINCIA DE CORDOBA\". PRESUPUESTO OFICIAL: $1.064.937.600,00. PLAZO DE EJECUCIÓN: 120 días corridos. PRESENTACIÓN DE OFERTAS: 05 de octubre de 2026 hasta las 12:00 h. APERTURA DE OFERTAS: 06 de octubre de 2026 a las 10:30 h.",
-   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_230926.pdf"
-  },
-  {
-   "tipo": "Licitación Pública",
-   "clase": "licitacion",
-   "numero": "ACIF",
-   "titulo": "ACIF – Construcción nuevo edificio para Escuela Secundaria de Oficios en Barrio Müller",
-   "importa": "ACIF licita construcción de nuevo edificio para Escuela Secundaria de Oficios en Barrio Müller, localidad Córdoba, Departamento Capital. Presupuesto oficial: $4.163.213.517,35. Plazo: 360 días. Presentación: 05/10/2026 hasta 10:00 h. Apertura: 05/10/2026 a las 12:00 h. Visita técnica: 28/09/2026 a las 11:00 h (calle Antonio Machado esq. Antonio Berutti, Barrio Müller).",
-   "seccion": "4",
-   "pagina": 2,
-   "ampliada": {
-    "juridica": "Licitación pública con plataforma digital conforme Decreto 583/2016 y Ley 8.614. Garantía de mantenimiento: 1% del presupuesto. Categoría Primera (Arquitectura 100%). Plazo ampliado a 360 días reflejando complejidad de obra nueva vs. reformas. Procedimiento conforme normativa vigente.",
-    "politica": "Inversión de ~$4.163 millones en nueva infraestructura educativa técnica en zona de Córdoba capital (Barrio Müller). Alineada con política de educación técnica profesional (conexión con Programa EDUTEC ratificado en esta misma edición). Refleja apuesta por escuelas técnicas como herramienta de desarrollo.",
-    "oficialista": "Construcción de nueva escuela técnica refuerza compromiso con educación profesionalizante y oportunidades laborales.",
-    "opositora": "Inversión masiva en nueva edificación cuando podría haber reutilización de inmuebles ociosos; plazo de 360 días es extenso y puede reflejar complejidad no controlada."
-   },
-   "texto_oficial": "OBJETO: \"CONSTRUCCIÓN NUEVO EDIFICIO PARA LA ESCUELA SECUNDARIA DE OFICIOS EN BARRIO MÜLLER, LOCALIDAD CÓRDOBA, DEPARTAMENTO CAPITAL\". PRESUPUESTO OFICIAL: $4.163.213.517,35. PLAZO DE EJECUCIÓN: 360 días corridos. PRESENTACIÓN DE OFERTAS: 05 de octubre de 2026 hasta las 10:00 h. APERTURA DE OFERTAS: 05 de octubre de 2026 a las 12:00 h.",
-   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_230926.pdf"
-  },
-  {
-   "tipo": "Licitación Pública",
-   "clase": "licitacion",
-   "numero": "Ministerio de Seguridad",
-   "titulo": "Ministerio de Seguridad – Adquisición de 284 neumáticos para 71 vehículos",
-   "importa": "Ministerio de Seguridad licita adquisición de 284 neumáticos para 71 vehículos de la Secretaría de Gestión de Riesgo Climático, Catástrofes y Protección Civil. Presupuesto: $94.193.656,00 (IVA incluido). Licitación Pública Presencial. Presentación: 06/10/2026 hasta las 10:00 hs en Mesa de Entrada Centro Cívico del Bicentenario (Rosario de Santa Fe N° 650, Córdoba). Apertura: 06/10/2026 a las 12:00 hs. Muestras: hasta 05/10/2026 a las 13:00 hs.",
-   "seccion": "4",
-   "pagina": 2,
-   "ampliada": {
-    "juridica": "Licitación presencial (no digital, a diferencia de ACIF). Adjudicación por renglón completo. Procedimiento conforme Ley 10.155/2013. Pliego gratuito en portal compraspublicas.cba.gov.ar. Consultas hasta 01/10/2026 a las 12:00 hs. Presupuesto ~$94 millones refleja gasto operacional de la Secretaría de Gestión de Riesgo (protección civil, emergencias climáticas).",
-    "politica": "Inversión operacional en equipamiento de vehículos de emergencia/protección civil, área estratégica en contexto de cambio climático (tema en vía de impacto institucional en Córdoba). Presupuesto moderado comparado con obras educativas.",
-    "oficialista": "Provisión de equipamiento esencial para servicios de emergencia.",
-    "opositora": "Licitación presencial (menos transparencia que sistemas digitales) para compra de neumáticos de presupuesto relevante."
-   },
-   "texto_oficial": "OBJETO: \"ADQUISICION DE DOSCIENTOS OCHENTA Y CUATRO (284) NEUMÁTICOS PARA SETENTA Y UN (71) VEHÍCULOS PERTENECIENTES A LAS DISTINTAS DEPENDENCIAS DE LA SECRETARÍA DE GESTIÓN DE RIESGO CLIMÁTICO, CATASTROFES Y PROTECCIÓN CIVIL DEL MINISTERIO DE SEGURIDAD\". PRESUPUESTO: $94.193.656,00 IVA INCLUIDO. PRESENTACIÓN: 06/10/2026 hasta las 10:00hs. APERTURA: 06/10/2026 a las 12:00hs.",
-   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_230926.pdf"
-  },
-  {
-   "tipo": "Licitación Pública",
-   "clase": "licitacion",
-   "numero": "Adquisición camas cucheta",
-   "titulo": "Secretaría General de Desarrollo Social – Adquisición de 1.000 camas cucheta para población vulnerable",
-   "importa": "Secretaría General de Desarrollo Social del Ministerio de Desarrollo Social y Promoción del Empleo licita adquisición de 1.000 camas cucheta para asistencia a población en indigencia y/o vulnerabilidad social grave en los 427 municipios de Córdoba. Presupuesto: $205.000.000,00. Presentación de muestras: 29/09/2026 de 09:00 a 12:00 hs. Presentación de ofertas: 02/10/2026 de 08:00 a 12:00 hs. Apertura: 02/10/2026 a las 13:00 hs. Autorización: Resolución N° 2026/SGDS-00000261.",
-   "seccion": "4",
-   "pagina": 1,
-   "ampliada": {
-    "juridica": "Licitación pública para adquisición de bienes (camas). Presupuesto $205 millones. Destino: población vulnerable (tema en vigilancia según categoría de APROSS/emergencia sanitaria, aunque esta licitación es de Desarrollo Social, no sanitaria). Pliego en portal compraspublicas.cba.gov.ar. Procedimiento regular conforme ley de compras.",
-    "politica": "Política social de equipamiento para albergues o centros de atención a población en situación de calle/vulnerabilidad. Amplitud de alcance (427 municipios) sugiere programa provincial integrado. Presupuesto moderado ($205 millones) para inversión social.",
-    "oficialista": "Provisión de equipamiento para asistencia a población vulnerable, reflejo de política social inclusiva.",
-    "opositora": "Adquisición centralizada de camas para 427 municipios puede no responder a necesidades locales diferenciadas."
-   },
-   "texto_oficial": "OBJETO: Adquisición de mil (1.000) camas cucheta con destino a brindar asistencia a la población en estado de indigencia y/o situación de vulnerabilidad social grave abarcando los 427 Municipios de la Provincia de Córdoba. PRESUPUESTO: $205.000.000,00. PRESENTACIÓN DE MUESTRAS: 29/09/2026 desde las 09:00 hasta las 12:00 horas. PRESENTACIÓN DE OFERTAS: 02/10/2026 desde las 08:00 hasta las 12:00 horas. ACTO DE APERTURA: 02/10/2026 a las 13:00 horas.",
-   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_230926.pdf"
   }
  ],
  "movimientos": [
   {
    "tipo": "Intervención",
    "clase": "creacion",
-   "instrumento": "Resolución del Ministerio de Bioagroindustria N° 2026/00000198 (14/08/2026)",
-   "titulo": "Intervención del Consorcio Caminero N° 255 – Villa San Esteban",
-   "detalle": "Se designa Interventores: Valeria Soledad Piva (DNI 26.767.710) y José Alberto López (DNI 29.207.982). Domicilio electrónico: institucionalconsorciosmbai@gmail.com. Se convoca a acreedores para presentación de reclamos hasta 09/10/2026. Procedimiento conforme Ley Provincial N° 11.059.",
-   "organismo": "Consorcio Caminero N° 255 (Villa San Esteban, Departamento San Justo)",
+   "instrumento": "Resolución del Ministerio de Bioagroindustria N° 2026/00000198, fecha 14 de agosto de 2026",
+   "titulo": "Designación de Interventores en Consorcio Caminero N° 255 - Villa San Esteban",
+   "detalle": "Se ha dispuesto el inicio del proceso de Intervención del Consorcio Caminero N° 255 - Villa San Esteban (localidad Villa San Esteban, Departamento San Justo, CUIT N° 30-68886811-0). Se designan como Interventores a Valeria Soledad Piva (DNI N° 26.767.710) y José Alberto López (DNI N° 29.207.982). Se convoca a acreedores para presentación de créditos antes del 09 de octubre de 2026.",
+   "organismo": "Consorcio Caminero N° 255 - Villa San Esteban",
    "pagina": 6,
    "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_230926.pdf"
   }
@@ -180,238 +112,151 @@
   {
    "tipo": "Resolución",
    "numero": "117",
-   "titulo": "Programa Provincial EDUTEC",
+   "titulo": "Creación del Programa Provincial EDUTEC",
+   "resumen": "El Ministerio de Educación y el Ministerio de Infraestructura y Servicios Públicos crean el Programa Provincial EDUTEC destinado a fortalecer la formación técnico-profesional de estudiantes de establecimientos educativos técnicos de Córdoba mediante articulación entre Estado Provincial, sector privado e instituciones educativas.",
    "seccion": "1",
    "pagina": 1
   },
   {
    "tipo": "Resolución",
    "numero": "1610",
-   "titulo": "Ratificación plan Tecnicatura Laboratorio de Análisis Clínicos",
+   "titulo": "Ratificación de modificación de plan de estudios de Tecnicatura Superior en Laboratorio de Análisis Clínicos",
+   "resumen": "El Ministerio de Educación ratifica la aprobación de modificaciones al plan de estudios de la Tecnicatura Superior en Laboratorio de Análisis Clínicos (3 años, presencial, 1702 horas reloj) en la Escuela Normal Superior \"Victor Mercante\" de Villa María, con efecto ciclo lectivo 2027.",
    "seccion": "1",
    "pagina": 3
   },
   {
    "tipo": "Resolución",
    "numero": "1614",
-   "titulo": "Ratificación plan Tecnicatura Comercio Internacional",
+   "titulo": "Ratificación de modificación de plan de estudios de Tecnicatura Superior en Comercio Internacional",
+   "resumen": "El Ministerio de Educación ratifica la aprobación de modificaciones al plan de estudios de la Tecnicatura Superior en Comercio Internacional (3 años, a distancia, 1760 horas reloj) en el Instituto Superior de Comercio Exterior de Córdoba, con efecto ciclo lectivo 2025.",
    "seccion": "1",
    "pagina": 3
   },
   {
    "tipo": "Resolución",
    "numero": "2209",
-   "titulo": "Procedimiento sumarial establecimientos salud",
+   "titulo": "Aprobación de procedimiento sumarial para establecimientos de salud y residencias geriátricas",
+   "resumen": "El Ministerio de Salud aprueba procedimiento sumarial administrativo unificado para la instrucción de sumarios a establecimientos de salud y residencias geriátricas alcanzados por las leyes 6.222 y 7.872, incorporando expediente digital y plataforma CIDI.",
    "seccion": "1",
    "pagina": 4
   },
   {
    "tipo": "Resolución",
    "numero": "1324",
-   "titulo": "Licitación N° 9/2026 contenedores residuos (declaración desierto y segundo llamado)",
+   "titulo": "Declaración desierta de Licitación Pública N° 9/2026 y segundo llamado",
+   "resumen": "El Jefe de Policía declara desierto el primer llamado a Licitación Pública N° 9/2026 para alquiler de contenedores de residuos con destino a dependencias varias de la Policía Provincial, por ausencia de ofertas, y autoriza segundo llamado por presupuesto de $ 189.099.999,72.",
    "seccion": "1",
    "pagina": 4
   },
   {
-   "tipo": "Licitación",
-   "numero": "Grupo 13 ACIF",
-   "titulo": "Obras mayores establecimientos educativos Córdoba capital",
+   "tipo": "Licitación Pública",
+   "numero": "s/n",
+   "titulo": "Adquisición de mil (1.000) camas cucheta para asistencia a población en estado de indigencia",
+   "resumen": "La Secretaría General de Desarrollo Social del Ministerio de Desarrollo Social y Promoción del Empleo realiza procedimiento de selección para adquisición de mil camas cucheta con destino a brindar asistencia a población en estado de indigencia y/o situación de vulnerabilidad social grave en los 427 Municipios de la Provincia, presupuesto oficial $ 205.000.000,00.",
    "seccion": "4",
    "pagina": 1
   },
   {
-   "tipo": "Licitación",
-   "numero": "ACIF Barrio Müller",
-   "titulo": "Construcción Escuela Secundaria de Oficios",
-   "seccion": "4",
-   "pagina": 2
-  },
-  {
-   "tipo": "Licitación",
-   "numero": "Ministerio Seguridad neumáticos",
-   "titulo": "Adquisición 284 neumáticos para vehículos",
-   "seccion": "4",
-   "pagina": 2
-  },
-  {
-   "tipo": "Licitación",
-   "numero": "SGDS camas cucheta",
-   "titulo": "Adquisición 1.000 camas cucheta población vulnerable",
+   "tipo": "Licitación Pública",
+   "numero": "s/n",
+   "titulo": "Contratación de obras mayores en establecimientos educativos de Córdoba Capital - Grupo 13",
+   "resumen": "La Agencia Córdoba de Inversión y Financiamiento S.E.M. (ACIF) licita contratación de obras mayores en establecimientos educativos de Córdoba Capital (Grupo 13: Escuela Honorato Laconi, Escuela Arturo Capdevila, J. de Inf. Provincia de Entre Ríos, Escuela Florencio Sánchez, Escuela Esteban Echeverría, Escuela Manuel Belgrano, I.P.E.M. N° 41 Jorge Luis Borges, I.P.E.M. N° 39 Don Bosco, Escuela Provincia de Córdoba), presupuesto oficial $ 1.064.937.600,00, plazo 120 días.",
    "seccion": "4",
    "pagina": 1
   },
   {
-   "tipo": "Licitación",
-   "numero": "ACIF Grupo 1",
-   "titulo": "Obras mayores establecimientos educativos (Grupo 1)",
+   "tipo": "Licitación Pública",
+   "numero": "s/n",
+   "titulo": "Construcción nuevo edificio para Escuela Secundaria de Oficios en Barrio Müller",
+   "resumen": "La Agencia Córdoba de Inversión y Financiamiento S.E.M. (ACIF) licita construcción de nuevo edificio para Escuela Secundaria de Oficios en Barrio Müller, Córdoba Capital, presupuesto oficial $ 4.163.213.517,35, plazo 360 días.",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "s/n",
+   "titulo": "Adquisición de doscientos ochenta y cuatro (284) neumáticos para vehículos de la Secretaría de Gestión de Riesgo Climático",
+   "resumen": "El Ministerio de Seguridad licita adquisición de doscientos ochenta y cuatro neumáticos para setenta y un vehículos de la Secretaría de Gestión de Riesgo Climático, Catástrofes y Protección Civil, presupuesto oficial $ 94.193.656,00 IVA incluido.",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "9/2026",
+   "titulo": "Segundo llamado a Licitación Pública para alquiler de contenedores de residuos de Policía Provincial",
+   "resumen": "La Policía de la Provincia realiza segundo llamado a Licitación Pública N° 9/2026 para alquiler de contenedores de residuos con destino a dependencias varias de la Policía Provincial - División Mantenimiento Central, presupuesto oficial $ 189.099.999,72.",
    "seccion": "4",
    "pagina": 3
   },
   {
-   "tipo": "Licitación",
-   "numero": "ACIF Grupo 2",
-   "titulo": "Obras mayores establecimientos educativos (Grupo 2)",
-   "seccion": "4",
-   "pagina": 3
-  },
-  {
-   "tipo": "Licitación",
-   "numero": "ACIF Grupo 3",
-   "titulo": "Obras mayores establecimientos educativos (Grupo 3)",
-   "seccion": "4",
-   "pagina": 3
-  },
-  {
-   "tipo": "Licitación",
-   "numero": "ACIF Grupo 4",
-   "titulo": "Obras mayores establecimientos educativos (Grupo 4)",
-   "seccion": "4",
-   "pagina": 4
-  },
-  {
-   "tipo": "Licitación",
-   "numero": "ACIF Grupo 6",
-   "titulo": "Obras mayores establecimientos educativos (Grupo 6)",
-   "seccion": "4",
-   "pagina": 4
-  },
-  {
-   "tipo": "Licitación",
-   "numero": "ACIF Grupo 7",
-   "titulo": "Obras mayores establecimientos educativos (Grupo 7)",
-   "seccion": "4",
-   "pagina": 4
-  },
-  {
-   "tipo": "Licitación",
-   "numero": "ACIF Grupo 9",
-   "titulo": "Obras mayores establecimientos educativos (Grupo 9)",
-   "seccion": "4",
-   "pagina": 4
-  },
-  {
-   "tipo": "Licitación",
-   "numero": "ACIF Grupo 11",
-   "titulo": "Obras mayores establecimientos educativos (Grupo 11)",
+   "tipo": "Licitación Pública",
+   "numero": "1493",
+   "titulo": "Adquisición de relés direccionales de máxima corriente y tierra",
+   "resumen": "La Empresa Provincial de Energía de Córdoba S.A.U. (EPEC) licita adquisición de relés direccionales de máxima corriente y tierra, presupuesto oficial $ 479.804.325,00 IVA incluido.",
    "seccion": "4",
    "pagina": 5
   },
   {
-   "tipo": "Licitación",
-   "numero": "ACIF Grupo 12",
-   "titulo": "Obras mayores establecimientos educativos (Grupo 12)",
+   "tipo": "Licitación Pública",
+   "numero": "5597",
+   "titulo": "Reacondicionamiento edilicio en Villa Revol - construcción redes",
+   "resumen": "La Empresa Provincial de Energía de Córdoba S.A.U. (EPEC) licita reacondicionamiento edilicio en Villa Revol - construcción redes, presupuesto oficial $ 446.093.095,20, plazo 180 días.",
    "seccion": "4",
    "pagina": 5
   },
   {
-   "tipo": "Licitación",
-   "numero": "EPEC 1493",
-   "titulo": "Adquisición relés direccionales corriente y tierra",
+   "tipo": "Licitación Pública",
+   "numero": "5598",
+   "titulo": "Reacondicionamiento general Delegación San Francisco",
+   "resumen": "La Empresa Provincial de Energía de Córdoba S.A.U. (EPEC) licita reacondicionamiento general de Delegación San Francisco, presupuesto oficial $ 442.480.290,72, plazo 180 días.",
    "seccion": "4",
    "pagina": 5
   },
   {
-   "tipo": "Licitación",
-   "numero": "EPEC 5597",
-   "titulo": "Reacondicionamiento edilicio Villa Revol – construcción redes",
+   "tipo": "Licitación Pública",
+   "numero": "1494",
+   "titulo": "Adquisición de un sistema de video wall para Centro de Control de Luminarias",
+   "resumen": "La Empresa Provincial de Energía de Córdoba S.A.U. (EPEC) licita adquisición de un sistema de video wall para el Centro de Control de Luminarias, presupuesto oficial $ 262.754.345,00 IVA incluido.",
    "seccion": "4",
    "pagina": 5
   },
   {
-   "tipo": "Licitación",
-   "numero": "EPEC 5598",
-   "titulo": "Reacondicionamiento Delegación San Francisco",
+   "tipo": "Licitación Pública",
+   "numero": "5599",
+   "titulo": "Reacondicionamiento general en Delegación Carlos Paz",
+   "resumen": "La Empresa Provincial de Energía de Córdoba S.A.U. (EPEC) licita reacondicionamiento general en Delegación Carlos Paz, presupuesto oficial $ 622.995.226,02, plazo 180 días.",
    "seccion": "4",
    "pagina": 5
   },
   {
-   "tipo": "Licitación",
-   "numero": "EPEC 1494",
-   "titulo": "Adquisición sistema Video Wall Centro de Control Luminarias",
+   "tipo": "Licitación Pública",
+   "numero": "5592",
+   "titulo": "Estación transformadora Cruz del Eje nueva 132/13,2 kV",
+   "resumen": "La Empresa Provincial de Energía de Córdoba S.A.U. (EPEC) licita construcción de estación transformadora Cruz del Eje nueva 132/13,2 kV 2x28/40 MVA + ATD 132/66kV 40/55MVA, presupuesto oficial $ 30.000.077.244,29, plazo 600 días.",
    "seccion": "4",
    "pagina": 5
   },
   {
-   "tipo": "Licitación",
-   "numero": "EPEC 5599",
-   "titulo": "Reacondicionamiento Delegación Carlos Paz",
+   "tipo": "Licitación Pública",
+   "numero": "1495",
+   "titulo": "Ácido sulfúrico 98% para tratamiento de agua Planta Química",
+   "resumen": "La Empresa Provincial de Energía de Córdoba S.A.U. (EPEC) licita adquisición de ácido sulfúrico 98% para tratamiento de agua Planta Química, presupuesto oficial $ 422.895.000,00 IVA incluido.",
    "seccion": "4",
    "pagina": 5
   },
   {
-   "tipo": "Licitación",
-   "numero": "EPEC 5592",
-   "titulo": "ET Cruz del Eje Nueva 132/13,2 kV (transformador)",
-   "seccion": "4",
-   "pagina": 5
-  },
-  {
-   "tipo": "Licitación",
-   "numero": "EPEC 1495",
-   "titulo": "Adquisición ácido sulfúrico 98% tratamiento agua planta química",
-   "seccion": "4",
-   "pagina": 5
-  },
-  {
-   "tipo": "Notificación",
-   "numero": "Ministerio Educación - Lehmann",
-   "titulo": "Emplazamiento para reintegro de haberes indebidamente percibidos",
-   "seccion": "4",
-   "pagina": 7
-  },
-  {
-   "tipo": "Notificación",
-   "numero": "Ministerio Educación - Feliziani",
-   "titulo": "Emplazamiento para reintegro de haberes indebidamente percibidos",
-   "seccion": "4",
-   "pagina": 7
-  },
-  {
-   "tipo": "Edicto",
-   "numero": "Unidad Ejecutora Ley 9150",
-   "titulo": "Solicitud inscripción posesión – Baez, Jorge Raúl (Río Cuarto)",
-   "seccion": "4",
-   "pagina": 7
-  },
-  {
-   "tipo": "Notificación",
-   "numero": "DGR - EMIGA S.A.S.",
-   "titulo": "Emplazamiento procedimiento determinación de oficio – Ingresos Brutos",
-   "seccion": "4",
-   "pagina": 8
-  },
-  {
-   "tipo": "Convocatoria",
-   "numero": "Consorcio Caminero N° 255",
-   "titulo": "Intervención – Convocatoria a acreedores",
+   "tipo": "Intervención",
+   "numero": "s/n",
+   "titulo": "Intervención de Consorcio Caminero N° 255 - Villa San Esteban",
+   "resumen": "Se dispone intervención del Consorcio Caminero N° 255 - Villa San Esteban, localidad Villa San Esteban, Departamento San Justo, designando como Interventores a Valeria Soledad Piva y José Alberto López.",
    "seccion": "4",
    "pagina": 6
-  },
-  {
-   "tipo": "Partidos Políticos",
-   "numero": "Río Segundo Humanista",
-   "titulo": "Solicitud reconocimiento personería jurídico-política municipal",
-   "seccion": "4",
-   "pagina": 6
-  },
-  {
-   "tipo": "Partidos Políticos",
-   "numero": "Colonia Tirolesa Ciudad de Todos",
-   "titulo": "Solicitud reconocimiento personería jurídico-política municipal",
-   "seccion": "4",
-   "pagina": 6
-  },
-  {
-   "tipo": "Partidos Políticos",
-   "numero": "Renacer Los Reartes",
-   "titulo": "Solicitud reconocimiento personería jurídico-política municipal",
-   "seccion": "4",
-   "pagina": 7
   }
  ],
- "telegram": "📋 Boletín N° 185 (23/09/2026): 32 normas. Destaque: Creación Programa EDUTEC (articulación educación técnica-sector privado) + inversiones en infraestructura educativa por ~$5.200 millones (ACIF) + modernización procedimientos sanitarios. Leer más: https://boletinoficial.cba.gov.ar",
+ "telegram": "📰 Boletín Oficial N° 185 (23/9/26): Creación Programa EDUTEC de formación técnico-profesional con participación empresarial; licitaciones de obras educativas por ACIF ($ 1.064 M + $ 4.163 M); modernización procedimientos sanitarios. Consultá la edición completa en la app. 🔗",
  "motor": "claude",
  "modelo": "claude-haiku-4-5",
- "hora_procesado": "11:10",
+ "hora_procesado": "11:39",
  "estado": "publicado"
 }
