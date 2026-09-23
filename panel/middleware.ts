@@ -26,7 +26,10 @@ export async function middleware(request: NextRequest) {
 
   const { data: { user } } = await supabase.auth.getUser();
   const ruta = request.nextUrl.pathname;
-  const publica = ruta.startsWith("/login") || ruta.startsWith("/auth");
+  // El webhook de Telegram llega sin sesión; lo protege el secreto que
+  // verifica la base, no este guardia.
+  const publica = ruta.startsWith("/login") || ruta.startsWith("/auth")
+               || ruta === "/api/telegram/webhook";
 
   if (!user && !publica) {
     const url = request.nextUrl.clone();

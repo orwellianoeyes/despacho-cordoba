@@ -541,8 +541,9 @@ a asesores legislativos y candidatos. La forma elegida es **concierge,
 no SaaS**:
 
 - Un único panel, el de Leo. **No hay cuentas ni paneles por cliente.**
-- Los clientes son IDs de Telegram sumados a su bot. El bot es de
-  salida; el pedido entra por fuera y Leo lo carga en el panel.
+- Los clientes son IDs de Telegram sumados a su bot. El pedido lo lee
+  Leo y lo carga en el panel; el bot solo **recibe y acusa recibo**
+  (ver "El bot recibe" más abajo).
 - El encargo queda vivo día a día, pero **nada sale sin que Leo lo
   despache**. Preparar es automático; enviar es manual.
 - Al cliente le llega solo su resumen con las cuatro miradas.
@@ -600,9 +601,33 @@ Cómo funciona el envío, que es el corazón del producto:
 - `entregas` guarda el texto que REALMENTE salió, no el que se armaría
   hoy: el análisis puede cambiar después y hay que saber qué leyó.
 
-Etapas pendientes: desplegar el panel en Vercel · documento para el
-cliente que pide algo más completo · pedidos entrando por bot, más
-adelante.
+### El bot recibe (23/09/2026)
+
+El panel está en Vercel (`despacho-panel.vercel.app`, proyecto
+`despacho-panel`, se despliega solo desde `main`). Con eso el bot pasó a
+webhook: Telegram avisa cada mensaje a `/api/telegram/webhook`, que lo
+guarda en `mensajes_telegram`. Lo que contesta solo son DOS textos fijos,
+a quien todavía no está vinculado: al primer mensaje un saludo que pide
+los temas, al segundo un acuse. Después, silencio. Dice "quedaste
+anotado", no "estás adentro": adentro queda cuando Leo lo vincula.
+
+- **Los temas que escribe el cliente se leen, no se cargan solos**
+  (decisión de Leo). Aparecen en Contactos → Vincular Telegram, y el
+  encargo lo arma él. No cuesta nada: no pasa por ninguna IA.
+- **El webhook no usa la service_role.** Entra por `recibir_telegram()`,
+  una SECURITY DEFINER abierta a anon pero cerrada con el secreto que
+  Telegram manda en cada aviso. El secreto lo genera el botón "Conectar el
+  bot" y vive en la tabla `bot`, que anon no puede leer.
+- Con webhook, `getUpdates` deja de funcionar: por eso Vincular lee de la
+  base. Se terminó el límite de las 24 horas.
+- Si Telegram no llega, Vincular muestra el error que ve Telegram
+  (`getWebhookInfo`). Es la forma de saber si la protección de despliegue
+  de Vercel lo está frenando.
+- **El aviso "tu tema aparece poco" NO sale solo.** Cuando calibrar da
+  menos de 0,3 por edición, el panel ofrece un borrador editable y lo manda
+  Leo. Queda en `entregas` sin normas, para que figure en el historial.
+
+Etapas pendientes: documento para el cliente que pide algo más completo.
 
 ## Cómo trabaja Leo (importante para el tono y el método)
 

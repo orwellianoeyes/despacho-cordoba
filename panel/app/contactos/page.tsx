@@ -25,7 +25,9 @@ const ANCHOS: [number, string, string][] = [
   [0.7, "Normal", "lo que trate del tema"],
   [0.85, "Angosta", "solo lo que sea claramente del tema"],
 ];
-type Quien = { id: number; nombre: string; usuario: string | null; texto: string };
+type Quien = { id: number; nombre: string; usuario: string | null; textos: string[] };
+type Bot = { conectado: boolean; pendientes: number;
+             ultimo_error: string | null; error_en: string | null };
 
 const SECCIONES = [
   ["1", "Legislación"], ["2", "Judiciales"], ["3", "Sociedades"],
@@ -158,6 +160,8 @@ function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
   const supabase = clienteNavegador();
   const [abierto, setAbierto] = useState(false);
   const [quienes, setQuienes] = useState<Quien[] | null>(null);
+  const [bot, setBot] = useState<Bot | null>(null);
+  const [conectando, setConectando] = useState(false);
   const [desvinculando, setDesvinculando] = useState(false);
   const [error, setError] = useState("");
 
@@ -165,9 +169,20 @@ function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
     setError(""); setQuienes(null);
     const r = await fetch("/api/telegram");
     const c = await r.json();
-    if (!r.ok) { setError(c.error ?? "no pude consultar Telegram"); return; }
+    if (!r.ok) { setError(c.error ?? "no pude consultar los mensajes"); return; }
     setQuienes(c.quienes ?? []);
+    setBot(c.bot ?? null);
   }, []);
+
+  // Una sola vez: le dice a Telegram que avise a este panel cada mensaje.
+  async function conectar() {
+    setConectando(true); setError("");
+    const r = await fetch("/api/telegram", { method: "POST" });
+    const c = await r.json();
+    setConectando(false);
+    if (!r.ok) setError(c.error ?? "no pude conectar el bot");
+    else setBot(c.bot ?? null);
+  }
 
   async function vincular(q: Quien) {
     const { error } = await supabase.from("contactos")
@@ -201,18 +216,35 @@ function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
         </p>
       )}
       {error && <p className="error">{error}</p>}
+      {/* Sin webhook el bot no escucha: nadie aparece acá y nadie recibe el
+          saludo. Y si Telegram no llega (protección de Vercel, por ejemplo),
+          el error que ve Telegram es la única forma de enterarse. */}
+      {bot && (!bot.conectado || bot.ultimo_error) && (
+        <p className="nota error">
+          {!bot.conectado
+            ? "El bot todavía no está conectado a este panel: no recibe ni contesta mensajes."
+            : `Telegram no pudo avisarle al panel: ${bot.ultimo_error}`}{" "}
+          <button className="btn mini sello" disabled={conectando} onClick={conectar}>
+            {conectando ? "Conectando…" : bot.conectado ? "Reconectar el bot" : "Conectar el bot"}
+          </button>
+        </p>
+      )}
       {quienes === null && <p className="nota">Consultando…</p>}
       {quienes?.length === 0 && (
         <p className="nota">
-          Nadie nuevo escribió todavía. Telegram descarta los mensajes sin leer
-          a las 24 horas, así que tiene que escribir y vincularlo el mismo día.
+          Nadie nuevo escribió todavía. El bot le contesta solo con un saludo y le
+          pide los temas; cuando lo haga, aparece acá con lo que escribió.
         </p>
       )}
       {quienes?.map((q) => (
         <div key={q.id} className="quien">
           <span>
             <b>{q.nombre}</b> {q.usuario && <span className="f-num">{q.usuario}</span>}
-            <br /><span className="nota">escribió: “{q.texto}”</span>
+            {q.textos.length === 0
+              ? <><br /><span className="nota">abrió el bot, todavía no escribió nada</span></>
+              : q.textos.map((t, i) => (
+                  <span key={i}><br /><span className="nota">escribió: “{t}”</span></span>
+                ))}
           </span>
           <button className="btn mini" onClick={() => vincular(q)}>Es este</button>
         </div>
@@ -375,6 +407,7 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
           {temas.map((t) => {
             const c = calibres[t];
             const v = c ? veredicto(Number(c.promedio_por_edicion), c.total) : null;
+            const flojo = c && Number(c.promedio_por_edicion) < 0.3;
             return (
               <div key={t}>
                 <div className="tema-fila">
@@ -394,6 +427,10 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
                   <button type="button" className="btn mini"
                           onClick={() => setTemas(temas.filter((x) => x !== t))}>×</button>
                 </div>
+                {flojo && contacto.telegram_id && (
+                  <Avisar contacto={contacto} encargoId={editando || null}
+                          borrador={borradorAviso(contacto.nombre, t, c)} />
+                )}
                 {/* El número dice cuántas; los títulos dicen si son las que
                     él esperaba. Sin esto, calibrar es confiar a ciegas. */}
                 {c && c.muestra.length > 0 && (
@@ -452,6 +489,70 @@ function Encargos({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
                   onClick={() => abrir()}>+ Crear su primer encargo</button>
         </div>
       )}
+    </div>
+  );
+}
+
+// El borrador del aviso sale del mismo número que Leo acaba de ver al
+// calibrar. Es un borrador: se edita antes de mandar.
+function borradorAviso(nombre: string, tema: string, c: Calibre) {
+  const pila = nombre.split(" ")[0];
+  const cuanto = c.total === 0
+    ? `en las últimas ${c.ediciones} ediciones del Boletín Oficial no apareció ninguna norma`
+    : `en las últimas ${c.ediciones} ediciones del Boletín Oficial apareció `
+      + `${c.total === 1 ? "una sola vez" : `solo ${c.total} veces`}`;
+  return `Hola ${pila}. Sobre el tema «${tema}»: ${cuanto}, así que es probable `
+       + `que te lleguen pocas novedades sobre eso.\n\n`
+       + `Lo sigo vigilando igual. Si querés, lo ampliamos o sumamos algún tema `
+       + `relacionado.`;
+}
+
+// Mismo principio que las entregas: se ve el texto exacto, se puede
+// corregir, y sale recién cuando Leo aprieta enviar.
+function Avisar({ contacto, encargoId, borrador }:
+                { contacto: Contacto; encargoId: number | null; borrador: string }) {
+  const [abierto, setAbierto] = useState(false);
+  const [texto, setTexto] = useState(borrador);
+  const [estado, setEstado] = useState<"" | "enviando" | "enviado">("");
+  const [error, setError] = useState("");
+
+  async function enviar() {
+    setEstado("enviando"); setError("");
+    const r = await fetch("/api/avisar", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ contacto_id: contacto.id, encargo_id: encargoId, texto }),
+    });
+    const c = await r.json();
+    if (!r.ok) { setError(c.error ?? "no se pudo enviar"); setEstado(""); return; }
+    setEstado("enviado");
+    if (c.aviso) setError(c.aviso);
+  }
+
+  if (estado === "enviado") {
+    return <p className="nota">Aviso enviado a {contacto.nombre}.{error && ` ${error}`}</p>;
+  }
+  if (!abierto) {
+    return (
+      <button type="button" className="btn mini" onClick={() => setAbierto(true)}>
+        Avisarle a {contacto.nombre.split(" ")[0]} que este tema aparece poco
+      </button>
+    );
+  }
+  return (
+    <div className="vincular">
+      <p className="nota">Así le llega. Corregilo si querés antes de mandarlo.</p>
+      <textarea className="crudo editable" value={texto} spellCheck
+                onChange={(e) => setTexto(e.target.value)} rows={6} />
+      {error && <p className="error">{error}</p>}
+      <span className="acciones" style={{ marginTop: 8 }}>
+        <button type="button" className="btn mini sello"
+                disabled={estado === "enviando" || !texto.trim()} onClick={enviar}>
+          {estado === "enviando" ? "Enviando…" : "Enviar"}
+        </button>
+        <button type="button" className="btn mini" onClick={() => setAbierto(false)}>
+          Cancelar
+        </button>
+      </span>
     </div>
   );
 }
