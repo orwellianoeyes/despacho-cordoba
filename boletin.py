@@ -132,29 +132,38 @@ def _url_pdf(fecha: dt.date, seccion: str) -> str:
             f"{seccion}_Secc_{fecha.strftime('%d%m%y')}.pdf")
 
 
+# Código de salida cuando el Boletín de esa fecha no está (404). No es un
+# error —puede no haber salido todavía, o ser feriado— pero tampoco es
+# "listo": el buzón lo informa distinto para que el panel no diga que la
+# edición quedó procesada cuando no se procesó nada.
+SALIDA_SIN_EDICION = 3
+
+
 def _bajar_pdf(url: str):
     """
-    Devuelve los bytes del PDF, o None si todavía no está publicado.
-    Distingue tres casos: no existe (404), existe pero no es un PDF real
-    (el sitio a veces responde una página de error con código 200), y
-    descarga correcta.
+    Devuelve (bytes, None) si bajó el PDF, o (None, motivo) si no:
+      "404"    no existe (todavía no salió, o no hay edición ese día)
+      "no-pdf" el sitio respondió 200 con una página de error
+      "403"    el Boletín RECHAZÓ el pedido: bloqueo de IP, no demora
+      "red"    no hubo respuesta
+    Los dos últimos NO son "todavía no publicado", y antes se confundían.
     """
     try:
         r = requests.get(url, headers=CABECERAS_NAVEGADOR, timeout=90)
     except requests.RequestException as e:
         print(f"   · error de red en {url}: {e}")
-        return None
+        return None, "red"
 
     if r.status_code in (403, 404):
         print(f"   · el servidor respondió {r.status_code}")
-        return None
+        return None, str(r.status_code)
     r.raise_for_status()
 
     if not r.content.startswith(b"%PDF"):
         print(f"   · la respuesta de {url} no es un PDF (¿aún no publicado?)")
-        return None
+        return None, "no-pdf"
 
-    return r.content
+    return r.content, None
 
 
 def descargar_pdfs(secciones: list[str]):
@@ -168,14 +177,15 @@ def descargar_pdfs(secciones: list[str]):
     otra (por ejemplo, solo licitaciones sin legislación nueva). Solo se
     considera "no publicado" cuando no apareció ninguna de las configuradas.
     """
-    pdfs = []
+    pdfs, motivos = [], set()
 
     for seccion in secciones:
         url = _url_pdf(HOY, seccion)
         print(f"→ Sección {seccion}: {url}")
-        contenido = _bajar_pdf(url)
+        contenido, motivo = _bajar_pdf(url)
 
         if contenido is None:
+            motivos.add(motivo)
             # Ninguna sección es obligatoria: hay días sin 1ª Sección
             # (sin legislación nueva) pero con licitaciones o judiciales.
             print(f"   Sección {seccion} no está publicada hoy; se continúa sin ella.")
@@ -184,6 +194,19 @@ def descargar_pdfs(secciones: list[str]):
         print(f"   ✓ {len(contenido) // 1024} KB descargados")
         pdfs.append((seccion, contenido, url))
 
+    # Un 403 o un corte de red no son "todavía no salió": son la fuente
+    # rota o la conexión caída, y tienen que sonar como error (Telegram y
+    # corrida fallida), no pasar como un día sin novedades.
+    if not pdfs and "403" in motivos:
+        raise RuntimeError(
+            "El Boletín RECHAZÓ el pedido (403). No es que no haya salido: "
+            "suele ser un bloqueo de IP. ¿La corrida salió desde una red que "
+            "no es la de casa?")
+    if not pdfs and "red" in motivos:
+        raise RuntimeError("No hubo respuesta del Boletín (error de red). "
+                           "Revisá la conexión de casa.")
+    if "403" in motivos:
+        print("⚠️  Alguna sección respondió 403 (rechazo, no demora). Se sigue con las demás.")
     if not pdfs:
         print("   Ninguna de las secciones pedidas está publicada todavía.")
 
@@ -701,8 +724,9 @@ def main() -> None:
         return
 
     if not pdfs:
-        print("El boletín de hoy aún no está publicado; la próxima corrida reintenta.")
-        return
+        print(f"El Boletín del {HOY} no está publicado (404): todavía no salió, "
+              f"o ese día no hubo edición.")
+        sys.exit(SALIDA_SIN_EDICION)
 
     urls, partes, paginas_por_seccion = {}, [], {}
     for seccion, contenido, url in pdfs:

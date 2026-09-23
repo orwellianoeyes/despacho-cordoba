@@ -45,6 +45,12 @@ for intento in 1 2 3; do
   if [ $ESTADO -eq 0 ]; then
     break
   fi
+  # 3 = el Boletín de esa fecha no está publicado. Reintentar en 2 minutos
+  # no lo hace aparecer; antes esto salía 0 y seguía igual.
+  if [ $ESTADO -eq 3 ]; then
+    echo "Sin edición publicada para esa fecha. Nada que hacer."
+    exit 0
+  fi
   if [ $intento -lt 3 ]; then
     echo "Intento $intento falló (código $ESTADO). Reintento en 2 minutos…"
     sleep 120

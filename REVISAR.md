@@ -3,6 +3,8 @@
 **Fecha:** 21 de septiembre de 2026
 **Origen:** revisión del motor compartido entre los proyectos.
 **Estado:** ninguno arreglado todavía. Lista de trabajo, no de reproches.
+**Actualizado el 23/09/2026:** 1 y 3 resueltos en su forma mínima; 6 ya
+estaba resuelto; 8 no aplica. Detalle en cada punto.
 
 Este es **el proyecto con más en juego de todos**: es el único cuyo output
 sale con firma profesional hacia un cliente que paga.
@@ -40,6 +42,14 @@ que esto no funciona".
 las 12:00 no hay archivo en `docs/data/` para hoy → Telegram. Media hora
 de trabajo y tapa el punto ciego más grande del proyecto.
 
+> **23/09/2026 — resuelto de otra forma.** Con el disparo manual, un aviso
+> a las 12:00 sonaría cada día que Leo decide no correrlo. El punto ciego
+> real estaba en el código: `_bajar_pdf()` trataba igual un **403** (el
+> Boletín rechaza) que un **404** (no salió), el motor salía 0 y el panel
+> decía "Listo: la edición quedó procesada" sin haber hecho nada. Ahora:
+> 403 o red caída → error y Telegram; 404 → código 3, que el buzón anota
+> como `sin_edicion` y el panel muestra como tal.
+
 ## 2. Validación sintáctica, no de contenido — ALTO
 
 `_parsear()` valida que el JSON tenga forma válida y reintenta si viene
@@ -68,6 +78,10 @@ se reorganiza o rota ese directorio, el motor deja de encontrar todo.
 
 No depende de vos y no se puede prevenir. Lo que sí se puede es
 **enterarse rápido** — que es el punto 1.
+
+> **23/09/2026:** cubierto por el arreglo del punto 1. Si la URL cambia,
+> la primera corrida sobre un día que sí salió dice "no publicado (404)"
+> en vez de "listo". Si eso pasa un día hábil a la tarde, sospechar esto.
 
 ## 4. Sin tests — MEDIO
 
@@ -99,6 +113,9 @@ alias `*-latest` cambian de comportamiento sin cambiar de nombre.
 **Mitigación parcial:** guardar junto a cada despacho el modelo y la
 fecha exactos con que se generó, para poder explicar diferencias.
 
+> **Ya resuelto** (commit `ab33b40`): el despacho guarda el campo `modelo`
+> con el identificador exacto, además de `motor`.
+
 ## 7. Sin prompt caching — BAJO HOY
 
 Verificado: no se usa `cache_control` en ningún lado. Cada corrida paga
@@ -111,6 +128,9 @@ baja por escala.
 Los cron programados llegan tarde bajo carga y **se desactivan solos tras
 60 días sin actividad en el repo**. Despacho zafa porque commitea todos
 los días hábiles. Tenerlo presente si alguna vez baja la frecuencia.
+
+> **No aplica:** el workflow está deshabilitado a propósito (el Boletín
+> da 403 a la nube) y el disparo es manual.
 
 ## 9. El repo crece para siempre — BAJO
 

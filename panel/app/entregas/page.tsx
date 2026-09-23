@@ -136,7 +136,7 @@ export default function Entregas() {
       .select("estado,detalle").order("pedida_en", { ascending: false }).limit(1);
     const c = data?.[0];
     if (c) setCorrida(c as { estado: string; detalle: string | null });
-    if (c && (c.estado === "lista" || c.estado === "fallida")) { cargar(); return true; }
+    if (c && (c.estado === "lista" || c.estado === "fallida" || c.estado === "sin_edicion")) { cargar(); return true; }
     return false;
   }, [supabase, cargar]);
 
@@ -320,6 +320,7 @@ export default function Entregas() {
               {corrida.estado === "pendiente" && "Pedido anotado. La Mac lo levanta en menos de un minuto…"}
               {corrida.estado === "tomada"    && "La Mac lo está procesando. Tarda un par de minutos."}
               {corrida.estado === "lista"     && "Listo: la edición quedó procesada."}
+              {corrida.estado === "sin_edicion" && "El Boletín de esa fecha no está publicado (404): todavía no salió, o ese día no hubo edición. No se procesó nada."}
               {corrida.estado === "fallida"   && `Falló: ${corrida.detalle ?? "sin detalle"}`}
             </p>
           )}

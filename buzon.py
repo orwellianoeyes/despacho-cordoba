@@ -87,6 +87,10 @@ def ejecutar(corrida: dict) -> tuple[str, str]:
         print(f"   │ {linea}")
     # Las últimas líneas son las que dicen qué pasó; el resto es ruido.
     cola = "\n".join(salida.strip().splitlines()[-6:])
+    # 3 = el Boletín de esa fecha no está (ver SALIDA_SIN_EDICION en
+    # boletin.py). Antes salía 0 y el panel decía "listo" sin haber hecho nada.
+    if r.returncode == 3:
+        return "sin_edicion", cola
     return ("lista" if r.returncode == 0 else "fallida"), cola
 
 

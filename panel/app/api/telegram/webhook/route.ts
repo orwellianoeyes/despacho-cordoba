@@ -13,8 +13,14 @@ const SALUDO = (nombre: string) =>
   + `del Boletín Oficial de Córdoba.\n\n`
   + `Contame qué temas te interesa vigilar, separados por coma. `
   + `Por ejemplo: obra vial, salud, paritaria docente.`;
+// Afirmativo a propósito: "lo reviso y te aviso" lo dejaba esperando sin
+// saber qué pasa. Lo de "aparece poco" lo cumple el botón de aviso que Leo
+// tiene al calibrar; no se le contesta solo porque medir un tema son ~250
+// consultas y es una evaluación que tiene que salir con su firma.
 const ACUSE =
-  `Recibido. Lo reviso y te aviso cuando empiece a llegarte el resumen.`;
+  `Listo, recibí tus temas. Los sumo a tu seguimiento y te voy mandando `
+  + `las novedades del Boletín Oficial a medida que salgan. Si alguno `
+  + `aparece muy poco, te aviso.`;
 
 // Telegram avisa acá cada mensaje que recibe el bot. Viene sin sesión, así
 // que el middleware lo deja pasar y la seguridad la pone el secreto: lo

@@ -251,6 +251,12 @@ Carpeta local: ~/despacho-cordoba
   partir el análisis en una llamada por sección y unir los resultados
   —no es un flag, es un cambio de arquitectura del motor.
 
+- **"No salió" y "me rechazaron" no son lo mismo** (23/09/2026). Hasta
+  acá un 403 del Boletín se trataba como un 404: el motor salía 0, el
+  buzón anotaba `lista` y el panel decía "la edición quedó procesada" sin
+  haber hecho nada. Ahora el 403 o la red caída son error (Telegram y
+  corrida `fallida`), y el 404 sale con código 3 (`SALIDA_SIN_EDICION`),
+  que el buzón anota como `sin_edicion` y `correr.sh` no reintenta.
 - **La subida a Supabase NO puede tumbar la corrida.** Los archivos de
   `docs/data/` y `texto/` se escriben primero y son el respaldo en git;
   la base es lo que lee el panel. Si la base no contesta, `_a_la_base()`
@@ -608,7 +614,11 @@ El panel está en Vercel (`despacho-panel.vercel.app`, proyecto
 webhook: Telegram avisa cada mensaje a `/api/telegram/webhook`, que lo
 guarda en `mensajes_telegram`. Lo que contesta solo son DOS textos fijos,
 a quien todavía no está vinculado: al primer mensaje un saludo que pide
-los temas, al segundo un acuse. Después, silencio. Dice "quedaste
+los temas, al segundo un acuse afirmativo ("los sumo a tu seguimiento,
+te voy mandando las novedades"; el primero decía "lo reviso y te aviso"
+y dejaba al cliente esperando). Después, silencio. No le contesta cuánto
+aparecen sus temas: medirlo son ~250 consultas a Jev y es una evaluación
+que sale con la firma de Leo, por el botón de aviso. Dice "quedaste
 anotado", no "estás adentro": adentro queda cuando Leo lo vincula.
 
 - **Los temas que escribe el cliente se leen, no se cargan solos**
