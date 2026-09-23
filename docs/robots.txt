@@ -1,0 +1,6 @@
+# La app funciona para cualquiera que tenga el link, pero no se lista en
+# buscadores. Decidido el 23/09/2026: sirve de lectura propia y de vidriera
+# cuando Leo le pasa la dirección a alguien, no de sitio público indexado.
+# El análisis que muestra es el mismo que se le cobra a los clientes.
+User-agent: *
+Disallow: /

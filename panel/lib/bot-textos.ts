@@ -26,6 +26,13 @@ export const CIERRE = (nombre: string) =>
   `Listo${nombre ? `, ${nombre}` : ""}: ya estás adentro. Cuando el Boletín `
   + `Oficial publique algo sobre tus temas, te llega por este mismo chat.`;
 
+// Cuando un cliente YA adentro pide algo por chat. No promete que exista:
+// si hay o no hay algo sobre eso lo decide Leo mirando la edición, y se lo
+// manda él. Antes de esto el bot callaba y la persona quedaba sin saber si
+// alguien la había leído.
+export const PEDIDO =
+  `Lo reviso y, si hay algo sobre eso en el Boletín, te lo mando por acá.`;
+
 // Qué cuenta como "quiero cambiar mis temas". Solo se aplica si ya había
 // mandado temas (lo decide la base): mientras se los está pidiendo, todo
 // lo que escribe es tema, así "cambio climático" entra como tal.

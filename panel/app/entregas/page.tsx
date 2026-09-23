@@ -20,6 +20,10 @@ type Norma = {
   temas_que_pegaron: string[];
   prob: number;
 };
+type Pedido = {
+  update_id: number; chat_id: number; contacto_id: number;
+  contacto: string; texto: string; recibido_en: string;
+};
 type Formato = "titulares" | "breve" | "completo" | "extenso";
 type Enviada = {
   id: number; fecha: string; enviada_en: string; texto: string;
@@ -61,6 +65,7 @@ export default function Entregas() {
   const [emparejando, setEmparejando] = useState(false);
   const [duplicadas, setDuplicadas] = useState<Set<number>>(new Set());
   const [sinProcesar, setSinProcesar] = useState<Set<string>>(new Set());
+  const [pedidos, setPedidos] = useState<Pedido[]>([]);
   const [corrida, setCorrida] = useState<{ estado: string; detalle: string | null } | null>(null);
 
   // Los días hábiles recientes que TODAVÍA no tienen despacho, para poder
@@ -127,6 +132,22 @@ export default function Entregas() {
   }, [fecha, supabase]);
 
   useEffect(() => { cargar(); }, [cargar]);
+
+  // Lo que pidieron los clientes por chat. Va arriba de todo y se carga
+  // con la pantalla: el bot ya les dijo "lo reviso", así que si esto no
+  // se ve, el acuse fue una mentira.
+  const verPedidos = useCallback(async () => {
+    const { data } = await supabase.rpc("mensajes_de_clientes");
+    setPedidos((data as Pedido[]) ?? []);
+  }, [supabase]);
+
+  useEffect(() => { verPedidos(); }, [verPedidos]);
+
+  async function marcarAtendido(update_id: number) {
+    await supabase.from("mensajes_telegram")
+      .update({ atendido_en: new Date().toISOString() }).eq("update_id", update_id);
+    setPedidos((p) => p.filter((x) => x.update_id !== update_id));
+  }
 
   // El buzón: el panel deja el pedido y la Mac lo levanta. La nube no puede
   // darle una orden a la Mac (el Boletín bloquea a las IP de datacenter, así
@@ -285,6 +306,31 @@ export default function Entregas() {
   return (
     <div className="marco">
       <Cabecera activa="/entregas" />
+
+      {pedidos.length > 0 && (
+        <section style={{ marginTop: 28 }}>
+          <div className="fila-titulo">
+            <h2>Te escribieron</h2>
+            <span className="cuenta dato">{pedidos.length}</span>
+          </div>
+          <p className="nota">
+            El bot ya les contestó que lo vas a revisar. Lo que sale de acá
+            lo mandás vos: buscá la norma y usá «Enviar a».
+          </p>
+          {pedidos.map((x) => (
+            <div key={x.update_id} className="pedido">
+              <div>
+                <b>{x.contacto}</b>{" "}
+                <span className="f-num">{x.recibido_en.slice(5, 16).replace("T", " ")}</span>
+                <p className="pedido-texto">{x.texto}</p>
+              </div>
+              <button className="btn mini" onClick={() => marcarAtendido(x.update_id)}>
+                Resuelto
+              </button>
+            </div>
+          ))}
+        </section>
+      )}
 
       <section style={{ marginTop: 28 }}>
         <div className="fila-titulo">

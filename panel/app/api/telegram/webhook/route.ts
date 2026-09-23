@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import { enviarTelegram } from "@/lib/telegram";
-import { SALUDO, ACUSE, REPREGUNTA, PIDE_CAMBIO } from "@/lib/bot-textos";
+import { SALUDO, ACUSE, REPREGUNTA, PEDIDO, PIDE_CAMBIO } from "@/lib/bot-textos";
 
 export const maxDuration = 20;
 
@@ -11,7 +11,8 @@ export const maxDuration = 20;
 //
 // Reparto: acá se interpreta el texto y se elige qué decir; la base guarda
 // en qué paso está cada persona y decide la acción. Los textos están en
-// lib/bot-textos.ts. Nada de esto le llega a un cliente ya aceptado.
+// lib/bot-textos.ts. A un cliente ya aceptado el bot solo le acusa recibo
+// de lo que pide; el contenido sale siempre despachado por Leo.
 export async function POST(request: Request) {
   const secreto = request.headers.get("x-telegram-bot-api-secret-token");
   if (!secreto) return NextResponse.json({ error: "sin secreto" }, { status: 401 });
@@ -52,6 +53,7 @@ export async function POST(request: Request) {
       data?.accion === "saludo"      ? SALUDO(m.from?.first_name ?? "")
     : data?.accion === "acuse"       ? ACUSE(data.temas_anotados ?? texto)
     : data?.accion === "repreguntar" ? REPREGUNTA
+    : data?.accion === "pedido"      ? PEDIDO
     : null;
   // Si la respuesta falla el mensaje igual quedó guardado, que es lo que
   // importa: Leo lo ve en Contactos. No se reintenta el aviso entero.

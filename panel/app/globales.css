@@ -373,3 +373,9 @@ textarea.crudo.editable:focus{outline:2px solid var(--sello);outline-offset:2px}
 .paginas .acciones{gap:6px}
 .btn.pag{min-width:40px;padding:6px 10px;min-height:34px}
 .btn.pag.aqui{background:var(--tinta);border-color:var(--tinta);color:var(--papel)}
+
+/* Bandeja de pedidos: lo que un cliente escribió y espera respuesta. */
+.pedido{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;
+  margin-top:10px;background:var(--superficie);border:1px solid var(--linea);
+  border-left:3px solid var(--celeste);padding:12px 14px}
+.pedido-texto{margin-top:5px;font-size:14px;color:var(--texto-suave)}
