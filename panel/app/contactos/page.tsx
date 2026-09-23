@@ -25,7 +25,9 @@ const ANCHOS: [number, string, string][] = [
   [0.7, "Normal", "lo que trate del tema"],
   [0.85, "Angosta", "solo lo que sea claramente del tema"],
 ];
-type Quien = { id: number; nombre: string; usuario: string | null; textos: string[] };
+type Quien = { id: number; nombre: string; usuario: string | null; textos: string[];
+               estado: "pidiendo_temas" | "con_temas"; temas: string | null;
+               temas_anteriores: string | null };
 type Bot = { conectado: boolean; pendientes: number;
              ultimo_error: string | null; error_en: string | null };
 
@@ -106,6 +108,8 @@ export default function Contactos() {
           </form>
         )}
 
+        <Pendientes alCambiar={cargar} />
+
         {contactos.length === 0 && !nuevo && (
           <p className="nota" style={{ marginTop: 20 }}>
             Todavía no hay contactos. El primero se carga con el botón de arriba.
@@ -185,9 +189,8 @@ function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
   }
 
   async function vincular(q: Quien) {
-    const { error } = await supabase.from("contactos")
-      .update({ telegram_id: q.id }).eq("id", contacto.id);
-    if (error) setError(error.message);
+    const falla = await aceptar(q.id, contacto.id);
+    if (falla) setError(falla);
     else { setAbierto(false); alCambiar(); }
   }
 
@@ -219,16 +222,7 @@ function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
       {/* Sin webhook el bot no escucha: nadie aparece acá y nadie recibe el
           saludo. Y si Telegram no llega (protección de Vercel, por ejemplo),
           el error que ve Telegram es la única forma de enterarse. */}
-      {bot && (!bot.conectado || bot.ultimo_error) && (
-        <p className="nota error">
-          {!bot.conectado
-            ? "El bot todavía no está conectado a este panel: no recibe ni contesta mensajes."
-            : `Telegram no pudo avisarle al panel: ${bot.ultimo_error}`}{" "}
-          <button className="btn mini sello" disabled={conectando} onClick={conectar}>
-            {conectando ? "Conectando…" : bot.conectado ? "Reconectar el bot" : "Conectar el bot"}
-          </button>
-        </p>
-      )}
+      <AvisoBot bot={bot} conectando={conectando} conectar={conectar} />
       {quienes === null && <p className="nota">Consultando…</p>}
       {quienes?.length === 0 && (
         <p className="nota">
@@ -238,14 +232,7 @@ function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
       )}
       {quienes?.map((q) => (
         <div key={q.id} className="quien">
-          <span>
-            <b>{q.nombre}</b> {q.usuario && <span className="f-num">{q.usuario}</span>}
-            {q.textos.length === 0
-              ? <><br /><span className="nota">abrió el bot, todavía no escribió nada</span></>
-              : q.textos.map((t, i) => (
-                  <span key={i}><br /><span className="nota">escribió: “{t}”</span></span>
-                ))}
-          </span>
+          <FichaChat q={q} />
           <button className="btn mini" onClick={() => vincular(q)}>Es este</button>
         </div>
       ))}
@@ -262,6 +249,125 @@ function Vincular({ contacto, alCambiar }: { contacto: Contacto; alCambiar: () =
         )}
         <button className="btn mini" onClick={() => setAbierto(false)}>Cerrar</button>
       </span>
+    </div>
+  );
+}
+
+// Aceptar a quien escribió: lo vincula (a un contacto que ya existe, o a uno
+// nuevo) y el servidor le manda el mensaje de cierre. Devuelve el error, o
+// null si salió bien.
+async function aceptar(chatId: number, contactoId?: number): Promise<string | null> {
+  const r = await fetch("/api/telegram/aceptar", {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ chat_id: chatId, contacto_id: contactoId }),
+  });
+  const c = await r.json().catch(() => ({}));
+  if (!r.ok) return c.error ?? "no se pudo aceptar";
+  if (c.aviso) alert(c.aviso);
+  return null;
+}
+
+// Sin webhook el bot no escucha: nadie aparece y nadie recibe el saludo. Y
+// si Telegram no llega (protección de Vercel, por ejemplo), el error que ve
+// Telegram es la única forma de enterarse.
+function AvisoBot({ bot, conectando, conectar }:
+                  { bot: Bot | null; conectando: boolean; conectar: () => void }) {
+  if (!bot || (bot.conectado && !bot.ultimo_error)) return null;
+  return (
+    <p className="nota error">
+      {!bot.conectado
+        ? "El bot todavía no está conectado a este panel: no recibe ni contesta mensajes."
+        : `Telegram no pudo avisarle al panel: ${bot.ultimo_error}`}{" "}
+      <button className="btn mini sello" disabled={conectando} onClick={conectar}>
+        {conectando ? "Conectando…" : bot.conectado ? "Reconectar el bot" : "Conectar el bot"}
+      </button>
+    </p>
+  );
+}
+
+// Lo que hay que leer de alguien antes de aceptarlo: los temas que valen
+// HOY, los anteriores si los cambió (para no armar el encargo con los
+// viejos), y todo lo que escribió, que a veces trae una consulta.
+function FichaChat({ q }: { q: Quien }) {
+  return (
+    <span>
+      <b>{q.nombre}</b> {q.usuario && <span className="f-num">{q.usuario}</span>}{" "}
+      {q.estado === "pidiendo_temas"
+        ? <span className="chip">{q.temas ? "está cambiando sus temas" : "todavía no mandó temas"}</span>
+        : q.temas_anteriores && <span className="chip mal">cambió sus temas</span>}
+      {q.temas && (
+        <><br />Temas: <b>{q.temas}</b></>
+      )}
+      {q.temas_anteriores && (
+        <><br /><span className="nota">antes: <s>{q.temas_anteriores}</s></span></>
+      )}
+      {q.textos.length > 0 && (
+        <details style={{ marginTop: 4 }}>
+          <summary className="nota">todo lo que escribió ({q.textos.length})</summary>
+          {q.textos.map((t, i) => <div key={i} className="nota">“{t}”</div>)}
+        </details>
+      )}
+    </span>
+  );
+}
+
+// Arriba de todo: quiénes le escribieron al bot y esperan que Leo los
+// acepte. Antes había que crear el contacto a mano y después buscarlo en
+// Vincular; ahora se acepta desde acá y el contacto se crea con su nombre
+// de Telegram y los temas en la nota. El encargo lo sigue armando Leo.
+function Pendientes({ alCambiar }: { alCambiar: () => void }) {
+  const [quienes, setQuienes] = useState<Quien[]>([]);
+  const [bot, setBot] = useState<Bot | null>(null);
+  const [conectando, setConectando] = useState(false);
+  const [ocupado, setOcupado] = useState<number | null>(null);
+  const [error, setError] = useState("");
+
+  const buscar = useCallback(async () => {
+    const r = await fetch("/api/telegram");
+    const c = await r.json().catch(() => ({}));
+    if (!r.ok) { setError(c.error ?? "no pude consultar los mensajes"); return; }
+    setError(""); setQuienes(c.quienes ?? []); setBot(c.bot ?? null);
+  }, []);
+  useEffect(() => { buscar(); }, [buscar]);
+
+  async function conectar() {
+    setConectando(true);
+    const r = await fetch("/api/telegram", { method: "POST" });
+    const c = await r.json().catch(() => ({}));
+    setConectando(false);
+    if (!r.ok) setError(c.error ?? "no pude conectar el bot");
+    else setBot(c.bot ?? null);
+  }
+
+  async function aceptarNuevo(q: Quien) {
+    setOcupado(q.id);
+    const falla = await aceptar(q.id);
+    setOcupado(null);
+    if (falla) setError(falla);
+    else { buscar(); alCambiar(); }
+  }
+
+  if (!quienes.length && !error && !(bot && (!bot.conectado || bot.ultimo_error))) return null;
+  return (
+    <div className="vincular" style={{ marginTop: 16 }}>
+      <p className="rotulo">Escribieron al bot · {quienes.length}</p>
+      {error && <p className="error">{error}</p>}
+      <AvisoBot bot={bot} conectando={conectando} conectar={conectar} />
+      {quienes.map((q) => (
+        <div key={q.id} className="quien">
+          <FichaChat q={q} />
+          <button className="btn mini sello" disabled={ocupado === q.id || q.estado === "pidiendo_temas"}
+                  title={q.estado === "pidiendo_temas" ? "Esperá a que mande sus temas" : undefined}
+                  onClick={() => aceptarNuevo(q)}>
+            {ocupado === q.id ? "Aceptando…" : "Aceptar"}
+          </button>
+        </div>
+      ))}
+      <p className="nota" style={{ marginTop: 8 }}>
+        Aceptar lo suma como contacto y le avisa por Telegram que ya está adentro.
+        Si ya lo tenías cargado, usá «Vincular Telegram» en su ficha.{" "}
+        <button className="btn mini" onClick={buscar}>Actualizar</button>
+      </p>
     </div>
   );
 }

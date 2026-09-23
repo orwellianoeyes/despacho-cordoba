@@ -633,6 +633,20 @@ anotado", no "estás adentro": adentro queda cuando Leo lo vincula.
 - Si Telegram no llega, Vincular muestra el error que ve Telegram
   (`getWebhookInfo`). Es la forma de saber si la protección de despliegue
   de Vercel lo está frenando.
+- **El cliente puede corregir sus temas** (23/09/2026, migración 013).
+  Cada chat tiene una ficha en `chats_telegram` con su paso
+  (`pidiendo_temas` / `con_temas`), los temas vigentes y los anteriores.
+  El acuse le repite lo que anotó y le dice que escriba CAMBIAR si se
+  equivocó; el bot le vuelve a pedir los temas. "Cambiar" solo cuenta si
+  ya había mandado temas: mientras se los piden, todo es tema, así
+  "cambio climático" entra como tal. Los textos del bot están todos en
+  `panel/lib/bot-textos.ts`.
+- **Aceptar es el cierre, y es un clic de Leo.** Contactos muestra arriba
+  "Escribieron al bot" con los temas vigentes, los anteriores tachados si
+  cambió, y todo lo que escribió. "Aceptar" crea el contacto (nombre de
+  Telegram, temas en la nota) y le manda el mensaje de cierre: "ya estás
+  adentro, te llega por este chat". Vincular a un contacto existente
+  también lo manda. El encargo lo sigue armando Leo a mano.
 - **El aviso "tu tema aparece poco" NO sale solo.** Cuando calibrar da
   menos de 0,3 por edición, el panel ofrece un borrador editable y lo manda
   Leo. Queda en `entregas` sin normas, para que figure en el historial.

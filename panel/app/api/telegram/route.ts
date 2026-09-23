@@ -14,41 +14,50 @@ export const maxDuration = 20;
 //
 // Antes esto se leía con getUpdates, que Telegram descarta a las 24 horas y
 // que deja de funcionar apenas hay un webhook. Ahora no se pierde nada.
-type Fila = { chat_id: number; nombre: string | null; usuario: string | null;
-              texto: string | null; recibido_en: string };
+// Aceptar a alguien es otra ruta (api/telegram/aceptar): le manda el cierre.
+type Chat = { chat_id: number; nombre: string | null; usuario: string | null;
+              estado: string; temas: string | null; temas_anteriores: string | null;
+              actualizado_en: string };
+type Mensaje = { chat_id: number; texto: string | null };
 
+// Quiénes escribieron y todavía no fueron aceptados, el más reciente
+// primero. Con sus temas VIGENTES, los anteriores si los cambió, y todo lo
+// que escribió: lo que no es tema ("una consulta…") también hay que leerlo.
 export async function GET() {
   const supabase = await clienteServidor();
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) return NextResponse.json({ error: "sin sesión" }, { status: 401 });
 
-  const [{ data: filas, error }, { data: contactos }] = await Promise.all([
-    supabase.from("mensajes_telegram")
-      .select("chat_id,nombre,usuario,texto,recibido_en")
-      .order("recibido_en", { ascending: false }).limit(300),
+  const [{ data: chats, error }, { data: contactos }] = await Promise.all([
+    supabase.from("chats_telegram")
+      .select("chat_id,nombre,usuario,estado,temas,temas_anteriores,actualizado_en")
+      .order("actualizado_en", { ascending: false }).limit(100),
     supabase.from("contactos").select("telegram_id"),
   ]);
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
 
-  // Los que ya están vinculados no se ofrecen de nuevo.
   const yaEstan = new Set((contactos ?? [])
     .map((c: { telegram_id: number | null }) => c.telegram_id).filter(Boolean));
-
-  // Uno por persona, el más reciente primero, con TODO lo que escribió:
-  // el segundo mensaje suele ser la lista de temas, y eso es lo que Leo
-  // tiene que leer para armar el encargo.
-  const porChat = new Map<number, { id: number; nombre: string; usuario: string | null;
-                                    cuando: string; textos: string[] }>();
-  for (const f of (filas ?? []) as Fila[]) {
-    if (yaEstan.has(f.chat_id)) continue;
-    const q = porChat.get(f.chat_id) ?? { id: f.chat_id, nombre: f.nombre || "sin nombre",
-                                         usuario: f.usuario, cuando: f.recibido_en,
-                                         textos: [] };
-    if (f.texto && f.texto !== "/start") q.textos.unshift(f.texto);
-    porChat.set(f.chat_id, q);
+  const pendientes = ((chats ?? []) as Chat[]).filter((c) => !yaEstan.has(c.chat_id));
+  // Solo los mensajes de los pendientes: la tabla crece con todos los chats.
+  const { data: mensajes } = pendientes.length
+    ? await supabase.from("mensajes_telegram").select("chat_id,texto")
+        .in("chat_id", pendientes.map((c) => c.chat_id))
+        .order("recibido_en", { ascending: true })
+    : { data: [] };
+  const textos = new Map<number, string[]>();
+  for (const m of (mensajes ?? []) as Mensaje[]) {
+    if (!m.texto || m.texto.startsWith("/start")) continue;
+    textos.set(m.chat_id, [...(textos.get(m.chat_id) ?? []), m.texto]);
   }
 
-  return NextResponse.json({ quienes: [...porChat.values()], bot: await estadoBot() });
+  const quienes = pendientes.map((c) => ({
+    id: c.chat_id, nombre: c.nombre || "sin nombre", usuario: c.usuario,
+    estado: c.estado, temas: c.temas, temas_anteriores: c.temas_anteriores,
+    cuando: c.actualizado_en, textos: textos.get(c.chat_id) ?? [],
+  }));
+
+  return NextResponse.json({ quienes, bot: await estadoBot() });
 }
 
 // Conectar el bot: genera un secreto nuevo, lo guarda en la base y le dice a
