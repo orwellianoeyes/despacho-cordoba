@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import { enviarTelegram } from "@/lib/telegram";
-import { SALUDO, ACUSE, REPREGUNTA, PEDIDO, PIDE_CAMBIO } from "@/lib/bot-textos";
+import { SALUDO, ACUSE, REPREGUNTA, PEDIDO, PEDIDO_DEL_RESUMEN,
+         PIDE_CAMBIO } from "@/lib/bot-textos";
 
 export const maxDuration = 20;
 
@@ -54,6 +55,7 @@ export async function POST(request: Request) {
     : data?.accion === "acuse"       ? ACUSE(data.temas_anotados ?? texto)
     : data?.accion === "repreguntar" ? REPREGUNTA
     : data?.accion === "pedido"      ? PEDIDO
+    : data?.accion === "pedido_del_resumen" ? PEDIDO_DEL_RESUMEN
     : null;
   // Si la respuesta falla el mensaje igual quedó guardado, que es lo que
   // importa: Leo lo ve en Contactos. No se reintenta el aviso entero.

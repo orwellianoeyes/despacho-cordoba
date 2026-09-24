@@ -26,12 +26,19 @@ export const CIERRE = (nombre: string) =>
   `Listo${nombre ? `, ${nombre}` : ""}: ya estás adentro. Cuando el Boletín `
   + `Oficial publique algo sobre tus temas, te llega por este mismo chat.`;
 
-// Cuando un cliente YA adentro pide algo por chat. No promete que exista:
-// si hay o no hay algo sobre eso lo decide Leo mirando la edición, y se lo
-// manda él. Antes de esto el bot callaba y la persona quedaba sin saber si
-// alguien la había leído.
+// Un cliente YA adentro pide algo por chat. Hay DOS casos y la respuesta
+// correcta es distinta en cada uno; la base decide cuál, mirando si se le
+// mandó una entrega en las últimas 24 horas.
+//
+// PIDE ALGO NUEVO: puede no existir, así que no se promete.
 export const PEDIDO =
   `Lo reviso y, si hay algo sobre eso en el Boletín, te lo mando por acá.`;
+
+// CONTESTA UNA ENTREGA: la norma está en el mensaje que está leyendo —el
+// resumen termina invitándolo con "¿querés el análisis de alguna?"— así
+// que dudar de que exista no tiene sentido. Acá se compromete el envío.
+export const PEDIDO_DEL_RESUMEN =
+  `Dale. Veo cuál es y te la mando con el análisis completo.`;
 
 // Qué cuenta como "quiero cambiar mis temas". Solo se aplica si ya había
 // mandado temas (lo decide la base): mientras se los está pidiendo, todo

@@ -23,6 +23,7 @@ type Norma = {
 type Pedido = {
   update_id: number; chat_id: number; contacto_id: number;
   contacto: string; texto: string; recibido_en: string;
+  tras_entrega: boolean;
 };
 type Formato = "titulares" | "breve" | "completo" | "extenso";
 type Enviada = {
@@ -321,14 +322,20 @@ export default function Entregas() {
             <span className="cuenta dato">{pedidos.length}</span>
           </div>
           <p className="nota">
-            El bot ya les contestó que lo vas a revisar. Lo que sale de acá
-            lo mandás vos: buscá la norma y usá «Enviar a».
+            A quien responde una entrega el bot le dijo «veo cuál es y te la
+            mando»; a quien pide algo nuevo, «si hay algo te lo mando». Lo
+            que sale de acá lo despachás vos: buscá la norma y usá «Enviar a».
           </p>
           {pedidos.map((x) => (
             <div key={x.update_id} className="pedido">
               <div>
                 <b>{x.contacto}</b>{" "}
                 <span className="f-num">{x.recibido_en.slice(5, 16).replace("T", " ")}</span>
+                {/* Sin esto, "mandame la del hospital" no dice a qué
+                    hospital: hay que saber si contesta algo que recibió. */}
+                {x.tras_entrega
+                  ? <span className="chip tema">responde a lo que le mandaste</span>
+                  : <span className="chip">pedido nuevo</span>}
                 <p className="pedido-texto">{x.texto}</p>
               </div>
               <button className="btn mini" onClick={() => marcarAtendido(x.update_id)}>
