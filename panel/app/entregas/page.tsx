@@ -67,6 +67,7 @@ export default function Entregas() {
   const [sinProcesar, setSinProcesar] = useState<Set<string>>(new Set());
   const [pedidos, setPedidos] = useState<Pedido[]>([]);
   const [corrida, setCorrida] = useState<{ estado: string; detalle: string | null } | null>(null);
+  const [nadieEscucha, setNadieEscucha] = useState(false);
 
   // Los días hábiles recientes que TODAVÍA no tienen despacho, para poder
   // elegirlos. Sin esto el selector solo ofrecía ediciones ya procesadas y
@@ -169,9 +170,15 @@ export default function Entregas() {
     setOcupado(false);
     if (error) { setError(error.message); return; }
     setCorrida({ estado: "pendiente", detalle: null });
-    // La Mac consulta cada minuto; se mira hasta que termine.
+    setNadieEscucha(false);
+    const desde = Date.now();
+    // La Mac consulta cada minuto; se mira hasta que termine. Si a los dos
+    // minutos sigue en `pendiente`, nadie la levantó: el buzón está
+    // apagado. Antes el cartel decía "la Mac lo levanta en menos de un
+    // minuto" para siempre, que es mentira y deja esperando al pedo.
     const reloj = setInterval(async () => {
-      if (await mirarCorrida()) clearInterval(reloj);
+      if (await mirarCorrida()) { clearInterval(reloj); return; }
+      if (Date.now() - desde > 120_000) setNadieEscucha(true);
     }, 8000);
     setTimeout(() => clearInterval(reloj), 20 * 60 * 1000);
   }
@@ -363,7 +370,12 @@ export default function Entregas() {
           </span>
           {corrida && (
             <p className={`nota ${corrida.estado === "fallida" ? "error" : ""}`}>
-              {corrida.estado === "pendiente" && "Pedido anotado. La Mac lo levanta en menos de un minuto…"}
+              {corrida.estado === "pendiente" && (nadieEscucha
+                ? "Pasaron dos minutos y nadie lo levantó: la Mac no está escuchando. "
+                  + "Hay que abrir una Terminal y correr escuchar.sh — o traerlo "
+                  + "directo desde la compu con ./correr.sh. El pedido queda anotado: "
+                  + "cuando el buzón arranque, lo toma."
+                : "Pedido anotado. La Mac lo levanta en menos de un minuto…")}
               {corrida.estado === "tomada"    && "La Mac lo está procesando. Tarda un par de minutos."}
               {corrida.estado === "lista"     && "Listo: la edición quedó procesada."}
               {corrida.estado === "sin_edicion" && "El Boletín de esa fecha no está publicado (404): todavía no salió, o ese día no hubo edición. No se procesó nada."}

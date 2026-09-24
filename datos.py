@@ -299,6 +299,27 @@ def tomar_corrida(id_: int) -> bool:
     return bool(filas)
 
 
+def destrabar_corridas(minutos: int = 10) -> int:
+    """Devuelve a `pendiente` lo que quedó `tomada` hace rato.
+
+    Una corrida pasa a `tomada` cuando el buzón la agarra, y vuelve a
+    cambiar cuando termina. Si el proceso muere en el medio —la ventana de
+    Terminal se cerró, la Mac se reinició— nadie la termina nunca: el buzón
+    solo busca `pendiente`, así que ese pedido queda muerto y el panel
+    muestra "la Mac lo está procesando" para siempre. Pasó el 24/09/2026.
+
+    Se llama al arrancar, no en cada vuelta: la idea es recuperar lo que
+    dejó tirado una instancia anterior, no pisarle el trabajo a una que
+    está corriendo ahora. Diez minutos es holgado — la corrida más lenta
+    medida tardó menos de tres."""
+    limite = (dt.datetime.now(dt.timezone.utc)
+              - dt.timedelta(minutes=minutos)).isoformat()
+    filas = _sb("PATCH", f"corridas?estado=eq.tomada&tomada_en=lt.{limite}",
+                prefer="return=representation",
+                json={"estado": "pendiente", "tomada_en": None})
+    return len(filas)
+
+
 def terminar_corrida(id_: int, estado: str, detalle: str | None = None) -> None:
     _sb("PATCH", f"corridas?id=eq.{id_}", prefer="return=minimal",
         json={"estado": estado, "detalle": detalle, "terminada_en": _ahora()})

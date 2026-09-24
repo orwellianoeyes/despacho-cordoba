@@ -130,6 +130,16 @@ def main():
             print("Sin pedidos pendientes.")
         return
 
+    # Recuperar lo que dejó tirado una instancia anterior antes de empezar
+    # a escuchar. Sin esto, un pedido que agarró un buzón que después murió
+    # no lo vuelve a tomar nadie.
+    try:
+        n = datos.destrabar_corridas()
+        if n:
+            print(f"Destrabé {n} corrida{'s' if n > 1 else ''} que quedaron a medias.")
+    except Exception as e:
+        print(f"⚠️  No pude revisar corridas colgadas: {type(e).__name__}")
+
     print(f"Escuchando el buzón cada {args.intervalo} s. Ctrl+C para cortar.")
     while True:
         try:
