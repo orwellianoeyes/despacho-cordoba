@@ -1,0 +1,376 @@
+{
+ "fecha": "2026-09-24",
+ "numero_boletin": "186",
+ "sintesis_juridica": [
+  "La edición del 24 de septiembre modifica el régimen tributario para entidades financieras adheridas al Programa Provincial de Alivio y Reordenamiento del Endeudamiento Familiar (Ley N° 11.137), estableciendo una alícuota del 0% en Ingresos Brutos para ingresos derivados de refinanciación de operaciones y tarjetas de crédito. Se impone nombre a un instituto técnico provincial en Ucacha (Héroes de Malvinas) y se suspenden parcialmente acuerdos reglamentarios del Tribunal Superior de Justicia relativos a la remisión de causas concursales desde juzgados del interior a la Capital.",
+  "APROSS reabre las incorporaciones colectivas voluntarias de afiliados (suspendidas desde 2023), manteniendo la restricción a las incorporaciones individuales. Se convoca a acreedores del Consorcio Caminero Villa San Esteban N° 255 en proceso de intervención, se licitan obras viales e hídricas por montos superiores a $2.500 millones, y se llaman licitaciones de acquisición de bienes e infraestructura eléctrica por EPEC y otros organismos."
+ ],
+ "sintesis_politica": [
+  "La reapertura de afiliaciones colectivas en APROSS señala una recuperación percibida en la capacidad financiera del sistema de salud provincial tras restricciones de 2023. La intervención del Consorcio Caminero Villa San Esteban marca un movimiento administrativo en organismos descentralizados de gestión vial territorial. Las enmiendas múltiples en licitaciones de obras educativas (Grupos 1 a 13 de mejoras en establecimientos de Capital) sugieren ajustes de precios en un contexto inflacionario.",
+  "La suspensión de la remisión automática de causas concursales desde el interior a Capital (pedida por la Federación de Colegios de Abogados) refleja presión del sector judicial provincial sobre criterios de concentración de competencia. El tributo al 0% para entidades que participen en el programa de refinanciación de deudas familiares alinea la política tributaria provincial con la política macroeconómica nacional de alivio de endeudamiento. No hay indicios de controversia legislativa abierta en los actos publicados."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1624 - Letra D",
+   "titulo": "Imposición de nombre al Instituto Provincial de Educación Técnica N° 407 de Ucacha",
+   "importa": "Se impone el nombre 'Héroes de Malvinas' al Instituto Provincial de Educación Técnica N° 407 de la localidad de Ucacha, departamento Juárez Celman, como homenaje a participantes en la guerra de 1982 y en reconocimiento a veteranos de la localidad.",
+   "ampliada": {
+    "juridica": "Acto administrativo de denominación emitido por el Ministerio de Educación conforme a facultades derivadas del Decreto N° 2449/23. Cumplió requisitos técnicos previstos en Decreto N° 7694/E/68 e intervención del Área Jurídica (Dictamen 2026/00002761). No presenta vicios formales detectables ni conflicto con normativa superior.",
+    "politica": "La nominación integra una política provincial de memoria vinculada al lema anual (Año de los Derechos Humanos por la Memoria, la Verdad y la Justicia). Busca institucionalizar la presencia de veteranos de guerra en la comunidad educativa local mediante la identidad del establecimiento.",
+    "oficialista": "Constituye un reconocimiento merecido a quienes defendieron la soberanía nacional y un ancla de memoria para generaciones futuras; refuerza valores cívicos en la educación técnica provincial.",
+    "opositora": "Sin información que permita identificar críticas de buena fe sobre el acto en sí; la nominación de establecimientos por hechos históricos es práctica frecuente y consensuada."
+   },
+   "texto_oficial": "Art. 1°.- IMPONER el nombre de \"HÉROES DE MALVINAS\" al Instituto Provincial de Educación Técnica N° 407 de la localidad de Ucacha, departamento Juárez Celman, dependiente de este Ministerio. Art. 2°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "seccion": "1",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_240926.pdf"
+  },
+  {
+   "tipo": "Resolución Normativa",
+   "clase": "resolucion",
+   "numero": "37",
+   "titulo": "Reglamentación tributaria para Programa Provincial de Alivio y Reordenamiento del Endeudamiento Familiar (Ley N° 11.137)",
+   "importa": "La Dirección General de Rentas incorpora inciso 33 a la Resolución Normativa N° 1/2023, especificando los códigos de actividad y tratamientos fiscales ('Especial 1' y 'Especial 2') bajo los cuales entidades financieras y emisoras de tarjetas adheridas al Programa tributarán al 0% en Ingresos Brutos. Entra en vigencia al día siguiente de su publicación y aplica desde la fecha de adhesión de cada entidad.",
+   "ampliada": {
+    "juridica": "Acto reglamentario dictado por la DGR conforme a facultad delegada por el Ministerio de Economía (Resolución 87-D/2026). Implementa lo dispuesto por Ley N° 11.137 (art. 6 y 7) para las entidades comprendidas en Ley Nacional N° 21.526 (entidades financieras) y Ley Nacional N° 25.065 (tarjetas de crédito). La técnica instrumentaliza en códigos de actividad tributaria una exención ya legislada, sin introducir nuevas restricciones ni delegaciones indebidas.",
+    "politica": "Materializa a nivel tributario provincial el programa nacional de alivio de endeudamiento familiar en contexto de crisis macroeconómica. Alinea Córdoba con políticas de mitigación del impacto financiero en familias; el timing (septiembre 2026) coincide con ciclo de regularización de pasivos personales.",
+    "oficialista": "Facilita el acceso de familias cordobesas a refinanciación de deudas al remover desincentivos tributarios provinciales; amplía cobertura del programa nacional con medidas complementarias de política fiscal.",
+    "opositora": "El costo fiscal para la provincia (pérdida de recaudación en Ingresos Brutos) no se cuantifica en el aviso; depende de adhesiones efectivas de entidades y volúmenes de refinanciación, generando incertidumbre presupuestaria."
+   },
+   "texto_oficial": "ARTÍCULO 1°.- INCORPORAR a continuación del Artículo 340 (1) de la Resolución Normativa N° 1/2023... el siguiente inciso 33)... 'Artículo 340 (2).- Las entidades adheridas al \"Programa Provincial de Alivio y Reordenamiento del Endeudamiento Familiar\" previsto en la Ley N° 11.137, deberán declarar los ingresos alcanzados por la alícuota especial del Cero por Ciento (0,00%) de la siguiente manera: a) Entidades comprendidas en el Artículo 6 de la Ley N° 11.137: deberán declararse en los códigos de actividad 641930, 641941 o 641943, según corresponda, con tratamiento fiscal \"Especial 1\". b) Entidades comprendidas en el Artículo 7 de la Ley N° 11.137: deberán declararse en el código de actividad 649220, con tratamiento fiscal \"Especial 2\".  ARTÍCULO 2º.- La presente Resolución entrará en vigencia a partir del día siguiente al de su publicación en el Boletín Oficial...",
+   "seccion": "1",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_240926.pdf"
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "clase": "resolucion",
+   "numero": "1957 - Letra A",
+   "titulo": "Suspensión de remisión de causas concursales desde juzgados de Huinca Renancó y San Francisco a Capital",
+   "importa": "El Tribunal Superior de Justicia suspende lo dispuesto en artículos 3 y 4 (en cuanto corresponda) de los Acuerdos Reglamentarios N° 1951 y 1952 (17/09/2026), que mandaban remitir por sorteo las causas concursales que ingresen en los juzgados de primera instancia de Huinca Renancó y San Francisco a los juzgados competentes en concursos de Capital. Se mantiene vigencia de todo lo demás de esos acuerdos.",
+   "ampliada": {
+    "juridica": "Acto de suspensión emitido por el Tribunal Superior en ejercicio de atribuciones constitucionales (art. 166, incs. 1 y 2, Const. Provincial) y legales (Ley Orgánica del Poder Judicial N° 8435, art. 12). Suspende parcialmente normas de administración judicial dictadas hace una semana (17/09), respondiendo a petición expresa de la Federación de Colegios de Abogados (FeCACor, 21/09/2026). No introduce causas legales ni aporta razonamiento nuevo; solo nota que 'se estima conveniente suspender'.",
+    "politica": "Refleja presión del colegio profesional de abogados sobre concentración de competencia judicial. Las causas concursales continuarán en juzgados del interior (Huinca Renancó, San Francisco) en lugar de ir a Capital. Sugiere que la barra cuestionó la carga administrativa o el cambio de foro en causas de pequeños consorcios camineros.",
+    "oficialista": "La suspensión permite que los juzgados locales conserven competencia en causas de su territorio, facilitando acceso de partes al proceso concursal sin viajes a Capital; responde a pedido legítimo de la profesión.",
+    "opositora": "La reversión rápida de la norma sugiere que fue dictada sin consulta previa adecuada; centralizar competencia concursal en Capital podría haber respondido a eficiencia administrativa, que se abandona por presión corporativa."
+   },
+   "texto_oficial": "RESUELVE: 1.- SUSPENDER lo dispuesto en el artículo 3 de los Acuerdos Reglamentarios números 1951 y 1952 del 17/09/2026 –ambos serie A-, así como el artículo 4 de dichos Acuerdos en cuanto a él se refiere; manteniendo su plena vigencia en lo demás. 2.- NOTIFÍQUESE a la Secretaría Civil y Comercial del Tribunal Superior de Justicia. Comuníquese a los tribunales mencionados. Publíquese en el Boletín Oficial de la Provincia.",
+   "seccion": "1",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_240926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "301",
+   "titulo": "APROSS: Reapertura de incorporaciones colectivas voluntarias de afiliados",
+   "importa": "El Directorio de APROSS deja sin efecto la suspensión de nuevas incorporaciones afiliatorias voluntarias colectivas (Resolución N° 0008/23), reestableciendo vigencia del régimen de 2021 (Resolución N° 0366/21). Mantiene restricción a incorporaciones individuales (arts. 8.b, Ley N° 9277), que continúan suspendidas hasta nueva disposición.",
+   "ampliada": {
+    "juridica": "Acto administrativo del Directorio de APROSS conforme a facultades previstas en Ley N° 9277 (arts. 26.a y 26.u: planificación, administración y financiamiento). La suspensión de 2023 fue acto de emergencia declarado en contexto de crisis económico-financiera; su revocación parcial asume recuperación de capacidad operativa. No contiene vicios formales; diferencia entre modalidades colectiva (reabierta) e individual (aún suspendida) respeta estructura legal.",
+    "politica": "Señala percepción de mejoría en equilibrio financiero de APROSS tras dos años de cierre. La decisión es política de administración de la demanda: se reabre la modalidad que agrupa a entidades (cooperativas, asociaciones, gremios) sobre la individual (personas físicas). Timing de septiembre 2026 sugiere revisión del plan de sostenibilidad en ciclo anual.",
+    "oficialista": "La reapertura selectiva de incorporaciones colectivas permite crecimiento cauteloso de la cartera asegurada, priorizando estabilidad financiera; demuestra gestión responsable que restablece servicios cuando las condiciones lo permiten.",
+    "opositora": "El mantenimiento de la restricción individual excluye de cobertura a personas con ingresos bajos o informales que no integren entidades colectivas; la crisis de financiamiento de 2023 sugiere que los problemas estructurales no se resolvieron."
+   },
+   "texto_oficial": "Artículo 1°.- DÉJASE SIN EFECTO la suspensión dispuesta por el Artículo 1 de la Resolución APROSS N° 0008/23, exclusivamente en lo que respecta a las incorporaciones afiliatorias voluntarias de carácter colectivo comprendidas en el artículo 8 inciso a) de la Ley N° 9277, y RESTABLÉZCASE la vigencia y operatividad de la Resolución APROSS N° 0366/21 y sus Anexos... Artículo 2°.- ESTABLÉZCASE que las disposiciones de suspensión emanadas de la Resolución N° 0008/23 continuarán plenamente vigentes para las modalidades de incorporación voluntaria individual (Artículo 8 inciso b de la Ley N° 9277) reguladas por las Resoluciones N° 0294/19 y N° 0071/22, hasta tanto este Directorio emita resolución en contrario.",
+   "seccion": "1",
+   "pagina": 3,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_240926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. 0733-012239/2026",
+   "titulo": "Sistematización y readecuación cauce Río Anisacate, tramo Ruta Provincial N° 5 a Ruta Provincial N° 36, Santa María",
+   "importa": "Secretaría de Infraestructura Hídrica y Gasífera (Ministerio de Infraestructura y Servicios Públicos) llama a licitación pública digital (Decreto N° 583/2016) para obra categoría Primera: sistematización y readecuación del cauce del Río Anisacate entre puentes de rutas provinciales N° 5 y N° 36, departamento Santa María. Presupuesto: $2.514.367.950,18 IVA incluido (agosto 2026). Plazo: 240 días corridos. Presentación: hasta 12:00 hs. 13/10/2026. Apertura: 14/10/2026.",
+   "ampliada": {
+    "juridica": "Licitación dictada por Resolución 2026/RSIHG-00000720, conforme a Ley N° 8.614 (Obras Públicas) y reglamentación (Decreto N° 583/2016). Procedimiento digital en plataforma oficial. Garantía de mantenimiento: 1% del presupuesto. Consultas hasta tres días hábiles antes de presentación. Acto formal correcto; monto (›$2.500 millones) marca relevancia fiscal para tesorería provincial.",
+    "politica": "Obra hídrica en cuenca de Santa María (región de sierras chicas) integra plan de infraestructura regional. Tema vigilado: 'Emergencia hídrica y contrataciones de excepción'. El aviso no menciona relación con emergencia hídrica declarada, sino gestión ordinaria de cauce. El monto sugiere ejecución multi-año con posible impacto en presupuesto de inversión pública.",
+    "oficialista": "Sistematización de cauce es obra preventiva contra erosión y desbordes, protege núcleos urbanos aguas abajo (Anisacate corre hacia Santa María); amplía capacidad de drenaje en contexto de cambios climáticos.",
+    "opositora": "Presupuesto no actualizado en tiempo real (referencias a agosto 2026); sin detalle de beneficiarios específicos ni de consulta previa con municipios afectados, aunque obra toca jurisdicciones de múltiples localidades."
+   },
+   "texto_oficial": "De acuerdo a lo establecido mediante Resolución Nº 2026/RSIHG-00000720 de la Secretaría de Infraestructura Hídrica y Gasífera, se efectúa el Llamado a Licitación Pública para la contratación de la obra: 'SISTEMATIZACIÓN Y READECUACIÓN CAUCE RÍO ANISACATE – TRAMO: PUENTE RUTA PROVINCIAL Nº5 – PUENTE RUTA PROVINCIAL Nº36 – DPTO. SANTA MARÍA'. 1. ENTIDAD U ORGANISMO QUE LICITA: Secretaría de Infraestructura Hídrica y Gasífera del Ministerio de Infraestructura y Servicios Públicos. 2. CATEGORÍA DE LA OBRA: Primera Categoría. [...] 8. El PRESUPUESTO OFICIAL de la presente obra asciende a la suma de PESOS DOS MIL QUINIENTOS CATORCE MILLONES TRESCIENTOS SESENTA Y SIETE MIL NOVECIENTOS CINCUENTA CON 18/100 ($2.514.367.950,18), IVA Incluido... 9. El PLAZO DE EJECUCIÓN de la presente obra es DOSCIENTOS CUARENTA (240) DÍAS CORRIDOS...",
+   "seccion": "4",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_240926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "EXPTE. 0660-004964/2026 — Nota Aclaratoria N° 1",
+   "titulo": "Adquisición de reguladores de tensión 13,2kV para localidad de Chaján",
+   "importa": "Subsecretaría de Infraestructura Eléctrica (Ministerio de Infraestructura y Servicios Públicos) publica nota aclaratoria a licitación de reguladores de tensión para Chaján. Rectifica art. 2 del pliego: la tensión primaria del regulador debe ser 7,62kV (no 19,92kV como se había publicado) y corriente nominal 150A (no 201A).",
+   "ampliada": {
+    "juridica": "Enmienda a pliego: rectifica especificación técnica en item 1, probablemente por error material en redacción original. Alcanza solo la descripción técnica del bien licitado; no modifica presupuesto ni cronograma (ambos ausentes del aviso aclaratorio). Procedimiento correcto: divulga error antes de vencimiento de plazo de consultas.",
+    "politica": "Obra eléctrica de regulación de tensión en localidad pequeña del interior. Tema vigilado: 'Obra vial provincial' no aplica; posible relación con 'Gobierno digital, modernización del Estado' si integra plan de eficiencia energética territorial, pero aviso no lo indica.",
+    "oficialista": "Corrección técnica evita compra de equipos incompatibles con sistema local; demuestra diligencia en verificación de especificaciones antes de adjudicación.",
+    "opositora": "Diferencia significativa entre tensiones (19,92kV vs. 7,62kV) sugiere error grave en redacción inicial del pliego; cuestiona calidad de revisión interna antes de publicación."
+   },
+   "texto_oficial": "NOTA ACLARATORIA N° 1. Por medio de la presente, esta Subsecretaria de Infraestructura Eléctrica dependiente del Ministerio de Infraestructura y Servicios Públicos, procede a realizar las siguientes aclaraciones: 2) Corresponde aclarar que en el artículo 2° del Pliego de Bases y Condiciones Generales y Particulares, en donde dice 'ITEM 1: Provisión de un (1) conjunto de tres (3) reguladores de tensión para la regulación automática de tensión bajo carga. Tensión primaria del regulador: 19,92kV. Corriente nominal: 201A. Conexión: estrella con neutro rígido a tierra', debe decir 'ITEM 1: Provisión de un (1) conjunto de tres (3) reguladores de tensión para la regulación automática de tensión bajo carga. Tensión primaria del regulador: 7,62kV. Corriente nominal: 150A. Conexión: estrella con neutro rígido a tierra'; en consecuencia, se RECTIFICA el artículo 2° del Pliego de Bases y Condiciones Generales y Particulares.",
+   "seccion": "4",
+   "pagina": 2,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_240926.pdf"
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "clase": "licitacion",
+   "numero": "COTIZACIÓN N° 2026/000047 — EXPTE. N° 0088-143320/2026",
+   "titulo": "Remodelación fachada Av. Richieri y nuevas cocheras en Hospital Ferreyra",
+   "importa": "APROSS llama a subasta electrónica inversa de obra pública para 'Remodelación Fachada sobre Av. Richieri y Nuevas Cocheras en Hospital Ferreyra' (Hospital Raúl Ángel Ferreyra, Córdoba capital). Categoría: Primera. Presupuesto: $249.600.000 IVA incluido (septiembre 2026). Plazo ejecución: 120 días corridos. Apertura subasta: 9/10/2026 (08:00–14:00 hs). Visita técnica: 2/10/2026.",
+   "ampliada": {
+    "juridica": "Subasta electrónica conforme Decreto Ley 1332-C y Decreto Reglamentario 2074-C. Procedimiento digital en portal Compras Públicas. Presupuesto oficial $249.600.000. Margen mínimo de ofertas: 1%. Consultas hasta 2/10 (19:00 hs). Formalidad correcta; obra de mejora en infraestructura hospitalaria de APROSS (tema vigilado).",
+    "politica": "Hospital Ferreyra es centro médico provincializado de APROSS. Remodelación de fachada y cocheras sugiere mejora de imagen institucional y funcionalidad. Tema vigilado: 'APROSS (financiamiento, aportes, emergencia sanitaria, convenios)'. Aviso no menciona financiamiento especial ni emergencia; obra ordinaria de mantenimiento e inversión.",
+    "oficialista": "Mejora infraestructura hospitalaria central de APROSS, optimiza acceso de vehículos y facilita atención al público; inversión en patrimonio institucional.",
+    "opositora": "Presupuesto de $249.600.000 para fachada y cocheras resulta elevado sin detalle de metraje ni especificaciones constructivas; sin información de fondos provenientes de aportes, subsidios o endeudamiento."
+   },
+   "texto_oficial": "OBJETO: La ADMINISTRACIÓN PROVINCIAL DEL SEGURO DE SALUD llama a Subasta Electrónica Inversa de Obra Pública para la contratación de la Obra 'REMODELACION FACHADA SOBRE AV. RICHIERI Y NUEVAS COCHERAS EN HOSPITAL FERREYRA'. Organismo contratante: ADMINISTRACIÓN PROVINCIAL DEL SEGURO DE SALUD. Emplazamiento de la obra: Hospital Raúl Ángel Ferreyra - Calle Avenida Pablo Ricchieri N° 2200 – Barrio Rogelio Martínez de la Ciudad de Córdoba. Categoría de la Obra: PRIMERA CATEGORÍA. Presupuesto oficial estimado: PESOS DOSCIENTOS CUARENTA Y NUEVE MILLONES SEISCIENTOS MIL CON 00/100 ($ 249.600.000,00), IVA incluido, correspondiente a valores del mes de SEPTIEMBRE DE 2026. Plazo de Ejecución: CIENTO VEINTE (120) DÍAS CORRIDOS.",
+   "seccion": "4",
+   "pagina": 6,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_240926.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Intervención - Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución del Ministerio de Bioagroindustria N° 2026/00000198 (14/08/2026)",
+   "titulo": "Intervención Consorcio Caminero Villa San Esteban N° 255",
+   "detalle": "Se dispone inicio de intervención del Consorcio Caminero N° 255 - Villa San Esteban (CUIT 30-68886811-0), localidad Villa San Esteban, Depto. San Justo. Se designan como Interventores a Valeria Soledad Piva (DNI 26.767.710) y José Alberto López (DNI 29.207.982). Domicilio especial: Av. Figueroa Alcorta N° 234, Córdoba Capital. Se convoca a acreedores a presentar verificación de créditos hasta 9/10/2026.",
+   "organismo": "Consorcio Caminero Villa San Esteban N° 255",
+   "pagina": 6,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_240926.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "1624 - Letra D",
+   "titulo": "Imposición de nombre al Instituto Provincial de Educación Técnica N° 407 de Ucacha",
+   "resumen": "El Ministerio de Educación impone el nombre 'Héroes de Malvinas' al Instituto Provincial de Educación Técnica N° 407 de la localidad de Ucacha, departamento Juárez Celman.",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución Normativa",
+   "numero": "37",
+   "titulo": "Reglamentación tributaria para Programa Provincial de Alivio y Reordenamiento del Endeudamiento Familiar",
+   "resumen": "La Dirección General de Rentas establece códigos de actividad y tratamientos fiscales especiales para que entidades financieras y emisoras de tarjetas de crédito adheridas al Programa Provincial de Alivio y Reordenamiento del Endeudamiento Familiar (Ley N° 11.137) declaren ingresos tributables al 0% en Impuesto sobre Ingresos Brutos.",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Acuerdo Reglamentario",
+   "numero": "1957 - Letra A",
+   "titulo": "Suspensión de remisión de causas concursales desde juzgados del interior a Capital",
+   "resumen": "El Tribunal Superior de Justicia suspende parcialmente los Acuerdos Reglamentarios números 1951 y 1952 del 17/09/2026, dejando sin efecto el artículo 3 que mandaba remitir por sorteo las causas concursales que ingresaran en los juzgados de Huinca Renancó y San Francisco hacia juzgados competentes en concursos de Capital.",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "301",
+   "titulo": "APROSS: Reapertura de incorporaciones colectivas voluntarias de afiliados",
+   "resumen": "El Directorio de APROSS deja sin efecto la suspensión de incorporaciones afiliatorias voluntarias de carácter colectivo dispuesta por Resolución N° 0008/23, reestableciendo la vigencia de la Resolución N° 0366/21, mientras mantiene la suspensión de incorporaciones individuales.",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0683-080515/2026",
+   "titulo": "Adquisición de neumáticos para vehículos de la Secretaría de Gestión de Riesgo Climático, Catástrofes y Protección Civil",
+   "resumen": "El Ministerio de Seguridad llama a licitación pública presencial para la adquisición de 284 neumáticos para 71 vehículos de la Secretaría de Gestión de Riesgo Climático, Catástrofes y Protección Civil, por presupuesto de $94.193.656,00 IVA incluido.",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "9/2026",
+   "titulo": "Alquiler de contenedores de residuos para dependencias de la Policía de la Provincia de Córdoba (segundo llamado)",
+   "resumen": "La Policía de la Provincia de Córdoba llama a segundo licitación pública para la contratación del servicio de alquiler de contenedores de residuos con destino a dependencias varias, por presupuesto oficial de $189.099.999,72.",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0733-012239/2026",
+   "titulo": "Sistematización y readecuación cauce Río Anisacate, tramo Ruta Provincial N° 5 a N° 36, Santa María",
+   "resumen": "La Secretaría de Infraestructura Hídrica y Gasífera del Ministerio de Infraestructura y Servicios Públicos licita la obra de sistematización y readecuación del cauce del Río Anisacate entre puentes de las rutas provinciales N° 5 y N° 36 en el departamento Santa María, por presupuesto de $2.514.367.950,18 IVA incluido y plazo de 240 días.",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0660-004964/2026",
+   "titulo": "Nota Aclaratoria N° 1 — Adquisición de reguladores de tensión 13,2kV para Chaján",
+   "resumen": "La Subsecretaría de Infraestructura Eléctrica publica aclaración a la licitación de adquisición de reguladores de tensión para Chaján, rectificando la tensión primaria del regulador de 19,92kV a 7,62kV y la corriente nominal de 201A a 150A.",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002474/2026",
+   "titulo": "Enmienda N° 1 — Obras mayores en establecimientos educativos de Córdoba Capital, Grupo 1",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 a la licitación de obras mayores en establecimientos educativos (IPEM N° 208 Marina Waisman, Jardi de Infantes Juana Manso, Escuela Juan Bautista Alberdi y otros).",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002475/2026",
+   "titulo": "Enmienda N° 1 — Obras mayores en establecimientos educativos de Córdoba Capital, Grupo 2",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 a la licitación de obras mayores en establecimientos educativos (Escuela Juan Zorrilla de San Martín, Jardi de Infantes Dr. Humberto Roque Dagum y otros).",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002476/2026",
+   "titulo": "Enmienda N° 1 — Obras mayores en establecimientos educativos de Córdoba Capital, Grupo 3",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 a la licitación de obras mayores en establecimientos educativos (Jardi de Infantes Juan Zorrilla de San Martín, Escuela Hugo Leonelli y otros).",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002477/2026",
+   "titulo": "Enmienda N° 1 — Obras mayores en establecimientos educativos de Córdoba Capital, Grupo 4",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 a la licitación de obras mayores en establecimientos educativos (Escuela Modesta Rodríguez, Escuela Gregoria Matorras de San Martín y otros).",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002479/2026",
+   "titulo": "Enmienda N° 1 — Obras mayores en establecimientos educativos de Córdoba Capital, Grupo 6",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 a la licitación de obras mayores en establecimientos educativos (Escuela Javier Lazcano Colodrero, Escuela Primera Junta y otros).",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002480/2026",
+   "titulo": "Enmienda N° 1 — Obras mayores en establecimientos educativos de Córdoba Capital, Grupo 7",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 a la licitación de obras mayores en establecimientos educativos (IPET N° 247 Ing. Carlos Cassaffousth, IPEM N° 187 José América Malanca y otros).",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002483/2026",
+   "titulo": "Enmienda N° 1 — Obras mayores en establecimientos educativos de Córdoba Capital, Grupo 10",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 (corrección de precios) a la licitación de obras mayores en establecimientos educativos (Instituto Técnico Industrial Zona Norte, Escuela Antonio del Viso y otros).",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002482/2026",
+   "titulo": "Enmienda N° 1 — Obras mayores en establecimientos educativos de Córdoba Capital, Grupo 9",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 a la licitación de obras mayores en establecimientos educativos (Escuela Miguel Rodríguez de la Torre, IPET y M. N° 133 Dr. Florencio Escardo y otros).",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002484/2026",
+   "titulo": "Enmienda N° 1 — Obras mayores en establecimientos educativos de Córdoba Capital, Grupo 11",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 a la licitación de obras mayores en establecimientos educativos (Jardi de Infantes José Malanca, Escuela Santiago Derqui y otros).",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002485/2026",
+   "titulo": "Enmienda N° 1 — Obras mayores en establecimientos educativos de Córdoba Capital, Grupo 12",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 a la licitación de obras mayores en establecimientos educativos (Escuela José Luis Sersic, IPEM N° 121 Gob. Justo Pastor Páez Molina y otros).",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0620-002486/2026",
+   "titulo": "Enmienda N° 1 — Contratación de obras mayores en establecimientos educativos de Córdoba Capital, Grupo 13",
+   "resumen": "La Subsecretaría de Administración del Ministerio de Educación y ACIF S.E.M. comunican enmienda N° 1 (corrección de precios) a la licitación de obras mayores en establecimientos educativos (Escuela Honorato Laconi, Escuela Arturo Capdevila y otros).",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0045-027643/2026",
+   "titulo": "Enmienda N° 1 — Pavimentación Ruta Prov. S-433, tramo Prog. 38+500 a 50+420, Río Primero",
+   "resumen": "ACIF S.E.M. y Dirección de Vialidad del Ministerio de Infraestructura y Servicios Públicos comunican enmienda N° 1 a la licitación de pavimentación de la Ruta Provincial S-433 en el departamento Río Primero.",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "EXPTE. 0045-027796/2026",
+   "titulo": "Enmienda N° 1 — Puente sobre Río Panaholma, localidad San Lorenzo, departamento San Alberto",
+   "resumen": "ACIF S.E.M. y Dirección de Vialidad del Ministerio de Infraestructura y Servicios Públicos comunican enmienda N° 1 a la licitación de construcción de puente sobre Río Panaholma en la localidad de San Lorenzo.",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1495",
+   "titulo": "Ácido sulfúrico 98% para tratamiento de agua planta química",
+   "resumen": "EPEC S.A.U. llama a licitación pública electrónica para la adquisición de ácido sulfúrico 98% destinado al tratamiento de agua en planta química, por presupuesto oficial de $422.895.000,00 IVA incluido.",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Concurso de Precios",
+   "numero": "s/n",
+   "titulo": "Adquisición de materiales para ejecución de parque solar fotovoltaico de 1 MW",
+   "resumen": "La Cooperativa de Servicios Públicos, Consumo, Vivienda, Servicios Sociales y Asistenciales Villa Ascasubi Ltda. llama a concurso de precios para la adquisición de materiales y equipamiento eléctrico (paneles solares, inversores, estructuras, cableado y accesorios) destinados a la construcción de un parque solar fotovoltaico de 1 MW a instalarse en Villa Ascasubi.",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Licitación Pública Electrónica",
+   "numero": "1486",
+   "titulo": "Nota Aclaratoria N° 1 — Reparación y balanceo de rotor de turbina Fiat TG 16",
+   "resumen": "EPEC S.A.U. publica nota aclaratoria N° 1 a la licitación pública electrónica para la reparación y balanceo de rotor de turbina, prorrogando la fecha de presentación de ofertas hasta 26/10/2026.",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5592",
+   "titulo": "Nota Aclaratoria N° 4 — E.T. Cruz del Eje Nueva 132/13,2 kV 2x28/40 MVA + ATD 132/66kV 40/55MVA",
+   "resumen": "EPEC S.A.U. publica nota aclaratoria N° 4 a la licitación pública para la construcción de estación transformadora en Cruz del Eje (especialidad civil y electromecánica, categoría primera), presupuesto oficial $30.000.077.244,29, prorrogando apertura de sobres a 01/10/2026.",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "numero": "COTIZACIÓN N° 2026/000047",
+   "titulo": "Remodelación fachada Av. Richieri y nuevas cocheras en Hospital Ferreyra",
+   "resumen": "APROSS llama a subasta electrónica inversa de obra pública para la remodelación de fachada sobre Avenida Richieri y construcción de nuevas cocheras en el Hospital Raúl Ángel Ferreyra, categoría primera, presupuesto estimado $249.600.000 IVA incluido, plazo 120 días.",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "2026/00000198",
+   "titulo": "Intervención del Consorcio Caminero Villa San Esteban N° 255",
+   "resumen": "El Ministerio de Bioagroindustria dispone el inicio de la intervención del Consorcio Caminero N° 255 - Villa San Esteban (CUIT 30-68886811-0) y designa como interventores a Valeria Soledad Piva y José Alberto López, convocando a acreedores a verificar sus créditos hasta el 9 de octubre de 2026.",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "EXPTE. N° 0535-102785/2013",
+   "titulo": "Solicitud de inscripción de posesión — Baez, Jorge Raúl, calle Salta N° 914, Río Cuarto",
+   "resumen": "La Unidad Ejecutora para el Saneamiento de Títulos (Ley 9150) cita a titulares registrales y acreedores para que presenten oposiciones a la solicitud de inscripción de posesión sobre inmueble ubicado en calle Salta N° 914, Río Cuarto, dentro del plazo de sesenta días.",
+   "seccion": "4",
+   "pagina": 8
+  }
+ ],
+ "telegram": "Boletín N° 186 (24/09/2026): 4 normas destacadas — APROSS reabre incorporaciones colectivas de afiliados; DGR reglamenta tributación al 0% para programa provincial de alivio de endeudamiento familiar; Tribunal Superior suspende remisión de causas concursales desde interior a Capital; múltiples licitaciones de obra educativa, vial e hídrica por $2.500+ millones.",
+ "motor": "claude",
+ "modelo": "claude-haiku-4-5",
+ "hora_procesado": "11:06",
+ "estado": "publicado"
+}
