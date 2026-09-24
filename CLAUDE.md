@@ -463,6 +463,28 @@ pasa de 8.
   IA**. Quedaron los 68 KB en `texto/` y 13 páginas en Supabase, así que
   cuando la clave anduvo el análisis salió sin volver a bajar nada.
 
+  **Al día siguiente el MISMO 401, y por otra causa** (24/09/2026). La
+  clave del `.env` estaba bien —probada contra la API y andando—, pero el
+  botón del panel seguía fallando. El motivo: **el buzón lee el `.env` una
+  sola vez, al arrancar**. Ese proceso se había levantado el 23 a las
+  02:56 y la clave se arregló a las 11: nueve horas después. Siguió toda
+  la jornada con la credencial muerta en memoria.
+
+  Por eso por terminal andaba y por el panel no: `correr.sh` hace `source
+  .env` en cada corrida, el buzón no.
+
+  **La clave vive en TRES lugares, y rotarla obliga a tocar los tres:**
+
+      1. el .env de la Mac          el archivo
+      2. el buzón (escuchar.sh)     reiniciar el proceso
+      3. Vercel                     la variable Y un despliegue nuevo
+
+  Diagnóstico rápido para no repetirlo: si el error es 401, probar la
+  clave del `.env` contra la API. Si funciona, el problema no es la clave
+  sino algún proceso viejo que todavía tiene la anterior. `ps -ax -o
+  pid,lstart,command | grep buzon` dice desde cuándo corre. El motor ahora
+  imprime esos tres lugares cuando ve un AuthenticationError.
+
 - **El `read operation timed out` NO era la API: era la conexión.**
   Medido el 18/09/2026 con el cronómetro, nueve llamadas seguidas sin una
   sola falla:

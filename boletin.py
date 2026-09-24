@@ -360,6 +360,21 @@ def _invocar(motor: str, sistema: str, usuario: str) -> str:
     except Exception as e:
         print(f"   · {motor} cortó a los {time.monotonic() - comienzo:.0f} s "
               f"({type(e).__name__})")
+        # Un 401 ya costó dos días seguidos, y las dos veces la causa fue
+        # distinta: primero la clave borrada al crear otra, después un
+        # buzón viejo con la clave muerta en memoria. El error de la API
+        # es el mismo en los dos casos y no dice dónde mirar, así que lo
+        # dice el motor.
+        if type(e).__name__ == "AuthenticationError":
+            print("       La clave no es válida. Tres lugares la tienen y hay")
+            print("       que mirarlos en este orden:")
+            print("       1. El .env de la Mac — ¿existe todavía esa clave en")
+            print("          console.anthropic.com? Una borrada no se lista.")
+            print("       2. El buzón, si el pedido vino del panel: lee el .env")
+            print("          UNA vez al arrancar. Si la clave cambió después,")
+            print("          hay que reiniciar escuchar.sh.")
+            print("       3. Vercel, si falla el panel: la variable se cambia")
+            print("          ahí y no toma efecto hasta el próximo despliegue.")
         raise
     print(f"   · {motor} respondió en {time.monotonic() - comienzo:.0f} s")
     return bruto
