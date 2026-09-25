@@ -356,6 +356,32 @@ Quedan 10 de 23, con la más baja que entra en 0,78 y la más alta que queda
 afuera en 0,51: un colchón de 27 puntos alrededor del umbral. Nombrar lo
 que NO cuenta resultó más potente que nombrar lo que sí.
 
+**Compartir la palabra tampoco alcanza — el reverso, agregado el 25/09/2026.**
+Belén pidió "designaciones" queriendo decir movimientos de personal
+(nombramientos, remociones, renuncias) y le entró "Imposición de nombre al
+Instituto Provincial de Educación Técnica N° 407 de Ucacha" con **0,91**: la
+norma le pone un nombre a un edificio. El primer párrafo del criterio decía
+que un caso concreto cuenta aunque no nombre el tema, pero no decía nada de
+la dirección contraria, que es esta.
+
+Lo delicado era no romper lo que sí sirve: la **intervención** de un
+Consorcio Caminero designa interventores con nombre y DNI, y tiene que
+seguir entrando. Medido sobre las 28 normas del 24/09 y los tres temas del
+encargo, un solo cambio de lado en toda la edición:
+
+    Imposición de nombre al IPET 407 de Ucacha    0,91 → 0,09   sale
+    Intervención Consorcio Caminero N° 255        0,91 → 0,92   queda
+    Pavimentación Ruta Prov. S-433                0,94 → 0,92
+    Puente sobre Río Panaholma                    0,93 → 0,92
+
+No queda rozando el umbral: 0,09 lo manda al fondo. Obras viales no se
+movió más que el ruido conocido (±0,02). Medirlo costó 0,34 ¢.
+
+Como el criterio es global, un cambio así se mide contra una edición entera
+y **todos** los temas del encargo antes de escribirlo — no contra el caso
+que lo motivó. Y las notas ya guardadas no se recalculan solas: hay que
+apretar "Volver a mirar" en Entregas, que es `rehacer: true`.
+
 ## Dos listas de temas que NO hay que mezclar
 
 - `instrucciones.md` → **TEMAS VIGILADOS**: los de Leo. El motor los usa
