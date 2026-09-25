@@ -1,0 +1,403 @@
+{
+ "fecha": "2026-09-25",
+ "numero_boletin": "187",
+ "sintesis_juridica": [
+  "La edición de hoy publica cinco resoluciones en Sección 1: designación del Notario Santiago Nicolás Caramuti como Escribano Titular del Registro Notarial Nº 350 en Río Cuarto (Resolución Nº 20); aprobación del Programa Aromáticas y Medicinales de la Provincia de Córdoba orientado a conservación y aprovechamiento sostenible de especies nativas (Resolución Nº 314); renovación de habilitación para tres prestadoras de Servicios de Seguridad Privada (Resoluciones Nº 472, 473 y 474); y aprobación del Programa Córdoba Rosa 2026 de APROSS para detección precoz de cáncer de mama (Resolución Nº 303). La Sección 4 contiene llamados a licitaciones públicas de obras viales, educativas e hidráulicas, convocatorias de acreedores para consorcios camineros en intervención, y solicitudes de reconocimiento de personería jurídico-política de nuevas agrupaciones políticas municipales.",
+  "No se detectan modificaciones de leyes vigentes ni derogaciones explícitas. El Programa Aromáticas y Medicinales se estructura sobre la base de competencias ya delegadas a la Secretaría de Ambiente por Decreto 2206/2023 (ratificado por Ley 10.956); la campaña de APROSS se enmarca en la Ley Provincial 10503 que adhiere a normativa nacional sobre prevención del cáncer de mama. Las contrataciones y licitaciones se sujetan a marcos normativos preexistentes (Ley 8614 para obras públicas, Ley 10571 para seguridad privada, Ley 9277 para APROSS)."
+ ],
+ "sintesis_politica": [
+  "La aprobación del Programa Aromáticas y Medicinales consolida una línea de política ambiental territorial enfocada en conservación in situ y ex situ, con especial atención a departamentos del noroeste provincial (Pocho, San Javier, San Alberto, Minas, Cruz del Eje) donde existe demanda productiva ya reconocida en la Ley Provincial 10280. El programa articula educación, investigación y economía local, delegando ejecución a la Secretaría de Ambiente. El Programa Córdoba Rosa reasume un régimen de gratuidad total en prestaciones de prevención oncológica (2026) con reconocimiento económico diferencial (20% adicional + coseguros) a efectores y médicos, reforzando la cobertura de APROSS en un año electoral; la medida responde a una estrategia continuada desde 2017 según el texto.",
+  "La intervención del Consorcio Caminero Nº 255 (Villa San Esteban) mediante designación de dos interventores y convocatoria de acreedores refleja problemas de gestión en estructuras cooperativas viales de menor escala, bajo la Ley Provincial 11059. En Sección 4 prevalecen licitaciones de grandes montos: obra hidráulica sobre Río Anisacate ($2.514 M), línea de media tensión San Pedro-Chancaní ($17.169 M), reformulación de fachada y cocheras en Hospital Ferreyra de APROSS ($249,6 M). El timing concentra aperturas en octubre, coherente con ciclos presupuestarios de ejecución."
+ ],
+ "normas": [
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "20",
+   "titulo": "Designación de Escribano Titular del Registro Notarial Nº 350, Río Cuarto",
+   "importa": "Designación del Notario Santiago Nicolás Caramuti como Escribano Titular del Registro Notarial Nº 350 con asiento en Río Cuarto, por fallecimiento del anterior titular (Decreto Nº 1143/2013 de adscripción; fallecimiento del titular registrado el 26/07/2026).",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La resolución se funda en artículos 17, 29 y 33 de la Ley Nº 4183 (T.O. Decreto Nº 2252/75), y en artículo 7 inciso a) del Decreto Nº 2449/2023. El acto es formal: Caramuti ya ostentaba la categoría de Adscripto desde 2013 (Decreto 1143) y es promovido a Titular por vacancia confirmada por Resolución de Presidencia Nº 240/2026 del 11/09/2026. No se observan vicios formales; el Tribunal de Disciplina Notarial e Colegio de Escribanos se expiden favorablemente.",
+    "politica": "Acto administrativo de carácter predominantemente técnico-registral. La promoción es resultado de sucesión natural tras fallecimiento (26/07/2026) y confirma continuidad en la función notarial en Río Cuarto. No se evidencia controversia política.",
+    "oficialista": "La designación respeta el orden de antigüedad y aptitud: Caramuti fue adscripto durante 13 años, prestó juramento y mantuvo desempeño continuo. Ambos organismos de control (Tribunal de Disciplina, Colegio) dan opinión positiva.",
+    "opositora": "Sin hallazgos de criticidad procedente; se trata de un acto de orden sucesorio administrativo ejecutado conforme norma."
+   },
+   "texto_oficial": "Artículo 1º.- DESÍGNASE al Notario Santiago Nicolás CARAMUTI, D.N.I. N° 24.521 .544 -Clase 1975-, Matrícula Profesional N° 2316, como Escribano Titular del Registro Notarial Nº 350, con asiento en la ciudad de Río Cuarto, Departamento Río Cuarto, de esta Provincia de Córdoba. Artículo 2°.- PROTOCOLÍCESE, comuníquese, dese intervención al Tribunal de Disciplina Notarial, al Colegio de Escribanos de la Provincia de Córdoba, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_250926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "314",
+   "titulo": "Programa Aromáticas y Medicinales de la Provincia de Córdoba",
+   "importa": "Aprobación del Programa Aromáticas y Medicinales de la Provincia de Córdoba, cuyo objeto es desarrollar estrategias de conservación y aprovechamiento sostenible de especies aromáticas y medicinales nativas, con enfoque de cultivo planificado, generación de empleo, agregado de valor y educación ambiental.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "La Secretaría General de Ambiente, Economía Circular y Biociudadanía ejerce competencias atribuidas por Decreto Nº 2206/2023 (ratificado Ley 10.956 y modificado por Decretos 239/2025, 274/2025 y 112/2026). El programa se articula con Ley Provincial 10280 (cultivo de aromáticas en cinco departamentos específicos: Pocho, San Javier, San Alberto, Minas, Cruz del Eje), Ley Provincial 6964 (Áreas Protegidas), Ley 8066 (Bosques y Tierras Forestales) y Ley 9814 (Ordenamiento Territorial de Bosques Nativos). Alineación con tratados internacionales (Convención sobre Diversidad Biológica, Protocolo de Kioto, Convención sobre Patrimonio Cultural y Natural) y legislación nacional (Artículo 41 CN, Ley 25.675 General del Ambiente, Ley 22.421 Fauna Silvestre, Ley 26.331 Presupuestos Mínimos Bosques Nativos). Acto administrativo de alcance general (todo territorio de la Provincia) y destinatarios múltiples (familias productoras, instituciones educativas, municipios, actores de cadena de valor).",
+    "politica": "Política pública ambiental y productiva territorial, con énfasis en economía regional del noroeste provincial donde la Ley 10280 ya había formalizado interés estatal en aromáticas medicinales. Busca conciliar conservación in situ de biodiversidad con economía local, educación ambiental en todos los niveles (inicial a universitario) y arraigo territorial. Timing: formalización tardía del programa (2026) respecto a marco legal (Ley 10280 anterior); sugiere consolidación de política pendiente. Inclusión de actores comunitarios y académicos apunta a modelo de gobernanza participativa en biodiversidad.",
+    "oficialista": "Consolidación de mandato ya contenido en Ley Provincial 10280 (2013 aproximadamente) que declaraba de interés cultivo de aromáticas en cinco departamentos. El programa ahora articula ese interés con educación ambiental, investigación, conservación de ecosistemas (in situ y ex situ, bancos de germoplasma) y cadenas de valor agregado. Responde a presiones de deforestación, incendios forestales y recolección silvestre inapropiada que ponen en riesgo recursos. Alineación con estándares internacionales de sostenibilidad ambiental.",
+    "opositora": "Ambigüedad en mecanismos de ejecución: el texto no especifica presupuesto, órgano ejecutor concreto, plazos, ni indicadores de cumplimiento para los tres subproyectos mencionados (Proyecto Peperina, Ruta de las Aromáticas, Jardín de Aromáticas). Podría interpretarse como programa declarativo sin dotación efectiva de recursos. Falta claridad en relación entre conservación (pública, sin fines de lucro) y fomento productivo privado: ¿subsidios, créditos, facilidades para productores privados? ¿Qué beneficiarios de la 'economía local' acceden realmente?"
+   },
+   "texto_oficial": "Artículo 1°: APRUÉBASE, el texto, términos y acciones del PROGRAMA AROMÁTICAS Y MEDICINALES DE LA PROVINCIA DE CÓRDOBA, el que tiene como objeto desarrollar y fortalecer estrategias para la conservación y aprovechamiento sostenible de las especies aromáticas y medicinales en el territorio de la Provincia de Córdoba, promoviendo el cultivo planificado y responsable que fortalezca las economías locales y regionales, genere empleo, agregado de valor y arraigo territorial, contribuyendo a la preservación de la biodiversidad, el que como Anexo I forma parte de la presente resolución. Artículo 2º: PROTOCOLÍCESE, comunícase, y oportunamente archívase.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_250926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "472",
+   "titulo": "Renovación de Habilitación – Cooperativa de Trabajo 10 de Junio Limitada – Servicios de Seguridad Privada",
+   "importa": "Renovación de la habilitación de la empresa Cooperativa de Trabajo 10 de Junio Limitada (CUIT 30-67758221-5) para funcionar como Prestadora de Servicios de Seguridad Privada, sin autorización para uso de armas, y renovación en el cargo de Director Técnico (Sr. Fabián Alejandro Campana, DNI 20.075.791).",
+   "seccion": "1",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Renovación bajo Ley Nº 10.571 (Seguridad Privada) y Resolución Reglamentaria 970/2025. Se acredita cumplimiento de artículos 8, 9, 12, 13, 18, 29 inc. b) y concordantes (requisitos de habilitación). Director Técnico cumple artículos 10, 13 y 18 de Ley 10.571. Subdirección de Control y Registro emite Informe Técnico Favorable. Condición resolutiva: acreditación en 30 días de obligaciones de artículos 9 inc. d), 14, 15 y 16 (normas de funcionamiento, seguridad, registro de personal, capacitación). Obligación de registración en Ciudadano Digital Nivel 2 para todas las notificaciones futuras (ley firma digital 5.350, Decreto 1280/14, Ley 10.618, Decreto 750/19). Sin vicios formales detectados.",
+    "politica": "Acto rutinario de control y habilitación de empresas de seguridad privada. No hay controversia política relevante. La condición de renovación (30 días para acreditar cumplimientos) es estándar en este tipo de trámites.",
+    "oficialista": "La Cooperativa y su Director Técnico cumplen con la documentación exigida por ley. El Informe Técnico favorable valida la petición. La restricción de 'sin autorización para uso de armas' es medida de control que refleja evaluación de aptitud.",
+    "opositora": "Sin hallazgos de criticidad; trámite dentro de norma."
+   },
+   "texto_oficial": "Artículo 1°.- DISPÓNESE la renovación de la habilitación de la empresa \"Cooperativa de Trabajo 10 de Junio Limitada\" C.U.I.T. 30-67758221-5 con domicilio en calle Av. Emilio Olmos N° 491 Piso 3° Oficina \"D\" Edificio Faro de Olmos de la Ciudad de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas y PROCÉDASE a la renovación en el cargo de Director Técnico del Sr. CAMPANA Fabián Alejandro D.N.I. N° 20.075.791, a quien se le extenderá credencial habilitante, sin autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_250926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "303",
+   "titulo": "Programa Córdoba Rosa 2026 – APROSS – Prevención del Cáncer de Mama",
+   "importa": "Aprobación e implementación del Programa Córdoba Rosa 2026 por APROSS (1° a 31 de octubre 2026), destinado a mujeres afiliadas de 40 años o más, sin carencias, residentes en la Provincia. Prestaciones totalmente gratuitas (sin coseguros, sin prescripción médica obligatoria): consultas ginecológicas/obstétricas, ecografías mamarias, mamografías bilaterales, digitales.",
+   "seccion": "1",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Fundamentación en artículos 18 y 26 inciso f) de Ley Nº 9277 (ley orgánica de APROSS) y en Ley Provincial Nº 10503 que adhiere a Ley Nacional Nº 26606 (institución de octubre como mes de concienciación sobre detección precoz de cáncer de mama). El Directorio de APROSS aprueba lineamientos normativos, alcance operativo, protocolos de facturación y cuadro de valores diferenciales (Anexos I y II). Eximición de coseguros e imposición de reconocimiento diferencial a efectores (20% adicional sobre valor vigente de práctica, más el coseguro que la afiliada no paga) es estipulación que requiere base presupuestaria en APROSS. Acto administrativo interno que afecta prestación de servicios, cobertura y relación con efectores.",
+    "politica": "Política sanitaria preventiva enmarcada en calendario de concienciación nacional (octubre). APROSS continúa régimen iniciado en 2017 (según texto: 'desde el año 2017 como política sanitaria'). Gratuidad total + incentivo económico a efectores señala prioridad política en acceso a diagnóstico oncológico temprano. Timing (2026, año electoral) sugiere consolidación de cobertura en capa de beneficiarios (mujeres 40+, sin carencias, residentes provincia). Ausencia de datos sobre 'carencias activas' (criterio de exclusión) deja margen: el texto no aclara qué constituye carencia activa ni cómo se verifica.",
+    "oficialista": "Continuidad de programa sanitario que ha operado 9 años. Gratuidad total y eliminación de barreras administrativas (prescripción no obligatoria) mejoran acceso. Reconocimiento diferencial a efectores (20%+coseguro) incentiva participación territorial, incluso de proveedores pequeños. Acto fundado en ley de APROSS y adhesión nacional a causa de salud pública.",
+    "opositora": "Ambigüedad en concepto 'carencias activas' (criterio de exclusión): ¿qué define carencia? ¿Deuda de aportes? ¿Incapacidad laboral? El texto no lo especifica. Falta información sobre presupuesto dedicado, cantidad estimada de beneficiarias, universo de efectores convocados y proyección de gasto diferencial (20%+coseguros). Modelo de incentivo económico a efectores podría generar distorsiones de acceso si algunos efectores no adhieren o cobran por fuera del acuerdo."
+   },
+   "texto_oficial": "Artículo 1º.- APRUÉBASE la implementación y adhesión al \"Programa Córdoba Rosa\" en su edición 2026, a desarrollarse desde el 1° al 31 de octubre de 2026 inclusive, destinado a mujeres afiliadas de esta Administración de 40 años o más, sin carencias y residentes en la Provincia de Córdoba. Artículo 2º.- APRUÉBANSE los lineamientos normativos, el alcance operativo, los protocolos de facturación y el cuadro de valores diferenciales de las prácticas incluidas en el citado Programa, los cuales obran como Anexo I y Anexo II respectivamente, formando parte integrante del presente acto. Artículo 3º.- ESTABLÉCESE que las prestaciones incluidas en la campaña se brindarán de forma totalmente gratuita para las afiliadas, eximiéndolas del cobro de coseguros y del requerimiento de prescripción médica para la realización de los estudios contemplados en el Programa.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_250926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "473",
+   "titulo": "Habilitación de Empresa de Seguridad Privada – Grupo Pretorians Seguridad Privada",
+   "importa": "Habilitación de empresa unipersonal hasta 10 dependientes (ROMERO Aldana Y amile, CUIT 27-27893542-1, fantasía 'Grupo Pretorians Seguridad Privada') para funcionar como Prestadora de Servicios de Seguridad Privada, sin autorización para uso de armas, y designación de Director Técnico (Sr. Gustavo Ariel Novarese, DNI 24.902.963).",
+   "seccion": "1",
+   "pagina": 3,
+   "ampliada": {
+    "juridica": "Primera habilitación bajo Ley Nº 10.571, artículos 8, 9, 10, 13, 18, 29 inc. a) punto 1. Cumplen requisitos de constitución, Director Técnico acredita antecedentes (artículos 10, 13, 18 y Resolución 970/2025). Informe Técnico Favorable de Subdirección de Control y Registro. Plazo para acreditación de obligaciones: 60 días (mayor que renovaciones, por ser primera habilitación). Obligaciones condicionantes: artículos 9 inc. d), 14, 15 y 16 de Ley 10.571 (capacitación, seguridad, documentación de personal). Registro en Ciudadano Digital Nivel 2 requerido. Domicilio legal: San Martín Nº 136, Vicuña Mackenna, Departamento Río Cuarto. Sin vicios formales.",
+    "politica": "Acto de habilitación estándar de nuevo prestador de seguridad. Sin controversia política. Ubicación en Vicuña Mackenna (Departamento Río Cuarto) sugiere mercado local de demanda en esa zona.",
+    "oficialista": "Empresa acredita cumplimiento de requisitos legales para operar en seguridad. Plazos dilatados (60 días) permiten adecuación operativa. Restricción de 'sin armas' es medida de control estándar.",
+    "opositora": "Sin hallazgos críticos; trámite dentro de norma."
+   },
+   "texto_oficial": "Artículo 1°.- DISPÓNESE la habilitación de la empresa unipersonal hasta diez dependientes de ROMERO Aldana Y amile, C.U.I.T. 27 -27893542-1, con nombre de fantasía \"GRUPO PRETORIANS SEGURIDAD PRIVADA\", con domicilio legal en calle San Martín N° 136 de la localidad de Vicuña Mackenna, Departamento Río Cuarto, Provincia de Córdoba, para funcionar como Prestadora de Servicios de Seguridad Privada, sin la autorización para el uso de armas y; PROCÉDASE a la designación como Director Técnico de la empresa al Sr. NOVARESE Gustavo Ariel D.N.I. N° 24.902.963, a quien se le extenderá credencial habilitante, sin autorización para el uso de armas.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_250926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000038",
+   "titulo": "Sistematización y Readecuación Cauce Río Anisacate – Tramo: Puente Ruta Provincial Nº 5 – Puente Ruta Provincial Nº 36 – Departamento Santamaría",
+   "importa": "Llamado a Licitación Pública para obra de sistematización y readecuación del cauce del Río Anisacate (tramo entre Puente RP Nº 5 y Puente RP Nº 36, Dpto. Santamaría), ejecutada por Secretaría de Infraestructura Hídrica y Gasífera, Ministerio de Infraestructura y Servicios Públicos. Presupuesto Oficial: $ 2.514.367.950,18 (IVA incluido, agosto 2026). Plazo: 240 días corridos. Presentación hasta 13/10/2026 12:00 hs; apertura 14/10/2026 12:00 hs.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación regida por Decreto Nº 583/2016 (plataforma digital, Ley Nº 8.614 Obras Públicas), Resolución 2022/MC-00000046 del Ministerio de Coordinación y Resolución 2022_SCPIP-00000012 de Subsecretaría de Compras, Presupuesto e Inversiones Públicas. Categoría Primera Categoría de Obra. Garantía de mantenimiento de oferta: 1% del Presupuesto Oficial. Pliego disponible en portal oficial compraspublicas.cba.gov.ar. Registro de proveedores obligatorio. Consultas permitidas hasta 3 días hábiles antes de presentación (10/10/2026). Obra sobre infraestructura hídrica de interés para control de crecientes y gestión ambiental en zona de Santamaría.",
+    "politica": "Obra hídrica en contexto de emergencia hídrica permanente en Córdoba (tema vigilado). Monto significativo ($2.514 M en pesos 2026) refleja prioridad en infraestructura de drenaje y control de escurrimientos. Plazo 240 días (8 meses aproximadamente) y apertura en octubre sugieren cronograma de ejecución hacia 2027. Sistematización y readecuación de cauce apunta a control de erosión y prevención de inundaciones en zona productiva (departamentos de la Provincia).",
+    "oficialista": "Obra necesaria para control ambiental e hidrológico. Proceso licitatorio transparente y digital. Presupuesto actualizado a agosto 2026. Secretaría de Infraestructura Hídrica competente en materia.",
+    "opositora": "Montos de obras hídricas históricamente sujetos a controversia por retrasos, sobrecostos y calidad de ejecución. Ausencia de datos sobre estado actual del Río Anisacate, magnitud de problemas (erosión, crecientes) o poblaciones afectadas. Plazo de 240 días en zona potencialmente inestable (ribera de río) puede resultar insuficiente."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA CON SOPORTE DIGITAL - Expte. N° 0733-012239/2026. SOLICITUD DE COTIZACIÓN N° 2026/000038. De acuerdo a lo establecido mediante Resolución Nº 2026/RSIHG-00000720 de la Secretaría de Infraestructura Hídrica y Gasífera, se efectúa el Llamado a Licitación Pública para la contratación de la obra: \"SISTEMATIZACIÓN Y READECUACIÓN CAUCE RÍO ANISACATE – TRAMO: PUENTE RUTA PROVINCIAL Nº5 – PUENTE RUTA PROVINCIAL Nº36 – DPTO. SANTAMARÍA\". ENTIDAD QUE LICITA: Secretaría de Infraestructura Hídrica y Gasífera del Ministerio de Infraestructura y Servicios Públicos. CATEGORÍA DE LA OBRA: Primera Categoría. PRESUPUESTO OFICIAL: $ 2.514.367.950,18. PLAZO DE EJECUCIÓN: DOSCIENTOS CUARENTA (240) DÍAS CORRIDOS. PRESENTACIÓN DE OFERTAS: hasta 12:00 hs. del 13 de octubre de 2026. APERTURA DE OFERTAS: 14 de octubre de 2026, 12:00 hs.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_250926.pdf"
+  },
+  {
+   "tipo": "Subasta Electrónica Inversa",
+   "clase": "licitacion",
+   "numero": "2026/000047",
+   "titulo": "Remodelación Fachada y Nuevas Cocheras – Hospital Raúl Ángel Ferreyra",
+   "importa": "Llamado a Subasta Electrónica Inversa de Obra Pública para remodelación de fachada sobre Avenida Ricchieri y construcción de nuevas cocheras en Hospital Raúl Ángel Ferreyra (Barrio Rogelio Martínez, Ciudad de Córdoba), ejecutado por APROSS. Presupuesto Oficial: $ 249.600.000 (IVA incluido, septiembre 2026). Plazo de Ejecución: 120 días corridos. Subasta: 09/10/2026 (08:00 a 14:00 hs). Margen mínimo de mejora: 1%.",
+   "seccion": "4",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Obra Primera Categoría (arquitectura) conforme Decreto-Ley 1332-C y Decreto Reglamentario 2074-C. Procedimiento de Subasta Electrónica Inversa según Ley Nº 8614 y disposiciones reglamentarias. Pliegos disponibles en portal compraspublicas.cba.gov.ar. Garantía de mantenimiento de oferta: 1% Presupuesto Oficial. Visita técnica obligatoria (02/10/2026, 10:00-11:00 hs, guiada por División Mantenimiento y Servicios APROSS, cel. 3516959301). Consultas hasta 02/10/2026, 19:00 hs. Acreditación de costos bajo Decreto Reglamentario 25743-C-51 (T.O. 4757/77). Acta de Replanteo marca inicio de plazo.",
+    "politica": "Obra de infraestructura sanitaria (tema vigilado: APROSS). Mejora edilicia de Hospital Ferreyra, centro de referencia estatal. Remodelación de fachada y cocheras sugiere modernización visual e instalaciones operativas del establecimiento. Presupuesto de $ 249,6 M (pesos 2026) y plazo 120 días índica obra de mediana envergadura. Timing (apertura subasta 09/10/2026) alineado con ciclos presupuestarios de ejecución de APROSS.",
+    "oficialista": "Inversión en mejoría de Hospital Ferreyra, centro público de alto impacto sanitario. Proceso licitatorio transparente (subasta electrónica inversa favorece competencia). Presupuesto actualizado a septiembre 2026.",
+    "opositora": "Sin datos sobre estado actual del hospital, necesidad específica de remodelación de fachada, o capacidad de nuevas cocheras de satisfacer demanda de estacionamiento. Plazo de 120 días para obra de arquitectura en establecimiento sanitario en funcionamiento puede resultar restrictivo en gestión del sitio."
+   },
+   "texto_oficial": "ADMINISTRACIÓN PROVINCIAL DEL SEGURO DE SALUD llama a Subasta Electrónica Inversa de Obra Pública para la contratación de la Obra \"REMODELACION FACHADA SOBRE AV. RICHIERI Y NUEVAS COCHERAS EN HOSPITAL FERREYRA\". Emplazamiento: Hospital Raúl Ángel Ferreyra - Calle Avenida Pablo Ricchieri N° 2200 – Barrio Rogelio Martínez, Ciudad de Córdoba. Categoría: PRIMERA CATEGORÍA (Decreto-Ley 1332-C). Presupuesto Oficial: $ 249.600.000,00 (IVA incluido, septiembre 2026). Plazo de Ejecución: CIENTO VEINTE (120) DÍAS CORRIDOS. Fecha de Subasta: 09/10/2026, 08:00 a 14:00 hs. Margen Mínimo de Mejora: 1%.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_250926.pdf"
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "clase": "licitacion",
+   "numero": "2026/000110",
+   "titulo": "Construcción Línea Aérea de Media Tensión 33kV San Pedro – Chancaní",
+   "importa": "Llamado a Subasta Electrónica para obra de construcción de línea aérea de media tensión 33kV San Pedro-Chancaní, ejecutado por Subsecretaría de Infraestructura Eléctrica del Ministerio de Infraestructura y Servicios Públicos. Presupuesto Oficial: $ 17.168.731.616,50 (impuestos incluidos). Plazo: 500 días corridos. Subasta: 16/10/2026 (09:00 a 13:00 hs). Margen mínimo de mejora: 0,25%.",
+   "seccion": "4",
+   "pagina": 5,
+   "ampliada": {
+    "juridica": "Obra de infraestructura eléctrica regida por Ley Nº 8614 (Obras Públicas) y disposiciones reglamentarias. Precio de referencia igual a Presupuesto Oficial. Garantía de mantenimiento: 1% Presupuesto Oficial. Margen mínimo 0,25% (menor que obras de arquitectura, refleja competencia esperada en sector eléctrico). Consultas hasta 13/10/2026 13:00 hs mediante portal compraspublicas.cba.gov.ar. Pliego disponible en portal oficial, descargable sin registro ni cargo. Acta de Replanteo inicia plazo.",
+    "politica": "Obra de infraestructura eléctrica de gran magnitud ($17.169 M, septiembre 2026 actualizado; moneda 2026) conectando localidades San Pedro y Chancaní. Mejora de cobertura de media tensión sugiere expansión o refuerzo de distribución eléctrica territorial. Subsecretaría de Infraestructura Eléctrica competente. Plazo 500 días (16-17 meses) acorde con envergadura. Apertura subasta 16/10/2026 alineada con ciclos de ejecución anual. Posible relación con energetización de zonas rurales o industrias agropecuarias de la Provincia (tema vigilado: infraestructura).",
+    "oficialista": "Obra de electrificación necesaria para expansión territorial de servicio. Presupuesto significativo refleja prioridad en infraestructura. Proceso licitatorio transparente. Margen bajo de mejora anticipa competencia sana.",
+    "opositora": "Monto extremadamente alto ($17.169 M) para línea aérea de media tensión simple (33kV); requiere verificación de sí incluye transformadores, conversoras, u otras instalaciones de mayor complejidad. Plazo de 500 días para obra aérea (condiciones climáticas, terreno) en provincia con inestabilidad hídrica puede resultar insuficiente o sujeto a variaciones."
+   },
+   "texto_oficial": "MINISTERIO DE INFRAESTRUCTURA Y SERVICIOS PÚBLICO. SUBASTA ELECTRÓNICA OBRAS PÚBLICAS - Expte. N° 0660-004814/2026. Llamado a Subasta Electrónica para la contratación de la Obra: \"CONSTRUCCIÓN LÍNEA AÉREA DE MEDIA TENSIÓN 33kV SAN PEDRO - CHANCANÍ\". ENTIDAD: Subsecretaría de Infraestructura Eléctrica del Ministerio de Infraestructura y Servicios Públicos. PRESUPUESTO OFICIAL: $ 17.168.731.616,50. PLAZO DE EJECUCIÓN: QUINIENTOS (500) DÍAS CORRIDOS. FECHA, HORA INICIO Y FINALIZACIÓN: 16/10/2026, 09:00 a 13:00 hs. MARGEN MÍNIMO DE MEJORA: 0,25%.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_250926.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución Nº 20, Ministerio Jefatura de Gabinete",
+   "titulo": "Designación de Escribano Titular del Registro Notarial Nº 350",
+   "detalle": "Santiago Nicolás Caramuti (DNI 24.521.544, Matrícula Profesional Nº 2316) como Escribano Titular del Registro Notarial Nº 350, Río Cuarto.",
+   "organismo": "Tribunal de Disciplina Notarial",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_250926.pdf"
+  },
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Resolución N° 2026/00000198, Ministerio de Bioagroindustria",
+   "titulo": "Designación de Interventores – Consorcio Caminero Nº 255 Villa San Esteban",
+   "detalle": "Valeria Soledad Piva (DNI 26.767.710) y José Alberto López (DNI 29.207.982) como Interventores del Consorcio Caminero Nº 255, Villa San Esteban (CUIT 30-68886811-0), Departamento San Justo, conforme Ley Provincial 11.059.",
+   "organismo": "Consorcio Caminero Nº 255 – Villa San Esteban",
+   "pagina": 6,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_250926.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Resolución",
+   "numero": "20",
+   "titulo": "Designación de Escribano Titular del Registro Notarial Nº 350, Río Cuarto",
+   "resumen": "El Ministerio Jefatura de Gabinete designa al Notario Santiago Nicolás Caramuti como Escribano Titular del Registro Notarial Nº 350 con asiento en la ciudad de Río Cuarto, Departamento Río Cuarto, por vacancia por fallecimiento del anterior titular.",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "314",
+   "titulo": "Programa Aromáticas y Medicinales de la Provincia de Córdoba",
+   "resumen": "La Secretaría General de Ambiente, Economía Circular y Biociudadanía aprueba el Programa Aromáticas y Medicinales de la Provincia de Córdoba, destinado a desarrollar estrategias de conservación y aprovechamiento sostenible de especies aromáticas y medicinales nativas en todo el territorio provincial, fomentando cultivo planificado, economía regional y educación ambiental.",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "472",
+   "titulo": "Renovación de Habilitación – Cooperativa de Trabajo 10 de Junio Limitada",
+   "resumen": "La Dirección de Control y Gestión Operativa en Seguridad Privada del Ministerio de Seguridad dispone la renovación de la habilitación de la Cooperativa de Trabajo 10 de Junio Limitada (CUIT 30-67758221-5) para funcionar como Prestadora de Servicios de Seguridad Privada sin autorización para uso de armas, y renueva el cargo de Director Técnico al Sr. Fabián Alejandro Campana.",
+   "seccion": "1",
+   "pagina": 2
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "473",
+   "titulo": "Habilitación de Empresa de Seguridad Privada – Grupo Pretorians Seguridad Privada",
+   "resumen": "La Dirección de Control y Gestión Operativa en Seguridad Privada del Ministerio de Seguridad habilita la empresa unipersonal de Romero Aldana Y amile (CUIT 27-27893542-1, fantasía 'Grupo Pretorians Seguridad Privada') para funcionar como Prestadora de Servicios de Seguridad Privada sin autorización para uso de armas, y designa Director Técnico al Sr. Gustavo Ariel Novarese.",
+   "seccion": "1",
+   "pagina": 3
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "474",
+   "titulo": "Renovación de Habilitación – Empresa Unipersonal DG Seguridad",
+   "resumen": "La Dirección de Control y Gestión Operativa en Seguridad Privada del Ministerio de Seguridad dispone la renovación de la habilitación de la empresa unipersonal de Lucía Jazmín Ullua Maidana (CUIT 27-43925051-3, fantasía 'DG Seguridad') para funcionar como Prestadora de Servicios de Seguridad Privada sin autorización para uso de armas, y renueva el cargo de Director Técnico al Sr. Luis Alberto Salas.",
+   "seccion": "1",
+   "pagina": 4
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "303",
+   "titulo": "Programa Córdoba Rosa 2026 – Prevención de Cáncer de Mama",
+   "resumen": "El Directorio de la Administración Provincial del Seguro de Salud (APROSS) aprueba e implementa el Programa Córdoba Rosa 2026 (1° al 31 de octubre de 2026) destinado a mujeres afiliadas de 40 años o más, sin carencias y residentes en la Provincia de Córdoba, ofreciendo prestaciones de detección y diagnóstico de cáncer de mama totalmente gratuitas sin coseguros y sin prescripción médica obligatoria.",
+   "seccion": "1",
+   "pagina": 5
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000038",
+   "titulo": "Sistematización y Readecuación Cauce Río Anisacate – Tramo Puente RP Nº 5 a Nº 36",
+   "resumen": "La Secretaría de Infraestructura Hídrica y Gasífera del Ministerio de Infraestructura y Servicios Públicos llama a Licitación Pública para la contratación de obra de sistematización y readecuación del cauce del Río Anisacate entre Puente Ruta Provincial Nº 5 y Puente Ruta Provincial Nº 36 en el Departamento Santamaría, con presupuesto oficial de $ 2.514.367.950,18 y plazo de 240 días corridos.",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000107",
+   "titulo": "Enmienda Nº 1 – Obras Mayores en Establecimientos Educativos, Grupo 10",
+   "resumen": "La Agencia Córdoba de Inversión y Financiamiento (ACIF) y Subsecretaría de Administración del Ministerio de Educación publica Enmienda Nº 1 corrigiendo precios incorrectos en Planilla de Análisis de Precio de Módulo y Factores de Costo en Licitación de obras mayores en cinco establecimientos educativos de Córdoba Capital (IPET 430, Escuela Antonio del Viso, IPEM Nº 3, Escuela Coronel Olmedo, Escuela Paulino Frances, Jardín de Infantes Dr. José Aguirre Cámara).",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000115",
+   "titulo": "Enmienda Nº 1 – Obras Mayores en Establecimientos Educativos, Grupo 13",
+   "resumen": "La Agencia Córdoba de Inversión y Financiamiento (ACIF) y Subsecretaría de Administración del Ministerio de Educación publica Enmienda Nº 1 corrigiendo precios incorrectos en Planilla de Análisis de Precio de Módulo y Factores de Costo en Licitación de obras mayores en nueve establecimientos educativos de Córdoba Capital (Escuela Honorato Laconi, Escuela Arturo Capdevila, Jardín de Infantes Provincia de Entre Ríos, Escuela Florencio Sánchez, Escuela Esteban Echeverría, Escuela Manuel Belgrano, IPEM Nº 41 Jorge Luis Borges, IPEM Nº 39 Don Bosco, Escuela Provincia de Córdoba).",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000110",
+   "titulo": "Enmienda Nº 1 – Pavimentación Ruta Provincial S-433, Tramo Prog 38+500 a 50+420",
+   "resumen": "La Agencia Córdoba de Inversión y Financiamiento (ACIF) y Dirección de Vialidad del Ministerio de Infraestructura y Servicios Públicos publica Enmienda Nº 1 a Licitación de pavimentación de Ruta Provincial S-433 entre Variante Santa Rosa e Intersección Ruta Provincial Nº 10, Departamento Río Primero.",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000103",
+   "titulo": "Enmienda Nº 1 – Puente sobre Río Panaholma, Localidad San Lorenzo",
+   "resumen": "La Agencia Córdoba de Inversión y Financiamiento (ACIF) y Dirección de Vialidad del Ministerio de Infraestructura y Servicios Públicos publica Enmienda Nº 1 a Licitación para construcción de Puente sobre Río Panaholma en la localidad de San Lorenzo, Departamento San Alberto.",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "9/2026",
+   "titulo": "Segundo Llamado a Licitación Pública – Alquiler de Contenedores de Residuos",
+   "resumen": "La Dirección de Administración de la Policía de la Provincia de Córdoba llama a Licitación Pública Nº 9/2026 para contratación del servicio de alquiler de contenedores de residuos con destino a dependencias varias de la Policía, con presupuesto oficial de $ 189.099.999,72.",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2274/2026",
+   "titulo": "Licitación Pública – Servicio de Mantenimiento del Sistema de Climatización ERSeP",
+   "resumen": "El Ente Regulador de los Servicios Públicos (ERSeP) llama a Licitación Pública para contratación del servicio de mantenimiento del sistema de climatización del organismo, con presupuesto oficial de $ 42.000.000, apertura 02/10/2026.",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2268/2026",
+   "titulo": "Concurso de Precios – Adquisición de Sillas para ERSeP",
+   "resumen": "El Ente Regulador de los Servicios Públicos (ERSeP) llama a Concurso de Precios para adquisición de sillas para el organismo, con presupuesto oficial de $ 8.500.000, apertura 06/10/2026.",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1495",
+   "titulo": "Licitación Pública Electrónica – Ácido Sulfúrico 98% para Tratamiento de Agua",
+   "resumen": "La Empresa Provincial de Energía de Córdoba (EPEC) llama a Licitación Pública Electrónica Nº 1495 para adquisición de ácido sulfúrico 98% para tratamiento de agua de planta química, con presupuesto oficial de $ 422.895.000, presentación hasta 02/10/2026.",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "CONCURSO DE PRECIOS",
+   "titulo": "Adquisición de Materiales para Parque Solar Fotovoltaico 1 MW – Cooperativa Villa Ascasubi",
+   "resumen": "La Cooperativa de Servicios Públicos, Consumo, Vivienda, Servicios Sociales y Asistenciales Villa Ascasubi Ltda. llama a Concurso de Precios para adquisición de paneles solares fotovoltaicos, inversores, estructuras, cableado y accesorios para construcción de Parque Solar Fotovoltaico de 1 MW en la localidad de Villa Ascasubi.",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1486",
+   "titulo": "Nota Aclaratoria Nº 1 – Reparación y Balanceo de Rotor de Turbina Fiat TG 16",
+   "resumen": "La Empresa Provincial de Energía de Córdoba (EPEC) publica Nota Aclaratoria Nº 1 a Licitación Pública Electrónica Nº 1486, prorrogando presentación hasta 26/10/2026 y apertura de ofertas 26/10/2026 para reparación y balanceo de rotor de turbina Fiat TG 16, con presupuesto oficial de $ 593.837.750.",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "5592",
+   "titulo": "Nota Aclaratoria Nº 4 – ET Cruz del Eje Nueva 132/13,2 kV",
+   "resumen": "La Empresa Provincial de Energía de Córdoba (EPEC) publica Nota Aclaratoria Nº 4 a Licitación Pública Nº 5592 para construcción de Estación Transformadora Cruz del Eje Nueva (132/13,2 kV 2x28/40 MVA + ATD 132/66kV 40/55MVA), con presupuesto oficial de $ 30.000.077.244,29, entrega de sobres hasta 01/10/2026.",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "1493",
+   "titulo": "Nota Aclaratoria Nº 1 – Adquisición de Relés Direccionales de Máxima Corriente",
+   "resumen": "La Empresa Provincial de Energía de Córdoba (EPEC) publica Nota Aclaratoria Nº 1 a Licitación Pública Electrónica Nº 1493, prorrogando presentación y apertura de ofertas hasta 20/10/2026 para adquisición de relés direccionales de máxima corriente y tierra, con presupuesto oficial de $ 479.804.325.",
+   "seccion": "4",
+   "pagina": 3
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "2026/000047",
+   "titulo": "Subasta Electrónica Inversa – Remodelación Fachada y Nuevas Cocheras Hospital Ferreyra",
+   "resumen": "La Administración Provincial del Seguro de Salud (APROSS) llama a Subasta Electrónica Inversa de Obra Pública para remodelación de fachada sobre Avenida Ricchieri y construcción de nuevas cocheras en Hospital Raúl Ángel Ferreyra, con presupuesto oficial de $ 249.600.000, plazo 120 días, subasta 09/10/2026.",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "2026/000110",
+   "titulo": "Subasta Electrónica – Construcción Línea Aérea Media Tensión 33kV San Pedro-Chancaní",
+   "resumen": "La Subsecretaría de Infraestructura Eléctrica del Ministerio de Infraestructura y Servicios Públicos llama a Subasta Electrónica para construcción de línea aérea de media tensión 33kV San Pedro-Chancaní, con presupuesto oficial de $ 17.168.731.616,50, plazo 500 días corridos, subasta 16/10/2026.",
+   "seccion": "4",
+   "pagina": 5
+  },
+  {
+   "tipo": "Convocatoria",
+   "numero": "2026/00000198",
+   "titulo": "Intervención Consorcio Caminero Nº 255 Villa San Esteban – Convocatoria de Acreedores",
+   "resumen": "El Ministerio de Bioagroindustria dispone la intervención del Consorcio Caminero Nº 255 Villa San Esteban (CUIT 30-68886811-0, Departamento San Justo) conforme Ley Provincial 11.059, designando Interventores Valeria Soledad Piva y José Alberto López, y convoca a todos los acreedores a presentar verificación de créditos hasta 09/10/2026.",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Acto Electoral",
+   "numero": "JUZGADO ELECTORAL",
+   "titulo": "Solicitud de Reconocimiento de Personalidad Jurídico-Política Municipal – Colonia Tirolesa Ciudad de Todos",
+   "resumen": "El Juzgado Electoral de la Provincia de Córdoba informa que la Junta Promotora de la agrupación denominada Colonia Tirolesa Ciudad de Todos inició trámite de reconocimiento de personalidad jurídico-política municipal para actuar en la localidad de Colonia Tirolesa, Departamento Colón.",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Acto Electoral",
+   "numero": "JUZGADO ELECTORAL",
+   "titulo": "Solicitud de Reconocimiento de Personalidad Jurídico-Política Municipal – Renacer Los Reartes",
+   "resumen": "El Juzgado Electoral de la Provincia de Córdoba informa que la Junta Promotora de la agrupación denominada Renacer Los Reartes inició trámite de reconocimiento de personalidad jurídico-política municipal para actuar en la localidad de Los Reartes, Departamento Calamuchita.",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Acto Electoral",
+   "numero": "JUZGADO ELECTORAL",
+   "titulo": "Resultado de Elecciones Internas – Unión Vecinal de Bouwer",
+   "resumen": "El Juzgado Electoral Provincial publica los resultados de las elecciones internas del Partido Unión Vecinal de Bouwer (Departamento Santa María), autoridades electas para el período 2025-2029.",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "GRH02-1409487050-424",
+   "titulo": "Intimación de Reintegro de Haberes Indebidamente Percibidos – Lehmann Sergio O.",
+   "resumen": "La Dirección General de Coordinación y Gestión de Recursos Humanos del Ministerio de Educación intima al Sr. Sergio O. Lehmann a que deposite en un plazo de 5 días hábiles la suma de $ 43.203,48 como reintegro de haberes indebidamente percibidos por cambio de concepto No Remunerativo a Remunerativo según Acuerdo Paritario de marzo 2024.",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Notificación",
+   "numero": "GRH02-1468715050-825",
+   "titulo": "Intimación de Reintegro de Haberes Indebidamente Percibidos – Feliziani María Alejandra",
+   "resumen": "La Dirección General de Coordinación y Gestión de Recursos Humanos del Ministerio de Educación intima a la Sra. María Alejandra Feliziani a que deposite en un plazo de 5 días hábiles la suma de $ 789.467,51 como reintegro de haberes indebidamente percibidos por registro extemporáneo en baja por jubilación ordinaria.",
+   "seccion": "4",
+   "pagina": 7
+  },
+  {
+   "tipo": "Edicto",
+   "numero": "0535-102785/2013",
+   "titulo": "Edicto – Solicitud de Inscripción de Posesión – Baez, Jorge Raúl",
+   "resumen": "La Unidad Ejecutora para Saneamiento de Títulos publica edicto convocando al titular registral y a terceros con derechos sobre inmueble ubicado en calle Salta Nº 914, Río Cuarto (Pueblo Alberbi, Pastos Comunes, 901 m²), a presentar manifestaciones u oposiciones a la solicitud de inscripción de posesión del Sr. Jorge Raúl Baez, en plazo de 60 días.",
+   "seccion": "4",
+   "pagina": 7
+  }
+ ],
+ "telegram": "BOE Nº 187 (25/9/2026): 6 actos de Sección 1 + múltiples licitaciones en S4. Destaca: aprobación del Programa Aromáticas y Medicinales (conservación territorial de biodiversidad nativa, educación ambiental, economía regional) y Programa Córdoba Rosa 2026 de APROSS (gratuidad total en prevención de cáncer de mama, octubre). Tres licitaciones de obras hídricas y eléctricas de envergadura: $ 2.514 M (Río Anisacate), $ 17.169 M (línea 33kV San Pedro-Chancaní). Intervención de Consorcio Caminero 255.",
+ "motor": "claude",
+ "modelo": "claude-haiku-4-5",
+ "hora_procesado": "12:17",
+ "estado": "publicado"
+}

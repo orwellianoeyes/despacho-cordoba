@@ -9,7 +9,7 @@ una orden a la Mac, así que se da vuelta la dirección: el panel deja el
 pedido en la tabla `corridas` y este proceso lo levanta. La Mac nunca
 queda expuesta a internet — no abre ningún puerto, solo consulta.
 
-    python buzon.py                 # escucha cada 60 segundos
+    python buzon.py                 # escucha cada 15 segundos
     python buzon.py --intervalo 300 # cada 5 minutos
     python buzon.py --una-vez       # mira una vez y sale (para probar)
 
@@ -116,8 +116,12 @@ def una_vuelta() -> bool:
 
 def main():
     ap = argparse.ArgumentParser(description="Escucha pedidos de corrida desde el panel.")
-    ap.add_argument("--intervalo", type=int, default=60, metavar="SEG",
-                    help="Cada cuánto preguntar. Por defecto 60 segundos.")
+    # 15 y no 60: el 25/09/2026 una corrida real tardó 3 min 41 s de punta a
+    # punta y 44 de esos fueron esperar a que la Mac mirara el buzón. Son
+    # cuatro selects por minuto de una tabla con diez filas: no se nota en
+    # ningún lado, y el que espera del otro lado es Leo mirando el panel.
+    ap.add_argument("--intervalo", type=int, default=15, metavar="SEG",
+                    help="Cada cuánto preguntar. Por defecto 15 segundos.")
     ap.add_argument("--una-vez", action="store_true",
                     help="Mira una sola vez y sale.")
     args = ap.parse_args()

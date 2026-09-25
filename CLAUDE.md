@@ -146,6 +146,19 @@ Carpeta local: ~/despacho-cordoba
   hogareña, no a esa Mac**. Cualquier máquina en una casa sirve. Por eso
   el plan es achicar el papel de la Mac a un "buzón" que baja los PDFs y
   empuja el texto, no sacarla.
+- **El buzón mira cada 15 segundos, no cada 60** (25/09/2026). Una corrida
+  real medida de punta a punta tardó 3 min 41 s y **44 de esos fueron
+  esperar a que la Mac se enterara**. Son cuatro `select` por minuto sobre
+  una tabla de diez filas: no se nota en ningún lado. El resto del tiempo es
+  irreducible — 160 s los gastó Claude escribiendo las 31 normas, y el
+  manual ya tenía medido que lo que marca el tiempo es cuánto escribe, no
+  cuánto lee.
+
+  Por eso el cartel del panel dice ahora **"entre dos y cuatro minutos"** en
+  vez de "un par": con el texto viejo, una corrida que iba perfecta parecía
+  colgada. Y el aviso de "nadie lo levantó" bajó de 120 a 60 segundos,
+  porque mirando cada 15 le sobran cuatro pasadas.
+
 - **El disparo es MANUAL desde el 17/09/2026, por decisión de Leo.**
   launchd quedó desactivado con `launchctl disable gui/502/com.leo.despacho`.
   Reactivar solo si él lo pide, con `enable` + `bootstrap`.
@@ -676,8 +689,22 @@ Cómo funciona el envío, que es el corazón del producto:
   caracteres sin perder nada accionable.
 
   El camino completo: a la mañana van los titulares, el cliente pide una,
-  se destilda el resto y se manda esa sola en completo o extenso. Mismo
-  flujo, sin pantallas nuevas.
+  se destilda el resto y se manda esa sola en completo. Mismo flujo, sin
+  pantallas nuevas.
+
+  **El extenso NO sale por Telegram, y nunca salió** (visto el 25/09/2026).
+  Pesa ~9.000 caracteres y el tope de la API son 4.096: la opción estaba en
+  el selector de envío pero el botón quedaba gris para cualquier análisis
+  largo, sin decir por qué. No es un caso raro — es aritmética del formato.
+  Ahora, cuando el texto se pasa del tope, aparece **"Copiar el texto"** y un
+  renglón que explica que ese mensaje no sale por el bot. Leo lo pega donde
+  quiera (WhatsApp, mail, un documento) y el análisis completo llega igual.
+
+  Se eligió eso sobre las dos alternativas: partirlo en tres mensajes deja
+  un muro de globos en el celular y puede quedar a medias si falla el
+  segundo; mandarlo como documento adjunto es mejor producto pero es trabajo
+  nuevo, y sigue anotado como pendiente. El botón de copiar no cierra esa
+  puerta.
 - `entregas` guarda el texto que REALMENTE salió, no el que se armaría
   hoy: el análisis puede cambiar después y hay que saber qué leyó.
 

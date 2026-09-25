@@ -26,6 +26,7 @@ export function EnviarSuelta({ norma, alCerrar }:
   const [ocupado, setOcupado] = useState(false);
   const [aviso, setAviso] = useState("");
   const [error, setError] = useState("");
+  const [copiado, setCopiado] = useState(false);
 
   useEffect(() => {
     (async () => {
@@ -38,6 +39,21 @@ export function EnviarSuelta({ norma, alCerrar }:
       if (g.length === 1) setQuien(g[0].id);
     })();
   }, [supabase]);
+
+  // El extenso pesa ~9000 caracteres y Telegram corta en 4096: por diseño
+  // no entra, no es un caso raro. Antes el botón quedaba gris y ahí moría
+  // el asunto. Ahora el texto se copia entero y sale por donde sea —
+  // WhatsApp, mail, un documento— sin pasar por el bot.
+  async function copiar() {
+    try {
+      await navigator.clipboard.writeText(borrador);
+      setCopiado(true); setError("");
+      setTimeout(() => setCopiado(false), 2500);
+    } catch {
+      setError("El navegador no dejó copiar. Seleccioná el texto del cuadro "
+             + "y copialo con Cmd+C.");
+    }
+  }
 
   async function pedir(soloPrevia: boolean) {
     if (!quien) return;
@@ -99,6 +115,13 @@ export function EnviarSuelta({ norma, alCerrar }:
               </p>
               <textarea className="crudo editable" value={borrador} spellCheck
                         onChange={(e) => setBorrador(e.target.value)} />
+              {borrador.length > previa.tope && (
+                <p className="nota">
+                  Telegram no acepta mensajes de más de {previa.tope} caracteres,
+                  así que este no sale por el bot. <b>Copialo</b> y mandalo por
+                  donde quieras, o recortalo acá hasta que entre.
+                </p>
+              )}
             </>
           )}
 
@@ -109,6 +132,11 @@ export function EnviarSuelta({ norma, alCerrar }:
                     onClick={() => pedir(false)}>
               {ocupado && previa ? "Enviando…" : "Enviar por Telegram"}
             </button>
+            {previa && borrador.length > previa.tope && (
+              <button className="btn" onClick={copiar}>
+                {copiado ? "Copiado ✓" : "Copiar el texto"}
+              </button>
+            )}
             <button className="btn" onClick={alCerrar}>Cancelar</button>
           </div>
         </>

@@ -173,13 +173,17 @@ export default function Entregas() {
     setCorrida({ estado: "pendiente", detalle: null });
     setNadieEscucha(false);
     const desde = Date.now();
-    // La Mac consulta cada minuto; se mira hasta que termine. Si a los dos
-    // minutos sigue en `pendiente`, nadie la levantó: el buzón está
-    // apagado. Antes el cartel decía "la Mac lo levanta en menos de un
-    // minuto" para siempre, que es mentira y deja esperando al pedo.
+    // La Mac consulta cada 15 segundos; se mira hasta que termine. Si al
+    // minuto sigue en `pendiente`, nadie la levantó: el buzón está apagado.
+    // Antes el cartel decía "la Mac lo levanta en menos de un minuto" para
+    // siempre, que es mentira y deja esperando al pedo.
+    //
+    // El plazo es 60 s y no 120 porque mirando cada 15 le sobran cuatro
+    // pasadas. Esto solo cuenta mientras está `pendiente`: una vez `tomada`,
+    // la Mac ya contestó y lo que falta es tiempo, no un buzón.
     const reloj = setInterval(async () => {
       if (await mirarCorrida()) { clearInterval(reloj); return; }
-      if (Date.now() - desde > 120_000) setNadieEscucha(true);
+      if (Date.now() - desde > 60_000) setNadieEscucha(true);
     }, 8000);
     setTimeout(() => clearInterval(reloj), 20 * 60 * 1000);
   }
@@ -378,12 +382,15 @@ export default function Entregas() {
           {corrida && (
             <p className={`nota ${corrida.estado === "fallida" ? "error" : ""}`}>
               {corrida.estado === "pendiente" && (nadieEscucha
-                ? "Pasaron dos minutos y nadie lo levantó: la Mac no está escuchando. "
+                ? "Pasó un minuto y nadie lo levantó: la Mac no está escuchando. "
                   + "Hay que abrir una Terminal y correr escuchar.sh — o traerlo "
                   + "directo desde la compu con ./correr.sh. El pedido queda anotado: "
                   + "cuando el buzón arranque, lo toma."
-                : "Pedido anotado. La Mac lo levanta en menos de un minuto…")}
-              {corrida.estado === "tomada"    && "La Mac lo está procesando. Tarda un par de minutos."}
+                : "Pedido anotado. La Mac lo levanta en unos segundos…")}
+              {/* Medido el 25/09/2026 de punta a punta: 3 min 41 s, de los
+                  cuales 160 s fueron Claude escribiendo 31 normas. Decir "un
+                  par de minutos" hacía parecer colgado algo que iba bien. */}
+              {corrida.estado === "tomada"    && "La Mac lo está procesando. Tarda entre dos y cuatro minutos: la mayor parte es la IA escribiendo el análisis."}
               {corrida.estado === "lista"     && "Listo: la edición quedó procesada."}
               {corrida.estado === "sin_edicion" && "El Boletín de esa fecha no está publicado (404): todavía no salió, o ese día no hubo edición. No se procesó nada."}
               {corrida.estado === "fallida"   && `Falló: ${corrida.detalle ?? "sin detalle"}`}
