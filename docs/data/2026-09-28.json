@@ -1,0 +1,258 @@
+{
+ "fecha": "2026-09-28",
+ "numero_boletin": "188",
+ "sintesis_juridica": [
+  "Se publica el Decreto N° 96 que designa al Ministro de Comunicación para subrogar al Ministro de Vinculación y Gestión Institucional entre el 28 de septiembre y 6 de octubre de 2026. En materia de contrataciones, la Policía Provincial convoca a licitación pública para servicio de limpieza del edificio central de Jefatura de Policía por $435.896.495,28, regida por la Ley N° 10.155/2013. Se publican múltiples licitaciones de obras viales (pavimentación, puentes, mantenimiento de zonas) a cargo de ACIF, y se convocan audiencias públicas ambientales para proyecto de Parque Solar Fotovoltaico Cruz del Eje y Estación Transformadora, conforme Ley N° 10.208 y N° 10.618.",
+  "Se registran enmiendas a licitaciones educativas (ACIF / Subsecretaría de Administración) por correcciones de precios en obras mayores en establecimientos de Córdoba Capital. ERSeP convoca licitación para mantenimiento de climatización por $42.000.000. Se publica subasta electrónica de APROSS para remodelación de fachada y nuevas cocheras en Hospital Ferreyra por $249.600.000. Múltiples edictos de la Unidad Ejecutora Ley 9150 sobre inscripción de posesión de inmuebles y notificación de resolución ministerial sobre crédito incobrable en Educación."
+ ],
+ "sintesis_politica": [
+  "La ausencia transitoria del Ministro Siciliano y su subroganción por el Ministro de Comunicación es un movimiento administrativo rutinario. En el frente de inversión pública, persiste el patrón de contrataciones masivas de obras viales bajo ACIF (infraestructura, mantenimiento de red, puentes), que consolida la estrategia de capital de obras como eje de gestión. Las licitaciones en educación con enmiendas de precios sugieren ajustes presupuestarios en marcha de proyectos ya convocados.",
+  "El proyecto de Parque Solar en Cruz del Eje (EPEC) y la Estación Transformadora representan la transición energética provincial anunciada. La audiencia pública digital (plataforma participación.cba.gov.ar) refleja adopción de mecanismos de participación remota institucionalizada. La Administración Provincial del Seguro de Salud (APROSS) licita obras en Hospital Ferreyra, eje de la política sanitaria. La cantidad de edictos de posesión (vía Ley 9150) mantiene cadencia constante de formalización registral de ocupaciones."
+ ],
+ "normas": [
+  {
+   "tipo": "Decreto",
+   "clase": "decreto",
+   "numero": "96",
+   "titulo": "Designación de subrogante para el Ministro de Vinculación y Gestión Institucional",
+   "importa": "Designa al Ministro de Comunicación para subrogar al Ministro de Vinculación y Gestión Institucional entre el 28 de septiembre y 6 de octubre de 2026, conforme facultades del Artículo 7° Decreto N° 2206/2023 ratificado por Ley N° 10.956.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Acto de imperio administrativo basado en normas de delegación de funciones ministeriales. El Decreto cita expresamente el marco legal de autorización (Decreto N° 2206/2023 y Ley N° 10.956). Conforme Artículo 7° del Decreto citado, corresponde al Poder Ejecutivo designar quién subroga en caso de ausencia transitoria. No presenta vicios formales: cuenta con refrendo de ambos Ministros intervinientes y del Fiscal de Estado, y fue protocolizado y publicado.",
+    "politica": "Movimiento rutinario de administración ejecutiva. No genera controversia política. La ausencia es breve (9 días) y la subroganción recae en otro miembro del gabinete, sin cambio de línea política. No hay información sobre causas de la ausencia ni sobre si hay controversia detrás.",
+    "oficialista": "Cumplimiento de protocolos legales de delegación para garantizar continuidad de funciones durante ausencia temporal del Ministro. Demuestra organización interna del Ejecutivo.",
+    "opositora": "Sin elementos en el texto que generen crítica: es un acto administrativo estándar sin implicancias presupuestarias ni de política pública."
+   },
+   "texto_oficial": "Artículo 1°.- DESÍGNASE al señor Ministro de Comunicación para que subrogue al señor Ministro de Vinculación y Gestión Institucional, entre los días 28 de septiembre y 06 de octubre de 2026, ambos inclusive. Artículo 2°.- El presente Decreto será refrendado por los señores Ministro de Comunicación, Ministro de Vinculación y Gestión Institucional y Fiscal de Estado. Artículo 3°.- PROTOCOLÍCESE, comuníquese, publíquese en el Boletín Oficial y archívese.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_280926.pdf"
+  },
+  {
+   "tipo": "Resolución",
+   "clase": "resolucion",
+   "numero": "1316",
+   "titulo": "Aprobación de pliegos y autorización de licitación pública para servicio de limpieza de Jefatura de Policía",
+   "importa": "La Jefatura de Policía aprueba pliegos y autoriza licitación pública N° 2/2026 para contratación del \"Servicio de Limpieza de Diversas Dependencias Sitas en el Edificio Central de Jefatura de Policía de la Provincia de Córdoba\" por presupuesto oficial de $435.896.495,28.",
+   "seccion": "1",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Acto administrativo de autoridad competente (Jefe de Policía) que aprueba bases y autoriza procedimiento licitatorio conforme Ley N° 10.155/2013 (Régimen de Compras y Contrataciones) y su Decreto Reglamentario N° 305/2014. Imputación presupuestaria dual: $108.974.123,82 del presupuesto vigente (Jurisdicción 1.75, Programa 757, Partida 03, Parcial 12, Subparcial 01) y $326.922.371,46 como anticipo del ejercicio 2027. El monto total supera los $430 millones, lo que sugiere contratación de mediano plazo o volumen significativo. No se advierte vicio formal.",
+    "politica": "La contratación de servicios no personales (limpieza) de edificios públicos es administrativa. El monto elevado ($435,8 millones) refleja impacto fiscal en presupuesto presente y futuro. No genera controversia política evidente.",
+    "oficialista": "Procedimiento transparente de licitación pública conforme ley. Garantiza competencia y mejor precio para el servicio de limpieza de dependencias policiales.",
+    "opositora": "El monto presupuestario asignado podría cuestionarse en contexto de restricciones fiscales, aunque sin información de alternativas de contratación directa o costo histórico no hay argumentación sólida."
+   },
+   "texto_oficial": "1. APROBAR los Pliegos de Condiciones Generales, Particulares y de Especificaciones Técnicas que rigen la presente licitación. 2. AUTORIZAR al Departamento Finanzas a realizar, por intermedio de la División Contrataciones, el llamado a Licitación Pública Nº 2/2026 para la contratación del \"SERVICIO DE LIMPIEZA DE DIVERSAS DEPENDENCIAS SITAS EN EL EDIFICIO CENTRAL DE JEFATURA DE POLICÍA DE LA PROVINCIA DE CÓRDOBA\", hasta la suma total estimada de PESOS CUATROCIENTOS TREINTA Y CINCO MILLONES OCHOCIENTOS NOVENTA Y SEIS MIL CUATROCIENTOS NOVENTA Y CINCO CON VEINTIOCHO CENTAVOS ($435.896.495,28). 3. La División Contrataciones fijará fecha y hora de apertura de los sobres propuestas de dicha licitación pública. 4. La erogación correspondiente se imputará a: Jurisdicción 1.75, Programa 757 (C.E.) Servicios Policiales – Cuenta Especial Ley Nº: 7386, Partida Principal 03 (Servicios No Personales), Parcial 12 (Servicio de Limpieza, Lavado y Desinfecciones), Subparcial 01 (Limpieza y desinfecciones) por la suma total de PESOS CIENTO OCHO MILLONES NOVECIENTOS SETENTA Y CUATRO MIL CIENTO VEINTITRES CON OCHENTA Y DOS CENTAVOS ($ 108.974.123,82) del Presupuesto Vigente y como Anticipo Ejercicio Año 2027 con cargo a programas y partidas que el presupuesto autorice, hasta la suma total estimada de PESOS TRESCIENTOS VEINTISEIS MILLONES NOVECIENTOS VEINTIDOS MIL TRESCIENTOS SETENTA Y UNO CON CUARENTA Y SEIS CENTAVOS ($326.922.371,46).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_280926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000038",
+   "titulo": "Sistematización y readecuación cauce Río Anisacate – Tramo Puente Ruta Provincial N°5 a Puente Ruta Provincial N°36",
+   "importa": "Secretaría de Infraestructura Hídrica y Gasífera (Ministerio de Infraestructura y Servicios Públicos) convoca licitación pública digital para obra \"Sistematización y Readecuación Cauce Río Anisacate – Tramo: Puente Ruta Provincial Nº5 – Puente Ruta Provincial Nº36 – Dpto. Santamaría\" por presupuesto oficial de $2.514.367.950,18 (agosto 2026), plazo de ejecución 240 días. Tema vigilado: Obra vial provincial.",
+   "seccion": "4",
+   "pagina": 1,
+   "ampliada": {
+    "juridica": "Licitación conforme Ley N° 8.614 (Obras Públicas), implementada mediante Decreto N° 583/2016 que establece plataforma digital. Pliego disponible en https://webecommerce.cba.gov.ar sin requisito de registro. Presentación digital hasta 13 de octubre 2026 a las 12:00 hs; apertura 14 de octubre 2026 a las 12:00 hs en Ministerio de Infraestructura. Primera categoría de obra. Presupuesto de $2.514 millones con IVA, beneficios y costos incluidos. Garantía de oferta: 1% del presupuesto oficial. Procedimiento conforme Resolución 2022/MC-00000046 y Resolución N° 2022_SCPIP-00000012.",
+    "politica": "Obra hídrica de envergadura ($2.514 millones) en río Anisacate, departamento de Santa María. Obra de infraestructura de impacto territorial. Timing de convocatoria estándar en calendario de ejecución presupuestaria provincial.",
+    "oficialista": "Infraestructura crítica de manejo hídrico en contexto de emergencia hídrica provincial. Licita mediante plataforma digital transparente, acceso público a pliegos, procedimiento conforme ley.",
+    "opositora": "Monto presupuestario significativo; sin información sobre causas de readecuación del cauce o si responde a negligencia previa en mantenimiento. Timing de licitación a fin de año podría retrasar ejecución."
+   },
+   "texto_oficial": "Se efectúa el Llamado a Licitación Pública para la contratación de la obra: \"SISTEMATIZACIÓN Y READECUACIÓN CAUCE RÍO ANISACATE – TRAMO: PUENTE RUTA PROVINCIAL Nº5 – PUENTE RUTA PROVINCIAL Nº36 – DPTO. SANTAMARÍA\". ENTIDAD U ORGANISMO QUE LICITA: Secretaría de Infraestructura Hídrica y Gasífera del Ministerio de Infraestructura y Servicios Públicos. CATEGORÍA DE LA OBRA: Primera Categoría. La Licitación se efectuará conforme lo normado por el Decreto Nº 583/2016, que implementa la utilización de una plataforma digital. PRESENTACIÓN DE OFERTAS: hasta las 12:00 hs. del día 13 de octubre de 2026. APERTURA DE OFERTAS: 14 de octubre de 2026 a las 12:00 hs. PRESUPUESTO OFICIAL: PESOS DOS MIL QUINIENTOS CATORCE MILLONES TRESCIENTOS SESENTA Y SIETE MIL NOVECIENTOS CINCUENTA CON 18/100 ($2.514.367.950,18), IVA Incluido. PLAZO DE EJECUCIÓN: DOSCIENTOS CUARENTA (240) DÍAS CORRIDOS. GARANTÍA DE MANTENIMIENTO DE OFERTA: uno por ciento (1%) del Presupuesto Oficial.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_280926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000107",
+   "titulo": "Obras mayores en establecimientos educativos de la ciudad de Córdoba Capital – Grupo 10 (ENMIENDA N° 1)",
+   "importa": "ACIF S.E.M. y Subsecretaría de Administración (Ministerio de Educación) publica ENMIENDA N° 1 a Licitación Pública para \"Obras Mayores en Establecimientos Educativos de la Ciudad de Córdoba Capital – Grupo 10\" (IPET 430, Escuela Antonio del Viso, IPEM N° 3, Escuela Coronel Olmedo, Escuela Paulino Frances, J. de Inf. Dr. Jose Aguirre Camara). Enmienda rectifica precios incorrectos en Planilla de Análisis de Precio de Módulo y Factores de Costo. Tema vigilado: Obra vial provincial (educación / infraestructura).",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Enmienda a licitación en curso. El texto no especifica monto de presupuesto ni otros detalles de la licitación original. El error material involuntario en planilla de precios es vicio subsanable mediante enmienda; procedimiento conforme leyes de contrataciones. Anexo con planillas corregidas se publica adjunto. La rectificación pretende evitar ofertas desviadas por información incorrecta.",
+    "politica": "Corrección técnica de documentación de licitación en marcha. Refleja cuidado administrativo en procedimientos. Sin controversia política aparente; el ajuste de precios es técnico.",
+    "oficialista": "Corrección de error involuntario en documentación técnica; garantiza transparencia y equidad del procedimiento licitatorio.",
+    "opositora": "Error en precios iniciales podría indicar falta de revisión adecuada del pliego previo a publicación; sin embargo, la enmienda lo soluciona."
+   },
+   "texto_oficial": "SE HACE SABER que, por un error material e involuntario, en la Planilla de Análisis de Precio de Módulo y de Factores de costo oportunamente publicada, se consignaron precios incorrectos. En razón de ello, deberán tenerse por correctas las planillas que se acompañan como Anexo de la presente.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_280926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000115",
+   "titulo": "Obras mayores en establecimientos educativos de la ciudad de Córdoba Capital – Grupo 13 (ENMIENDA N° 1)",
+   "importa": "ACIF S.E.M. y Subsecretaría de Administración (Ministerio de Educación) publica ENMIENDA N° 1 a Licitación Pública para \"Obras Mayores en Establecimientos Educativos de la Ciudad de Córdoba Capital – Grupo 13\" (Escuela Honorato Laconi, Escuela Arturo Capdevila, J. de Inf. Provincia de Entre Ríos, Escuela Florencio Sanchez, Escuela Esteban Echeverría, Escuela Manuel Belgrano, IPEM Nº 41 Jorge Luis Borges, IPEM Nº 39 Don Bosco, Escuela Provincia de Córdoba). Enmienda por error material: corrección de Planilla de Análisis de Precio de Módulo y Factores de Costo. Tema vigilado: Obra educativa.",
+   "seccion": "4",
+   "pagina": 2,
+   "ampliada": {
+    "juridica": "Idéntica naturaleza a Enmienda anterior: rectificación de precios en planilla de análisis por error material involuntario. Procedimiento conforme normas de contrataciones públicas. El texto no especifica detalles del presupuesto original ni de los grupos de establecimientos alcanzados.",
+    "politica": "Corrección técnica análoga a la anterior. Múltiples enmiendas por correcciones de precios en el mismo día sugieren revisión sistemática de documentación de licitaciones educativas.",
+    "oficialista": "Corrección de errores de documentación técnica; proceso de revisión y corrección asegura precisión de bases.",
+    "opositora": "Sucesión de enmiendas por errores de precios levanta interrogantes sobre calidad de preparación de pliegos por ACIF."
+   },
+   "texto_oficial": "SE HACE SABER que, por un error material e involuntario, en la Planilla de Análisis de Precio de Módulo y de Factores de costo oportunamente publicada, se consignaron precios incorrectos. En razón de ello, deberán tenerse por correctas las planillas que se acompañan como Anexo de la presente enmienda.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_280926.pdf"
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "clase": "licitacion",
+   "numero": "2026/000047",
+   "titulo": "Remodelación fachada sobre Av. Richieri y nuevas cocheras en Hospital Ferreyra",
+   "importa": "APROSS convoca Subasta Electrónica Inversa de Obra Pública para \"Remodelación Fachada sobre Av. Richieri y Nuevas Cocheras en Hospital Ferreyra\", Calle Av. Pablo Ricchieri N° 2200, Barrio Rogelio Martínez, Córdoba Capital, por presupuesto oficial estimado de $249.600.000 (septiembre 2026), plazo de ejecución 120 días. Tema vigilado: APROSS (financiamiento, aportes, emergencia sanitaria, convenios).",
+   "seccion": "4",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Subasta electrónica inversa conforme Decreto Ley 1332-C y Decreto Reglamentario 2074-C (Primera Categoría, clasificación Arquitectura). Pliegos disponibles en Portal Web Oficial de Compras Públicas https://compraspublicas.cba.gov.ar sin cargo ni registro previo. Presentación electrónica de ofertas mediante usuario/contraseña en portal de Compras Públicas. Fecha de subasta: 09/10/2026, 08:00 a 14:00 hs. Margen mínimo de ofertas: 1%. Visita técnica 02/10/2026 10:00-11:00 hs, guiada por División Mantenimiento y Servicios de APROSS. Referente de contacto: Departamento Compras Públicas CEL 351-5099189. Plazo de consultas hasta 02/10/2026 19:00 hs.",
+    "politica": "Obra significativa en Hospital Ferreyra ($249,6 millones), centro de salud provincial de referencia. Remodelación de fachada e infraestructura de cocheras refleja inversión en modernización de activos sanitarios. APROSS es el organismo público de obra social que ejecuta inversiones en salud provincial.",
+    "oficialista": "Mejora de infraestructura hospitalaria; procedimiento de subasta electrónica transparente y competitivo. Plazos y requisitos conforme ley.",
+    "opositora": "Costo elevado de remodelación ($249,6 millones) podría cuestionarse en contexto de restricción de gastos de salud; sin embargo, es inversión en activo que beneficia infraestructura pública sanitaria de largo plazo."
+   },
+   "texto_oficial": "La ADMINISTRACIÓN PROVINCIAL DEL SEGURO DE SALUD llama a Subasta Electrónica Inversa de Obra Pública para la contratación de la Obra \"REMODELACION FACHADA SOBRE AV. RICHIERI Y NUEVAS COCHERAS EN HOSPITAL FERREYRA\". Organismo contratante: ADMINISTRACIÓN PROVINCIAL DEL SEGURO DE SALUD. Emplazamiento de la obra: Hospital Raúl Ángel Ferreyra - Calle Avenida Pablo Ricchieri N° 2200 – Barrio Rogelio Martínez de la Ciudad de Córdoba. Categoría de la Obra: PRIMERA CATEGORÍA. Presupuesto oficial estimado: PESOS DOSCIENTOS CUARENTA Y NUEVE MILLONES SEISCIENTOS MIL CON 00/100 ($249.600.000,00), IVA incluido. Plazo de Ejecución: CIENTO VEINTE (120) DÍAS CORRIDOS. Fecha de Subasta: 09/10/2026. Hora de Inicio: 08:00 horas. Hora de Finalización: 14:00 horas. Margen mínimo de ofertas: uno por ciento (1%).",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_280926.pdf"
+  },
+  {
+   "tipo": "Licitación Pública",
+   "clase": "licitacion",
+   "numero": "2026/000023",
+   "titulo": "Provisión de licencias de software de analítica de video para reconocimiento de patentes (CASISA)",
+   "importa": "CASISA (Caminos de las Sierras S.A.) licita provisión de \"Licencias de Software de Analítica de Video para Reconocimiento de Patentes\" por presupuesto oficial de $385.006.366,80 (IVA incluido). Presentación digital hasta 13/10/2026 12:00 hs en portal https://ecommerce.casisa.com.ar. Apertura 13/10/2026 12:30 hs. Garantía de oferta: 3% del monto. Consultas hasta 7/10/2026 16:00 hs. Nota: CASISA opera ÚNICAMENTE Red de Accesos a Córdoba (RAC); licitación es para sistemas de reconocimiento de patentes, probablemente para control de acceso en RAC.",
+   "seccion": "4",
+   "pagina": 4,
+   "ampliada": {
+    "juridica": "Licitación pública de suministro de licencias de software. CASISA es concesionaria privada (economía mixta) que opera la Red de Accesos a Córdoba bajo concesión. Procedimiento digital conforme normas de contrataciones de CASISA. Presupuesto $385 millones sugiere sistema de escala provincial o de múltiples ubicaciones en accesos. El texto no especifica plazo de licencias ni características técnicas del software.",
+    "politica": "Software de reconocimiento de patentes vinculado a control de tráfico en accesos a Córdoba. Inversión en tecnología de control vial. CASISA es concesionaria que invierte con fondos propios o con cargo a canon/tarifas.",
+    "oficialista": "Modernización tecnológica del sistema de accesos; mejora de seguridad vial mediante identificación de vehículos. Procedimiento licitatorio transparente.",
+    "opositora": "Sin información sobre proveedor seleccionado en licitación anterior o sobre cambio de tecnología; monto elevado podría cuestionarse sin comparación de alternativas de mercado."
+   },
+   "texto_oficial": "LICITACIÓN PÚBLICA 2026/000023 - PROVISIÓN DE LICENCIAS DE SOFTWARE DE ANALÍTICA DE VIDEO PARA RECONOCIMIENTO DE PATENTES. Presupuesto Oficial: $385.006.366,80 con IVA incluido. Los pliegos estarán disponibles en el portal de Compras y Contrataciones de Caminos de las Sierras S.A. https://ecommerce.casisa.com.ar/#!/login. Pliegos sin valor. Lugar, horario y fecha de presentación de ofertas: Las Ofertas deberán presentarse digitalmente en el portal de Compras y Contrataciones de Caminos de las Sierras S.A. hasta las 12:00 hs del día 13/10/2026. Lugar y fecha de apertura de propuestas: Caminos de las Sierras S.A., Av. Italia 700, B° La Perla, Malagueño, Provincia de Córdoba, el día 13/10/2026 a las 12:30 hs en el portal https://ecommerce.casisa.com.ar/#!/login. Garantía de oferta: 3% del Monto de la Oferta con IVA incluido.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_280926.pdf"
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "clase": "licitacion",
+   "numero": "Expte N°0918-037615/2026",
+   "titulo": "Audiencia Pública Ambiental Digital – Parque Solar Fotovoltaico Cruz del Eje",
+   "importa": "Secretaría de Desarrollo Sostenible convoca Audiencia Pública Ambiental Digital conforme Ley Provincial N° 10.208 (Capítulo V) y Art. 8° Ley N° 10.618, para Estudio de Impacto Ambiental \"Parque Solar Fotovoltaico Cruz del Eje\" propuesto por EPEC (Empresa Provincial de Energía de Córdoba S.A.U.), a ubicarse fuera de ejido urbano en Pedanía San Marcos, Departamento Cruz del Eje (Coordenadas: 30°44'48.6\"S; 64°43'38.4\"O). Audiencia 22 de octubre 2026 10:00 hs vía Zoom. Plazo inscripción 20 de octubre 2026 10:00 hs.",
+   "seccion": "4",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Procedimiento conforme Ley N° 10.208 (Código de Ordenamiento Territorial) y Ley N° 10.618 (Ley de Protección Ambiental). Autoridades: Presidente Ab. Ma. Eugenia Ciacci (DNI 36.554.263), Presidente Suplente Lic. Valentina Vergnano (DNI 35.177.640), Escribiente Tec. Nadia Riga (DNI 29.202.309). Inscripción a través de plataforma http://participacion.cba.gov.ar (Nivel CIDI 2 requerido). Ciudadano puede inscribirse una sola vez como Asistente o Expositor, sin posibilidad de cambio posterior. Vista de expediente disponible bajo solicitud a audienciaspublicasambiente@gmail.com hasta 2 días hábiles antes de audiencia. Formato: audiencia digital mediante Zoom.",
+    "politica": "Proyecto de energía renovable (solar fotovoltaica, 1 MW de generación distribuida) en Cruz del Eje. EPEC es empresa provincial generadora y distribuidora de energía. Audiencia pública ambiental es requisito previo a aprobación ambiental. Ubicación fuera de ejido urbano minimiza conflictividad con población urbana.",
+    "oficialista": "Proceso participativo conforme marcos de consulta ambiental provincial. Plataforma digital facilita acceso ciudadano. Energía renovable alineada con objetivos de transición energética.",
+    "opositora": "Formato digital podría limitar acceso de poblaciones rurales sin conectividad; audiencia en zona de proyecto (Cruz del Eje) podría facilitar participación local. Sin información sobre impacto ambiental específico."
+   },
+   "texto_oficial": "AUDIENCIA PÚBLICA AMBIENTAL DIGITAL CAPÍTULO V - LEY PCIAL. No 10.208 – ART. 8 LEY PCIAL. No 10.618 PROYECTO: \"PARQUE SOLAR FOTOVOLTAICO CRUZ DEL EJE\" AUTORIDAD CONVOCANTE: Secretaría de Desarrollo Sostenible de la provincia de Córdoba. PROPONENTE: EMPRESA PROVINCIAL DE ENERGÍA DE CÓRDOBA S.A.U. OBJETO: Estudio de Impacto Ambiental \"PARQUE SOLAR FOTOVOLTAICO CRUZ DEL EJE\", Expte N°0918-037615/2026, a ubicarse fuera de todo ejido urbano en la Pedanía San Marcos, Departamento Cruz del Eje, Provincia de Córdoba. FECHA, HORA Y LUGAR DE AUDIENCIA: 22 de octubre de 2026 a las 10:00 hs en Link Zoom. PLAZO LÍMITE DE INSCRIPCIÓN: 20 de octubre de 2026 a las 10:00 hs. a través de la Plataforma http://participacion.cba.gov.ar.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_280926.pdf"
+  },
+  {
+   "tipo": "Audiencia Pública Ambiental",
+   "clase": "licitacion",
+   "numero": "Expte N°0918-037612/2026",
+   "titulo": "Audiencia Pública Ambiental Digital – Estación Transformadora Cruz del Eje Nueva 132/13,2 KV",
+   "importa": "Secretaría de Desarrollo Sostenible convoca Audiencia Pública Ambiental Digital para Estudio de Impacto Ambiental \"Estación Transformadora Cruz del Eje Nueva 132/13,2 KV - 2x28/40 MVA + ATD 132/66KV1x40/55M\" propuesto por EPEC, a ubicarse en localidad de Cruz del Eje (Coordenadas: 30°44'9.49\"S; 64°49'38.23\"O). Audiencia 20 de octubre 2026 10:00 hs vía Zoom. Plazo inscripción 18 de octubre 2026 10:00 hs. Tema vigilado: Gobierno digital, firma digital, modernización del Estado (formato audiencia).",
+   "seccion": "4",
+   "pagina": 6,
+   "ampliada": {
+    "juridica": "Procedimiento conforme Ley N° 10.208 y Ley N° 10.618. Autoridades: Presidente Ab. Ma. Eugenia Ciacci (DNI 36.554.263), Presidente Suplente Lic. Valentina Vergnano (DNI 35.177.640), Escribiente Tec. Nadia Riga (DNI 29.202.309). Inscripción vía http://participacion.cba.gov.ar (CIDI 2). Formato: audiencia digital Zoom. Vista de expediente bajo solicitud a audienciaspublicasambiente@gmail.com hasta 2 días hábiles antes.",
+    "politica": "Estación transformadora de media y alta tensión (132 kV) complementaria a parque solar. Infraestructura eléctrica de interconexión. Ubicación en Cruz del Eje responde a geografía de proyecto solar. EPEC es promotor.",
+    "oficialista": "Infraestructura de distribución energética para proyecto solar provincial. Participación pública vía plataforma digital moderna.",
+    "opositora": "Estación transformadora implica obras civiles e impacto visual/ambiental localizado; formato digital limita participación de poblaciones rurales."
+   },
+   "texto_oficial": "AUDIENCIA PÚBLICA AMBIENTAL DIGITAL CAPÍTULO V - LEY PCIAL. No 10.208 – ART. 8 LEY PCIAL. No 10.618 PROYECTO: \"ESTACIÓN TRANSFORMADORA Cruz del Eje Nueva 132/13,2 KV - 2x28/40 MVA + ATD 132/66KV1x40/55M\" AUTORIDAD CONVOCANTE: Secretaría de Desarrollo Sostenible de la provincia de Córdoba. PROPONENTE: EMPRESA PROVINCIAL DE ENERGÍA DE CÓRDOBA S.A.U. OBJETO: Estudio de Impacto Ambiental \"ESTACIÓN TRANSFORMADORA Cruz del Eje Nueva 132/13,2 KV - 2x28/40 MVA + ATD 132/66KV1x40/55M\", Expte N°0918-037612/2026, a ubicarse en la localidad de Cruz del Eje. FECHA, HORA Y LUGAR DE AUDIENCIA: 20 de octubre de 2026 a las 10:00 hs en Link Zoom. PLAZO LÍMITE DE INSCRIPCIÓN: 18 de octubre de 2026 a las 10:00 hs. a través de la Plataforma http://participacion.cba.gov.ar.",
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/4_Secc_280926.pdf"
+  }
+ ],
+ "movimientos": [
+  {
+   "tipo": "Designación",
+   "clase": "designacion",
+   "instrumento": "Decreto N° 96",
+   "titulo": "Subrogancia de Ministro de Comunicación por Ministro de Vinculación y Gestión Institucional",
+   "detalle": "Designa al Ministro de Comunicación para subrogar al Ministro de Vinculación y Gestión Institucional, Dr. Miguel Ángel Siciliano, durante ausencia transitoria entre 28 de septiembre y 6 de octubre de 2026.",
+   "organismo": "Poder Ejecutivo / Ministerio de Vinculación y Gestión Institucional",
+   "pagina": 1,
+   "url_oficial": "https://boletinoficial.cba.gov.ar/wp-content/4p96humuzp/2026/09/1_Secc_280926.pdf"
+  }
+ ],
+ "indice_nuevas": [
+  {
+   "tipo": "Decreto",
+   "numero": "96",
+   "titulo": "Designación de subrogante para el Ministro de Vinculación y Gestión Institucional",
+   "resumen": "Designa al Ministro de Comunicación para subrogar al Ministro de Vinculación y Gestión Institucional durante ausencia transitoria entre 28 de septiembre y 6 de octubre de 2026, conforme Artículo 7° Decreto N° 2206/2023.",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Resolución",
+   "numero": "1316",
+   "titulo": "Aprobación de pliegos y autorización de licitación pública para servicio de limpieza de Jefatura de Policía",
+   "resumen": "La Jefatura de Policía aprueba pliegos de condiciones generales, particulares y técnicas y autoriza licitación pública N° 2/2026 para contratación del servicio de limpieza de dependencias del edificio central de Jefatura de Policía por presupuesto oficial de $435.896.495,28.",
+   "seccion": "1",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000038",
+   "titulo": "Sistematización y readecuación cauce Río Anisacate – Tramo Puente Ruta Provincial N°5 a Puente Ruta Provincial N°36",
+   "resumen": "Secretaría de Infraestructura Hídrica y Gasífera (Ministerio de Infraestructura y Servicios Públicos) convoca licitación pública digital para obra de sistematización y readecuación del cauce del río Anisacate en tramo Puente Ruta Provincial Nº5 a Puente Ruta Provincial Nº36, departamento Santamaría, por presupuesto oficial de $2.514.367.950,18.",
+   "seccion": "4",
+   "pagina": 1
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000107",
+   "titulo": "Obras mayores en establecimientos educativos de la ciudad de Córdoba Capital – Grupo 10 (ENMIENDA N° 1)",
+   "resumen": "ACIF S.E.M. y Subsecretaría de Administración (Ministerio de Educación) publica enmienda N° 1 a licitación pública rectificando precios incorrectos en Planilla de Análisis de Precio de Módulo y Factores de Costo para obras mayores en establecimientos educativos Grupo 10 de Córdoba Capital.",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000115",
+   "titulo": "Obras mayores en establecimientos educativos de la ciudad de Córdoba Capital – Grupo 13 (ENMIENDA N° 1)",
+   "resumen": "ACIF S.E.M. y Subsecretaría de Administración (Ministerio de Educación) publica enmienda N° 1 a licitación pública rectificando precios incorrectos en Planilla de Análisis de Precio de Módulo y Factores de Costo para obras mayores en establecimientos educativos Grupo 13 de Córdoba Capital.",
+   "seccion": "4",
+   "pagina": 2
+  },
+  {
+   "tipo": "Subasta Electrónica",
+   "numero": "2026/000047",
+   "titulo": "Remodelación fachada sobre Av. Richieri y nuevas cocheras en Hospital Ferreyra",
+   "resumen": "APROSS (Administración Provincial del Seguro de Salud) convoca subasta electrónica inversa de obra pública para remodelación de fachada sobre Av. Richieri y nuevas cocheras en Hospital Raúl Ángel Ferreyra, Córdoba Capital, por presupuesto oficial estimado de $249.600.000.",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Licitación Pública",
+   "numero": "2026/000023",
+   "titulo": "Provisión de licencias de software de analítica de video para reconocimiento de patentes (CASISA)",
+   "resumen": "CASISA (Caminos de las Sierras S.A.) licita provisión de licencias de software de analítica de video para reconocimiento de patentes por presupuesto oficial de $385.006.366,80 IVA incluido, con presentación digital hasta 13 de octubre de 2026.",
+   "seccion": "4",
+   "pagina": 4
+  },
+  {
+   "tipo": "Audiencia Pública",
+   "numero": "Expte N°0918-037615/2026",
+   "titulo": "Audiencia Pública Ambiental Digital – Parque Solar Fotovoltaico Cruz del Eje",
+   "resumen": "Secretaría de Desarrollo Sostenible convoca audiencia pública ambiental digital conforme Ley N° 10.208 y N° 10.618 para Estudio de Impacto Ambiental de Parque Solar Fotovoltaico Cruz del Eje propuesto por EPEC, a ubicarse en Pedanía San Marcos, Departamento Cruz del Eje, el 22 de octubre de 2026 a las 10:00 hs vía Zoom.",
+   "seccion": "4",
+   "pagina": 6
+  },
+  {
+   "tipo": "Audiencia Pública",
+   "numero": "Expte N°0918-037612/2026",
+   "titulo": "Audiencia Pública Ambiental Digital – Estación Transformadora Cruz del Eje Nueva 132/13,2 KV",
+   "resumen": "Secretaría de Desarrollo Sostenible convoca audiencia pública ambiental digital conforme Ley N° 10.208 y N° 10.618 para Estudio de Impacto Ambiental de Estación Transformadora Cruz del Eje Nueva 132/13,2 KV propuesta por EPEC, a ubicarse en localidad de Cruz del Eje, el 20 de octubre de 2026 a las 10:00 hs vía Zoom.",
+   "seccion": "4",
+   "pagina": 6
+  }
+ ],
+ "telegram": "Boletín N° 188 (28/9/2026): 9 normas destacadas. Decreto 96 subroga Ministro Comunicación por Vinculación. Licitación Policía limpieza $435.8M. ACIF: obras hídricas Anisacate $2.514M, educativas con enmiendas de precios. APROSS subastaHospital Ferreyra $249.6M. EPEC: audiencias públicas ambientales solar Cruz del Eje y estación transformadora.",
+ "motor": "claude",
+ "modelo": "claude-haiku-4-5",
+ "hora_procesado": "14:07",
+ "estado": "publicado"
+}
