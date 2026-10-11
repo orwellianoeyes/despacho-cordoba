@@ -289,9 +289,10 @@ Carpeta local: M5 `~/proyectos/despacho-cordoba` · Mac 2015 `~/despacho-cordoba
   Boletín (ver el 403 más arriba).
 - Se entra por SSH desde la M5: `ssh mac2015` (llave `id_ed25519_mac2015`,
   alias en `~/.ssh/config`, con el nombre `.local` y no la IP, que puede
-  cambiar). Ojo: el `.bashrc` de `leonelbur` imprime `line 4: ng: command not
-  found` en cada conexión; es un tipeo suelto, inofensivo, pero ensucia la
-  salida.
+  cambiar). El `.bashrc` de `leonelbur` tenía `source <(ng completion
+  script)` (autocompletado de Angular CLI, que no está instalado) y ensuciaba
+  cada conexión con `ng: command not found`. Comentado el 11/10/2026; el
+  respaldo quedó en `~/.bashrc.bak-ng`.
 - **Un solo lugar donde se edita el código: la M5.** Se hace commit y push
   desde acá y la 2015 hace `git pull`. No editar archivos del repo en las
   dos Macs.
