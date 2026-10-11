@@ -291,8 +291,8 @@ Carpeta local: M5 `~/proyectos/despacho-cordoba` · Mac 2015 `~/despacho-cordoba
   alias en `~/.ssh/config`, con el nombre `.local` y no la IP, que puede
   cambiar). El `.bashrc` de `leonelbur` tenía `source <(ng completion
   script)` (autocompletado de Angular CLI, que no está instalado) y ensuciaba
-  cada conexión con `ng: command not found`. Comentado el 11/10/2026; el
-  respaldo quedó en `~/.bashrc.bak-ng`.
+  cada conexión con `ng: command not found`. Comentado el 11/10/2026 (es
+  una sola línea, la 4).
 - **Un solo lugar donde se edita el código: la M5.** Se hace commit y push
   desde acá y la 2015 hace `git pull`. No editar archivos del repo en las
   dos Macs.
