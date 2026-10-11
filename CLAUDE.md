@@ -298,10 +298,15 @@ Carpeta local: M5 `~/proyectos/despacho-cordoba` · Mac 2015 `~/despacho-cordoba
   desde acá y la 2015 hace `git pull`. No editar archivos del repo en las
   dos Macs.
 - **Qué corre en la 2015:** el despertador `com.leo.despacho` (launchd,
-  `correr.sh --sin-ia`, L-V 7:30/9:30/11:30), `buzon.py` desde el 25/09 en
-  una ventana de Terminal (sin launchd), y un freqtrade en dry-run (sin
-  exchange real) que no es de este proyecto. **Desde el 11/10/2026 el
-  freqtrade corre bajo launchd** (`com.leo.bottrading`, `KeepAlive`,
+  `correr.sh --sin-ia`, L-V 7:30/9:30/11:30), `buzon.py`, y un freqtrade en
+  dry-run (sin exchange real) que no es de este proyecto. **Desde el
+  11/10/2026 el buzón corre bajo launchd** (`com.leo.buzon`, `KeepAlive`,
+  `ThrottleInterval 30`, plist en la raíz del repo, log
+  `~/Library/Logs/buzon.log`; antes vivía en una ventana de Terminal desde
+  el 25/09). Probado: `kill -9` lo reinicia solo. **Para que lea un `.env`
+  nuevo** (rotar la clave de Anthropic, por ejemplo): `launchctl kickstart -k
+  gui/$(id -u)/com.leo.buzon`; ya no hay que buscar la ventana. **Desde el
+  11/10/2026 el freqtrade corre bajo launchd** (`com.leo.bottrading`, `KeepAlive`,
   `ThrottleInterval 30`; script `launchd_dryrun.sh` en su carpeta, repo
   `bot-trading-cripto`). Probado: `kill -9` lo reinicia solo, y las 3
   posiciones simuladas abiertas se conservaron. **Ojo:** con KeepAlive un
@@ -364,10 +369,32 @@ Carpeta local: M5 `~/proyectos/despacho-cordoba` · Mac 2015 `~/despacho-cordoba
   claves). Hay una copia suelta en la M5, `~/respaldos/2015/` (700), que **no
   se actualiza sola**. `bot traiding` en sí sí está en el repo privado
   `bot-trading-cripto`.
-- **Pendiente:** buzón bajo launchd con KeepAlive; cerrar la app de Claude
-  en la 2015; un aviso si la batería baja de cierto nivel o si el bot lleva
-  minutos sin escribir en su log. **Antes de conectar freqtrade a un exchange real:**
-  la 2015 ya no recibe parches de seguridad.
+- **Vigilante de la 2015 (desde el 11/10/2026).** `vigilante/vigilante.sh`,
+  launchd `com.leo.vigilante`, cada 5 min. Mira la luz (AC / batería / batería
+  baja ≤ 40 %), si el bot corre y escribió su log hace < 10 min, y si el buzón
+  corre. Avisa por Telegram (mismo bot y chat que los errores del motor) solo
+  cuando algo **cambia**, y solo si el cambio se repite en dos corridas
+  seguidas: un parpadeo de luz de 3 s (pasó el 08/10) no manda nada. **Limite
+  de fondo:** en un corte de luz el router también se va, así que el aviso no
+  puede salir en ese momento; se guarda con su hora en `~/.vigilante/
+  pendientes` y sale apenas vuelve internet ("11:47 pasó a batería … 14:27
+  volvió la luz"). Probar sin enviar: `vigilante.sh --probar` (con
+  `VIG_DIR` y `VIG_LUZ/VIG_PCT/VIG_BOT/VIG_BUZON` para simular). Estado en
+  `~/.vigilante/`, log en `~/Library/Logs/vigilante.log`.
+- **Error conocido, sin arreglar (hallado el 11/10/2026):** `datos.
+  destrabar_corridas()` falla SIEMPRE con `400 · 22007 invalid input syntax
+  for type timestamp` porque pega `...+00:00` sin codificar en la URL y el `+`
+  llega como espacio. El buzón lo muestra al arrancar como `No pude revisar
+  corridas colgadas: RuntimeError`. Consecuencia: la recuperación de corridas
+  que quedaron en `tomada` tras un reinicio **nunca funcionó**, y con
+  KeepAlive importa más. Arreglo de una línea (`strftime("%Y-%m-%dT%H:%M:%SZ")`
+  en vez de `isoformat()`, en `datos.py`, única aparición en una URL);
+  verificado con GET de solo lectura que con la `Z` o con `%2B` el filtro anda.
+- **Pendiente:** cerrar la app de Claude en la 2015 (consume la mayor parte
+  de la RAM); decidir los servicios de arranque (TeamViewer, Zoom, Teams,
+  Google Keystone); vaciar la papelera y sacar Word, PowerPoint e iMovie con
+  `sudo`. **Antes de conectar freqtrade a un exchange real:** la 2015 ya no
+  recibe parches de seguridad.
 
 ## El emparejamiento va por significado, no por palabra (19/09/2026)
 
