@@ -300,7 +300,26 @@ Carpeta local: M5 `~/proyectos/despacho-cordoba` · Mac 2015 `~/despacho-cordoba
 - **Qué corre en la 2015:** el despertador `com.leo.despacho` (launchd,
   `correr.sh --sin-ia`, L-V 7:30/9:30/11:30), `buzon.py` desde el 25/09 en
   una ventana de Terminal (sin launchd), y un freqtrade en dry-run (sin
-  exchange real) que no es de este proyecto.
+  exchange real) que no es de este proyecto. **Desde el 11/10/2026 el
+  freqtrade corre bajo launchd** (`com.leo.bottrading`, `KeepAlive`,
+  `ThrottleInterval 30`; script `launchd_dryrun.sh` en su carpeta, repo
+  `bot-trading-cripto`). Probado: `kill -9` lo reinicia solo, y las 3
+  posiciones simuladas abiertas se conservaron. **Ojo:** con KeepAlive un
+  `kill` lo revive; para pararlo hay que usar `./detener_dryrun.sh` (ya
+  hace `launchctl bootout`) y para volver a cargarlo `launchctl bootstrap
+  gui/$(id -u) ~/Library/LaunchAgents/com.leo.bottrading.plist`.
+- **Cortes de luz: la 2015 es un portátil y aguanta con batería.** Medido
+  el 11/10/2026 cruzando `pmset -g log` con el log del bot: el 06/10 hubo un
+  corte de luz de 11:47 a 14:27 y el bot perdió la red 159 min (178.000
+  errores) y se recuperó solo; el 08/10 otros 70 min. La Mac **no se apagó
+  en ninguno** y el bot no se cayó (mismo PID desde el 2/10). El riesgo real
+  es que se agote la batería (Condition: *Service Recommended*, 596 ciclos;
+  el 08/10 bajó 98 % -> 83 % en ~73 min sin luz, así que un corte de 6-8 h
+  podría apagarla; estimación, no medición). Si se apaga o reinicia,
+  FileVault está encendido y no hay inicio de sesión automático: **nada
+  arranca (bot, buzón, despertador) hasta escribir la contraseña de disco
+  delante de la Mac.** `pmset -g log` solo conserva ~1 semana de historia
+  (el 11/10 empezaba el 04/10), así que conviene mirarlo pronto.
 - **El despertador solo trae, nunca analiza.** Corre con `--sin-ia`, así que
   archiva el texto y no gasta crédito. El análisis es siempre manual desde
   el panel (panel → Supabase → buzón). `correr.sh` hace `git add -A
@@ -345,8 +364,9 @@ Carpeta local: M5 `~/proyectos/despacho-cordoba` · Mac 2015 `~/despacho-cordoba
   claves). Hay una copia suelta en la M5, `~/respaldos/2015/` (700), que **no
   se actualiza sola**. `bot traiding` en sí sí está en el repo privado
   `bot-trading-cripto`.
-- **Pendiente:** buzón y freqtrade bajo launchd con KeepAlive; cerrar la app
-  de Claude en la 2015. **Antes de conectar freqtrade a un exchange real:**
+- **Pendiente:** buzón bajo launchd con KeepAlive; cerrar la app de Claude
+  en la 2015; un aviso si la batería baja de cierto nivel o si el bot lleva
+  minutos sin escribir en su log. **Antes de conectar freqtrade a un exchange real:**
   la 2015 ya no recibe parches de seguridad.
 
 ## El emparejamiento va por significado, no por palabra (19/09/2026)
