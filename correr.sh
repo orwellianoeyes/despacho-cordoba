@@ -35,7 +35,7 @@ if [ "$CONECTADO" -eq 0 ]; then
   exit 1
 fi
 
-git pull --rebase --quiet || echo "Aviso: no pude hacer git pull, sigo igual."
+git pull --rebase --autostash --quiet || echo "Aviso: no pude hacer git pull, sigo igual."
 
 # Motor, con reintentos
 ESTADO=1
