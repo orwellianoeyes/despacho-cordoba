@@ -125,7 +125,7 @@ Base: proyecto `despacho-cordoba` (São Paulo, plan free).
 
 Repo: https://github.com/orwellianoeyes/despacho-cordoba
 App:  https://orwellianoeyes.github.io/despacho-cordoba/
-Carpeta local: ~/despacho-cordoba
+Carpeta local: M5 `~/proyectos/despacho-cordoba` · Mac 2015 `~/despacho-cordoba`
 
 ## Decisiones de diseño importantes (no deshacer sin razón)
 
@@ -162,6 +162,9 @@ Carpeta local: ~/despacho-cordoba
 - **El disparo es MANUAL desde el 17/09/2026, por decisión de Leo.**
   launchd quedó desactivado con `launchctl disable gui/502/com.leo.despacho`.
   Reactivar solo si él lo pide, con `enable` + `bootstrap`.
+  **Actualizado el 11/10/2026:** el despertador se volvió a habilitar, pero
+  en la 2015 y en modo solo traer (`--sin-ia`); no analiza ni gasta crédito.
+  Ver "Dos Macs".
 
   Ojo con el modo de apagarlo, que ya confundió una vez: en agosto Leo
   lo frenó con `bootout` (o desde la interfaz) porque tenía poco
@@ -275,6 +278,39 @@ Carpeta local: ~/despacho-cordoba
   la base es lo que lee el panel. Si la base no contesta, `_a_la_base()`
   avisa fuerte y sigue: perder la subida es recuperable con
   `migrar_a_supabase.py`, perder el despacho del día no.
+
+## Dos Macs (desde el 11/10/2026)
+
+- **M5 (usuario `leonel`) — desarrollo.** El proyecto vive en
+  `~/proyectos/despacho-cordoba`. Acá se edita y se hace commit.
+- **Mac 2015 (macOS 12.7.6, usuario `leonelbur`, `MacBook-Air-de-leo.local`)
+  — servidor 24/7.** El proyecto vive en `~/despacho-cordoba`. Con `pmset`
+  sleep 0 y `disablesleep 1`. Es la "IP hogareña" de la que depende el
+  Boletín (ver el 403 más arriba).
+- Se entra por SSH desde la M5: `ssh mac2015` (llave `id_ed25519_mac2015`,
+  alias en `~/.ssh/config`, con el nombre `.local` y no la IP, que puede
+  cambiar). Ojo: el `.bashrc` de `leonelbur` imprime `line 4: ng: command not
+  found` en cada conexión; es un tipeo suelto, inofensivo, pero ensucia la
+  salida.
+- **Un solo lugar donde se edita el código: la M5.** Se hace commit y push
+  desde acá y la 2015 hace `git pull`. No editar archivos del repo en las
+  dos Macs.
+- **Qué corre en la 2015:** el despertador `com.leo.despacho` (launchd,
+  `correr.sh --sin-ia`, L-V 7:30/9:30/11:30), `buzon.py` desde el 25/09 en
+  una ventana de Terminal (sin launchd), y un freqtrade en dry-run (sin
+  exchange real) que no es de este proyecto.
+- **El despertador solo trae, nunca analiza.** Corre con `--sin-ia`, así que
+  archiva el texto y no gasta crédito. El análisis es siempre manual desde
+  el panel (panel → Supabase → buzón). `correr.sh` hace `git add -A
+  docs/data texto` y pushea lo pendiente al final; el buzón no sube a GitHub.
+  `correr.sh` pasa `"$@"` al motor, por eso el argumento del plist llega.
+- El plist instalado (`~/Library/LaunchAgents/`) y el del repo tienen que
+  decir lo mismo. Para cambiar el instalado: `bootout` + `bootstrap`; y dejar
+  los respaldos fuera de `LaunchAgents`.
+- **Pendiente:** buzón y freqtrade bajo launchd con KeepAlive; ordenar copias
+  viejas en `~` de la 2015; backup nocturno de `~/proyectos` hacia la 2015.
+  **Antes de conectar freqtrade a un exchange real:** la 2015 ya no recibe
+  parches de seguridad.
 
 ## El emparejamiento va por significado, no por palabra (19/09/2026)
 
