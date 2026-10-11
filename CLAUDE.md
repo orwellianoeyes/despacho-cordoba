@@ -290,9 +290,10 @@ Carpeta local: M5 `~/proyectos/despacho-cordoba` · Mac 2015 `~/despacho-cordoba
 - Se entra por SSH desde la M5: `ssh mac2015` (llave `id_ed25519_mac2015`,
   alias en `~/.ssh/config`, con el nombre `.local` y no la IP, que puede
   cambiar). El `.bashrc` de `leonelbur` tenía `source <(ng completion
-  script)` (autocompletado de Angular CLI, que no está instalado) y ensuciaba
-  cada conexión con `ng: command not found`. Comentado el 11/10/2026 (es
-  una sola línea, la 4).
+  script)` (autocompletado de Angular CLI) y ensuciaba cada conexión con
+  `ng: command not found`: el CLI está en `~/node_modules/.bin/ng` (resto de
+  2022), pero fuera del PATH. Comentado el 11/10/2026 (es una sola línea,
+  la 4).
 - **Un solo lugar donde se edita el código: la M5.** Se hace commit y push
   desde acá y la 2015 hace `git pull`. No editar archivos del repo en las
   dos Macs.
@@ -308,10 +309,45 @@ Carpeta local: M5 `~/proyectos/despacho-cordoba` · Mac 2015 `~/despacho-cordoba
 - El plist instalado (`~/Library/LaunchAgents/`) y el del repo tienen que
   decir lo mismo. Para cambiar el instalado: `bootout` + `bootstrap`; y dejar
   los respaldos fuera de `LaunchAgents`.
-- **Pendiente:** buzón y freqtrade bajo launchd con KeepAlive; ordenar copias
-  viejas en `~` de la 2015; backup nocturno de `~/proyectos` hacia la 2015.
-  **Antes de conectar freqtrade a un exchange real:** la 2015 ya no recibe
-  parches de seguridad.
+- **Backup de `~/proyectos` (M5) hacia la 2015, desde el 11/10/2026.**
+  `respaldo/respaldo-proyectos.sh`, disparado por `com.leo.respaldo` (launchd
+  en la M5, todos los días 23:00). Es una carpeta por día en
+  `~/respaldos/m5-proyectos/AAAA-MM-DD/` de la 2015, con enlaces duros contra
+  la anterior (7 días ≈ 180 MB, no 1,3 GB), y un `actual` que apunta al
+  último. Se guardan 7; la rotación solo toca carpetas con nombre de fecha.
+  Probado: enlaces duros, rotación, y corrida bajo launchd (`kickstart`).
+  - **La M5 es un portátil:** si a las 23:00 está dormida, launchd lo corre
+    al despertar. No es "a la hora exacta". Log: `~/Library/Logs/respaldo-
+    proyectos.log`. Si falla, el script intenta una notificación de macOS,
+    pero esa rama NO se probó: la fuente confiable es el log.
+  - **Los `.env` viajan, a propósito** (decidido por Leo): son claves que no
+    existen en otro lado. La carpeta destino es 700 y los `.env` mantienen
+    `600`. No viajan `node_modules`, `.next`, `.venv` ni `__pycache__`.
+  - Es una copia en la **misma casa** y en una Mac sin parches: sirve contra
+    un disco roto o un borrado, no contra robo o incendio. La copia de
+    verdad de casi todo es GitHub.
+  - Para probar sin esperar: `RESPALDO_FECHA=AAAA-MM-DD` y `RESPALDO_GUARDAR=N`.
+    Para sacarlo: `launchctl bootout gui/$(id -u)/com.leo.respaldo` y borrar
+    el plist de `~/Library/LaunchAgents` (el `bootout` solo no alcanza).
+- **Copias sueltas ordenadas (11/10/2026).** En la 2015, lo que ya estaba en
+  GitHub, limpio y sin uso se movió —no se borró— a `~/archivo-viejo/`
+  (`ecommerce prueba`, `kiosko-app`, `proyecto-prueba-microsass`,
+  `tienda-simple-demo`, `pagina insititucional prueba`, `proyectos-blog`).
+  `demodirectivas` (demo Angular de 2024) se borró a pedido de Leo.
+  **Siguen en `~` de la 2015, a propósito:** `despacho-cordoba` y
+  `bot traiding` (en uso), `bot de X`, `bot-de-x-panel`, `app sentiment`,
+  `angular-proyecto`, `filtrador de noticias`, `gomeria-traccion`,
+  `grupo-cumbre-premium` (con o sin cambios sin commitear), y las que no
+  tienen git: `casa-3d-blender`, `paginas de afiliados`, `script m`,
+  `agent-tools`.
+- **Qué NO está en GitHub, solo en la 2015:** `config.json` y
+  `config.dryrun.json` de `bot traiding` (el `.gitignore` los excluye por las
+  claves). Hay una copia suelta en la M5, `~/respaldos/2015/` (700), que **no
+  se actualiza sola**. `bot traiding` en sí sí está en el repo privado
+  `bot-trading-cripto`.
+- **Pendiente:** buzón y freqtrade bajo launchd con KeepAlive; cerrar la app
+  de Claude en la 2015. **Antes de conectar freqtrade a un exchange real:**
+  la 2015 ya no recibe parches de seguridad.
 
 ## El emparejamiento va por significado, no por palabra (19/09/2026)
 
