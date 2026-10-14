@@ -381,8 +381,9 @@ Carpeta local: M5 `~/proyectos/despacho-cordoba` · Mac 2015 `~/despacho-cordoba
   volvió la luz"). Probar sin enviar: `vigilante.sh --probar` (con
   `VIG_DIR` y `VIG_LUZ/VIG_PCT/VIG_BOT/VIG_BUZON` para simular). Estado en
   `~/.vigilante/`, log en `~/Library/Logs/vigilante.log`.
-- **Error conocido, sin arreglar (hallado el 11/10/2026):** `datos.
-  destrabar_corridas()` falla SIEMPRE con `400 · 22007 invalid input syntax
+- **Error de `destrabar_corridas()`, hallado el 11/10/2026 y ARREGLADO el
+  14/10/2026** (`strftime("%Y-%m-%dT%H:%M:%SZ")`). Hasta ahí `datos.
+  destrabar_corridas()` fallaba SIEMPRE con `400 · 22007 invalid input syntax
   for type timestamp` porque pega `...+00:00` sin codificar en la URL y el `+`
   llega como espacio. El buzón lo muestra al arrancar como `No pude revisar
   corridas colgadas: RuntimeError`. Consecuencia: la recuperación de corridas

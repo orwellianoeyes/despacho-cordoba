@@ -312,8 +312,12 @@ def destrabar_corridas(minutos: int = 10) -> int:
     dejó tirado una instancia anterior, no pisarle el trabajo a una que
     está corriendo ahora. Diez minutos es holgado — la corrida más lenta
     medida tardó menos de tres."""
+    # Con "Z" y no con isoformat(): esto va en la URL, y el "+00:00" de
+    # isoformat() llegaba como espacio ("+" es espacio en una URL). PostgREST
+    # respondía 400 · 22007 y la recuperación no anduvo nunca hasta el
+    # 14/10/2026. En los cuerpos JSON (_ahora) el "+" no molesta.
     limite = (dt.datetime.now(dt.timezone.utc)
-              - dt.timedelta(minutes=minutos)).isoformat()
+              - dt.timedelta(minutes=minutos)).strftime("%Y-%m-%dT%H:%M:%SZ")
     filas = _sb("PATCH", f"corridas?estado=eq.tomada&tomada_en=lt.{limite}",
                 prefer="return=representation",
                 json={"estado": "pendiente", "tomada_en": None})
